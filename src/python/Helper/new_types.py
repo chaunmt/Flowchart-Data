@@ -1,31 +1,40 @@
 from typing import List, Union
 
 class CourseShell:
-  def __init__(self, code: str, subject: str, id: str):
-    self.code = code
-    self.subject = subject
-    self.id = id
+  def __init__(self, uid_: str, code_: str, subject_: str, number_: str):
+    self.uid = uid_
+    self.code = code_
+    self.subject = subject_
+    self.number = number_
 
-class PrereqList(List[Union['PrereqFormat', CourseShell]]):
+class PrereqCourses:
   """
-  PrereqList can be either
-  a list of PrereqFormat or a list of CourseShell
+  This class is going to be a union of these type formats:
+  CourseShell,
+  List[CourseShell],
+  { 'and' : List[CourseShell] },
+  { 'or' : List[CourseShell] }
   """
-  pass
+  def __init__(self, courses_: Union[List['PrereqCourses'], dict, CourseShell]):
+    self = courses_
 
-class PrereqFormat:
-  def __init__(self, and_: PrereqList = None, or_: PrereqList = None):
-    self.and_ = and_ or []
-    self.or_ = or_ or []
+class PrereqList:
+  def __init__(self, prereqList_: List[PrereqCourses]):
+    self = prereqList_
 
 class Course(CourseShell):
+  """
+  Course type contains all information about a course
+  It includes CourseShell with additional fields
+  """
   def __init__(
-      self, code: str, subject: str, id: str,
-      title: str, info: str, prereq: PrereqFormat):
+      self, uid_: str, code_: str, subject_: str, number_: str,
+      name_: str, longname_: str, info_: str, prereq_: PrereqFormat):
     # Initialize CourseShell
-    super().__init__(code, subject, id)
+    super().__init__(uid_, code_, subject_, number_)
 
     # Intialize Course
-    self.title = title
-    self.info = info
-    self.prereq = prereq
+    self.name = name_
+    self.longname = longname_
+    self.info = info_
+    self.prereq = prereq_
