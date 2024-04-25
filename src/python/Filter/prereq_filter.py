@@ -2,7 +2,7 @@ from filter import Filter
 from Helper.new_types import *
 
 # Define the return type of these filters
-T = PrereqFormat
+T = PrereqList
 
 class PrereqFilter(Filter):
   """
