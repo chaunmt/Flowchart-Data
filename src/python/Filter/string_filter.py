@@ -9,7 +9,7 @@ T = str
 class StringFilterSpace(Filter):
   """
   Delete all spaces in string component
-  and return the new string
+  and return the new string.
   """
   def operation(self, item: T) -> T:
     return item.replace(' ', '')
@@ -17,7 +17,7 @@ class StringFilterSpace(Filter):
 class StringFilterSigns(Filter):
   """
   Replace certain signs with corresponding words
-  and return the new string
+  and return the new string.
   """
   def operation(self, item: T) -> T:
     item = item.replace(", ", " and ")
@@ -28,7 +28,7 @@ class StringFilterSigns(Filter):
 class StringFilterRedundancy(Filter):
   """
   Delete all redundant substrings
-  and return the new string
+  and return the new string.
   """
   def operation(self, item: T) -> T:
     item = StringSplitter.at_last_type_occurrence(item, 'number')[0]

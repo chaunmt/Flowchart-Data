@@ -6,7 +6,7 @@ T = PrereqList
 
 class PrereqFilter(Filter):
   """
-  Filter the prereq component and return its new result
+  Filter the prereq component and return its new result.
   """
 
   # def operation(self, item: T) -> T:

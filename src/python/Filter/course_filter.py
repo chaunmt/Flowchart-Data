@@ -6,7 +6,7 @@ T = Course
 
 class CourseFilter(Filter):
   """
-  Filter the course component and return its new result
+  Filter the course component and return its new result.
   """
 
   # def operation(self, item: T) -> T:
