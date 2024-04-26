@@ -22,5 +22,8 @@ Course Flowchart's Data Server
 ## 3. PostgreSQL
 - ...
 
-## 4. Client
-- ...
+## 4. Test
+- Run:
+  ```
+  python3 -m Test.test
+  ```

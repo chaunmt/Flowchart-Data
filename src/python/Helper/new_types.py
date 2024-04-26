@@ -29,7 +29,7 @@ class Course(CourseShell):
   """
   def __init__(
       self, uid_: str, code_: str, subject_: str, number_: str,
-      name_: str, longname_: str, info_: str, prereq_: PrereqFormat):
+      name_: str, longname_: str, info_: str, prereq_: PrereqList):
     # Initialize CourseShell
     super().__init__(uid_, code_, subject_, number_)
 
