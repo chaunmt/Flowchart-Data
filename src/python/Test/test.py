@@ -108,6 +108,13 @@ class TestCourse(unittest.TestCase):
   def tearDown(self):
     pass
 
+class TestPrereq(unittest.TestCase):
+  def setUp(self):
+    pass
+
+  def tearDown(self):
+    pass
+
 class TestFilter(unittest.TestCase):
   """
   Test module filter.
@@ -115,10 +122,20 @@ class TestFilter(unittest.TestCase):
   # Class Filter is tested with its children classes
   pass
 
-class TestNewTypes(TestCourse, TestString):
+class TestNewTypes(TestString, TestCourse, TestPrereq):
   """
   Test module new_types
   """
+  def setUp(self):
+    TestString.setUp(self)
+    TestCourse.setUp(self)
+    TestPrereq.setUp(self)
+
+  def tearDown(self):
+    TestString.tearDown(self)
+    TestCourse.tearDown(self)
+    TestPrereq.tearDown(self)
+
   def test_course_shell(self):
     for index, shell in enumerate(self.course_shells):
       assert_eq(shell.uid, self.course_shell_data[index]['uid_'])
