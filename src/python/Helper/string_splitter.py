@@ -26,9 +26,9 @@ class StringSplitter:
     """
     Split a string into a list of two members
     at the first occurrence of a character of type split_type
-    with split_type can only be either 'word' or 'num'
+    with split_type can only be either 'letter' or 'number'
     """
-    if split_type == 'word':
+    if split_type == 'letter':
       match = re.search(r"[A-Za-z]", s)
     else:
       match = re.search(r"\d", s)
@@ -48,9 +48,9 @@ class StringSplitter:
     """
     Split a string into a list of two members
     at the last occurrence of a character of type split_type
-    with split_type can only be either 'word' or 'num'
+    with split_type can only be either 'letter' or 'number'
     """
-    if split_type == 'word':
+    if split_type == 'letter':
       matches = list(re.finditer(r"[A-Za-z]", s))
     else:
       matches = list(re.finditer(r"\d", s))
@@ -84,4 +84,4 @@ class StringSplitter:
     """
     Split a string of Course's id into a list of [number, suffix]
     """
-    return cls.at_first_type_occurrence(s, 'word')
+    return cls.at_first_type_occurrence(s, 'letter')

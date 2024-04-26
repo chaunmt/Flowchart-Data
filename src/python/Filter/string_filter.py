@@ -31,5 +31,5 @@ class StringFilterRedundancy(Filter):
   and return the new string
   """
   def operation(self, item: T) -> T:
-    item = StringSplitter.at_last_type_occurrence(item, 'num')[0]
+    item = StringSplitter.at_last_type_occurrence(item, 'number')[0]
     return item

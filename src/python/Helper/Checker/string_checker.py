@@ -11,11 +11,11 @@ class StringChecker:
     return any(char.isdigit() for char in s)
 
   @staticmethod
-  def has_word(s: str, word: str) -> bool:
+  def has_letter(s: str) -> bool:
     """
-    Check whether a string contains a specific word
+    Check whether a string contains a any letter
     """
-    return word in s
+    return any(char.isalpha() for char in s)
 
   @staticmethod
   def includes(s: str, substring: str) -> bool:
