@@ -45,3 +45,4 @@ Course Flowchart's Data Server
   ```
   python3 -m Test.test.module_name.method_name
   ```
+- For more information, check: [unnittest documentation](https://docs.python.org/3/library/unittest.html)
