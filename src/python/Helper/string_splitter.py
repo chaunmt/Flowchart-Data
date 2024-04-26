@@ -1,9 +1,8 @@
 import re
-from typing import Array
 
 class StringSplitter:
   """
-  A class to split a string into an array of strings
+  A class to split a string into a list of strings
   """
 
   @staticmethod
@@ -15,7 +14,7 @@ class StringSplitter:
     return [s[:index + 1], s[index + 1:]]
 
   @staticmethod
-  def at_substring(s: str, substring: str) -> Array[str]:
+  def at_substring(s: str, substring: str) -> list:
     """
     Split string at the specified substring and
     return the result array without this substring
@@ -23,9 +22,9 @@ class StringSplitter:
     return s.split(substring)
 
   @classmethod
-  def at_first_type_occurrence(cls, s, split_type) -> Array[str]:
+  def at_first_type_occurrence(cls, s: str, split_type: str) -> list:
     """
-    Split a string into an array of two members
+    Split a string into a list of two members
     at the first occurrence of a character of type split_type
     with split_type can only be either 'word' or 'num'
     """
@@ -45,9 +44,9 @@ class StringSplitter:
     return cls.at_index(s, index)
   
   @classmethod
-  def at_last_type_occurrence(cls, s, split_type) -> Array[str]:
+  def at_last_type_occurrence(cls, s: str, split_type: str) -> list:
     """
-    Split a string into an array of two members
+    Split a string into a list of two members
     at the last occurrence of a character of type split_type
     with split_type can only be either 'word' or 'num'
     """
@@ -68,9 +67,9 @@ class StringSplitter:
     return cls.at_index(s, index)
 
   @classmethod
-  def code_into_subj_id(cls, s) -> Array[str]:
+  def code_into_subj_id(cls, s: str) -> list:
     """
-    Split a string of Course's code into an array of [subject, id]
+    Split a string of Course's code into a list of [subject, id]
     """
     arr = cls.at_first_type_occurrence(s, 'number')
 
@@ -81,8 +80,8 @@ class StringSplitter:
     return arr
 
   @classmethod
-  def id_into_num_suffix(cls, s) -> Array[str]:
+  def id_into_num_suffix(cls, s: str) -> list:
     """
-    Split a string of Course's id into an array of [number, suffix]
+    Split a string of Course's id into a list of [number, suffix]
     """
     return cls.at_first_type_occurrence(s, 'word')
