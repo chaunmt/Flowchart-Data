@@ -1,6 +1,6 @@
 class StringChecker:
   """
-  A class to perform string check
+  A class to perform checks on String type object
   """
 
   @staticmethod

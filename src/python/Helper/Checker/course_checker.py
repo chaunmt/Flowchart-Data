@@ -2,7 +2,7 @@ from Helper.new_types import Course, CourseShell
 
 class CourseChecker:
   """
-  A class to perform Course check
+  A class to perform checks on Course type object
   """
   @staticmethod
   def is_equal(a: Course, b: Course) -> bool:
