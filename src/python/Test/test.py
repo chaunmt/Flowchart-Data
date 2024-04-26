@@ -1,5 +1,14 @@
 import unittest
+
 from Helper.new_types import *
+from Helper.string_splitter import *
+from Helper.Checker.string_checker import *
+from Helper.Checker.course_checker import *
+
+from Filter.filter import *
+from Filter.string_filter import *
+from Filter.course_filter import *
+from Filter.prereq_filter import *
 
 class TestNewTypes(unittest.TestCase):
   def test_course_shell(self):

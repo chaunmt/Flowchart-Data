@@ -1,6 +1,6 @@
 import re
 
-from filter import Filter
+from Filter.filter import Filter
 from Helper.string_splitter import StringSplitter
 
 # Define the return type of these filters

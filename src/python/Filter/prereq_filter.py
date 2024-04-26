@@ -1,4 +1,4 @@
-from filter import Filter
+from Filter.filter import Filter
 from Helper.new_types import *
 
 # Define the return type of these filters
