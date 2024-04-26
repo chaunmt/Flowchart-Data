@@ -1,6 +1,12 @@
 # Course-Flowchart-Data
 Course Flowchart's Data Server
 
+- [Course-Flowchart-Data](#course-flowchart-data)
+  - [1. Filter](#1-filter)
+  - [2. Helper](#2-helper)
+  - [3. PostgreSQL](#3-postgresql)
+  - [4. Test](#4-test)
+
 ## 1. Filter
 - Applying Decorator Design Pattern to make sure the object comes in and out as the same type.
 - Folder's structure:
@@ -23,7 +29,19 @@ Course Flowchart's Data Server
 - ...
 
 ## 4. Test
-- Run:
+- Run from src/python/.
+- Test all cases in the module (either work):
   ```
   python3 -m Test.test
+  ```
+  ```
+  python3 -m unittest Test.test
+  ```
+- Test a single class:
+  ```
+  python3 -m Test.test.module_name
+  ```
+- Test a single method:
+  ```
+  python3 -m Test.test.module_name.method_name
   ```
