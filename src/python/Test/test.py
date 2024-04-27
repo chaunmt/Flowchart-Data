@@ -37,14 +37,20 @@ class TestString(unittest.TestCase):
   Parent class to set up and tear down all child classes.
   """
   def setUp(self):
-    self.s1 = "Hello, world!"
-    self.s2 = "Python  is   fun!"
-    self.s3 = "12!3 !4.5"
-    self.s4 = "C?S1!0^1@"
-    self.s5 = "This ! is ? a ^ test."
-    self.s6 = "!@#$%^&*()"
-    self.s7 = ""
-    self.s8 = "   1   "
+    self.s1 = 'Hello, world!'
+    self.s2 = 'Python  is   fun!'
+    self.s3 = '12!3 !4.5'
+    self.s4 = 'C?S1!0^1@'
+    self.s5 = 'This ! is ? a ^ test.'
+    self.s6 = '!@#$%^&*()'
+    self.s7 = ''
+    self.s8 = '   1   '
+    self.s9 = '1239WAD12'
+    self.s10 = 'CSCI 3081'
+    self.s11 = 'CSCI 3081W'
+    self.s12 = 'CSCI3081W'
+    self.s13 = None
+    self.s14 = 'CSCI 4041/3081,3081W/2041&2021'
     
   def tearDown(self):
     pass
@@ -193,7 +199,7 @@ class TestStringSplitter(TestString):
     # Test splitting at the first letter occurrence
     assert_eq(
       StringSplitter.at_first_type_occurrence(self.s1, 'letter'),
-      ['H', 'ello, world!']
+      ['', 'Hello, world!']
     )
     assert_eq(
       StringSplitter.at_first_type_occurrence(self.s3, 'letter'),
@@ -201,13 +207,13 @@ class TestStringSplitter(TestString):
     )
     assert_eq(
       StringSplitter.at_first_type_occurrence(self.s4, 'letter'),
-      ['C', '?S1!0^1@']
+      ['', 'C?S1!0^1@']
     )
 
     # Test splitting at the first number occurrence
     assert_eq(
       StringSplitter.at_first_type_occurrence(self.s3, 'number'),
-      ['1', '2!3 !4.5']
+      ['', '12!3 !4.5']
     )
     assert_eq(
       StringSplitter.at_first_type_occurrence(self.s1, 'number'),
@@ -219,7 +225,7 @@ class TestStringSplitter(TestString):
     )
     assert_eq(
       StringSplitter.at_first_type_occurrence(self.s4, 'number'),
-      ['C?S1', '!0^1@']
+      ['C?S', '1!0^1@']
     )
 
   def test_at_last_type_occurrence(self):
@@ -261,13 +267,73 @@ class TestStringSplitter(TestString):
       ['C?S1!0^1', '@']
     )
 
-  def test_code_into_subj_id(self):
-    """Need to change type name"""
-    pass
+  def test_code_into_subj_num(self):
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s1),
+      [None, None]
+    )
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s3),
+      [None, None]
+    )
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s7),
+      [None, None]
+    )
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s8),
+      [None, '1']
+    )
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s9),
+      [None, '1239WAD12']
+    )
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s10),
+      ['CSCI', '3081']
+    )
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s11),
+      ['CSCI', '3081W']
+    )
+    assert_eq(
+      StringSplitter.code_into_subj_num(self.s12),
+      ['CSCI', '3081W']
+    )
 
-  def test_id_into_num_suffix(self):
-    """Need to change type name"""
-    pass
+  def test_num_into_digit_suffix(self):
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s5),
+      [None, None]
+    )
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s7),
+      [None, None]
+    )
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s8),
+      ['1', None]
+    )
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s9),
+      ['1239WAD12', None]
+    )
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s10),
+      ['CSCI3081', None]
+    )
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s11),
+      ['CSCI3081', 'W']
+    )
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s12),
+      ['CSCI3081', 'W']
+    )
+    assert_eq(
+      StringSplitter.num_into_digit_suffix(self.s12),
+      ['CSCI3081', 'W']
+    )
 
 class TestStringChecker(TestString):
   """
@@ -290,13 +356,13 @@ class TestStringChecker(TestString):
     assert StringChecker.has_letter(self.s7) == False
 
   def test_includes(self):
-    assert StringChecker.includes(self.s1, "Hello") == True
-    assert StringChecker.includes(self.s3, "123") == False
-    assert StringChecker.includes(self.s4, "!0") == True
-    assert StringChecker.includes(self.s6, "!@#$%^&*()") == True
-    assert StringChecker.includes(self.s6, "!@#$%^&*() ") == False
-    assert StringChecker.includes(self.s7, "") == True
-    assert StringChecker.includes(self.s8, "") == True
+    assert StringChecker.includes(self.s1, 'Hello') == True
+    assert StringChecker.includes(self.s3, '123') == False
+    assert StringChecker.includes(self.s4, '!0') == True
+    assert StringChecker.includes(self.s6, '!@#$%^&*()') == True
+    assert StringChecker.includes(self.s6, '!@#$%^&*() ') == False
+    assert StringChecker.includes(self.s7, '') == True
+    assert StringChecker.includes(self.s8, '') == True
 
 class TestCourseChecker(TestCourse):
   """
@@ -320,18 +386,96 @@ class TestStringFilter(TestString):
   """
   Test cases for module string_filter
   """
-  pass
-
   def test_string_filter_space(self):
-    pass
+    # Test for allowed type
+    assert_eq(
+      StringFilterSpace(self.s1).process(),
+      'Hello,world!'
+    )
+    assert_eq(
+      StringFilterSpace(self.s2).process(),
+      'Pythonisfun!'
+    )
+    assert_eq(
+      StringFilterSpace(self.s7).process(),
+      ''
+    )
+    assert_eq(
+      StringFilterSpace(self.s8).process(),
+      '1'
+    )
+    assert_eq(
+      StringFilterSpace(self.s9).process(),
+      '1239WAD12'
+    )
 
-  @unittest.skip('too much assumption')
+    # Test for disallowed type
+    self.assertRaises(
+      TypeError,
+      StringFilterSpace, 12
+    )
+    self.assertRaises(
+      TypeError,
+      StringFilterSpace, None
+    )
+
   def test_string_filter_signs(self):
-    pass
+    # Test for allowed type
+    assert_eq(
+      StringFilterSigns(self.s1).process(),
+      'Hello and  world!'
+    )
+    assert_eq(
+      StringFilterSigns(self.s6).process(),
+      '!@#$%^ and *()'
+    )
+    assert_eq(
+      StringFilterSigns(self.s14).process(),
+      'CSCI 4041 or 3081 and 3081W or 2041 and 2021'
+    )
 
-  @unittest.skip('too much assumption')
+    # Test for disallowed type
+    self.assertRaises(
+      TypeError,
+      StringFilterSigns, 12
+    )
+    self.assertRaises(
+      TypeError,
+      StringFilterSigns, None
+    )
+
   def test_string_filter_redundancy(self):
-    pass
+    # Test for allowed type
+    assert_eq(
+      StringFilterRedundancy(self.s2).process(),
+      'Python  is   fun!'
+    )
+    assert_eq(
+      StringFilterRedundancy(self.s3).process(),
+      '12!3 !4.5'
+    )
+    assert_eq(
+      StringFilterRedundancy(self.s4).process(),
+      'C?S1!0^1'
+    )
+    assert_eq(
+      StringFilterRedundancy(self.s7).process(),
+      ''
+    )
+    assert_eq(
+      StringFilterRedundancy(self.s8).process(),
+      '   1'
+    )
+
+    # Test for disallowed type
+    self.assertRaises(
+      TypeError,
+      StringFilterRedundancy, 12
+    )
+    self.assertRaises(
+      TypeError,
+      StringFilterRedundancy, None
+    )
 
 class TestCourseFilter(TestCourse):
   """
