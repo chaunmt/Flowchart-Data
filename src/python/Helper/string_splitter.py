@@ -1,4 +1,7 @@
 import re
+from Helper.Checker.string_checker import *
+from Filter.string_filter import StringFilterSpace
+from Filter.filter import *
 
 class StringSplitter:
   """
@@ -28,6 +31,7 @@ class StringSplitter:
     """
     Split a string into a list of two members
     at the first occurrence of a character of type split_type.\n
+    The first string will includes the character at splitted index.\n
     split_type can only be either 'letter' or 'number'.
     """
     if split_type == 'letter':
@@ -42,7 +46,7 @@ class StringSplitter:
       return [s, None]
 
     # Get the index of the first match
-    index = match.start()
+    index = match.start() - 1
 
     # Split the list into two halves at index
     return cls.at_index(s, index)
@@ -52,6 +56,7 @@ class StringSplitter:
     """
     Split a string into a list of two members
     at the last occurrence of a character of type split_type.\n
+    The second string will includes the character at splitted index.\n
     split_type can only be either 'letter' or 'number'.
     """
     if split_type == 'letter':
@@ -79,19 +84,45 @@ class StringSplitter:
   @classmethod
   def code_into_subj_num(cls, s: str) -> list:
     """
-    Split a string of Course's code into a list of [subject, id].
+    Split a string of Course's code into a list of [subject, number].
     """
+    # Remove all spaces
+    s = StringFilterSpace(s)
+    s = s.process()
+
+    if (
+      StringChecker.has_signs(s) or   # code does not have sign
+      StringChecker.is_empty(s) or    # code can't be empty
+      not StringChecker.has_number(s) # code has to have number
+    ):
+      return [None, None]
+    
     arr = cls.at_first_type_occurrence(s, 'number')
 
-    # If the string doesn't contain a number, it is not a Course's code
-    if arr[1] is None:
-      return [None, None]
+    if StringChecker.is_empty(arr[0]):
+      arr[0] = None
     
     return arr
 
   @classmethod
   def num_into_digit_suffix(cls, s: str) -> list:
     """
-    Split a string of Course's number into a list of [number, suffix].
+    Split a string of Course's number into a list of [digit, suffix].
     """
-    return cls.at_first_type_occurrence(s, 'letter')
+    # Remove all spaces
+    s = StringFilterSpace(s)
+    s = s.process()
+
+    if (
+      StringChecker.has_signs(s) or   # code does not have sign
+      StringChecker.is_empty(s) or    # code can't be empty
+      not StringChecker.has_number(s) # code has to have number
+    ):
+      return [None, None]
+    
+    arr = cls.at_last_type_occurrence(s, 'number')
+
+    if StringChecker.is_empty(arr[1]):
+      arr[1] = None
+
+    return arr
