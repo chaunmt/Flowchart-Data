@@ -2,6 +2,15 @@ class StringChecker:
   """
   Perform checks on String type object.
   """
+  @staticmethod
+  def is_empty(s: str) -> bool:
+    """
+    Check whether a string is empty.
+    """
+    if s is None:
+      return True
+
+    return not s.strip()
 
   @staticmethod
   def has_number(s: str) -> bool:
@@ -16,6 +25,16 @@ class StringChecker:
     Check whether a string contains a any letter.
     """
     return any(char.isalpha() for char in s)
+  
+  @staticmethod
+  def has_signs(s: str) -> bool:
+    """
+    Check whether a string contains a any sign.
+    """
+    return any(
+      not char.isalnum() and
+      not char.isspace() for char in s
+    )
 
   @staticmethod
   def includes(s: str, substring: str) -> bool:
