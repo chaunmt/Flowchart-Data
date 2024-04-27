@@ -6,25 +6,31 @@ class Filter:
   """
   The base Filter class defines the wrapping interface for other filters.
   """
-
-  # The component to be wrapped
-  _component = None
-
-  def __init__(self, component: T) -> None:
+  allowed_type = T
+  
+  def __init__(self, item: T) -> None:
     """
-    Initialize the component to be wrapped.
+    Initialize the item to be wrapped.
     """
-    self._component = component
+    self._item = self.validate(item)
 
   @property
-  def component(self) -> T:
+  def item(self) -> T:
     """
-    The property object of the private variable _component.
+    The property object of the private variable _item.
     """
-    return self._component
+    return self._item
 
-  def operation(self, item: T) -> T:
+  def validate(self, item: T) -> T:
     """
-    Filter _component with an operation and return its new value.
+    Validate the type of the item.
     """
-    return self._component.operation()
+    if not isinstance(item, self.allowed_type):
+      raise TypeError(f"Item must be of type {self.allowed_type.__name__}")
+    return item
+
+  def process(self) -> T:
+    """
+    Filter _item and return its new value.
+    """
+    return self._item
