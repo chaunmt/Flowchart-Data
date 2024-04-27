@@ -1,7 +1,9 @@
 """
-This file contains all testcases for this project.
-- def setUp(self) is automatically called before any test of its class is run.
-- def tearDown(self) is automatically called after any test of its class is run.
+This file contains all testcases for this project.\n
+- def setUp(self) is automatically called
+  before any test of its class is run.\n
+- def tearDown(self) is automatically called
+  after any test of its class is run.
 """
 import unittest
 
@@ -85,31 +87,46 @@ class TestCourse(unittest.TestCase):
       {
         'name_': 'Introduction to Computer Science',
         'longname_': 'CS 101',
-        'info_': 'Introductory course covering basic concepts in computer science.',
+        'info_': (
+          'Introductory course coveringbasic concepts in computer science.'
+        ),
         'prereq_': None
       },
       {
         'name_': 'Introduction to Computer Science',
         'longname_': 'CS 101',
-        'info_': 'Introductory course covering basic concepts in computer science.',
+        'info_': (
+          'Introductory course covering basic concepts in computer science.'
+        ),
         'prereq_': None
       },
       {
         'name_': 'Data Structures',
         'longname_': 'CS 102',
-        'info_': 'A course focusing on data structures and algorithms.',
+        'info_': (
+          'A course focusing on data structures and algorithms.'
+        ),
         'prereq_': None
       }
     ]
 
     # Merge course_shell_data with additional attributes for each course
-    self.course_data = merge_lists(self.course_shell_data, self.additional_data)
+    self.course_data = merge_lists(
+      self.course_shell_data,
+      self.additional_data
+    )
 
     # Initialize CourseShell objects
-    self.course_shells = [CourseShell(**data) for data in self.course_shell_data]
+    self.course_shells = [
+      CourseShell(**data)
+      for data in self.course_shell_data
+    ]
 
     # Initialize Course objects
-    self.courses = [Course(**data) for data in self.course_data]
+    self.courses = [
+      Course(**data)
+      for data in self.course_data
+    ]
 
   def tearDown(self):
     pass
@@ -144,21 +161,57 @@ class TestNewTypes(TestString, TestCourse, TestPrereq):
 
   def test_course_shell(self):
     for index, shell in enumerate(self.course_shells):
-      assert_eq(shell.uid, self.course_shell_data[index]['uid_'])
-      assert_eq(shell.code, self.course_shell_data[index]['code_'])
-      assert_eq(shell.subject, self.course_shell_data[index]['subject_'])
-      assert_eq(shell.number, self.course_shell_data[index]['number_'])
+      assert_eq(
+        shell.uid,
+        self.course_shell_data[index]['uid_']
+      )
+      assert_eq(
+        shell.code,
+        self.course_shell_data[index]['code_']
+      )
+      assert_eq(
+        shell.subject,
+        self.course_shell_data[index]['subject_']
+      )
+      assert_eq(
+        shell.number,
+        self.course_shell_data[index]['number_']
+      )
 
   def test_course(self):
     for index, course in enumerate(self.courses):
-      assert_eq(course.uid, self.course_data[index]['uid_'])
-      assert_eq(course.code, self.course_data[index]['code_'])
-      assert_eq(course.subject, self.course_data[index]['subject_'])
-      assert_eq(course.number, self.course_data[index]['number_'])
-      assert_eq(course.name, self.course_data[index]['name_'])
-      assert_eq(course.longname, self.course_data[index]['longname_'])
-      assert_eq(course.info, self.course_data[index]['info_'])
-      assert_eq(course.prereq, self.course_data[index]['prereq_'])
+      assert_eq(
+        course.uid,
+        self.course_data[index]['uid_']
+      )
+      assert_eq(
+        course.code,
+        self.course_data[index]['code_']
+      )
+      assert_eq(
+        course.subject,
+        self.course_data[index]['subject_']
+      )
+      assert_eq(
+        course.number,
+        self.course_data[index]['number_']
+      )
+      assert_eq(
+        course.name,
+        self.course_data[index]['name_']
+      )
+      assert_eq(
+        course.longname,
+        self.course_data[index]['longname_']
+      )
+      assert_eq(
+        course.info,
+        self.course_data[index]['info_']
+      )
+      assert_eq(
+        course.prereq,
+        self.course_data[index]['prereq_']
+      )
 
   def test_prereq_courses(self):
     pass
@@ -171,23 +224,68 @@ class TestStringSplitter(TestString):
   Test module string_splitter.
   """
   def test_at_index(self):
-    assert_eq(StringSplitter.at_index(self.s1, 5), ['Hello,', ' world!'])
-    assert_eq(StringSplitter.at_index(self.s1, 7), ['Hello, w', 'orld!'])
-    assert_eq(StringSplitter.at_index(self.s2, 11), ['Python  is  ', ' fun!'])
-    assert_eq(StringSplitter.at_index(self.s3, 3), ['12!3', ' !4.5'])
-    assert_eq(StringSplitter.at_index(self.s3, 5), ['12!3 !', '4.5'])
-    assert_eq(StringSplitter.at_index(self.s6, 3), ['!@#$', '%^&*()'])
+    assert_eq(
+      StringSplitter.at_index(self.s1, 5),
+      ['Hello,', ' world!']
+    )
+    assert_eq(
+      StringSplitter.at_index(self.s1, 7),
+      ['Hello, w', 'orld!']
+    )
+    assert_eq(
+      StringSplitter.at_index(self.s2, 11),
+      ['Python  is  ', ' fun!']
+    )
+    assert_eq(
+      StringSplitter.at_index(self.s3, 3),
+      ['12!3', ' !4.5']
+    )
+    assert_eq(
+      StringSplitter.at_index(self.s3, 5),
+      ['12!3 !', '4.5']
+    )
+    assert_eq(
+      StringSplitter.at_index(self.s6, 3),
+      ['!@#$', '%^&*()']
+    )
 
   def test_at_substring(self):
-    assert_eq(StringSplitter.at_substring(self.s1, ','), ['Hello', ' world!'])
-    assert_eq(StringSplitter.at_substring(self.s1, 'world'), ['Hello, ', '!'])
-    assert_eq(StringSplitter.at_substring(self.s2, ' '), ['Python', 'is', 'fun!'])
-    assert_eq(StringSplitter.at_substring(self.s2, '  '), ['Python', 'is', ' fun!'])
-    assert_eq(StringSplitter.at_substring(self.s3, '!'), ['12', '3 ', '4.5'])
-    assert_eq(StringSplitter.at_substring(self.s3, '12!'), ['3 !4.5'])
-    assert_eq(StringSplitter.at_substring(self.s4, '?S1'), ['C', '!0^1@'])
-    assert_eq(StringSplitter.at_substring(self.s5, '^'), ['This ! is ? a ', ' test.'])
-    assert_eq(StringSplitter.at_substring(self.s6, '*'), ['!@#$%^&', '()'])
+    assert_eq(
+      StringSplitter.at_substring(self.s1, ','),
+      ['Hello', ' world!']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s1, 'world'),
+      ['Hello, ', '!']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s2, ' '),
+      ['Python', 'is', 'fun!']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s2, '  '),
+      ['Python', 'is', ' fun!']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s3, '!'),
+      ['12', '3 ', '4.5']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s3, '12!'),
+      ['3 !4.5']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s4, '?S1'),
+      ['C', '!0^1@']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s5, '^'),
+      ['This ! is ? a ', ' test.']
+    )
+    assert_eq(
+      StringSplitter.at_substring(self.s6, '*'),
+      ['!@#$%^&', '()']
+    )
 
   def test_at_first_type_occurrence(self):
     # Test wrong split_type
@@ -375,12 +473,16 @@ class TestCourseChecker(TestCourse):
     assert CourseChecker.is_equal(self.courses[0], self.courses[2]) == False
 
     # Test for CourseShell type
-    assert CourseChecker.is_equal(self.course_shells[0], self.course_shells[0]) == True
-    assert CourseChecker.is_equal(self.course_shells[0], self.course_shells[1]) == False
-    assert CourseChecker.is_equal(self.course_shells[0], self.course_shells[2]) == False
+    assert CourseChecker.is_equal(
+      self.course_shells[0], self.course_shells[0]) == True
+    assert CourseChecker.is_equal(
+      self.course_shells[0], self.course_shells[1]) == False
+    assert CourseChecker.is_equal(
+      self.course_shells[0], self.course_shells[2]) == False
 
     # Test for objects of different types
-    assert CourseChecker.is_equal(self.courses[0], self.course_shells[0]) == False
+    assert CourseChecker.is_equal(
+      self.courses[0], self.course_shells[0]) == False
 
 class TestStringFilter(TestString):
   """
