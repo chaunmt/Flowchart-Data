@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "808801",
+    "code": "CLA1001H",
+    "subject": "CLA",
+    "number": "1001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "808802",
+    "code": "CLA1002H",
+    "subject": "CLA",
+    "number": "1002",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

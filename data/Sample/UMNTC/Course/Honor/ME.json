@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "015455",
+    "code": "ME4081H",
+    "subject": "ME",
+    "number": "4081",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "015457",
+    "code": "ME4082H",
+    "subject": "ME",
+    "number": "4082",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

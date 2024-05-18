@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "000040",
+    "code": "AST1011H",
+    "subject": "AST",
+    "number": "1011",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "000054",
+    "code": "AST4299H",
+    "subject": "AST",
+    "number": "4299",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

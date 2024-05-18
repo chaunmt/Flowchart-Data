@@ -1,0 +1,66 @@
+[
+  {
+    "uid": "811437",
+    "code": "BA2005H",
+    "subject": "BA",
+    "number": "2005",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "797353",
+    "code": "BA3200H",
+    "subject": "BA",
+    "number": "3200",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "791976",
+    "code": "BA3701H",
+    "subject": "BA",
+    "number": "3701",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "788177",
+    "code": "BA3990H",
+    "subject": "BA",
+    "number": "3990",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "792613",
+    "code": "BA4000H",
+    "subject": "BA",
+    "number": "4000",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "802524",
+    "code": "BA4991H",
+    "subject": "BA",
+    "number": "4991",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "802523",
+    "code": "BA4992V",
+    "subject": "BA",
+    "number": "4992",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "803714",
+    "code": "BA4994H",
+    "subject": "BA",
+    "number": "4994",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

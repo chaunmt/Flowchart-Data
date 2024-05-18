@@ -1,0 +1,106 @@
+[
+  {
+    "uid": "016057",
+    "code": "CHEM1031H",
+    "subject": "CHEM",
+    "number": "1031",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "002387",
+    "code": "CHEM1032H",
+    "subject": "CHEM",
+    "number": "1032",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "807758",
+    "code": "CHEM1071H",
+    "subject": "CHEM",
+    "number": "1071",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "807755",
+    "code": "CHEM1072H",
+    "subject": "CHEM",
+    "number": "1072",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "807739",
+    "code": "CHEM1075H",
+    "subject": "CHEM",
+    "number": "1075",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "807740",
+    "code": "CHEM1076H",
+    "subject": "CHEM",
+    "number": "1076",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "002396",
+    "code": "CHEM2312H",
+    "subject": "CHEM",
+    "number": "2312",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "808185",
+    "code": "CHEM2331H",
+    "subject": "CHEM",
+    "number": "2331",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "808186",
+    "code": "CHEM2332H",
+    "subject": "CHEM",
+    "number": "2332",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804696",
+    "code": "CHEM2910H",
+    "subject": "CHEM",
+    "number": "2910",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804697",
+    "code": "CHEM2920H",
+    "subject": "CHEM",
+    "number": "2920",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804619",
+    "code": "CHEM4094V",
+    "subject": "CHEM",
+    "number": "4094",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "825766",
+    "code": "CHEM4701H",
+    "subject": "CHEM",
+    "number": "4701",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

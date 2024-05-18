@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "816060",
+    "code": "FINA3001H",
+    "subject": "FINA",
+    "number": "3001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "811136",
+    "code": "FINA4121H",
+    "subject": "FINA",
+    "number": "4121",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "811137",
+    "code": "FINA4321H",
+    "subject": "FINA",
+    "number": "4321",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

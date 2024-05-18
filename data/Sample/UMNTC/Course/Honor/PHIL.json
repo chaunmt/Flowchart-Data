@@ -1,0 +1,90 @@
+[
+  {
+    "uid": "006301",
+    "code": "PHIL1001H",
+    "subject": "PHIL",
+    "number": "1001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "005536",
+    "code": "PHIL1002V",
+    "subject": "PHIL",
+    "number": "1002",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788555",
+    "code": "PHIL1003V",
+    "subject": "PHIL",
+    "number": "1003",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788556",
+    "code": "PHIL1004V",
+    "subject": "PHIL",
+    "number": "1004",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "800562",
+    "code": "PHIL1005H",
+    "subject": "PHIL",
+    "number": "1005",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "799395",
+    "code": "PHIL1910V",
+    "subject": "PHIL",
+    "number": "1910",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788557",
+    "code": "PHIL3001V",
+    "subject": "PHIL",
+    "number": "3001",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788558",
+    "code": "PHIL3005V",
+    "subject": "PHIL",
+    "number": "3005",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "007215",
+    "code": "PHIL3900H",
+    "subject": "PHIL",
+    "number": "3900",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "825630",
+    "code": "PHIL4888H",
+    "subject": "PHIL",
+    "number": "4888",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804892",
+    "code": "PHIL4995H",
+    "subject": "PHIL",
+    "number": "4995",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

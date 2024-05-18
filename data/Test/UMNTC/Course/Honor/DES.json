@@ -1,0 +1,58 @@
+[
+  {
+    "uid": "797791",
+    "code": "DES1101V",
+    "subject": "DES",
+    "number": "1101",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "802076",
+    "code": "DES1111H",
+    "subject": "DES",
+    "number": "1111",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "800358",
+    "code": "DES2150H",
+    "subject": "DES",
+    "number": "2150",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "805761",
+    "code": "DES3160H",
+    "subject": "DES",
+    "number": "3160",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "800359",
+    "code": "DES4150H",
+    "subject": "DES",
+    "number": "4150",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "805762",
+    "code": "DES4160H",
+    "subject": "DES",
+    "number": "4160",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "825945",
+    "code": "DES4401V",
+    "subject": "DES",
+    "number": "4401",
+    "honors": true,
+    "writingIntensive": true
+  }
+]

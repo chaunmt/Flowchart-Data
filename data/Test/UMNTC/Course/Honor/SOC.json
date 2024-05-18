@@ -1,0 +1,178 @@
+[
+  {
+    "uid": "003009",
+    "code": "SOC1011V",
+    "subject": "SOC",
+    "number": "1011",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "800698",
+    "code": "SOC1902H",
+    "subject": "SOC",
+    "number": "1902",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "810720",
+    "code": "SOC3101H",
+    "subject": "SOC",
+    "number": "3101",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "812791",
+    "code": "SOC3412H",
+    "subject": "SOC",
+    "number": "3412",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "810628",
+    "code": "SOC3451V",
+    "subject": "SOC",
+    "number": "3451",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "811599",
+    "code": "SOC3503H",
+    "subject": "SOC",
+    "number": "3503",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "811411",
+    "code": "SOC3511H",
+    "subject": "SOC",
+    "number": "3511",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "811450",
+    "code": "SOC3613V",
+    "subject": "SOC",
+    "number": "3613",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788745",
+    "code": "SOC3801H",
+    "subject": "SOC",
+    "number": "3801",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "001151",
+    "code": "SOC3991H",
+    "subject": "SOC",
+    "number": "3991",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "810577",
+    "code": "SOC4101V",
+    "subject": "SOC",
+    "number": "4101",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "811547",
+    "code": "SOC4102H",
+    "subject": "SOC",
+    "number": "4102",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "811495",
+    "code": "SOC4104H",
+    "subject": "SOC",
+    "number": "4104",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "813882",
+    "code": "SOC4135H",
+    "subject": "SOC",
+    "number": "4135",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "809982",
+    "code": "SOC4141H",
+    "subject": "SOC",
+    "number": "4141",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "809999",
+    "code": "SOC4309H",
+    "subject": "SOC",
+    "number": "4309",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "811412",
+    "code": "SOC4411H",
+    "subject": "SOC",
+    "number": "4411",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "810578",
+    "code": "SOC4451H",
+    "subject": "SOC",
+    "number": "4451",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "809976",
+    "code": "SOC4521H",
+    "subject": "SOC",
+    "number": "4521",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "810627",
+    "code": "SOC4551H",
+    "subject": "SOC",
+    "number": "4551",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "008176",
+    "code": "SOC4977V",
+    "subject": "SOC",
+    "number": "4977",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "008203",
+    "code": "SOC4978V",
+    "subject": "SOC",
+    "number": "4978",
+    "honors": true,
+    "writingIntensive": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "798179",
+    "code": "RRM4200H",
+    "subject": "RRM",
+    "number": "4200",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "798180",
+    "code": "RRM4801H",
+    "subject": "RRM",
+    "number": "4801",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "798181",
+    "code": "RRM4802H",
+    "subject": "RRM",
+    "number": "4802",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

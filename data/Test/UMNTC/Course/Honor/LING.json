@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "013571",
+    "code": "LING3001H",
+    "subject": "LING",
+    "number": "3001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "013573",
+    "code": "LING3052V",
+    "subject": "LING",
+    "number": "3052",
+    "honors": true,
+    "writingIntensive": true
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "uid": "010017",
+    "code": "ECON1101H",
+    "subject": "ECON",
+    "number": "1101",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "010024",
+    "code": "ECON1102H",
+    "subject": "ECON",
+    "number": "1102",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "010421",
+    "code": "ECON3101H",
+    "subject": "ECON",
+    "number": "3101",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "010422",
+    "code": "ECON3102H",
+    "subject": "ECON",
+    "number": "3102",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "007267",
+    "code": "ECON4109H",
+    "subject": "ECON",
+    "number": "4109",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "809483",
+    "code": "ECON4113H",
+    "subject": "ECON",
+    "number": "4113",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "007299",
+    "code": "ECON4431V",
+    "subject": "ECON",
+    "number": "4431",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "008117",
+    "code": "ECON4611H",
+    "subject": "ECON",
+    "number": "4611",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "009120",
+    "code": "ECON4621H",
+    "subject": "ECON",
+    "number": "4621",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "007303",
+    "code": "ECON4631H",
+    "subject": "ECON",
+    "number": "4631",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "007316",
+    "code": "ECON4721H",
+    "subject": "ECON",
+    "number": "4721",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "007318",
+    "code": "ECON4731H",
+    "subject": "ECON",
+    "number": "4731",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "007319",
+    "code": "ECON4741H",
+    "subject": "ECON",
+    "number": "4741",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "007328",
+    "code": "ECON4751H",
+    "subject": "ECON",
+    "number": "4751",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "808567",
+    "code": "ECON4960H",
+    "subject": "ECON",
+    "number": "4960",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "816612",
+    "code": "ECON4993H",
+    "subject": "ECON",
+    "number": "4993",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "791980",
+    "code": "ECON5109H",
+    "subject": "ECON",
+    "number": "5109",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

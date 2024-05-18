@@ -1,0 +1,58 @@
+[
+  {
+    "uid": "003786",
+    "code": "CFAN1000H",
+    "subject": "CFAN",
+    "number": "1000",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "797431",
+    "code": "CFAN1902H",
+    "subject": "CFAN",
+    "number": "1902",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "802929",
+    "code": "CFAN3000H",
+    "subject": "CFAN",
+    "number": "3000",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "814046",
+    "code": "CFAN3091V",
+    "subject": "CFAN",
+    "number": "3091",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "003788",
+    "code": "CFAN3100H",
+    "subject": "CFAN",
+    "number": "3100",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "016110",
+    "code": "CFAN3101H",
+    "subject": "CFAN",
+    "number": "3101",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "806604",
+    "code": "CFAN4801H",
+    "subject": "CFAN",
+    "number": "4801",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

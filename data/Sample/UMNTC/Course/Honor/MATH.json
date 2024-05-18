@@ -1,0 +1,130 @@
+[
+  {
+    "uid": "003696",
+    "code": "MATH1571H",
+    "subject": "MATH",
+    "number": "1571",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "003697",
+    "code": "MATH1572H",
+    "subject": "MATH",
+    "number": "1572",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "003698",
+    "code": "MATH2573H",
+    "subject": "MATH",
+    "number": "2573",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "004311",
+    "code": "MATH2574H",
+    "subject": "MATH",
+    "number": "2574",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "792126",
+    "code": "MATH2582H",
+    "subject": "MATH",
+    "number": "2582",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "792656",
+    "code": "MATH2583H",
+    "subject": "MATH",
+    "number": "2583",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "790665",
+    "code": "MATH3574H",
+    "subject": "MATH",
+    "number": "3574",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "793169",
+    "code": "MATH3584H",
+    "subject": "MATH",
+    "number": "3584",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "792127",
+    "code": "MATH3592H",
+    "subject": "MATH",
+    "number": "3592",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "792657",
+    "code": "MATH3593H",
+    "subject": "MATH",
+    "number": "3593",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "004069",
+    "code": "MATH5285H",
+    "subject": "MATH",
+    "number": "5285",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "004070",
+    "code": "MATH5286H",
+    "subject": "MATH",
+    "number": "5286",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "004292",
+    "code": "MATH5345H",
+    "subject": "MATH",
+    "number": "5345",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "794170",
+    "code": "MATH5594H",
+    "subject": "MATH",
+    "number": "5594",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "004181",
+    "code": "MATH5615H",
+    "subject": "MATH",
+    "number": "5615",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "004182",
+    "code": "MATH5616H",
+    "subject": "MATH",
+    "number": "5616",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

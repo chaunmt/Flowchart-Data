@@ -1,0 +1,50 @@
+[
+  {
+    "uid": "008990",
+    "code": "ANTH1001H",
+    "subject": "ANTH",
+    "number": "1001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "008991",
+    "code": "ANTH1003V",
+    "subject": "ANTH",
+    "number": "1003",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "787787",
+    "code": "ANTH1005V",
+    "subject": "ANTH",
+    "number": "1005",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "816917",
+    "code": "ANTH2001V",
+    "subject": "ANTH",
+    "number": "2001",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "816766",
+    "code": "ANTH4007H",
+    "subject": "ANTH",
+    "number": "4007",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "806838",
+    "code": "ANTH4013H",
+    "subject": "ANTH",
+    "number": "4013",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "801983",
+    "code": "APEC1101H",
+    "subject": "APEC",
+    "number": "1101",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "802124",
+    "code": "APEC1102H",
+    "subject": "APEC",
+    "number": "1102",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "800368",
+    "code": "APEC1905H",
+    "subject": "APEC",
+    "number": "1905",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

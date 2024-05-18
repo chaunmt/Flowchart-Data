@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "804675",
+    "code": "ANAT3608H",
+    "subject": "ANAT",
+    "number": "3608",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "826034",
+    "code": "ANAT3658H",
+    "subject": "ANAT",
+    "number": "3658",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

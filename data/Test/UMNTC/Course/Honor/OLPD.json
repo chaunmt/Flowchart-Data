@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "807889",
+    "code": "OLPD2811H",
+    "subject": "OLPD",
+    "number": "2811",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "818564",
+    "code": "OLPD3331H",
+    "subject": "OLPD",
+    "number": "3331",
+    "honors": true,
+    "writingIntensive": false
+  }
+]
