@@ -2,9 +2,9 @@
 let fs = require("fs");
 
 /** Export JSON file from Course Dogs API */
-function exportDogs(PROGRAM) {
+function exportDogs(PROGRAM, TYPE) {
   const schoolId = "umn_umntc_peoplesoft";
-  let fileName = (PROGRAM == "")? "allPrograms.json" : PROGRAM + ".json";
+  let fileName = "all" + TYPE + "s.json";
   let filePath = "../../data/Test/UMNTC/Program/";
   let programGroupId = "programGroupIds=" + PROGRAM;
   let active = "&isActive=true&includePending=false"; // include only active program
@@ -27,6 +27,16 @@ function exportDogs(PROGRAM) {
     .then((data) => {
       let programs =
         data.data.map((program) => {
+          if (TYPE == "Program") {
+
+          } else if (TYPE == "OtherType") {
+            let type = program.type.toLowerCase();
+            if (type == "major" || type == "minor" || type == "certificate") {
+              return null;
+            }
+          } else if (program.type.toLowerCase() != TYPE.toLowerCase()) {
+            return null;
+          }
           return {
             code: program.code || "",
             name: program.catalogDisplayName || "",
@@ -35,51 +45,97 @@ function exportDogs(PROGRAM) {
             degreeGranter: program.customFields.cdDegreeGrantingCollege || "",
             classification: program.nscClassification || "",
             diploma: program.diplomaDescription || "",
-            info: program.customFields.cdProgramDescr || "",
+            // info: program.customFields.cdProgramDescr || "",
             level: program.customFields.cdProgramCareer || "",
             accredited: program.customFields.cdProgramAccredited || "",
             minProgramCredit: program.customFields.cdProgramCreditsProgramMin || "",
             maxProgramCredit: program.customFields.cdProgramCreditsProgramMax || "",
             minDegreeCredit: program.customFields.cdProgramCreditsDegreeMin || "",
             maxDegreeCredit: program.customFields.cdProgramCreditsDegreeMax || "",
-            requirements: {
-              admission: {
-                tests: {
-                  TOEFL: program.customFields.cdProgramAdmissionTOEFL || "",
-                  IELTS: program.customFields.cdProgramAdmissionIELTS || "",
-                  GRE: program.customFields.cdProgramAdmissionGRE || "",
-                  GMAT: program.customFields.cdProgramAdmissionGMAT || "",
-                  MCAT: program.customFields.cdProgramAdmissionMCAT || "",
-                  LSAT: program.customFields.cdProgramAdmissionLSAT || "",
-                  Other: program.customFields.cdProgramAdmissionOtherTest || "",
-                },
-                minCredits: program.customFields.cdProgramAdmissionCourseCreditMin || "",
-                preMajorStatus: program.customFields.cdProgramAdmissionPreMajorStatus || "",
-                GPA: {
-                  min: program.customFields.cdProgramAdmissionGPACollAdmitMin || "",
-                  minTransIUT: program.customFields.cdProgramAdmissionGPATransIUTMin || "",
-                  minTrans: program.customFields.cdProgramAdmissionGPATransMin || "",
-                  rationale: program.customFields.cdProgramAdmissionGPARationale || ""
-                },
-                info: program.requirementLevels
-              },
-              language: {
-                sem: program.customFields.cdProgramReqLanguageSemesters,
-                undergrad: program.customFields.cdProgramReqLanguageUgrd,
-                graduate: program.customFields.cdProgramReqLanguageGrad
-              }
-            },
-            requisites: program.requisites.map(
-              (req) => {
-                let subreq = req.subRules || req.values;
-                return {
-                  id: req.id,
-                  name: req.name,
-                  condition: req.type,
-                  rules: subreq
-                }
-              }
-            )
+            // requirements: {
+            //   admission: {
+            //     tests: {
+            //       TOEFL: program.customFields.cdProgramAdmissionTOEFL || "",
+            //       IELTS: program.customFields.cdProgramAdmissionIELTS || "",
+            //       GRE: program.customFields.cdProgramAdmissionGRE || "",
+            //       GMAT: program.customFields.cdProgramAdmissionGMAT || "",
+            //       MCAT: program.customFields.cdProgramAdmissionMCAT || "",
+            //       LSAT: program.customFields.cdProgramAdmissionLSAT || "",
+            //       Other: program.customFields.cdProgramAdmissionOtherTest || "",
+            //     },
+            //     minCredits: program.customFields.cdProgramAdmissionCourseCreditMin || "",
+            //     preMajorStatus: program.customFields.cdProgramAdmissionPreMajorStatus || "",
+            //     GPA: {
+            //       min: program.customFields.cdProgramAdmissionGPACollAdmitMin || "",
+            //       minTransIUT: program.customFields.cdProgramAdmissionGPATransIUTMin || "",
+            //       minTrans: program.customFields.cdProgramAdmissionGPATransMin || "",
+            //       rationale: program.customFields.cdProgramAdmissionGPARationale || ""
+            //     },
+            //     info: {
+            //       key: program.requirementLevels.key || "",
+            //       label: program.requirementLevels.label || "",
+            //       notes: program.requirementLevels.notes || "",
+            //     }
+            //   },
+            //   language: {
+            //     sem: program.customFields.cdProgramReqLanguageSemesters || "",
+            //     undergrad: program.customFields.cdProgramReqLanguageUgrd || "",
+            //     grad: program.customFields.cdProgramReqLanguageGrad || ""
+            //   }
+            // },
+            // requisites: Object.keys(program.requisites).reduce((req, key) => {
+            //   req[key] = program.requisites[key].map(
+            //     (req) => {
+                  
+            //       return {
+            //         id: req.id || "",
+            //         name: req.name || "",
+            //         type: req.type || "",
+            //         rules: req.rules?.map(
+            //           (rule) => {
+            //             return {
+            //               id: rule.id || "",
+            //               name: rule.name || "",
+            //               condition: rule.condition || "",
+            //               subRules: rule.subRules?.map(
+            //                 (subRule) => {
+            //                   return {
+            //                     id: subRule.id || "",
+            //                     name: subRule.name || "",
+            //                     condition: subRule.condition || "",
+            //                     courses: subRule.value?.values?.map(
+            //                       (courseGroup) => {
+            //                         let logic = courseGroup.logic;
+            //                         let res = {};
+            //                         if (!res[logic]) res[logic] = [];
+            //                         res[logic].push(...courseGroup.value);
+            //                         return res;
+            //                       }
+            //                     ).reduce((acc, obj) => {
+            //                       return { ...acc, ...obj };
+            //                     }, {}),
+            //                   }
+            //                 }
+            //               ) || [],
+            //               courses: rule.value?.values?.map(
+            //                 (courseGroup) => {
+            //                   let logic = courseGroup.logic;
+            //                   let res = {};
+            //                   if (!res[logic]) res[logic] = [];
+            //                   res[logic].push(...courseGroup.value);
+            //                   return res;
+            //                 }
+            //               ).reduce((acc, obj) => {
+            //                 return { ...acc, ...obj };
+            //               }, {})
+            //             }
+            //           }
+            //         ) || []
+            //       }
+            //     }
+            //   )
+            //   return req;
+            // }, {})
           }
         })
 
@@ -105,4 +161,10 @@ function exportDogs(PROGRAM) {
     });
 }
 
-exportDogs("");
+// reduce fields for allPrograms
+exportDogs("", "Program");
+
+// exportDogs("", "Major");
+// exportDogs("", "Minor");
+// exportDogs("", "Certificate");
+// exportDogs("", "OtherType")
