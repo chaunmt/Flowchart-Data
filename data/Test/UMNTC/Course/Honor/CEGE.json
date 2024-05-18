@@ -1,0 +1,34 @@
+[
+  {
+    "uid": "804855",
+    "code": "CEGE4000H",
+    "subject": "CEGE",
+    "number": "4000",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804857",
+    "code": "CEGE4092H",
+    "subject": "CEGE",
+    "number": "4092",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804858",
+    "code": "CEGE4094H",
+    "subject": "CEGE",
+    "number": "4094",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804859",
+    "code": "CEGE4194H",
+    "subject": "CEGE",
+    "number": "4194",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

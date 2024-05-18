@@ -1,0 +1,90 @@
+[
+  {
+    "uid": "803308",
+    "code": "JOUR1001H",
+    "subject": "JOUR",
+    "number": "1001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "796798",
+    "code": "JOUR3004H",
+    "subject": "JOUR",
+    "number": "3004",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "793487",
+    "code": "JOUR3101H",
+    "subject": "JOUR",
+    "number": "3101",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "799810",
+    "code": "JOUR3745H",
+    "subject": "JOUR",
+    "number": "3745",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "805503",
+    "code": "JOUR3776H",
+    "subject": "JOUR",
+    "number": "3776",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "801715",
+    "code": "JOUR4721H",
+    "subject": "JOUR",
+    "number": "4721",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "000267",
+    "code": "JOUR4731H",
+    "subject": "JOUR",
+    "number": "4731",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804111",
+    "code": "JOUR4733V",
+    "subject": "JOUR",
+    "number": "4733",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "797784",
+    "code": "JOUR4990H",
+    "subject": "JOUR",
+    "number": "4990",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "000566",
+    "code": "JOUR4993H",
+    "subject": "JOUR",
+    "number": "4993",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "799945",
+    "code": "JOUR5195H",
+    "subject": "JOUR",
+    "number": "5195",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "014347",
+    "code": "BBE4200H",
+    "subject": "BBE",
+    "number": "4200",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "014341",
+    "code": "BBE4801H",
+    "subject": "BBE",
+    "number": "4801",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "014343",
+    "code": "BBE4802H",
+    "subject": "BBE",
+    "number": "4802",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

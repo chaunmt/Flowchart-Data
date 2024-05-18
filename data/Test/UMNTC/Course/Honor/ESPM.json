@@ -1,0 +1,50 @@
+[
+  {
+    "uid": "015463",
+    "code": "ESPM1003H",
+    "subject": "ESPM",
+    "number": "1003",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "805750",
+    "code": "ESPM1012H",
+    "subject": "ESPM",
+    "number": "1012",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "798962",
+    "code": "ESPM1901H",
+    "subject": "ESPM",
+    "number": "1901",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "014348",
+    "code": "ESPM4200H",
+    "subject": "ESPM",
+    "number": "4200",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "014344",
+    "code": "ESPM4801H",
+    "subject": "ESPM",
+    "number": "4801",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "014345",
+    "code": "ESPM4802H",
+    "subject": "ESPM",
+    "number": "4802",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

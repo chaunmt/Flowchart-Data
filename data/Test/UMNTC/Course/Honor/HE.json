@@ -1,0 +1,34 @@
+[
+  {
+    "uid": "014015",
+    "code": "HE1200H",
+    "subject": "HE",
+    "number": "1200",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "796225",
+    "code": "HE2200H",
+    "subject": "HE",
+    "number": "2200",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "013960",
+    "code": "HE4150H",
+    "subject": "HE",
+    "number": "4150",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "014013",
+    "code": "HE4160H",
+    "subject": "HE",
+    "number": "4160",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

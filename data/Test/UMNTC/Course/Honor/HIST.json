@@ -1,0 +1,122 @@
+[
+  {
+    "uid": "016054",
+    "code": "HIST1011V",
+    "subject": "HIST",
+    "number": "1011",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016060",
+    "code": "HIST1012V",
+    "subject": "HIST",
+    "number": "1012",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788666",
+    "code": "HIST1015V",
+    "subject": "HIST",
+    "number": "1015",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016062",
+    "code": "HIST1031V",
+    "subject": "HIST",
+    "number": "1031",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016064",
+    "code": "HIST1032V",
+    "subject": "HIST",
+    "number": "1032",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016067",
+    "code": "HIST1301V",
+    "subject": "HIST",
+    "number": "1301",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016093",
+    "code": "HIST1302V",
+    "subject": "HIST",
+    "number": "1302",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "818224",
+    "code": "HIST3401V",
+    "subject": "HIST",
+    "number": "3401",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "810685",
+    "code": "HIST3462H",
+    "subject": "HIST",
+    "number": "3462",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "825222",
+    "code": "HIST3804H",
+    "subject": "HIST",
+    "number": "3804",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "009175",
+    "code": "HIST3951H",
+    "subject": "HIST",
+    "number": "3951",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "799000",
+    "code": "HIST3959H",
+    "subject": "HIST",
+    "number": "3959",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "811430",
+    "code": "HIST4011V",
+    "subject": "HIST",
+    "number": "4011",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "799040",
+    "code": "HIST4961V",
+    "subject": "HIST",
+    "number": "4961",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "798399",
+    "code": "HIST4962H",
+    "subject": "HIST",
+    "number": "4962",
+    "honors": true,
+    "writingIntensive": false
+  }
+]
