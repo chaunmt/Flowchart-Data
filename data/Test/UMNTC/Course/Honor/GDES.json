@@ -1,0 +1,42 @@
+[
+  {
+    "uid": "816419",
+    "code": "GDES2399V",
+    "subject": "GDES",
+    "number": "2399",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "816411",
+    "code": "GDES3352H",
+    "subject": "GDES",
+    "number": "3352",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "804909",
+    "code": "GDES4160H",
+    "subject": "GDES",
+    "number": "4160",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "816412",
+    "code": "GDES4361V",
+    "subject": "GDES",
+    "number": "4361",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "816464",
+    "code": "GDES4362H",
+    "subject": "GDES",
+    "number": "4362",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

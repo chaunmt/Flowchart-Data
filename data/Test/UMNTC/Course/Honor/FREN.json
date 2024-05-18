@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "794968",
+    "code": "FREN4101V",
+    "subject": "FREN",
+    "number": "4101",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "807276",
+    "code": "FREN4110V",
+    "subject": "FREN",
+    "number": "4110",
+    "honors": true,
+    "writingIntensive": true
+  }
+]

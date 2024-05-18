@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "816902",
+    "code": "EPSY2201H",
+    "subject": "EPSY",
+    "number": "2201",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "819119",
+    "code": "EPSY3303H",
+    "subject": "EPSY",
+    "number": "3303",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

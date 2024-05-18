@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "792456",
+    "code": "KIN3993H",
+    "subject": "KIN",
+    "number": "3993",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "791963",
+    "code": "KIN4001H",
+    "subject": "KIN",
+    "number": "4001",
+    "honors": true,
+    "writingIntensive": false
+  }
+]

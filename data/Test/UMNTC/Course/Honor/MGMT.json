@@ -1,0 +1,34 @@
+[
+  {
+    "uid": "801648",
+    "code": "MGMT1001H",
+    "subject": "MGMT",
+    "number": "1001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "792612",
+    "code": "MGMT3033V",
+    "subject": "MGMT",
+    "number": "3033",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "793666",
+    "code": "MGMT3040H",
+    "subject": "MGMT",
+    "number": "3040",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "792633",
+    "code": "MGMT4004V",
+    "subject": "MGMT",
+    "number": "4004",
+    "honors": true,
+    "writingIntensive": true
+  }
+]

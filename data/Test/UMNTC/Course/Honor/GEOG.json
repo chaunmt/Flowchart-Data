@@ -1,0 +1,138 @@
+[
+  {
+    "uid": "788682",
+    "code": "GEOG1301V",
+    "subject": "GEOG",
+    "number": "1301",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788683",
+    "code": "GEOG1403H",
+    "subject": "GEOG",
+    "number": "1403",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "800744",
+    "code": "GEOG1905H",
+    "subject": "GEOG",
+    "number": "1905",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "799393",
+    "code": "GEOG1910V",
+    "subject": "GEOG",
+    "number": "1910",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788684",
+    "code": "GEOG3001H",
+    "subject": "GEOG",
+    "number": "3001",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "788685",
+    "code": "GEOG3371V",
+    "subject": "GEOG",
+    "number": "3371",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788321",
+    "code": "GEOG3374V",
+    "subject": "GEOG",
+    "number": "3374",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788686",
+    "code": "GEOG3401H",
+    "subject": "GEOG",
+    "number": "3401",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "788687",
+    "code": "GEOG3561H",
+    "subject": "GEOG",
+    "number": "3561",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "788688",
+    "code": "GEOG3605V",
+    "subject": "GEOG",
+    "number": "3605",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016402",
+    "code": "GEOG3985V",
+    "subject": "GEOG",
+    "number": "3985",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "788323",
+    "code": "GEOG3992H",
+    "subject": "GEOG",
+    "number": "3992",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "788692",
+    "code": "GEOG3993H",
+    "subject": "GEOG",
+    "number": "3993",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "788693",
+    "code": "GEOG3994H",
+    "subject": "GEOG",
+    "number": "3994",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "809028",
+    "code": "GEOG3996H",
+    "subject": "GEOG",
+    "number": "3996",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "809030",
+    "code": "GEOG3997H",
+    "subject": "GEOG",
+    "number": "3997",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "788694",
+    "code": "GEOG5605V",
+    "subject": "GEOG",
+    "number": "5605",
+    "honors": true,
+    "writingIntensive": true
+  }
+]

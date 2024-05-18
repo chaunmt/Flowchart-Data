@@ -1,0 +1,34 @@
+[
+  {
+    "uid": "797121",
+    "code": "RELS1082H",
+    "subject": "RELS",
+    "number": "1082",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "798451",
+    "code": "RELS3071H",
+    "subject": "RELS",
+    "number": "3071",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "825223",
+    "code": "RELS3623H",
+    "subject": "RELS",
+    "number": "3623",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "818457",
+    "code": "RELS3626V",
+    "subject": "RELS",
+    "number": "3626",
+    "honors": true,
+    "writingIntensive": true
+  }
+]

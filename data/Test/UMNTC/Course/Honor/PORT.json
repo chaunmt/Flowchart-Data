@@ -1,0 +1,50 @@
+[
+  {
+    "uid": "016346",
+    "code": "PORT3501V",
+    "subject": "PORT",
+    "number": "3501",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016347",
+    "code": "PORT3502V",
+    "subject": "PORT",
+    "number": "3502",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "016348",
+    "code": "PORT3503V",
+    "subject": "PORT",
+    "number": "3503",
+    "honors": true,
+    "writingIntensive": true
+  },
+  {
+    "uid": "790888",
+    "code": "PORT3800H",
+    "subject": "PORT",
+    "number": "3800",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "790847",
+    "code": "PORT3830H",
+    "subject": "PORT",
+    "number": "3830",
+    "honors": true,
+    "writingIntensive": false
+  },
+  {
+    "uid": "016345",
+    "code": "PORT3910H",
+    "subject": "PORT",
+    "number": "3910",
+    "honors": true,
+    "writingIntensive": false
+  }
+]
