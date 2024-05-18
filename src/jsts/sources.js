@@ -1,9 +1,3 @@
-/*** DO NOT RUN FROM INSIDE THE REPO ***/
-/* Use `pnpm run sources` now, as this is a
- * script to be executed from the top-level
- * directory instead
- */
-
 // Using file system
 let fs = require("fs");
 
@@ -84,7 +78,7 @@ function extractCourses(str, targetSubject, targetId) {
   const pattern =
     /\b\d{2,4}[A-Za-z]*\b|\b[A-Za-z]+\s?\d{2,4}[A-Za-z]*\b|\binside\d+\b/g;
   const courses = str.match(pattern) || [];
-  const allSems = require("./General/allSemesters.json");
+  const allSems = require("../../data/Test/UMNTC/allSemesters.json");
 
   return courses.map((each) => {
     let [subject, id] = splitStringAt(each, "number");
@@ -471,10 +465,17 @@ function exportDogs(SUBJECT) {
   let subject = SUBJECT;
   let subjectCode = subject == "allCourses" ? "" : "subjectCode=" + subject;
   let fileName = subject + ".json";
-  // NOTE: Write path is relative to location of execution and *not* this file
-  let filePath = "./app/data/Dog/"; // For offical data folder
-  // let filePath = "./app/data/"  // For testing purpose
-  let returnFields = "&returnFields=subjectCode,courseNumber,name,description"; // preq is at the end of description
+  let filePath = "../../data/Test/UMNTC/Course/General/";
+  let returnFields = 
+    "&returnFields=" +
+    "institutionId," + // "uid"
+    "code," + // code
+    "subjectCode," + // "subject"
+    "courseNumber," + // this include suffix --> become "number", "courseType"
+    "name," + // "name"
+    "longName," + // "fullname"
+    "description" // "info", preq is at the end of description
+    "";
   let limit = "&limit=infinity";
 
   let url =
@@ -488,7 +489,7 @@ function exportDogs(SUBJECT) {
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
-      let courses = filterNull(
+      let courses =
         data.data.map((course) => {
           // Filter out prerequisites
           let descrip = course.description.toLowerCase();
@@ -512,23 +513,54 @@ function exportDogs(SUBJECT) {
           const prereq = info[1]
             ? filterPrereq(info[1], course.subjectCode, course.courseNumber)
             : []; // Assume there is no prereq
+
+          let [honors, writingIntensive] = [false, false]
+          let [num, suf] = splitStringAt(course.courseNumber, "word");
+          if (!suf) {
+            suf = "";
+          } else if (suf.includes("W")) {
+            writingIntensive = true;
+          } else if (suf.includes("H")) {
+            honors = true;
+          } else if (suf.includes("V")) {
+            writingIntensive = true;
+            honors = true;
+          }
+
           if (
-            course.courseNumber.includes("H") ||
-            course.courseNumber.includes("V")
+            // honors
+            // !suf.includes("H") &&
+            // !suf.includes("V")
+
+            // general
+            suf.includes("H") ||
+            suf.includes("V")
           ) {
             return null;
           }
 
           return {
-            code: course.subjectCode + " " + course.courseNumber,
+            uid: course.institutionId,
+            code: course.code,
             subject: course.subjectCode,
-            id: course.courseNumber,
-            title: course.name,
-            info: course.description,
-            prereq: prereq || [],
+            number: num,
+            honors: honors,
+            // writingIntensive: writingIntensive,
+            // name: course.name,
+            // fullname: course.longName,
+            // info: course.description,
+            // prereq: prereq || [],
           };
-        }),
-      );
+        })
+
+      let i = 0;
+      while (i < courses.length) {
+        if (courses[i] == null) {
+          courses.splice(i, 1)
+        } else {
+          i++;
+        }
+      }
 
       fs.writeFile(filePath + fileName, JSON.stringify(courses, null, 2), (error) => {
         if (error) {
@@ -536,7 +568,7 @@ function exportDogs(SUBJECT) {
             "Error exporting data to JSON file" + fileName + ":",
             error,
           );
-        } else {
+        } else {  
           console.log("Data exported to", fileName);
         }
       });
@@ -544,9 +576,8 @@ function exportDogs(SUBJECT) {
 }
 
 /** Generate allCourses.json and each subject json */
-
-let allSubjects = require("./General/allSubjects.json");
-let allCourseNumbers = require("./General/id/allCourses.json");
+let allSubjects = require("../../data/Test/UMNTC/allSubjects.json");
+let allCourseNumbers = require("../../data/Test/UMNTC/id/allCourses.json");
 
 // Export a test json file to current folder
 // exportDogs("CHEM")
@@ -555,6 +586,6 @@ let allCourseNumbers = require("./General/id/allCourses.json");
 exportDogs("allCourses");
 
 // Export each course json data files
-for (let pup of allSubjects) {
-  exportDogs(pup);
-}
+// for (let pup of allSubjects) {
+//   exportDogs(pup);
+// }
