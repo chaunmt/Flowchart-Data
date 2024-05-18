@@ -5,6 +5,10 @@
     "subject": "AHS",
     "number": "2707",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Global Health Challenges",
+    "fullname": "Global Health Challenges for Future Health Professionals",
+    "info": "Global health issues. Challenges/opportunities choosing a career as health professional. Students hear from health professionals regarding their work relation to each health challenge.",
+    "prereq": []
   }
 ]

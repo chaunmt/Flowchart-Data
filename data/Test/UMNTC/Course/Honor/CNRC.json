@@ -5,6 +5,10 @@
     "subject": "CNRC",
     "number": "1042",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "H: Greek and Roman Mythology",
+    "fullname": "Honors Course: Greek and Roman Mythology",
+    "info": "Introduction to stories/study of Greek/Roman mythology.",
+    "prereq": []
   }
 ]

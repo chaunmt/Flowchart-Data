@@ -5,7 +5,11 @@
     "subject": "ESPM",
     "number": "1003",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Colloq",
+    "fullname": "Honors Colloquium",
+    "info": "Lectures from experts, readings, discussions of current environmental topics/issues. Topics vary, see Class Schedule.",
+    "prereq": []
   },
   {
     "uid": "805750",
@@ -13,7 +17,11 @@
     "subject": "ESPM",
     "number": "1012",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Environmental Sci & Society",
+    "fullname": "Environmental Science and Society",
+    "info": "Selection of current environmental issues affecting our daily lives. Evaluate the scientific and social approaches necessary to resolve environmental issues. Students explore how everything we do affects the environment in different ways.",
+    "prereq": []
   },
   {
     "uid": "798962",
@@ -21,7 +29,11 @@
     "subject": "ESPM",
     "number": "1901",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Topics: Freshman Seminar",
+    "fullname": "Topics: Freshman Seminar",
+    "info": "Topics vary.",
+    "prereq": []
   },
   {
     "uid": "014348",
@@ -29,7 +41,11 @@
     "subject": "ESPM",
     "number": "4200",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Hon. Sem.",
+    "fullname": "Honors Seminar",
+    "info": "Topics presented by faculty, students, guest speakers. Lecture/discussion.",
+    "prereq": []
   },
   {
     "uid": "014344",
@@ -37,7 +53,11 @@
     "subject": "ESPM",
     "number": "4801",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Research",
+    "fullname": "Honors Research",
+    "info": "Independent research project supervised by faculty member.",
+    "prereq": []
   },
   {
     "uid": "014345",
@@ -45,6 +65,10 @@
     "subject": "ESPM",
     "number": "4802",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Research",
+    "fullname": "Honors Research",
+    "info": "Completion of honors thesis. Oral report.",
+    "prereq": []
   }
 ]

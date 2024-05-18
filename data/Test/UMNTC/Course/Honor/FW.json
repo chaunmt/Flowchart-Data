@@ -5,7 +5,11 @@
     "subject": "FW",
     "number": "4200",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Hon Sem",
+    "fullname": "Honors Seminar",
+    "info": "Current topics presented by faculty/students. Lecture/discussion.",
+    "prereq": []
   },
   {
     "uid": "010783",
@@ -13,7 +17,11 @@
     "subject": "FW",
     "number": "4801",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Research",
+    "fullname": "Honors Research",
+    "info": "Independent research project supervised by faculty member.",
+    "prereq": []
   },
   {
     "uid": "010784",
@@ -21,6 +29,10 @@
     "subject": "FW",
     "number": "4802",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Research",
+    "fullname": "Honors Research",
+    "info": "Completion of honors thesis. Oral report.",
+    "prereq": []
   }
 ]

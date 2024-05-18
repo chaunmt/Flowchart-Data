@@ -5,7 +5,11 @@
     "subject": "CSCL",
     "number": "1201",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Honors Course: Cinema",
+    "fullname": "Honors Course: Cinema",
+    "info": "Introduction to the critical study of the visual in modernity, presented through sustained analysis of the cinema and cinematic codes. Emphases on formal film analysis and major film movements and conventions in the international history of cinema. Students develop a vocabulary for formal visual analysis and explore major theories of the cinema. *Students will not receive credit for CSCL 1201V if they have already taken CSCLW, SCMC 1201W, ARTH 1921W, CSCL 1921W, CSCL 1201 or SCMC 1201",
+    "prereq": []
   },
   {
     "uid": "797395",
@@ -13,7 +17,11 @@
     "subject": "CSCL",
     "number": "2910",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Topics in CSCL",
+    "fullname": "Topics in Cultural Studies and Comparative Literature",
+    "info": "Topics specified in Class Schedule.",
+    "prereq": []
   },
   {
     "uid": "797584",
@@ -21,7 +29,11 @@
     "subject": "CSCL",
     "number": "3910",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Topics in CSCL-Honors",
+    "fullname": "Topics in Cultural Studies and Comparative Literature: Honors",
+    "info": "Topics specified in Class Schedule.",
+    "prereq": []
   },
   {
     "uid": "806297",
@@ -29,7 +41,11 @@
     "subject": "CSCL",
     "number": "5810",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Topics in Cultural Studies",
+    "fullname": "Topics in Cultural Studies",
+    "info": "Topics on special subjects.prereq: Honor student",
+    "prereq": []
   },
   {
     "uid": "806298",
@@ -37,7 +53,11 @@
     "subject": "CSCL",
     "number": "5910",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Topics in Cultural Studies",
+    "fullname": "Topics in Cultural Studies",
+    "info": "Topics on special subjects.",
+    "prereq": []
   },
   {
     "uid": "016998",
@@ -45,6 +65,10 @@
     "subject": "CSCL",
     "number": "5944",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Thesis",
+    "fullname": "Honors Thesis",
+    "info": "Honors thesis.prereq: Candidate for honors in CSCL, consent of CSCL honors adviser",
+    "prereq": []
   }
 ]

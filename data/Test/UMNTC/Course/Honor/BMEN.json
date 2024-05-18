@@ -5,6 +5,10 @@
     "subject": "BMEN",
     "number": "4794",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Directed Research Honors",
+    "fullname": "Directed Research Honors",
+    "info": "Independent laboratory research under faculty supervision.prereq: BME UD, UHP student, instr consent, dept consent",
+    "prereq": []
   }
 ]

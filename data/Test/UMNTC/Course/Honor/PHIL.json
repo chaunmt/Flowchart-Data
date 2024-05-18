@@ -5,7 +5,11 @@
     "subject": "PHIL",
     "number": "1001",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors: Intro to Logic",
+    "fullname": "Honors Course: Introduction to Logic",
+    "info": "Sharpen your reasoning skills through a close examination of arguments. Learn formal methods for representing and assessing arguments, including how to represent informal arguments in formal languages, and how to evaluate whether the premises of an argument entail its conclusion.",
+    "prereq": []
   },
   {
     "uid": "005536",
@@ -13,7 +17,11 @@
     "subject": "PHIL",
     "number": "1002",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Hon: Intro to Phil",
+    "fullname": "Honors: Introduction to Philosophy",
+    "info": "Problems. Methods. Schools of philosophy (historical, contemporary).",
+    "prereq": []
   },
   {
     "uid": "788555",
@@ -21,7 +29,11 @@
     "subject": "PHIL",
     "number": "1003",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Hon: Intro to Ethics",
+    "fullname": "Honors: Introduction to Ethics",
+    "info": "Are values and principles relative to our culture? Is pleasure valuable? Are there any absolute rules? These questions and others are addressed through critical study of moral theories.",
+    "prereq": []
   },
   {
     "uid": "788556",
@@ -29,7 +41,11 @@
     "subject": "PHIL",
     "number": "1004",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Hon: Intro to Pol Phil",
+    "fullname": "Honors: Introduction to Political Philosophy",
+    "info": "Central concepts, principal theories of political philosophy.",
+    "prereq": []
   },
   {
     "uid": "800562",
@@ -37,7 +53,11 @@
     "subject": "PHIL",
     "number": "1005",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Scientific Reasoning",
+    "fullname": "Scientific Reasoning",
+    "info": "How does science work? What is scientific method? How to evaluate scientific information in popular media or specialized publications, especially when it relates to technology used in everyday life? General reasoning skills.prereq: [1st or 2nd] yr honors student or instr consent",
+    "prereq": []
   },
   {
     "uid": "799395",
@@ -45,7 +65,11 @@
     "subject": "PHIL",
     "number": "1910",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Honors Freshman Seminar",
+    "fullname": "Honors Freshman Seminar",
+    "info": "Topics specified in Class Schedule.prereq: Fr or fewer than 30 cr",
+    "prereq": []
   },
   {
     "uid": "788557",
@@ -53,7 +77,11 @@
     "subject": "PHIL",
     "number": "3001",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Hon: History of Phil: Ancient",
+    "fullname": "Honors: General History of Western Philosophy: Ancient Period",
+    "info": "Major developments in ancient Greek philosophic thought: pre-Socratics, Socrates, Plato, Aristotle, Hellenistic thinkers.",
+    "prereq": []
   },
   {
     "uid": "788558",
@@ -61,7 +89,11 @@
     "subject": "PHIL",
     "number": "3005",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Hon: Hist Phil: Modern",
+    "fullname": "General History of Western Philosophy: Modern Period",
+    "info": "Major developments in philosophic thought of the modern period: renaissance beginnings, Descartes through Hume, with some attention paid to Kant.",
+    "prereq": []
   },
   {
     "uid": "007215",
@@ -69,7 +101,11 @@
     "subject": "PHIL",
     "number": "3900",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Seminar",
+    "fullname": "Honors Seminar",
+    "info": "Topics of contemporary interest varying from semester to semester.prereq: honors enroll, 6 crs of 3xxx-5xxx philosophy courses",
+    "prereq": []
   },
   {
     "uid": "825630",
@@ -77,7 +113,11 @@
     "subject": "PHIL",
     "number": "4888",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Senior Capstone",
+    "fullname": "Honors Philosophy Senior Capstone",
+    "info": "The Philosophy capstone course culminates students' work in the major. It offers the opportunity to engage and combine skills in analysis, critical thought, and clear and cogent expression developed throughout the course of undergraduate work in philosophy.  Students will identify a provisional paper or paper topic prior to enrolling in the capstone course and will spend the semester writing, expanding, and revising this paper under the supervision of the faculty teaching the capstone. The capstone course will incorporate career readiness elements, and overall will strive to provide students with a culminating shared experience as Philosophy majors.  ",
+    "prereq": []
   },
   {
     "uid": "804892",
@@ -85,6 +125,10 @@
     "subject": "PHIL",
     "number": "4995",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Senior Project",
+    "fullname": "Honors Senior Project",
+    "info": "Guided individual study leading to research paper that satisfies senior project requirement.prereq: instr consent, dept consent",
+    "prereq": []
   }
 ]

@@ -5,7 +5,11 @@
     "subject": "EE",
     "number": "4981",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Sr Honors Proj I",
+    "fullname": "Senior Honors Project I",
+    "info": "Experience in research/design for electrical/computer engineering. Oral/written reports.prereq: ECE honors, sr, instr consent",
+    "prereq": []
   },
   {
     "uid": "004815",
@@ -13,6 +17,10 @@
     "subject": "EE",
     "number": "4982",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Sr Honors Proj II",
+    "fullname": "Senior Honors Project II",
+    "info": "Experience in research/design for electrical/computer engineering. Oral/written reports.prereq: 4981",
+    "prereq": []
   }
 ]

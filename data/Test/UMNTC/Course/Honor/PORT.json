@@ -5,7 +5,11 @@
     "subject": "PORT",
     "number": "3501",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Honors: Lusophone Cultures",
+    "fullname": "Honors: Foundations of Portuguese Cultures",
+    "info": "Foundations of Portuguese-speaking cultures (Portugal, Brazil, Lusophone Africa) from origins to present. Social/cultural trends that are basis for modern Portuguese-speaking world (literature, history, cinema, music).",
+    "prereq": []
   },
   {
     "uid": "016347",
@@ -13,7 +17,11 @@
     "subject": "PORT",
     "number": "3502",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Honors: Brazilian Culture",
+    "fullname": "Honors: Foundations of Brazilian Culture",
+    "info": "Emphasizes modern Brazilian society. History, culture (e.g., music, art, cinema, literature, intellectual thought, popular culture, media), social problems (e.g., ethnicity, tropical deforestation).",
+    "prereq": []
   },
   {
     "uid": "016348",
@@ -21,7 +29,11 @@
     "subject": "PORT",
     "number": "3503",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Honors:Lit & Cult Luso Africa",
+    "fullname": "Honors: Literatures and Cultures of Lusophone Africa",
+    "info": "Origins/development of Lusophone Africa (Angola, Cape-Verde, Guinea-Bissau, Mozambique, Sao Tome, Principe) using literature, cultural/literary criticism, history, anthropology, and various media (e.g., film, art, music, Internet).",
+    "prereq": []
   },
   {
     "uid": "790888",
@@ -29,7 +41,11 @@
     "subject": "PORT",
     "number": "3800",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors: Film in Portuguese",
+    "fullname": "Honors: Film Studies in Portuguese",
+    "info": "Films from Portuguese-speaking world in their historical, (geo)political, and socio-economic contexts. Films from Brazil, Portugal, or Lusophone Africa analyzed under interdisciplinary framework, noting aspects related to cinematography/rhethorics.",
+    "prereq": []
   },
   {
     "uid": "790847",
@@ -37,7 +53,11 @@
     "subject": "PORT",
     "number": "3830",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Hon: FilmStudiesinPortuguese",
+    "fullname": "Honors: Film Studies in Portuguese",
+    "info": "Films from Portuguese-speaking world in their historical, (geo)political, and socio-economic contexts. Films from Brazil, Portugal, or Lusophone Africa analyzed under interdisciplinary framework, noting aspects related to cinematography/rhetorics.",
+    "prereq": []
   },
   {
     "uid": "016345",
@@ -45,6 +65,10 @@
     "subject": "PORT",
     "number": "3910",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors: Lusophone Literatures",
+    "fullname": "Honors: Topics in Lusophone Literatures",
+    "info": "Lusophone literary texts (from Brazil, Portugal, Portuguese-speaking Africa) representing various genres (e.g., novel, short story, poetry). Terminology of criticism, literary problems, techniques.",
+    "prereq": []
   }
 ]

@@ -5,6 +5,10 @@
     "subject": "JPN",
     "number": "3090",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Course: Tutorial",
+    "fullname": "Honors Course: Tutorial",
+    "info": "Tutorial.",
+    "prereq": []
   }
 ]

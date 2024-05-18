@@ -465,7 +465,7 @@ function exportDogs(SUBJECT) {
   let subject = SUBJECT;
   let subjectCode = subject == "allCourses" ? "" : "subjectCode=" + subject;
   let fileName = subject + ".json";
-  let filePath = "../../data/Test/UMNTC/Course/General/";
+  let filePath = "../../data/Test/UMNTC/Course/Honor/";
   let returnFields = 
     "&returnFields=" +
     "institutionId," + // "uid"
@@ -529,12 +529,12 @@ function exportDogs(SUBJECT) {
 
           if (
             // honors
-            // !suf.includes("H") &&
-            // !suf.includes("V")
+            !suf.includes("H") &&
+            !suf.includes("V")
 
             // general
-            suf.includes("H") ||
-            suf.includes("V")
+            // suf.includes("H") ||
+            // suf.includes("V")
           ) {
             return null;
           }
@@ -545,11 +545,11 @@ function exportDogs(SUBJECT) {
             subject: course.subjectCode,
             number: num,
             honors: honors,
-            // writingIntensive: writingIntensive,
-            // name: course.name,
-            // fullname: course.longName,
-            // info: course.description,
-            // prereq: prereq || [],
+            writingIntensive: writingIntensive,
+            name: course.name,
+            fullname: course.longName,
+            info: course.description,
+            prereq: [] //prereq || [],
           };
         })
 
@@ -583,9 +583,9 @@ let allCourseNumbers = require("../../data/Test/UMNTC/id/allCourses.json");
 // exportDogs("CHEM")
 
 // Export allCourses json data files
-exportDogs("allCourses");
+// exportDogs("allCourses");
 
 // Export each course json data files
-// for (let pup of allSubjects) {
-//   exportDogs(pup);
-// }
+for (let pup of allSubjects) {
+  exportDogs(pup);
+}

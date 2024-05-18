@@ -5,6 +5,10 @@
     "subject": "GSD",
     "number": "3451",
     "honors": true,
-    "writingIntensive": true
+    "writingIntensive": true,
+    "name": "Honors Major Project Seminar",
+    "fullname": "Honors Major Project Seminar",
+    "info": "Major project under supervision of faculty member. Oral exam based on project.prereq: Honors student",
+    "prereq": []
   }
 ]

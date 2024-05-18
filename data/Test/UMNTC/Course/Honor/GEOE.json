@@ -5,7 +5,11 @@
     "subject": "GEOE",
     "number": "4000",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Research Seminar",
+    "fullname": "Honors Research Seminar",
+    "info": "Research seminars in civil and geological engineering given by faculty members and visiting scholars.",
+    "prereq": []
   },
   {
     "uid": "804862",
@@ -13,7 +17,11 @@
     "subject": "GEOE",
     "number": "4092",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Selected Reading",
+    "fullname": "Honors Selected Reading",
+    "info": "Selected readings, student presentations.",
+    "prereq": []
   },
   {
     "uid": "804863",
@@ -21,7 +29,11 @@
     "subject": "GEOE",
     "number": "4094",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Senior Honors Thesis",
+    "fullname": "Senior Honors Thesis",
+    "info": "Writing thesis under direction of CE faculty member.",
+    "prereq": []
   },
   {
     "uid": "804864",
@@ -29,6 +41,10 @@
     "subject": "GEOE",
     "number": "4194",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Senior Honors Thesis",
+    "fullname": "Senior Honors Thesis",
+    "info": "Writing thesis under direction of CE faculty member.",
+    "prereq": []
   }
 ]

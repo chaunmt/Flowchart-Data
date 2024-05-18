@@ -5,6 +5,10 @@
     "subject": "OCS",
     "number": "4941",
     "honors": true,
-    "writingIntensive": false
+    "writingIntensive": false,
+    "name": "Honors Topics",
+    "fullname": "Honors Topics",
+    "info": "Team taught.",
+    "prereq": []
   }
 ]
