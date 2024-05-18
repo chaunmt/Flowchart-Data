@@ -3,22 +3,23 @@ import re
 from Filter.filter import Filter
 import Helper.string_splitter as HelpSplit
 
-class StringFilterSpace(Filter):
+class StringFilter(Filter):
+  allowed_type = str
+
+class StringFilterSpace(StringFilter):
   """
   Delete all spaces in string component
   and return the new string.
   """
-  allowed_type = str
 
   def process(self):
     return self.item.replace(' ', '')
 
-class StringFilterSigns(Filter):
+class StringFilterSigns(StringFilter):
   """
   Replace certain signs with corresponding words
   and return the new string.
   """
-  allowed_type = str
 
   def process(self):
     item_ = self.item
@@ -27,12 +28,11 @@ class StringFilterSigns(Filter):
     item_ = item_.replace("&", " and ")
     return item_
 
-class StringFilterRedundancy(Filter):
+class StringFilterRedundancy(StringFilter):
   """
   Delete all redundant substrings
   and return the new string.
   """
-  allowed_type = str
 
   def process(self):
     item_ = self.item

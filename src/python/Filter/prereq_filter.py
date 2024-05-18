@@ -6,6 +6,3 @@ class PrereqFilter(Filter):
   Filter the prereq component and return its new result.
   """
   allowed_type = PrereqList
-
-  def process(self):
-    pass

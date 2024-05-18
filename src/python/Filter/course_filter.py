@@ -6,6 +6,3 @@ class CourseFilter(Filter):
   Filter the course component and return its new result.
   """
   allowed_type = Course
-
-  def process(self):
-    pass
