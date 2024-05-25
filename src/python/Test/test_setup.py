@@ -72,43 +72,49 @@ class TestCourse(unittest.TestCase):
       {
         'uid_': '1',
         'code_': 'CSC101',
-        'subject_': 'Computer Science',
-        'number_': '101',
+        'subject_': 'CSC',
+        'number_': 101,
+        'honors_': False
       },
       {
         'uid_': '2',
         'code_': 'CSC101',
-        'subject_': 'Computer Science',
-        'number_': '101',
+        'subject_': 'CSC',
+        'number_': 101,
+        'honors_': False
       },
       {
         'uid_': '3',
-        'code_': 'CSC102',
-        'subject_': 'Computer Science',
-        'number_': '102',
+        'code_': 'CSC102V',
+        'subject_': 'CSC',
+        'number_': 102,
+        'honors_': True
       }
     ]
 
     self.additional_data = [
       {
-        'name_': 'Introduction to Computer Science',
-        'longname_': 'CS 101',
+        'writingIntensive_': False,
+        'name_': 'Introduction to ComSci',
+        'fullname_': 'Introduction to Computer Science',
         'info_': (
           'Introductory course coveringbasic concepts in computer science.'
         ),
         'prereq_': None
       },
       {
-        'name_': 'Introduction to Computer Science',
-        'longname_': 'CS 101',
+        'writingIntensive_': False,
+        'name_': 'Introduction to ComSci',
+        'fullname_': 'Introduction to Computer Science',
         'info_': (
           'Introductory course covering basic concepts in computer science.'
         ),
         'prereq_': None
       },
       {
+        'writingIntensive_': True,
         'name_': 'Data Structures',
-        'longname_': 'CS 102',
+        'fullname_': 'Data Structures and Algorithms',
         'info_': (
           'A course focusing on data structures and algorithms.'
         ),
@@ -137,12 +143,15 @@ class TestCourse(unittest.TestCase):
   def tearDown(self):
     pass
 
-class TestPrereq(unittest.TestCase):
+class TestPrereq(TestCourse):
   """
   Parent class for all prereq tests.
   """
   def setUp(self):
-    pass
+    self.p1 = PrereqFormat(self.course_shells[0])
+    self.p2 = PrereqFormat(self.course_shells)
+    self.p3 = PrereqFormat({'and' : self.course_shells})
+    self.p3 = PrereqFormat({'and' : { self.course_shells[0] } })
 
   def tearDown(self):
     pass

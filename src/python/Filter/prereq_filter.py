@@ -5,4 +5,4 @@ class PrereqFilter(Filter):
   """
   Filter the prereq component and return its new result.
   """
-  allowed_type = PrereqList
+  allowed_type = PrereqFormat

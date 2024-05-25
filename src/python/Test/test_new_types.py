@@ -1,6 +1,6 @@
 from Test.test_setup import *
 
-class TestNewTypes(TestString, TestCourse, TestPrereq):
+class TestNewTypes(TestString, TestPrereq):
   """
   Test module new_types
   """
@@ -32,6 +32,10 @@ class TestNewTypes(TestString, TestCourse, TestPrereq):
         shell.number,
         self.course_shell_data[index]['number_']
       )
+      assert_eq(
+        shell.honors,
+        self.course_shell_data[index]['honors_']
+      )
 
   def test_course(self):
     for index, course in enumerate(self.courses):
@@ -52,12 +56,20 @@ class TestNewTypes(TestString, TestCourse, TestPrereq):
         self.course_data[index]['number_']
       )
       assert_eq(
+        course.honors,
+        self.course_data[index]['honors_']
+      )
+      assert_eq(
+        course.writingIntensive,
+        self.course_data[index]['writingIntensive_']
+      )
+      assert_eq(
         course.name,
         self.course_data[index]['name_']
       )
       assert_eq(
-        course.longname,
-        self.course_data[index]['longname_']
+        course.fullname,
+        self.course_data[index]['fullname_']
       )
       assert_eq(
         course.info,
@@ -68,8 +80,33 @@ class TestNewTypes(TestString, TestCourse, TestPrereq):
         self.course_data[index]['prereq_']
       )
 
-  def test_prereq_courses(self):
+  def test_prereq_format(self):
+    # Test single CourseShell
+    assert_eq(
+      self.p1.prereq.uid,
+      '1'
+    )
+    assert_eq(
+      self.p1.prereq.code,
+      'CSC101'
+    )
+    assert_eq(
+      self.p1.prereq.number,
+      101
+    )
+    assert_eq(
+      self.p1.prereq.honors,
+      False
+    )
+
+    # Test List[CourseShell]
+    for index, shell in enumerate(self.course_shells):
+      assert_eq(self.p2.prereq[index], shell)
+
+  def test_program_shell(self):
+    # TODO
     pass
 
-  def test_prereq_list(self):
+  def test_program(self):
+    # TODO
     pass
