@@ -32,6 +32,10 @@ class TestStringSplitter(TestString):
 
   def test_at_substring(self):
     assert_eq(
+      StringSplitter.at_substring(self.s1, 'Hello'),
+      ['', ', world!']
+    )
+    assert_eq(
       StringSplitter.at_substring(self.s1, ','),
       ['Hello', ' world!']
     )
@@ -41,7 +45,7 @@ class TestStringSplitter(TestString):
     )
     assert_eq(
       StringSplitter.at_substring(self.s2, ' '),
-      ['Python', 'is', 'fun!']
+      ['Python', '', 'is', '', '', 'fun!']
     )
     assert_eq(
       StringSplitter.at_substring(self.s2, '  '),
@@ -53,7 +57,7 @@ class TestStringSplitter(TestString):
     )
     assert_eq(
       StringSplitter.at_substring(self.s3, '12!'),
-      ['3 !4.5']
+      ['', '3 !4.5']
     )
     assert_eq(
       StringSplitter.at_substring(self.s4, '?S1'),

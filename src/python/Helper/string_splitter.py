@@ -21,10 +21,10 @@ class StringSplitter:
     """
     Split string at the specified substring and
     return the result list without this substring.\n
-    Remove all empty substrings in the result list.
+    Can include empty string member in result list.
     """
     splits = s.split(substring)
-    return [split for split in splits if split != '']
+    return splits
 
   @classmethod
   def at_first_type_occurrence(cls, s: str, split_type: str) -> list:
@@ -128,3 +128,7 @@ class StringSplitter:
       suffix = None
 
     return [number, suffix]
+
+  @classmethod
+  def get_courses(cls, s: str) -> list:
+    pass

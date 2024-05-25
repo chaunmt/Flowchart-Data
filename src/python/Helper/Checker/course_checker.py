@@ -2,7 +2,7 @@ from Helper.new_types import Course, CourseShell
 
 class CourseChecker:
   """
-  Perform checks on Course type object.
+  Perform checks on Course type related object.
   """
   @staticmethod
   def is_equal(a: Course | CourseShell, b: Course | CourseShell) -> bool:
@@ -17,3 +17,21 @@ class CourseChecker:
       return False
 
     return True
+
+  @staticmethod
+  def is_honor(course_suffix: str) -> bool:
+    """
+    Check whether a course is an honors course based on its code's suffix.
+    """
+    if course_suffix == 'H' or course_suffix == 'V':
+      return True
+    return False
+  
+  @staticmethod
+  def is_writing(course_suffix: str) -> bool:
+    """
+    Check whether a course is a writing course based on its code's suffix.
+    """
+    if course_suffix == 'W' or course_suffix == 'V':
+      return True
+    return False
