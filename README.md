@@ -30,19 +30,31 @@ Course Flowchart's Data Server
 
 ## 4. Test
 - Run from src/python/.
-- Test all cases in the module (either work):
+- To run all tests specified in run_tests.py (default is to run all tests).
   ```
-  python3 -m Test.test
+  python3 -m run_tests
   ```
-  ```
-  python3 -m unittest Test.test
-  ```
-- Test a single class:
-  ```
-  python3 -m Test.test.module_name
-  ```
-- Test a single method:
-  ```
-  python3 -m Test.test.module_name.method_name
-  ```
+- To test some classes or methods, modify run_tests.py file to only include the tests needed to be run or run them separately from the terminal.
+  + To test a single class:<br>
+    Modify run_tests.py
+    ```
+    from Test.test_file_name import test_module_name
+
+    suite.addTest(unittest.makeSuite(test_module_name))
+    ```
+    or run it seprately from the terminal.
+    ```
+    python3 -m Test.test_file_name.module_name
+    ```
+  + To test a single method:<br>
+    Modify run_tests.py
+    ```
+    from Test.test_file_name import test_module_name
+
+    suite.addTest(test_module_name('test_method_name'))
+    ```
+    or run it seprately from the terminal.
+    ```
+    python3 -m Test.test_file_name.module_name.method_name
+    ```
 - For more information, check: [unnittest documentation](https://docs.python.org/3/library/unittest.html)
