@@ -32,8 +32,8 @@ class CourseShell:
 class PrereqFormat:
   """
   TODO
-  This class is complicated to reproduce in python.\n
-  An any type is used as a placeholder.
+  An any type is used as a placeholder.\n
+  A checker should be made to make sure only acceptable members are presented in this type.
   """
   def __init__(
       self,

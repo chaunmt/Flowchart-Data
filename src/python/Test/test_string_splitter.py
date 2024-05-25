@@ -146,70 +146,70 @@ class TestStringSplitter(TestString):
       ['C?S1!0^1', '@']
     )
 
-  def test_code_into_subj_num(self):
+  def test_code_into_subj_num_suffix_suffix(self):
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s1),
-      [None, None]
+      StringSplitter.code_into_subj_num_suffix(self.s1),
+      [None, None, None]
     )
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s3),
-      [None, None]
+      StringSplitter.code_into_subj_num_suffix(self.s3),
+      [None, None, None]
     )
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s7),
-      [None, None]
+      StringSplitter.code_into_subj_num_suffix(self.s7),
+      [None, None, None]
     )
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s8),
-      [None, '1']
+      StringSplitter.code_into_subj_num_suffix(self.s8),
+      [None, '1', None]
     )
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s9),
-      [None, '1239WAD12']
+      StringSplitter.code_into_subj_num_suffix(self.s9),
+      [None, '1239WAD12', None]
     )
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s10),
-      ['CSCI', '3081']
+      StringSplitter.code_into_subj_num_suffix(self.s10),
+      ['CSCI', '3081', None]
     )
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s11),
-      ['CSCI', '3081W']
+      StringSplitter.code_into_subj_num_suffix(self.s11),
+      ['CSCI', '3081', 'W']
     )
     assert_eq(
-      StringSplitter.code_into_subj_num(self.s12),
-      ['CSCI', '3081W']
+      StringSplitter.code_into_subj_num_suffix(self.s12),
+      ['CSCI', '3081', 'W']
     )
 
-  def test_num_into_digit_suffix(self):
+  def test_separate_number_suffix(self):
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s5),
+      StringSplitter.separate_number_suffix(self.s5),
       [None, None]
     )
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s7),
+      StringSplitter.separate_number_suffix(self.s7),
       [None, None]
     )
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s8),
+      StringSplitter.separate_number_suffix(self.s8),
       ['1', None]
     )
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s9),
+      StringSplitter.separate_number_suffix(self.s9),
       ['1239WAD12', None]
     )
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s10),
+      StringSplitter.separate_number_suffix(self.s10),
       ['CSCI3081', None]
     )
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s11),
+      StringSplitter.separate_number_suffix(self.s11),
       ['CSCI3081', 'W']
     )
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s12),
+      StringSplitter.separate_number_suffix(self.s12),
       ['CSCI3081', 'W']
     )
     assert_eq(
-      StringSplitter.num_into_digit_suffix(self.s12),
+      StringSplitter.separate_number_suffix(self.s12),
       ['CSCI3081', 'W']
     )

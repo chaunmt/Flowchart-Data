@@ -82,9 +82,9 @@ class StringSplitter:
     return splits
 
   @classmethod
-  def code_into_subj_num(cls, s: str) -> list:
+  def code_into_subj_num_suffix(cls, s: str) -> list:
     """
-    Split a string of Course's code into a list of [subject, number].
+    Split a string of Course's code into a list of [subject, number, suffix].
     """
     # Remove all spaces
     s = StringFilterSpace(s)
@@ -95,19 +95,21 @@ class StringSplitter:
       StringChecker.is_empty(s) or    # code can't be empty
       not StringChecker.has_number(s) # code has to have number
     ):
-      return [None, None]
+      return [None, None, None]
     
-    arr = cls.at_first_type_occurrence(s, 'number')
+    subject, number = cls.at_first_type_occurrence(s, 'number')
 
-    if StringChecker.is_empty(arr[0]):
-      arr[0] = None
+    if StringChecker.is_empty(subject):
+      subject = None
     
-    return arr
+    number, suffix = cls.separate_number_suffix(number)
+    
+    return [subject, number, suffix]
 
   @classmethod
-  def num_into_digit_suffix(cls, s: str) -> list:
+  def separate_number_suffix(cls, s: str) -> list:
     """
-    Split a string of Course's number into a list of [digit, suffix].
+    Split a string of Course's number with suffix into a list of [number, suffix].
     """
     # Remove all spaces
     s = StringFilterSpace(s)
@@ -120,9 +122,9 @@ class StringSplitter:
     ):
       return [None, None]
     
-    arr = cls.at_last_type_occurrence(s, 'number')
+    number, suffix = cls.at_last_type_occurrence(s, 'number')
 
-    if StringChecker.is_empty(arr[1]):
-      arr[1] = None
+    if StringChecker.is_empty(suffix):
+      suffix = None
 
-    return arr
+    return [number, suffix]
