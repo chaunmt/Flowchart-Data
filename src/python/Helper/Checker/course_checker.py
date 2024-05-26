@@ -1,4 +1,8 @@
+import os
+import json
+
 from Helper.new_types import Course, CourseShell
+from Helper.json_handler import *
 
 class CourseChecker:
   """
@@ -42,3 +46,23 @@ class CourseChecker:
     if course_suffix == 'W' or course_suffix == 'V':
       return True
     return False
+  
+  #############################################################################
+  @staticmethod
+  def is_valid_subj(course_subject: str) -> bool:
+    """
+    Check whether a course's subject is valid.
+    """
+
+    # Get JSON data for valid subject codes
+    path = '../../../../data/UMNTC/subjectNames.json'
+    data = JSONHandler.get_from_path(path)
+
+    if course_subject in data['department']:
+      return True
+    
+    if course_subject in data['libed']:
+      return True
+    
+    return False
+
