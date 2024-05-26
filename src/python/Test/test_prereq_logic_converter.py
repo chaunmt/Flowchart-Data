@@ -1,21 +1,21 @@
 from Test.test_setup import *
 
-class TestNestedCourseConverter(TestPrereq):
+class TestPrereqLogicConverter(TestPrereq):
   """
-  Test module nested_course_converter.
+  Test module prereq_logic_converter.
   """
 
   #############################################################################
-  def test_encoded_string(self):
+  def test_logical_op_converter(self):
     # TODO
     pass
 
   #############################################################################
-  def test_encoded(self):
+  def test_replace_empty_subj(self):
     # TODO
     pass
 
   #############################################################################
-  def test_decoded(self):
+  def test_missing_subject_converter(self):
     # TODO
     pass

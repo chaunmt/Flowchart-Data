@@ -33,3 +33,8 @@ class TestCourseChecker(TestCourse):
   def test_is_honors(self):
     # TODO
     pass
+
+  #############################################################################
+  def test_is_valid_subj(self):
+    # TODO
+    pass

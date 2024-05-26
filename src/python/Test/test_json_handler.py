@@ -1,21 +1,21 @@
 from Test.test_setup import *
 
-class TestNestedCourseConverter(TestPrereq):
+class TestJSONHandler():
   """
-  Test module nested_course_converter.
+  Test module json_handler.
   """
 
   #############################################################################
-  def test_encoded_string(self):
+  def test_get_from_path(self):
     # TODO
     pass
 
   #############################################################################
-  def test_encoded(self):
+  def test_get_from_url(self):
     # TODO
     pass
 
   #############################################################################
-  def test_decoded(self):
+  def test_write_to_path(self):
     # TODO
     pass

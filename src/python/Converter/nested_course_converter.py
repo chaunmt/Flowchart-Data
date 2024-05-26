@@ -119,3 +119,4 @@ class NestedCourseConverter:
   def decoded(cls, info: str) -> list:
     """
     """
+    # TODO
