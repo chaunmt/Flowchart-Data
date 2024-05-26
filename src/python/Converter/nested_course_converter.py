@@ -14,12 +14,12 @@ class NestedCourseConverter:
     Substrings enclosed in brackets will be changed into encoded strings.\n
     The encoded process is as follow:
     - Substring enclosed in brackets will be changed into a string with format:\n
-      'NESTEDSTR_' + their index in the encoded substrings list for decoding purpose.\n
+      'NESTEDSTR' + their index in the encoded substrings list for decoding purpose.\n
     - The encoding process starts from inside out.\n
     EX: "Required CSCI 4041 and (CSCI 3081W, [MATH 2033/2021] or instructor consent)."\n
-    ==> nested_str[2] = "Required CSCI 4041 and NESTEDSTR_1"\n
-    with NESTEDSTR_1 = nested_str[1] = "CSCI 3081W, NESTEDSTR_0 or instructor consent"\n
-    with NESTEDSTR_0 = nested_str[0] = "MATH 2033/2021"\n
+    ==> nested_str[2] = "Required CSCI 4041 and NESTEDSTR1"\n
+    with NESTEDSTR1 = nested_str[1] = "CSCI 3081W, NESTEDSTR0 or instructor consent"\n
+    with NESTEDSTR0 = nested_str[0] = "MATH 2033/2021"\n
     """
     # Filter info string's bracket
     info = StringFilterBrackets(info).process()
@@ -45,7 +45,7 @@ class NestedCourseConverter:
           nested_strings.append(enclosed_string)
 
           # Replace the substring with encoded key in the parent string
-          key = f'NESTEDSTR_{len(nested_strings) - 1}'
+          key = f'NESTEDSTR{len(nested_strings) - 1}'
           info = info[:l] + key + info[r + 1:]
           r = l + len(key) - 1
         else:
@@ -70,20 +70,20 @@ class NestedCourseConverter:
     ==> encoded_strings = [
       {
         "or" : {
-          "MATH 2033",
-          "MATH 2021"
+          "MATH2033",
+          "MATH2021"
         }
       },
       {
         "and" : {
-          "CSCI 3081W",
-          "NESTEDSTR_0"
+          "CSCI3081W",
+          "NESTEDSTR0"
         }
       },
       {
         "and" : {
-          "CSCI 4041",
-          "NESTEDSTR_1"
+          "CSCI4041",
+          "NESTEDSTR1"
         }
       }
     ]
