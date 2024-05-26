@@ -4,6 +4,8 @@ class CourseShell:
   """
   CouseShell contains basic information of a course.
   """
+
+  #####################################
   def __init__(
       self,
       uid_: str,
@@ -18,6 +20,7 @@ class CourseShell:
     self.number = number_
     self.honors = honors_
   
+  #####################################
   def __repr__(self):
     return (
       f"CourseShell(\n"
@@ -29,18 +32,22 @@ class CourseShell:
       f")"
     )
 
+###############################################################################
 class PrereqFormat:
   """
   TODO
   An any type is used as a placeholder.\n
   A checker should be made to make sure only acceptable members are presented in this type.
   """
+
+  #####################################
   def __init__(
       self,
       prereq_: any
     ):
     self.prereq = prereq_
   
+  #####################################
   def __repr__(self):
     return (
       f"PrereqFormat(\n"
@@ -48,11 +55,14 @@ class PrereqFormat:
       f")"
     )
 
+###############################################################################
 class Course(CourseShell):
   """
   Course contains all information about a course.\n
   It includes CourseShell with additional fields.
   """
+
+  #####################################
   def __init__(
       self,
       uid_: str,
@@ -76,6 +86,7 @@ class Course(CourseShell):
     self.info = info_
     self.prereq = prereq_
   
+  #####################################
   def __repr__(self):
     return (
       f"Course(\n"
@@ -92,10 +103,13 @@ class Course(CourseShell):
       f")"
     )
 
+###############################################################################
 class ProgramShell:
   """
   ProgramShell contains basic information of a program.
   """
+
+  #####################################
   def __init__(
       self,
       code_: str,
@@ -126,6 +140,7 @@ class ProgramShell:
     self.minDegreeCredit = minDegreeCredit_
     self.maxDegreeCredit = maxDegreeCredit_
   
+  #####################################
   def __repr__(self):
     return (
       f"ProgramShell(\n"
@@ -144,12 +159,15 @@ class ProgramShell:
       f"  maxDegreeCredit = {self.maxDegreeCredit}\n"
       f")"
     )
-    
+
+###############################################################################
 class Program(ProgramShell):
   """
   Program contains all information about a program.\n
   It includes ProgramShell with additional fields.
   """
+
+  #####################################
   def __init__(
       self,
       code_: str,
@@ -185,6 +203,7 @@ class Program(ProgramShell):
 
     # TODO Intialize Program's additional fields
   
+  #####################################
   def __repr__(self):
     # TODO Represend Program's information
     pass

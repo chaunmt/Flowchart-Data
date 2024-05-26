@@ -7,8 +7,10 @@ class NestedCourseConverter:
   """
   Converters dedicated to encoded, decoded, and reformat our nested course info strings.
   """
+
+  #############################################################################
   @staticmethod
-  def encoded_string(self, info: str) -> list:
+  def encoded_string(info: str) -> list:
     """
     This class transform a string into a list of encoded substrings with nested level but no logical operations ('and', 'or').\n
     Substrings enclosed in brackets will be changed into encoded strings.\n
@@ -21,6 +23,7 @@ class NestedCourseConverter:
     with NESTEDSTR1 = nested_str[1] = "CSCI 3081W, NESTEDSTR0 or instructor consent"\n
     with NESTEDSTR0 = nested_str[0] = "MATH 2033/2021"\n
     """
+
     # Filter info string's bracket
     info = StringFilterBracket(info).process()
 
@@ -61,6 +64,7 @@ class NestedCourseConverter:
     # Return the encoded info string and the list of nested encoded substring
     return nested_strings
   
+  #############################################################################
   @classmethod
   def encoded(cls, info: str, target_course_subject: str) -> list:
     """
@@ -88,6 +92,7 @@ class NestedCourseConverter:
       }
     ]
     """
+    
     # Encoded the info string
     encoded_strings = cls.encoded_string(info)
 
@@ -109,8 +114,8 @@ class NestedCourseConverter:
 
     return encoded_strings
 
-
-  
-  def decoded(info: str) -> list:
+  #############################################################################
+  @classmethod
+  def decoded(cls, info: str) -> list:
     """
     """

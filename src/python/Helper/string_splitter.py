@@ -5,14 +5,17 @@ class StringSplitter:
   A class to split a string into a list of strings.
   """
 
+  #############################################################################
   @staticmethod
   def at_index(s: str, index: int) -> list:
     """
     Split string at the specified index and
     return the result list with this character.
     """
+
     return [s[:index + 1], s[index + 1:]]
 
+  #############################################################################
   @staticmethod
   def at_substring(s: str, substring: str) -> list:
     """
@@ -20,9 +23,11 @@ class StringSplitter:
     return the result list without this substring.\n
     Can include empty string member in result list.
     """
+
     splits = s.split(substring)
     return splits
 
+  #############################################################################
   @classmethod
   def at_first_type_occurrence(cls, s: str, split_type: str) -> list:
     """
@@ -31,6 +36,7 @@ class StringSplitter:
     The first string will includes the character at splitted index.\n
     split_type can only be either 'letter' or 'number'.
     """
+
     if split_type == 'letter':
       match = re.search(r"[A-Za-z]", s)
     elif split_type == 'number':
@@ -48,6 +54,7 @@ class StringSplitter:
     # Split the list into two halves at index
     return cls.at_index(s, index)
   
+  #############################################################################
   @classmethod
   def at_last_type_occurrence(cls, s: str, split_type: str) -> list:
     """
@@ -56,6 +63,7 @@ class StringSplitter:
     The second string will includes the character at splitted index.\n
     split_type can only be either 'letter' or 'number'.
     """
+    
     if split_type == 'letter':
       matches = list(re.finditer(r"[A-Za-z]", s))
     elif split_type == 'number':

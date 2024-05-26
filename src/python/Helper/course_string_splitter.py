@@ -8,11 +8,13 @@ class CourseStringSplitter:
   A class to split a course's info string into a list of strings.
   """
   
+  #############################################################################
   @staticmethod
-  def code_into_subj_num_suf(self, s: str) -> list:
+  def code_into_subj_num_suf(s: str) -> list:
     """
     Split a string of Course's code into a list of [subject, number, suffix].
     """
+
     # Remove all spaces
     s = StringFilterSpace(s)
     s = s.process()
@@ -33,11 +35,13 @@ class CourseStringSplitter:
     
     return [subject, number, suffix]
 
+  #############################################################################
   @staticmethod
-  def separate_number_suffix(self, s: str) -> list:
+  def separate_number_suffix(s: str) -> list:
     """
     Split a string of Course's number with suffix into a list of [number, suffix].
     """
+
     # Remove all spaces
     s = StringFilterSpace(s)
     s = s.process()
@@ -56,8 +60,9 @@ class CourseStringSplitter:
 
     return [number, suffix]
 
+  #############################################################################
   @staticmethod
-  def get_course_codes(self, s: str, target_course_subject: str) -> list:
+  def get_course_codes(s: str, target_course_subject: str) -> list:
     """
     Get a list of course's code out of the original string.\n
     Noted: Encoded key's prefix "NESTEDSTR" is treated as a subject,
@@ -66,6 +71,7 @@ class CourseStringSplitter:
     EX: "Students have to take CSCI 2041 and 2021 or NESTEDSTR0."\n
     ==> [ "CSCI2041", "CSCI2021", "NESTEDSTR0" ]\n
     """
+    
     # The regex pattern to get out acceptable code or partial code
     pattern = (
       '\b[A-Za-z]+\s?\d{2,4}[A-Za-z]*\b'  # Full code pattern (EX: CSCI 3081W)
