@@ -1,22 +1,43 @@
 from Helper.string_splitter import *
 from Helper.Checker.course_checker import *
 
+# Prevent circular import
+import Helper.course_string_splitter as CourseStringSplitter
+
 class PrereqLogicConverter:
   """
   Converters dedicated to implement logic into our prerequisites.
   """
 
   #############################################################################
-  @classmethod
-  def logical_operation_converter(
-      cls,
-      s: str,
-      target_course_subject: str
-    ) -> list:
+  @staticmethod
+  def logical_op_converter(info: str, target_course_subject: str) -> list:
     """
+    Convert an info string into a list of logical prerequisites.\n
+    Note: For ambiguous case like multiple 'and', 'or' in same nested level.
+    Operation 'and' will be prioritized.
     """
 
-    pass
+    # Convert 'A and B' into { and : ['A', 'B'] }
+    if 'and' in str:
+      return {
+        'and' : CourseStringSplitter.get_course_codes(
+          info,
+          target_course_subject
+        )
+      }
+    
+    # Convert 'A or B' into { or : ['A', 'B'] }
+    if 'or' in str:
+      return {
+        'or' : CourseStringSplitter.get_course_codes(
+          info,
+          target_course_subject
+        )
+      }
+    
+    # Convert 'A B' into ['A', 'B']
+    return CourseStringSplitter.get_course_codes(info, target_course_subject)
   
   #############################################################################
   @staticmethod
