@@ -2,6 +2,7 @@ import re
 from Helper.Checker.string_checker import *
 from Filter.string_filter import StringFilterSpace
 from Filter.filter import *
+from Converter.prereq_logic_converter import *
 
 class StringSplitter:
   """
@@ -130,5 +131,30 @@ class StringSplitter:
     return [number, suffix]
 
   @classmethod
-  def get_courses(cls, s: str) -> list:
-    pass
+  def get_course_codes(cls, s: str) -> list:
+    """
+    Get a list of course's code out of the original string.\n
+    Noted: Encoded key's prefix "NESTEDSTR" is treated as a subject, making the complete key a valid course's code.\n
+    EX: "Students have to take CSCI 2041 and 2021 or NESTEDSTR0."\n
+    ==> [ "CSCI2041", "CSCI2021", "NESTEDSTR0" ]\n
+    """
+    # The regex pattern to get out acceptable code or partial code
+    pattern = (
+      '\b[A-Za-z]+\s?\d{2,4}[A-Za-z]*\b'  # Full code pattern (EX: CSCI 3081W)
+      + '\b\d{2,4}[A-Za-z]*\b'  # No subject code pattern (EX: 3081W)
+      + '\bNESTEDSTR\d+\b'  # Encoded key pattern (EX: NESTEDSTR0)
+    )
+
+    # Get the list of matches strings
+    course_codes = re.findall(pattern, s)
+
+    # Filter
+    for i, code in enumerate(course_codes):
+      course_codes[i] = PrereqLogicConverter.missing_subject_converter(code)
+    
+    return course_codes
+
+    
+    
+
+    
