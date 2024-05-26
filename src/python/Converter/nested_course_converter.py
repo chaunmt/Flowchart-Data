@@ -22,7 +22,7 @@ class NestedCourseConverter:
     with NESTEDSTR0 = nested_str[0] = "MATH 2033/2021"\n
     """
     # Filter info string's bracket
-    info = StringFilterBrackets(info).process()
+    info = StringFilterBracket(info).process()
 
     # Set up
     nested_strings = []
@@ -101,7 +101,10 @@ class NestedCourseConverter:
     # Convert the list of encoded substrings into a nested logical structure
     for index, encoded_string in enumerate(encoded_strings):
       encoded_strings[index] = (
-        PrereqLogicConverter.logical_operation_converter(encoded_string)
+        PrereqLogicConverter.logical_operation_converter(
+          encoded_string,
+          target_course_subject
+        )
       )
 
     return encoded_strings
