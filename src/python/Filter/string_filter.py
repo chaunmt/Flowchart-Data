@@ -1,7 +1,7 @@
 import re
 
 from Filter.filter import Filter
-import Helper.string_splitter as HelpSplit
+from Helper.string_splitter import *
 
 class StringFilter(Filter):
   allowed_type = str
@@ -14,7 +14,7 @@ class StringFilterSpace(StringFilter):
     """
     return self.item.replace(' ', '')
 
-class StringFilterSigns(StringFilter):
+class StringFilterSign(StringFilter):
   def process(self):
     """
     Replace certain signs with corresponding words
@@ -26,7 +26,7 @@ class StringFilterSigns(StringFilter):
     item_ = item_.replace("&", " and ")
     return item_
 
-class StringFilterBrackets(StringFilter):
+class StringFilterBracket(StringFilter):
   def process(self):
     """
     Replace parentheses with square brackets.
@@ -43,7 +43,7 @@ class StringFilterRedundancy(StringFilter):
     and return the new string.
     """
     item_ = self.item
-    item_ = HelpSplit.StringSplitter.at_last_type_occurrence(
+    item_ = StringSplitter.at_last_type_occurrence(
       item_, 'number'
     )[0]
     return item_
