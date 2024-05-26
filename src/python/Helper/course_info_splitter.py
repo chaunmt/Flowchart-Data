@@ -3,14 +3,14 @@ from Helper.Checker.string_checker import *
 from Converter.prereq_logic_converter import *
 from Filter.string_filter import *
 
-class CourseStringSplitter:
+class CourseInfoSplitter:
   """
   A class to split a course's info string into a list of strings.
   """
   
   #############################################################################
-  @staticmethod
-  def code_into_subj_num_suf(s: str) -> list:
+  @classmethod
+  def code_into_subj_num_suf(cls, s: str) -> list:
     """
     Split a string of Course's code into a list of [subject, number, suffix].
     """
@@ -20,7 +20,7 @@ class CourseStringSplitter:
     s = s.process()
 
     if (
-      StringChecker.has_signs(s) or   # code does not have sign
+      StringChecker.has_sign(s) or   # code does not have sign
       StringChecker.is_empty(s) or    # code can't be empty
       not StringChecker.has_number(s) # code has to have number
     ):
@@ -31,7 +31,7 @@ class CourseStringSplitter:
     if StringChecker.is_empty(subject):
       subject = None
     
-    number, suffix = StringSplitter.separate_number_suffix(number)
+    number, suffix = cls.separate_number_suffix(number)
     
     return [subject, number, suffix]
 
@@ -47,7 +47,7 @@ class CourseStringSplitter:
     s = s.process()
 
     if (
-      StringChecker.has_signs(s) or   # code does not have sign
+      StringChecker.has_sign(s) or   # code does not have sign
       StringChecker.is_empty(s) or    # code can't be empty
       not StringChecker.has_number(s) # code has to have number
     ):

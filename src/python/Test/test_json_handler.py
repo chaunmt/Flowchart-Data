@@ -1,6 +1,6 @@
 from Test.test_setup import *
 
-class TestJSONHandler():
+class TestJSONHandler(TestCourse):
   """
   Test module json_handler.
   """

@@ -2,7 +2,7 @@ from Helper.string_splitter import *
 from Helper.Checker.course_checker import *
 
 # Prevent circular import
-import Helper.course_string_splitter as CourseStringSplitter
+import Helper.course_info_splitter as CourseInfoSplit
 
 class PrereqLogicConverter:
   """
@@ -21,7 +21,7 @@ class PrereqLogicConverter:
     # Convert 'A and B' into { and : ['A', 'B'] }
     if 'and' in str:
       return {
-        'and' : CourseStringSplitter.get_course_codes(
+        'and' : CourseInfoSplit.get_course_codes(
           info,
           target_course_subject
         )
@@ -30,14 +30,14 @@ class PrereqLogicConverter:
     # Convert 'A or B' into { or : ['A', 'B'] }
     if 'or' in str:
       return {
-        'or' : CourseStringSplitter.get_course_codes(
+        'or' : CourseInfoSplit.get_course_codes(
           info,
           target_course_subject
         )
       }
     
     # Convert 'A B' into ['A', 'B']
-    return CourseStringSplitter.get_course_codes(info, target_course_subject)
+    return CourseInfoSplit.get_course_codes(info, target_course_subject)
   
   #############################################################################
   @staticmethod

@@ -1,5 +1,3 @@
-from typing import List, Union
-
 class CourseShell:
   """
   CouseShell contains basic information of a course.

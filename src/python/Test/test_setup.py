@@ -9,6 +9,9 @@ import unittest
 
 from Helper.new_types import *
 from Helper.string_splitter import *
+from Helper.course_info_splitter import *
+from Helper.json_handler import *
+
 from Helper.Checker.string_checker import *
 from Helper.Checker.course_checker import *
 
@@ -16,6 +19,9 @@ from Filter.filter import *
 from Filter.string_filter import *
 from Filter.course_filter import *
 from Filter.prereq_filter import *
+
+from Converter.nested_course_converter import *
+from Converter.prereq_logic_converter import *
 
 ###############################################################################
 # Helper functions for all unit tests.
@@ -158,13 +164,14 @@ class TestPrereq(TestCourse):
   """
 
   def setUp(self):
+    TestCourse.setUp(self)
     self.p1 = PrereqFormat(self.course_shells[0])
     self.p2 = PrereqFormat(self.course_shells)
     self.p3 = PrereqFormat({'and' : self.course_shells})
     self.p3 = PrereqFormat({'and' : { self.course_shells[0] } })
 
   def tearDown(self):
-    pass
+    TestCourse.tearDown(self)
 
 #######################################
 class TestFilter(unittest.TestCase):

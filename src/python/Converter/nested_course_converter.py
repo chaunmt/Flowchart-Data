@@ -1,7 +1,7 @@
 from Helper.Checker.string_checker import *
 from Filter.string_filter import *
 
-from python.Converter.prereq_logic_converter import *
+from Converter.prereq_logic_converter import *
 
 class NestedCourseConverter:
   """

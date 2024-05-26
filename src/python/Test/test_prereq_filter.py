@@ -1,14 +1,9 @@
 from Test.test_setup import *
 
-class TestPrereqFilter(unittest.TestCase):
+class TestPrereqFilter(TestPrereq):
   """
   Test module prereq_filter.
   """
 
   #############################################################################
-  def setUp(self):
-    pass
-  
-  #############################################################################
-  def tearDown(self):
-    pass
+  pass
