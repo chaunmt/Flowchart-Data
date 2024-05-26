@@ -4,16 +4,20 @@ class TestNewTypes(TestString, TestPrereq):
   """
   Test module new_types
   """
+
+  #############################################################################
   def setUp(self):
     TestString.setUp(self)
     TestCourse.setUp(self)
     TestPrereq.setUp(self)
 
+  #############################################################################
   def tearDown(self):
     TestString.tearDown(self)
     TestCourse.tearDown(self)
     TestPrereq.tearDown(self)
 
+  #############################################################################
   def test_course_shell(self):
     for index, shell in enumerate(self.course_shells):
       assert_eq(
@@ -37,6 +41,7 @@ class TestNewTypes(TestString, TestPrereq):
         self.course_shell_data[index]['honors_']
       )
 
+  #############################################################################
   def test_course(self):
     for index, course in enumerate(self.courses):
       assert_eq(
@@ -80,6 +85,7 @@ class TestNewTypes(TestString, TestPrereq):
         self.course_data[index]['prereq_']
       )
 
+  #############################################################################
   def test_prereq_format(self):
     # Test single CourseShell
     assert_eq(
@@ -103,10 +109,12 @@ class TestNewTypes(TestString, TestPrereq):
     for index, shell in enumerate(self.course_shells):
       assert_eq(self.p2.prereq[index], shell)
 
+  #############################################################################
   def test_program_shell(self):
     # TODO
     pass
 
+  #############################################################################
   def test_program(self):
     # TODO
     pass

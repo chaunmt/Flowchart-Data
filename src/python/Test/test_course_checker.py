@@ -4,6 +4,8 @@ class TestCourseChecker(TestCourse):
   """
   Test module course_checker.
   """
+
+  #############################################################################
   def test_is_equal(self):
     # Test for Course type
     assert CourseChecker.is_equal(self.courses[0], self.courses[0]) == True
@@ -21,3 +23,13 @@ class TestCourseChecker(TestCourse):
     # Test for objects of different types
     assert CourseChecker.is_equal(
       self.courses[0], self.course_shells[0]) == False
+  
+  #############################################################################
+  def test_is_writing(self):
+    # TODO
+    pass
+  
+  #############################################################################
+  def test_is_honors(self):
+    # TODO
+    pass

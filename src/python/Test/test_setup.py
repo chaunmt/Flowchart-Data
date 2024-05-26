@@ -20,30 +20,36 @@ from Filter.prereq_filter import *
 ###############################################################################
 # Helper functions for all unit tests.
 
+#######################################
 def merge_lists(list1, list2):
   """
   Merge members at the same index of 2 lists together.
   """
+  
   merged_list = []
   for first, second in zip(list1, list2):
     merged_list.append({**first, **second})
 
   return merged_list
 
+#######################################
 def assert_eq(result, goal):
   """
   Assert whether result equals goal.\n
   If not, print out the unwanted result.
   """
+
   assert result == goal, f"Unwanted result: {result}"
 
 ###############################################################################
 # Parent classes to setup and teardown its children test classes.
 
+#######################################
 class TestString(unittest.TestCase):
   """
   Parent class for all string tests.
   """
+
   def setUp(self):
     self.s1 = 'Hello, world!'
     self.s2 = 'Python  is   fun!'
@@ -63,10 +69,12 @@ class TestString(unittest.TestCase):
   def tearDown(self):
     pass
 
+#######################################
 class TestCourse(unittest.TestCase):
   """
   Parent class for all course tests.
   """
+
   def setUp(self):
     self.course_shell_data = [
       {
@@ -143,10 +151,12 @@ class TestCourse(unittest.TestCase):
   def tearDown(self):
     pass
 
+#######################################
 class TestPrereq(TestCourse):
   """
   Parent class for all prereq tests.
   """
+
   def setUp(self):
     self.p1 = PrereqFormat(self.course_shells[0])
     self.p2 = PrereqFormat(self.course_shells)
@@ -156,9 +166,11 @@ class TestPrereq(TestCourse):
   def tearDown(self):
     pass
 
+#######################################
 class TestFilter(unittest.TestCase):
   """
   Parent class for all filter tests.
   """
+
   # Class Filter is tested with its children classes
   pass

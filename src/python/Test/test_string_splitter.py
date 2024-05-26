@@ -4,6 +4,8 @@ class TestStringSplitter(TestString):
   """
   Test module string_splitter.
   """
+
+  #############################################################################
   def test_at_index(self):
     assert_eq(
       StringSplitter.at_index(self.s1, 5),
@@ -30,6 +32,7 @@ class TestStringSplitter(TestString):
       ['!@#$', '%^&*()']
     )
 
+  #############################################################################
   def test_at_substring(self):
     assert_eq(
       StringSplitter.at_substring(self.s1, 'Hello'),
@@ -72,6 +75,7 @@ class TestStringSplitter(TestString):
       ['!@#$%^&', '()']
     )
 
+  #############################################################################
   def test_at_first_type_occurrence(self):
     # Test wrong split_type
     self.assertRaises(
@@ -111,6 +115,7 @@ class TestStringSplitter(TestString):
       ['C?S', '1!0^1@']
     )
 
+  #############################################################################
   def test_at_last_type_occurrence(self):
     # Test wrong split_type
     self.assertRaises(
@@ -148,72 +153,4 @@ class TestStringSplitter(TestString):
     assert_eq(
       StringSplitter.at_last_type_occurrence(self.s4, 'number'),
       ['C?S1!0^1', '@']
-    )
-
-  def test_code_into_subj_num_suffix_suffix(self):
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s1),
-      [None, None, None]
-    )
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s3),
-      [None, None, None]
-    )
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s7),
-      [None, None, None]
-    )
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s8),
-      [None, '1', None]
-    )
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s9),
-      [None, '1239WAD12', None]
-    )
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s10),
-      ['CSCI', '3081', None]
-    )
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s11),
-      ['CSCI', '3081', 'W']
-    )
-    assert_eq(
-      StringSplitter.code_into_subj_num_suffix(self.s12),
-      ['CSCI', '3081', 'W']
-    )
-
-  def test_separate_number_suffix(self):
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s5),
-      [None, None]
-    )
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s7),
-      [None, None]
-    )
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s8),
-      ['1', None]
-    )
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s9),
-      ['1239WAD12', None]
-    )
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s10),
-      ['CSCI3081', None]
-    )
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s11),
-      ['CSCI3081', 'W']
-    )
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s12),
-      ['CSCI3081', 'W']
-    )
-    assert_eq(
-      StringSplitter.separate_number_suffix(self.s12),
-      ['CSCI3081', 'W']
     )

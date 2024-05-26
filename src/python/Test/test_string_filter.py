@@ -4,6 +4,8 @@ class TestStringFilter(TestString):
   """
   Test cases for module string_filter
   """
+
+  #############################################################################
   def test_string_filter_space(self):
     # Test for allowed type
     assert_eq(
@@ -37,31 +39,38 @@ class TestStringFilter(TestString):
       StringFilterSpace, None
     )
 
+  #############################################################################
   def test_string_filter_signs(self):
     # Test for allowed type
     assert_eq(
-      StringFilterSigns(self.s1).process(),
+      StringFilterSign(self.s1).process(),
       'Hello and  world!'
     )
     assert_eq(
-      StringFilterSigns(self.s6).process(),
+      StringFilterSign(self.s6).process(),
       '!@#$%^ and *()'
     )
     assert_eq(
-      StringFilterSigns(self.s14).process(),
+      StringFilterSign(self.s14).process(),
       'CSCI 4041 or 3081 and 3081W or 2041 and 2021'
     )
 
     # Test for disallowed type
     self.assertRaises(
       TypeError,
-      StringFilterSigns, 12
+      StringFilterSign, 12
     )
     self.assertRaises(
       TypeError,
-      StringFilterSigns, None
+      StringFilterSign, None
     )
 
+  #############################################################################
+  def test_string_filter_bracket(self):
+    # TODO
+    pass
+
+  #############################################################################
   def test_string_filter_redundancy(self):
     # Test for allowed type
     assert_eq(

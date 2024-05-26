@@ -4,6 +4,13 @@ class TestStringChecker(TestString):
   """
   Test module string_checker.
   """
+
+  #############################################################################
+  def test_is_empty(self):
+    # TODO
+    pass
+
+  #############################################################################
   def test_has_number(self):
     assert StringChecker.has_number(self.s1) == False
     assert StringChecker.has_number(self.s3) == True
@@ -12,14 +19,21 @@ class TestStringChecker(TestString):
     assert StringChecker.has_number(self.s7) == False
     assert StringChecker.has_number(self.s8) == True
 
-  def test_has_word(self):
+  #############################################################################
+  def test_has_letter(self):
     assert StringChecker.has_letter(self.s2) == True
     assert StringChecker.has_letter(self.s3) == False
     assert StringChecker.has_letter(self.s4) == True
     assert StringChecker.has_letter(self.s5) == True
     assert StringChecker.has_letter(self.s6) == False
     assert StringChecker.has_letter(self.s7) == False
+  
+  #############################################################################
+  def test_has_sign(self):
+    # TODO
+    pass
 
+  #############################################################################
   def test_includes(self):
     assert StringChecker.includes(self.s1, 'Hello') == True
     assert StringChecker.includes(self.s3, '123') == False

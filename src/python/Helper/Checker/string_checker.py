@@ -27,7 +27,7 @@ class StringChecker:
     return any(char.isalpha() for char in s)
   
   @staticmethod
-  def has_signs(s: str) -> bool:
+  def has_sign(s: str) -> bool:
     """
     Check whether a string contains a any sign.
     """
