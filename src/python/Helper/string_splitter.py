@@ -131,7 +131,7 @@ class StringSplitter:
     return [number, suffix]
 
   @classmethod
-  def get_course_codes(cls, s: str) -> list:
+  def get_course_codes(cls, s: str, target_course_subject: str) -> list:
     """
     Get a list of course's code out of the original string.\n
     Noted: Encoded key's prefix "NESTEDSTR" is treated as a subject, making the complete key a valid course's code.\n
@@ -148,9 +148,15 @@ class StringSplitter:
     # Get the list of matches strings
     course_codes = re.findall(pattern, s)
 
-    # Filter
-    for i, code in enumerate(course_codes):
-      course_codes[i] = PrereqLogicConverter.missing_subject_converter(code)
+    # Convert all partial codes into full code format
+    course_codes = PrereqLogicConverter.missing_subject_converter(
+      course_codes,
+      target_course_subject
+    )
+    
+    # Remove all space to follow CourseDog's course code format
+    for index, code in enumerate(course_codes):
+      course_codes[index] = StringFilterSpace(code).process()
     
     return course_codes
 
