@@ -15,9 +15,10 @@ class JSONHandler:
     """
 
     if not os.path.exists(path):
-      raise FileNotFoundError(f'File not found: {path}')
+      raise FileNotFoundError(f'File not found: {path}.')
     
     with open(path, 'r') as file:
+      print(f'Data is fetched from {path}.')
       return json.load(file)
   
   #############################################################################
@@ -32,6 +33,7 @@ class JSONHandler:
     # Raise an exception on bad response's status code
     response.raise_for_status()
 
+    # print(f'Data is fetched from {url}.')
     return response.json()
 
   #############################################################################
@@ -44,3 +46,5 @@ class JSONHandler:
     # If the file is not exist, a new file will be made
     with open(path, 'w') as file:
       json.dump(data, file, indent = 2)
+    
+    print(f'Data is dumped to {path}.')

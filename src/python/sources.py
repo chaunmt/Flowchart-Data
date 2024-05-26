@@ -1,14 +1,14 @@
-import json
-import requests
-
+from Helper.json_handler import *
 from Helper.Checker.course_checker import *
 from Helper.string_splitter import *
 from Filter.prereq_filter import *
 
+###############################################################################
 def get_full_filepath(schoolId, subject, isHonor):
-  '''
+  """
   Get full file path for output file.
-  '''
+  """
+
   # Set school's file path
   if schoolId == 'umn_umntc_peoplesoft':
     filePath = '../../data/UMNTC/'
@@ -26,10 +26,12 @@ def get_full_filepath(schoolId, subject, isHonor):
 
   return filePath + fileName
 
+###############################################################################
 def generate_Dog_URL(schoolId, subject):
-  '''
+  """
   Generate CourseDog's API URL for Course.
-  '''
+  """
+
   # Set fields
   subjectCode = subject
   if subject == 'allCourses':
@@ -59,38 +61,28 @@ def generate_Dog_URL(schoolId, subject):
 
   return apiURL
 
+###############################################################################
 def get_JSON_from_Dogs(schoolId, subject, isProgram):
   """
   Get raw JSON data from CourseDog API.
   """
+
   # Request data from CourseDog API
   if isProgram:
-    # TODO Add work for programs
-    response = None
-    return {}
+    # TODO Add work for program
+    data = {'No work on program'}
   else:
-    response = requests.get(generate_Dog_URL(schoolId, subject))
+    data = JSONHandler.get_from_url(generate_Dog_URL(schoolId, subject))
 
-  # If sucessfully fetch data, return json
-  if response.status_code == 200:
-    data = response.json()
-    print('Data is fetched for ' + subject)
-    return data
-  else:
-    # Print errors on failing to fetch data
-    print('Error: ' + response.status_code)
-    print('Failed to fetch data for ' + subject)
-    return {}
+  print('Data is fetched for ' + subject)
+  return data
 
-def write_JSON_to_file(data, path):
-  """
-  Write JSON data to file.
-  """
-  with open(path, 'w') as json_file:
-    json.dump(data, json_file, indent = 2)
-  print('JSON data written to ' + path)
-
+###############################################################################
 def find_prereq_splitter(info):
+  """
+  The the splitter substring for prerequisites from info string.
+  """
+  
   # Possible split patterns for prerequisites
   split_patterns = [
     "prereq:",
@@ -109,7 +101,12 @@ def find_prereq_splitter(info):
   
   return split_pattern
 
+###############################################################################
 def get_prereq_string(info):
+  """
+  Get the prerequisites string from the info string.
+  """
+  
   # Split prereq from info
   info = info.lower()
   split_pattern = find_prereq_splitter(info)
@@ -123,14 +120,19 @@ def get_prereq_string(info):
 
   return prereq_string
 
+###############################################################################
 def process_program_shell(data, getHonors):
   """
   """
 
+  # TODO
+
+###############################################################################
 def process_program_full(data, getHonors):
   """
   Process JSON data to get Course JSON.
   """
+
   processed_data = []
 
   for course in data:
@@ -162,10 +164,12 @@ def process_program_full(data, getHonors):
 
   return processed_data
 
+###############################################################################
 def process_course_shell(data, getHonors):
   """
   Process JSON data to get CourseShell JSON.
   """
+
   processed_data = []
 
   for course in data:
@@ -188,15 +192,20 @@ def process_course_shell(data, getHonors):
 
   return processed_data
 
+###############################################################################
 def process_course_full(data, getHonors):
   """
   Process JSON data to get Course JSON.
   """
+  
+  # TODO
 
+###############################################################################
 def get_output_file(schoolId, subject, isProgram, isHonor):
   """
   Generate output json file.
   """
+
   # Get raw json data from CourseDog API
   raw = get_JSON_from_Dogs(schoolId, subject, isProgram)
   raw = raw['data']
@@ -213,12 +222,14 @@ def get_output_file(schoolId, subject, isProgram, isHonor):
   
   # Write processed json data to output file
   path = get_full_filepath(schoolId, subject, isHonor)
-  write_JSON_to_file(processed, path)
+  JSONHandler.write_to_path(processed, path)
 
+###############################################################################
 def get_all_JSON():
   """
   Get all JSON files.
   """
+
   get_output_file('umn_umntc_peoplesoft', 'allCourses', False, False)
   # TODO get JSON from all subjects.
   # TODO get JSON from all programs.
