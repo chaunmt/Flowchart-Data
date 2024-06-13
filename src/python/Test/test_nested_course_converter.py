@@ -1,21 +1,39 @@
-from Test.test_setup import *
+"""
+This module contains test cases for class NestedCourseConverter from module nested_course_converter.
+"""
+
+from python.converter.nested_course_converter import NestedCourseConverter
+
+from python.test.test_setup import TestPrereq
 
 class TestNestedCourseConverter(TestPrereq):
-  """
-  Test module nested_course_converter.
-  """
+    """
+    Test cases for class NestedCourseConverter from module nested_course_converter.
+    """
 
-  #############################################################################
-  def test_encoded_string(self):
-    # TODO
-    pass
+    #############################################################################
+    def test_encoded_string(self):
+        """
+        Test method encoded_string of class NestedCourseConverter.
+        """
 
-  #############################################################################
-  def test_encoded(self):
-    # TODO
-    pass
+        # TODO
+        pass
 
-  #############################################################################
-  def test_decoded(self):
-    # TODO
-    pass
+    #############################################################################
+    def test_encoded(self):
+        """
+        Test method encoded of class NestedCourseConverter.
+        """
+
+        # TODO
+        pass
+
+    #############################################################################
+    def test_decoded(self):
+        """
+        Test method decoded of class NestedCourseConverter.
+        """
+
+        # TODO
+        pass

@@ -1,21 +1,39 @@
-from Test.test_setup import *
+"""
+This module contains test cases for class PrereqLogicConverter from module prereq_logic_converter.
+"""
+
+from python.converter.prereq_logic_converter import PrereqLogicConverter
+
+from python.test.test_setup import TestPrereq
 
 class TestPrereqLogicConverter(TestPrereq):
-  """
-  Test module prereq_logic_converter.
-  """
+    """
+    Test cases for class PrereqLogicConverter from module prereq_logic_converter.
+    """
 
-  #############################################################################
-  def test_logical_op_converter(self):
-    # TODO
-    pass
+    #############################################################################
+    def test_logical_op_converter(self):
+        """
+        Test method logical_op_converter of class PrereqLogicConverter.
+        """
 
-  #############################################################################
-  def test_replace_empty_subj(self):
-    # TODO
-    pass
+        # TODO
+        pass
 
-  #############################################################################
-  def test_missing_subject_converter(self):
-    # TODO
-    pass
+    #############################################################################
+    def test_replace_empty_subj(self):
+        """
+        Test method replace_empty_subj of class PrereqLogicConverter.
+        """
+
+        # TODO
+        pass
+
+    #############################################################################
+    def test_missing_subject_converter(self):
+        """
+        Test method missing_subject_converter of class PrereqLogicConverter.
+        """
+
+        # TODO
+        pass

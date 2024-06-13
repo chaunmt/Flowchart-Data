@@ -1,59 +1,81 @@
-import re
+"""
+This module contains classes which
+filter string component and return the new string.
+"""
 
-from Filter.filter import Filter
-from Helper.string_splitter import *
+from python.filter.filter import Filter
+from python.helper.string_splitter import StringSplitter
 
 ###############################################################################
 class StringFilter(Filter):
-  allowed_type = str
+    """
+    This is the base class for all string filter classes.
+    """
+
+    allowed_type = str
 
 ###############################################################################
 class StringFilterSpace(StringFilter):
-  def process(self):
     """
-    Delete all spaces in string component
-    and return the new string.
+    This class filter spaces in string.
     """
 
-    return self.item.replace(' ', '')
+    def process(self):
+        """
+        Delete all spaces in string component
+        and return the new string.
+        """
+
+        return self.item.replace(' ', '')
 
 ###############################################################################
 class StringFilterSign(StringFilter):
-  def process(self):
     """
-    Replace certain signs with corresponding words
-    and return the new string.
+    This class filter signs in string.
     """
 
-    item_ = self.item
-    item_ = item_.replace(",", " and ")
-    item_ = item_.replace("/", " or ")
-    item_ = item_.replace("&", " and ")
-    return item_
+    def process(self):
+        """
+        Replace certain signs with corresponding words
+        and return the new string.
+        """
+
+        item_ = self.item
+        item_ = item_.replace(",", " and ")
+        item_ = item_.replace("/", " or ")
+        item_ = item_.replace("&", " and ")
+        return item_
 
 ###############################################################################
 class StringFilterBracket(StringFilter):
-  def process(self):
     """
-    Replace parentheses with square brackets.
+    This class filter brackets in string.
     """
 
-    item_ = self.item
-    item_ = item_.replace("(", "[")
-    item_ = item_.replace(")", "]")
-    return item_
+    def process(self):
+        """
+        Replace parentheses with square brackets.
+        """
+
+        item_ = self.item
+        item_ = item_.replace("(", "[")
+        item_ = item_.replace(")", "]")
+        return item_
 
 ###############################################################################
 class StringFilterRedundancy(StringFilter):
-  def process(self):
     """
-    Delete all redundant substrings
-    and return the new string.
+    This class filter redundancies in string.
     """
-    
-    item_ = self.item
-    item_ = StringSplitter.at_last_type_occurrence(
-      item_, 'number'
-    )[0]
-    return item_
 
+    def process(self):
+        """
+        Delete all redundant substrings
+        and return the new string.
+        """
+
+        item_ = self.item
+        item_ = StringSplitter.at_last_type_occurrence(
+            item_, 'number'
+        )[0]
+        return item_

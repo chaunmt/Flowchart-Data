@@ -1,68 +1,69 @@
-import os
-import json
+"""
+This module contains class CourseChecker which
+perform checks on Course type related object.
+"""
 
-from Helper.new_types import Course, CourseShell
-from Helper.json_handler import *
+from python.helper.new_types import Course, CourseShell
+from python.helper.json_handler import JSONHandler
 
 class CourseChecker:
-  """
-  Perform checks on Course type related object.
-  """
-
-  #############################################################################
-  @staticmethod
-  def is_equal(a: Course | CourseShell, b: Course | CourseShell) -> bool:
     """
-    Check whether 2 Course are the same.
+    Perform checks on Course type related object.
     """
 
-    # We can't compared objects of different types
-    if not (type(a) == type(b)):
-      return False
-    
-    if not (a.uid == b.uid):
-      return False
+    #############################################################################
+    @staticmethod
+    def is_equal(a: Course | CourseShell, b: Course | CourseShell) -> bool:
+        """
+        Check whether 2 Course are the same.
+        """
 
-    return True
+        # We can't compared objects of different types/instances
+        if not isinstance(a) == isinstance(b):
+            return False
 
-  #############################################################################
-  @staticmethod
-  def is_honor(course_suffix: str) -> bool:
-    """
-    Check whether a course is an honors course based on its code's suffix.
-    """
+        if not a.uid == b.uid:
+            return False
 
-    if course_suffix == 'H' or course_suffix == 'V':
-      return True
-    return False
-  
-  #############################################################################
-  @staticmethod
-  def is_writing(course_suffix: str) -> bool:
-    """
-    Check whether a course is a writing course based on its code's suffix.
-    """
+        return True
 
-    if course_suffix == 'W' or course_suffix == 'V':
-      return True
-    return False
-  
-  #############################################################################
-  @staticmethod
-  def is_valid_subj(course_subject: str) -> bool:
-    """
-    Check whether a course's subject is valid.
-    """
+    #############################################################################
+    @staticmethod
+    def is_honors(course_suffix: str) -> bool:
+        """
+        Check whether a course is an honors course based on its code's suffix.
+        """
 
-    # Get JSON data for valid subject codes
-    path = '../../../../data/UMNTC/subjectNames.json'
-    data = JSONHandler.get_from_path(path)
+        if course_suffix in ('H', 'V'):
+            return True
+        return False
 
-    if course_subject in data['department']:
-      return True
-    
-    if course_subject in data['libed']:
-      return True
-    
-    return False
+    #############################################################################
+    @staticmethod
+    def is_writing(course_suffix: str) -> bool:
+        """
+        Check whether a course is a writing course based on its code's suffix.
+        """
 
+        if course_suffix in ('W', 'V'):
+            return True
+        return False
+
+    #############################################################################
+    @staticmethod
+    def is_valid_subj(course_subject: str) -> bool:
+        """
+        Check whether a course's subject is valid.
+        """
+
+        # Get JSON data for valid subject codes
+        path = '../../../../data/UMNTC/subjectNames.json'
+        data = JSONHandler.get_from_path(path)
+
+        if course_subject in data['department']:
+            return True
+
+        if course_subject in data['libed']:
+            return True
+
+        return False
