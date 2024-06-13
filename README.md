@@ -14,6 +14,7 @@ __Table of Contents__
   - [3. PostgreSQL](#3-postgresql)
   - [4. Sample](#4-sample)
   - [5. Configuration](#5-configuration)
+  - [6. Diagram](#6-diagram)
 
 ## 1. How to run?
 - Run from `src/python`.
@@ -70,3 +71,6 @@ __Table of Contents__
 
 ## 5. Configuration
 - `.pylintrc` holds the configuration for pylint.
+
+## 6. Diagram
+
