@@ -18,8 +18,12 @@ class CourseChecker:
         Check whether 2 Course are the same.
         """
 
+        # NoneType is not a valid object to compare
+        if not a or not b:
+            return False
+
         # We can't compared objects of different types/instances
-        if not isinstance(a) == isinstance(b):
+        if not (isinstance(a, type(b)) and isinstance(b, type(a))):
             return False
 
         if not a.uid == b.uid:
@@ -29,41 +33,67 @@ class CourseChecker:
 
     #############################################################################
     @staticmethod
-    def is_honors(course_suffix: str) -> bool:
-        """
-        Check whether a course is an honors course based on its code's suffix.
-        """
-
-        if course_suffix in ('H', 'V'):
-            return True
-        return False
-
-    #############################################################################
-    @staticmethod
-    def is_writing(course_suffix: str) -> bool:
+    def is_writing(suffix: str) -> bool:
         """
         Check whether a course is a writing course based on its code's suffix.
         """
 
-        if course_suffix in ('W', 'V'):
+        if suffix in ('W', 'V'):
             return True
         return False
 
     #############################################################################
     @staticmethod
-    def is_valid_subj(course_subject: str) -> bool:
+    def is_honors(suffix: str) -> bool:
+        """
+        Check whether a course is an honors course based on its code's suffix.
+        """
+
+        if suffix in ('H', 'V'):
+            return True
+        return False
+
+    #############################################################################
+    @staticmethod
+    def is_valid_subj(subject: str) -> bool:
         """
         Check whether a course's subject is valid.
         """
 
         # Get JSON data for valid subject codes
-        path = '../../../../data/UMNTC/subjectNames.json'
+        path = '../data/UMNTC/allSubjects.json'
         data = JSONHandler.get_from_path(path)
 
-        if course_subject in data['department']:
+        # Only department code is a valid subject code
+        if subject in data:
             return True
 
-        if course_subject in data['libed']:
+        return False
+
+    #############################################################################
+    @staticmethod
+    def is_valid_num(number: str) -> bool:
+        """
+        Check whether a course's number is valid.
+        """
+
+        # NoneType is not a valid number
+        if not number:
+            return False
+
+        # Remove '0' prefix
+        number = number.lstrip('0')
+
+        return number.isdigit() and len(number) == 4
+
+    #############################################################################
+    @staticmethod
+    def is_valid_suf(suffix: str) -> bool:
+        """
+        Check whether a course's suffix is valid.
+        """
+
+        if suffix in ['', 'W', 'H', 'V']:
             return True
 
         return False
