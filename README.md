@@ -17,20 +17,20 @@ __Table of Contents__
   - [6. Diagram](#6-diagram)
 
 ## 1. How to run?
-- Run from `src/python`.
+- Run from `src`.
 
 ### Main
-    python3 -m sources
+    python3 -m python.sources
 
 ### Test
     # Run all tests
-    python3 -m run_tests
+    python3 -m python.run_tests
 
     # Run a module test
-    python3 -m Test.test_file_name.module_name
+    python3 -m python.test.test_file_name.module_name
 
     # Run a method test
-    python3 -m Test.test_file_name.module_name.method_name
+    python3 -m python.test.test_file_name.module_name.method_name
 
 - `run_tests.py` can be modified to run only specified tests.
 - For more information, check: [unnittest documentation](https://docs.python.org/3/library/unittest.html)
@@ -67,10 +67,15 @@ __Table of Contents__
 - ...
   
 ## 4. Sample
-- All JavaScript and TypeScript files can be found in src/jsts. They are used as references for the python files.
+- All JavaScript and TypeScript files can be found in `src/jsts`. They are used as references for the python files.
+- They can be run with node.js from `src/jsts` directory. EX:
+  <br></br>
+  ```
+  node sources.js
+  ```
 
 ## 5. Configuration
 - `.pylintrc` holds the configuration for pylint.
 
 ## 6. Diagram
-
+    pyreverse -o png -p module_name .
