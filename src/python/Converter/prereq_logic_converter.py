@@ -3,7 +3,7 @@ This module contains class PrereqLogicConverter which contains
 converters dedicated to implement logic into our prerequisites.
 """
 
-import python.helper.course_info_splitter as circls
+from python.helper.course_info_splitter import CourseInfoSplitter
 from python.helper.checker.course_checker import CourseChecker
 
 class PrereqLogicConverter:
@@ -13,7 +13,7 @@ class PrereqLogicConverter:
 
     #############################################################################
     @staticmethod
-    def logical_op_converter(info: str, target_course_subject: str) -> list:
+    def logical_op_converter(info: str) -> list:
         """
         Convert an info string into a list of logical prerequisites.\n
         Note: For ambiguous case like multiple 'and', 'or' in same nested level.
@@ -23,23 +23,17 @@ class PrereqLogicConverter:
         # Convert 'A and B' into { and : ['A', 'B'] }
         if 'and' in info:
             return {
-                'and' : circls.CourseInfoSplitter.get_course_codes(
-                    info,
-                    target_course_subject
-                )
+                'and' : CourseInfoSplitter.to_codes(info)
             }
 
         # Convert 'A or B' into { or : ['A', 'B'] }
         if 'or' in info:
             return {
-                'or' : circls.CourseInfoSplitter.get_course_codes(
-                    info,
-                    target_course_subject
-                )
+                'or' : CourseInfoSplitter.to_codes(info)
         }
 
         # Convert 'A B' into ['A', 'B']
-        return circls.CourseInfoSplitter.get_course_codes(info, target_course_subject)
+        return CourseInfoSplitter.to_codes(info)
 
     #############################################################################
     @staticmethod
@@ -77,7 +71,8 @@ class PrereqLogicConverter:
         course_subjects = []
         course_numsufs = []
         for code in course_codes:
-            subj, num, suf = circls.CourseInfoSplitter.code_into_subj_num_suf(code)
+            subj, num, suf = CourseInfoSplitter.to_subj_num_suf(code)
+
             course_subjects.append(subj)
             course_numsufs.append(num + suf)
 
