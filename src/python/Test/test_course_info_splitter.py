@@ -4,7 +4,7 @@ This module contains test cases for class CourseInfoSplitter from module course_
 
 from python.helper.course_info_splitter import CourseInfoSplitter
 
-from python.test.test_setup import TestString, assert_eq
+from python.test.test_setup import TestString, unittest, assert_eq
 
 class TestCourseInfoSplitter(TestString):
     """
@@ -12,79 +12,82 @@ class TestCourseInfoSplitter(TestString):
     """
 
     #############################################################################
-    def test_code_into_subj_num_suf(self):
+    def test_to_subj_num_suf(self):
         """
-        Test method code_into_subj_num_suf of class CourseInfoSplitter.
+        Test method to_subj_num_suf of class CourseInfoSplitter.
         """
 
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s1),
+            CourseInfoSplitter.to_subj_num_suf(self.s1),
             [None, None, None]
         )
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s3),
+            CourseInfoSplitter.to_subj_num_suf(self.s3),
             [None, None, None]
         )
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s7),
+            CourseInfoSplitter.to_subj_num_suf(self.s7),
             [None, None, None]
         )
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s8),
-            [None, '1', None]
+            CourseInfoSplitter.to_subj_num_suf(self.s8),
+            [None, None, None]
         )
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s9),
-            [None, '1239WAD12', None]
+            CourseInfoSplitter.to_subj_num_suf(self.s9),
+            ['', '1239', '']
         )
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s10),
-            ['CSCI', '3081', None]
+            CourseInfoSplitter.to_subj_num_suf(self.s10),
+            ['CSCI', '3081', '']
         )
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s11),
+            CourseInfoSplitter.to_subj_num_suf(self.s11),
             ['CSCI', '3081', 'W']
         )
         assert_eq(
-            CourseInfoSplitter.code_into_subj_num_suf(self.s12),
+            CourseInfoSplitter.to_subj_num_suf(self.s12),
             ['CSCI', '3081', 'W']
         )
 
     #############################################################################
-    def test_separate_num_suf(self):
+    def test_to_num_suf(self):
         """
-        Test method separate_num_suf of class CourseInfoSplitter.
+        Test method to_num_suf of class CourseInfoSplitter.
         """
 
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s5),
+            CourseInfoSplitter.to_num_suf(self.s5),
             [None, None]
         )
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s7),
+            CourseInfoSplitter.to_num_suf(self.s7),
             [None, None]
         )
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s8),
-            ['1', None]
+            CourseInfoSplitter.to_num_suf(self.s8),
+            [None, None]
         )
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s9),
-            ['1239WAD12', None]
+            CourseInfoSplitter.to_num_suf(self.s9),
+            ['1239', '']
         )
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s10),
-            ['CSCI3081', None]
+            CourseInfoSplitter.to_num_suf(self.s10),
+            ['3081', '']
         )
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s11),
-            ['CSCI3081', 'W']
+            CourseInfoSplitter.to_num_suf(self.s11),
+            ['3081', 'W']
         )
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s12),
-            ['CSCI3081', 'W']
+            CourseInfoSplitter.to_num_suf(self.s12),
+            ['3081', 'W']
         )
         assert_eq(
-            CourseInfoSplitter.separate_num_suf(self.s12),
-            ['CSCI3081', 'W']
+            CourseInfoSplitter.to_num_suf(self.s12),
+            ['3081', 'W']
         )
+
+if __name__ == '__main__':
+    unittest.main()

@@ -4,7 +4,7 @@ This module contains test cases for all classes from module new_types.
 
 from python.helper.new_types import Course, CourseShell, PrereqFormat
 
-from python.test.test_setup import TestString, TestCourse, TestPrereq, assert_eq
+from python.test.test_setup import unittest, TestString, TestCourse, TestPrereq, assert_eq
 
 class TestNewTypes(TestString, TestPrereq):
     """
@@ -87,8 +87,8 @@ class TestNewTypes(TestString, TestPrereq):
                 self.course_data[index]['honors_']
             )
             assert_eq(
-                course.writingIntensive,
-                self.course_data[index]['writingIntensive_']
+                course.writing_intensive,
+                self.course_data[index]['writing_intensive_']
             )
             assert_eq(
                 course.name,
@@ -152,3 +152,6 @@ class TestNewTypes(TestString, TestPrereq):
 
         # TODO
         pass
+
+if __name__ == '__main__':
+    unittest.main()
