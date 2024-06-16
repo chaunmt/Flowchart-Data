@@ -26,6 +26,9 @@ class StringChecker:
         """
         Check whether a string contains any number.
         """
+        
+        if not s:
+            return False
 
         return any(char.isdigit() for char in s)
 
@@ -35,6 +38,9 @@ class StringChecker:
         """
         Check whether a string contains a any letter.
         """
+        
+        if not s:
+            return False
 
         return any(char.isalpha() for char in s)
 
@@ -42,8 +48,11 @@ class StringChecker:
     @staticmethod
     def has_sign(s: str) -> bool:
         """
-        Check whether a string contains a any sign.
+        Check whether a string contains any sign.
         """
+        
+        if not s:
+            return False
 
         return any(
             not char.isalnum() and
@@ -56,5 +65,8 @@ class StringChecker:
         """
         Check whether a string includes a specific substring.
         """
-
+        
+        if not s:
+            return False
+        
         return substring in s
