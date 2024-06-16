@@ -5,21 +5,21 @@ This file creates a test suites from test files in ./Test to run.
 import unittest
 
 # Import test cases.
-from python.Test.test_new_types import TestNewTypes
+from python.test.test_new_types import TestNewTypes
 
-from python.Test.test_string_checker import TestStringChecker
-from python.Test.test_string_splitter import TestStringSplitter
-from python.Test.test_course_checker import TestCourseChecker
+from python.test.test_string_checker import TestStringChecker
+from python.test.test_string_splitter import TestStringSplitter
+from python.test.test_course_checker import TestCourseChecker
 
-from python.Test.test_string_filter import TestStringFilter
-from python.Test.test_course_filter import TestCourseFilter
-from python.Test.test_prereq_filter import TestPrereqFilter
+from python.test.test_string_filter import TestStringFilter
+from python.test.test_course_filter import TestCourseFilter
+from python.test.test_prereq_filter import TestPrereqFilter
 
-from python.Test.test_nested_course_converter import TestNestedCourseConverter
-from python.Test.test_prereq_logic_converter import TestPrereqLogicConverter
+from python.test.test_nested_course_converter import TestNestedCourseConverter
+from python.test.test_prereq_logic_converter import TestPrereqLogicConverter
 
-from python.Test.test_course_info_splitter import TestCourseInfoSplitter
-from python.Test.test_json_handler import TestJSONHandler
+from python.test.test_course_info_splitter import TestCourseInfoSplitter
+from python.test.test_json_handler import TestJSONHandler
 
 ###############################################################################
 # Create a test suite.
