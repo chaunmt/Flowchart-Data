@@ -3,6 +3,8 @@ This module contains classes which
 filter string component and return the new string.
 """
 
+import re
+
 from python.filter.filter import Filter
 from python.helper.string_splitter import StringSplitter
 
@@ -36,31 +38,11 @@ class StringFilterSign(StringFilter):
 
     def process(self):
         """
-        Replace certain signs with corresponding words
+        Delete all signs (including space) in string component
         and return the new string.
         """
 
-        item_ = self.item
-        item_ = item_.replace(",", " and ")
-        item_ = item_.replace("/", " or ")
-        item_ = item_.replace("&", " and ")
-        return item_
-
-###############################################################################
-class StringFilterBracket(StringFilter):
-    """
-    This class filter brackets in string.
-    """
-
-    def process(self):
-        """
-        Replace parentheses with square brackets.
-        """
-
-        item_ = self.item
-        item_ = item_.replace("(", "[")
-        item_ = item_.replace(")", "]")
-        return item_
+        return re.sub(r'[^a-zA-Z0-9]', '', self.item)
 
 ###############################################################################
 class StringFilterRedundancy(StringFilter):
