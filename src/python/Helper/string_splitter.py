@@ -17,6 +17,9 @@ class StringSplitter:
         Split string at the specified index and
         return the result list with this character.
         """
+        
+        if not s:
+            return []
 
         return [s[:index + 1], s[index + 1:]]
 
@@ -28,6 +31,9 @@ class StringSplitter:
         return the result list without this substring.\n
         Can include empty string member in result list.
         """
+        
+        if not s:
+            return []
 
         splits = s.split(substring)
         return splits
@@ -41,6 +47,9 @@ class StringSplitter:
         The first string will includes the character at splitted index.\n
         split_type can only be either 'letter' or 'number'.
         """
+        
+        if not s:
+            return [None, None]
 
         if split_type == 'letter':
             match = re.search(r"[A-Za-z]", s)
@@ -68,6 +77,9 @@ class StringSplitter:
         The second string will includes the character at splitted index.\n
         split_type can only be either 'letter' or 'number'.
         """
+        
+        if not s:
+            return [None, None]
 
         if split_type == 'letter':
             matches = list(re.finditer(r"[A-Za-z]", s))
@@ -90,3 +102,17 @@ class StringSplitter:
             splits[1] = None
 
         return splits
+
+    #############################################################################
+    @staticmethod
+    def letter_and_num(s: str) -> list:
+        """
+        Split a string into a list of substrings
+        contain either only letter or only number (digit character).
+        """
+
+        if not s:
+            return []
+        
+        substrings = re.findall(r'[a-zA-Z]+|\d+', s)
+        return substrings
