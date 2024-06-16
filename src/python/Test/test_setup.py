@@ -58,6 +58,7 @@ class TestString(unittest.TestCase):
         self.s12 = 'CSCI3081W'
         self.s13 = None
         self.s14 = 'CSCI 4041/3081,3081W/2041&2021'
+        self.s15 = '     '
 
     def tearDown(self):
         pass
@@ -95,7 +96,7 @@ class TestCourse(unittest.TestCase):
 
         self.additional_data = [
             {
-                'writingIntensive_': False,
+                'writing_intensive_': False,
                 'name_': 'Introduction to ComSci',
                 'fullname_': 'Introduction to Computer Science',
                 'info_': (
@@ -104,7 +105,7 @@ class TestCourse(unittest.TestCase):
                 'prereq_': None
             },
             {
-                'writingIntensive_': False,
+                'writing_intensive_': False,
                 'name_': 'Introduction to ComSci',
                 'fullname_': 'Introduction to Computer Science',
                 'info_': (
@@ -113,7 +114,7 @@ class TestCourse(unittest.TestCase):
                 'prereq_': None
             },
             {
-                'writingIntensive_': True,
+                'writing_intensive_': True,
                 'name_': 'Data Structures',
                 'fullname_': 'Data Structures and Algorithms',
                 'info_': (
