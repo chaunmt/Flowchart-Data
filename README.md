@@ -24,16 +24,15 @@ __Table of Contents__
 
 ### Test
     # Run all tests
-    python3 -m python.run_tests
+    pytest -q
 
     # Run a module test
-    python3 -m python.test.test_file_name.module_name
-
-    # Run a method test
-    python3 -m python.test.test_file_name.module_name.method_name
+    pytest -q python/test/test_module_name.py
 
 - `run_tests.py` can be modified to run only specified tests.
-- For more information, check: [unnittest documentation](https://docs.python.org/3/library/unittest.html)
+- For more information, check:
+  + [unnittest documentation](https://docs.python.org/3/library/unittest.html)
+  + [pytest documentation](https://docs.pytest.org/en/stable/contents.html)
 
 ### Clean
     pylint filename
@@ -78,4 +77,4 @@ __Table of Contents__
 - `.pylintrc` holds the configuration for pylint.
 
 ## 6. Diagram
-    pyreverse -o png -p module_name .
+  pyreverse -o png -p module_name .
