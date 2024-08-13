@@ -88,6 +88,7 @@ class CourseInfoChecker:
         Check whether a Course's code is valid.
         """
 
+###############################################################################
 class CourseChecker(CourseInfoChecker):
     """
     Perform checks on Course type related object.
