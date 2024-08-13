@@ -1,6 +1,9 @@
 """
 This module contains class filter which is
-the base Filter class defines the wrapping interface for other filters.
+the base Filter class defines the wrapping interface for other filters.\n
+
+Filter classes are mostly used to make sure objects come out as the same type
+they come in with.\n
 """
 
 from typing import TypeVar
@@ -43,9 +46,10 @@ class Filter:
         return item
 
     #############################################################################
-    def process(self) -> T:
+    @classmethod
+    def filter(cls) -> T:
         """
         Filter _item and return its new value.
         """
 
-        return self._item
+        return cls._item
