@@ -45,9 +45,10 @@ class CourseShell:
 ###############################################################################
 class PrereqFormat:
     """
-    PrereqFormat is a list that can contain 
-    
-    TODO (OPTIONAL)
+    PrereqFormat is a list that can contain a CourseShell's 'uid' or a list of CourseShell's 'uid' \n
+    with or without their nested logical operation ('and', 'or' dictionary).\n
+
+    TODO (OPTIONAL)\n
     An any type is used as a placeholder.\n
     A checker should be made to make sure only acceptable members are presented in this type.
     """
