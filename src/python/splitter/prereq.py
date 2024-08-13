@@ -7,7 +7,6 @@ import re
 
 from python.splitter.string import StringSplitter
 from python.checker.prereq import CourseChecker
-from python.filter.string import StringFilterSpace
 
 class CourseInfoSplitter:
     """
