@@ -105,10 +105,10 @@ class StringSplitter:
 
     #############################################################################
     @staticmethod
-    def letter_and_num(s: str) -> list:
+    def to_letter_or_digit_substrs(s: str) -> list:
         """
         Split a string into a list of substrings
-        contain either only letter or only number (digit character).
+        contain either only letter or only digit character.
         """
 
         if not s:
