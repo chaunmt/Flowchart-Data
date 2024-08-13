@@ -16,7 +16,7 @@ class CourseInfoSplitter:
 
     #############################################################################
     @classmethod
-    def to_subj_num_suf(cls, s: str) -> list:
+    def code_into_subj_num_suf(cls, s: str) -> list:
         """
         Split a string of Course's code into a list of [subject, number, suffix].
         """
@@ -61,7 +61,7 @@ class CourseInfoSplitter:
 
     #############################################################################
     @staticmethod
-    def to_num_suf(s: str) -> list:
+    def split_num_suf(s: str) -> list:
         """
         Split a string of Course's number with suffix into a list of [number, suffix].
         """
@@ -93,34 +93,3 @@ class CourseInfoSplitter:
             suffix = ''
 
         return [number, suffix]
-
-    #############################################################################
-    @staticmethod
-    def to_codes(s: str) -> list:
-        """
-        Get a list of substring with course's code's format out of the original string.\n
-        Noted: Encoded key's prefix "NESTEDSTR" is treated as a subject,
-        making the complete key a valid course's code.\n
-
-        EX: "Students have to take CSCI 2041 and 2021 or NESTEDSTR0, 3081W."\n
-        ==> [ "CSCI2041", "AND2021", "NESTEDSTR0", "3081W" ]\n
-        """
-
-        # The regex pattern to get out acceptable code or partial code
-        pattern = (
-            '\b[A-Za-z]+\\s?\\d{2,4}[A-Za-z]*\b'  # Full code pattern (EX: CSCI 3081W)
-            + '\b\\d{4}[A-Za-z]{0,1}*\b'  # No subject code pattern (EX: 3081W, 4041)
-            + '\bNESTEDSTR\\d+\b'  # Encoded key pattern (EX: NESTEDSTR0)
-        )
-
-        # Get the list of matches strings
-        course_codes = re.findall(pattern, s)
-
-        for index, code in enumerate(course_codes):
-            # Remove all space to follow CourseDog's course code format
-            course_codes[index] = StringFilterSpace(code).process()
-
-            # Convert all letters to uppercase
-            course_codes[index] = course_codes[index].upper()
-
-        return course_codes
