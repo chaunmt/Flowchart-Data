@@ -13,26 +13,40 @@ class CourseInfoConverter():
     """
     Convert course's info string's format and value.
     """
-
     #############################################################################
     @staticmethod
-    def paren_to_square_bracket(info: str) -> str:
+    def sign_to_logical_op(s: str) -> str:
+        """
+        Convert some signs to their respective logical operation words.
+        """
+
+        s = s.replace(",", " and ")
+        s = s.replace("/", " or ")
+        s = s.replace("&", " and ")
+        
+        return s
+    
+    #############################################################################
+    @staticmethod
+    def paren_to_square_bracket(s: str) -> str:
         """
         Convert all parentheses into square brackets.
         """
 
-        info.replace('(', '[')
-        info.replace(')', ']')
+        s.replace('(', '[')
+        s.replace(')', ']')
 
-        return info
+        return s
     
     #############################################################################
     def info_to_course_code(s: str, alter_subj: str) -> str:
         """
         Convert an info string into a course's code form if possible.\n
+        This method only returns the first code.\n
         An alternative course's subject is required. It will be used if no subject is found. \n
         EX:\n
         "CSci 3081 W" ==> "CSCI3081W" \n
+        "csci 2021, csci 2041, and more" ==> "CSCI2021"\n
         "This is not a valid one :)" ==> "" \n
         """
         
@@ -85,6 +99,14 @@ class PrereqInfoConverter:
         """
     
     #############################################################################
+    def to_nested_dict(nested_s : str) -> dict:
+        """
+        
+        EX: nested_s = "A and B"\n
+        ==> nested_dict = "and" : { "A", "B" }
+        """
+        
+    #############################################################################
     def to_nested_dicts(nested_ss : list) -> list:
         """
         
@@ -93,7 +115,7 @@ class PrereqInfoConverter:
             "C or NESTEDS0"
         ]\n
         ==> nested_dicts = [\n
-            "and" : { "A","B" },\n
+            "and" : { "A", "B" },\n
             "or" : { "C", "NESTEDS0" }\n
         ]
         """
@@ -103,7 +125,7 @@ class PrereqInfoConverter:
         """
         
         EX: nested_dicts = [\n
-            "and" : { "A","B" },\n
+            "and" : { "A", "B" },\n
             "or" : { "C", "NESTEDS0" }\n
         ]
         ==> logic_dict = {
