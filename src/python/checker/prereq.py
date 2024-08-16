@@ -81,13 +81,6 @@ class CourseInfoChecker:
 
         return False
 
-    #############################################################################
-    @staticmethod
-    def is_valid_code(suffix: str) -> bool:
-        """
-        Check whether a Course's code is valid.
-        """
-
 ###############################################################################
 class CourseChecker(CourseInfoChecker):
     """
