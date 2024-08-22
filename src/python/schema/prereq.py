@@ -45,24 +45,46 @@ class CourseShell:
 ###############################################################################
 class PrereqFormat:
     """
-    PrereqFormat is a list that can contain a CourseShell's 'uid' or a list of CourseShell's 'uid' \n
-    with or without their nested logical operation ('and', 'or' dictionary).\n
-
-    TODO (OPTIONAL)\n
-    An any type is used as a placeholder.\n
-    A checker should be made to make sure only acceptable members are presented in this type.
+    PrereqFormat is a dictionary of courses' uid\n
+    with or without their nested logical operation ('and', 'or').\n
     """
 
     #####################################
     def __init__(
             self,
-            prereq_: any
+            prereq_: dict
         ):
         """
         Initialize a PrereqFormat object.
         """
 
+        # Call the error-checking method
+        self.check_errors(prereq_)
+
         self.prereq = prereq_
+
+    #####################################
+    def check_errors(self, prereq_: dict):
+        """
+        Error checking method to validate the structure of prereq_.
+        """
+
+        for k, v in prereq_.items():
+            # Check if the key is valid ('and' or 'or')
+            if k not in ["and", "or"]:
+                raise ValueError(
+                    f"Invalid prereq's key '{k}' found. Allowed keys are 'and' or 'or'."
+                )
+
+            if (
+                # Check if the value is a list
+                not isinstance(v, list) or
+                # Check if the value's strings representing uid numbers
+                not all(isinstance(uid, str) and uid.isdigit() for uid in v)
+            ):
+                raise ValueError(
+                    f"The value for key '{k}' must be a list of numeric strings."
+                )
 
     #####################################
     def __repr__(self):
