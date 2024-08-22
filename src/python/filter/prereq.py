@@ -5,7 +5,6 @@ filter prereq component and return its new result.
 
 from python.filter.filter import Filter
 from python.schema.prereq import PrereqFormat
-from python.checker.string import StringChecker
 
 ###############################################################################
 class PrereqFilter(Filter):
