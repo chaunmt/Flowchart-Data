@@ -206,7 +206,8 @@ class CourseDogAPI:
         return processed_data
 
     #############################################################################
-    def process_course_full(data, is_honors):
+    @classmethod
+    def process_course_full(cls, data, is_honors):
         """
         Process JSON data to get Course JSON.
         """
@@ -219,6 +220,11 @@ class CourseDogAPI:
 
             # Check course's type
             honors = CourseChecker.is_honors_suf(suffix)
+            writing = CourseChecker.is_writing_suf(suffix)
+            
+            # Get course's prereq
+            prereq = cls.get_prereq_string(course['description'])
+            # TODO use extract to get prereq dict
 
             # Only get required courses
             if honors == is_honors:
@@ -229,10 +235,10 @@ class CourseDogAPI:
                     'subject' : course['subjectCode'],
                     'number' : number,
                     'honors' : honors,
-                    'writing' : '',
-                    'name' : '',
-                    'fullname' : '',
-                    'info' : '',
+                    'writing' : writing,
+                    'name' : course['name'],
+                    'fullname' : course['longname'],
+                    'info' : course['description'],
                     'prereq' : ''
                     
                 })
