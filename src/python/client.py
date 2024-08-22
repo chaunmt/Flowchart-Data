@@ -1,7 +1,7 @@
 """
-This module is used to call for fetch and write data to json.
-TODO
+This is what the highest level client would see.
 """
 
-from python.extractor.prereq import PrereqExtractor
+from python.sources.api.facade import CourseDogFacade
 
+print(CourseDogFacade.operation())

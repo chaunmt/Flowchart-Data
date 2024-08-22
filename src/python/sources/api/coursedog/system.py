@@ -1,5 +1,5 @@
 """
-TODO
+Classes to help handle Course Dog's API.
 """
 
 from python.sources.format import JSONHandler
@@ -7,9 +7,8 @@ from python.checker.prereq import CourseChecker
 from python.splitter.string import StringSplitter
 from python.splitter.prereq import CourseInfoSplitter
 
-class CourseDogAPI:
+class FileSystem:
     """
-    Class to help handle Course Dog's API.
     """
     
     #############################################################################
@@ -36,6 +35,63 @@ class CourseDogAPI:
 
         return file_path + file_name
 
+    #############################################################################
+    @classmethod
+    def get_json(cls, school_id, subject, is_program):
+        """
+        Get raw JSON data from CourseDog API.
+        """
+
+        # Request data from CourseDog API
+        if is_program:
+            # TODO Add work for program
+            data = {'No work on program'}
+        else:
+            data = JSONHandler.get_from_url(cls.generate_url(school_id, subject))
+
+        print('Data is fetched for ' + subject)
+        return data
+
+    #############################################################################
+    @classmethod
+    def get_output_file(cls, school_id, subject, is_program, is_honors):
+        """
+        Generate output json file.
+        """
+
+        # Get raw json data from CourseDog API
+        raw = cls.get_json_from_dogs(school_id, subject, is_program)
+        raw = raw['data']
+
+        # Processed json data by subject
+        if subject == 'allCourses':
+            if is_program:
+                processed =  cls.process_program_shell(raw, is_honors)
+            processed = cls.process_course_shell(raw, is_honors)
+        else:
+            if is_program:
+                processed =  cls.process_program_full(raw, is_honors)
+            processed = cls.process_course_full(raw, is_honors)
+
+        # Write processed json data to output file
+        path = cls.get_full_file_path(school_id, subject, is_honors)
+        JSONHandler.write_to_path(processed, path)
+
+    #############################################################################
+    @classmethod
+    def get_all_json(cls):
+        """
+        Get all JSON files.
+        """
+
+        cls.get_output_file('umn_umntc_peoplesoft', 'allCourses', False, False)
+        # TODO get JSON from all subjects.
+        # TODO get JSON from all programs.
+        
+class ApiSystem:
+    """
+    """
+    
     #############################################################################
     @staticmethod
     def generate_url(school_id, subject):
@@ -72,22 +128,9 @@ class CourseDogAPI:
 
         return api_url
 
-    #############################################################################
-    @classmethod
-    def get_json(cls, school_id, subject, is_program):
-        """
-        Get raw JSON data from CourseDog API.
-        """
-
-        # Request data from CourseDog API
-        if is_program:
-            # TODO Add work for program
-            data = {'No work on program'}
-        else:
-            data = JSONHandler.get_from_url(cls.generate_url(school_id, subject))
-
-        print('Data is fetched for ' + subject)
-        return data
+class PrereqSystem:
+    """
+    """
 
     #############################################################################
     @staticmethod
@@ -133,49 +176,6 @@ class CourseDogAPI:
             prereq_string = ''
 
         return prereq_string
-
-    #############################################################################
-    def process_program_shell(data, is_honors):
-        """
-        TODO
-        """
-
-    #############################################################################
-    def process_program_full(data, is_honors):
-        """
-        Process JSON data to get Course JSON.
-        """
-
-        processed_data = []
-
-        for course in data:
-            # Split a course's number and its suffix
-            number, suffix = CourseInfoSplitter.split_num_suf(course['courseNumber'])
-
-            # Check course's type
-            honors = CourseChecker.is_honors_suf(suffix)
-            writing = CourseChecker.is_writing_suf(suffix)
-
-            # Get prereq
-            prereq = [] # TODO
-
-            # Only get required courses
-            if honors == is_honors:
-                # Map value to corresponding key
-                processed_data.append({
-                    'uid' : course['institutionId'],
-                    'code' : course['code'],
-                    'subject' : course['subjectCode'],
-                    'number' : number,
-                    'honors' : honors,
-                    'writing' : writing,
-                    'name' : course['name'],
-                    'fullname' : course['longname'],
-                    'info' : course['description'],
-                    'prereq' : prereq
-                })
-
-        return processed_data
 
     #############################################################################
     def process_course_shell(data, is_honors):
@@ -244,39 +244,50 @@ class CourseDogAPI:
                 })
 
         return processed_data
+        
+class ProgramSystem:
+    """
+    """
+    
+    #############################################################################
+    def process_program_shell(data, is_honors):
+        """
+        TODO
+        """
 
     #############################################################################
-    @classmethod
-    def get_output_file(cls, school_id, subject, is_program, is_honors):
+    def process_program_full(data, is_honors):
         """
-        Generate output json file.
-        """
-
-        # Get raw json data from CourseDog API
-        raw = cls.get_json_from_dogs(school_id, subject, is_program)
-        raw = raw['data']
-
-        # Processed json data by subject
-        if subject == 'allCourses':
-            if is_program:
-                processed =  cls.process_program_shell(raw, is_honors)
-            processed = cls.process_course_shell(raw, is_honors)
-        else:
-            if is_program:
-                processed =  cls.process_program_full(raw, is_honors)
-            processed = cls.process_course_full(raw, is_honors)
-
-        # Write processed json data to output file
-        path = cls.get_full_file_path(school_id, subject, is_honors)
-        JSONHandler.write_to_path(processed, path)
-
-    #############################################################################
-    @classmethod
-    def get_all_json(cls):
-        """
-        Get all JSON files.
+        Process JSON data to get Course JSON.
         """
 
-        cls.get_output_file('umn_umntc_peoplesoft', 'allCourses', False, False)
-        # TODO get JSON from all subjects.
-        # TODO get JSON from all programs.
+        processed_data = []
+
+        for course in data:
+            # Split a course's number and its suffix
+            number, suffix = CourseInfoSplitter.split_num_suf(course['courseNumber'])
+
+            # Check course's type
+            honors = CourseChecker.is_honors_suf(suffix)
+            writing = CourseChecker.is_writing_suf(suffix)
+
+            # Get prereq
+            prereq = [] # TODO
+
+            # Only get required courses
+            if honors == is_honors:
+                # Map value to corresponding key
+                processed_data.append({
+                    'uid' : course['institutionId'],
+                    'code' : course['code'],
+                    'subject' : course['subjectCode'],
+                    'number' : number,
+                    'honors' : honors,
+                    'writing' : writing,
+                    'name' : course['name'],
+                    'fullname' : course['longname'],
+                    'info' : course['description'],
+                    'prereq' : prereq
+                })
+
+        return processed_data
