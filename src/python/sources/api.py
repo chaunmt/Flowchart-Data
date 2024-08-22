@@ -168,7 +168,7 @@ class CourseDogAPI:
                     'subject' : course['subjectCode'],
                     'number' : number,
                     'honors' : honors,
-                    'writingIntensive' : writing,
+                    'writing' : writing,
                     'name' : course['name'],
                     'fullname' : course['longname'],
                     'info' : course['description'],
@@ -211,7 +211,33 @@ class CourseDogAPI:
         Process JSON data to get Course JSON.
         """
 
-        # TODO
+        processed_data = []
+
+        for course in data:
+            # Split a course's number and its suffix
+            number, suffix = CourseInfoSplitter.split_num_suf(course['courseNumber'])
+
+            # Check course's type
+            honors = CourseChecker.is_honors_suf(suffix)
+
+            # Only get required courses
+            if honors == is_honors:
+                # Map value to corresponding key
+                processed_data.append({
+                    'uid' : course['institutionId'],
+                    'code' : course['code'],
+                    'subject' : course['subjectCode'],
+                    'number' : number,
+                    'honors' : honors,
+                    'writing' : '',
+                    'name' : '',
+                    'fullname' : '',
+                    'info' : '',
+                    'prereq' : ''
+                    
+                })
+
+        return processed_data
 
     #############################################################################
     @classmethod

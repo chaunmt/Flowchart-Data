@@ -113,7 +113,7 @@ class Course(CourseShell):
             subject_: str,
             number_: str,
             honors_: bool,
-            writing_intensive_: bool,
+            writing_: bool,
             name_: str,
             fullname_: str,
             info_: str,
@@ -127,7 +127,7 @@ class Course(CourseShell):
         super().__init__(uid_, code_, subject_, number_, honors_)
 
         # Intialize Course's additional fields
-        self.writing_intensive = writing_intensive_
+        self.writing_= writing_
         self.name = name_
         self.fullname = fullname_
         self.info = info_
@@ -146,7 +146,7 @@ class Course(CourseShell):
             f"  subject = {self.subject},\n"
             f"  number = {self.number},\n"
             f"  honors = {self.honors},\n"
-            f"  writing_intensive = {self.writing_intensive},\n"
+            f"  writing = {self.writing_},\n"
             f"  name = {self.name},\n"
             f"  fullname = {self.fullname},\n"
             f"  info = {self.info},\n"
