@@ -140,8 +140,6 @@ class CourseDogAPI:
         TODO
         """
 
-        # TODO
-
     #############################################################################
     def process_program_full(data, is_honors):
         """
@@ -152,11 +150,11 @@ class CourseDogAPI:
 
         for course in data:
             # Split a course's number and its suffix
-            number, suffix = CourseInfoSplitter.separate_num_suf(course['courseNumber'])
+            number, suffix = CourseInfoSplitter.split_num_suf(course['courseNumber'])
 
             # Check course's type
-            honors = CourseChecker.is_honors(suffix)
-            writing = CourseChecker.is_writing(suffix)
+            honors = CourseChecker.is_honors_suf(suffix)
+            writing = CourseChecker.is_writing_suf(suffix)
 
             # Get prereq
             prereq = [] # TODO
@@ -189,10 +187,10 @@ class CourseDogAPI:
 
         for course in data:
             # Split a course's number and its suffix
-            number, suffix = CourseInfoSplitter.separate_num_suf(course['courseNumber'])
+            number, suffix = CourseInfoSplitter.split_num_suf(course['courseNumber'])
 
             # Check course's type
-            honors = CourseChecker.is_honors(suffix)
+            honors = CourseChecker.is_honors_suf(suffix)
 
             # Only get required courses
             if honors == is_honors:
