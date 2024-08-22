@@ -232,7 +232,7 @@ class PrereqInfoConverter:
         return nested_code_dicts
 
     #############################################################################
-    def to_combined_logical_code_dict(nested_code_dicts : list) -> dict:
+    def to_combined_logic_code_dict(nested_code_dicts : list) -> dict:
         """
         Convert a list of nested logical course's codes dictionaries
         into one combined logical course's codes dictionaryy.\n
@@ -248,5 +248,27 @@ class PrereqInfoConverter:
             }
         }
         """
+        
+        # The top level of all nests is the last dictionary in the nest list
+        logic_code_dict = nested_code_dicts[-1]
+        
+        # Breaking all encoded keys into actual course's codes
+        while True:
+            decoded = False
+            for k, value in logic_code_dict.items():
+                for vi, code in enumerate(value):
+                    if code.startswith("NESTEDS"):
+                        index = int(code[7:])
+                        
+                        # Replace encoded key with its actual value
+                        value[vi] = nested_code_dicts[index]
+                        decoded = True
+            
+            # If no more encoded key is found, no more decode is needed
+            if not decoded:
+                break
+        
+        return logic_code_dict
+        
         
         
