@@ -5,7 +5,7 @@ The Facade is also responsible for managing their lifecycle.
 All of this shields the client from the undesired complexity of the subsystems.
 """
 
-from python.sources.api.coursedog.interface import PrereqSystemInterface, ProgramSystemInterface
+from python.sources.api.coursedog.interface import CourseSystemInterface, ProgramSystemInterface
 
 class CourseDogFacade:
     """
@@ -14,7 +14,7 @@ class CourseDogFacade:
 
     def __init__(
         self,
-        prereqsys: PrereqSystemInterface,
+        coursesys: CourseSystemInterface,
         programsys: ProgramSystemInterface
     ) -> None:
         """
@@ -22,7 +22,7 @@ class CourseDogFacade:
         force the Facade to create them on its own.
         """
 
-        self._prereqsys = prereqsys or PrereqSystemInterface()
+        self._coursesys = coursesys or CourseSystemInterface()
         self._programsys = programsys or ProgramSystemInterface()
 
     def operation(self) -> str:
@@ -32,10 +32,10 @@ class CourseDogFacade:
 
         res = []
         res.append("Course Dog Facade initializes subsystems:")
-        res.append(self._prereqsys.init_op())
+        res.append(self._coursesys.init_op())
         res.append(self._programsys.init_op())
         res.append("Course Dog Facade orders subsystems to perform the action:")
-        # res.append(self._prereqsys.get_all())
-        res.append(self._prereqsys.get_subjects()) # Exclude allCourses
+        # res.append(self._coursesys.get_all())
+        res.append(self._coursesys.get_subjects()) # Exclude allCourses
 
         return "\n".join(res)

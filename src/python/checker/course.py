@@ -3,8 +3,8 @@ This module contains checkers on prerequisites object .\n
 It includes CourseChecker and CourseInfoChecker.
 """
 
-from python.schema.prereq import Course, CourseShell
-from python.splitter.prereq import CourseInfoSplitter
+from python.schema.course import Course, CourseShell
+from python.splitter.course import CourseInfoSplitter
 from python.sources import JSONHandler
 
 class CourseInfoChecker:

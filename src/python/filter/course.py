@@ -4,7 +4,7 @@ filter prereq component and return its new result.
 """
 
 from python.filter.filter import Filter
-from python.schema.prereq import PrereqFormat
+from python.schema.course import PrereqFormat
 
 ###############################################################################
 class PrereqFilter(Filter):

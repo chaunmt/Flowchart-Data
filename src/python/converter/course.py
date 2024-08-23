@@ -5,7 +5,7 @@ It includes CourseInfoConverter and PrereqConverter.
 
 import re
 
-from python.splitter.prereq import CourseInfoSplitter
+from python.splitter.course import CourseInfoSplitter
 from python.sources.format import JSONHandler
 
 ###############################################################################

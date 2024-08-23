@@ -6,7 +6,7 @@ split a course's info string into a list of strings.
 import re
 
 from python.splitter.string import StringSplitter
-from python.checker.prereq import CourseChecker
+from python.checker.course import CourseChecker
 
 class CourseInfoSplitter:
     """
