@@ -1,55 +1,86 @@
 """
 This is a lower level interface for our CourseDog Data subsystems.
+TODO Call for actual system work
 """
 
-from python.sources.api.coursedog.system import PrereqSystem, ProgramSystem
+from python.sources.api.coursedog.system import CourseSystem, ProgramSystem
 
-class PrereqSystemInterface:
+class CourseSystemInterface:
     """
+    Interface for a system that manages and retrieves courses data.\n
+    Data is recording in their respective folder inside 'data' folder .
     """
-    
+
     def init_op(self) -> str:
         """
+        Initializes the course system.
         """
-        
-        return "Prerequisites System: Ready!"
-    
+
+        return "Course System: Ready!"
+
     def get_all(cls) -> str:
         """
+        Retrieves all course data information.
         """
+        
+        # TODO
+
+        return "Course System: Retrieved all data."
+
     def get_subjects(self) -> str:
         """
+        Retrieves course data of all subjects.
         """
-    def get_subject(self) -> str:
+        
+        # TODO
+
+        return "Course System: Retrieved all subjects' course data."
+
+    def get_subject(self, subj: str) -> str:
         """
+        Retrieves course data of a subject.
         """
-    def get_course(self) -> str:
+        
+        # TODO
+
+        return f"Course System: Retrieved course data for subject {subj}."
+
+    def get_course(self, course_uid: str) -> str:
         """
+        Retrieves a course data.
         """
-    def get_sample(self) -> str:
-        """
-        """
+        
+        # TODO
+
+        return f"Course System: Retrieved course data for course {course_uid}."
 
 class ProgramSystemInterface:
     """
-    TODO
+    Interface for a system that manages and retrieves program data.\n
+    Data is recorded in their respective folder inside the 'data' folder.
     """
-    
+
     def init_op(self) -> str:
         """
+        Initializes the program system.
         """
-        
+
         return "Program System: Ready!"
 
     def get_all(self) -> str:
         """
+        Retrieves all program data information.
         """
-    def get_programs(self) -> str:
+        
+        # TODO
+
+        return "Program System: Retrieved all program data."
+
+    def get_program(self, program: str) -> str:
         """
+        Retrieves data for a specific program.
         """
-    def get_program(self) -> str:
-        """
-        """
-    def get_sample(self) -> str:
-        """
-        """
+        
+        # TODO
+
+        return f"Program System: Retrieved data for program {program}."
