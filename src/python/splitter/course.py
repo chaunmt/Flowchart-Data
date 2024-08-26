@@ -20,9 +20,9 @@ class CourseInfoSplitter:
         Split a string of Course's code into a list of [subject, number, suffix].
         """
 
-        splits = StringSplitter.letter_and_num(s.upper())
+        splits = StringSplitter.to_letter_or_digit_substrs(s.upper())
 
-        subject, number, suffix = [None, None, None]
+        subject, number, suffix = ['', '', '']
         for split in splits:
             # If exists, subject has to come before number
             if split.isalpha() and not subject and not number:
@@ -36,7 +36,7 @@ class CourseInfoSplitter:
                 if CourseChecker.is_valid_num(split):
                     number = split
                 else:
-                    return [None, None, None]
+                    return ['', '', '']
 
             # If exists, suffix has to be the last member
             elif number and not suffix:
@@ -48,7 +48,7 @@ class CourseInfoSplitter:
 
         # Number is required for valid code
         if not number:
-            return [None, None, None]
+            return ['', '', '']
 
         if not subject:
             subject = ''
@@ -65,7 +65,7 @@ class CourseInfoSplitter:
         Split a string of Course's number with suffix into a list of [number, suffix].
         """
 
-        splits = StringSplitter.letter_and_num(s.upper())
+        splits = StringSplitter.to_letter_or_digit_substrs(s.upper())
 
         number, suffix = [None, None]
         for split in splits:

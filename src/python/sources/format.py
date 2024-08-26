@@ -34,7 +34,7 @@ class JSONHandler(FileHandler, URLHandler):
             raise FileNotFoundError(f'File not found: {path}.')
 
         with open(path, 'r', encoding='utf-8') as file:
-            print(f'Data is fetched from {path}.')
+            # print(f'Data is fetched from {path}.')
             return json.load(file)
 
     #############################################################################

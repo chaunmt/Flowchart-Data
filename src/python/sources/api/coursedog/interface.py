@@ -7,56 +7,68 @@ from python.sources.api.coursedog.system import CourseSystem, ProgramSystem
 
 class CourseSystemInterface:
     """
-    Interface for a system that manages and retrieves courses data.\n
+    Interface for a system that manages and records courses data.\n
     Data is recording in their respective folder inside 'data' folder .
     """
+
+    def __init__(self) -> None:
+        # Note: We only work with UMNTC
+        # For future extension, id should be passed and checked from facade
+        self._UMNTC_ID = 'umn_umntc_peoplesoft'
 
     def init_op(self) -> str:
         """
         Initializes the course system.
         """
+        
+        self._sys = CourseSystem(self._UMNTC_ID)
 
         return "Course System: Ready!"
 
-    def get_all(cls) -> str:
+    def get_all(self) -> str:
         """
-        Retrieves all course data information.
+        Records all course data information.
+        """
+
+        self._sys.get_subject_courses_output_json('allCourses')
+        self.get_subjects(False)
+        self.get_subjects(True)
+
+        return "Course System: Recorded all data."
+
+    def get_subjects(self, is_honors: bool) -> str:
+        """
+        Records course data of all subjects.
         """
         
-        # TODO
+        subjs = self._sys.get_all_subjects_list_json()
+        for subj in subjs:
+            self.get_subject(subj, is_honors)
 
-        return "Course System: Retrieved all data."
+        honors_type = "general"
+        if is_honors:
+            honors_type = "honors"
 
-    def get_subjects(self) -> str:
+        return f"Course System: Recorded all subjects' {honors_type} course data."
+
+    def get_subject(self, subject_code: str, is_honors: bool) -> str:
         """
-        Retrieves course data of all subjects.
+        Records course data of a subject by the subject's code and its honors type.
         """
-        
-        # TODO
 
-        return "Course System: Retrieved all subjects' course data."
+        if subject_code != 'allCourses':
+            subject_code = subject_code.upper()
+        self._sys.get_subject_courses_output_json(subject_code, is_honors)
 
-    def get_subject(self, subj: str) -> str:
-        """
-        Retrieves course data of a subject.
-        """
-        
-        # TODO
+        honors_type = "general"
+        if is_honors:
+            honors_type = "honors"
 
-        return f"Course System: Retrieved course data for subject {subj}."
-
-    def get_course(self, course_uid: str) -> str:
-        """
-        Retrieves a course data.
-        """
-        
-        # TODO
-
-        return f"Course System: Retrieved course data for course {course_uid}."
+        return f"Course System: Recorded {honors_type} course data for subject {subject_code}."
 
 class ProgramSystemInterface:
     """
-    Interface for a system that manages and retrieves program data.\n
+    Interface for a system that manages and records program data.\n
     Data is recorded in their respective folder inside the 'data' folder.
     """
 
@@ -69,18 +81,18 @@ class ProgramSystemInterface:
 
     def get_all(self) -> str:
         """
-        Retrieves all program data information.
+        Records all program data information.
         """
-        
+
         # TODO
 
-        return "Program System: Retrieved all program data."
+        return "Program System: Recorded all program data."
 
     def get_program(self, program: str) -> str:
         """
-        Retrieves data for a specific program.
+        Records data for a specific program.
         """
-        
+
         # TODO
 
-        return f"Program System: Retrieved data for program {program}."
+        return f"Program System: Recorded data for program {program}."

@@ -35,7 +35,7 @@ class CourseDogFacade:
         res.append(self._coursesys.init_op())
         res.append(self._programsys.init_op())
         res.append("Course Dog Facade orders subsystems to perform the action:")
-        # res.append(self._coursesys.get_all())
-        res.append(self._coursesys.get_subjects()) # Exclude allCourses
+        # res.append(self._coursesys.get_subject('CSCI', False))
+        res.append(self._coursesys.get_subject('allCourses', False))
 
         return "\n".join(res)

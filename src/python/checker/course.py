@@ -4,8 +4,7 @@ It includes CourseChecker and CourseInfoChecker.
 """
 
 from python.schema.course import Course, CourseShell
-from python.splitter.course import CourseInfoSplitter
-from python.sources import JSONHandler
+from python.sources.format import JSONHandler
 
 class CourseInfoChecker:
     """

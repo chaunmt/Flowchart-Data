@@ -6,18 +6,29 @@ from python.sources.format import JSONHandler
 from python.checker.course import CourseChecker
 from python.splitter.string import StringSplitter
 from python.splitter.course import CourseInfoSplitter
+from python.converter.course import PrereqInfoConverter
 
 class CourseSystem:
     """
+    Handling Course Dog's API works for Courses.
     """
+    
+    def __init__(self, school_id) -> None:
+        """
+        Initalize a CourseSystem object.
+        """
+        
+        if school_id != 'umn_umntc_peoplesoft':
+            raise ValueError('This system only works with UMNTC data from CourseDog.')
+        
+        self._school_id = school_id
 
     #############################################################################
-    @staticmethod
-    def generate_url(school_id, subject):
+    def generate_url(self, subject):
         """
         Generate CourseDog's API URL for Course.
         """
-
+        
         # Set fields
         subject_code = subject
         if subject == 'allCourses':
@@ -38,7 +49,7 @@ class CourseSystem:
         # Set URL
         api_url = (
             'https://app.coursedog.com/api/v1/cm/'  # API
-            + school_id
+            + self._school_id
             + '/courses/search/$filters?'  # Search courses
             + 'subjectCode=' + subject_code
             + '&returnFields=' + return_fields
@@ -48,14 +59,16 @@ class CourseSystem:
         return api_url
     
     #############################################################################
-    @staticmethod
-    def get_full_file_path(school_id, subject, is_honors):
+    def get_full_file_path(self, subject, is_honors):
         """
         Get full file path for output file.
         """
 
+        return "./sample.json"
+        
+        # TODO change file path into something easier to handle (f.e. keep id as name)
         # Set school's file path
-        if school_id == 'umn_umntc_peoplesoft':
+        if self._school_id == 'umn_umntc_peoplesoft':
             file_path = '../../../../data/UMNTC/'
         else:
             file_path = '../../../../data/Other/'
@@ -71,38 +84,49 @@ class CourseSystem:
 
         return file_path + file_name
     
-    @classmethod
-    def get_json(cls, school_id, subject):
+    #############################################################################
+    def get_all_subjects_list_json(self):
         """
-        Get raw JSON data from CourseDog API.
+        Get a JSON file with a list of all subjects' code and their name.
+        """
+        
+        if self._school_id == 'umn_umntc_peoplesoft':
+            data = JSONHandler.get_from_path('../../../../../data/UMNTC/allSubjects.json')
+        
+        print('Data is fetched for list of all subjects.')
+        return data
+    
+    #############################################################################
+    def get_subject_courses_input_json(self, subject):
+        """
+        Get raw JSON data for a subject's all courses from CourseDog API.
         """
 
         # Request data from CourseDog API
-        data = JSONHandler.get_from_url(cls.generate_url(school_id, subject))
+        data = JSONHandler.get_from_url(self.generate_url(subject))
 
         print('Data is fetched for ' + subject)
         return data
     
     #############################################################################
-    @classmethod
-    def get_output_file(cls, school_id, subject, is_honors):
+    def get_subject_courses_output_json(self, subject, is_honors):
         """
         Generate output json file.
         """
 
         # Get raw json data from CourseDog API
-        raw = cls.get_json(school_id, subject)
+        raw = self.get_subject_courses_input_json(subject)
         raw = raw['data']
 
         # Processed json data by subject
         if subject == 'allCourses':
-            processed = cls.process_course_shell(raw, is_honors)
+            processed = self.process_course_shell(raw, is_honors)
         else:
-            processed = cls.process_course_full(raw, is_honors)
+            processed = self.process_course_full(raw, is_honors)
 
         # Write processed json data to output file
-        path = cls.get_full_file_path(school_id, subject, is_honors)
-        JSONHandler.write_to_path(processed, path)
+        path = self.get_full_file_path(subject, is_honors)
+        JSONHandler.write_to_path(path, processed)
     
     #############################################################################
     @staticmethod
@@ -130,15 +154,14 @@ class CourseSystem:
         return split_pattern
 
     #############################################################################
-    @classmethod
-    def get_prereq_string(cls, info):
+    def get_prereq_string(self, info):
         """
         Get the prerequisites string from the info string.
         """
 
         # Split prereq from info
         info = info.lower()
-        split_pattern = cls.find_prereq_splitter(info)
+        split_pattern = self.find_prereq_splitter(info)
         splitted_info = StringSplitter.at_substring(info, split_pattern)
 
         # Combine all founded prereq into one string
@@ -150,7 +173,7 @@ class CourseSystem:
         return prereq_string
 
     #############################################################################
-    def process_course_shell(data, is_honors):
+    def process_course_shell(self, data, is_honors):
         """
         Process JSON data to get CourseShell JSON.
         """
@@ -178,8 +201,7 @@ class CourseSystem:
         return processed_data
 
     #############################################################################
-    @classmethod
-    def process_course_full(cls, data, is_honors):
+    def process_course_full(self, data, is_honors):
         """
         Process JSON data to get Course JSON.
         """
@@ -195,8 +217,12 @@ class CourseSystem:
             writing = CourseChecker.is_writing_suf(suffix)
             
             # Get course's prereq
-            prereq = cls.get_prereq_string(course['description'])
-            # TODO use extract to get prereq dict
+            prereq_str = self.get_prereq_string(course['description'])
+            
+            # Process prerequisite string into a logical dictionary of prerequisite courses
+            prereq = PrereqInfoConverter(prereq_str, course['subjectCode'])
+            prereq.process()
+            prereq = prereq.get_prereq()
 
             # Only get required courses
             if honors == is_honors:
@@ -209,9 +235,9 @@ class CourseSystem:
                     'honors' : honors,
                     'writing' : writing,
                     'name' : course['name'],
-                    'fullname' : course['longname'],
+                    'fullname' :  '', #course['longname'],
                     'info' : course['description'],
-                    'prereq' : ''
+                    'prereq' : prereq
                     
                 })
 
@@ -229,7 +255,7 @@ class ProgramSystem:
     
     #############################################################################
     @classmethod
-    def get_json(cls, school_id, type):
+    def get_subject_courses_input_json(cls, school_id, type):
         """
         Get raw JSON data from CourseDog API.
         """
@@ -242,13 +268,13 @@ class ProgramSystem:
     
     #############################################################################
     @classmethod
-    def get_output_file(cls, school_id, type, is_honors):
+    def get_subject_courses_output_json(cls, school_id, type, is_honors):
         """
         Generate output json file.
         """
 
         # Get raw json data from CourseDog API
-        raw = cls.get_json(school_id, type)
+        raw = cls.get_subject_courses_input_json(school_id, type)
         raw = raw['data']
 
         # Processed json data by type
