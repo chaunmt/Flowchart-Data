@@ -6,19 +6,7 @@ import os
 import json
 import requests
 
-class FileHandler:
-    """
-    Class to help handle files.
-    TODO
-    """
-
-class URLHandler:
-    """
-    Class to help handle url link.
-    TODO
-    """
-
-class JSONHandler(FileHandler, URLHandler):
+class JSONHandler():
     """
     Class to help handle json files.
     """
@@ -54,10 +42,11 @@ class JSONHandler(FileHandler, URLHandler):
 
     #############################################################################
     @staticmethod
-    def write_to_path(path: str, data: any):
+    def write_to_path(path: str, data: any) -> None:
         """
         Write to the json file at the specified path.
         """
+        print(type(data))
 
         # If the file is not exist, a new file will be made
         with open(path, 'w', encoding='utf-8') as file:
