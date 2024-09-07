@@ -1,20 +1,28 @@
 """
-This module contains classes which
-filter string component and return the new string.
+This module contains classes which filter string component.
 """
 
 import re
 
-from python.filter.filter import Filter
-from python.splitter.string import StringSplitter
+from python.schema.others import StringComponent
 
 ###############################################################################
-class StringFilter(Filter):
+class StringFilter(StringComponent):
     """
     This is the base class for all string filter classes.
     """
 
-    allowed_type = str
+    _s : StringComponent = None
+
+    def __init__(self, s: str) -> None:
+        self._s = s
+
+    @property
+    def prereq(self) -> StringComponent:
+        return self._s
+
+    def process(self) -> str:
+        return self._s.process()
 
 ###############################################################################
 class StringFilterSpace(StringFilter):
@@ -22,13 +30,13 @@ class StringFilterSpace(StringFilter):
     This class filter out all spaces in string.
     """
 
-    def filter(cls):
+    def process(self):
         """
         Delete all spaces in string component
         and return the new string.
         """
 
-        return cls.item.replace(' ', '')
+        return self._s.process().replace(' ', '')
 
 ###############################################################################
 class StringFilterSign(StringFilter):
@@ -36,13 +44,13 @@ class StringFilterSign(StringFilter):
     This class filter out all signs in string.
     """
 
-    def filter(cls):
+    def process(self):
         """
         Delete all signs (excluding space) in string component
         and return the new string.
         """
 
-        return re.sub(r'[^a-zA-Z0-9]', '', cls.item)
+        return re.sub(r'[^a-zA-Z0-9]', '', self._s.process())
 
 ###############################################################################
 class StringFilterBracket(StringFilter):
@@ -50,13 +58,13 @@ class StringFilterBracket(StringFilter):
     This class filter out all brackets in string.
     """
 
-    def filter(cls):
+    def process(self):
         """
         Delete all brackets (round, square, and curly) in string component
         and return the new string.
         """
 
-        return re.sub(r'[()\[\]{}]', '', cls.item)
+        return re.sub(r'[()\[\]{}]', '', self._s.process())
 
 ###############################################################################
 class StringFilterAlpha(StringFilter):
@@ -64,13 +72,13 @@ class StringFilterAlpha(StringFilter):
     This class filter all letters in string.
     """
 
-    def filter(cls):
+    def process(self):
         """
         Delete all letters in string component
         and return the new string.
         """
 
-        return re.sub(r'[A-Za-z]', '', cls.item)
+        return re.sub(r'[A-Za-z]', '', self._s.process())
 
 ###############################################################################
 class StringFilterNumeric(StringFilter):
@@ -78,10 +86,10 @@ class StringFilterNumeric(StringFilter):
     This class filter all digits in string.
     """
 
-    def filter(cls):
+    def process(self):
         """
         Delete all digits in string component
         and return the new string.
         """
 
-        return re.sub(r'\d', '', cls.item)
+        return re.sub(r'\d', '', self._s.process())
