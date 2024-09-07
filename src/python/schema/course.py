@@ -42,6 +42,10 @@ class CourseShell:
             f")"
         )
 
+    #####################################
+    def process(self) -> dict:
+        return self
+
 ###############################################################################
 class PrereqFormat:
     """
@@ -52,39 +56,13 @@ class PrereqFormat:
     #####################################
     def __init__(
             self,
-            prereq_: dict
-        ):
+            prereq: dict
+        ) -> None:
         """
         Initialize a PrereqFormat object.
         """
 
-        # Call the error-checking method
-        self.check_errors(prereq_)
-
-        self.prereq = prereq_
-
-    #####################################
-    def check_errors(self, prereq_: dict):
-        """
-        Error checking method to validate the structure of prereq_.
-        """
-
-        for k, v in prereq_.items():
-            # Check if the key is valid ('and' or 'or')
-            if k not in ["and", "or"]:
-                raise ValueError(
-                    f"Invalid prereq's key '{k}' found. Allowed keys are 'and' or 'or'."
-                )
-
-            if (
-                # Check if the value is a list
-                not isinstance(v, list) or
-                # Check if the value's strings representing uid numbers
-                not all(isinstance(uid, str) and uid.isdigit() for uid in v)
-            ):
-                raise ValueError(
-                    f"The value for key '{k}' must be a list of numeric strings."
-                )
+        self._prereq = prereq
 
     #####################################
     def __repr__(self):
@@ -94,9 +72,13 @@ class PrereqFormat:
 
         return (
             f"PrereqFormat(\n"
-            f"  prereq = {self.prereq}\n"
+            f"  prereq = {self._prereq}\n"
             f")"
         )
+
+    #####################################
+    def process(self) -> dict:
+        return self._prereq
 
 ###############################################################################
 class Course(CourseShell):
@@ -117,7 +99,7 @@ class Course(CourseShell):
             name_: str,
             fullname_: str,
             info_: str,
-            prereq_: PrereqFormat
+            prereq: PrereqFormat
         ):
         """
         Initialize a Course object.
@@ -131,7 +113,7 @@ class Course(CourseShell):
         self.name = name_
         self.fullname = fullname_
         self.info = info_
-        self.prereq = prereq_
+        self._prereq = prereq
 
     #####################################
     def __repr__(self):
@@ -150,6 +132,10 @@ class Course(CourseShell):
             f"  name = {self.name},\n"
             f"  fullname = {self.fullname},\n"
             f"  info = {self.info},\n"
-            f"  prereq = {self.prereq}\n"
+            f"  prereq = {self._prereq}\n"
             f")"
         )
+
+    #####################################
+    def process(self) -> dict:
+        return self
