@@ -23,18 +23,19 @@ class CourseSystemInterface:
         
         self._sys = CourseSystem(self._UMNTC_ID)
 
-        return "Course System: Ready!"
+        return "++ Course System: Ready!"
 
     def get_all(self) -> str:
         """
         Records all course data information.
         """
 
-        self._sys.get_subject_courses_output_json('allCourses')
+        self._sys.get_subject_courses_output_json('allCourses', False)
+        self._sys.get_subject_courses_output_json('allCourses', True)
         self.get_subjects(False)
         self.get_subjects(True)
 
-        return "Course System: Recorded all data."
+        return "++ Course System: Recorded all data."
 
     def get_subjects(self, is_honors: bool) -> str:
         """
@@ -49,7 +50,7 @@ class CourseSystemInterface:
         if is_honors:
             honors_type = "honors"
 
-        return f"Course System: Recorded all subjects' {honors_type} course data."
+        return f"++ Course System: Recorded all subjects' {honors_type} course data."
 
     def get_subject(self, subject_code: str, is_honors: bool) -> str:
         """
@@ -64,7 +65,7 @@ class CourseSystemInterface:
         if is_honors:
             honors_type = "honors"
 
-        return f"Course System: Recorded {honors_type} course data for subject {subject_code}."
+        return f"++ Course System: Recorded {honors_type} course data for subject {subject_code}."
 
 class ProgramSystemInterface:
     """
@@ -77,7 +78,7 @@ class ProgramSystemInterface:
         Initializes the program system.
         """
 
-        return "Program System: Ready!"
+        return "++ Program System: Ready!"
 
     def get_all(self) -> str:
         """
@@ -86,7 +87,7 @@ class ProgramSystemInterface:
 
         # TODO
 
-        return "Program System: Recorded all program data."
+        return "++ Program System: Recorded all program data."
 
     def get_program(self, program: str) -> str:
         """
@@ -95,4 +96,4 @@ class ProgramSystemInterface:
 
         # TODO
 
-        return f"Program System: Recorded data for program {program}."
+        return f"++ Program System: Recorded data for program {program}."
