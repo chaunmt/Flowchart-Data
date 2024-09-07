@@ -672,6 +672,20 @@
     "honors": false
   },
   {
+    "uid": "827147",
+    "code": "ACCT5121W",
+    "subject": "ACCT",
+    "number": "5121",
+    "honors": false
+  },
+  {
+    "uid": "827149",
+    "code": "ACCT5122",
+    "subject": "ACCT",
+    "number": "5122",
+    "honors": false
+  },
+  {
     "uid": "013817",
     "code": "ACCT5125W",
     "subject": "ACCT",
@@ -1274,31 +1288,10 @@
     "honors": false
   },
   {
-    "uid": "808423",
-    "code": "ADDS5061",
-    "subject": "ADDS",
-    "number": "5061",
-    "honors": false
-  },
-  {
     "uid": "808424",
     "code": "ADDS5071",
     "subject": "ADDS",
     "number": "5071",
-    "honors": false
-  },
-  {
-    "uid": "808416",
-    "code": "ADDS5081",
-    "subject": "ADDS",
-    "number": "5081",
-    "honors": false
-  },
-  {
-    "uid": "808425",
-    "code": "ADDS5091",
-    "subject": "ADDS",
-    "number": "5091",
     "honors": false
   },
   {
@@ -1344,10 +1337,73 @@
     "honors": false
   },
   {
-    "uid": "809011",
-    "code": "ADDS5996",
+    "uid": "827054",
+    "code": "ADDS6001",
     "subject": "ADDS",
-    "number": "5996",
+    "number": "6001",
+    "honors": false
+  },
+  {
+    "uid": "827053",
+    "code": "ADDS6005",
+    "subject": "ADDS",
+    "number": "6005",
+    "honors": false
+  },
+  {
+    "uid": "827023",
+    "code": "ADDS6011",
+    "subject": "ADDS",
+    "number": "6011",
+    "honors": false
+  },
+  {
+    "uid": "808416",
+    "code": "ADDS6015",
+    "subject": "ADDS",
+    "number": "6015",
+    "honors": false
+  },
+  {
+    "uid": "808423",
+    "code": "ADDS6021",
+    "subject": "ADDS",
+    "number": "6021",
+    "honors": false
+  },
+  {
+    "uid": "827052",
+    "code": "ADDS6025",
+    "subject": "ADDS",
+    "number": "6025",
+    "honors": false
+  },
+  {
+    "uid": "808425",
+    "code": "ADDS6031",
+    "subject": "ADDS",
+    "number": "6031",
+    "honors": false
+  },
+  {
+    "uid": "808448",
+    "code": "ADDS6035",
+    "subject": "ADDS",
+    "number": "6035",
+    "honors": false
+  },
+  {
+    "uid": "827169",
+    "code": "ADDS6905",
+    "subject": "ADDS",
+    "number": "6905",
+    "honors": false
+  },
+  {
+    "uid": "809011",
+    "code": "ADDS6996",
+    "subject": "ADDS",
+    "number": "6996",
     "honors": false
   },
   {
@@ -2947,6 +3003,13 @@
     "honors": false
   },
   {
+    "uid": "827125",
+    "code": "AEM8553",
+    "subject": "AEM",
+    "number": "8553",
+    "honors": false
+  },
+  {
     "uid": "819869",
     "code": "AEM8590",
     "subject": "AEM",
@@ -3217,6 +3280,13 @@
     "code": "AFRO1902",
     "subject": "AFRO",
     "number": "1902",
+    "honors": false
+  },
+  {
+    "uid": "827222",
+    "code": "AFRO1903",
+    "subject": "AFRO",
+    "number": "1903",
     "honors": false
   },
   {
@@ -3623,6 +3693,13 @@
     "code": "AFRO3655",
     "subject": "AFRO",
     "number": "3655",
+    "honors": false
+  },
+  {
+    "uid": "827156",
+    "code": "AFRO3681",
+    "subject": "AFRO",
+    "number": "3681",
     "honors": false
   },
   {
@@ -4452,6 +4529,13 @@
     "honors": false
   },
   {
+    "uid": "826895",
+    "code": "AGRO5605",
+    "subject": "AGRO",
+    "number": "5605",
+    "honors": false
+  },
+  {
     "uid": "806291",
     "code": "AGRO5980",
     "subject": "AGRO",
@@ -4470,6 +4554,13 @@
     "code": "AGRO8005",
     "subject": "AGRO",
     "number": "8005",
+    "honors": false
+  },
+  {
+    "uid": "008455",
+    "code": "AGRO8010",
+    "subject": "AGRO",
+    "number": "8010",
     "honors": false
   },
   {
@@ -5117,6 +5208,13 @@
     "honors": false
   },
   {
+    "uid": "826955",
+    "code": "AMES1351",
+    "subject": "AMES",
+    "number": "1351",
+    "honors": false
+  },
+  {
     "uid": "796068",
     "code": "AMES1441",
     "subject": "AMES",
@@ -5229,6 +5327,13 @@
     "honors": false
   },
   {
+    "uid": "827217",
+    "code": "AMES1917W",
+    "subject": "AMES",
+    "number": "1917",
+    "honors": false
+  },
+  {
     "uid": "793709",
     "code": "AMES3001",
     "subject": "AMES",
@@ -5303,6 +5408,13 @@
     "code": "AMES3300",
     "subject": "AMES",
     "number": "3300",
+    "honors": false
+  },
+  {
+    "uid": "826983",
+    "code": "AMES3320",
+    "subject": "AMES",
+    "number": "3320",
     "honors": false
   },
   {
@@ -5901,6 +6013,13 @@
     "honors": false
   },
   {
+    "uid": "827327",
+    "code": "AMES5232",
+    "subject": "AMES",
+    "number": "5232",
+    "honors": false
+  },
+  {
     "uid": "817508",
     "code": "AMES5250",
     "subject": "AMES",
@@ -6108,6 +6227,13 @@
     "code": "AMES5672",
     "subject": "AMES",
     "number": "5672",
+    "honors": false
+  },
+  {
+    "uid": "827141",
+    "code": "AMES5679",
+    "subject": "AMES",
+    "number": "5679",
     "honors": false
   },
   {
@@ -6916,6 +7042,13 @@
     "honors": false
   },
   {
+    "uid": "827073",
+    "code": "AMST1906W",
+    "subject": "AMST",
+    "number": "1906",
+    "honors": false
+  },
+  {
     "uid": "790643",
     "code": "AMST1907W",
     "subject": "AMST",
@@ -7112,10 +7245,24 @@
     "honors": false
   },
   {
+    "uid": "827185",
+    "code": "AMST3409W",
+    "subject": "AMST",
+    "number": "3409",
+    "honors": false
+  },
+  {
     "uid": "795351",
     "code": "AMST3632W",
     "subject": "AMST",
     "number": "3632",
+    "honors": false
+  },
+  {
+    "uid": "827157",
+    "code": "AMST3661",
+    "subject": "AMST",
+    "number": "3661",
     "honors": false
   },
   {
@@ -7837,6 +7984,13 @@
     "code": "ANSC1021",
     "subject": "ANSC",
     "number": "1021",
+    "honors": false
+  },
+  {
+    "uid": "826934",
+    "code": "ANSC1051",
+    "subject": "ANSC",
+    "number": "1051",
     "honors": false
   },
   {
@@ -8638,6 +8792,13 @@
     "honors": false
   },
   {
+    "uid": "827274",
+    "code": "ANSC8511",
+    "subject": "ANSC",
+    "number": "8511",
+    "honors": false
+  },
+  {
     "uid": "825663",
     "code": "ANSC8520",
     "subject": "ANSC",
@@ -9247,6 +9408,13 @@
     "honors": false
   },
   {
+    "uid": "827237",
+    "code": "ANTH4004",
+    "subject": "ANTH",
+    "number": "4004",
+    "honors": false
+  },
+  {
     "uid": "008718",
     "code": "ANTH4007",
     "subject": "ANTH",
@@ -9807,6 +9975,13 @@
     "honors": false
   },
   {
+    "uid": "827120",
+    "code": "ANTH5910",
+    "subject": "ANTH",
+    "number": "5910",
+    "honors": false
+  },
+  {
     "uid": "788796",
     "code": "ANTH5980",
     "subject": "ANTH",
@@ -10238,6 +10413,13 @@
     "code": "APEC3071",
     "subject": "APEC",
     "number": "3071",
+    "honors": false
+  },
+  {
+    "uid": "826997",
+    "code": "APEC3081",
+    "subject": "APEC",
+    "number": "3081",
     "honors": false
   },
   {
@@ -11046,6 +11228,13 @@
     "honors": false
   },
   {
+    "uid": "827278",
+    "code": "APSC8081",
+    "subject": "APSC",
+    "number": "8081",
+    "honors": false
+  },
+  {
     "uid": "792775",
     "code": "APSC8123",
     "subject": "APSC",
@@ -11057,6 +11246,13 @@
     "code": "APSC8201",
     "subject": "APSC",
     "number": "8201",
+    "honors": false
+  },
+  {
+    "uid": "827230",
+    "code": "APSC8223",
+    "subject": "APSC",
+    "number": "8223",
     "honors": false
   },
   {
@@ -11277,6 +11473,13 @@
     "honors": false
   },
   {
+    "uid": "827196",
+    "code": "ARAB1105",
+    "subject": "ARAB",
+    "number": "1105",
+    "honors": false
+  },
+  {
     "uid": "008870",
     "code": "ARAB1201",
     "subject": "ARAB",
@@ -11466,6 +11669,13 @@
     "honors": false
   },
   {
+    "uid": "827197",
+    "code": "ARAB4105",
+    "subject": "ARAB",
+    "number": "4105",
+    "honors": false
+  },
+  {
     "uid": "802312",
     "code": "ARAB4121",
     "subject": "ARAB",
@@ -11649,7 +11859,7 @@
   },
   {
     "uid": "819180",
-    "code": "ARCH1621W",
+    "code": "ARCH1621",
     "subject": "ARCH",
     "number": "1621",
     "honors": false
@@ -12254,6 +12464,13 @@
     "code": "ARCH5212",
     "subject": "ARCH",
     "number": "5212",
+    "honors": false
+  },
+  {
+    "uid": "826980",
+    "code": "ARCH5213",
+    "subject": "ARCH",
+    "number": "5213",
     "honors": false
   },
   {
@@ -13384,6 +13601,27 @@
     "honors": false
   },
   {
+    "uid": "827076",
+    "code": "ARTH1917",
+    "subject": "ARTH",
+    "number": "1917",
+    "honors": false
+  },
+  {
+    "uid": "827074",
+    "code": "ARTH1918",
+    "subject": "ARTH",
+    "number": "1918",
+    "honors": false
+  },
+  {
+    "uid": "827225",
+    "code": "ARTH1919",
+    "subject": "ARTH",
+    "number": "1919",
+    "honors": false
+  },
+  {
     "uid": "008389",
     "code": "ARTH1921W",
     "subject": "ARTH",
@@ -13798,7 +14036,7 @@
   },
   {
     "uid": "811546",
-    "code": "ARTH3926",
+    "code": "ARTH3926W",
     "subject": "ARTH",
     "number": "3926",
     "honors": false
@@ -13808,6 +14046,13 @@
     "code": "ARTH3927",
     "subject": "ARTH",
     "number": "3927",
+    "honors": false
+  },
+  {
+    "uid": "827210",
+    "code": "ARTH3928W",
+    "subject": "ARTH",
+    "number": "3928",
     "honors": false
   },
   {
@@ -14309,7 +14554,7 @@
   },
   {
     "uid": "811502",
-    "code": "ARTH5926",
+    "code": "ARTH5926W",
     "subject": "ARTH",
     "number": "5926",
     "honors": false
@@ -16264,7 +16509,7 @@
     "uid": "802908",
     "code": "BA999",
     "subject": "BA",
-    "number": "999",
+    "number": null,
     "honors": false
   },
   {
@@ -18040,9 +18285,9 @@
   },
   {
     "uid": "000440",
-    "code": "BIOL1020",
+    "code": "BIOL1021",
     "subject": "BIOL",
-    "number": "1020",
+    "number": "1021",
     "honors": false
   },
   {
@@ -19299,6 +19544,13 @@
     "honors": false
   },
   {
+    "uid": "827194",
+    "code": "BMEN4151",
+    "subject": "BMEN",
+    "number": "4151",
+    "honors": false
+  },
+  {
     "uid": "789304",
     "code": "BMEN4793",
     "subject": "BMEN",
@@ -19338,6 +19590,13 @@
     "code": "BMEN5001",
     "subject": "BMEN",
     "number": "5001",
+    "honors": false
+  },
+  {
+    "uid": "827148",
+    "code": "BMEN5011",
+    "subject": "BMEN",
+    "number": "5011",
     "honors": false
   },
   {
@@ -21003,77 +21262,77 @@
     "uid": "016265",
     "code": "CEBS1",
     "subject": "CEBS",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016493",
     "code": "CEBS10",
     "subject": "CEBS",
-    "number": "10",
+    "number": null,
     "honors": false
   },
   {
     "uid": "790891",
     "code": "CEBS11",
     "subject": "CEBS",
-    "number": "11",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016264",
     "code": "CEBS2",
     "subject": "CEBS",
-    "number": "2",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016270",
     "code": "CEBS3",
     "subject": "CEBS",
-    "number": "3",
+    "number": null,
     "honors": false
   },
   {
     "uid": "017005",
     "code": "CEBS4",
     "subject": "CEBS",
-    "number": "4",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016490",
     "code": "CEBS5",
     "subject": "CEBS",
-    "number": "5",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016491",
     "code": "CEBS6",
     "subject": "CEBS",
-    "number": "6",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016271",
     "code": "CEBS7",
     "subject": "CEBS",
-    "number": "7",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016273",
     "code": "CEBS8",
     "subject": "CEBS",
-    "number": "8",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016492",
     "code": "CEBS9",
     "subject": "CEBS",
-    "number": "9",
+    "number": null,
     "honors": false
   },
   {
@@ -21130,13 +21389,6 @@
     "code": "CEGE3201",
     "subject": "CEGE",
     "number": "3201",
-    "honors": false
-  },
-  {
-    "uid": "003336",
-    "code": "CEGE3202",
-    "subject": "CEGE",
-    "number": "3202",
     "honors": false
   },
   {
@@ -21472,7 +21724,7 @@
     "uid": "015935",
     "code": "CEGE5",
     "subject": "CEGE",
-    "number": "5",
+    "number": null,
     "honors": false
   },
   {
@@ -21634,6 +21886,13 @@
     "code": "CEGE5516",
     "subject": "CEGE",
     "number": "5516",
+    "honors": false
+  },
+  {
+    "uid": "827290",
+    "code": "CEGE5524",
+    "subject": "CEGE",
+    "number": "5524",
     "honors": false
   },
   {
@@ -22873,6 +23132,20 @@
     "code": "CHEM1066",
     "subject": "CHEM",
     "number": "1066",
+    "honors": false
+  },
+  {
+    "uid": "827126",
+    "code": "CHEM1071",
+    "subject": "CHEM",
+    "number": "1071",
+    "honors": false
+  },
+  {
+    "uid": "827131",
+    "code": "CHEM1072",
+    "subject": "CHEM",
+    "number": "1072",
     "honors": false
   },
   {
@@ -24486,6 +24759,13 @@
     "honors": false
   },
   {
+    "uid": "827190",
+    "code": "CHIC1916W",
+    "subject": "CHIC",
+    "number": "1916",
+    "honors": false
+  },
+  {
     "uid": "013756",
     "code": "CHIC3114",
     "subject": "CHIC",
@@ -25652,6 +25932,13 @@
     "code": "CI1905",
     "subject": "CI",
     "number": "1905",
+    "honors": false
+  },
+  {
+    "uid": "826989",
+    "code": "CI1906",
+    "subject": "CI",
+    "number": "1906",
     "honors": false
   },
   {
@@ -27940,14 +28227,14 @@
     "uid": "788785",
     "code": "CI822",
     "subject": "CI",
-    "number": "822",
+    "number": null,
     "honors": false
   },
   {
     "uid": "788786",
     "code": "CI832",
     "subject": "CI",
-    "number": "832",
+    "number": null,
     "honors": false
   },
   {
@@ -30352,6 +30639,13 @@
     "honors": false
   },
   {
+    "uid": "827236",
+    "code": "CMGT3009",
+    "subject": "CMGT",
+    "number": "3009",
+    "honors": false
+  },
+  {
     "uid": "791698",
     "code": "CMGT3011",
     "subject": "CMGT",
@@ -30363,6 +30657,13 @@
     "code": "CMGT3024W",
     "subject": "CMGT",
     "number": "3024",
+    "honors": false
+  },
+  {
+    "uid": "003336",
+    "code": "CMGT3202",
+    "subject": "CMGT",
+    "number": "3202",
     "honors": false
   },
   {
@@ -30601,6 +30902,13 @@
     "code": "CMGT4305",
     "subject": "CMGT",
     "number": "4305",
+    "honors": false
+  },
+  {
+    "uid": "827174",
+    "code": "CMGT4421",
+    "subject": "CMGT",
+    "number": "4421",
     "honors": false
   },
   {
@@ -31304,6 +31612,13 @@
     "honors": false
   },
   {
+    "uid": "827245",
+    "code": "CNRC3102",
+    "subject": "CNRC",
+    "number": "3102",
+    "honors": false
+  },
+  {
     "uid": "799003",
     "code": "CNRC3103",
     "subject": "CNRC",
@@ -31385,6 +31700,13 @@
     "code": "CNRC3206",
     "subject": "CNRC",
     "number": "3206",
+    "honors": false
+  },
+  {
+    "uid": "827081",
+    "code": "CNRC3207W",
+    "subject": "CNRC",
+    "number": "3207",
     "honors": false
   },
   {
@@ -31539,6 +31861,13 @@
     "code": "CNRC5204",
     "subject": "CNRC",
     "number": "5204",
+    "honors": false
+  },
+  {
+    "uid": "827089",
+    "code": "CNRC5207W",
+    "subject": "CNRC",
+    "number": "5207",
     "honors": false
   },
   {
@@ -33845,6 +34174,13 @@
     "honors": false
   },
   {
+    "uid": "827160",
+    "code": "CSCI4521",
+    "subject": "CSCI",
+    "number": "4521",
+    "honors": false
+  },
+  {
     "uid": "810362",
     "code": "CSCI4611",
     "subject": "CSCI",
@@ -34391,10 +34727,24 @@
     "honors": false
   },
   {
+    "uid": "827191",
+    "code": "CSCI8207",
+    "subject": "CSCI",
+    "number": "8207",
+    "honors": false
+  },
+  {
     "uid": "003729",
     "code": "CSCI8211",
     "subject": "CSCI",
     "number": "8211",
+    "honors": false
+  },
+  {
+    "uid": "827331",
+    "code": "CSCI8213",
+    "subject": "CSCI",
+    "number": "8213",
     "honors": false
   },
   {
@@ -34787,6 +35137,20 @@
     "code": "CSCL1922",
     "subject": "CSCL",
     "number": "1922",
+    "honors": false
+  },
+  {
+    "uid": "827219",
+    "code": "CSCL1923",
+    "subject": "CSCL",
+    "number": "1923",
+    "honors": false
+  },
+  {
+    "uid": "827234",
+    "code": "CSCL1924",
+    "subject": "CSCL",
+    "number": "1924",
     "honors": false
   },
   {
@@ -35535,7 +35899,7 @@
     "uid": "014550",
     "code": "CSE1",
     "subject": "CSE",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
@@ -36033,6 +36397,27 @@
     "code": "CSPH5321",
     "subject": "CSPH",
     "number": "5321",
+    "honors": false
+  },
+  {
+    "uid": "827044",
+    "code": "CSPH5322",
+    "subject": "CSPH",
+    "number": "5322",
+    "honors": false
+  },
+  {
+    "uid": "827035",
+    "code": "CSPH5323",
+    "subject": "CSPH",
+    "number": "5323",
+    "honors": false
+  },
+  {
+    "uid": "827043",
+    "code": "CSPH5324",
+    "subject": "CSPH",
+    "number": "5324",
     "honors": false
   },
   {
@@ -39732,6 +40117,41 @@
     "honors": false
   },
   {
+    "uid": "827307",
+    "code": "DBLN3022",
+    "subject": "DBLN",
+    "number": "3022",
+    "honors": false
+  },
+  {
+    "uid": "827306",
+    "code": "DBLN3023",
+    "subject": "DBLN",
+    "number": "3023",
+    "honors": false
+  },
+  {
+    "uid": "827317",
+    "code": "DBLN3024",
+    "subject": "DBLN",
+    "number": "3024",
+    "honors": false
+  },
+  {
+    "uid": "827319",
+    "code": "DBLN3025",
+    "subject": "DBLN",
+    "number": "3025",
+    "honors": false
+  },
+  {
+    "uid": "827318",
+    "code": "DBLN3026",
+    "subject": "DBLN",
+    "number": "3026",
+    "honors": false
+  },
+  {
     "uid": "819224",
     "code": "DBLN3101",
     "subject": "DBLN",
@@ -39802,10 +40222,24 @@
     "honors": false
   },
   {
+    "uid": "827308",
+    "code": "DBLN3271",
+    "subject": "DBLN",
+    "number": "3271",
+    "honors": false
+  },
+  {
     "uid": "825379",
     "code": "DBLN3375",
     "subject": "DBLN",
     "number": "3375",
+    "honors": false
+  },
+  {
+    "uid": "827305",
+    "code": "DBLN3561",
+    "subject": "DBLN",
+    "number": "3561",
     "honors": false
   },
   {
@@ -41090,6 +41524,13 @@
     "honors": false
   },
   {
+    "uid": "826012",
+    "code": "DDS6628",
+    "subject": "DDS",
+    "number": "6628",
+    "honors": false
+  },
+  {
     "uid": "819937",
     "code": "DDS6629",
     "subject": "DDS",
@@ -41115,6 +41556,13 @@
     "code": "DDS6632",
     "subject": "DDS",
     "number": "6632",
+    "honors": false
+  },
+  {
+    "uid": "826883",
+    "code": "DDS6638",
+    "subject": "DDS",
+    "number": "6638",
     "honors": false
   },
   {
@@ -42161,6 +42609,13 @@
     "honors": false
   },
   {
+    "uid": "826355",
+    "code": "DENT8112",
+    "subject": "DENT",
+    "number": "8112",
+    "honors": false
+  },
+  {
     "uid": "826344",
     "code": "DENT8113",
     "subject": "DENT",
@@ -42378,6 +42833,13 @@
     "honors": false
   },
   {
+    "uid": "012137",
+    "code": "DES1311",
+    "subject": "DES",
+    "number": "1311",
+    "honors": false
+  },
+  {
     "uid": "817347",
     "code": "DES1401",
     "subject": "DES",
@@ -42434,6 +42896,13 @@
     "honors": false
   },
   {
+    "uid": "827216",
+    "code": "DES1409",
+    "subject": "DES",
+    "number": "1409",
+    "honors": false
+  },
+  {
     "uid": "825815",
     "code": "DES1411",
     "subject": "DES",
@@ -42459,6 +42928,13 @@
     "code": "DES1902",
     "subject": "DES",
     "number": "1902",
+    "honors": false
+  },
+  {
+    "uid": "827235",
+    "code": "DES1903",
+    "subject": "DES",
+    "number": "1903",
     "honors": false
   },
   {
@@ -42651,6 +43127,27 @@
     "honors": false
   },
   {
+    "uid": "826972",
+    "code": "DES4131",
+    "subject": "DES",
+    "number": "4131",
+    "honors": false
+  },
+  {
+    "uid": "826975",
+    "code": "DES4132",
+    "subject": "DES",
+    "number": "4132",
+    "honors": false
+  },
+  {
+    "uid": "826971",
+    "code": "DES4133",
+    "subject": "DES",
+    "number": "4133",
+    "honors": false
+  },
+  {
     "uid": "802098",
     "code": "DES4160",
     "subject": "DES",
@@ -42690,6 +43187,13 @@
     "code": "DES4401W",
     "subject": "DES",
     "number": "4401",
+    "honors": false
+  },
+  {
+    "uid": "827275",
+    "code": "DES4402",
+    "subject": "DES",
+    "number": "4402",
     "honors": false
   },
   {
@@ -42788,6 +43292,13 @@
     "code": "DES5201",
     "subject": "DES",
     "number": "5201",
+    "honors": false
+  },
+  {
+    "uid": "826940",
+    "code": "DES5501",
+    "subject": "DES",
+    "number": "5501",
     "honors": false
   },
   {
@@ -43025,7 +43536,7 @@
     "uid": "012996",
     "code": "DH1",
     "subject": "DH",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
@@ -43858,7 +44369,7 @@
     "uid": "015423",
     "code": "DHA621",
     "subject": "DHA",
-    "number": "621",
+    "number": null,
     "honors": false
   },
   {
@@ -46749,7 +47260,7 @@
     "uid": "818453",
     "code": "ECON176",
     "subject": "ECON",
-    "number": "176",
+    "number": null,
     "honors": false
   },
   {
@@ -46795,10 +47306,38 @@
     "honors": false
   },
   {
+    "uid": "827084",
+    "code": "ECON3011",
+    "subject": "ECON",
+    "number": "3011",
+    "honors": false
+  },
+  {
+    "uid": "827092",
+    "code": "ECON3012",
+    "subject": "ECON",
+    "number": "3012",
+    "honors": false
+  },
+  {
     "uid": "007778",
     "code": "ECON3021",
     "subject": "ECON",
     "number": "3021",
+    "honors": false
+  },
+  {
+    "uid": "827128",
+    "code": "ECON3023",
+    "subject": "ECON",
+    "number": "3023",
+    "honors": false
+  },
+  {
+    "uid": "827093",
+    "code": "ECON3024",
+    "subject": "ECON",
+    "number": "3024",
     "honors": false
   },
   {
@@ -47153,7 +47692,7 @@
   },
   {
     "uid": "820089",
-    "code": "ECON4341",
+    "code": "ECON4341W",
     "subject": "ECON",
     "number": "4341",
     "honors": false
@@ -47195,7 +47734,7 @@
   },
   {
     "uid": "007298",
-    "code": "ECON4432W",
+    "code": "ECON4432",
     "subject": "ECON",
     "number": "4432",
     "honors": false
@@ -47334,14 +47873,14 @@
     "honors": false
   },
   {
-    "uid": "007323",
+    "uid": "826760",
     "code": "ECON4960",
     "subject": "ECON",
     "number": "4960",
     "honors": false
   },
   {
-    "uid": "826760",
+    "uid": "007323",
     "code": "ECON4960",
     "subject": "ECON",
     "number": "4960",
@@ -48632,7 +49171,7 @@
     "uid": "016723",
     "code": "EE1",
     "subject": "EE",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
@@ -48779,7 +49318,7 @@
     "uid": "787614",
     "code": "EE301",
     "subject": "EE",
-    "number": "301",
+    "number": null,
     "honors": false
   },
   {
@@ -48863,7 +49402,7 @@
     "uid": "787615",
     "code": "EE361",
     "subject": "EE",
-    "number": "361",
+    "number": null,
     "honors": false
   },
   {
@@ -50932,6 +51471,13 @@
     "honors": false
   },
   {
+    "uid": "826984",
+    "code": "EMMD7505",
+    "subject": "EMMD",
+    "number": "7505",
+    "honors": false
+  },
+  {
     "uid": "014625",
     "code": "EMMD7511",
     "subject": "EMMD",
@@ -51362,7 +51908,7 @@
     "uid": "816604",
     "code": "ENGL1",
     "subject": "ENGL",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
@@ -51629,6 +52175,20 @@
     "code": "ENGL1926",
     "subject": "ENGL",
     "number": "1926",
+    "honors": false
+  },
+  {
+    "uid": "827146",
+    "code": "ENGL1927",
+    "subject": "ENGL",
+    "number": "1927",
+    "honors": false
+  },
+  {
+    "uid": "827224",
+    "code": "ENGL1928",
+    "subject": "ENGL",
+    "number": "1928",
     "honors": false
   },
   {
@@ -52528,6 +53088,13 @@
     "honors": false
   },
   {
+    "uid": "827075",
+    "code": "ENGL4701",
+    "subject": "ENGL",
+    "number": "4701",
+    "honors": false
+  },
+  {
     "uid": "004325",
     "code": "ENGL4721",
     "subject": "ENGL",
@@ -53088,6 +53655,20 @@
     "honors": false
   },
   {
+    "uid": "827143",
+    "code": "ENGW1913",
+    "subject": "ENGW",
+    "number": "1913",
+    "honors": false
+  },
+  {
+    "uid": "827144",
+    "code": "ENGW1914W",
+    "subject": "ENGW",
+    "number": "1914",
+    "honors": false
+  },
+  {
     "uid": "014507",
     "code": "ENGW3101",
     "subject": "ENGW",
@@ -53096,7 +53677,7 @@
   },
   {
     "uid": "004947",
-    "code": "ENGW3102",
+    "code": "ENGW3102W",
     "subject": "ENGW",
     "number": "3102",
     "honors": false
@@ -53110,7 +53691,7 @@
   },
   {
     "uid": "004948",
-    "code": "ENGW3104",
+    "code": "ENGW3104W",
     "subject": "ENGW",
     "number": "3104",
     "honors": false
@@ -53124,7 +53705,7 @@
   },
   {
     "uid": "004949",
-    "code": "ENGW3106",
+    "code": "ENGW3106W",
     "subject": "ENGW",
     "number": "3106",
     "honors": false
@@ -53141,6 +53722,13 @@
     "code": "ENGW3110",
     "subject": "ENGW",
     "number": "3110",
+    "honors": false
+  },
+  {
+    "uid": "827244",
+    "code": "ENGW3111W",
+    "subject": "ENGW",
+    "number": "3111",
     "honors": false
   },
   {
@@ -53463,6 +54051,13 @@
     "code": "ENT1903",
     "subject": "ENT",
     "number": "1903",
+    "honors": false
+  },
+  {
+    "uid": "827220",
+    "code": "ENT1904",
+    "subject": "ENT",
+    "number": "1904",
     "honors": false
   },
   {
@@ -55353,6 +55948,13 @@
     "code": "EPSY5664",
     "subject": "EPSY",
     "number": "5664",
+    "honors": false
+  },
+  {
+    "uid": "000957",
+    "code": "EPSY5666",
+    "subject": "EPSY",
+    "number": "5666",
     "honors": false
   },
   {
@@ -57403,175 +58005,175 @@
     "uid": "010352",
     "code": "ESL10",
     "subject": "ESL",
-    "number": "10",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787637",
     "code": "ESL105",
     "subject": "ESL",
-    "number": "105",
+    "number": null,
     "honors": false
   },
   {
     "uid": "008532",
     "code": "ESL110",
     "subject": "ESL",
-    "number": "110",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787638",
     "code": "ESL115",
     "subject": "ESL",
-    "number": "115",
+    "number": null,
     "honors": false
   },
   {
     "uid": "008848",
     "code": "ESL120",
     "subject": "ESL",
-    "number": "120",
+    "number": null,
     "honors": false
   },
   {
     "uid": "804647",
     "code": "ESL125",
     "subject": "ESL",
-    "number": "125",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016661",
     "code": "ESL130",
     "subject": "ESL",
-    "number": "130",
+    "number": null,
     "honors": false
   },
   {
     "uid": "008839",
     "code": "ESL131",
     "subject": "ESL",
-    "number": "131",
+    "number": null,
     "honors": false
   },
   {
     "uid": "809756",
     "code": "ESL15",
     "subject": "ESL",
-    "number": "15",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016663",
     "code": "ESL191",
     "subject": "ESL",
-    "number": "191",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009265",
     "code": "ESL193",
     "subject": "ESL",
-    "number": "193",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010369",
     "code": "ESL20",
     "subject": "ESL",
-    "number": "20",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010385",
     "code": "ESL200",
     "subject": "ESL",
-    "number": "200",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787641",
     "code": "ESL205",
     "subject": "ESL",
-    "number": "205",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009073",
     "code": "ESL210",
     "subject": "ESL",
-    "number": "210",
+    "number": null,
     "honors": false
   },
   {
     "uid": "008852",
     "code": "ESL211",
     "subject": "ESL",
-    "number": "211",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801662",
     "code": "ESL215",
     "subject": "ESL",
-    "number": "215",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015770",
     "code": "ESL220",
     "subject": "ESL",
-    "number": "220",
+    "number": null,
     "honors": false
   },
   {
     "uid": "008863",
     "code": "ESL221",
     "subject": "ESL",
-    "number": "221",
+    "number": null,
     "honors": false
   },
   {
     "uid": "804648",
     "code": "ESL225",
     "subject": "ESL",
-    "number": "225",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015771",
     "code": "ESL230",
     "subject": "ESL",
-    "number": "230",
+    "number": null,
     "honors": false
   },
   {
     "uid": "008867",
     "code": "ESL231",
     "subject": "ESL",
-    "number": "231",
+    "number": null,
     "honors": false
   },
   {
     "uid": "809757",
     "code": "ESL25",
     "subject": "ESL",
-    "number": "25",
+    "number": null,
     "honors": false
   },
   {
     "uid": "808940",
     "code": "ESL30",
     "subject": "ESL",
-    "number": "30",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010404",
     "code": "ESL300",
     "subject": "ESL",
-    "number": "300",
+    "number": null,
     "honors": false
   },
   {
@@ -57606,14 +58208,14 @@
     "uid": "801660",
     "code": "ESL305",
     "subject": "ESL",
-    "number": "305",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010405",
     "code": "ESL310",
     "subject": "ESL",
-    "number": "310",
+    "number": null,
     "honors": false
   },
   {
@@ -57634,21 +58236,21 @@
     "uid": "009044",
     "code": "ESL311",
     "subject": "ESL",
-    "number": "311",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801667",
     "code": "ESL315",
     "subject": "ESL",
-    "number": "315",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009132",
     "code": "ESL320",
     "subject": "ESL",
-    "number": "320",
+    "number": null,
     "honors": false
   },
   {
@@ -57669,21 +58271,21 @@
     "uid": "009070",
     "code": "ESL321",
     "subject": "ESL",
-    "number": "321",
+    "number": null,
     "honors": false
   },
   {
     "uid": "804649",
     "code": "ESL325",
     "subject": "ESL",
-    "number": "325",
+    "number": null,
     "honors": false
   },
   {
     "uid": "790625",
     "code": "ESL330",
     "subject": "ESL",
-    "number": "330",
+    "number": null,
     "honors": false
   },
   {
@@ -57697,7 +58299,7 @@
     "uid": "009062",
     "code": "ESL331",
     "subject": "ESL",
-    "number": "331",
+    "number": null,
     "honors": false
   },
   {
@@ -57760,70 +58362,70 @@
     "uid": "010372",
     "code": "ESL40",
     "subject": "ESL",
-    "number": "40",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010389",
     "code": "ESL400",
     "subject": "ESL",
-    "number": "400",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801661",
     "code": "ESL405",
     "subject": "ESL",
-    "number": "405",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009266",
     "code": "ESL410",
     "subject": "ESL",
-    "number": "410",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801668",
     "code": "ESL415",
     "subject": "ESL",
-    "number": "415",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015781",
     "code": "ESL420",
     "subject": "ESL",
-    "number": "420",
+    "number": null,
     "honors": false
   },
   {
     "uid": "804650",
     "code": "ESL425",
     "subject": "ESL",
-    "number": "425",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009247",
     "code": "ESL430",
     "subject": "ESL",
-    "number": "430",
+    "number": null,
     "honors": false
   },
   {
     "uid": "809755",
     "code": "ESL5",
     "subject": "ESL",
-    "number": "5",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010394",
     "code": "ESL500",
     "subject": "ESL",
-    "number": "500",
+    "number": null,
     "honors": false
   },
   {
@@ -57858,14 +58460,14 @@
     "uid": "015773",
     "code": "ESL511",
     "subject": "ESL",
-    "number": "511",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009251",
     "code": "ESL521",
     "subject": "ESL",
-    "number": "521",
+    "number": null,
     "honors": false
   },
   {
@@ -57879,7 +58481,7 @@
     "uid": "015774",
     "code": "ESL531",
     "subject": "ESL",
-    "number": "531",
+    "number": null,
     "honors": false
   },
   {
@@ -57893,385 +58495,385 @@
     "uid": "010399",
     "code": "ESL600",
     "subject": "ESL",
-    "number": "600",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015778",
     "code": "ESL611",
     "subject": "ESL",
-    "number": "611",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015779",
     "code": "ESL622",
     "subject": "ESL",
-    "number": "622",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009244",
     "code": "ESL641",
     "subject": "ESL",
-    "number": "641",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009245",
     "code": "ESL651",
     "subject": "ESL",
-    "number": "651",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010640",
     "code": "ESL661",
     "subject": "ESL",
-    "number": "661",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009236",
     "code": "ESL671",
     "subject": "ESL",
-    "number": "671",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010402",
     "code": "ESL700",
     "subject": "ESL",
-    "number": "700",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010379",
     "code": "ESL701",
     "subject": "ESL",
-    "number": "701",
+    "number": null,
     "honors": false
   },
   {
     "uid": "788179",
     "code": "ESL712",
     "subject": "ESL",
-    "number": "712",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787636",
     "code": "ESL713",
     "subject": "ESL",
-    "number": "713",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015780",
     "code": "ESL732",
     "subject": "ESL",
-    "number": "732",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015782",
     "code": "ESL741",
     "subject": "ESL",
-    "number": "741",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015783",
     "code": "ESL751",
     "subject": "ESL",
-    "number": "751",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015784",
     "code": "ESL761",
     "subject": "ESL",
-    "number": "761",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015785",
     "code": "ESL771",
     "subject": "ESL",
-    "number": "771",
+    "number": null,
     "honors": false
   },
   {
     "uid": "802099",
     "code": "ESL785",
     "subject": "ESL",
-    "number": "785",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010348",
     "code": "ESL80",
     "subject": "ESL",
-    "number": "80",
+    "number": null,
     "honors": false
   },
   {
     "uid": "009286",
     "code": "ESL800",
     "subject": "ESL",
-    "number": "800",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787639",
     "code": "ESL831",
     "subject": "ESL",
-    "number": "831",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801669",
     "code": "ESL832",
     "subject": "ESL",
-    "number": "832",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801671",
     "code": "ESL833",
     "subject": "ESL",
-    "number": "833",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801672",
     "code": "ESL834",
     "subject": "ESL",
-    "number": "834",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787640",
     "code": "ESL841",
     "subject": "ESL",
-    "number": "841",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801676",
     "code": "ESL842",
     "subject": "ESL",
-    "number": "842",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801673",
     "code": "ESL843",
     "subject": "ESL",
-    "number": "843",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801674",
     "code": "ESL844",
     "subject": "ESL",
-    "number": "844",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787642",
     "code": "ESL860",
     "subject": "ESL",
-    "number": "860",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787643",
     "code": "ESL870",
     "subject": "ESL",
-    "number": "870",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787644",
     "code": "ESL880",
     "subject": "ESL",
-    "number": "880",
+    "number": null,
     "honors": false
   },
   {
     "uid": "010375",
     "code": "ESL90",
     "subject": "ESL",
-    "number": "90",
+    "number": null,
     "honors": false
   },
   {
     "uid": "792804",
     "code": "ESL900",
     "subject": "ESL",
-    "number": "900",
+    "number": null,
     "honors": false
   },
   {
     "uid": "793143",
     "code": "ESL901",
     "subject": "ESL",
-    "number": "901",
+    "number": null,
     "honors": false
   },
   {
     "uid": "793144",
     "code": "ESL902",
     "subject": "ESL",
-    "number": "902",
+    "number": null,
     "honors": false
   },
   {
     "uid": "793145",
     "code": "ESL903",
     "subject": "ESL",
-    "number": "903",
+    "number": null,
     "honors": false
   },
   {
     "uid": "802118",
     "code": "ESL904",
     "subject": "ESL",
-    "number": "904",
+    "number": null,
     "honors": false
   },
   {
     "uid": "804905",
     "code": "ESL905",
     "subject": "ESL",
-    "number": "905",
+    "number": null,
     "honors": false
   },
   {
     "uid": "809979",
     "code": "ESL906",
     "subject": "ESL",
-    "number": "906",
+    "number": null,
     "honors": false
   },
   {
     "uid": "811742",
     "code": "ESL907",
     "subject": "ESL",
-    "number": "907",
+    "number": null,
     "honors": false
   },
   {
     "uid": "816512",
     "code": "ESL909",
     "subject": "ESL",
-    "number": "909",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015755",
     "code": "ESL911",
     "subject": "ESL",
-    "number": "911",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015756",
     "code": "ESL912",
     "subject": "ESL",
-    "number": "912",
+    "number": null,
     "honors": false
   },
   {
     "uid": "801684",
     "code": "ESL921",
     "subject": "ESL",
-    "number": "921",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015757",
     "code": "ESL931",
     "subject": "ESL",
-    "number": "931",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015758",
     "code": "ESL932",
     "subject": "ESL",
-    "number": "932",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015759",
     "code": "ESL933",
     "subject": "ESL",
-    "number": "933",
+    "number": null,
     "honors": false
   },
   {
     "uid": "787645",
     "code": "ESL937",
     "subject": "ESL",
-    "number": "937",
+    "number": null,
     "honors": false
   },
   {
     "uid": "805480",
     "code": "ESL941",
     "subject": "ESL",
-    "number": "941",
+    "number": null,
     "honors": false
   },
   {
     "uid": "804906",
     "code": "ESL950",
     "subject": "ESL",
-    "number": "950",
+    "number": null,
     "honors": false
   },
   {
     "uid": "804651",
     "code": "ESL951",
     "subject": "ESL",
-    "number": "951",
+    "number": null,
     "honors": false
   },
   {
     "uid": "015760",
     "code": "ESL971",
     "subject": "ESL",
-    "number": "971",
+    "number": null,
     "honors": false
   },
   {
     "uid": "792806",
     "code": "ESL993",
     "subject": "ESL",
-    "number": "993",
+    "number": null,
     "honors": false
   },
   {
     "uid": "793146",
     "code": "ESL994",
     "subject": "ESL",
-    "number": "994",
+    "number": null,
     "honors": false
   },
   {
     "uid": "793147",
     "code": "ESL995",
     "subject": "ESL",
-    "number": "995",
+    "number": null,
     "honors": false
   },
   {
     "uid": "793148",
     "code": "ESL996",
     "subject": "ESL",
-    "number": "996",
+    "number": null,
     "honors": false
   },
   {
@@ -58391,6 +58993,13 @@
     "code": "ESPM3001",
     "subject": "ESPM",
     "number": "3001",
+    "honors": false
+  },
+  {
+    "uid": "827099",
+    "code": "ESPM3004",
+    "subject": "ESPM",
+    "number": "3004",
     "honors": false
   },
   {
@@ -59920,6 +60529,13 @@
     "honors": false
   },
   {
+    "uid": "827302",
+    "code": "FLOR1501",
+    "subject": "FLOR",
+    "number": "1501",
+    "honors": false
+  },
+  {
     "uid": "807177",
     "code": "FLOR3001",
     "subject": "FLOR",
@@ -60036,6 +60652,13 @@
     "code": "FLOR3017W",
     "subject": "FLOR",
     "number": "3017",
+    "honors": false
+  },
+  {
+    "uid": "827303",
+    "code": "FLOR3018",
+    "subject": "FLOR",
+    "number": "3018",
     "honors": false
   },
   {
@@ -60204,6 +60827,13 @@
     "code": "FLOR3346",
     "subject": "FLOR",
     "number": "3346",
+    "honors": false
+  },
+  {
+    "uid": "827301",
+    "code": "FLOR3501",
+    "subject": "FLOR",
+    "number": "3501",
     "honors": false
   },
   {
@@ -61463,7 +62093,7 @@
     "uid": "010208",
     "code": "FOST10",
     "subject": "FOST",
-    "number": "10",
+    "number": null,
     "honors": false
   },
   {
@@ -61540,7 +62170,7 @@
     "uid": "011030",
     "code": "FOST120",
     "subject": "FOST",
-    "number": "120",
+    "number": null,
     "honors": false
   },
   {
@@ -62009,7 +62639,7 @@
     "uid": "010209",
     "code": "FOST20",
     "subject": "FOST",
-    "number": "20",
+    "number": null,
     "honors": false
   },
   {
@@ -62559,6 +63189,13 @@
     "honors": false
   },
   {
+    "uid": "794258",
+    "code": "FOST3332",
+    "subject": "FOST",
+    "number": "3332",
+    "honors": false
+  },
+  {
     "uid": "807849",
     "code": "FOST3335",
     "subject": "FOST",
@@ -63073,7 +63710,7 @@
     "uid": "010210",
     "code": "FOST60",
     "subject": "FOST",
-    "number": "60",
+    "number": null,
     "honors": false
   },
   {
@@ -63353,14 +63990,14 @@
     "uid": "009552",
     "code": "FREN1",
     "subject": "FREN",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
     "uid": "797357",
     "code": "FREN100",
     "subject": "FREN",
-    "number": "100",
+    "number": null,
     "honors": false
   },
   {
@@ -64932,13 +65569,6 @@
     "honors": false
   },
   {
-    "uid": "007495",
-    "code": "FSCN4665",
-    "subject": "FSCN",
-    "number": "4665",
-    "honors": false
-  },
-  {
     "uid": "007497",
     "code": "FSCN4666",
     "subject": "FSCN",
@@ -65461,6 +66091,13 @@
     "code": "FSOS2191",
     "subject": "FSOS",
     "number": "2191",
+    "honors": false
+  },
+  {
+    "uid": "827277",
+    "code": "FSOS2222",
+    "subject": "FSOS",
+    "number": "2222",
     "honors": false
   },
   {
@@ -66795,7 +67432,7 @@
   },
   {
     "uid": "009904",
-    "code": "FW5603W",
+    "code": "FW5603",
     "subject": "FW",
     "number": "5603",
     "honors": false
@@ -67056,42 +67693,42 @@
     "uid": "791212",
     "code": "GC201",
     "subject": "GC",
-    "number": "201",
+    "number": null,
     "honors": false
   },
   {
     "uid": "007863",
     "code": "GC623",
     "subject": "GC",
-    "number": "623",
+    "number": null,
     "honors": false
   },
   {
     "uid": "007864",
     "code": "GC643",
     "subject": "GC",
-    "number": "643",
+    "number": null,
     "honors": false
   },
   {
     "uid": "007865",
     "code": "GC711",
     "subject": "GC",
-    "number": "711",
+    "number": null,
     "honors": false
   },
   {
     "uid": "788783",
     "code": "GC716",
     "subject": "GC",
-    "number": "716",
+    "number": null,
     "honors": false
   },
   {
     "uid": "788784",
     "code": "GC717",
     "subject": "GC",
-    "number": "717",
+    "number": null,
     "honors": false
   },
   {
@@ -68257,13 +68894,6 @@
     "honors": false
   },
   {
-    "uid": "012137",
-    "code": "GDES1311",
-    "subject": "GDES",
-    "number": "1311",
-    "honors": false
-  },
-  {
     "uid": "012158",
     "code": "GDES1312",
     "subject": "GDES",
@@ -69289,7 +69919,7 @@
     "uid": "792381",
     "code": "GEOG281",
     "subject": "GEOG",
-    "number": "281",
+    "number": null,
     "honors": false
   },
   {
@@ -69577,6 +70207,20 @@
     "code": "GEOG3573",
     "subject": "GEOG",
     "number": "3573",
+    "honors": false
+  },
+  {
+    "uid": "827172",
+    "code": "GEOG3581",
+    "subject": "GEOG",
+    "number": "3581",
+    "honors": false
+  },
+  {
+    "uid": "827094",
+    "code": "GEOG3582",
+    "subject": "GEOG",
+    "number": "3582",
     "honors": false
   },
   {
@@ -70430,7 +71074,7 @@
     "uid": "008152",
     "code": "GER222",
     "subject": "GER",
-    "number": "222",
+    "number": null,
     "honors": false
   },
   {
@@ -70655,6 +71299,13 @@
     "code": "GER3661",
     "subject": "GER",
     "number": "3661",
+    "honors": false
+  },
+  {
+    "uid": "827187",
+    "code": "GER3671W",
+    "subject": "GER",
+    "number": "3671",
     "honors": false
   },
   {
@@ -71904,6 +72555,13 @@
     "honors": false
   },
   {
+    "uid": "827051",
+    "code": "GLOS3706",
+    "subject": "GLOS",
+    "number": "3706",
+    "honors": false
+  },
+  {
     "uid": "819082",
     "code": "GLOS3707",
     "subject": "GLOS",
@@ -72303,6 +72961,13 @@
     "honors": false
   },
   {
+    "uid": "826998",
+    "code": "GLOS5537",
+    "subject": "GLOS",
+    "number": "5537",
+    "honors": false
+  },
+  {
     "uid": "788159",
     "code": "GLOS5602",
     "subject": "GLOS",
@@ -72558,7 +73223,7 @@
     "uid": "791986",
     "code": "GRAD999",
     "subject": "GRAD",
-    "number": "999",
+    "number": null,
     "honors": false
   },
   {
@@ -76671,6 +77336,13 @@
     "honors": false
   },
   {
+    "uid": "827163",
+    "code": "HIST3713",
+    "subject": "HIST",
+    "number": "3713",
+    "honors": false
+  },
+  {
     "uid": "007887",
     "code": "HIST3714",
     "subject": "HIST",
@@ -77018,6 +77690,13 @@
     "code": "HIST3858",
     "subject": "HIST",
     "number": "3858",
+    "honors": false
+  },
+  {
+    "uid": "827184",
+    "code": "HIST3859",
+    "subject": "HIST",
+    "number": "3859",
     "honors": false
   },
   {
@@ -78449,6 +79128,13 @@
     "honors": false
   },
   {
+    "uid": "827232",
+    "code": "HIST8646",
+    "subject": "HIST",
+    "number": "8646",
+    "honors": false
+  },
+  {
     "uid": "788484",
     "code": "HIST8666",
     "subject": "HIST",
@@ -78645,6 +79331,13 @@
     "honors": false
   },
   {
+    "uid": "826968",
+    "code": "HMED1015W",
+    "subject": "HMED",
+    "number": "1015",
+    "honors": false
+  },
+  {
     "uid": "004270",
     "code": "HMED3001W",
     "subject": "HMED",
@@ -78831,6 +79524,13 @@
     "code": "HMED8002",
     "subject": "HMED",
     "number": "8002",
+    "honors": false
+  },
+  {
+    "uid": "827100",
+    "code": "HMED8045",
+    "subject": "HMED",
+    "number": "8045",
     "honors": false
   },
   {
@@ -82418,13 +83118,6 @@
     "honors": false
   },
   {
-    "uid": "808441",
-    "code": "IBH6011",
-    "subject": "IBH",
-    "number": "6011",
-    "honors": false
-  },
-  {
     "uid": "808442",
     "code": "IBH6021",
     "subject": "IBH",
@@ -82495,31 +83188,10 @@
     "honors": false
   },
   {
-    "uid": "808445",
-    "code": "IBH6081",
-    "subject": "IBH",
-    "number": "6081",
-    "honors": false
-  },
-  {
     "uid": "808446",
     "code": "IBH6091",
     "subject": "IBH",
     "number": "6091",
-    "honors": false
-  },
-  {
-    "uid": "808447",
-    "code": "IBH6101",
-    "subject": "IBH",
-    "number": "6101",
-    "honors": false
-  },
-  {
-    "uid": "808448",
-    "code": "IBH6111",
-    "subject": "IBH",
-    "number": "6111",
     "honors": false
   },
   {
@@ -82534,13 +83206,6 @@
     "code": "IBH6121",
     "subject": "IBH",
     "number": "6121",
-    "honors": false
-  },
-  {
-    "uid": "817929",
-    "code": "IBH6221",
-    "subject": "IBH",
-    "number": "6221",
     "honors": false
   },
   {
@@ -82618,6 +83283,62 @@
     "code": "IBH6234",
     "subject": "IBH",
     "number": "6234",
+    "honors": false
+  },
+  {
+    "uid": "827079",
+    "code": "IBH6301",
+    "subject": "IBH",
+    "number": "6301",
+    "honors": false
+  },
+  {
+    "uid": "817929",
+    "code": "IBH6305",
+    "subject": "IBH",
+    "number": "6305",
+    "honors": false
+  },
+  {
+    "uid": "808441",
+    "code": "IBH6311",
+    "subject": "IBH",
+    "number": "6311",
+    "honors": false
+  },
+  {
+    "uid": "808447",
+    "code": "IBH6315",
+    "subject": "IBH",
+    "number": "6315",
+    "honors": false
+  },
+  {
+    "uid": "827096",
+    "code": "IBH6321",
+    "subject": "IBH",
+    "number": "6321",
+    "honors": false
+  },
+  {
+    "uid": "827098",
+    "code": "IBH6325",
+    "subject": "IBH",
+    "number": "6325",
+    "honors": false
+  },
+  {
+    "uid": "808445",
+    "code": "IBH6331",
+    "subject": "IBH",
+    "number": "6331",
+    "honors": false
+  },
+  {
+    "uid": "827170",
+    "code": "IBH6905",
+    "subject": "IBH",
+    "number": "6905",
     "honors": false
   },
   {
@@ -83097,6 +83818,13 @@
     "honors": false
   },
   {
+    "uid": "827154",
+    "code": "IBUS4622",
+    "subject": "IBUS",
+    "number": "4622",
+    "honors": false
+  },
+  {
     "uid": "802732",
     "code": "IBUS4641",
     "subject": "IBUS",
@@ -83328,6 +84056,13 @@
     "honors": false
   },
   {
+    "uid": "827085",
+    "code": "IBUS5212",
+    "subject": "IBUS",
+    "number": "5212",
+    "honors": false
+  },
+  {
     "uid": "812744",
     "code": "IBUS5260",
     "subject": "IBUS",
@@ -83524,6 +84259,13 @@
     "honors": false
   },
   {
+    "uid": "827117",
+    "code": "IBUS6407",
+    "subject": "IBUS",
+    "number": "6407",
+    "honors": false
+  },
+  {
     "uid": "795861",
     "code": "IBUS6500",
     "subject": "IBUS",
@@ -83591,6 +84333,20 @@
     "code": "ICEL4101",
     "subject": "ICEL",
     "number": "4101",
+    "honors": false
+  },
+  {
+    "uid": "827198",
+    "code": "ICP1201",
+    "subject": "ICP",
+    "number": "1201",
+    "honors": false
+  },
+  {
+    "uid": "827199",
+    "code": "ICP1202",
+    "subject": "ICP",
+    "number": "1202",
     "honors": false
   },
   {
@@ -85117,6 +85873,13 @@
     "code": "IE8564",
     "subject": "IE",
     "number": "8564",
+    "honors": false
+  },
+  {
+    "uid": "826981",
+    "code": "IE8566",
+    "subject": "IE",
+    "number": "8566",
     "honors": false
   },
   {
@@ -86716,6 +87479,13 @@
     "honors": false
   },
   {
+    "uid": "826985",
+    "code": "INMD7305",
+    "subject": "INMD",
+    "number": "7305",
+    "honors": false
+  },
+  {
     "uid": "820233",
     "code": "INMD7309",
     "subject": "INMD",
@@ -87416,6 +88186,13 @@
     "honors": false
   },
   {
+    "uid": "827086",
+    "code": "INMD7645",
+    "subject": "INMD",
+    "number": "7645",
+    "honors": false
+  },
+  {
     "uid": "818307",
     "code": "INMD7650",
     "subject": "INMD",
@@ -88098,7 +88875,7 @@
     "uid": "011204",
     "code": "ITAL100",
     "subject": "ITAL",
-    "number": "100",
+    "number": null,
     "honors": false
   },
   {
@@ -88788,6 +89565,13 @@
     "honors": false
   },
   {
+    "uid": "827132",
+    "code": "JOUR3758",
+    "subject": "JOUR",
+    "number": "3758",
+    "honors": false
+  },
+  {
     "uid": "826579",
     "code": "JOUR3761",
     "subject": "JOUR",
@@ -88949,6 +89733,13 @@
     "honors": false
   },
   {
+    "uid": "826994",
+    "code": "JOUR4265",
+    "subject": "JOUR",
+    "number": "4265",
+    "honors": false
+  },
+  {
     "uid": "790547",
     "code": "JOUR4272",
     "subject": "JOUR",
@@ -88960,6 +89751,13 @@
     "code": "JOUR4274W",
     "subject": "JOUR",
     "number": "4274",
+    "honors": false
+  },
+  {
+    "uid": "827183",
+    "code": "JOUR4279W",
+    "subject": "JOUR",
+    "number": "4279",
     "honors": false
   },
   {
@@ -89002,6 +89800,13 @@
     "code": "JOUR4590",
     "subject": "JOUR",
     "number": "4590",
+    "honors": false
+  },
+  {
+    "uid": "827082",
+    "code": "JOUR4601",
+    "subject": "JOUR",
+    "number": "4601",
     "honors": false
   },
   {
@@ -89380,6 +90185,13 @@
     "code": "JOUR8208",
     "subject": "JOUR",
     "number": "8208",
+    "honors": false
+  },
+  {
+    "uid": "826993",
+    "code": "JOUR8212",
+    "subject": "JOUR",
+    "number": "8212",
     "honors": false
   },
   {
@@ -92942,7 +93754,7 @@
     "uid": "818865",
     "code": "LANG100",
     "subject": "LANG",
-    "number": "100",
+    "number": null,
     "honors": false
   },
   {
@@ -93324,6 +94136,13 @@
     "honors": false
   },
   {
+    "uid": "827320",
+    "code": "LANG1353",
+    "subject": "LANG",
+    "number": "1353",
+    "honors": false
+  },
+  {
     "uid": "825442",
     "code": "LANG1371",
     "subject": "LANG",
@@ -93384,6 +94203,27 @@
     "code": "LANG1433",
     "subject": "LANG",
     "number": "1433",
+    "honors": false
+  },
+  {
+    "uid": "827285",
+    "code": "LANG1471",
+    "subject": "LANG",
+    "number": "1471",
+    "honors": false
+  },
+  {
+    "uid": "827287",
+    "code": "LANG1481",
+    "subject": "LANG",
+    "number": "1481",
+    "honors": false
+  },
+  {
+    "uid": "827284",
+    "code": "LANG1651",
+    "subject": "LANG",
+    "number": "1651",
     "honors": false
   },
   {
@@ -93475,6 +94315,13 @@
     "code": "LANG2073",
     "subject": "LANG",
     "number": "2073",
+    "honors": false
+  },
+  {
+    "uid": "827311",
+    "code": "LANG2081",
+    "subject": "LANG",
+    "number": "2081",
     "honors": false
   },
   {
@@ -93835,6 +94682,13 @@
     "honors": false
   },
   {
+    "uid": "827239",
+    "code": "LANG3123",
+    "subject": "LANG",
+    "number": "3123",
+    "honors": false
+  },
+  {
     "uid": "826696",
     "code": "LANG3161",
     "subject": "LANG",
@@ -94007,6 +94861,13 @@
     "code": "LANG3511",
     "subject": "LANG",
     "number": "3511",
+    "honors": false
+  },
+  {
+    "uid": "827078",
+    "code": "LANG3512",
+    "subject": "LANG",
+    "number": "3512",
     "honors": false
   },
   {
@@ -94217,6 +95078,13 @@
     "code": "LANG5451",
     "subject": "LANG",
     "number": "5451",
+    "honors": false
+  },
+  {
+    "uid": "827316",
+    "code": "LANG5501",
+    "subject": "LANG",
+    "number": "5501",
     "honors": false
   },
   {
@@ -95036,6 +95904,13 @@
     "code": "LAW5290",
     "subject": "LAW",
     "number": "5290",
+    "honors": false
+  },
+  {
+    "uid": "827201",
+    "code": "LAW5492",
+    "subject": "LAW",
+    "number": "5492",
     "honors": false
   },
   {
@@ -98910,6 +99785,13 @@
     "honors": false
   },
   {
+    "uid": "827292",
+    "code": "LGTT3993",
+    "subject": "LGTT",
+    "number": "3993",
+    "honors": false
+  },
+  {
     "uid": "010822",
     "code": "LGTT5101",
     "subject": "LGTT",
@@ -98984,6 +99866,13 @@
     "code": "LING1800",
     "subject": "LING",
     "number": "1800",
+    "honors": false
+  },
+  {
+    "uid": "827195",
+    "code": "LING1801",
+    "subject": "LING",
+    "number": "1801",
     "honors": false
   },
   {
@@ -100696,7 +101585,7 @@
   },
   {
     "uid": "826634",
-    "code": "MADR3081",
+    "code": "MADR3081W",
     "subject": "MADR",
     "number": "3081",
     "honors": false
@@ -101084,6 +101973,13 @@
     "code": "MATH1474",
     "subject": "MATH",
     "number": "1474",
+    "honors": false
+  },
+  {
+    "uid": "827241",
+    "code": "MATH1901",
+    "subject": "MATH",
+    "number": "1901",
     "honors": false
   },
   {
@@ -102931,14 +103827,14 @@
     "uid": "792587",
     "code": "MBA1",
     "subject": "MBA",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
     "uid": "792341",
     "code": "MBA2",
     "subject": "MBA",
-    "number": "2",
+    "number": null,
     "honors": false
   },
   {
@@ -103918,7 +104814,7 @@
     "uid": "796330",
     "code": "ME1",
     "subject": "ME",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
@@ -103939,7 +104835,7 @@
     "uid": "819397",
     "code": "ME246",
     "subject": "ME",
-    "number": "246",
+    "number": null,
     "honors": false
   },
   {
@@ -104419,6 +105315,13 @@
     "honors": false
   },
   {
+    "uid": "827262",
+    "code": "ME8223",
+    "subject": "ME",
+    "number": "8223",
+    "honors": false
+  },
+  {
     "uid": "007405",
     "code": "ME8228",
     "subject": "ME",
@@ -104493,6 +105396,13 @@
     "code": "ME8283",
     "subject": "ME",
     "number": "8283",
+    "honors": false
+  },
+  {
+    "uid": "827116",
+    "code": "ME8284",
+    "subject": "ME",
+    "number": "8284",
     "honors": false
   },
   {
@@ -105770,6 +106680,13 @@
     "honors": false
   },
   {
+    "uid": "827203",
+    "code": "MEST3511W",
+    "subject": "MEST",
+    "number": "3511",
+    "honors": false
+  },
+  {
     "uid": "807919",
     "code": "MEST3600",
     "subject": "MEST",
@@ -105984,6 +106901,13 @@
     "code": "MGMT3061",
     "subject": "MGMT",
     "number": "3061",
+    "honors": false
+  },
+  {
+    "uid": "827136",
+    "code": "MGMT3063",
+    "subject": "MGMT",
+    "number": "3063",
     "honors": false
   },
   {
@@ -107131,14 +108055,14 @@
     "uid": "800705",
     "code": "MIL103",
     "subject": "MIL",
-    "number": "103",
+    "number": null,
     "honors": false
   },
   {
     "uid": "013472",
     "code": "MIL104",
     "subject": "MIL",
-    "number": "104",
+    "number": null,
     "honors": false
   },
   {
@@ -107215,35 +108139,35 @@
     "uid": "800706",
     "code": "MIL203",
     "subject": "MIL",
-    "number": "203",
+    "number": null,
     "honors": false
   },
   {
     "uid": "799698",
     "code": "MIL204",
     "subject": "MIL",
-    "number": "204",
+    "number": null,
     "honors": false
   },
   {
     "uid": "013474",
     "code": "MIL301",
     "subject": "MIL",
-    "number": "301",
+    "number": null,
     "honors": false
   },
   {
     "uid": "800707",
     "code": "MIL303",
     "subject": "MIL",
-    "number": "303",
+    "number": null,
     "honors": false
   },
   {
     "uid": "799699",
     "code": "MIL304",
     "subject": "MIL",
-    "number": "304",
+    "number": null,
     "honors": false
   },
   {
@@ -107362,21 +108286,21 @@
     "uid": "013491",
     "code": "MIL401",
     "subject": "MIL",
-    "number": "401",
+    "number": null,
     "honors": false
   },
   {
     "uid": "800708",
     "code": "MIL403",
     "subject": "MIL",
-    "number": "403",
+    "number": null,
     "honors": false
   },
   {
     "uid": "799974",
     "code": "MIL404",
     "subject": "MIL",
-    "number": "404",
+    "number": null,
     "honors": false
   },
   {
@@ -108150,6 +109074,13 @@
     "honors": false
   },
   {
+    "uid": "827280",
+    "code": "MLSP2011",
+    "subject": "MLSP",
+    "number": "2011",
+    "honors": false
+  },
+  {
     "uid": "819741",
     "code": "MLSP2015",
     "subject": "MLSP",
@@ -108654,6 +109585,13 @@
     "honors": false
   },
   {
+    "uid": "826405",
+    "code": "MNMD6010",
+    "subject": "MNMD",
+    "number": "6010",
+    "honors": false
+  },
+  {
     "uid": "826406",
     "code": "MNMD6100",
     "subject": "MNMD",
@@ -108703,6 +109641,27 @@
     "honors": false
   },
   {
+    "uid": "826413",
+    "code": "MNMD6400",
+    "subject": "MNMD",
+    "number": "6400",
+    "honors": false
+  },
+  {
+    "uid": "826414",
+    "code": "MNMD6410",
+    "subject": "MNMD",
+    "number": "6410",
+    "honors": false
+  },
+  {
+    "uid": "826415",
+    "code": "MNMD6420",
+    "subject": "MNMD",
+    "number": "6420",
+    "honors": false
+  },
+  {
     "uid": "826416",
     "code": "MNMD6501",
     "subject": "MNMD",
@@ -108721,6 +109680,13 @@
     "code": "MNMD6503",
     "subject": "MNMD",
     "number": "6503",
+    "honors": false
+  },
+  {
+    "uid": "826419",
+    "code": "MNMD6504",
+    "subject": "MNMD",
+    "number": "6504",
     "honors": false
   },
   {
@@ -108745,6 +109711,13 @@
     "honors": false
   },
   {
+    "uid": "826442",
+    "code": "MNMD6604",
+    "subject": "MNMD",
+    "number": "6604",
+    "honors": false
+  },
+  {
     "uid": "826423",
     "code": "MNMD6611",
     "subject": "MNMD",
@@ -108763,6 +109736,13 @@
     "code": "MNMD6613",
     "subject": "MNMD",
     "number": "6613",
+    "honors": false
+  },
+  {
+    "uid": "826426",
+    "code": "MNMD6614",
+    "subject": "MNMD",
+    "number": "6614",
     "honors": false
   },
   {
@@ -108787,6 +109767,13 @@
     "honors": false
   },
   {
+    "uid": "826431",
+    "code": "MNMD6624",
+    "subject": "MNMD",
+    "number": "6624",
+    "honors": false
+  },
+  {
     "uid": "826432",
     "code": "MNMD6631",
     "subject": "MNMD",
@@ -108808,6 +109795,13 @@
     "honors": false
   },
   {
+    "uid": "826435",
+    "code": "MNMD6634",
+    "subject": "MNMD",
+    "number": "6634",
+    "honors": false
+  },
+  {
     "uid": "826436",
     "code": "MNMD6641",
     "subject": "MNMD",
@@ -108826,6 +109820,27 @@
     "code": "MNMD6643",
     "subject": "MNMD",
     "number": "6643",
+    "honors": false
+  },
+  {
+    "uid": "826439",
+    "code": "MNMD6644",
+    "subject": "MNMD",
+    "number": "6644",
+    "honors": false
+  },
+  {
+    "uid": "827259",
+    "code": "MNMD6651",
+    "subject": "MNMD",
+    "number": "6651",
+    "honors": false
+  },
+  {
+    "uid": "827258",
+    "code": "MNMD6654",
+    "subject": "MNMD",
+    "number": "6654",
     "honors": false
   },
   {
@@ -110397,6 +111412,13 @@
     "honors": false
   },
   {
+    "uid": "826927",
+    "code": "MOT8115",
+    "subject": "MOT",
+    "number": "8115",
+    "honors": false
+  },
+  {
     "uid": "014594",
     "code": "MOT8121",
     "subject": "MOT",
@@ -111153,6 +112175,13 @@
     "honors": false
   },
   {
+    "uid": "827253",
+    "code": "MSBA6155",
+    "subject": "MSBA",
+    "number": "6155",
+    "honors": false
+  },
+  {
     "uid": "810881",
     "code": "MSBA6250",
     "subject": "MSBA",
@@ -111188,10 +112217,31 @@
     "honors": false
   },
   {
+    "uid": "827252",
+    "code": "MSBA6335",
+    "subject": "MSBA",
+    "number": "6335",
+    "honors": false
+  },
+  {
+    "uid": "827249",
+    "code": "MSBA6341",
+    "subject": "MSBA",
+    "number": "6341",
+    "honors": false
+  },
+  {
     "uid": "810885",
     "code": "MSBA6345",
     "subject": "MSBA",
     "number": "6345",
+    "honors": false
+  },
+  {
+    "uid": "827257",
+    "code": "MSBA6351",
+    "subject": "MSBA",
+    "number": "6351",
     "honors": false
   },
   {
@@ -113221,7 +114271,7 @@
     "uid": "798481",
     "code": "MUS440",
     "subject": "MUS",
-    "number": "440",
+    "number": null,
     "honors": false
   },
   {
@@ -113305,7 +114355,7 @@
     "uid": "796246",
     "code": "MUS501",
     "subject": "MUS",
-    "number": "501",
+    "number": null,
     "honors": false
   },
   {
@@ -113911,6 +114961,13 @@
     "honors": false
   },
   {
+    "uid": "827114",
+    "code": "MUS5590",
+    "subject": "MUS",
+    "number": "5590",
+    "honors": false
+  },
+  {
     "uid": "005332",
     "code": "MUS5591",
     "subject": "MUS",
@@ -114488,14 +115545,14 @@
     "uid": "007915",
     "code": "MUS901",
     "subject": "MUS",
-    "number": "901",
+    "number": null,
     "honors": false
   },
   {
     "uid": "007916",
     "code": "MUS951",
     "subject": "MUS",
-    "number": "951",
+    "number": null,
     "honors": false
   },
   {
@@ -117474,6 +118531,13 @@
     "honors": false
   },
   {
+    "uid": "827263",
+    "code": "NSC8322",
+    "subject": "NSC",
+    "number": "8322",
+    "honors": false
+  },
+  {
     "uid": "016770",
     "code": "NSC8333",
     "subject": "NSC",
@@ -119210,6 +120274,13 @@
     "honors": false
   },
   {
+    "uid": "826951",
+    "code": "NURS6601",
+    "subject": "NURS",
+    "number": "6601",
+    "honors": false
+  },
+  {
     "uid": "807191",
     "code": "NURS6602",
     "subject": "NURS",
@@ -119235,6 +120306,20 @@
     "code": "NURS6605",
     "subject": "NURS",
     "number": "6605",
+    "honors": false
+  },
+  {
+    "uid": "826952",
+    "code": "NURS6606",
+    "subject": "NURS",
+    "number": "6606",
+    "honors": false
+  },
+  {
+    "uid": "826953",
+    "code": "NURS6607",
+    "subject": "NURS",
+    "number": "6607",
     "honors": false
   },
   {
@@ -119375,6 +120460,13 @@
     "code": "NURS6914",
     "subject": "NURS",
     "number": "6914",
+    "honors": false
+  },
+  {
+    "uid": "826899",
+    "code": "NURS6915",
+    "subject": "NURS",
+    "number": "6915",
     "honors": false
   },
   {
@@ -119609,6 +120701,13 @@
     "honors": false
   },
   {
+    "uid": "826892",
+    "code": "NURS7104",
+    "subject": "NURS",
+    "number": "7104",
+    "honors": false
+  },
+  {
     "uid": "805869",
     "code": "NURS7105",
     "subject": "NURS",
@@ -119693,6 +120792,13 @@
     "honors": false
   },
   {
+    "uid": "826893",
+    "code": "NURS7205",
+    "subject": "NURS",
+    "number": "7205",
+    "honors": false
+  },
+  {
     "uid": "806452",
     "code": "NURS7209",
     "subject": "NURS",
@@ -119739,6 +120845,13 @@
     "code": "NURS7215",
     "subject": "NURS",
     "number": "7215",
+    "honors": false
+  },
+  {
+    "uid": "826891",
+    "code": "NURS7230",
+    "subject": "NURS",
+    "number": "7230",
     "honors": false
   },
   {
@@ -119945,6 +121058,20 @@
     "honors": false
   },
   {
+    "uid": "826950",
+    "code": "NURS7602",
+    "subject": "NURS",
+    "number": "7602",
+    "honors": false
+  },
+  {
+    "uid": "826949",
+    "code": "NURS7603",
+    "subject": "NURS",
+    "number": "7603",
+    "honors": false
+  },
+  {
     "uid": "807958",
     "code": "NURS7604",
     "subject": "NURS",
@@ -119994,6 +121121,13 @@
     "honors": false
   },
   {
+    "uid": "826999",
+    "code": "NURS7623",
+    "subject": "NURS",
+    "number": "7623",
+    "honors": false
+  },
+  {
     "uid": "806673",
     "code": "NURS7705",
     "subject": "NURS",
@@ -120011,7 +121145,7 @@
     "uid": "800854",
     "code": "NURS777",
     "subject": "NURS",
-    "number": "777",
+    "number": null,
     "honors": false
   },
   {
@@ -120827,6 +121961,13 @@
     "honors": false
   },
   {
+    "uid": "007495",
+    "code": "NUTR5065",
+    "subject": "NUTR",
+    "number": "5065",
+    "honors": false
+  },
+  {
     "uid": "797544",
     "code": "NUTR5621W",
     "subject": "NUTR",
@@ -121054,7 +122195,7 @@
     "uid": "826296",
     "code": "OBIO1",
     "subject": "OBIO",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
@@ -121635,21 +122776,21 @@
     "uid": "007822",
     "code": "OCS520",
     "subject": "OCS",
-    "number": "520",
+    "number": null,
     "honors": false
   },
   {
     "uid": "007825",
     "code": "OCS550",
     "subject": "OCS",
-    "number": "550",
+    "number": null,
     "honors": false
   },
   {
     "uid": "007815",
     "code": "OCS590",
     "subject": "OCS",
-    "number": "590",
+    "number": null,
     "honors": false
   },
   {
@@ -122000,13 +123141,6 @@
     "code": "OLPD3324W",
     "subject": "OLPD",
     "number": "3324",
-    "honors": false
-  },
-  {
-    "uid": "794258",
-    "code": "OLPD3332",
-    "subject": "OLPD",
-    "number": "3332",
     "honors": false
   },
   {
@@ -122924,13 +124058,6 @@
     "code": "OLPD5348",
     "subject": "OLPD",
     "number": "5348",
-    "honors": false
-  },
-  {
-    "uid": "000957",
-    "code": "OLPD5356",
-    "subject": "OLPD",
-    "number": "5356",
     "honors": false
   },
   {
@@ -125094,6 +126221,13 @@
     "code": "OT7122",
     "subject": "OT",
     "number": "7122",
+    "honors": false
+  },
+  {
+    "uid": "827095",
+    "code": "OT7123",
+    "subject": "OT",
+    "number": "7123",
     "honors": false
   },
   {
@@ -128590,6 +129724,13 @@
     "honors": false
   },
   {
+    "uid": "827080",
+    "code": "PDES4312",
+    "subject": "PDES",
+    "number": "4312",
+    "honors": false
+  },
+  {
     "uid": "815698",
     "code": "PDES4701W",
     "subject": "PDES",
@@ -129160,7 +130301,7 @@
     "uid": "825709",
     "code": "PE2C",
     "subject": "PE",
-    "number": "2",
+    "number": null,
     "honors": false
   },
   {
@@ -129430,6 +130571,13 @@
     "honors": false
   },
   {
+    "uid": "827315",
+    "code": "PED7595",
+    "subject": "PED",
+    "number": "7595",
+    "honors": false
+  },
+  {
     "uid": "803556",
     "code": "PED7700",
     "subject": "PED",
@@ -129468,7 +130616,7 @@
     "uid": "804275",
     "code": "PED91",
     "subject": "PED",
-    "number": "91",
+    "number": null,
     "honors": false
   },
   {
@@ -129584,10 +130732,24 @@
     "honors": false
   },
   {
+    "uid": "826918",
+    "code": "PERS5040",
+    "subject": "PERS",
+    "number": "5040",
+    "honors": false
+  },
+  {
+    "uid": "827300",
+    "code": "PEW88",
+    "subject": "PEW",
+    "number": null,
+    "honors": false
+  },
+  {
     "uid": "803176",
     "code": "PHAR1",
     "subject": "PHAR",
-    "number": "1",
+    "number": null,
     "honors": false
   },
   {
@@ -129637,6 +130799,13 @@
     "code": "PHAR1905",
     "subject": "PHAR",
     "number": "1905",
+    "honors": false
+  },
+  {
+    "uid": "827138",
+    "code": "PHAR2001",
+    "subject": "PHAR",
+    "number": "2001",
     "honors": false
   },
   {
@@ -129690,9 +130859,9 @@
   },
   {
     "uid": "795174",
-    "code": "PHAR3800",
+    "code": "PHAR3801",
     "subject": "PHAR",
-    "number": "3800",
+    "number": "3801",
     "honors": false
   },
   {
@@ -129809,9 +130978,9 @@
   },
   {
     "uid": "800822",
-    "code": "PHAR5800",
+    "code": "PHAR5803",
     "subject": "PHAR",
-    "number": "5800",
+    "number": "5803",
     "honors": false
   },
   {
@@ -130603,6 +131772,27 @@
     "code": "PHAR6524",
     "subject": "PHAR",
     "number": "6524",
+    "honors": false
+  },
+  {
+    "uid": "826942",
+    "code": "PHAR6531",
+    "subject": "PHAR",
+    "number": "6531",
+    "honors": false
+  },
+  {
+    "uid": "826943",
+    "code": "PHAR6532",
+    "subject": "PHAR",
+    "number": "6532",
+    "honors": false
+  },
+  {
+    "uid": "826944",
+    "code": "PHAR6533",
+    "subject": "PHAR",
+    "number": "6533",
     "honors": false
   },
   {
@@ -132041,6 +133231,13 @@
     "honors": false
   },
   {
+    "uid": "826947",
+    "code": "PHCL5115",
+    "subject": "PHCL",
+    "number": "5115",
+    "honors": false
+  },
+  {
     "uid": "790559",
     "code": "PHCL5210",
     "subject": "PHCL",
@@ -132685,6 +133882,13 @@
     "honors": false
   },
   {
+    "uid": "827215",
+    "code": "PHIL4016",
+    "subject": "PHIL",
+    "number": "4016",
+    "honors": false
+  },
+  {
     "uid": "005464",
     "code": "PHIL4030",
     "subject": "PHIL",
@@ -132927,6 +134131,13 @@
     "code": "PHIL5010",
     "subject": "PHIL",
     "number": "5010",
+    "honors": false
+  },
+  {
+    "uid": "826919",
+    "code": "PHIL5016",
+    "subject": "PHIL",
+    "number": "5016",
     "honors": false
   },
   {
@@ -135366,6 +136577,13 @@
     "honors": false
   },
   {
+    "uid": "827000",
+    "code": "PLPA3004",
+    "subject": "PLPA",
+    "number": "3004",
+    "honors": false
+  },
+  {
     "uid": "015544",
     "code": "PLPA3090",
     "subject": "PLPA",
@@ -135650,6 +136868,13 @@
     "code": "PLPA8888",
     "subject": "PLPA",
     "number": "8888",
+    "honors": false
+  },
+  {
+    "uid": "827226",
+    "code": "PLSC1914",
+    "subject": "PLSC",
+    "number": "1914",
     "honors": false
   },
   {
@@ -138649,6 +139874,13 @@
     "honors": false
   },
   {
+    "uid": "827293",
+    "code": "POUL5014",
+    "subject": "POUL",
+    "number": "5014",
+    "honors": false
+  },
+  {
     "uid": "825188",
     "code": "POUL5015",
     "subject": "POUL",
@@ -139464,28 +140696,28 @@
     "uid": "016342",
     "code": "PSTL712",
     "subject": "PSTL",
-    "number": "712",
+    "number": null,
     "honors": false
   },
   {
     "uid": "016343",
     "code": "PSTL713",
     "subject": "PSTL",
-    "number": "713",
+    "number": null,
     "honors": false
   },
   {
     "uid": "002210",
     "code": "PSTL721",
     "subject": "PSTL",
-    "number": "721",
+    "number": null,
     "honors": false
   },
   {
     "uid": "003622",
     "code": "PSTL731",
     "subject": "PSTL",
-    "number": "731",
+    "number": null,
     "honors": false
   },
   {
@@ -140441,6 +141673,13 @@
     "honors": false
   },
   {
+    "uid": "826990",
+    "code": "PSY8121",
+    "subject": "PSY",
+    "number": "8121",
+    "honors": false
+  },
+  {
     "uid": "010425",
     "code": "PSY8201",
     "subject": "PSY",
@@ -140907,6 +142146,13 @@
     "code": "PSY8886",
     "subject": "PSY",
     "number": "8886",
+    "honors": false
+  },
+  {
+    "uid": "827283",
+    "code": "PSY8887",
+    "subject": "PSY",
+    "number": "8887",
     "honors": false
   },
   {
@@ -141435,13 +142681,6 @@
     "honors": false
   },
   {
-    "uid": "826568",
-    "code": "PUBH116",
-    "subject": "PUBH",
-    "number": "116",
-    "honors": false
-  },
-  {
     "uid": "826040",
     "code": "PUBH1202",
     "subject": "PUBH",
@@ -141452,7 +142691,7 @@
     "uid": "802973",
     "code": "PUBH20",
     "subject": "PUBH",
-    "number": "20",
+    "number": null,
     "honors": false
   },
   {
@@ -141792,10 +143031,24 @@
     "honors": false
   },
   {
+    "uid": "827165",
+    "code": "PUBH4290",
+    "subject": "PUBH",
+    "number": "4290",
+    "honors": false
+  },
+  {
     "uid": "810143",
     "code": "PUBH4410",
     "subject": "PUBH",
     "number": "4410",
+    "honors": false
+  },
+  {
+    "uid": "826055",
+    "code": "PUBH4901",
+    "subject": "PUBH",
+    "number": "4289",
     "honors": false
   },
   {
@@ -143633,6 +144886,13 @@
     "honors": false
   },
   {
+    "uid": "811627",
+    "code": "PUBH6584",
+    "subject": "PUBH",
+    "number": "6584",
+    "honors": false
+  },
+  {
     "uid": "794501",
     "code": "PUBH6589",
     "subject": "PUBH",
@@ -144102,13 +145362,6 @@
     "honors": false
   },
   {
-    "uid": "811627",
-    "code": "PUBH6805",
-    "subject": "PUBH",
-    "number": "6805",
-    "honors": false
-  },
-  {
     "uid": "013692",
     "code": "PUBH6806",
     "subject": "PUBH",
@@ -144505,6 +145758,20 @@
     "code": "PUBH7096",
     "subject": "PUBH",
     "number": "7096",
+    "honors": false
+  },
+  {
+    "uid": "827175",
+    "code": "PUBH7175",
+    "subject": "PUBH",
+    "number": "7175",
+    "honors": false
+  },
+  {
+    "uid": "827193",
+    "code": "PUBH7176",
+    "subject": "PUBH",
+    "number": "7176",
     "honors": false
   },
   {
@@ -145370,30 +146637,30 @@
   },
   {
     "uid": "817311",
-    "code": "PUBH7710",
+    "code": "PUBH7711",
     "subject": "PUBH",
-    "number": "7710",
+    "number": "7711",
     "honors": false
   },
   {
     "uid": "818941",
-    "code": "PUBH7720",
+    "code": "PUBH7721",
     "subject": "PUBH",
-    "number": "7720",
+    "number": "7721",
     "honors": false
   },
   {
     "uid": "817312",
-    "code": "PUBH7730",
+    "code": "PUBH7731",
     "subject": "PUBH",
-    "number": "7730",
+    "number": "7731",
     "honors": false
   },
   {
     "uid": "817308",
-    "code": "PUBH7740",
+    "code": "PUBH7741",
     "subject": "PUBH",
-    "number": "7740",
+    "number": "7741",
     "honors": false
   },
   {
@@ -145548,6 +146815,13 @@
     "code": "PUBH8300",
     "subject": "PUBH",
     "number": "8300",
+    "honors": false
+  },
+  {
+    "uid": "827124",
+    "code": "PUBH8301",
+    "subject": "PUBH",
+    "number": "8301",
     "honors": false
   },
   {
@@ -145950,6 +147224,20 @@
     "honors": false
   },
   {
+    "uid": "827001",
+    "code": "PUBH8861",
+    "subject": "PUBH",
+    "number": "8861",
+    "honors": false
+  },
+  {
+    "uid": "827002",
+    "code": "PUBH8862",
+    "subject": "PUBH",
+    "number": "8862",
+    "honors": false
+  },
+  {
     "uid": "787926",
     "code": "PUBH8888",
     "subject": "PUBH",
@@ -146065,49 +147353,49 @@
     "uid": "012899",
     "code": "RAD120",
     "subject": "RAD",
-    "number": "120",
+    "number": null,
     "honors": false
   },
   {
     "uid": "012900",
     "code": "RAD121",
     "subject": "RAD",
-    "number": "121",
+    "number": null,
     "honors": false
   },
   {
     "uid": "012901",
     "code": "RAD123",
     "subject": "RAD",
-    "number": "123",
+    "number": null,
     "honors": false
   },
   {
     "uid": "012902",
     "code": "RAD124",
     "subject": "RAD",
-    "number": "124",
+    "number": null,
     "honors": false
   },
   {
     "uid": "012903",
     "code": "RAD125",
     "subject": "RAD",
-    "number": "125",
+    "number": null,
     "honors": false
   },
   {
     "uid": "012904",
     "code": "RAD126",
     "subject": "RAD",
-    "number": "126",
+    "number": null,
     "honors": false
   },
   {
     "uid": "012905",
     "code": "RAD220",
     "subject": "RAD",
-    "number": "220",
+    "number": null,
     "honors": false
   },
   {
@@ -147336,6 +148624,13 @@
     "honors": false
   },
   {
+    "uid": "827189",
+    "code": "RELS3320",
+    "subject": "RELS",
+    "number": "3320",
+    "honors": false
+  },
+  {
     "uid": "802925",
     "code": "RELS3321",
     "subject": "RELS",
@@ -148047,6 +149342,13 @@
     "code": "RELS8070",
     "subject": "RELS",
     "number": "8070",
+    "honors": false
+  },
+  {
+    "uid": "827188",
+    "code": "RELS8080",
+    "subject": "RELS",
+    "number": "8080",
     "honors": false
   },
   {
@@ -149600,7 +150902,7 @@
     "uid": "811505",
     "code": "S W32C",
     "subject": "S W",
-    "number": "32",
+    "number": null,
     "honors": false
   },
   {
@@ -149741,13 +151043,6 @@
     "code": "SAGR4096",
     "subject": "SAGR",
     "number": "4096",
-    "honors": false
-  },
-  {
-    "uid": "008455",
-    "code": "SAGR8010",
-    "subject": "SAGR",
-    "number": "8010",
     "honors": false
   },
   {
@@ -152089,6 +153384,20 @@
     "honors": false
   },
   {
+    "uid": "827112",
+    "code": "SFS2031",
+    "subject": "SFS",
+    "number": "2031",
+    "honors": false
+  },
+  {
+    "uid": "827113",
+    "code": "SFS2041",
+    "subject": "SFS",
+    "number": "2041",
+    "honors": false
+  },
+  {
     "uid": "811349",
     "code": "SFS2050",
     "subject": "SFS",
@@ -152159,6 +153468,13 @@
     "honors": false
   },
   {
+    "uid": "827213",
+    "code": "SFS3024",
+    "subject": "SFS",
+    "number": "3024",
+    "honors": false
+  },
+  {
     "uid": "811387",
     "code": "SFS3030",
     "subject": "SFS",
@@ -152212,6 +153528,13 @@
     "code": "SFS3081",
     "subject": "SFS",
     "number": "3081",
+    "honors": false
+  },
+  {
+    "uid": "827233",
+    "code": "SFS3082",
+    "subject": "SFS",
+    "number": "3082",
     "honors": false
   },
   {
@@ -152411,6 +153734,13 @@
     "honors": false
   },
   {
+    "uid": "827227",
+    "code": "SFS3591",
+    "subject": "SFS",
+    "number": "3591",
+    "honors": false
+  },
+  {
     "uid": "819207",
     "code": "SFS3601",
     "subject": "SFS",
@@ -152467,6 +153797,13 @@
     "honors": false
   },
   {
+    "uid": "827214",
+    "code": "SFS3722",
+    "subject": "SFS",
+    "number": "3722",
+    "honors": false
+  },
+  {
     "uid": "811400",
     "code": "SFS3730",
     "subject": "SFS",
@@ -152506,6 +153843,20 @@
     "code": "SFS3752",
     "subject": "SFS",
     "number": "3752",
+    "honors": false
+  },
+  {
+    "uid": "827206",
+    "code": "SFS3753",
+    "subject": "SFS",
+    "number": "3753",
+    "honors": false
+  },
+  {
+    "uid": "827205",
+    "code": "SFS3754",
+    "subject": "SFS",
+    "number": "3754",
     "honors": false
   },
   {
@@ -152702,6 +154053,13 @@
     "code": "SLHS1402",
     "subject": "SLHS",
     "number": "1402",
+    "honors": false
+  },
+  {
+    "uid": "827173",
+    "code": "SLHS1403",
+    "subject": "SLHS",
+    "number": "1403",
     "honors": false
   },
   {
@@ -155319,7 +156677,7 @@
     "uid": "791322",
     "code": "SPAN144",
     "subject": "SPAN",
-    "number": "144",
+    "number": null,
     "honors": false
   },
   {
@@ -155375,7 +156733,7 @@
     "uid": "010589",
     "code": "SPAN221",
     "subject": "SPAN",
-    "number": "221",
+    "number": null,
     "honors": false
   },
   {
@@ -155494,7 +156852,7 @@
     "uid": "794969",
     "code": "SPAN344",
     "subject": "SPAN",
-    "number": "344",
+    "number": null,
     "honors": false
   },
   {
@@ -157594,14 +158952,14 @@
     "uid": "804930",
     "code": "SW20",
     "subject": "SW",
-    "number": "20",
+    "number": null,
     "honors": false
   },
   {
     "uid": "793869",
     "code": "SW248B",
     "subject": "SW",
-    "number": "248",
+    "number": null,
     "honors": false
   },
   {
@@ -161388,14 +162746,14 @@
     "uid": "807691",
     "code": "TRIN900",
     "subject": "TRIN",
-    "number": "900",
+    "number": null,
     "honors": false
   },
   {
     "uid": "808339",
     "code": "TRIN990",
     "subject": "TRIN",
-    "number": "990",
+    "number": null,
     "honors": false
   },
   {
