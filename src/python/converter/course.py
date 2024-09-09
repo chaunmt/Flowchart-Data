@@ -5,6 +5,7 @@ It includes CourseInfoConverter and PrereqConverter.
 
 import re
 
+from python.checker.course import CourseInfoChecker
 from python.splitter.course import CourseInfoSplitter
 from python.sources.format import JSONHandler
 
@@ -34,8 +35,8 @@ class CourseInfoConverter():
         Convert all parentheses into square brackets.
         """
 
-        s.replace('(', '[')
-        s.replace(')', ']')
+        s = s.replace('(', '[')
+        s = s.replace(')', ']')
 
         return s
 
@@ -73,13 +74,14 @@ class CourseInfoConverter():
         "csci 2021, csci 2041, and more" ==> "CSCI2021"\n
         "This is not a valid one :)" ==> "" \n
         """
-
+        
         # Alternative subject is required.
         if not alter_subj:
             return ""
-
+        
         # Narrow down the info string with regex (first match only)
-        pattern =  r'\b([A-Za-z]+)?(\s+)?(\d{2,4})([A-Za-z]{0,1})?\b'
+        s = s.upper()
+        pattern =  r'\b([A-Z]+)?(\s+)?(\d{2,4})([A-Z]{0,1})?\b'
         match = re.search(pattern, s)
 
         if not match:
@@ -133,7 +135,7 @@ class CourseInfoConverter():
                 [subj, num, suf] = (
                     CourseInfoSplitter.code_into_subj_num_suf(course_codes[index])
                 )
-                if subj != alter_subj:
+                if CourseInfoChecker.is_valid_subj(subj) and subj != alter_subj:
                     alter_subj = subj
 
         return course_codes
@@ -248,20 +250,17 @@ class PrereqInfoConverter:
         ==> nested_code_dict = "and" : { "A", "B" }
         """
 
-        # Convert 'A and B' into { and : ['A', 'B'] }
-        if "and" in s:
-            return {
-                "and" : CourseInfoConverter.info_to_course_codes(s, self._alter_subj, True)
-            }
-
         # Convert 'A or B' into { or : ['A', 'B'] }
         if "or" in s:
             return {
                 "or" : CourseInfoConverter.info_to_course_codes(s, self._alter_subj, True)
         }
-
-        # Convert 'A B' into ['A', 'B']
-        return CourseInfoConverter.info_to_course_codes(s, self._alter_subj, True)
+            
+        # Convert 'A and B', 'A B' into { and : ['A', 'B'] }
+        else:
+            return {
+                "and" : CourseInfoConverter.info_to_course_codes(s, self._alter_subj, True)
+            }
 
     #############################################################################
     def to_nested_code_dicts(self, nested_ss : list) -> list[dict]:
