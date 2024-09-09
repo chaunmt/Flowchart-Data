@@ -46,7 +46,6 @@ class JSONHandler():
         """
         Write to the json file at the specified path.
         """
-        print(type(data))
 
         # If the file is not exist, a new file will be made
         with open(path, 'w', encoding='utf-8') as file:

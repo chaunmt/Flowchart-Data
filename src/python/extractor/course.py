@@ -48,6 +48,8 @@ class PrereqExtractor:
         prereq = prereq.get_prereq()
         self._prereq = prereq
 
+        self._prereq = prereq
+
         self.post_processing()
 
     def pre_processing(self) -> None:
@@ -83,3 +85,4 @@ class PrereqExtractor:
         p = PrereqFilterEmpty(p)
 
         self._prereq = p.process()
+        pass
