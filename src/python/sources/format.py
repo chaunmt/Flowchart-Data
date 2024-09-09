@@ -5,6 +5,7 @@ This module contains classes that help handle specific file format.
 import os
 import json
 import requests
+from requests.exceptions import Timeout, HTTPError, RequestException
 
 class JSONHandler():
     """
@@ -31,14 +32,22 @@ class JSONHandler():
         """
         Get the json data from the specified url.
         """
+        
+        while True:
+            try:
+                response = requests.get(url, timeout=10)
 
-        response = requests.get(url, timeout=5)
-
-        # Raise an exception on bad response's status code
-        response.raise_for_status()
-
-        # print(f'Data is fetched from {url}.')
-        return response.json()
+                # Raise an exception on bad response's status code
+                response.raise_for_status()
+                
+                # print(f'Data is fetched from {url}.')
+                return response.json()
+            except Timeout:
+                print("Timeout error occured. Retry request.")
+            except HTTPError as http_err:
+                print(f"HTTP error occurred: {http_err}. Retry request.")
+            except RequestException as err:
+                print(f"An error occurred: {err}. Retry request.")
 
     #############################################################################
     @staticmethod
