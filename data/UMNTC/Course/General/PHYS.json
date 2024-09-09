@@ -348,7 +348,7 @@
     "fullname": "Introductory Physics for Science and Engineering II",
     "info": "Use of fundamental principles to solve quantitative problems. Motion, forces, conservation principles, fields, structure of matter. Applications to electromagnetic phenomena. \n\nprereq: PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent",
     "prereq": {
-      "and": [
+      "or": [
         "002070",
         "000121",
         "003693"
@@ -540,8 +540,14 @@
     "fullname": "Modern Physics",
     "info": "Broad overview of physical concepts developed in twentieth century. Special relativity, wave-particle duality, Schrodinger equation, Bohr atom, hydrogen atom in wave mechanics, many-electron atoms, x-rays, nuclear structure, radioactivity, nuclear reactions, statistical physics.\n\nprereq: [1302 or 1402], Chem 1022, Math 2243",
     "prereq": {
-      "or": [
-        "002071"
+      "and": [
+        {
+          "or": [
+            "002071"
+          ]
+        },
+        "002385",
+        "000280"
       ]
     }
   },
@@ -572,7 +578,7 @@
     "fullname": "Quantum Physics",
     "info": "Introduction to quantum mechanics. Applications to atomic, molecular, condensed-matter, nuclear, elementary-particle, and statistical physics. \n\nprereq: PHYS2503/2503H, Recommended Concurrent: Phys 3041",
     "prereq": {
-      "and": [
+      "or": [
         "790541",
         "817153"
       ]
@@ -589,7 +595,7 @@
     "fullname": "Quantum Physics Laboratory",
     "info": "Laboratory experiments in atomic, solid state, and nuclear physics offered in conjunction with 2601.\n\nprereq: concurrent registration is required (or allowed) in  2601",
     "prereq": {
-      "or": [
+      "and": [
         "002078"
       ]
     }
@@ -629,7 +635,7 @@
     "fullname": "Laboratory-Based Physics for Teachers",
     "info": "Laboratory-based introductory physics. Topics selected to apply to elementary school curriculum: earth's motion, properties of matter, heat and temperature, kinematics, and electric current.\n\nprereq: College algebra; no credit for CSE students or students who have completed PHYS 1201/1202, PHYS 1301/1301, PHYS 1401/1402, or PHYS 1501/1502.",
     "prereq": {
-      "and": [
+      "or": [
         "002068",
         "002069",
         "002070"
@@ -695,7 +701,7 @@
     "fullname": "Analytical Mechanics",
     "info": "Analytic Newtonian mechanics. Mathematics beyond prerequisites developed as required. \n\nprereq: PHYS 2503/2503H or equivalent, PHYS 304",
     "prereq": {
-      "and": [
+      "or": [
         "790541"
       ]
     }
@@ -711,7 +717,7 @@
     "fullname": "Electricity and Magnetism",
     "info": "Classical theory of electromagnetic fields using vector algebra and vector calculus. \n\nprereq: PHYS 3041, PHYS 2503/2503H or equivalent",
     "prereq": {
-      "and": [
+      "or": [
         "817153",
         "790541"
       ]
@@ -996,7 +1002,11 @@
     "prereq": {
       "and": [
         "002079",
-        "790541"
+        {
+          "or": [
+            "790541"
+          ]
+        }
       ]
     }
   },
@@ -1091,7 +1101,7 @@
     "fullname": "Classical Physics I",
     "info": "Classical mechanics: Lagrangian/Hamiltonian mechanics, orbital dynamics, rigid body motion, special relativity.\n\nprereq: 4001, 4002 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002079",
         "002080"
       ]
@@ -1341,7 +1351,7 @@
     "fullname": "Physics Journal Club",
     "info": "Weekly student-led presentation, discussion, and critical analysis of important papers.\n\nprereq: 2601, 2605 or equiv; intended for 2nd-yr grad students in physics",
     "prereq": {
-      "and": [
+      "or": [
         "002078",
         "002094"
       ]
@@ -1534,9 +1544,14 @@
     "fullname": "Biological Physics of Single Molecules",
     "info": "Biological molecules, based on statistical mechanics, kinetics, optics, and other physics ideas. Physics of DNA/proteins, their interactions. Force spectroscopy (optical tweezers, atomic force microscopy). Concepts of optical spectroscopy. Single molecule fluorescence/imaging.\n\nprereq: [[5201 or Chen 4707], 5011] or instr consent",
     "prereq": {
-      "or": [
-        "791952",
-        "789543"
+      "and": [
+        {
+          "or": [
+            "791952",
+            "789543"
+          ]
+        },
+        "004565"
       ]
     }
   },
@@ -1551,9 +1566,14 @@
     "fullname": "Biological Physics of Macroscopic Systems",
     "info": "Macroscopic systems, based on physics such as fluid dynamics, statistical mechanics, non-linear dynamics, and chaos theory. Super-molecular aggregates. Biological physics of the cell. Biological physics of populations/evolution.\n\nprereq: [[5201 or CHEN 4707], 5011] or instr consent",
     "prereq": {
-      "or": [
-        "791952",
-        "789543"
+      "and": [
+        {
+          "or": [
+            "791952",
+            "789543"
+          ]
+        },
+        "004565"
       ]
     }
   },
@@ -1672,7 +1692,7 @@
     "fullname": "Plasma Physics I",
     "info": "Theory of plasma waves and instabilities in plasmas, magnetohydrodynamics, nonlinear waves in plasmas, wave propagation in inhomogeneous plasmas.\n\nprereq: 4621, 5012 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002101",
         "004566"
       ]
@@ -1790,7 +1810,7 @@
     "fullname": "Solid-State Physics I",
     "info": "Fundamental properties of solids. Electronic structure and transport in metals and semiconductors. Properties of disordered materials.\n\nprereq: 4211, 5002 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002097",
         "004564"
       ]

@@ -46,7 +46,7 @@
     "fullname": "Integration of Sustainable Agriculture Concepts",
     "info": "Biodiversity, ecological balance, nutrient cycling, soil quality. Organic practices of tillage, fertility management, weed control, insect control. Specific practices compared with conventional/integrated pest management. Economic analysis of both organic/conventional practices.\n\nprereq: AGRO 1101 or AGRO 1103 or BIOL 1001 or BIOL 1009 or HORT 1001 or HORT 6011 or instr consent, [sr or grad student admitted to MPS in horticulture]\n\nBecause of the 5xxx level, undergraduates need permission numbers to register. Students can obtain permissions by writing to:  reefx001@umn.edu ",
     "prereq": {
-      "and": [
+      "or": [
         "007688",
         "007579",
         "005419",

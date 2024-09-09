@@ -242,7 +242,7 @@
     "fullname": "Senior Seminar in Sport Management",
     "info": "This course addresses the applicability of research in the management of sport through the culmination of a senior research project as well as providing students with career development. The course will engage participants in the systematic inquiry into their own understanding of various components in delivering a sports program. A major segment of course work involves working with a team of peers on a collaborative research project that will address an organization\u2019s key business/management problem. Each group will identify a sport organization and work collaboratively with them to develop a plan that addresses the respective problem the organization is experiencing. \n\nprereq: SMGT major and Senior, and a C- or better in SMGT 3826 or KIN 3982",
     "prereq": {
-      "and": [
+      "or": [
         "825862",
         "810410"
       ]
@@ -271,7 +271,7 @@
     "fullname": "Practicum: The Sport Experience",
     "info": "Practical experience in one or more sport settings.\n\nprereq: 3881, SMGT major, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004757"
       ]
     }

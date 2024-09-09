@@ -1034,7 +1034,7 @@
     "fullname": "Pharmaceutical Care Skills IV",
     "info": "Basic/clinical science curriculum in lab setting. Longitudinal care in lab setting.\n\nprereq: concurrent registration is required (or allowed) in 6122",
     "prereq": {
-      "or": [
+      "and": [
         "014234"
       ]
     }
@@ -1279,7 +1279,7 @@
     "fullname": "Advanced Pharmaceutical Care Clinic",
     "info": "Expanded, direct patient care opportunities. Students conduct comprehensive pharmaceutical care assessments in presence of practitioners. Weekly student case presentations/discussions.\n\nprereq: [6230] or 3rd yr pharmacy student",
     "prereq": {
-      "or": [
+      "and": [
         "795334"
       ]
     }
@@ -2911,7 +2911,7 @@
     "fullname": "Early Pharmacy Practice Experience II",
     "info": "Patient perspective in managing/living with chronic conditions/chronic medication use. Community-based instruction, mentor program.\n\nprereq: 7001 or instr consent, criminal background check, BLS CPR certification, negative Mantoux test (or explanation of positive test), chicken pox immunity",
     "prereq": {
-      "and": [
+      "or": [
         "796561"
       ]
     }
@@ -2927,7 +2927,7 @@
     "fullname": "Early Pharmacy Practice Experience III",
     "info": "Third in series of four courses. Patient perspective in managing/living with chronic conditions/chronic medication use. Community-based instruction, mentoring.\n\nprereq: 7002 or instr consent, criminal background check, BLS CPR certification, negative Mantoux test (or explanation of positive test), chicken pox immunity",
     "prereq": {
-      "and": [
+      "or": [
         "796562"
       ]
     }
@@ -2943,7 +2943,7 @@
     "fullname": "Early Pharmacy Practice Experience IV",
     "info": "Patient perspective in managing/living with chronic conditions/chronic medication use. Community-based instruction, mentoring. Upcoming patient care opportunities.\n\nprereq: 7003 or instr consent, criminal background check, BLS CPR certification, negative Mantoux test (or explanation of positive test), chicken pox immunity",
     "prereq": {
-      "and": [
+      "or": [
         "796563"
       ]
     }
@@ -3324,7 +3324,7 @@
     "fullname": "Introductory Community-Practice Pharmacy Experience",
     "info": "The purpose of the Community IPPE is to introduce you to the fundamentals of pharmacy practice and developing professional attitude and behavior in the community pharmacy setting. The course will build upon knowledge gained in the first year didactic curriculum, specifically Foundations of SAPh and Foundations of Pharmaceutical Care. The format of the IPPE course includes: in person, online and an experiential components. The experiential component is a combination of observation, application of current knowledge, and feedback and assessment between you, the preceptor, and others.\n\nprereq: College of Pharmacy students must complete PHAR 6700 (Becoming a Pharmacist), 6706 (Foundations in Pharmaceutical Care), 6716 (Applied Pharmaceutical Care), 6728 (Pharmaceutical Calculations), 6710 (Pharmaceutical Care Skills Lab 1), 6720 (Pharmaceutical Care Skills lab 2), 6704 (foundations of SAPh), 6730 (first year seminar), 6718 (drug delivery), 6722 (med chem), 6726 (pharmacology) with a passing grade. You must be registered with the Minnesota Board of Pharmacy as an intern prior to the onsite experiential component of this course.",
     "prereq": {
-      "and": [
+      "or": [
         "810282",
         "810285",
         "810612",

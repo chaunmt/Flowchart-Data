@@ -160,9 +160,17 @@
     "prereq": {
       "or": [
         "009920",
-        "006281",
+        {
+          "or": [
+            "006281"
+          ]
+        },
         "009923",
-        "006286",
+        {
+          "or": [
+            "006286"
+          ]
+        },
         "000120",
         "000119"
       ]
@@ -271,7 +279,7 @@
     "fullname": "Intermediate Microeconomics",
     "info": "Behavior of households, firms, and industries under competitive/monopolistic conditions. Factors influencing production, price, and other decisions. Applications of theory. Economic efficiency. Distribution of well-being. Students cannot take this course if they have taken ApEc 3001, as ApEc 3001 does not contain all material in Econ 3101.\n\nprereq: ECON 1101, 1102, and MATH 1271 or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
         "009923",
         "000120"
@@ -289,12 +297,20 @@
     "fullname": "Intermediate Macroeconomics",
     "info": "Determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. Applications of the theory, especially to current modern macroeconomic policy issues. ApEc 3006 cannot be substituted for ECON 3102.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
-        "825772",
-        "006281",
+        {
+          "or": [
+            "825772",
+            "006281"
+          ]
+        },
         "009923",
-        "006286",
+        {
+          "or": [
+            "006286"
+          ]
+        },
         "007259",
         "000120"
       ]
@@ -359,7 +375,7 @@
     "fullname": "Money and Banking",
     "info": "Historical development, present characteristics, and economic role of financial institutions. Commercial banking, the Federal Reserve System, and monetary policy.\n\nprereq: 1101, 1102 or equiv; not open to Econ majors",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
         "009923"
       ]
@@ -404,18 +420,34 @@
     "fullname": "Economics Capstone",
     "info": "Students produce a significant written work in economics. Projects demonstrate critical thinking, collection/analysis of data, problem solving, interpretation of findings. Modes of inquiry in economics.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, (STAT 3011 or STAT 3021), (STAT 3022 or STAT 3032), and Econ writing intensive elective or equivalent courses approved by the Economics Department",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "007260",
-        "001618",
-        "001622",
-        "001621",
-        "814524"
+        {
+          "or": [
+            "001618",
+            "001622"
+          ]
+        },
+        {
+          "or": [
+            "001621",
+            "814524"
+          ]
+        }
       ]
     }
   },
@@ -466,10 +498,18 @@
     "prereq": {
       "and": [
         "009920",
-        "825772",
-        "006281",
+        {
+          "or": [
+            "825772",
+            "006281"
+          ]
+        },
         "009923",
-        "006286",
+        {
+          "or": [
+            "006286"
+          ]
+        },
         "007259",
         "000120"
       ]
@@ -649,14 +689,21 @@
     "fullname": "Uncertainty and Information",
     "info": "For Econ B.S. students only. This Microeconomic theory course focuses on economies under uncertainty with possibly asymmetric information. Individual behavior of consumers and that of markets are studied under uncertainty with incomplete information. Related topics in technology and innovation. the information economy, and networks will be examined.\nprereq: [[3101, 3102]] or equiv], [[MATH 1271, MATH 1272, and Math 2243] or equiv]; strongly suggest students complete Stat 4101 before taking this course; students should have successfully completed two 4xxx level UMNTC economics courses.",
     "prereq": {
-      "and": [
+      "or": [
+        {
+          "and": [
+            "007259",
+            "007260"
+          ]
+        },
         {
           "and": [
             "000120",
             "000121",
             "000280"
           ]
-        }
+        },
+        "006405"
       ]
     }
   },
@@ -671,7 +718,7 @@
     "fullname": "Advanced Mathematical Economics",
     "info": "Development of selected models of economic behavior in mathematical terms. Topics selected to illustrate advantages of mathematical formulation.\nprereq: ECON 3101, 3102, MATH 1271, MATH 1272, MATH 2243 or equivalent courses; and at least two 4xxx level economics electives.",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260",
         "000120",
@@ -742,7 +789,7 @@
     "fullname": "Microeconomic Analysis III",
     "info": " Basic notions of game theory, static and over time, with applications. Content: Basic decision theory, normal form games, Nash Equilibria, Correlated Equilibria, extensive form games, wars of attrition, games of timing, auction theory, applications in industrial organization, and international relations.\n\nprereq: ECON 3101, 3102, MATH 1271, MATH 1272 [or equiv courses]; and two 4xxx level ECON electives, or Dept. Consent",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260",
         "000120",
@@ -761,7 +808,7 @@
     "fullname": "Microeconomic Analysis IV",
     "info": "Basic notions of game theory, static and over time, with applications. Content: Basic decision theory. Normal form games. Nash Equilibria. Correlated Equilibria. Extensive form games. Wars of attrition. Games of timing. Auction theory. Applications in industrial organization, international relations.\n\nprereq: ECON 3101, 3102, 4163, MATH 1271, MATH 1272 [or equiv courses]; and two 4xxx level ECON electives, or Dept. Consent.",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260",
         "010086",
@@ -901,18 +948,34 @@
     "fullname": "Principles of Econometrics",
     "info": "Data analysis/quantitative methods in economics. Violation of classical regression model assumptions, modified estimation procedures that retain desirable properties. Multi-equation models. Computer applications/interpretation of empirical results.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271, (STAT 3011 or 3021), (STAT 3022 or 3032) or equivalent courses approved by the Economics Department",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "000120",
-        "001618",
-        "001622",
-        "001621",
-        "814524"
+        {
+          "or": [
+            "001618",
+            "001622"
+          ]
+        },
+        {
+          "or": [
+            "001621",
+            "814524"
+          ]
+        }
       ]
     }
   },
@@ -927,21 +990,27 @@
     "fullname": "Introduction to Econometrics",
     "info": "For Econ B.S. majors only. Review of basic linear regression model, its variants. Time series/simultaneous equation models. Material may include panel data, censored/truncated regressions, discrete choice models.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, MATH 1271, MATH 1272, MATH 2243, MATH 2263, STAT 4101 (or 5101), STAT 4102 (or 5102) or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
         "009923",
-        "006286",
+        {
+          "or": [
+            "006286"
+          ]
+        },
         "007259",
         "000120",
         "000121",
         "000280",
         "000282",
         "006405",
-        "006408",
-        "006406",
-        "006409"
+        "006406"
       ]
     }
   },
@@ -1009,7 +1078,7 @@
     "fullname": "Comparative Economic Systems",
     "info": "Functions of economic systems; market economy vs. centrally planned economy. Post socialist transitions in Eastern Europe, Russia, and China and reforms undertaken. Initial conditions and strategies for reforms; results of reforms in terms of key economic indicators.\n\nprereq: 1101, 1102 or equiv; not open to Econ majors",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
         "009923"
       ]
@@ -1078,11 +1147,19 @@
     "fullname": "The Chinese Economy",
     "info": "Overview of the Chinese Economy; transition from command economy to a market-based one and effects on economic indicators; current economic issues and concerns of the Chinese economy; role of China in today's world economy.\n\nprereq:  (ECON 1101or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), MATH 1271 or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "000120"
       ]
     }
@@ -1098,12 +1175,20 @@
     "fullname": "Economic Development",
     "info": "Economic growth in low income countries. Theory of aggregate and per capita income growth. Population growth, productivity increases, and capital formation. Allocation of resources between consumption and investment and among sectors. International assistance/trade.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department, and completion of freshman writing practice.",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
-        "825772",
-        "006281",
+        {
+          "or": [
+            "825772",
+            "006281"
+          ]
+        },
         "009923",
-        "006286",
+        {
+          "or": [
+            "006286"
+          ]
+        },
         "007259",
         "007260",
         "000120"
@@ -1121,7 +1206,7 @@
     "fullname": "Comparative Economic Systems",
     "info": "Functions of economic systems; market economy versus centrally planned economy. Comparison of different economic systems. Post socialist transitions in Eastern Europe, Russia, and China. Initial conditions and strategies for reforms; results of reforms in terms of key economic indicators.\n\nprereq: 3101, 3102 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260"
       ]
@@ -1175,7 +1260,7 @@
     "fullname": "Economic Integration of the Americas",
     "info": "Analysis of economic relationships among countries in the Western Hemisphere. Modeling the impact of NAFTA and similar regional trade accords. Prospects for further integration. Comparison with European integration.\n\nprereq: 3101, 3102 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260"
       ]
@@ -1216,12 +1301,20 @@
     "fullname": "International Trade",
     "info": "Theories of trade/trade patterns. Trade restrictions/commercial policy. International factor movements. Economic growth/development.  Regional integration.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271, or equivalent courses approved by the Economics Department, and completion of freshman writing practice.",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
-        "825772",
-        "006281",
+        {
+          "or": [
+            "825772",
+            "006281"
+          ]
+        },
         "009923",
-        "006286",
+        {
+          "or": [
+            "006286"
+          ]
+        },
         "007259",
         "007260",
         "000120"
@@ -1239,12 +1332,20 @@
     "fullname": "International Finance",
     "info": "Balance of payments, international financial markets, exchange rate determination, international monetary system, international investment and capital flows, financial management of the multinational firm, open economy macroeconomic policy.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
-        "825772",
-        "006281",
+        {
+          "or": [
+            "825772",
+            "006281"
+          ]
+        },
         "009923",
-        "006286",
+        {
+          "or": [
+            "006286"
+          ]
+        },
         "007259",
         "007260",
         "000120"
@@ -1262,13 +1363,14 @@
     "fullname": "Advanced International Trade",
     "info": "Theories of trade/explanations of trade patterns. Trade restrictions. Commercial policy. International factor movements. Economic growth/development. Multinational corporations. Regional integration. prereq: [3101, 3102] or equiv, Math 1271, completion of freshman writing practice, [Math 1272 or equiv]",
     "prereq": {
-      "and": [
+      "or": [
         {
           "and": [
             "007259",
             "007260"
           ]
         },
+        "000120",
         {
           "or": [
             "000121"
@@ -1288,12 +1390,20 @@
     "fullname": "Labor Economics",
     "info": "Economic analysis of labor markets and their operations; population and labor force; labor market institutions; wage and employment theories; unions and collective bargaining; public policy.\n\nprereqs: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "007260",
         "000120"
@@ -1311,12 +1421,20 @@
     "fullname": "Advanced Labor Economics",
     "info": "For B.S. Econ majors only. Economic analysis of domestic and global labor markets; population and labor force; labor market institutions; wage and employment theories; unions and collective bargaining; public policy including immigration, outsourcing, living wages, earnings mobility, downsizing; special topics.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, MATH 1271, MATH 1272, and two Econ electives or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "007260",
         "000120",
@@ -1376,12 +1494,20 @@
     "fullname": "Industrial Organization and Antitrust Policy",
     "info": "Relations between market structure, economic efficiency and welfare. Economic origins of monopoly and other restraints on competition. Purposes and effects of antitrust and related legislation. Industrial policy.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department\n",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "000120"
       ]
@@ -1398,7 +1524,7 @@
     "fullname": "Advanced Industrial Organization and Anti-Trust Policy",
     "info": "For Econ BS majors only. Economic aspects of antitrust/related policies. Relations between market structure, economic efficiency, welfare. Economic origins of monopoly/other restraints on competition. Purposes/effects of antitrust/related legislation.\n\nprereq: 3101 or equivalent, 3102 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260"
       ]
@@ -1415,12 +1541,20 @@
     "fullname": "Money and Banking",
     "info": "Theories of money demand and money supply. Financial intermediation and banking, banking practices and regulation, role of the Federal Reserve system. Monetary theory and policy.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, and MATH 1271, or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "007260",
         "000120"
@@ -1445,10 +1579,11 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "007260"
           ]
-        }
+        },
+        "000120"
       ]
     }
   },
@@ -1463,7 +1598,7 @@
     "fullname": "Macroeconomic Policy",
     "info": "Monetary vs. fiscal policy debate in the context of the underlying macroeconomic theory controversy. Comparison of Keynesian, Monetarist, and Classical theories; rational expectations; policy ineffectiveness; time inconsistency; rules vs. discretion; budget deficits; unemployment and inflation.\n\nprereq: 3101, 3102 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260"
       ]
@@ -1481,8 +1616,13 @@
     "info": "For Econ B.S. majors only. Monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. Comparison of Keynesian, Monetarist, Classical theories. Rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. Unemployment/inflation.\n\nprereq: [[3101, 3102] or equiv], Math 1271",
     "prereq": {
       "and": [
-        "007259",
-        "007260"
+        {
+          "and": [
+            "007259",
+            "007260"
+          ]
+        },
+        "000120"
       ]
     }
   },
@@ -1549,12 +1689,20 @@
     "fullname": "Financial Economics",
     "info": "Financial decisions of firms/investors. Determination of interest rates and asset prices. Role of risk/uncertainty. Emphasizes economic models.\n\nprereqs: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271, STAT 3011 or equivalent courses approved by the Economics Department.",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "000120",
         "001618"
@@ -1575,7 +1723,7 @@
       "and": [
         "007259",
         {
-          "and": [
+          "or": [
             "007260"
           ]
         },
@@ -1608,12 +1756,20 @@
     "fullname": "Public Economics",
     "info": "Competing views on proper role of government in economy. Effects of tax/spending policies, taking into account private agents' response to government actions/ways government officials may use powers. Optimal policies. Applications primarily to U.S. government.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101),  (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "007260",
         "000120"
@@ -1631,7 +1787,7 @@
     "fullname": "Advanced Public Economics",
     "info": "Competing views/models on the role of government in an economy. Effects of tax and spending policies, private agents' response to government actions; optimal policies. Financial crisis and government policies on subsidizing private debt and private housing. Climate change policy of government. Government health care reforms. Tax issues of MNCs, tax evasion, industry relocations and corporate taxes.\n\nprereqs: Econ 3101 and 3102; advise completing Econometrics before taking this course.",
     "prereq": {
-      "and": [
+      "or": [
         "007259",
         "007260"
       ]
@@ -1648,12 +1804,20 @@
     "fullname": "Cost-Benefit Analysis",
     "info": "Evaluation of benefits and costs of public projects and programs. Issues connected with definition and measurement of benefits and costs. Rate of return and discount. Market imperfections, risk, uncertainty. Case studies.\n\nprereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department",
     "prereq": {
-      "and": [
-        "009920",
-        "825772",
-        "006281",
-        "009923",
-        "006286",
+      "or": [
+        {
+          "or": [
+            "009920",
+            "825772",
+            "006281"
+          ]
+        },
+        {
+          "or": [
+            "009923",
+            "006286"
+          ]
+        },
         "007259",
         "000120"
       ]
@@ -1688,9 +1852,14 @@
     "fullname": "Topics in Economics",
     "info": "Topics specified in Class Schedule.\n\nprereq: [3101 or 3102 or equiv], MATH 1271",
     "prereq": {
-      "or": [
-        "007259",
-        "007260"
+      "and": [
+        {
+          "or": [
+            "007259",
+            "007260"
+          ]
+        },
+        "000120"
       ]
     }
   },
@@ -1712,6 +1881,7 @@
             "007260"
           ]
         },
+        "000120",
         {
           "or": [
             "001618"
@@ -1738,6 +1908,7 @@
             "007260"
           ]
         },
+        "000120",
         {
           "or": [
             "001618"
@@ -1781,7 +1952,7 @@
     "fullname": "Game Theory for Engineers",
     "info": "Introduction to game theory. Utility theory, non-cooperative/cooperative games, bargaining theory. Games in normal/extensive form. Nash equilibria/refinements.\n\nprereq: [Math 2283, 2373, 2374, 3283] or Math 4606, [M.S./Ph.D. student in engineering or comp sci or info tech or operations mgmt] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "and": [
             "000298",
@@ -1789,7 +1960,8 @@
             "003695",
             "016340"
           ]
-        }
+        },
+        "004307"
       ]
     }
   },
@@ -1856,7 +2028,7 @@
     "fullname": "Microeconomic Analysis I",
     "info": "Theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. Sample topics: externalities, economics of information and uncertainty, and game theory. This seven-week course meets with 4161.\n\nprereq: 5151 or equiv, Math 2243, Math 2263 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007269",
         "000280",
         "000282"
@@ -1922,7 +2094,7 @@
     "fullname": "Microeconomic Theory",
     "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory. Seven-week course.\n\nprereq: 5151 or equiv, Math 2243 or equiv, concurrent registration is required (or allowed) in  Math 5615 or concurrent registration in Math 8601, grad econ major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007269",
         "000280",
         "009407"
@@ -1940,7 +2112,7 @@
     "fullname": "Microeconomic Theory",
     "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory. Seven-week course.\n\nprereq: 8101, concurrent registration is required (or allowed) in  Math 5615 or concurrent registration is required (or allowed) in  Math 8601, grad econ major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008894",
         "009407"
       ]
@@ -1957,7 +2129,7 @@
     "fullname": "Microeconomic Theory",
     "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory. Seven-week course.\n\nprereq: 8102, concurrent registration is required (or allowed) in  Math 5616 or concurrent registration is required (or allowed) in  Math 8602 or comparable abstract math course, grad econ major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008890",
         "009408"
       ]
@@ -1974,7 +2146,7 @@
     "fullname": "Microeconomic Theory",
     "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory.\nSeven-week course.\n\nprereq: 8103, concurrent registration is required (or allowed) in  Math 5616 or concurrent registration is required (or allowed) in  Math 8602 or comparable abstract math course, grad econ major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008896",
         "009408"
       ]
@@ -1991,7 +2163,7 @@
     "fullname": "Macroeconomic Theory",
     "info": "Dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. Models with uncertainty, search, matching, indivisibilities, private information. Implications for measurement and data reporting. Overlapping generations and dynasty models. Variational and recursive methods. This seven-week course meets with 4165.\n\nprereq: 5152 or equiv, Math 2243, Math 2263 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007271",
         "000280",
         "000282"
@@ -2057,7 +2229,7 @@
     "fullname": "Introduction to Mathematical Economics",
     "info": "Use of mathematical models in economic theory.\n\nprereq: Math 2243 or equiv, concurrent registration is required (or allowed) in  Econ 8101, concurrent registration is required (or allowed) in  Math 5615 or equiv or instr consent; Math 4242 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "000280",
         "008894",
         "010795"
@@ -2075,7 +2247,7 @@
     "fullname": "Introduction to Mathematical Economics",
     "info": "Use of mathematical models in economic theory. Standard techniques.\n\nprereq: 8111, concurrent registration is required (or allowed) in  8102, concurrent registration is required (or allowed) in  Math 5615 or comparable abstract math course",
     "prereq": {
-      "and": [
+      "or": [
         "008911",
         "008890"
       ]
@@ -2092,7 +2264,7 @@
     "fullname": "Introduction to Mathematical Economics",
     "info": "Use of mathematical models in economic theory. May include special topics.\n\nprereq: 8112, Math 5616 or comparable abstract math course, concurrent registration is required (or allowed) in  8103",
     "prereq": {
-      "and": [
+      "or": [
         "008912"
       ]
     }
@@ -2136,7 +2308,7 @@
     "fullname": "Cooperative Game Theory",
     "info": "Basics of cooperative game theory, emphasizing concepts used in economics. Games with and without transferable utility; the core, the value, and other solution concepts. Recent results, including potentials, reduced games, consistency, and noncooperative implementation of cooperative solution concepts. Seven-week course.\n\nprereq: 8104, Math 5616 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008897"
       ]
     }
@@ -2282,7 +2454,8 @@
           "or": [
             "000121"
           ]
-        }
+        },
+        "006409"
       ]
     }
   },
@@ -2341,7 +2514,7 @@
     "fullname": "Applied Econometrics",
     "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.\n\nprereq: Math 4242 or equiv, concurrent registration is required (or allowed) in  Econ 8101, concurrent registration is required (or allowed) in  Econ 8105, concurrent registration is required (or allowed) in  Stat 5101 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "010795",
         "008894",
         "008898",
@@ -2360,7 +2533,7 @@
     "fullname": "Applied Econometrics",
     "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.\n\nprereq: 8205, concurrent registration is required (or allowed) in  8102, concurrent registration is required (or allowed) in  8106, concurrent registration is required (or allowed) in  Stat 5101 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008907",
         "008890",
         "008899",
@@ -2379,7 +2552,7 @@
     "fullname": "Applied Econometrics",
     "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.\n\nprereq: 8206, concurrent registration is required (or allowed) in  8103, concurrent registration is required (or allowed) in  8107, concurrent registration is required (or allowed) in  Stat 5102 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008908",
         "008896",
         "008900",
@@ -2398,7 +2571,7 @@
     "fullname": "Applied Econometrics",
     "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.\n\nprereq: 8207, concurrent registration is required (or allowed) in  8104, concurrent registration is required (or allowed) in  8108, concurrent registration is required (or allowed) in  Stat 5102 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008909",
         "008897",
         "008901",
@@ -2417,7 +2590,7 @@
     "fullname": "Econometrics",
     "info": "Linear regression; general linear hypotheses; Gauss Markov Theorem, generalized least squares and their applications. Decision-theoretic choice among estimators. Simultaneous equations models; identification and estimation. Asymptotic distribution theory. Applications, including multivariate time series models and/or limited dependent variables models. Seven-week course.\n\nprereq: 5151, 5152, Math 4242 or equiv, Stat 5102 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007269",
         "007271",
         "010795",
@@ -2528,7 +2701,7 @@
     "fullname": "Economic Growth and Development",
     "info": "Methods of analyzing dynamical systems; applying methods to new models of growth and development; deriving and evaluating models' quantitative implications in light of growth and development in a number of countries. Seven-week course.\n\nprereq: 8104, 8106 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008897",
         "008899"
       ]
@@ -2641,7 +2814,7 @@
     "fullname": "International Trade and Payments Theory",
     "info": "Impact of trade on factor rentals. Stolper-Samuelson, Rybczynski, and factor price equalization theorems. Heckscher-Ohlin theorem. Derivation of offer curves and general international equilibrium. Transfer problem. Seven-week course.\n\nprereq: 8103, 8105 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008896",
         "008898"
       ]
@@ -2775,7 +2948,7 @@
     "fullname": "Wages and Employment",
     "info": "Economic analysis of labor markets and their operation under conditions of both individual and collective bargaining. Implications of labor market operations for resource allocation, wage and price stability, income and employment growth. Wage structures and wage levels. Wage and employment theories and practices. Economic impacts of unions. Seven-week course.\n\nprereq: 8102, 8106 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008890",
         "008899"
       ]
@@ -2968,7 +3141,7 @@
     "fullname": "Monetary Economics",
     "info": "Economic role of principal financial institutions. Determinants of value of money. Principal problems of monetary policy. Seven-week course.\n\nprereq: 8103, 8106 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008896",
         "008899"
       ]
@@ -3017,7 +3190,7 @@
     "fullname": "Financial Economics",
     "info": "Role of financial institutions in efficient allocation of risk; multiperiod and continuous-time securities markets; theory of firm under uncertainty; financial intermediation; derivation of empirical asset-pricing relationships; tests concerning alternative market structures. Seven-week course.\n\nprereq: 8103, 8106 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008896",
         "008899"
       ]
@@ -3130,7 +3303,7 @@
     "fullname": "Public Economics",
     "info": "Theories of public choice and role of government in economy. Economic effects of taxes, public debt, and public expenditure. Current problems in economics of public sector, including political economy. Seven-week course.\n\nprereq: 8103, 8106 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008896",
         "008899"
       ]

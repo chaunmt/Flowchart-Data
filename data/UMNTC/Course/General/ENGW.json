@@ -242,7 +242,7 @@
     "fullname": "Science Fiction and Fantasy Writing",
     "info": "What fantastic world will you write? In this craft class, you will build a world, write a short story and expand it into a longer work of fiction up to twenty-five pages as is characteristic for the overall genre. Your work of fiction might be alternate history, apocalyptic fiction, cyberpunk, magical realism, speculative fiction, sword and sorcery or another subgenre. Along the way, your instructor will introduce you to classic and contemporary science fiction and fantasy short stories, including those written by Black, Brown, female-identified and/or queer writers. Each week, your instructor will also give mini-lectures about topics of interest and provide you with writing exercises and prompts that are peculiar to this genre.\n\nsoft prerequisite of one introductory creative writing class: ENGW 1101W, ENGW 1102W, ENGW 1103W, ENGW 1104W, ENGW 1911W, ENGW 1912W, ENGW 1913, ENGW 1914W, ENGW 1915W or instructor permission",
     "prereq": {
-      "and": [
+      "or": [
         "004765",
         "004945",
         "004944",
@@ -325,7 +325,7 @@
     "fullname": "Screenwriting",
     "info": "An introductory workshop to screenwriting basics, including formatting, style, and structure. In-class and take-home exercises will assist the students in learning techniques for developing engaging characters, writing concise description and vivid dialogue, and outlining a usable plot.\n\nprereq: EngL 3001W or 3001V or EngW 3102 or 3104 or 3106 or 3110, or jr or sr in SCMC major or minor\n",
     "prereq": {
-      "and": [
+      "or": [
         "002446",
         "004947",
         "004948",

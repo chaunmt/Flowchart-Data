@@ -406,7 +406,7 @@
     "fullname": "Professional Studies in Health Informatics",
     "info": "Health informatics as a profession, including discipline, responsibilities, resources, and job opportunities.  Directed experiences in consulting, teaching, writing, conducting research, and managing facilities.\n\nprereq: 5431, PubH 5452 or instr consent, grad hlth inf major",
     "prereq": {
-      "and": [
+      "or": [
         "007228"
       ]
     }

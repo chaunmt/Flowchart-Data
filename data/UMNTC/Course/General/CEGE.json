@@ -46,7 +46,7 @@
     "fullname": "Computer Applications I",
     "info": "Computer tools and computational methods for solving civil, environmental, and geo-engineering problems. Solving systems of linear/nonlinear equations, parameter estimation and engineering model fitting, numerical differentiation/integration, numerical solution of ordinary, and partial differential equations.\n\nprereq: MATH 1372 or equiv., PHYS 1301 or equiv., CSE or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "003693",
         "002070"
       ]
@@ -103,10 +103,14 @@
     "fullname": "Transportation Engineering",
     "info": "Applying laws of motion to vehicle performance, determining constraints for highway designs. Traffic flow principles, their relation to capacity and level of service. Geometric design, traffic control, pavement design, transportation planning. \n\nprereq: PHYS 1301 or equivalent, (CEGE 3101, CEGE 3102 can be taken concurrently)",
     "prereq": {
-      "and": [
+      "or": [
         "002070",
-        "003324",
-        "795303"
+        {
+          "and": [
+            "003324",
+            "795303"
+          ]
+        }
       ]
     }
   },
@@ -121,7 +125,7 @@
     "fullname": "Soil Mechanics I",
     "info": "Index properties and soil classification. Effective stress. Permeability and seepage. Elasticity theory. One-dimensional compression and consolidation; settlements.  Compaction; cut and fill problems.\n\nprereq: upper division CSE, AEM 3031, CEGE 3101, or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "004340",
         "003324"
       ]
@@ -138,7 +142,7 @@
     "fullname": "Linear Structural Analysis",
     "info": "Analysis of determinate/indeterminate trusses and frames. Application of energy methods and virtual work technique in analysis of structural deformations. Force-based and displacement-based methods in analysis of indeterminate structures. Influence lines and critical load configurations.\n\nprereq: AEM 3031, upper division CSE or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "004340"
       ]
     }
@@ -170,7 +174,7 @@
     "fullname": "Introduction to Environmental Engineering",
     "info": "A quantitative approach to environmental problems, including the development of mass and energy balances and the application of fundamental principles of environmental chemistry and microbiology. Meets the University of Minnesota's liberal education environment theme through the incorporation of environmental function, problems, and solutions throughout the course.\n\nprereq: Chem 1071 or equivalent, Phys 1302 or equivalent, Math 1372 or equivalent",
     "prereq": {
-      "and": [
+      "or": [
         "827126",
         "002071",
         "003693"
@@ -189,8 +193,14 @@
     "info": "Course covers fluid statics/dynamics. Kinematics of fluid flow, equations of motion, pressure-velocity relationships, viscous effects, boundary layers. Momentum/energy equations. Lift/drag. Flow in pipes and pipe systems. Hydraulic machinery. Fluid measurements. \n\nprereq: [AEM 2012 or AEM 3031], Math 2373 or equivalent, CEGE 3101",
     "prereq": {
       "or": [
-        "004334",
-        "004340"
+        {
+          "or": [
+            "004334",
+            "004340"
+          ]
+        },
+        "003694",
+        "003324"
       ]
     }
   },
@@ -295,7 +305,7 @@
     "fullname": "Computer Applications II",
     "info": "Advanced application of computer tools/methods in solving ordinary/partial differential equations from civil engineering problems. Spreadsheet, MatLab programming. Methods may include finite differences, boundary element, finite element, and control volume finite element.\n\nprereq: CEGE 3101, MATH 2373 or equivalent, MATH 2374 or equivalent, upper division CSE or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "003324",
         "003694",
         "003695"
@@ -373,7 +383,7 @@
     "fullname": "Principles of Highway Design",
     "info": "Vertical and horizontal alignment, cross-sections and earthwork computations, roadside design, highway capacity, impact of vehicle type on geometric design, intersection design, safety impacts of highway design.\n\nprereq:  upper division CSE student, CEGE 3201 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003335"
       ]
     }
@@ -389,7 +399,7 @@
     "fullname": "Highway Design and Traffic Operations",
     "info": "Principles of vehicle/driver performance as they apply to design and operation of highways. Highway alignment and roadside design. Intersection design and traffic control devices. Capacity/level of service. Trip generation and traffic impact analysis. Safety studies and safety impacts of design and operational decisions.\n\nprereq: CEGE 3201, CEGE 3102 or equivalent, upper division CSE or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "003335",
         "795303"
       ]
@@ -418,12 +428,16 @@
     "fullname": "Air Transportation Systems",
     "info": "This course provides an overview of the civil air transportation system design and operations. After completing this course, you should be able to  describe the operations of civil transport aircraft from the pilot and company and air traffic control perspectives; conduct basic economic analysis on airline operations and demand; conduct capacity analysis for airspace and airports; and conduct basic optimization for air transportation operations. This course will prepare students for working with the civil aviation industry.\n\nprereq: MATH 2263 or equivalent , MATH 2373 or equivalent, PHYS 1301 or equivalent \nRecommended: (CEGE 3101 or equivalent, CEGE 3102 or equivalent)",
     "prereq": {
-      "and": [
+      "or": [
         "000282",
         "003694",
         "002070",
-        "003324",
-        "795303"
+        {
+          "or": [
+            "003324",
+            "795303"
+          ]
+        }
       ]
     }
   },
@@ -473,7 +487,7 @@
     "fullname": "Soil Mechanics II",
     "info": "Traction and stress. Mohr-Coulomb failure criterion. Experiments on soil strength. Earth pressure theories, rigid/flexible retaining walls. Stability of slopes. Bearing capacity of foundations.\n\nprereq: CEGE 3301, upper div CSE, or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004236"
       ]
     }
@@ -505,7 +519,7 @@
     "fullname": "Groundwater Mechanics",
     "info": "Shallow confined, unconfined, and sem-confined flows. Flow in two coupled aquifers separated by leaky layers. Transient flow. Flow toward wells. Streamlines/pathlines in two/three dimensions. Contaminant transport. Elementary computer modeling.\n\nprereq: CEGE 3101or BBE 2003, CEGE 3502 or BBE 3012, upper division",
     "prereq": {
-      "and": [
+      "or": [
         "817285",
         "005011",
         "806664"
@@ -523,7 +537,7 @@
     "fullname": "Groundwater Modeling",
     "info": "Analytic element method. Mathematical/computer modeling of single/multiple aquifer systems. Groundwater recovery. Field problems. Theory/application of simple contaminant transport models, including capture zone analysis.\n\nprereq: 4351, upper div CSE or grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003713"
       ]
     }
@@ -556,7 +570,7 @@
     "fullname": "Matrix Structural Analysis",
     "info": "Analysis of elastic linear plane and three-dimensional structures such as bars, shafts, beams, grids, and frames using the stiffness method. Introduction to computational strategies for modeling and analyzing structures using a matrix approach.\n\nprereq: CEGE 3101, CEGE 3401, upper div CSE or grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003324",
         "004479"
       ]
@@ -573,7 +587,7 @@
     "fullname": "Reinforced Concrete II",
     "info": "Advanced design of reinforced concrete structures: footings, retaining walls, columns with slenderness effects and biaxial loading, torsion, continuous systems, two-way floor systems.\n\nprereq: CEGE 4401, upper div CSE or instr consent; 4411 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "007348",
         "004478"
       ]
@@ -590,7 +604,7 @@
     "fullname": "Steel Design II",
     "info": "Design of steel and composite steel/concrete structures, including composite beams, plate girders, beam-columns, connections and multi-story frames.\n\nprereq: CEGE 4401, upper div CSE or instr consent; 4411 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "007348",
         "004478"
       ]
@@ -619,7 +633,7 @@
     "fullname": "Structural Engineering Design of Wood Buildings",
     "info": "This course provides an in-depth presentation of topics in the design of wood structures. The course is intended for advanced undergraduate and entering graduate students. Topics covered in the course include: wood properties and grading; building codes and technologies; loading and design criteria for beams, columns, trusses, and wall and floor panels; and connections for wood structures.\n\nprereqs: CEGE 3401 or equivalent, upper division CSE or grad student, or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "004479"
       ]
     }
@@ -669,7 +683,7 @@
     "fullname": "Hydraulic Structures",
     "info": "Hydraulic design procedures for culverts, dams, spillways, outlet works, and river control works. Drop structures, water intakes, bridge crossings. prereq: CEGE 4501, upper division CSE student, Grad student or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "003486"
       ]
     }
@@ -713,7 +727,7 @@
     "fullname": "Remote Sensing of Environment and Water Resources",
     "info": "The course presents fundamentals of probability theory, statistical learning, and physics of remote sensing to increase understanding and technical knowledge of undergraduate and graduate students about Earth data analysis and remote sensing.   \n\nprereq: Recommended (CEGE 3102, Stat 3021 or equivalent, CEGE 4501) ",
     "prereq": {
-      "and": [
+      "or": [
         "795303",
         "001622",
         "003486"
@@ -779,7 +793,7 @@
     "fullname": "Pollutant Fate and Transport: Processes and Modeling",
     "info": "This course will focus on understanding the processes that dictate chemical and biological fate in surface waters, including air-water transfer, adsorption, and biological and abiotic degradation. Students will evaluate the kinetics of these processes by interpreting experimental data. They will also characterize transport in surface waters by building theoretical and computational models from scratch that incorporate advection, diffusion, and dispersion transport processes. Students will use ideal and non-ideal reactor theory to develop finite difference solutions to advection-diffusion-reaction equations to describe the ultimate fate of pollutants in surface water systems such as rivers, lakes, and estuaries. Fate and transport of organic pollutants (such as pesticides and pharmaceuticals), biochemical oxygen demand, and nutrient pollution will be studied.\n\nprereqs: CEGE 3101, CEGE 3501, or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "003324",
         "004226"
       ]
@@ -868,7 +882,7 @@
     "fullname": "Highway Design & Traffic Operations",
     "info": "Principles of vehicle/driver performance as they apply to design and operation of highways. Highway alignment and roadside design. Intersection design and traffic control devices. Capacity/level of service. Trip generation and traffic impact analysis. Safety studies and safety impacts of design and operational decisions.\n\nprereq: CEGE 3201, CEGE 3102 or equivalent, Grad Student",
     "prereq": {
-      "and": [
+      "or": [
         "003335",
         "795303"
       ]
@@ -885,7 +899,7 @@
     "fullname": "Transportation Policy, Planning, and Deployment",
     "info": "Techniques of analysis and planning for transportation services. Demand-supply interactions. Evaluating transportation alternatives. Travel demand forecasting. Integrated model systems. Citizen participation in decision-making.\n\nprereq: 3201 or equiv, upper division CSE, or grad student",
     "prereq": {
-      "and": [
+      "or": [
         "003335"
       ]
     }
@@ -913,7 +927,7 @@
     "fullname": "Infrastructure Systems Engineering",
     "info": "Systems approach, its application to transportation engineering/planning. Prediction of flows and level of service. Production functions, cost optimization, utility theory, demand modeling, transportation network analysis, equilibrium assignment, decision analysis, multidimensional evaluation of transportation projects.\n\nprereq: Math 2373 or equivalent, Math 2263 or equivalent. CEGE 3101 or equivalent, CEGE 3102 or eqiuvalent, CEGE graduate student or instructors consent.",
     "prereq": {
-      "and": [
+      "or": [
         "003694",
         "000282",
         "003324",
@@ -1005,7 +1019,7 @@
     "fullname": "Applied Structural Mechanics",
     "info": "Principal Stresses and strain analysis; failure criteria. Introduction to plane elasticity, energymethods, torsion of beams, and bending of unsymmetrical beams. Introduction to structural dynamics and stability.\n\nprereq: AEM 3031, Upper div CSE or grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004340"
       ]
     }
@@ -1021,7 +1035,7 @@
     "fullname": "Prestressed Concrete Design",
     "info": "Design of prestressed concrete structures. Time dependent effects, behavior, flexure, shear, torsion, deflections, continuous systems.\n\nprereq: CEGE 4401, upper div CSE or grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007348"
       ]
     }
@@ -1037,7 +1051,7 @@
     "fullname": "Masonry Structures",
     "info": "Masonry materials and their production. Mortars, grouts. Design of unreinforced and reinforced masonry structural systems. Walls, columns, lintels. Codes/specifications, testing.\n\nprereq:  CEGE 4401, upper div CSE or grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007348"
       ]
     }
@@ -1070,7 +1084,7 @@
     "fullname": "Structural Engineering Design of Wood Buildings",
     "info": "This course provides an in-depth presentation of topics in the design of wood structures. The course is intended for advanced undergraduate and entering graduate students. Topics covered in the course include wood properties and grading; building codes and technologies; loading and design criteria for beams, columns, trusses, and wall and floor panels; and connections for wood structures.\n\nprereq: CEGE 3401 or equivalent, upper division CSE or grad student, or instructor's consent",
     "prereq": {
-      "and": [
+      "or": [
         "004479"
       ]
     }
@@ -1098,7 +1112,7 @@
     "fullname": "Urban Hydrology and Water Quality",
     "info": "Urban hydrology for small watersheds and the management of storm water quality and quantity.\n\nprereq: CEGE 4501or BBE 5513, upper division CSE or grad student or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "004022"
       ]
     }
@@ -1195,7 +1209,7 @@
     "fullname": "Environmental Water Chemistry",
     "info": "Introduction to water chemistry. Physical chemical principles, geochemical processes controlling chemical composition of waters, behavior of contaminants that affect the suitability of water for beneficial uses.\n\nprereq: CEGE 3501, Chem 1061, Chem 1062 or Chem 1071H/1072H, upper division CSE or grad student or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "004226",
         "807753",
         "807756"
@@ -1213,9 +1227,13 @@
     "fullname": "Experimental Methods in Environmental Engineering",
     "info": "Tools necessary to conduct research in environmental engineering and chemistry. Theory of operation of analytical equipment. Sampling and data handling methods, statistical analyses, experimental design, laboratory safety. Lecture, laboratory.\n\nprereq: CEGE 3501, (CEGE 5541 recommended) Chem 1022, upper division CSE or grad student or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "004226",
-        "004559",
+        {
+          "and": [
+            "004559"
+          ]
+        },
         "002385"
       ]
     }
@@ -1419,7 +1437,7 @@
     "fullname": "Advanced Travel Demand Modeling and Supply Analysis",
     "info": "Application of random utility theory to model travel demand; deterministic and stochastic trip assignment; network design problems; transportation planning software.\n\nprereq: 5211 or equiv, Stat 3021",
     "prereq": {
-      "and": [
+      "or": [
         "003340",
         "001622"
       ]
@@ -1509,7 +1527,7 @@
     "fullname": "Dynamic Transportation Network Analysis",
     "info": "Dynamic traffic assignment and its history as an extension to static traffic assignment. Issues related to traffic flow propagation and time-dependent travel times. Dynamic user equilibrium Variational Inequalities. Analytic and simulation-based DTA models. Dynamic transit assignment on schedule-based networks. Hyperpaths, stochastic route choice, and capacity constraints in transit networks. Introduction to activity-based modeling. Time-space prisms, activity-travel scheduling.\n\nprereqs: CEGE 5214 or IE 5531, CEGE 8217 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "790034",
         "005533",
         "799981"
@@ -1591,7 +1609,7 @@
     "fullname": "Advanced Rock Mechanics",
     "info": "Stress transformations; principal stresses and directions.  Friction and behavior of rock joints; stability of frictional sliding.  Elastic waves; acoustic emission and seismic measurements.  Fragmentation and rock breakage.\n\nprereq: CSE grad student, 4311 or GeoE 4311 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004251"
       ]
     }
@@ -1619,7 +1637,7 @@
     "fullname": "Storage and Flow of Granular Materials",
     "info": "Plasticity of granular media.  Static and dynamic method of slices.  Storage and flow of granular materials in bins and hoppers.  Stress concentrations, arching, piping.  Experiments on granular material properties and flow.\n\nprereq: CSE grad student, 4301 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "016824"
       ]
     }
@@ -1671,7 +1689,7 @@
     "fullname": "Boundary Element Methods II",
     "info": "Transient and nonlinear problems.\n\nprereq: 8336, GeoE 8336 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008230"
       ]
     }
@@ -1705,9 +1723,11 @@
             "003695"
           ]
         },
-        [
-          "792966"
-        ]
+        {
+          "and": [
+            "792966"
+          ]
+        }
       ]
     }
   },
@@ -1722,7 +1742,7 @@
     "fullname": "Advanced Groundwater Mechanics II",
     "info": "Applying complex methods, including conformal mapping, in groundwater mechanics; solving problems with free boundaries using the hodograph method; drains in aquifers with free boundaries; superposition of solutions with drains; singular Cauchy integrals; boundary elements.\n\nprereq: 4351, CSE grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003713"
       ]
     }
@@ -1838,9 +1858,14 @@
     "fullname": "Structural Dynamics",
     "info": "Response of discrete/continuous systems to dynamic loading. Formulation/solution of problems of one or more degrees of freedom. Modal analysis. Numerical integration and transform techniques.  Response of dynamic systems to base motion using response spectrum methods.\n\nprereq: [3401, AEM 2012] or instr consent; concurrent registration is required (or allowed) in  4411 recommended",
     "prereq": {
-      "and": [
-        "004479",
-        "004334"
+      "or": [
+        {
+          "and": [
+            "004479",
+            "004334"
+          ]
+        },
+        "004478"
       ]
     }
   },
@@ -2048,7 +2073,7 @@
     "fullname": "Environmental Mass Transport",
     "info": "Principles of intraphase and interfacial chemical transport and fate in the environment, specifically the processes of diffusion, dispersion, and convection. Application to surface water and atmospheric mixing, dispersion in groundwater, and transport between these media.\n\nprereq: 3502, 3501 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005011",
         "004226"
       ]
@@ -2081,7 +2106,7 @@
     "fullname": "Biological Processes",
     "info": "Theoretical principles underlying chemical and biological wastewater treatment processes, including aerobic and anaerobic treatment for organic carbon and nutrient removal. Mathematical models of microbial growth kinetics and mass transport in suspended growth and attached film applications are developed.\n\nprereq: 4502, 4501 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004553",
         "003486"
       ]
@@ -2146,7 +2171,7 @@
     "fullname": "Mechanics of Sediment Transport",
     "info": "Particle motion in fluids.  Criteria for incipient motion.  Formulations for bedload and suspended load.  Bedform mechanics and hydraulic resistance relations.  Channel stability, aggradation and degradation, alluvial stream morphology.\n\nprereq: 3502 and 4501 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005011",
         "003486"
       ]
@@ -2275,7 +2300,7 @@
     "fullname": "Industrial Waste Treatment",
     "info": "Introduction to industrial waste treatment. Individual industries, emphasizing constituents of the waste-stream and how best to recycle, recover, or reduce wastes. Cost concerns and regulations. Field trips to various industries to gain first-hand knowledge of processes involved in treatment.\n\nprereq: 3501, 4501, 4502, or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004226",
         "003486",
         "004553"
@@ -2345,7 +2370,7 @@
     "fullname": "Stream Restoration Practice",
     "info": "Field experience, group design project. Students provide a stream restoration context for each other's elective coursework, complete critical assessments of stream restoration projects, and design a stream restoration site.\n\nprereq: CEGE 8601, or EEB 8601, or ESCI 8601 ",
     "prereq": {
-      "and": [
+      "or": [
         "799470",
         "800645",
         "800150"
@@ -2363,7 +2388,7 @@
     "fullname": "Doctoral Pre-Thesis Credits",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": {
-      "and": [
+      "or": [
         "015935"
       ]
     }

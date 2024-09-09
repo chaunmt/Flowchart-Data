@@ -528,7 +528,7 @@
     "fullname": "Facilitating Creative and Motor Learning in Early Childhood Education",
     "info": "Learn how young children develop creativity and motor skills from birth - age 8.  Engage in hands-on exploration of creative classroom materials and reflection. Complete action-oriented and applied assignments with small groups of children in early childhood education settings.\n\nprereq: CPSY 2301 or equiv or inst consent. For Early Childhood and ECSE students. ",
     "prereq": {
-      "and": [
+      "or": [
         "002357"
       ]
     }
@@ -1024,7 +1024,7 @@
     "fullname": "Apprenticeship in Teaching Developmental Psychology",
     "info": "Co-instruct a section of a CPSY undergraduate course. Plan syllabus, prepare/deliver lectures, devise active learning activities, prepare exams/assignments, and grade. Meet with apprenticeship supervisor to discuss teaching progress/issues.\n\nprereq: Developmental psychology doctoral student, CPSY 8321\n\nprereq: Child psychology doctoral student",
     "prereq": {
-      "and": [
+      "or": [
         "004835"
       ]
     }

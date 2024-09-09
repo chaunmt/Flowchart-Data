@@ -311,7 +311,11 @@
     "name": "Calculus II",
     "fullname": "Calculus II",
     "info": "Techniques of integration. Calculus involving transcendental functions, polar coordinates. Taylor polynomials, vectors/curves in space, cylindrical/spherical coordinates.\n\nprereq: [1271 or equiv] with grade of at least C-",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "000120"
+      ]
+    }
   },
   {
     "uid": "016334",
@@ -1034,7 +1038,27 @@
     "name": "Advanced Calculus I",
     "fullname": "Advanced Calculus I",
     "info": "Axioms for the real numbers. Techniques of proof for limits, continuity, uniform convergence. Rigorous treatment of differential/integral calculus for single-variable functions.\n\nprereq: [[2243 or 2373], [2263 or 2374]] or 2574 or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "or": [
+                "000280",
+                "003694"
+              ]
+            },
+            {
+              "or": [
+                "000282",
+                "003695"
+              ]
+            }
+          ]
+        },
+        "016907"
+      ]
+    }
   },
   {
     "uid": "805605",
@@ -1074,7 +1098,23 @@
     "name": "Elementary Probability",
     "fullname": "Elementary Probability",
     "info": "Probability spaces, distributions of discrete/continuous random variables, conditioning. Basic theorems, calculational methodology. Examples of random sequences. Emphasizes problem-solving.\n\nprereq: [2263 or 2374 or 2573]; [2283 or 2574 or 3283] recommended",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000282",
+            "003695"
+          ]
+        },
+        {
+          "or": [
+            "000298",
+            "016907",
+            "016340"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "790587",
@@ -1088,7 +1128,13 @@
     "info": "Existence, enumeration, construction, algorithms, optimization. Pigeonhole principle, bijective combinatorics, inclusion-exclusion, recursions, graph modeling, isomorphism. Degree sequences and edge counting. Connectivity, Eulerian graphs, trees, Euler's formula, network flows, matching theory. Mathematical induction as proof technique.\n\nprereq: 2243, [2283 or 3283]",
     "prereq": {
       "and": [
-        "000280"
+        "000280",
+        {
+          "or": [
+            "000298",
+            "016340"
+          ]
+        }
       ]
     }
   },
@@ -1336,7 +1382,29 @@
     "name": "Differential Geometry",
     "fullname": "Differential Geometry",
     "info": "Basic geometry of curves in plane and in space, including Frenet formula, theory of surfaces, differential forms, Riemannian geometry.\n\nprereq: [2263 or 2374 or 2573], [2243 or 2373 or 2574]; [2283 or 3283] recommended]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000282",
+            "003695"
+          ]
+        },
+        {
+          "or": [
+            "000280",
+            "003694",
+            "016907"
+          ]
+        },
+        {
+          "or": [
+            "000298",
+            "016340"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004294",
@@ -1348,7 +1416,23 @@
     "name": "Comput Alg Geom",
     "fullname": "Introduction to Computational Algebraic Geometry",
     "info": "Geometry of curves/surfaces defined by polynomial equations. Emphasizes concrete computations with polynomials using computer packages, interplay between algebra and geometry. Abstract algebra presented as needed.\n\nprereq: [2263 or 2374 or 2573], [2243 or 2373 or 2574]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000282",
+            "003695"
+          ]
+        },
+        {
+          "or": [
+            "000280",
+            "003694",
+            "016907"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "798283",
@@ -1414,7 +1498,34 @@
     "name": "Wavelets",
     "fullname": "Introduction to the Mathematics of Image and Data Analysis",
     "info": "Background theory/experience in wavelets. Inner product spaces, operator theory, Fourier transforms applied to Gabor transforms, multi-scale analysis, discrete wavelets, self-similarity. Computing techniques.prereq: [2243 or 2373 or 2573], [2283 or 2574 or 3283 or instr consent]; [[2263 or 2374], 4567] recommended",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        },
+        {
+          "or": [
+            "000298",
+            "016907",
+            "016340"
+          ]
+        },
+        {
+          "and": [
+            {
+              "or": [
+                "000282",
+                "003695"
+              ]
+            },
+            "004304"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004298",
@@ -1519,7 +1630,23 @@
     "name": "Intro Differential Equations",
     "fullname": "Introduction to Ordinary Differential Equations",
     "info": "Ordinary differential equations, solution of linear systems, qualitative/numerical methods for nonlinear systems. Linear algebra background, fundamental matrix solutions, variation of parameters, existence/uniqueness theorems, phase space. Rest points, their stability. \nPeriodic orbits, Poincare-Bendixson theory, strange attractors.\n\nprereq: [2243 or 2373 or 2573], [2283 or 2574 or 3283]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        },
+        {
+          "or": [
+            "000298",
+            "016907",
+            "016340"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004187",
@@ -1531,7 +1658,23 @@
     "name": "Dynamical Systems and Chaos",
     "fullname": "Dynamical Systems and Chaos",
     "info": "Dynamical systems theory. Emphasizes iteration of one-dimensional mappings. Fixed points, periodic points, stability, bifurcations, symbolic dynamics, chaos, fractals, Julia/Mandelbrot sets.\n\nprereq: [2243 or 2373 or 2573], [2263 or 2374 or 2574]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        },
+        {
+          "or": [
+            "000282",
+            "003695",
+            "016907"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004305",
@@ -1543,7 +1686,22 @@
     "name": "Complex Analysis",
     "fullname": "Complex Analysis",
     "info": "Algebra, geometry of complex numbers. Linear fractional transformations. Conformal mappings. Holomorphic functions. Theorems of Abel/Cauchy, power series. Schwarz' lemma. Complex exponential, trig functions. Entire functions, theorems of Liouville/Morera. Reflection principle. Singularities, Laurent series. Residues.\n\nprereq: 2 sems soph math [including [2263 or 2374 or 2573], [2283 or 3283]] recommended",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000282",
+            "003695"
+          ]
+        },
+        {
+          "or": [
+            "000298",
+            "016340"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004185",
@@ -1555,7 +1713,23 @@
     "name": "Elementary PDE I",
     "fullname": "Elementary Partial Differential Equations I",
     "info": "Emphasizes partial differential equations w/physical applications, including heat, wave, Laplace's equations. Interpretations of boundary conditions. Characteristics, Fourier series, transforms, Green's functions, images, computational methods. Applications include wave propagation, diffusions, electrostatics, shocks.\n\nprereq: [2243 or 2373 or 2573], [2263 or 2374 or 2574]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        },
+        {
+          "or": [
+            "000282",
+            "003695",
+            "016907"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "016898",
@@ -1576,12 +1750,13 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "000282",
             "003695",
             "016907"
           ]
-        }
+        },
+        "004185"
       ]
     }
   },
@@ -1595,7 +1770,29 @@
     "name": "Prob-Stat Theory",
     "fullname": "Basic Theory of Probability and Statistics",
     "info": "Logical development of probability, basic issues in statistics. Probability spaces, random variables, their distributions/expected values. Law of large numbers, central limit theorem, generating functions, sampling, sufficiency, estimation.\n\nprereq: [2263 or 2374 or 2573], [2243 or 2373]; [2283 or 2574 or 3283] recommended.",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000282",
+            "003695"
+          ]
+        },
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        },
+        {
+          "or": [
+            "000298",
+            "016907",
+            "016340"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004309",
@@ -1641,7 +1838,25 @@
     "name": "Enumerative Combinatorics",
     "fullname": "Enumerative Combinatorics",
     "info": "Basic enumeration, bijections, inclusion-exclusion, recurrence relations, ordinary/exponential generating functions, partitions, Polya theory. Optional topics include trees, asymptotics, listing algorithms, rook theory, involutions, tableaux, permutation statistics.\n\nprereq: [2243 or 2373 or 2573], [2263 or 2283 or 2374 or 2574 or 3283]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        },
+        {
+          "or": [
+            "000282",
+            "000298",
+            "003695",
+            "016907",
+            "016340"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004075",
@@ -1662,7 +1877,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "000282",
             "003695",
             "016907"
@@ -1673,7 +1888,8 @@
             "000298",
             "016340"
           ]
-        }
+        },
+        "790587"
       ]
     }
   },
@@ -1687,7 +1903,12 @@
     "name": "Linear Programming",
     "fullname": "Linear Programming and Combinatorial Optimization",
     "info": "Simplex method, connections to geometry, duality theory,\nsensitivity analysis. Applications to cutting stock, allocation of resources, scheduling problems. Flows, matching/transportation\nproblems, spanning trees, distance in graphs, integer programs, branch/bound, cutting planes, heuristics. Applications to traveling salesman, knapsack problems.\n\nprereq: 2 sems soph math [including 2243 or 2373 or 2573]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "000280",
+        "003694"
+      ]
+    }
   },
   {
     "uid": "016915",
@@ -2052,7 +2273,7 @@
     "fullname": "Topics in Algebraic Geometry",
     "info": "N/A\n\nprereq: Math 8201, Math 8202; offered for one year or one semester as circumstances warrant",
     "prereq": {
-      "and": [
+      "or": [
         "007361",
         "007362"
       ]
@@ -2411,7 +2632,7 @@
     "fullname": "Numerical Analysis and Scientific Computing",
     "info": "Numerical methods for integral equations, parabolic partial differential equations, hyperbolic partial differential equations. Monte Carlo methods.\n\nprereq: 8441 or instr consent; 5477-5478 recommended for engineering and science grad students",
     "prereq": {
-      "and": [
+      "or": [
         "007828"
       ]
     }

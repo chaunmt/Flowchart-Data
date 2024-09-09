@@ -90,12 +90,20 @@
     "fullname": "Biochemistry",
     "info": "Fundamentals of biochemistry. Structure/function of nucleic acids, proteins, lipids, carbohydrates. Enzymes. Metabolism. DNA replication and repair, transcription, protein synthesis. \n\nRecommended prerequisites: Introductory biology (BIOL 1009 or BIOL 2003 or equivalent), organic chemistry (CHEM 2301 or CHEM 2081/2085 or equivalent). \n\nNote: CBS students should take BIOC 3022, not 3021.",
     "prereq": {
-      "and": [
-        "005416",
-        "800457",
-        "002392",
-        "815286",
-        "815285",
+      "or": [
+        {
+          "or": [
+            "005416",
+            "800457"
+          ]
+        },
+        {
+          "or": [
+            "002392",
+            "815286",
+            "815285"
+          ]
+        },
         "815590",
         "014290"
       ]
@@ -184,7 +192,7 @@
     "fullname": "Laboratory in Biochemistry",
     "info": "Theory, principles, and use of fundamental techniques in modern biochemistry labs. \n\nprereq: 3021, 3022, or 4331 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "014290",
         "815590",
         "002945"
@@ -270,11 +278,19 @@
     "info": "Advanced survey of structure/catalysis, metabolism/bioenergetics.\n\nprereq: (BIOL 1009 or 2003 or equiv) AND (Chem 2302 or CHEM 2081/2085 or equiv)",
     "prereq": {
       "and": [
-        "005416",
-        "800457",
-        "002393",
-        "815286",
-        "815285"
+        {
+          "or": [
+            "005416",
+            "800457"
+          ]
+        },
+        {
+          "or": [
+            "002393",
+            "815286",
+            "815285"
+          ]
+        }
       ]
     }
   },
@@ -336,9 +352,13 @@
     "prereq": {
       "and": [
         "002945",
-        "815252",
-        "807753",
-        "807752"
+        {
+          "or": [
+            "815252",
+            "807753",
+            "807752"
+          ]
+        }
       ]
     }
   },
@@ -353,7 +373,7 @@
     "fullname": "Directed Studies: Writing Intensive",
     "info": "Writing Intensive Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. One main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. The project needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. This course is graded S/N and approval of the DUGS is required before a grade of S can be given by the faculty mentor. \n\nprereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
     "prereq": {
-      "and": [
+      "or": [
         "788840",
         "788841",
         "005072",
@@ -372,7 +392,7 @@
     "fullname": "Directed Research: Writing Intensive",
     "info": "Writing Intensive Directed Research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. This course is not for students starting out in research. It is intended for students who already have been working in the research group of the mentor and have developed an independent research project. In this course, the student will receive writing instruction through a writing support course (corresponding to 1 credit in addition to the credits of directed research time) that will meet weekly throughout the semester. The written output usually is in the form of a scientific paper describing the results of the student's project. Written output of the course must be revised during the semester and a schedule for writing, assessment, and revision needs to be in place at the beginning of the semester. The project needs to be explained in the campus Directed Research contract and the project and participation in the writing support course agreed on by both the student and faculty mentor. The contract must be approved by the Director of Undergraduate Studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, agreement about how writing instruction will take place, confirmation of understanding of the timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course - near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. The DUGS can call for a final revision before a grade is given. This course is graded S/N by the writing support course instructor, and approval of both the DUGS and the research mentor is required before a grade of S can be given by the writing support course instructor.\n\nThis course is for non-Honors students. Students should register for the number of research credits they intend to pursue plus 1 cr for the writing support component (for example: 2-4 cr of research + 1 cr writing support = 3-5 cr).\n\nprereq: department consent, instructor consent, no more than a total of 7 credits of 4793W, 4794W, 4993, 4994 combined can count towards CBS major requirements.",
     "prereq": {
-      "and": [
+      "or": [
         "788840",
         "788841",
         "005072",
@@ -409,8 +429,13 @@
     "fullname": "Special Topics in Biochemistry",
     "info": "In-depth study of a topic in biochemistry.\n\nprereq: [[3021 or equiv], CHEM 2301]] or instr consent",
     "prereq": {
-      "or": [
-        "014290"
+      "and": [
+        {
+          "or": [
+            "014290"
+          ]
+        },
+        "002392"
       ]
     }
   },
@@ -425,7 +450,7 @@
     "fullname": "Directed Studies",
     "info": "Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. The topic for the course needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. \n\nprereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
     "prereq": {
-      "and": [
+      "or": [
         "788840",
         "788841",
         "005072",
@@ -444,7 +469,7 @@
     "fullname": "Directed Research",
     "info": "Directed Research is an individual-study, laboratory or field investigation course. The research topic needs to be agreed on by both the student and the faculty mentor and explained in a Research/Directed Studies contract. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. \n\nprereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788840",
         "788841",
         "005072",
@@ -491,7 +516,7 @@
         "003181",
         "005145",
         {
-          "and": [
+          "or": [
             "014290",
             "009489"
           ]
@@ -563,9 +588,13 @@
     "info": "Protein biotechnology. Microorganisms used as hosts for protein expression, protein expression, and engineering methods. Production of enzymes of industrial interest. Applications of protein biotechnology in bioelectronics. Formulation of therapeutic biopharmaceuticals.\n\nRecommended prerequisites: Biochemistry (BiOC 3021 or 3022 or 4331) and Microbiology MICB 3301\n",
     "prereq": {
       "and": [
-        "014290",
-        "815590",
-        "002945",
+        {
+          "or": [
+            "014290",
+            "815590",
+            "002945"
+          ]
+        },
         "008659"
       ]
     }
@@ -748,8 +777,13 @@
     "fullname": "Biophysical Spectroscopy",
     "info": "In-depth study of topics in biochemistry.\n\nprereq: [[3021 or equiv], CHEM 2301]] or instr consent or grad",
     "prereq": {
-      "or": [
-        "014290"
+      "and": [
+        {
+          "or": [
+            "014290"
+          ]
+        },
+        "002392"
       ]
     }
   },

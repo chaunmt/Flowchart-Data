@@ -1371,7 +1371,7 @@
     "fullname": "Theatre Practicum",
     "info": "Individual creative projects in production of approved plays as an actor, director, dramaturg, or playwright.  (See 5500 for design practicums.)\n\nprereq: instr consent, dept consent; 4 cr of 3100 for undergrads",
     "prereq": {
-      "and": [
+      "or": [
         "008251"
       ]
     }
@@ -1459,8 +1459,14 @@
     "fullname": "Text and Performance",
     "info": "How to read texts toward performance in various dramatic/nondramatic material.  Method of unlocking metaphoric energy of texts. Vocabulary/techniques of analysis that transform text from page to stage.\n\nprereq: [1322, [3171 or 3172]] or grad student",
     "prereq": {
-      "or": [
-        "790525"
+      "and": [
+        "790525",
+        {
+          "or": [
+            "008252",
+            "008253"
+          ]
+        }
       ]
     }
   },
@@ -1727,7 +1733,7 @@
     "fullname": "Theatre Design Practicum",
     "info": "Individual projects in production of approved plays as a designer of scenery/properties, costumes, lighting, or sound.  (See 5100 for other creative practicums.)\n\nprereq: Th 3521, 3531, or 3541",
     "prereq": {
-      "and": [
+      "or": [
         "803536",
         "805379",
         "806411"
@@ -1993,7 +1999,7 @@
     "fullname": "Theatre Technology Practicum",
     "info": "Individual creative project in technology/craft area of theatre. Practical work in costume, lighting, makeup, props, scenery, sound, or theatre management.\n\nprereq: 3515, instr consent, dept consent;  4 cr max for undergrads",
     "prereq": {
-      "and": [
+      "or": [
         "008257"
       ]
     }

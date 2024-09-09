@@ -153,7 +153,11 @@
     "name": "Business Statistics in R",
     "fullname": "Business Statistics in R",
     "info": "The purpose of the course is to develop skills for improving data-driven decision-making using statistical techniques in the powerful statistical software environment R. As an introductory statistics course, the content will include three main areas of statistics: Descriptive Statistics, Statistical Inference, and Analysis of Relationships with Scatterplots, Correlation and Linear Regression. Developing statistical literacy is increasingly important in understanding data and engaging in the complex business world. BA 2551 focuses on statistical reasoning and how to implement statistical methods in a business context using R. Topics include (but are not limited to) descriptive statistics, statistical inference, variability, sampling, distributions, correlation analysis, confidence intervals, hypothesis testing, graphical summaries of data, and introduction to linear regression. Through weekly in-class lab sessions and critical thinking assignments related to statistics in business, the course will train students to become informed consumers of numerical information and provide foundational skills in R to compute statistical procedures in future courses. We use existing packages in R as a tool to enable us to solve business problems that can leverage mathematical and statistical thinking. \n\nprereq: [Math 1031 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "002394"
+      ]
+    }
   },
   {
     "uid": "825494",

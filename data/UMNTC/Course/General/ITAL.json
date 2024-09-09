@@ -246,7 +246,7 @@
     "fullname": "Senior Project",
     "info": "Research/writing on issue/theme in Italian studies. Projects range from scholarly paper to artistic/creative writing or musical composition, photography, poetry, or fiction. Research/analytical component.\n\nprereq: completion of pre-requisite for major (3015) and eight electives for the sum of 30 credits",
     "prereq": {
-      "and": [
+      "or": [
         "009557"
       ]
     }
@@ -470,7 +470,7 @@
     "fullname": "Novellistica",
     "info": "Introduction to historical, formal and theoretical study of the Italian novella genre (including such alternative forms as the \u0093racconto\u0094) and the impact of this genre on world literature. The study of the birth and development of the novella genre in Italian. Readings from and discussion of novellas and tales from: The Novellino, Boccaccio, Sacchetti, Bandello, Bigolini, Basile, Verga, Deledda, Moravia, Morante, Calvino, Ferrante\n\nprereq: 3015, 3201 or permission from the Italian DUS",
     "prereq": {
-      "and": [
+      "or": [
         "009557",
         "009559"
       ]
@@ -587,7 +587,7 @@
     "fullname": "Mondo di Dante",
     "info": "Intensive reading of Dante's Inferno, Purgatorio, and Vita Nuova with emphasis on Dante's linguistic and cultural contributions.\n\nprereq: 3015, 3201 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009557",
         "009559"
       ]

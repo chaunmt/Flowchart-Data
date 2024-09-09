@@ -92,9 +92,14 @@
     "fullname": "Accelerated Intermediate Hmong",
     "info": "Review of grammar/usage, continued practice in reading/writing. Expanded introduction to Hmong literature/formal writing. Selected topics in Hmong culture.\n\nprereq: [1011 and 1012] or 1015 or instr consent",
     "prereq": {
-      "and": [
-        "791601",
-        "791922"
+      "or": [
+        {
+          "and": [
+            "791601",
+            "791922"
+          ]
+        },
+        "790596"
       ]
     }
   },
@@ -287,9 +292,14 @@
     "fullname": "Accelerated Intermediate Hmong for Graduate Student Research",
     "info": "Review of proper grammar/usage, practice in reading/writing. Expanded introduction to Hmong literature/formal writing. Topics on Hmong culture.\n\nprereq: [4001 and 4002] or 4005",
     "prereq": {
-      "and": [
-        "794093",
-        "794094"
+      "or": [
+        {
+          "and": [
+            "794093",
+            "794094"
+          ]
+        },
+        "795814"
       ]
     }
   },

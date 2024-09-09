@@ -142,7 +142,7 @@
     "fullname": "Honors: Senior Seminar in Global Studies",
     "info": "Globalization, nationalism, colonialism, cultural production, environmental sustainability,  globalization of economy, migration, diasporas, global conflict/cooperation, human rights. Students examine theoretical debates and cutting edge scholarship and develop their own research projects. Capstone course.\n\nprereq: [3101, 3144, honors student, Global Studies major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "794335"
       ]
     }

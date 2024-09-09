@@ -186,7 +186,7 @@
     "fullname": "Rural Physician Associate Program (RPAP)",
     "info": "Community-based elective with extensive primary care experience in a rural setting. Intended for the student with an interest in rural Minnesota primary care. Each student works with family physicians and local and/or visiting specialists. Problem-based learning, hands-on clinical experience and one-to-one teaching.  Scholarships are available.\n\nprereq: Med 7500, Obst 7500, USMLE Step 1 Passing Score",
     "prereq": {
-      "and": [
+      "or": [
         "011337",
         "011562"
       ]
@@ -231,7 +231,7 @@
     "fullname": "Rural Physician Associate Program (RPAP): Surgery",
     "info": "Community-based elective with extensive primary care (surgery) experience in a rural setting. Each student works with family physicians and local or visiting specialists. Problem-based learning, hands-on clinical experience, one-to-one teaching.\n\nprereq: Med 7500, Obst 7500, USMLE Step 1 Passing Score",
     "prereq": {
-      "and": [
+      "or": [
         "011337",
         "011562"
       ]

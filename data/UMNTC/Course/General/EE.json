@@ -76,8 +76,12 @@
     "prereq": {
       "and": [
         "002071",
-        "000280",
-        "003694"
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        }
       ]
     }
   },
@@ -138,8 +142,12 @@
     "prereq": {
       "and": [
         "002071",
-        "000280",
-        "003694"
+        {
+          "or": [
+            "000280",
+            "003694"
+          ]
+        }
       ]
     }
   },
@@ -275,7 +283,7 @@
     "fullname": "Fundamentals of Electrical Engineering",
     "info": "Fundamentals of analog electronics, digital electronics, and power systems. Circuit analysis, electronic devices and applications, digital circuits, microprocessor systems, operational amplifiers, transistor amplifiers, frequency response, magnetically coupled circuits, transformers, steady state power analysis.\n\nprereq: Math 2243, Phys 1302; not for EE majors",
     "prereq": {
-      "and": [
+      "or": [
         "000280",
         "002071"
       ]
@@ -439,7 +447,7 @@
     "fullname": "Semiconductor Devices",
     "info": "Elementary semiconductor physics; physical description of pn junction diodes, bipolar junction transistors, field-effect transistors. \n\nprereq: Upper div CSE, 2115, Phys 1302, Phys 2303 or Chem 1022",
     "prereq": {
-      "and": [
+      "or": [
         "819413",
         "002071",
         "002072",
@@ -622,7 +630,7 @@
     "fullname": "Energy Conversion and Storage Laboratory",
     "info": "Provides laboratory experiences with the topics of 4161W, including the fundamental physics and chemistry of selected energy conversion and energy storage devices, their application, and their connection strategies in electric power applications.\n\nprereq: concurrent registration is required (or allowed) in 4161W",
     "prereq": {
-      "or": [
+      "and": [
         "803857"
       ]
     }
@@ -703,7 +711,14 @@
     "info": "Introduction to system design/simulation. Design using Verilog code/synthesis. Emulation using Verilog code.\n\nprereq: 2301, [1301 or CSCI 1113 or CSCI 1901]",
     "prereq": {
       "and": [
-        "002739"
+        "002739",
+        {
+          "or": [
+            "016634",
+            "003669",
+            "003670"
+          ]
+        }
       ]
     }
   },
@@ -718,7 +733,7 @@
     "fullname": "Introduction to Programmable Devices Laboratory",
     "info": "Verilog Language. Combinatorial and sequential logic synthesis with Verilog. Implementation in Field Programmable Gate Arrays (FPGAs).\n\nprereq: 2301, 2361; cannot receive cr for 4303 if cr granted for EE 4301",
     "prereq": {
-      "and": [
+      "or": [
         "002739",
         "003371",
         "806274",
@@ -770,8 +785,13 @@
     "fullname": "Introduction to Predictive Learning",
     "info": "Empirical inference and statistical learning. Classical statistical framework, model complexity control, Vapnik-Chervonenkis (VC) theoretical framework, philosophical perspective. Nonlinear methods. New types of inference. Application studies.\n\nprereq: [3025, ECE student] or STAT 3022; computer programming or MATLAB or similar environment is recommended for ECE students",
     "prereq": {
-      "and": [
-        "002874"
+      "or": [
+        {
+          "and": [
+            "002874"
+          ]
+        },
+        "001621"
       ]
     }
   },
@@ -818,7 +838,7 @@
     "fullname": "Introduction to Machine Learning and Data Science for Electrical and Computer Engineers",
     "info": "Computational techniques for analysis and inference from data. Python language programming. Elementary numerical optimization and statistical data analysis. Computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. Construction, training, and utilization of deep neural networks. Application case studies using datasets arising in Electrical and Computer Engineering. \n\nprereq: EE 3025; Math 2263 or 2374; Math 2142, 2243, 2373 or CSci 2033",
     "prereq": {
-      "and": [
+      "or": [
         "002874",
         "000282",
         "003695",
@@ -1319,7 +1339,7 @@
     "fullname": "Robust Control System Design",
     "info": "Development of control system design ideas; frequency response techniques in design of single-input/single-output (and MI/MO) systems. Robust control concepts.  CAD tools.\n\nprereq: CSE grad, 3015, 5231 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004489",
         "004538"
       ]
@@ -1366,9 +1386,15 @@
     "fullname": "Optimal Filtering and Estimation",
     "info": "Basic probability theory, stochastic processes. Gauss-Markov model. Batch/recursive least squares estimation. Filtering of linear/nonlinear systems. Continuous-time Kalman-Bucy filter. Unscented Kalman filter, particle filters. Applications.\n\nprereq: [[[MATH 2243, STAT 3021] or equiv], CSE grad student] or dept consent; 3025, 4231 recommended",
     "prereq": {
-      "and": [
-        "000280",
-        "001622"
+      "or": [
+        {
+          "and": [
+            "000280",
+            "001622"
+          ]
+        },
+        "002874",
+        "004535"
       ]
     }
   },
@@ -1463,7 +1489,7 @@
       "and": [
         "004705",
         {
-          "and": [
+          "or": [
             "003407"
           ]
         }
@@ -1537,8 +1563,12 @@
     "fullname": "Applied Parallel Programming",
     "info": "Parallel programming/architecture. Application development for many-core processors. Computational thinking, types of parallelism, programming models, mapping computations effectively to parallel hardware, efficient data structures, paradigms for efficient parallel algorithms, application case studies.\n\nprereq: [4363 or equivalent], programming experience (C/C++ preferred)",
     "prereq": {
-      "or": [
-        "793204"
+      "and": [
+        {
+          "or": [
+            "793204"
+          ]
+        }
       ]
     }
   },
@@ -1553,7 +1583,7 @@
     "fullname": "Algorithmic Techniques for Scalable Many-core Computing",
     "info": "Algorithm techniques for enhancing the scalability of parallel software: scatter-to-gather, problem decomposition, binning, privatization, tiling, regularization, compaction, double-buffering, and data layout. These techniques address the most challenging problems in building scalable parallel software: limited parallelism, data contention, insufficient memory bandwidth, load balance, and communication latency. Programming assignments will be given to reinforce the understanding of the techniques. \n\nprereq: basic knowledge of CUDA, experience working in a Unix environment, and experience developing and running scientific codes written in C or C++. Completion of EE 5351 is not required but highly recommended.",
     "prereq": {
-      "and": [
+      "or": [
         "811242"
       ]
     }
@@ -1598,7 +1628,7 @@
     "fullname": "Computer Systems Performance Measurement and Evaluation",
     "info": "Tools/techniques for analyzing computer hardware, software, system performance. Benchmark programs, measurement tools, performance metrics. Deterministic/probabilistic simulation techniques, random number generation/testing. Bottleneck analysis.\n\nprereq: [4363 or 5361 or CSci 4203 or 5201], [CSE grad student] or dept consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "793204",
@@ -1649,7 +1679,7 @@
     "fullname": "Introduction to Predictive Learning",
     "info": "Empirical inference and statistical learning. Classical statistical framework, model complexity control, Vapnik-Chervonenkis (VC) theoretical framework, philosophical perspective. Nonlinear methods. New types of inference. Application studies.\n\nprereq: EE 3025, STAT 3022 or equivalent; computer programming or MATLAB or similar environment is recommended.",
     "prereq": {
-      "and": [
+      "or": [
         "002874",
         "001621"
       ]
@@ -1711,8 +1741,13 @@
     "fullname": "Wireless Communication",
     "info": "Introduction to wireless communication systems. Propagation modeling, digital communication over fading channels, diversity and spread spectrum techniques, radio mobile cellular systems design, performance evaluation. Current European, North American, and Japanese wireless networks.\n\nprereq: [4501, CSE grad student] or dept consent; 5501 recommended",
     "prereq": {
-      "and": [
-        "004640"
+      "or": [
+        {
+          "and": [
+            "004640"
+          ]
+        },
+        "004637"
       ]
     }
   },
@@ -1727,7 +1762,7 @@
     "fullname": "Intro to Machine Learning and Data Science for Electrical and Computer Engineers & Roboticists",
     "info": "Computational techniques for analysis and inference from data. Python language programming. Elementary numerical optimization and statistical data analysis. Computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. Construction, training, and utilization of deep neural networks. Application case studies using datasets arising in Electrical and Computer Engineering and Robotics. \n\nprereq: [EE3025; MATH 2263 or 2374; MATH 2142, 2243, 2373 or CSCI 2033] or instructor consent.",
     "prereq": {
-      "and": [
+      "or": [
         "002874",
         "000282",
         "003695",
@@ -1832,8 +1867,16 @@
     "info": "Deterministic and random approaches to learning and inference from data, with applications to statistical models for estimation, detection, and classification. Algorithms and their performance include minimum-variance unbiased estimators, sufficient statistics, fundamental bounds, (non)linear least-squares, maximum-likelihood, expectation-maximization, nonparametric density estimators, mean-square error and Bayesian estimators, importance sampling, Kalman and particle filtering, sequential probability ratio test, bootstrap, Monte Carlo Markov Chains, and graphical models.\n\nprereq: courses in Stochastic Processes (EE 5531) and Digital Signal Processing (EE 4541)",
     "prereq": {
       "and": [
-        "004624",
-        "003302"
+        {
+          "and": [
+            "004624"
+          ]
+        },
+        {
+          "and": [
+            "003302"
+          ]
+        }
       ]
     }
   },
@@ -2848,7 +2891,7 @@
     "fullname": "Doctoral Pre-Thesis Credits",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": {
-      "and": [
+      "or": [
         "016723"
       ]
     }
@@ -2864,7 +2907,7 @@
     "fullname": "Advanced Power System Analysis and Economics",
     "info": "Solving sets of equations that involve large sparse matrices. Sparse matrix storage, ordering schemes, application to power flow, short circuit calculation, optimal power flow, and state estimation.\n\nprereq: 4721, CSE grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003962"
       ]
     }
@@ -2880,7 +2923,7 @@
     "fullname": "Power Electronics in Power Systems",
     "info": "Impact of power electronics loads on power quality.  Passive and active filters.  Active input current wave shaping.  HVDC transmission.  Static VAR control, energy storage systems.  Interconnecting photovoltaic and wind generators.  Static phase shifters and circuit breakers for flexible AC transmission (FACTS).\n\nprereq: 4741, IT grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004681"
       ]
     }

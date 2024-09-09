@@ -222,7 +222,7 @@
     "fullname": "Directed Research",
     "info": "Guided research experience at sophomore level.\n\nprereq: 1001, instr consent; soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -434,7 +434,7 @@
     "fullname": "Hard Times & Bad Behavior: Homelessness & Marginality in the United States",
     "info": "As we read about hobos and sailors, opium users and saloon girls, and contemporary experiences on the streets, we trace themes about marginality in the US, such as rootlessness produced by labor market, the love-hate relationship between elites and marginal populations in popular culture, and the complex mixture of freedom and deprivation of people on the edge.\n\nprereq: 1001 recommended, soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -538,7 +538,7 @@
     "fullname": "Sociology of Work: Good Jobs, Bad Jobs, No Jobs?",
     "info": "Work is central to individuals, economy, and society. This course introduces students to sociological perspectives and analyses of work. We will look at what makes a good job good, a bad job bad, and impacts of joblessness on society. \n\nprereq: 1001 recommended, Soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -566,7 +566,7 @@
     "fullname": "Cities & Social Change",
     "info": "The core themes of this class will provide an essential toolkit for approaching broad questions about social justice, culture, work, housing and service provision on multiple levels and across the globe. This course will have units on economic development, inequality, the interaction between design and human action, inclusive and exclusive cultural formations, crime and cultures of fear, social control and surveillance.\n\nprereq: 1001 recommended, Soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -622,7 +622,7 @@
     "fullname": "Asian American Identities, Families & Communities",
     "info": "This course provides a sociological overview of Asian American identities, families and communities. To place these experiences within a broader historical, structural, and cultural context the course will begin with a brief introduction to the history of Asians and Asian Americans in the United States and sociological theories about incorporation and racial stratification. We will then examine the diversity of Asian American communities and families, highlighting ethnic, gender, and class variations. Other topics of focus include racialization and discrimination, education, ethnic enclaves, family and intergenerational relationships, identity, media, culture, and politics and social action. Throughout the course we will consider the ways in which society affects individuals, and how in turn, individuals affect society. Students will have an option to do community-engaged learning or another course project.\n\nprereq: SOC 1001 recommended, Sociology majors/minors must register A/F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -726,7 +726,7 @@
     "fullname": "Chinese Society: Culture, Networks, & Inequality",
     "info": "Introduces students to sociological perspectives and analyses of cultures, social networks, and socioeconomic inequalities in post-1980 China. In addition to lectures, the instructor will show video clips about various backgrounds of China and group discussions will be organized to exchange opinions about issues of common interest. Students will gain a basic understanding of how Chinese society operates today.\n\nprereq: 1001 recommended, soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -820,7 +820,12 @@
     "prereq": {
       "or": [
         "001149",
-        "001148"
+        "001148",
+        {
+          "and": [
+            "001149"
+          ]
+        }
       ]
     }
   },
@@ -911,7 +916,7 @@
     "fullname": "Capstone Experience: Directed Research (4 cr.)",
     "info": "Faculty guided and self directed research experience at junior/senior level. This is designed to: a) provide students with an opportunity to reflect on what they have learned as a sociology major; b) use that knowledge to write a sociological analyses; and c) think about how the knowledge, skills, and insights of the sociological enterprise can be used and applied outside of the University. Through this one:one capstone experience majors will emphasize the relationship between a sociological perspective and critical thinking, effective communication, and meaningful civil engagement. \n\nThis Capstone Experience: Directed Research is to include but not limited to: bi-weekly meetings, literature review, multiple drafts and revisions, etc. \n\nprereq: 1001, 3701, 3801, 3811, at least 12 cr upper div sociology electives, dept & instructor consent.",
     "prereq": {
-      "and": [
+      "or": [
         "002943",
         "003305",
         "003205",
@@ -931,9 +936,11 @@
     "info": "This course will consider the relationship between law and society, analyzing law as an expression of cultural values, a reflection of social and political structure, and an instrument of social control and social change. Emphasizing a comparative perspective, we begin by discussing theories about law and legal institutions. We then turn our attention to the legal process and legal actors, focusing on the impact of law, courts, and lawyers on the rights of individuals.  Although this course focuses on the US legal system, we will explore issues of the relationship between US law and global law and concepts of justice.\n\nprereq: [[SOC 1001] and [SOC 1101 or 3101 or 3102]] recommended, Sociology majors/minors must register A-F",
     "prereq": {
       "and": [
-        [
-          "002943"
-        ],
+        {
+          "and": [
+            "002943"
+          ]
+        },
         {
           "or": [
             "811512",
@@ -984,7 +991,7 @@
     "fullname": "Crime and Human Rights",
     "info": "This course addresses serious violations of humanitarian and human rights law, efforts to criminalize those violations (laws and institutions), and consequences of these efforts. Special attention will be paid to the impact interventions have on representations and memories of atrocities on responses and the future of cycles of violence. Case studies on Holocaust, Balkan wars, Darfur, My Lai massacre, etc. Criminal justice, truth commissions, vetting, compensation programs.\n\nprereq: SOC 1001, at least one 3xxx SOC course recommended, Sociology majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1017,7 +1024,7 @@
     "fullname": "Crime on TV",
     "info": "This course uses television shows to explore sociological perspectives on crime and punishment. We will critically examine how (and to what extent) four television series represent or distort prevailing knowledge about crime and punishment.\n\nprereq: recommended [1001 or 1011V, 1101 or 3101 or 3102]; Soph or above or instr consent; soc majors/minors must register A-F.",
     "prereq": {
-      "and": [
+      "or": [
         "002943",
         "811512",
         "790181",
@@ -1124,7 +1131,7 @@
     "fullname": "Policing America",
     "info": "This course is an in-depth sociological analysis of the origins, composition, and effects of policing in contemporary U.S. society. Throughout the course, we focus on using a social science lens to understand policing dynamics and how policing shapes social life. We will pay particular attention to the ways in which race, class, and gender inequalities are reflected in and reshaped by policing practices. Throughout\nthe course, we will draw on contemporary media stories, podcast, documentaries, and guest visitors to connect scholarship with the world around us.\n\nprereq: 3101 or 3102 recommended or instr consent, soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "790181",
         "790182"
       ]
@@ -1211,7 +1218,7 @@
     "fullname": "Sociology of Mental Health & Illness",
     "info": "This course is designed to give you an overview of the ways a sociological perspective informs our understanding of mental health and illness. While sociologists, psychologists, psychiatrists, social workers, and others all deal with issues of mental illness, they often approach the topic in very different ways. In general, a sociological perspective tends to focus on aspects of the social environment that we often ignore, neglect, or take for granted. It calls attention to how society or groups are organized, who benefits or is hurt by the way things are organized, and what beliefs shape our behaviors. In viewing mental illness, sociologists have primarily challenged dominant views of mental illness, examined how social relationships play a role in mental illness, questioned the goals and implications of mental health policy and researched how mental health services are organized and provided. \n\nprereq: Soc 1001 recommended, Soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1315,8 +1322,14 @@
     "fullname": "Topics in Sociology With Law, Criminology, and Justice Emphasis",
     "info": "Topics specified in Class Schedule.\n\nprereq: [1001, [3101 or 3102]] recommended; soc majors/minors must register A-F; credit will not be granted if credit has been received for the same topics title",
     "prereq": {
-      "or": [
-        "002943"
+      "and": [
+        "002943",
+        {
+          "or": [
+            "790181",
+            "790182"
+          ]
+        }
       ]
     }
   },
@@ -1355,7 +1368,7 @@
     "fullname": "Environment & Society: An Enduring Conflict",
     "info": "\t\nExamines the interaction between human society and the natural environment, focusing on the contemporary and global situation. Takes the perspective of environmental sociology concerning the short-range profit-driven and ideological causes of ecological destruction. Investigates how society is reacting to that increasing destruction prereq: 1001 recommended or a course on the environment, soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1399,7 +1412,7 @@
     "fullname": "Never Again! Memory & Politics after Genocide",
     "info": "Course focuses on the social repercussions and political consequences of large-scale political violence, such as genocide, war crimes, and crimes against humanity. Students learn how communities and states balance the demands for justice and memory with the need for peace and reconciliation and addresses cases from around the globe and different historical settings.\n\nprereq: SOC 1001 or 1011V recommended, A-F required for Majors/Minors.",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1463,7 +1476,7 @@
     "fullname": "Sport, Culture & Society",
     "info": "This course is intended to stimulate critical, sociological thinking about sport? how it is socially organized, who participates in what and why, what role (or roles) sport plays in society, and what sporting practices tell us about contemporary social life more generally. It begins from and is grounded in the notion that sport is one of the most powerful and paradoxical institutions in the modern world. The course is intended for a wide range of undergraduates, though some familiarity with basic social scientific thinking and techniques will be helpful. \n\nprereq: SOC 1001 recommended, Sociology majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1495,7 +1508,7 @@
     "fullname": "Sociology of Children & Youth",
     "info": "This course examines the lives of youth in today's society. It explores the influence of social contexts, institutions, social structures, and social location (e.g. social class, race, gender) on youth experiences and differential opportunities and outcomes. The course also considers how youth act as agents in their own lives and shape their social worlds and society. Additionally, the course looks at some of the problems or challenges that contemporary children, adolescents, and young adults encounter, and considers social policies and interventions aimed to address these and support young people. \n\nprereq: 1001 recommended, soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1563,7 +1576,7 @@
     "fullname": "A Nation Divided: Identity, Precarity, & Polarization",
     "info": "This course explores how individuals and groups experience and understand current economic and political polarization in their daily lives. Our explorations will roam across changes in media and popular culture, work, religion, family, and social movements.\n\nprereq: 1001 recommended, soc majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1579,7 +1592,7 @@
     "fullname": "Measuring the Social World: Concepts and Analysis",
     "info": "In this course, you will develop practical social science data analysis skills for use in the non-profit or corporate workplace or in a graduate program of research. You will assess the measurement of important social concepts, like race, health, or education, in large social surveys, and the strengths and weaknesses of those different measurement techniques. You will conduct data analysis on large datasets (see, e.g., www.ipums.org) using a statistical software program, such as STATA. You will develop a substantive, empirical final project (poster and paper) based on your analysis.\n\nprereq: SOC 3801 or equiv, and SOC 3811 or equivalent",
     "prereq": {
-      "and": [
+      "or": [
         "003205",
         "001148"
       ]
@@ -1627,11 +1640,12 @@
     "fullname": "Capstone Experience: Directed Research (1 cr.)",
     "info": "Guided individual research for the sociology major's Capstone requirement, conducted in conjunction with enrollment in an upper division sociology elective. This is designed to: a) provide students with an opportunity to reflect on what they have learned as a sociology major; b) use that knowledge to write a sociological analyses; and c) think about how the knowledge, skills, and insights of the sociological enterprise can be used and applied outside of the University. Through this one:one capstone experience, using the structure and foundation of the 6th Sociology elective, majors will emphasize the relationship between a sociological perspective and the emphasis of the course. The final paper created for 4994W is in addition to the other 6th Sociology elective course requirements.    \n\nprereq: 1001/1011V, 3701, 3801, 3811, and at least 12 cr upper div sociology electives; dept & instructor consent.  Students are only authorized to register for Soc 4994W in conjunction with a 6th Sociology Elective.",
     "prereq": {
-      "and": [
+      "or": [
         "002943",
         "003305",
         "003205",
-        "001148"
+        "001148",
+        "014581"
       ]
     }
   },
@@ -1742,7 +1756,7 @@
     "fullname": "Never Again! Memory & Politics after Genocide",
     "info": "Course focuses on the social repercussions and political consequences of large-scale political violence, such as genocide, war crimes, and crimes against humanity. Students learn how communities and states balance the demands for justice and memory with the need for peace and reconciliation and addresses cases from around the globe and different historical settings.\n\nprereq: SOC 1001 or 1011V recommended, A-F required for Majors/Minors.",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1798,7 +1812,7 @@
     "fullname": "World Population Problems",
     "info": "Population growth, natural resources, fertility/mortality in less developed nations, population dynamics/forecasts, policies to reduce fertility.\n\nprereq: Soc majors/minors must register A-F, credit will not be granted if credit has been received for PA 5301",
     "prereq": {
-      "and": [
+      "or": [
         "007736"
       ]
     }
@@ -2383,7 +2397,7 @@
     "fullname": "Advanced Topics in Research Methods",
     "info": "Advanced Research Methods (e.g., multilevel models), historical/comparative, field, survey research. Topics specified in Class Schedule.prereq: 8801, 8811, or instr consent. Cr will not be granted if cr has been received for the same topics title",
     "prereq": {
-      "and": [
+      "or": [
         "008199",
         "009384"
       ]

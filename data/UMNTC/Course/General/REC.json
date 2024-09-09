@@ -238,7 +238,7 @@
     "fullname": "Event Management in Sport",
     "info": "Techniques/principles of planning, funding, and managing sport events. Collegiate championships, non-profit events/benefits, professional events.\n\nprereq: Credit will not be granted if credit has been received for: : Kin 5115; Grad student, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "790624"
       ]
     }

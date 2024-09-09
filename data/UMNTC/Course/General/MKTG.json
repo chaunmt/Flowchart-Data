@@ -75,7 +75,7 @@
     "fullname": "Marketing Research",
     "info": "This course focuses on managing the entire marketing research process, which involves collecting and analyzing relevant, timely, and accurate information to gain customer insights and drive effective marketing decision making. Students learn fundamental techniques of data collection and analysis to solve specific marketing problems. The class offers hands-on learning-by-doing opportunities through group projects for students to practice every stage of marketing research. \n\nprereqs: 3001 and BA 2551 or SCO 2550 or equivalent statistics course\n\n",
     "prereq": {
-      "and": [
+      "or": [
         "013127",
         "013805"
       ]
@@ -148,7 +148,7 @@
     "fullname": "Advertising and Promotion",
     "info": "Managing/integrating communication aspects of marketing. Advertising, sales promotion, public relations. Setting objectives, selecting media. Measuring effectiveness. Sales promotion techniques. Issues in global IMC.\n\nprereq: MKTG 3011 and MKTG 3041 (or 3010 & 3040) or instructor approval",
     "prereq": {
-      "and": [
+      "or": [
         "013768",
         "013775"
       ]
@@ -165,7 +165,7 @@
     "fullname": "Marketing Channels",
     "info": "Today, a brand\u2019s marketing channel strategy directly impacts its brand value. And if designed properly, a channel strategy acts as a key differentiator for any organization. In this class, we will study how to select the right channel partners, and properly motivate their actions. We will also explore the connections between marketing channels and supply chains.  By the end of the course you will see how organizations create significant brand value via their marketing channels.  \n\nprereq: MKTG 3011 and MKTG 3041 (or 3010 & 3040) or instructor approval ",
     "prereq": {
-      "and": [
+      "or": [
         "013768",
         "013775"
       ]
@@ -194,7 +194,7 @@
     "fullname": "Marketing-in-Action: Marketing Practicum",
     "info": "This course focuses on what marketers do in real-life. Each week begins with guidance on approaching a typical task, then developing recommendations by working in groups during class with ongoing feedback from the instructor, and concluding with a short presentation. Weekly topics may include identifying marketing challenges (ala Shark Tank), segmenting customers, pricing a product, and developing an advertising plan. The course concludes with a multi-week, interactive simulation in which students compete in groups as they manage a product.\n\nprereq: MKTG 3001 and BA 2551 or SCO 2550 or equivalent statistics course",
     "prereq": {
-      "and": [
+      "or": [
         "013127",
         "013805"
       ]
@@ -211,7 +211,7 @@
     "fullname": "Data-Driven Marketing",
     "info": "This course emphasizes various analytical techniques and statistical models with hands-on applications of marketing data and software tool kits. The course will cover classic marketing topics such as segmentation, positioning, new product development, advertising, and pricing. It will focus on how to choose and apply the most effective statistical tool to analyze questions on marketing topics and then translate the information from analysis into data-driven decisions. The goal is to increase students' comfort level of analyzing large marketing databases and help understand how a scientific approach can enhance marketing decision making by converting data into insights.\n\nprereq: Mktg 3011 (or 3010)",
     "prereq": {
-      "or": [
+      "and": [
         "013768"
       ]
     }
@@ -227,7 +227,7 @@
     "fullname": "Digital Marketing",
     "info": "The Internet and digital technologies have continued to alter the way consumers search information, make transactions, and share experiences, as well as the way firms market towards and engage with consumers. In today's digital era, it is imperative for marketers to understand how to gain a competitive edge by leveraging digital media to set targeting strategies and implement the marketing mix. This course will provide a structured framework to introduce students to the most up-to-date tactics, applications, and trends in digital marketing. The course is organized around three main sections developed by the instructor:\n\n- Internet marketing, which explores the impact of Internet on (1) consumer behaviors and (2) advertising\nstrategies.\n- Social marketing, which focuses on (1) the formation of online social networks and (2) social media\nanalytics.\n- Mobile marketing, which examines (1) location-based targeting and (2) the management of omni-channel\nmarketing.\n\nprereq: Mktg 3011 (or 3010)",
     "prereq": {
-      "or": [
+      "and": [
         "013768"
       ]
     }
@@ -260,7 +260,7 @@
     "fullname": "Brand Management",
     "info": "How do firms build great brands, such as Apple and Nike? How do firms leverage their popular brands to expand into new markets, new products, and new countries? This course focuses on questions like these to help students understand how to use brand strategies to successfully build, measure, and manage brands. Students participate in a course-long project to research and evaluate brand strategies used by a brand of their choosing. The course includes lectures, cases, and project check-ins between group members and their instructor. \n\nprereq: Mktg 3010/3011 and Mktg 3040/3041",
     "prereq": {
-      "and": [
+      "or": [
         "013768",
         "013775"
       ]
@@ -329,7 +329,7 @@
     "fullname": "Marketing Research - Rapid Insights",
     "info": "Focus on developing rapid and actionable insights, by learning to form testable hypotheses, collect relevant data quickly, and perform fundamental analytics. Techniques will include survey design, sample design, online data collection, descriptive statistics, and tests for statistical significance. By the end of class, students will be able to provide convincing recommendations for common marketing and analytics-driven decisions.\n\nprereq: MBA 6210/6211, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -357,7 +357,7 @@
     "fullname": "Buyer Behavior",
     "info": "This course provides a deep understanding of consumer motivation and psychology to predict behavior in the marketplace. It covers both rational and irrational influences that impact consumers at different stages of the decision-making process. The course gives students the tools to provide insightful, data-driven recommendations by thoroughly understanding the customer.\n\nprereq: MBA 6210/6211, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -373,7 +373,7 @@
     "fullname": "Marketing Channels",
     "info": "This class focuses on designing go-to-market routes that align with customer purchase journeys, including the selection of channel partners, and fashioning the right channel incentives. We will pay particular attention to contemporary challenges arising from channel fragmentation and addition of online routes-to-market.\n\nprereq: MBA 6210/6211, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -389,7 +389,7 @@
     "fullname": "Strategic Supply Chain Management",
     "info": "Internal/inter-organizational design, strategic sourcing, alliances/partnerships, impact of technology on supply chain effectiveness. Managing flows, creating/sharing customer value, measuring competitive impact from supply chain excellence.\n\nprereq: [6060 or OMS 6056, or IDSc 6442 or IDSc 6423], 2nd yr MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "016581",
         "789844"
       ]
@@ -406,7 +406,7 @@
     "fullname": "International Marketing",
     "info": "Today\u2019s explosion in global e-commerce and logistics networks means most organizations now face an opportunity to broaden their customer bases and strengthen their brands. At the same time, these firms may face a new set of global competitors including state-supported, foreign companies, or current competitors who have transformed into global marketers. This case-based course arms the learner with a set of frameworks to adapt and lead in today\u2019s global marketing arena. The course culminates in a student-designed, real-world, \u201cGlocal\u201d marketing plan that launches an offering into an international market. \n\nprereq: MBA 6210/6211, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -424,7 +424,11 @@
     "prereq": {
       "or": [
         "014152",
-        "792587"
+        {
+          "or": [
+            "792587"
+          ]
+        }
       ]
     }
   },
@@ -451,7 +455,7 @@
     "fullname": "Pricing Strategy",
     "info": "Marketing begins and ends with the buyer. A marketing perspective on Pricing Strategy focuses on the study of delivering value to buyers in a manner that exceeds the value proposition of marketplace rivals, using both internal and external resources. The purpose of this course is to present a framework and provide analytical tools that can help you handle these pricing challenges. From determining consumer needs to assuring customer satisfaction, a clear understanding of buyer behavior is critical to the successful formulation and implementation of pricing strategy. The profitability of Pricing strategies that account for the competitive environment and the role of collaborators whose interests are aligned with that of the organization are an integral over-arching umbrella that informs the course. There are a wealth of analytical tools used in pricing ranging from Economic Value Analysis, to Break-Even Analysis, to estimation of Demand and Elasticity, to Customer Lifetime Value analyses, to game theoretic analyses of competitive dynamics. This course is designed to provide prospective managers the intellectual and analytical tools necessary to design actionable pricing strategies. There will be a strong emphasis on managerial action, and multiple theoretical perspectives will be discussed.\n\nprereq: MBA 6210/6211, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -503,7 +507,7 @@
     "fullname": "Brand Strategy",
     "info": "Leaders now realize that brands are one of the most valuable assets they possess. Those leaders who can successfully build, leverage, and protect brands are highly sought after. And today\u2019s brand principles must apply to product branding, personal branding, service branding, place branding, online branding, co-branding, and luxury branding. This course provides learners with frameworks and practical brand knowledge to launch and leverage successful brands in all these disciplines. \n\nprereq: MBA 6210/6211, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -531,7 +535,7 @@
     "fullname": "Persuasion and Influence",
     "info": "Successful marketers, leaders and communicators must not only make the right decisions-they must also influence others. Successfully managing other people depends on managing the influence process. Doing this effectively requires understanding the psychology of persuasion. This course is about the science of influence & persuasion. Through deeper understanding of human psychology, you will learn scientifically-tested and practical tools to become more influential in your dealings with consumers, clients, coworkers, & managers. Through a mix of lecture, discussion, reading, reflection, and experiential exercises, you will master the tools to be able to mobilize others by strategically crafting your communications.\n\nprereq: MBA 6210/6211, MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -583,7 +587,7 @@
     "fullname": "Strategic Marketing",
     "info": "This course looks at strategic decision-making, trade-offs and resource allocation in markets, methods for creating advantage at both the industry and the firm level, the impacts of strategic decisions, and appropriate investment and performance management frameworks. Utilizing an integrated approach to the use of marketing tools and concepts in the formulation and execution of the marketing plan. The material is presented with case studies, lectures, readings, and guest speakers. Focusing on development of framework for strategic marketing planning based on market insights, customer behavior, market segmentation, product positioning, customer experience, market responsiveness, and competitive reaction. The course is designed to be essential for students interested in careers in marketing management, brand management, product management, strategic consulting, and leadership development programs.\n\nprereq: MBA 6210/6211, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }
@@ -599,7 +603,7 @@
     "fullname": "Marketing Topics",
     "info": "Selected topics/problems of current interest considered in depth. \n\nprereq: MBA 6210/6211, MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014152"
       ]
     }

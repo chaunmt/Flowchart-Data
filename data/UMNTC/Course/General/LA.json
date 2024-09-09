@@ -146,7 +146,7 @@
     "fullname": "Regional Environmental Landscape Planning",
     "info": "An exploration of critical regional landscape parameters affecting the growth and development of metropolitan areas. Students assess these parameters and prepare a multifunctional land use plan for a defined locale.\n\nprereq: prereq FR 3131 or Concurrent registration is required (or allowed) in FR 3131 or GEOG 3561 or Concurrent registration is required (or allowed) in GEOG 3561, or equivalent",
     "prereq": {
-      "and": [
+      "or": [
         "007166"
       ]
     }
@@ -270,7 +270,7 @@
     "fullname": "Sustainable Landscape Design and Planning Practices Studio",
     "info": "Applications of sustainable landscape design and planning practices. Examination of the systemic, formal, and spatial relationships across the integration of these practices and quantitative and qualitative changes in biodiversity, quality of the earth\u2019s air, soil, and water resources, development and consumption of energy resources and climate change. Development of design processes for selection, deployment, and management of sustainable practices to create evocative and meaningful landscape in the context of cultural change. \n\nprereq: LA 2302 and LA 3002 or instructor consent.",
     "prereq": {
-      "and": [
+      "or": [
         "803702",
         "795083"
       ]
@@ -560,7 +560,7 @@
     "fullname": "AutoCAD II",
     "info": "Intermediate concepts, tools, and techniques of computer-aided drawing with current AutoCAD Release software. Strategies and techniques for producing dimensioned and annotated drawing. Use of dimension variables, attributes, blocks, symbols, and creation of customized menus.\n\nprereq: Arch 5351 or LA 5351, B.E.D. major or LA grad or instr consent; may not be taken for graduate credit",
     "prereq": {
-      "and": [
+      "or": [
         "011851",
         "797164"
       ]
@@ -990,7 +990,7 @@
     "fullname": "Designing Landscapes for Dwelling and Settlement",
     "info": "Professional design studio. Hypothetical projects include development of schematic master plans for site layout, grading, and planting. Design for residential, commercial, and civic uses with attention to zoning and other controls, environmental quality, human behavior, markets, project finance, and technics. Requires concurrent registration in LA 8202.\n\nprereq: 5203, 5571, grad LA major, concurrent registration is required (or allowed) in  8202 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "013078",
         "009156",
         "009812"
@@ -1080,7 +1080,7 @@
     "fullname": "Landscape Architecture: Research Issues and Methods",
     "info": "Alternative methodological approaches to landscape architectural research and consideration of their appropriateness for contemporary research topics.\n\nprereq: 8201 or concurrent registration is required (or allowed) in  8201, grad LA major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009773"
       ]
     }
@@ -1096,7 +1096,7 @@
     "fullname": "Professional Practice",
     "info": "How are professional design offices managing their practices and addressing goals of sustainability and equity? What are the financial and cost accounting, insurance, legal, and policy issues that frame professional practice? \n\nprereq: 8205, grad LA major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004708"
       ]
     }
@@ -1272,7 +1272,7 @@
     "fullname": "Advanced Landscape Planning and Design",
     "info": "Landscape design studio focused on an independent, research-based project defined by the student. Project addresses contemporary issues including climate change, degraded ecologies, inequity, and water scarcity.\n\nprereq: 8205, grad land arch major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004708"
       ]
     }
@@ -1288,7 +1288,7 @@
     "fullname": "Landscape Storm Water Management",
     "info": "Theory and applications of hydrology and storm water management techniques. Applied hydrology, catchment delineation, storm water runoff models, and storm water management techniques (detention ponds, swales, channels, culverts, small storm sewer systems, run-off systems, sedimentation, and erosion control systems).\n\nprereq: 8201, grad land arch major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009773"
       ]
     }
@@ -1352,7 +1352,7 @@
     "fullname": "Landscape Infrastructure and Site Technology V",
     "info": "Seminar, cross-disciplinary. Advanced inquiry into complex site-scale problems requiApplied theory. Professional practice applications with emphasis on urban/post-industrial sites. Programmatic, regulatory/construction contexts. Directed research of emerging/speculative infrastructure.\n\nprereq: 8773, 8774 preferred, students outside of Master of Landscape Architecture program are encouraged to enroll upon demonstration of similar pre-requisite coursework and instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "810854",
         "810855"
       ]

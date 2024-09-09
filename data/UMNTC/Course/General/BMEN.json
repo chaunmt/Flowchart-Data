@@ -46,7 +46,7 @@
     "fullname": "Biomedical Thermodynamics and Kinetics",
     "info": "Introduction to thermodynamics and kinetics, framed in the context of biomedical technologies and applications. Topics include principles of probability, extremum principles and equilibria, entropy & the Boltzmann distribution law, thermodynamic driving forces, solutions & mixtures, solvation & transfer of molecules between phases, phase transitions, biological rate processes, noncovalent binding interactions, binding equilibria and kinetics, enzyme kinetics, gene expression, protein trafficking, and network dynamics. \n\nprereq: Math 2373 or 2374, Chem 2301, Phys 1302W ",
     "prereq": {
-      "and": [
+      "or": [
         "003694",
         "003695",
         "002392",
@@ -153,7 +153,11 @@
     "name": "Biomech. Lab",
     "fullname": "Biomechanics Lab",
     "info": "Lab accompanies BMEn 3011 Biomechanics.\n\nprereq: [BME UD or dept consent], concurrent registration is required (or allowed) in 3011",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "809573"
+      ]
+    }
   },
   {
     "uid": "789469",
@@ -255,7 +259,8 @@
             "000282",
             "003695"
           ]
-        }
+        },
+        "002071"
       ]
     }
   },
@@ -270,9 +275,10 @@
     "fullname": "Bioelectricity and Bioinstrumentation Laboratory",
     "info": "Laboratory experiments in electrical phenomena. Instruments relevant to biomedical applications.\n\nprereq: Math 2374, Phys 1302, [BME upper div or dept consent]; not intended for students taking 3201",
     "prereq": {
-      "and": [
+      "or": [
         "003695",
-        "002071"
+        "002071",
+        "799723"
       ]
     }
   },
@@ -298,7 +304,11 @@
     "name": "Bioelec./Bioinstr. Lab",
     "fullname": "Bioelectricity and Bioinstrumentation Lab",
     "info": "Lab accompanies BMEn 3211 Bioelectricity/Bioinstrumentation.\n\nprereq: [BMEN Upper Div or dept consent], concurrent registration is required (or allowed) in 3211",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "809574"
+      ]
+    }
   },
   {
     "uid": "790647",
@@ -317,7 +327,8 @@
             "000282",
             "003695"
           ]
-        }
+        },
+        "002071"
       ]
     }
   },
@@ -616,7 +627,7 @@
     "fullname": "Immunoengineering",
     "info": "This course will provide an introduction into the dynamic and evolving research area of Immunoengineering, examining strategies in clinical and preclinical development for manipulating the immune system to treat and protect against disease. The course is geared towards engineers without a deeply established background in immunology. Basic principles in immunology will be covered in a didactic fashion, and contemporary research directions will be discussed based on articles from the primary literature. Biomaterials and in particular nanomaterials will be presented as a tool for modifying immune responses, along with strategies based in biotechnology, chemistry, and molecular biology. Applications for cancer immunotherapy, vaccine development, and the treatment of autoimmune disorders will receive particular focus.\nPreviously offered as a topics title for BMEn 5910, and should not be taken again.\n\nprereq: CSE upper division with Chem 1066, Biol 1009 or BMEn 2501 or equivalent / instructor consent; or\nCBS upper division with Chem 1066, Physics II or equivalent/instructor consent ",
     "prereq": {
-      "and": [
+      "or": [
         "807754",
         "005416",
         "789294"
@@ -634,7 +645,7 @@
     "fullname": "Engineering Extracellular Matrices",
     "info": "This class explores the complex set of fibrous and linking proteins of tissues, namely the extracellular matrix (ECM).  The ECM is crucial not only for maintaining the structure of tissues but also for guiding and maintaining cellular functions and fate processes. The purpose of the course is to become acquainted with ECM proteins and to investigate how control or manipulation of ECM proteins impacts on cell and tissue function with an emphasis on impacts for regenerative medicine.  In the course of this study, we will apply fundamentals of physics, chemistry, and mathematics to make predictions, solve problems and optimize outcomes related to ECM engineering. Required prerequisites: Upper Division Undergraduate or Graduate level student standing in CSE. \nRecommended prerequisites: BMEn 2501, 3011/3015, 3111/3115, 3311/3315, or equivalents (introductory cell/molecular biology, biomaterials, biotransport, biomechanics). \n",
     "prereq": {
-      "and": [
+      "or": [
         "789294",
         "809573",
         "809576",
@@ -867,7 +878,7 @@
     "fullname": "Neural Decoding and Interfacing",
     "info": "Neural interface technologies currently in use in patients as well as the biophysical, neural coding, and hardware features relating to their implementation in humans. Practical and ethical considerations for implanting these devices into humans.\n\nprereq: CSE upper division student, CSE graduate student, or instructor approval.  recommended: BMEn 3411",
     "prereq": {
-      "and": [
+      "or": [
         "809581"
       ]
     }
@@ -1174,7 +1185,7 @@
     "fullname": "Biophotonics",
     "info": "Understanding light microscopy and the interaction of light with biological materials is widely applicable to numerous research programs. In fact, it is a fundamental approach to addressing critical questions at the cellular and subcellular scales. This course will emphasize the fundamentals of light microscopy and microscopes, fundamentals of fluorescence and fluorescence microscopy (transitions, quantum yield, bleaching, lifetime etc.) and practical applications of fluorescence microscopy (confocal microscopy for optical sectioning, multiphoton microscopy, harmonic generation, FRET, FRAP, and fluorescence lifetime in the time and frequency domains). Course material will span theory, practical applications of microscopy and published literature.\n\nprereq: Graduate students in physical sciences (engineering, physics, chemistry etc.), or graduate students with an undergraduate degree in the physical sciences or mathematics, or consent of instructor.  In addition to previous course work in engineering and/or physics, a working understanding of microscopy is recommended.  Although not required, concurrent or previous enrollment in BMEn 5421 (Biomedical Optics) is recommended.",
     "prereq": {
-      "and": [
+      "or": [
         "802867"
       ]
     }

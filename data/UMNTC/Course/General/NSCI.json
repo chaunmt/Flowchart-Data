@@ -233,7 +233,7 @@
     "fullname": "Directed Research: Writing Intensive",
     "info": "Writing Intensive Directed Research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. This course is not for students starting out in research. It is intended for students who already have been working in the research group of the mentor and have developed an independent research project. In this course the student will receive writing instruction through a writing support course (corresponding to 1 credit in addition to the credits of directed research time) that will meet weekly throughout the semester. The written output usually is in the form of a scientific paper describing the results of the student's project. Written output of the course must be revised during the semester and a schedule for writing, assessment, and revision needs to be in place at the beginning of the semester. The project needs to be explained in the campus Directed Research contract and the project and participation in the writing support course agreed on by both the student and faculty mentor. The contract must be approved by the Director of Undergraduate Studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, agreement about how writing instruction will take place, confirmation of understanding of the timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course - near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. The DUGS can call for a final revision before a grade is given. This course is graded S/N by the writing support course instructor, and approval of both the DUGS and the research mentor is required before a grade of S can be given by the writing support course instructor.\n\nThis course is for non-Honors students. Students should register for the number of research credits they intend to pursue plus 1 cr for the writing support component (for example: 2-4 cr of research + 1 cr writing support = 3-5 cr).\n\nprereq: department consent, instructor consent, no more than a total of 7 credits of 4793W, 4794W, 4993, 4994 combined can count towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788854",
         "788855",
         "015456",
@@ -252,7 +252,7 @@
     "fullname": "Directed Studies",
     "info": "Individual study of selected topics with emphasis on selected readings and use of scientific literature.\n\nprereq: instr consent, dept consent; max of 7 cr of 4993 and/or 4994 may count toward major requirements",
     "prereq": {
-      "and": [
+      "or": [
         "015456",
         "015458"
       ]
@@ -269,7 +269,7 @@
     "fullname": "Directed Research",
     "info": "Lab or field investigation of selected areas of research.\n\nprereq: instr consent, dept consent; max of 7 cr of 4993 and/or 4994 may count toward major requirements",
     "prereq": {
-      "and": [
+      "or": [
         "015456",
         "015458"
       ]
@@ -298,7 +298,7 @@
     "fullname": "Dental Neuroscience for Graduate Students",
     "info": "Structure/function of human nervous system. Lectures and reading assignments emphasize topics pertinent to dentistry.\n\nprereq: Credit will not be granted if credit has been received for: : 6110; BioC 3021, Biol 4004, instr consent; intended for grad students who require a comprehensive grad-level neuroscience course",
     "prereq": {
-      "and": [
+      "or": [
         "014017",
         "014290",
         "010881"
@@ -316,7 +316,7 @@
     "fullname": "Medical Neuroscience for Graduate Students",
     "info": "Survey of molecular, cellular, and systems neuroscience as related to medicine. Lecture/lab.\n\nprereq: Credit will not be granted if credit has been received for: : 6111; BioC 3021, Biol 4004, instr consent; intended for grad students who require a comprehensive medically-oriented neuroscience course",
     "prereq": {
-      "and": [
+      "or": [
         "012638",
         "014290",
         "010881"
@@ -470,7 +470,7 @@
     "fullname": "Medical Neuroscience for Professional Students",
     "info": "Molecular, cellular, and systems neuroscience as related to medicine. Lecture, lab.\n\nprereq: BioC 3021, Biol 4004, instr consent; intended for non-medical professional students",
     "prereq": {
-      "and": [
+      "or": [
         "014290",
         "010881"
       ]

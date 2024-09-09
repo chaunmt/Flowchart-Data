@@ -82,7 +82,7 @@
     "fullname": "Introduction to Political Philosophy Practicum",
     "info": "Students do at least two hours a week of community service and connect their service activities in writing to issues discussed in 1004.\n\nprereq: concurrent registration is required (or allowed) in  1004W",
     "prereq": {
-      "or": [
+      "and": [
         "005138"
       ]
     }

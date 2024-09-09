@@ -70,7 +70,7 @@
     "fullname": "Advanced Manufacturing: Applied Process and Technology",
     "info": "Prepare to take a deep dive into the nitty-gritty as well as the art of manufacturing. You will study the myriad details that comprise the manufacturing process, tracing how raw materials are transformed into sophisticated devices in the most efficient ways. You will learn three important things that can be applied directly to any job: 1) how to deconstruct the value-added steps of a manufacturing assembly, 2) how to construct a process flow diagram, and 3) how to perform a process capability study. If you want to gain expertise in how factory work is planned, measured, studied, improved, and optimized, then you've come to the right place. Beyond this, you will also walk away with an understanding that manufacturers are true artisans whose expertise shapes our world in countless ways. \nprereq: A course such as MM 3001W, or relevant manufacturing experience.",
     "prereq": {
-      "and": [
+      "or": [
         "801207"
       ]
     }

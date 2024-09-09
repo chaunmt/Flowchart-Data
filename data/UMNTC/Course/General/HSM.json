@@ -274,7 +274,7 @@
     "fullname": "Practicum in Long Term Care",
     "info": "The Practicum course is the final component of the long term care administrator's education. A broad range of performance parameters are affected by management practices (e.g., employee morale, clinical processes, financial performance, regulatory compliance, quality of life for residents, customer satisfaction, and community/public relations). The course is a transition between the classroom and this executive level of management. Students will undertake a formal practicum project that must be coordinated with 1) the practicum site, 2) a preceptor who is a licensed nursing home administrator at the sponsoring organization, and 3) the course instructor. The intern is expected to make positive contributions to the sponsoring organization. The preceptor functions as a mentor, coach, and tutor. The intern identifies learning objectives and opportunities to meet both short-range goals for gaining work experience and long-range goals for career development through the development of a learning agreement. \n\nprereq: Most prelicensure courses completed--at a minimum, HSM 4583/6583-LTC Supports and Services; HSM 4585/6585 -LTC Organizational Management; HSM 4589/6589-LTC Human Resource Management; HSM 4593/6593-Gerontology for Health Care Managers.",
     "prereq": {
-      "and": [
+      "or": [
         "818234",
         "819568",
         "818177",
@@ -417,7 +417,7 @@
     "fullname": "Health Services Management Internship",
     "info": "This course serves as a requirement in the Bachelor of Applied Science degree in Health Services Management. Students will apply coursework in the health services management area and contribute knowledge of best practices to make a positive impact on the health services management workplace and industry. Students will participate in career development activities,  a challenge project, and networking.   \n\nprereq: HSM major; dept. consent.  Permission to enroll will be granted only upon completion of HSM 3051, 3521, 4531, 4541, 4561W, & 4591. Highly recommended: HSM 4043 & 4301 (and HINF 5430 for HSM technology internships).",
     "prereq": {
-      "and": [
+      "or": [
         "818138",
         "795486",
         "813524",
@@ -426,7 +426,11 @@
         "813981",
         "818137",
         "816876",
-        "007227"
+        {
+          "or": [
+            "007227"
+          ]
+        }
       ]
     }
   },
@@ -489,7 +493,7 @@
     "fullname": "Leadership and Business Planning in Health Care: Capstone",
     "info": "The course is a core requirement in the HSM major and allows students to synthesize and integrate lessons from previous courses. It covers theory and practice of leadership skills needed for high-performing health care organizations in changing and turbulent times. It emphasizes a four-phase approach: environmental assessment, planning, strategy and innovation, and implementation/measurement. Students will be prepared to embrace innovation and lead business plans through to successful implementation.  They will learn to integrate a wide range of management tools through collaborative development of a strategic business plan.\n\nprereq: HSM 3521, 4531, 4541, 4561, 4591. HSM major. Final year status required.",
     "prereq": {
-      "and": [
+      "or": [
         "795486",
         "813524",
         "796337",
@@ -533,7 +537,7 @@
     "fullname": "Practicum in Long Term Care",
     "info": "The Practicum course is the final component of the long term care administrator's education.  A broad range of performance parameters are affected by management practices (e.g., employee morale, clinical processes, financial performance, regulatory compliance, quality of life for residents, customer satisfaction, and community/public relations). The course is a transition between the classroom and this executive level of management. Students will undertake a formal practicum project that must be coordinated with 1) the practicum site, 2) a preceptor who is a licensed nursing home administrator at the sponsoring organization, and 3) the course instructor. The intern is expected to make positive contributions to the sponsoring organization. The preceptor functions as a mentor, coach, and tutor. The intern identifies learning objectives and opportunities to meet both short-range goals for gaining work experience and long-range goals for career development through the development of a learning agreement.  HSM 6582 is cross-listed with the undergraduate version of the practicum (HSM 4582) and contains additional required content at the graduate level. \n\nprereqs: Most prelicensure courses completed--at a minimum, HSM 4583/6583-LTC Supports and Services; HSM 4585/6585 -LTC Organizational Management; HSM 4589/6589-LTC Human Resource Management; HSM 4593/6593-Gerontology for Health Care Managers.",
     "prereq": {
-      "and": [
+      "or": [
         "818234",
         "819568",
         "818177",

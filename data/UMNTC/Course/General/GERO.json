@@ -154,8 +154,12 @@
     "fullname": "Equity and Long-Term Care Quality",
     "info": "The objective of this course is to help students gain a deeper understanding of long-term care quality with a focus on equity. We will\npay particular attention to post-acute care settings, care integration across settings, the role of the workforce, and equity considerations\nacross all these topics. Post-acute care settings reviewed will include home care, assisted living, alternative care arrangements, nursing\nhomes, and hospice. There are no required prerequisites but students are encouraged to take a course on U.S. health care (e.g., PubH 6556, Health and Health Systems) prior to taking the course. Cross-listed with: PubH 6518",
     "prereq": {
-      "and": [
-        "014122",
+      "or": [
+        {
+          "and": [
+            "014122"
+          ]
+        },
         "825504"
       ]
     }
@@ -207,7 +211,7 @@
     "fullname": "Aging Policy Seminar",
     "info": "Topics chosen to match student interest. Potential issues include Medicare, Medicaid, Social Security, policies about long-term care, preventive care for older people, employment discrimination, ethical topics. Run seminar on topic of choice, write follow-up paper.\n\nprereq: Grad student or instr consent [recommended to have taken GERO 5105]",
     "prereq": {
-      "or": [
+      "and": [
         "010619"
       ]
     }

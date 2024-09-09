@@ -143,11 +143,17 @@
           ]
         },
         {
-          "and": [
-            "797614",
-            "797615"
+          "or": [
+            {
+              "and": [
+                "797614",
+                "797615"
+              ]
+            },
+            "002384"
           ]
-        }
+        },
+        "013386"
       ]
     }
   },
@@ -246,9 +252,14 @@
     "fullname": "Measuring and Modeling Forests",
     "info": "Sampling design, survey techniques to assess resource conditions. Applying metrics/sampling methods to forest vegetation. Calculating tree/stand volume. Modeling approaches. Case studies of modeling to project future growth. Landscape processes, characterization, modeling.\n\nprereq: [ESPM 3012 or STAT 3011], MATH 1151",
     "prereq": {
-      "or": [
-        "799507",
-        "001618"
+      "and": [
+        {
+          "or": [
+            "799507",
+            "001618"
+          ]
+        },
+        "013386"
       ]
     }
   },
@@ -345,7 +356,13 @@
     "info": "Management science as applied to forest decision-making to help develop better forest management plans. Helps students develop a basic understanding of common analytical tools from operations research and how they are applied to forestry problems to help explore many potential solutions. Also reviews traditional approaches based on simulation. Emphasizes trade-off information, interpretation of model results, and linkages between stand-level economic analysis and forest-wide planning.  Reviews recent modeling efforts in Minnesota. Includes synthesis of information from multiple natural resource disciplines. Guest speakers demonstrate value of analyses in planning. Emphasizes homework assignments with some group work. An individual project requires an informal class presentation.\n\nprereq: recommended ESPM 3261 and [3218 or 3411]",
     "prereq": {
       "and": [
-        "005369"
+        "005369",
+        {
+          "or": [
+            "004659",
+            "006979"
+          ]
+        }
       ]
     }
   },
@@ -476,7 +493,7 @@
     "fullname": "Field Timber Harvesting and Road Planning",
     "info": "Design, layout, and administration of timber sales. Forest road planning and design. Timber appraisal, forest management guidelines. Field visits to timber harvesting and road planning sites with private organizations. Develop a harvest plan for landowner's property. Taught at the Cloquet Forestry Center. \n\nprereq: FNRM 3411 and 3431, or instructor consent.",
     "prereq": {
-      "and": [
+      "or": [
         "006979",
         "007400"
       ]

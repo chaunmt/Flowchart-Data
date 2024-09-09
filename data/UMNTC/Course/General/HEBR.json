@@ -120,7 +120,11 @@
     "name": "Intermediate Hebrew II",
     "fullname": "Intermediate Hebrew II",
     "info": "Extensive reading of simplified modern Hebrew prose selections. Students discuss poetry, newspaper, film, and TV in Hebrew. Israeli cultural experiences. Hone composition, listening comprehension, and speaking skills to prepare for proficiency exams. Biblical prose, simple poetic texts. Taught in Hebrew. Meets with 4012.\n\nprereq: Grade of at least [C- or S] in in 3011 or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "010765"
+      ]
+    }
   },
   {
     "uid": "795444",
@@ -181,7 +185,11 @@
     "name": "Intermediate Bib Hebrew II",
     "fullname": "Intermediate Biblical Hebrew  II",
     "info": "Text of Hebrew Bible, basic research tools and commentaries. Close reading of narrative biblical texts. Reading fluency, methods of research in biblical studies. Meets with 4107.\n\nprereq: Grade of at least [C- or S] in 3101 or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "010553"
+      ]
+    }
   },
   {
     "uid": "010655",
@@ -457,7 +465,11 @@
     "name": "Int Bib Hebrew II Grad Res",
     "fullname": "Intermediate Biblical Hebrew II for Graduate Student Research",
     "info": "Text of Hebrew Bible, basic research tools and commentaries. Close reading of narrative biblical texts. Reading fluency, methods of research in biblical studies. Meets with 3102.\n\nprereq: Grade of at least [C- or S] in 3101 or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "010553"
+      ]
+    }
   },
   {
     "uid": "010753",

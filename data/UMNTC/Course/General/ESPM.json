@@ -154,7 +154,7 @@
     "fullname": "Environmental Sciences: Integrated Problem Solving",
     "info": "Environmental issues facing the world today are increasingly complex. Challenges such as global climate change, air and water quality impairments, land use change for forest and agricultural production, and species conservation require an ability to conceptualize problems broadly so that solutions are crafted in a manner that addresses a multitude of perspectives and considerations.  This course will use an interdisciplinary case-study approach to expose students to the most important environmental problems facing society today as well as innovative solutions.  The case studies include investigations of ecosystem services, invasive species and pollution remediation, with world experts on these topics leading the discussions.  Throughout, a focus on interdisciplinary analysis, including linkages to environmental grand challenges will be emphasized.  An interactive approach will be utilized as well, in which students work in groups and engage in class discussions as ways to internalize and conceptualize information.       \nprereq: 1011, ESPM major",
     "prereq": {
-      "and": [
+      "or": [
         "012607"
       ]
     }
@@ -585,7 +585,7 @@
     "fullname": "Atmospheric Pollution: From Smog to Climate Change",
     "info": "Processes governing chemical makeup of Earth's atmosphere. Implications for air pollution, climate, human welfare. Evolution of atmosphere. Atmospheric structure/transport. Biogeochemical cycles of carbon, nitrogen, oxygen, mercury.  Greenhouse effect. Aerosols. Stratospheric ozone loss.\n\nprereq: [CHEM 1061, PHYS 1101W, MATH 1142 or 1271] or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "807753",
         "002066",
         "000119",
@@ -717,7 +717,7 @@
     "fullname": "Soil and Environmental Biology",
     "info": "Properties of microorganisms that impact soil fertility, structure, and quality. Nutrient requirements of microbes and plants and mineral transformations in biogeochemical cycling. Symbiotic plant/microbe associations and their role in sustainable agricultural production. Biodegradation of pollutants and bioremediation approaches.\n\nprereq: Biol 1009 or equiv, Chem 1021 or equiv; SOIL 2125 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         "002384",
         "006578"
@@ -811,7 +811,7 @@
     "fullname": "Problem Solving: Environmental Review",
     "info": "Roles of governmental agencies, consultants, and private citizens in EIS process. Students read EIS/EAW, analyze their content/scope, and prepare an EAW and EIS according to Minnesota EQB guidelines.\n\nprereq: ESPM 2021 and jr or sr",
     "prereq": {
-      "and": [
+      "or": [
         "798928"
       ]
     }
@@ -952,7 +952,7 @@
     "fullname": "Environmental Pollution",
     "info": "This course uses the principles of chemistry, microbiology, physics, and toxicology to understand the fate and behavior of environmental contaminants and the pollution of soils, surface waters, groundwater, and sediments. The course is structured around a semester-long risk assessment project that provides a framework for integrating concepts of pollution, contaminant movement, contaminant degradation, human health risk, ecological risk, risk mitigation, environmental remediation processes, and interactions among them. The history of federal regulations concerning environmental contamination is presented in the context of the major episodes of environmental pollution that motivated legislative action.\n\nprereq: SOIL 2125, CHEM 1061 and 1062 or equiv,  or permission",
     "prereq": {
-      "and": [
+      "or": [
         "006578",
         "807753",
         "807756"
@@ -983,7 +983,8 @@
             "797614",
             "002384"
           ]
-        }
+        },
+        "797615"
       ]
     }
   },
@@ -1422,7 +1423,7 @@
     "fullname": "Principles of Waste Management",
     "info": "Waste and waste management principles. Issues, problems, and solutions in remedying waste stream. MSW and yard waste composting, WTE incineration operation, ash disposal, recycling, land fill requirements, direct land disposal, regulatory trends, and case studies.\n\nprereq: 1125 or 2125, Biol 1002/1009 or Chem 1021, Stat 3011, ApEc 1101 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005420",
         "005416",
         "002384",

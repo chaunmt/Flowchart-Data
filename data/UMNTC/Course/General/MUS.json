@@ -255,7 +255,7 @@
     "fullname": "Ear-Training and Sight-Singing I",
     "info": "Introduction to foundations of musicianship. Activities include sight singing in solo and group formats; dictation and/or transcription of melody, rhythm, and harmony, and contextual listening. Students will apply concepts from music theory (MUS1501 Theory and Analysis of Tonal Music I) to the development of their musical skills. Introduction to keyboard skills. \n\nprereq: students must concurrently enroll in MUS 1501 Theory and Analysis of Tonal Music I",
     "prereq": {
-      "and": [
+      "or": [
         "005338"
       ]
     }
@@ -271,7 +271,7 @@
     "fullname": "Ear-Training and Sight-Singing II",
     "info": "Develop basic musicianship skills in sight-singing, ear-training, and musical vocabulary. Chromatic harmonic, and melodic principles in tonal musics from the 18th century to today. Analyze chromatic progressions, rhythms, melodies, contrapuntal functions. Proficiency in keyboard skills. \n\nprereq: MUS 1501 and MUS 1511 with grades of at least C-; concurrently enroll in MUS 1502 Theory and Analysis of Tonal Music II",
     "prereq": {
-      "and": [
+      "or": [
         "005338",
         "799026",
         "005339"
@@ -811,7 +811,7 @@
     "fullname": "Basic Conducting",
     "info": "The Basic Conducting course explores the many facets of the role of a conductor (within orchestral, wind band, choral areas), conducting philosophies, and conducting and rehearsal techniques for choral and instrumental ensembles. Students explore score study, analysis, gesture, body awareness, and expression. Basic Conducting is offered annually in the spring semester.\n\nprereq: MUS 1502 (Theory and Analysis of Tonal Music II), music major, music minor, or instructor approval",
     "prereq": {
-      "and": [
+      "or": [
         "005339"
       ]
     }
@@ -927,7 +927,12 @@
     "name": "Tonal Theory IV",
     "fullname": "Theory and Analysis of Tonal Music IV",
     "info": "Harmony and voice-leading. Chromatic tonal practices. Form, including sonata, rondo, variations, and other standard categories of tonal composition. Analysis of music from 18th/19th centuries.\n\nprereq: [[3501, 3511] with grade of at least C-] or diagnostic test administered by School of Music",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "005274",
+        "005272"
+      ]
+    }
   },
   {
     "uid": "790443",
@@ -1084,7 +1089,7 @@
     "fullname": "History of Western Music II",
     "info": "This is the second course in the undergraduate music history sequence. We will study music composed ca. 1700\u20131880, looking at the works\u2019 musical structures within the larger contexts of musical style, social/political significance, and broad aesthetic and philosophical movements. In addition, as a writing intensive course, students will hone their writing skills, focusing in particular on analyzing and writing about music. \n\nprereq: MUS 1502, MUS 1512, and MUS 3601 OR instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005339",
         "799027",
         "007927"
@@ -1259,7 +1264,7 @@
     "fullname": "Chromatic Harmony and Form in Western Art Music 1700\u20131900",
     "info": "Dissonant and chromatic harmonic procedures in art music from Bach and Handel through Brahms and Wagner. Rondo and sonata forms. Emphasis on analysis of complete movements, and part-writing (both figured bass and melody harmonization) deploying chromatic chordal vocabulary. Coordinated development of skills in sight-singing (including alto and tenor clefs), ear-training, and keyboard.\n\nprereq: undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher\nprereq: graduate- MUS 3508 and MUS 3518 with grade of at least C- or higher, or passing score on tonal entrance exams.",
     "prereq": {
-      "and": [
+      "or": [
         "005339",
         "799027",
         "009828",
@@ -1278,7 +1283,7 @@
     "fullname": "Theory and Analysis of Popular Music",
     "info": "This course provides a basic introduction to analyzing popular songs, primarily those within the Anglo-American tradition. Although the course focuses directly on the musical details, techniques, and forms pertaining to popular songs, larger questions of meaning and interpretation, production, sound and instrumentation, history of musical style and genre and historical periodization, important individual performers/songwriters and artistic formations, marketing and sociology, and globalization will not be ignored, but they will be most often pursued in the context of analyzing specific songs and recordings. Like any viable form of music, popular music is also a living practice, and hence our engagement with popular music will also require us to be in contact with practitioners of popular music here in the Twin Cities. Finally, the course will require students to engage with popular music in a number of ways: transcription, analysis, aural skills, ethnography (of a modest sort), composition, performance, and expository writing. The class is in part organized around basic parameters as explored in rock/pop music (form, timbre, harmony, rhythm, etc.) and otherwise around selected focused topics of study (individual artists or genres, specific research questions, etc.). \n\nprereq: undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher\ngraduate- MUS 3508 and MUS 3518 with grade of at least C- or higher, or passing score on tonal entrance exams.",
     "prereq": {
-      "and": [
+      "or": [
         "005339",
         "799027",
         "009828",
@@ -1297,7 +1302,7 @@
     "fullname": "Post-Tonal Theory and Ear-Training",
     "info": "Theory and analysis of art music in various styles developed in 20th century.\n\n-Developing aural skills relevant to 20th-century Western art musics. Focuses on pitch relations, rhythmic techniques, form, and to a lesser degree, timbre and texture. \n\nprereq: undergraduate- MUS 1502 and MUS 1512 with grade of at least C- or higher\ngraduate- MUS 3508 and MUS 3518 with grade of at least C- or higher, or passing score on tonal entrance exams.",
     "prereq": {
-      "and": [
+      "or": [
         "005339",
         "799027",
         "009828",
@@ -1316,7 +1321,7 @@
     "fullname": "Jazz Theory",
     "info": "Beginning through advanced analysis of jazz repertoire from harmonic, melodic, and rhythmic perspectives. Harmonic analysis will focus on chord construction and movement between chords. Melodic study looks at classic improvised solos through transcription and analysis. Rhythmic analysis includes stylistic differences between different recordings from different periods. As jazz was originally passed down aurally, ear training and aural exercises are embedded into the entire curriculum.\n\nUndergraduate prerequisite: MUS 1502 and MUS 1512 with grade of at least C- or higher\ngraduate prerequisite: MUS 3508 and MUS 3518 with grade of at least C- or higher, or passing score on tonal entrance exams. \n",
     "prereq": {
-      "and": [
+      "or": [
         "005339",
         "799027",
         "009828",
@@ -1484,7 +1489,7 @@
     "fullname": "Organ Literature I",
     "info": "Organ literature from the 14th century to the mid-18th century. Influence of organ design of various periods and national schools on the literature and its performance.\n\nprereq: 3502, 3603, sr or grad or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005275",
         "007929"
       ]
@@ -1501,7 +1506,7 @@
     "fullname": "Organ Literature II",
     "info": "Organ literature of J. S. Bach and of other 19th- and 20th-century composers. Influence of organ design of various periods and national schools on the literature and its performance.\n\nprereq: 3502, 3603, sr or grad or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005275",
         "007929"
       ]
@@ -1601,7 +1606,11 @@
     "name": "Vocal Literature I",
     "fullname": "Vocal Literature I",
     "info": "Vocal literature of major/minor composers from 17th century to present. Structure, style, performance practice.\n\nprereq: [12 cr in MusA 1304, grad music student] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "008066"
+      ]
+    }
   },
   {
     "uid": "009657",
@@ -1613,7 +1622,12 @@
     "name": "Vocal Literature II",
     "fullname": "Vocal Literature II",
     "info": "Vocal literature of major and minor composers from 17th century to present; structure, style, and performance practice.\n\nprereq: 12 cr in MusA 1104 or MusA 1304, grad music major or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "005354",
+        "008066"
+      ]
+    }
   },
   {
     "uid": "009301",
@@ -1661,7 +1675,11 @@
     "name": "Diction: Singers I",
     "fullname": "Diction for Singers I",
     "info": "Principles and techniques of singing in English, Italian, Spanish, German, and French. International Phonetic Association alphabet used.\n\nprereq: 12 cr MusA 1304 or grad music major or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "008066"
+      ]
+    }
   },
   {
     "uid": "009655",
@@ -1673,7 +1691,11 @@
     "name": "Diction: Singers II",
     "fullname": "Diction for Singers II",
     "info": "Principles and techniques of singing in English, Italian, Spanish, German, and French. International Phonetic Association alphabet used.\n\nprereq: 12 cr MusA 1304 or grad music major or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "008066"
+      ]
+    }
   },
   {
     "uid": "004880",
@@ -2656,7 +2678,7 @@
     "fullname": "History of the Symphony in the 20th Century",
     "info": "History of symphony (and related genres) in Europe and America, ca. 1890 to present. Changing aesthetic concerns, structural, harmonic, and timbral innovations. Sociocultural contexts; analysis and criticism.\n\nprereq: 3603, 5501 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007929"
       ]
     }

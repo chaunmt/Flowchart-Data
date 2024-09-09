@@ -176,7 +176,7 @@
     "fullname": "Introduction to Thermal Science",
     "info": "Thermodynamics, heat transfer. Thermal properties of substances. First/second laws of thermodynamics. Steady/unsteady heat conduction.  Thermal resistance concept. Convection heat transfer. Radiative heat transfer between solid surfaces. Boiling/condensation heat transfer.\n\nprereq: Chem 1061, Chem 1065, Math 2243 or Math 2373, Phys 1301, [CSE student]",
     "prereq": {
-      "and": [
+      "or": [
         "807753",
         "807752",
         "000280",
@@ -214,7 +214,7 @@
     "fullname": "Fluid Mechanics",
     "info": "Mass, momentum conservation principles. Fluid statics, Bernoulli equation. Control volume analysis, dimensional analysis, internal and external viscous flow. Momentum and energy considerations. Introduction to boundary layers.\n\nprereq: Math 2243 or Math 2373, 3331",
     "prereq": {
-      "and": [
+      "or": [
         "000280",
         "003694"
       ]
@@ -545,7 +545,7 @@
     "fullname": "Thermal Environmental Engineering",
     "info": "Thermodynamic properties of moist air; psychrometric charts; HVAC systems; solar energy; human thermal comfort; indoor air quality; heating and cooling loads in buildings.\n\nprereq: 3331 or 3332, 3333, CSE upper div or grad",
     "prereq": {
-      "and": [
+      "or": [
         "796704",
         "796705",
         "796706"
@@ -658,7 +658,7 @@
     "fullname": "Materials in Design",
     "info": "Fundamental properties of engineering materials. Fabrication, treatment. Physical/corrosive properties.  Failure mechanism, cost/value analysis as related to material selection/specification.\n\nprereq: 3221, ME upper division or grad student",
     "prereq": {
-      "and": [
+      "or": [
         "004833"
       ]
     }
@@ -674,7 +674,7 @@
     "fullname": "Introduction to Finite Element Modeling, Analysis, and Design",
     "info": "Finite elements as principal analysis tool in computer-aided design (CAD); theoretical issues and implementation aspects for modeling and analyzing engineering problems encompassing stress analysis, heat transfer, and flow problems for linear situations. One-, two-, and three-dimensional practical engineering applications.\n\nprereq: CSE upper div or grad, 3221, AEM 3031, CSci 1113, MatS 2001",
     "prereq": {
-      "and": [
+      "or": [
         "004833",
         "004340",
         "003669",
@@ -717,7 +717,7 @@
     "fullname": "Computer-Aided Engineering",
     "info": "Apply computer-aided engineering to mechanical design. Engineering design projects and case studies using computer-aided design and finite element analysis software; design optimization and computer graphical presentation of results.\n\nprereq: 3222, CSci 1113 or equiv, CSE upper div or grad",
     "prereq": {
-      "and": [
+      "or": [
         "004848",
         "003669"
       ]
@@ -734,7 +734,7 @@
     "fullname": "Advanced Mechanism Design",
     "info": "Analytical methods of kinematic, dynamic, and kinetoelastodynamic analysis and synthesis of mechanisms.  Computerized design for function, path, and motion generation based on Burmeister theory.\n\nprereq: CSE upper div or grad, 3222 or equiv, basic kinematics and dynamics of machines; knowledge of CAD packages such as Pro-E recommended",
     "prereq": {
-      "and": [
+      "or": [
         "004848"
       ]
     }
@@ -768,7 +768,7 @@
     "fullname": "Vibration Engineering",
     "info": "Apply vibration theory to design.  Optimize isolators, detuning mechanisms, and viscoelastic suspensions and structures. Use modal analysis methods to describe free vibration of complex systems, relating to both theoretical and test procedures.\n\nprereq: CSE upper div or grad, 3281",
     "prereq": {
-      "and": [
+      "or": [
         "004849"
       ]
     }
@@ -848,7 +848,7 @@
     "fullname": "Intermediate Fluid Mechanics",
     "info": "Bridge between introductory fluid mechanics and advanced graduate level course. Principles of incompressible and compressible flows, boundary layer theory, and analysis using differential formulations of the governing conservation equations. Analysis of phenomena relevant to the practice of engineering is emphasized through problem solving. \n\nprereq: ME 3332, Admitted to upper division/ME major or graduate student",
     "prereq": {
-      "and": [
+      "or": [
         "796705"
       ]
     }
@@ -864,7 +864,7 @@
     "fullname": "Case Studies in Thermal Engineering and Design",
     "info": "Characteristics of applied heat transfer problems. Nature of problem specification, incompleteness of needed knowledge base, accuracy issues. Categories of applied heat transfer problems.\n\nprereq: 3333, CSE upper div or grad student",
     "prereq": {
-      "and": [
+      "or": [
         "796706"
       ]
     }
@@ -880,7 +880,7 @@
     "fullname": "Thermodynamics of Fluid Flow With Applications",
     "info": "Conservation of mass, momentum, energy. Relevant thermodynamic properties. Nozzles, diffusers, thrust producers, shocks. Fluid-wall frictional interactions. Wall heat transfer, internal heat release. Temperature recovery. Mass addition. \n\nprereq: ME 3331, ME 3332, completed, or concurrent registration in ME 3333; admitted to upper division/ME major or grad student",
     "prereq": {
-      "and": [
+      "or": [
         "796704",
         "796705",
         "796706"
@@ -910,7 +910,7 @@
     "fullname": "Computational Heat Transfer",
     "info": "Numerical solution of heat conduction/analogous physical processes. Develop/use computer program to solve complex problems involving steady/unsteady heat conduction, flow/heat transfer in ducts, flow in porous media.\n\nprereq: 3333, CSE upper div or grad student",
     "prereq": {
-      "and": [
+      "or": [
         "796706"
       ]
     }
@@ -950,7 +950,7 @@
     "fullname": "Introduction to Combustion",
     "info": "Thermodynamics, kinetics, energy and mass transport, pollutants in reacting systems. Reactors, laminar, and turbulent flames. Ignition, quenching, and flame stability. Diffusion flames. Combustion in reciprocating engines, furnaces, and turbines, with emphasis on internal combustion engine performance and emissions.prereq: 3331, 3332, 3333, CSE upper div or grad student; concurrent registration with 3333 is allowed with instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "796704",
         "796705",
         "796706"
@@ -968,9 +968,14 @@
     "fullname": "Internal Combustion Engines",
     "info": "Basic spark ignition and diesel engine principles, air, fuel-air and actual engine cycles, cycle modeling, combustion and emissions, knock phenomena, air flow and volumetric efficiency, mixture requirements, ignition requirements and performance. Lectures/complementary labs.\n\nprereq: CSE upper div or grad student, C or better in [3332, 3333] or 3324",
     "prereq": {
-      "and": [
-        "796705",
-        "796706"
+      "or": [
+        {
+          "and": [
+            "796705",
+            "796706"
+          ]
+        },
+        "005040"
       ]
     }
   },
@@ -985,7 +990,7 @@
     "fullname": "Gas Turbines",
     "info": "Gas turbine cycles, regeneration, recuperation, reheat, intercooling, combined cycle plants, and thermochemical regeneration. Axial and radial flow compressors and turbines; combustor designs, energy analysis, emissions, and noise. Turbojet, fanjet, turboprop engine performance.  Stationary power plants, vehicular propulsion, hybrid vehicles.\n\nprereq: 3331, 3332, 3333, CSE upper div or grad student",
     "prereq": {
-      "and": [
+      "or": [
         "796704",
         "796705",
         "796706"
@@ -1130,7 +1135,7 @@
     "fullname": "Finite Element Methods for Computational Mechanics: Transient/Dynamic Problems",
     "info": "Computational mechanics involving transient or dynamic situations; development and analysis of computational algorithms. Stability and accuracy of algorithms, convergence issues; linear/nonlinear situations. Implicit, explicit, mixed, and variable time discretization approaches; modal-based methods for engineering problems\n\nprereq: 5228 or equiv, 5341, AEM 3031, CSci 1113",
     "prereq": {
-      "and": [
+      "or": [
         "004909",
         "005042",
         "004340",
@@ -1528,7 +1533,7 @@
     "fullname": "Advanced Combustion",
     "info": "Fundamental understanding of linkage between thermodynamics, chemical kinetics, and transport phenomena in combustion systems. Heat release rate, flame stability, and emissions. How those issues arise in furnaces, internal combustion engines, and rockets.\n\nprereq: Undergrad courses in thermodynamics, fluid mechanics, heat transfer, IT grad student; 5446 or 8641 highly recommended",
     "prereq": {
-      "and": [
+      "or": [
         "005225",
         "007661"
       ]
@@ -1545,7 +1550,7 @@
     "fullname": "Turbomachinery",
     "info": "Thermodynamic analysis of energy transfer between fluid and rotor; dimensional analysis; principles of axial, mixed, and radial flow pumps, fans, compressors, and turbines; cascade performance; computer flow simulations; applications to propulsion systems and power plants.\n\nprereq: CSE grad student, 3321, 3322 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005038",
         "005039"
       ]
@@ -1598,7 +1603,7 @@
     "fullname": "Doctoral Pre-Thesis Credits",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": {
-      "and": [
+      "or": [
         "796330"
       ]
     }

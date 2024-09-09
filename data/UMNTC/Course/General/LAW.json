@@ -274,7 +274,7 @@
     "fullname": "Patent Drafting and Oral Advocacy Competition Team",
     "info": "This Competition team furthers students' patent research, patent drafting, and oral advocacy. In the Competition's Regional stage, the team prepares a written patent application and defends it before a judges panel. In the Competition's contingent National stage, the team amends the application and defends it before another judges panel. The course is open to 8 students (i.e., two teams of up to 4 JD and MS students). JD students should add themselves to the waitlist, share their resumes with the instructor, and request enrollment in the course. \n\nprereq or co-req one of the following: Law 5224 Patents, Law 5231 Patent Prosecution I, Law 5243 Patent Research & Writing, or Director of Patent Law Programs permission",
     "prereq": {
-      "and": [
+      "or": [
         "811796",
         "811797",
         "818020"
@@ -381,10 +381,22 @@
     "fullname": "Patent Research and Writing",
     "info": "Patent lawyers and agents spend their entire professional careers communicating (with clients, patent examiners, judges, colleagues) no matter what their individual career paths may be. This course is about the process of research and communicating about patents. In other words, the goal of the course is to teach the building blocks of patent research and communication through multiple practice exercises so the student may repeat the process independently after successful completion of this course. This course leverages free, patent office, and commercial research tools. Deliverables and works include: patent landscape search and report, patentability search and opinion, patent risk search and assessment, patent invalidity search and opinion.\n\nRecommended prereq: Patents (5224), Patent Prosecution Practice I (5231) or Patent Portfolio Management (5250)",
     "prereq": {
-      "and": [
-        "811796",
-        "811797",
-        "811798"
+      "or": [
+        {
+          "and": [
+            "811796"
+          ]
+        },
+        {
+          "and": [
+            "811797"
+          ]
+        },
+        {
+          "and": [
+            "811798"
+          ]
+        }
       ]
     }
   },
@@ -2350,13 +2362,25 @@
     "fullname": "Patent Research and Writing",
     "info": "Patent lawyers and agents spend their entire professional careers communicating (with clients, patent examiners, judges, colleagues) no matter what their individual career paths may be. This course is about the process of research and communicating about patents. In other words, the goal of the course is to teach the building blocks of patent research and communication through multiple practice exercises so the student may repeat the process independently after successful completion of this course. This course leverages free, patent office, and commercial research tools. Deliverables and works include: patent landscape search and report, patentability search and opinion, patent risk search and assessment, patent invalidity search and opinion.\n\nRecommended prereq: Patents (5224/6224), Patent Prosecution Practice I (5231/6231) or Patent Portfolio Management (5250/6250)",
     "prereq": {
-      "and": [
-        "811796",
-        "010985",
-        "811797",
-        "790834",
-        "811798",
-        "811799"
+      "or": [
+        {
+          "or": [
+            "811796",
+            "010985"
+          ]
+        },
+        {
+          "or": [
+            "811797",
+            "790834"
+          ]
+        },
+        {
+          "or": [
+            "811798",
+            "811799"
+          ]
+        }
       ]
     }
   },
@@ -5025,7 +5049,7 @@
     "fullname": "International Refugee and Asylum Law",
     "info": "This course will introduce and explore the main concepts, laws, institutions, and policies that form the international regime for the protection of refugees. As of June 2022, the United Nations High Commissioner for Refugees (UNHCR) estimated that there were over 100 million forcibly displaced persons throughout the world (the highest number in history), including 27.1 million refugees and 4.6 million asylum-seekers.  Human displacement continues to be one of the most important and intractable human rights issues facing the international community. The main course objectives are to: \n- Examine the assumptions, origins, and evolution of refugee law and the international refugee regime.\n- Understand who is protected from serious harm by international, regional, and domestic law. \n- Explore the rights afforded to refugees and other categories of forced migrants.\n- Investigate various legal and policy impediments to the right to seek asylum. \n- Assess the scope, limits, and potential of international cooperation regarding refugees.\nOverall, the course will examine the relationship between refugee law, international human rights law, and domestic law and will provide students with an understanding of how this relationship affects state obligations toward refugees, asylum-seekers, and internally displaced persons.\n\nprereq: recommended Law 6011/6071 International Law and Law 6886 Intl Human Rights Law ",
     "prereq": {
-      "and": [
+      "or": [
         "802899",
         "811680",
         "010960"
@@ -5931,7 +5955,7 @@
     "fullname": "Intellectual Property Moot Court Competition Team",
     "info": "The Intellectual Property Moot Court Competition Team is composed of the two to four student directors who help run the I.P. Moot Court program. Students are selected based on their overall performance during their second year as well as a written statement as to why they want to be a director and on the competition team. Unlike most moot court competition teams, each team writes two briefs -- one on each side of the case. And unlike most competition teams, team members receive multiple rounds of detailed feedback on their briefs from team coaches. The team(s) attend the regional competition, usually in the third week of March. The top two teams at the regional competitions qualify for nationals in Washington, D.C., usually held in early April. The team(s) also participate in the Minnesota Intellectual Property Law Association Cup Competition. \n\nprereq: JD Student, Law 6002, and Law 7085 prereq or coreq",
     "prereq": {
-      "and": [
+      "or": [
         "811677",
         "010959"
       ]
@@ -6192,7 +6216,7 @@
     "fullname": "Patent Drafting and Oral Advocacy Competition Team",
     "info": "This Competition team furthers students' patent research, patent drafting, and oral advocacy. In the Competition's Regional stage, the team prepares a written patent application and defends it before a judges panel. In the Competition's contingent National stage, the team amends the application and defends it before another judges panel. The course is open to 8 students (i.e., two teams of up to 4 JD and MS students). JD students should add themselves to the waitlist, share their resumes with the instructor, and request enrollment in the course. \n\nprereq or co-req one of the following: Law 6224/5224 Patents, Law 6231/5231 Patent Prosecution I, Law 6243/5243 Patent Research & Writing, or Director of Patent Law Programs permission",
     "prereq": {
-      "and": [
+      "or": [
         "010985",
         "811796",
         "790834",
@@ -6421,7 +6445,7 @@
     "fullname": "CL: Criminal Prosecution",
     "info": "The primary goal of the Prosecution Clinic is to provide students with the opportunity to develop the substantive and practical skills to function as an effective and ethical prosecutor in the criminal justice system. The prosecution clinic course will involve a combination of classroom work and supervised student prosecution of individuals charged with petty misdemeanor, misdemeanor, and gross misdemeanor offenses in Hennepin, Ramsey, and Anoka County District Courts. Students handle cases at all stages of the criminal process including arraignments, pre-trial conferences, and court trials. There is also a seminar component that includes lectures on substantive criminal law and procedure, criminal justice policy issues, simulation exercises, role playing, skills training exercises, and self-evaluation.\n\nprereq: Law 6219 Evidence (or co-req)",
     "prereq": {
-      "or": [
+      "and": [
         "010946"
       ]
     }

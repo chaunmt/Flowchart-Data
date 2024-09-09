@@ -106,7 +106,7 @@
     "fullname": "The Individual and the Organization",
     "info": "The purpose of this course is to understand both the impact and experience of the individual in an organizational setting. We will discuss the influence that individual differences and behaviors play within an organization, focusing on the employee as the key factor through which organizations function and grow. An employer\u2019s success is largely attributable to the motivation and performance of those they employ. The factors that influence both their motivation and performance will be the focus of our content. We will explore topics such as personality, values, perceptions, and diversity among others. Each topic covered will enrich our understanding of the complex relationship between the individual and the organization. Recommended prerequisite: HRIR 3021. Prior, this course's designator was HRIR 3041.",
     "prereq": {
-      "and": [
+      "or": [
         "013134"
       ]
     }
@@ -122,7 +122,7 @@
     "fullname": "Organizational Behavior: Groups and Teams",
     "info": "The purpose of this course is to understand both the impact and experience of the individual, leaders, and teams in an organizational setting. We will discuss the influence that individual differences and behaviors play within work teams, and how leadership may shape team experiences, focusing on the team as the key factor through which organizations function and grow. An employer\u2019s success is largely attributable to the motivation and performance of those they employ. The factors that influence group, team, and organizational performance will be the focus of this class. We will explore topics such as communication, conflict, negotiation, leadership, organizational structure and change, among others. Each topic covered will enrich our understanding of the complex relationship between the individual, team, and the organization. Recommended prerequisite: HRIR 3021. Prior, the course's designator was: HRIR 3042.",
     "prereq": {
-      "and": [
+      "or": [
         "013134"
       ]
     }
@@ -538,7 +538,7 @@
     "fullname": "Entrepreneurship in Action I",
     "info": "Two-semester course. In fall, students identify a business oportunity, develop concept, determine resources required, and launch the business. In spring, students implement business plan, manage business, and determine exit strategy.\n\nprereq: 3010, [4008 or concurrent registration is required (or allowed) in 4008], completed coursework in business core, CSOM upper division, approved application",
     "prereq": {
-      "and": [
+      "or": [
         "013530"
       ]
     }
@@ -823,7 +823,7 @@
     "fullname": "Complex and Cross-Cultural Negotiations",
     "info": "Principles, role play of multi-party/-issue, team-based negotiations/conflicts. How to structure ambiguous situations, bridge national/organizational cultures (e.g., alliances, mergers), functions (R&D, finance), and institutional contexts (regulators, interest groups).\n\nprereq: [MGMT 6004, MBA or Mgmt Sci MBA student] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "013521"
       ]
     }
@@ -1339,7 +1339,7 @@
     "fullname": "Organizational Theory II",
     "info": "Major theories and current research on organizational and inter-organizational topics from a macro perspective. This course is two of two. \nPreviously offered as Mgmt 8302.\n\nprereq: Mgmt 8406, Business admin PhD student or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "826702"
       ]
     }

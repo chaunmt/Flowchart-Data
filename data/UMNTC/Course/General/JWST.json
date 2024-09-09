@@ -239,9 +239,11 @@
     "info": "Survey of Israelite prophets. Emphasizes Amos, Hosea, Isaiah, Jeremiah, Ezekiel, Second Isaiah. Prophetic contributions to Israelite religion. Personality of prophets. Politics, prophetic reaction. Textual analysis, biblical scholarship. Prophecy viewed cross-culturally.\n\nprereq: [RelS 1001] or [CNES 1201 or JWST 1201 or RELS 1201 or CNES 3201 or JWST 3201 or RELS 3201]",
     "prereq": {
       "or": [
-        [
-          "010734"
-        ],
+        {
+          "and": [
+            "010734"
+          ]
+        },
         {
           "or": [
             "797684",
@@ -588,7 +590,7 @@
     "fullname": "The Holocaust in France: Literature, History, Testimony",
     "info": "This course examines the event of the Holocaust (which we call \"Shoah\" in France since the 80s and especially since the film of the same name by Claude Lanzmann) in literature, film, and archives. France has a complex relationship with Jews since the Middle Ages. During the French Revolution (1789), then under the Empire (Napoleon Bonaparte, 1800-1815), the Jews benefitted from political emancipation. The Republic defended the equality of Jews before the law as French citizens. But France was also the country of political anti-Semitism and of the Dreyfus Affair (there were in the nineteenth century some very virulent anti-Semitic propaganda writers, for example Edouard Drumont, author of Jewish France, in 1880, just before the Dreyfus Affair). This history of the Jews in France culminates with the Vichy regime, the policy of collaboration with Nazi Germany, antisemitic writings and propaganda emanating from important writers such as Louis-Ferdinand Celine and politicians, and the deportation of part of the Jewish population to the extermination camps. How does this story affect fictional writing, and debates on how to represent this event? More than a course on the Holocaust, we explore the story of its reminiscence in French culture. It is not a history class, but a class in culture, literature, memory, and testimony. prereq: FREN 3015; it is recommended that students have taken, or take concurrently, FREN 3101W.",
     "prereq": {
-      "and": [
+      "or": [
         "009596",
         "009601"
       ]
@@ -713,7 +715,7 @@
     "fullname": "Never Again! Memory & Politics after Genocide",
     "info": "Course focuses on the social repercussions and political consequences of large-scale political violence, such as genocide, war crimes, and crimes against humanity. Students learn how communities and states balance the demands for justice and memory with the need for peace and reconciliation and addresses cases from around the globe and different historical settings.\n\nprereq: SOC 1001 or 1011V recommended, A-F required for Majors/Minors.",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }

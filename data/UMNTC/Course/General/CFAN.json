@@ -302,7 +302,7 @@
     "fullname": "Introduction to Sustainable Akumal",
     "info": "This is the on-campus background prerequisite for CFAN 3522 Sustainable Akumal. We introduce Akumal and the history of coastal development in the Mexican Caribe along with coastal ecology and important biota from the area. We consider the cultural context, from ancient Maya to the recent development of a tourism economy and its effects on local communities.  We cover required gear and have a pool snorkel session.\n\nprereq: Instructor approval, LAC admission to Sustainable Akumal study abroad course. ",
     "prereq": {
-      "and": [
+      "or": [
         "818411"
       ]
     }

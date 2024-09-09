@@ -110,7 +110,7 @@
     "fullname": "Compensatory Rehabilitation:  Evaluation and Intervention II",
     "info": "Assessment of daily living performance areas; adaptation techniques to compensate for performance deficits.  Level I fieldwork experience.\n\nprereq: 5300, 5313 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003491",
         "003492"
       ]

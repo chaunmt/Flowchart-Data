@@ -38,7 +38,7 @@
     "fullname": "Honors Calculus III",
     "info": "Integral calculus of several variables. Vector analysis, including theorems of Gauss, Green, Stokes.\n\nprereq: Math 1572H (or equivalent), honors student",
     "prereq": {
-      "and": [
+      "or": [
         "003697"
       ]
     }
@@ -54,7 +54,7 @@
     "fullname": "Honors Calculus IV",
     "info": "Advanced linear algebra, differential equations. Additional topics as time permits.\n\nprereq: Math 1572H or Math 2573H, honors student and permission of University Honors Program",
     "prereq": {
-      "and": [
+      "or": [
         "003697",
         "003698"
       ]
@@ -150,7 +150,20 @@
     "name": "Honors Algebra I",
     "fullname": "Honors: Fundamental Structures of Algebra I",
     "info": "Review of matrix theory, linear algebra. Vector spaces, linear transformations over abstract fields. Group theory, including\nnormal subgroups, quotient groups, homomorphisms, class equation, Sylow's theorems. Specific examples: permutation groups, symmetry groups of geometric figures, matrix groups.\n\nprereq: [2243 or 2373 or 2573], [2283 or 2574 or 3283]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "003698"
+          ]
+        },
+        {
+          "or": [
+            "004311"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "004070",
@@ -219,7 +232,11 @@
     "name": "Honors Analysis I",
     "fullname": "Honors: Introduction to Analysis I",
     "info": "Axiomatic treatment of real/complex number systems. Introduction to metric spaces: convergence, connectedness, compactness. Convergence of sequences/series of real/complex numbers, Cauchy criterion, root/ratio tests. Continuity in metric spaces. Rigorous treatment of differentiation of single-variable functions, Taylor's Theorem.\n\nprereq: [[2243 or 2373], [2263 or 2374], [2283 or 3283]] or 2574",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "004311"
+      ]
+    }
   },
   {
     "uid": "004182",

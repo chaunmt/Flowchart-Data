@@ -778,7 +778,7 @@
     "fullname": "International Finance in Brazil",
     "info": "When you travel outside the United States, you do not use dollar bills to make purchases, right? Nearly every country operates with its own form of currency, and the value of this currency in comparison to the dollar (or any other currency) is known as the exchange rate. These rates play a crucial role not just for travelers but also for businesses. Numerous companies either procure materials, sell their goods on the international stage, or operate as multinational entities with establishments overseas.\n\nIn this course, you are going to discover how to navigate these rates, understand their fluctuations, and most importantly, recognize that predicting exchange rate movements in the short term is largely a gamble. So, what is the strategy when facing unpredictable risks? You safeguard against them, much like purchasing insurance. Hence, this class will cover how corporations protect themselves against exchange rate risks with derivative contracts. You will also learn how multinational companies assess international projects. \n\nprereq: CSOM major, Fina 3001 or 3001H, 4121 or 4121H, 4221\nCredit will not be granted if credit has been received for: FINA 4622",
     "prereq": {
-      "and": [
+      "or": [
         "013118",
         "013653",
         "802591",

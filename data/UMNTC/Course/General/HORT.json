@@ -546,7 +546,7 @@
     "fullname": "Professional Experience Internship",
     "info": "This course provides an opportunity for professional experience in plant science and food systems achieved through a supervised practical experience. Students must complete a non-credit prerequisite Canvas module on pre-and reflection during the summer internship experience. Upon successful completion of this prerequisite, students will receive a permission number to register for HORT 4096W in the fall. In 4096W, students will produce a final publication that is focused on writing for lay audiences. This writing project will start toward the end of the internship and end at the conclusion of the 7-week online fall course.\n\nprereq: CFANS undergrad",
     "prereq": {
-      "and": [
+      "or": [
         "806621"
       ]
     }
@@ -638,7 +638,7 @@
     "fullname": "Plant Genetics and Breeding",
     "info": "Principles of plant genetics and environmental variation. Applications of genetics to crop evolution and breeding of self-pollinated, cross-pollinated, and asexually propagated crops. Investigation of hybridization, variation, and selection.\n\nprereq: Biol 1009 or equiv or grad, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005416"
       ]
     }
@@ -683,13 +683,17 @@
     "fullname": "Pollinator Protection in Managed Landscapes",
     "info": "Importance of pollinators in agricultural/other natural landscapes. Risks to pollinators. Ways risks can be reduced, minimized, or overcome. Ways public policy has impacted pollinators/how future policy decisions will affect pollinator protection efforts.\n\nprereq: [1001 or AGRO 1101 or BIOL 1009 or BIOL 1001 or ENT 1001 or PLPA 1005], 30 credits completed (non-freshman status)",
     "prereq": {
-      "or": [
-        "007885",
-        "007688",
-        "005416",
-        "005419",
-        "815591",
-        "793529"
+      "and": [
+        {
+          "or": [
+            "007885",
+            "007688",
+            "005416",
+            "005419",
+            "815591",
+            "793529"
+          ]
+        }
       ]
     }
   },
@@ -923,7 +927,7 @@
     "fullname": "Plant Cytogenetics",
     "info": "Hybrid science of plant cytology/genetics. History, concepts, current research, technological development in plant cytogenetics. Function, movement, number/structure of chromosomes. Methods/application of chromosome modification in plant improvement.\n\nprereq: [HORT/AGRO 4401, BIOL 4003] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007652",
         "009489"
       ]
@@ -940,7 +944,7 @@
     "fullname": "Plant Cytogenetics Lab",
     "info": "Consolidate knowledge of plant cytogenetics by practicing  series of microscopy/computational technologies. Examine number, movement, structure/structure modification of chromosomes. Application in plant improvement.\n\nprereq: [HORT/AGRO 4401, BIOL 4004] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "007652",
         "010881"
       ]
@@ -1108,7 +1112,7 @@
     "fullname": "Problem Solving in Horticulture",
     "info": "This course is intended to be a capstone experience that integrates the knowledge gained from coursework, personal research, and the student's academic and professional experiences. Enrollment is usually limited to students who have completed 18 or more credit hours of their required 30 credits and accounts for 2 of the minimum 30 credits required for the degree. These credits are not considered part of the horticulture core course requirements; an additional 15 credits in Horticulture are required for the MPS Hort degree. \n\nprereq: HORT 6101 and completion of 18 or more credits towards Master of Professional Studies in Horticulture Degree. ",
     "prereq": {
-      "and": [
+      "or": [
         "825629"
       ]
     }
@@ -1124,7 +1128,7 @@
     "fullname": "Masters of Professional Studies in Horticulture Professional Experience Program: Internship",
     "info": "Professional experience in horticulture firms or government agencies attained through supervised practical experience. Students evaluate reports, consult with faculty advisers and with employers. Students must complete internship contract. \n\nprereq: Masters of Professional Studies in Horticulture student and HORT 6101, or instructor consent. ",
     "prereq": {
-      "and": [
+      "or": [
         "825629"
       ]
     }

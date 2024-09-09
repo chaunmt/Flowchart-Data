@@ -34,7 +34,7 @@
     "fullname": "Intermediate Spatial Data Science Applied with ArcGIS",
     "info": "This is the first of a two-course series focused on teaching skills in spatial data science with emphasis on the Esri ecosystem of geospatial technologies. Students will gain the baseline skills required to build end-to-end data integration pipelines and perform reproducible deterministic spatial analyses. By the end of the course, students will be able to build geospatial workflows and data systems that can address intermediate-level spatial analysis problems.\n\nprereq: [GEOG 5561 or equiv, status in MGIS program, familiarity with computer operating systems] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009057"
       ]
     }
@@ -71,7 +71,7 @@
     "fullname": "Introduction to Digital Mapping: ArcGIS Basics",
     "info": "Desktop mapping functions using ArcGIS software. Application of systems to display/analysis of geographical data.\n\nprereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009057"
       ]
     }
@@ -87,7 +87,7 @@
     "fullname": "Web GIS and Services",
     "info": "Plan, design, develop, publish web-based GIS solution. Build websites, prepare data for web. Commercial software, Open Source software, volunteer geographic information, open GIS standards/developing web GIS application. Hands-on experience with variety of web GIS technologies/software.\n\nprereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009057"
       ]
     }

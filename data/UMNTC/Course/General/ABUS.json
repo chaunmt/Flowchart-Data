@@ -130,7 +130,7 @@
     "fullname": "Legal, Ethical, and Risk Issues for Managers",
     "info": "Key legal, ethical, and risk frameworks in business activity and civic life. Students will identify areas of exposure within their specific industry and learn about best practices to minimize legal liability and manage risk. The writing-related instruction is designed to develop effective management-level communication skills regarding legal, ethical, and other risks and to develop a thoughtful analytical approach to addressing real-world risks.\n  \nprereq: CMgt 4011 recommended for CMgt students, 45 semester credits",
     "prereq": {
-      "and": [
+      "or": [
         "013688"
       ]
     }
@@ -491,7 +491,11 @@
     "name": "Operating a Small Business",
     "fullname": "Operating a Small Business Start-Up",
     "info": "Strategies as well as the practical knowledge and skills needed to operate your new small business. In ABus 4501, you planned to start a small business. In ABus 4511, you will expand upon that business plan to include growth strategies; a refined vision and focus based on business trends and projections; position descriptions for people needed to help start and keep you in business; the legal documents required to run your business; and an accountability chart depicting roles and responsibilities of your team members and external partners in launching and sustaining your small business. You will also identify performance indicators, learn how to remain competitive and innovative in the marketplace, and prepare to evolve your plans and processes over time. You will also participate in a variety of class discussions and independently complete reflective exercises that help you assess and develop your management, leadership, and conflict-resolution skills.\n\nPrerequisites: 45 credits, and ABus 4501-Building a Small Business Start-up, are prerequisites for this course.  If you have obtained this background information in some other way, check with the instructor to determine if your background is sufficient for getting the most out of this class.  It is also helpful to have taken other business-related courses such as finance, marketing, and human resources.",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "016244"
+      ]
+    }
   },
   {
     "uid": "016576",

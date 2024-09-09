@@ -189,7 +189,8 @@
             "789897",
             "826066"
           ]
-        }
+        },
+        "005270"
       ]
     }
   },
@@ -480,7 +481,7 @@
     "fullname": "Human Physiology",
     "info": "This four-credit course is divided into two weekly 75-minute lectures and one 60 minute lab session once per week. \n\nUpon completion of this course, the student will be able to describe the function of the different organs and systems in the body, explain the biophysical mechanisms and describe the interactions and feedback processes to achieve a steady-state. This course provides the biological principles for how the body works, from the function of intracellular organelles to the interactions between systems and the role of each organ. It explains the relationship between structure and function and describes the development of diseases when the physiological systems become impaired. \n\nThis course in human physiology builds on knowledge obtained using the basic sciences of math, chemistry, and physics. Thus, understanding some of these sciences' basic principles is essential to fully understanding the physiological principles during this course. \n\nThe lab component of this course takes place at the Human Performance Teaching Laboratory (HPTL). Lab activities are an interactive component of the course. During labs, students will perform a series of experiments, record data, and will provide a physiological interpretation for the results. \n\nThe combination of lecture material and laboratory experience will allow students to understand disease mechanisms, comprehend the strategies to prevent and treat the most frequent medical conditions, and live a healthy life. The instructor's goal is not just to teach the most up-to-date knowledge on human physiology but also to arouse your curiosity so you continue learning beyond this course. \n\nprereq: [KIN 3027 or ANAT 3001 or ANAT 3601 or ANAT 3611 or ANAT 3651 or ANAT 3658H ] and [Kin or Physical Activity and Health Promotion Major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "788993",
@@ -641,7 +642,7 @@
     "fullname": "Exercise Physiology",
     "info": "Information and learning experiences presented in this class will cover specific areas within the discipline of Exercise Physiology. This course is designed for the advanced undergraduate student in Kinesiology, as well as advanced students in such complementary areas as public health, nutrition, physiology, biology, biochemistry, or any sport\u2011 related areas. It creates a great opportunity to combine the science of biological, biochemistry, physics and physiology with the study of health, fitness, wellness, human performance, and sport. Emphasis is placed on basic human physiological systems and the responses of those systems to the challenge of physical activity: from moderate to extreme intensities. The biochemical bases of these responses will be presented. Historical, psychological, sociological, and philosophical implications of these topics will be integrated into many of the lecture/discussions. In addition to lecture information, students will be provided a \"hands on,\" small group laboratory experience that is carefully orchestrated to track lecture material and presentations.\n\nprereq: KIN 3385 or PHSL 3051 and Kinesiology Major or Physical Activity and Health Promotion Major",
     "prereq": {
-      "and": [
+      "or": [
         "005270",
         "010566"
       ]
@@ -1127,7 +1128,7 @@
     "fullname": "Advanced Theory and Techniques of Exercise Science",
     "info": "Theoretical constructs, in-depth description of procedures used in exercise science research and clinical settings. Laboratory exercises, lectures.\n\nprereq: [3385, 4385, Kin major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005270",
         "004545"
       ]
@@ -1533,7 +1534,7 @@
     "fullname": "Research Problems in Applied Kinesiology",
     "info": "Selected topics in physical activity and human performance.\n\nprereq: [Kin upper div undergrad or MEd or grad student], 15 cr of major coursework [including 4981 or 5981], instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "004787"
@@ -1613,7 +1614,7 @@
     "fullname": "Clinical Experience I: Physical Education",
     "info": "Half-day supervised teaching in an urban elementary school physical education setting.\n\nprereq: 6151, 6521, 6522, initial licensure/MEd phys ed student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004740",
         "004741",
         "004742"
@@ -1631,7 +1632,7 @@
     "fullname": "Clinical Experience II:  Physical Education",
     "info": "Half-day supervised teaching in urban or suburban elementary, middle, or high school physical education setting.\n\nprereq: 6596, initial licensure/MEd phys ed student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004744"
       ]
     }
@@ -1647,7 +1648,7 @@
     "fullname": "Clinical Experience III:  Physical Education",
     "info": "Supervised teaching in urban or suburban elementary, middle, or high school physical education setting.\n\nprereq: [6597, init licensure/MEd phys ed student] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004745"
       ]
     }
@@ -1787,7 +1788,7 @@
     "fullname": "Cellular and Molecular Exercise Physiology",
     "info": "This course emphasizes the cellular and molecular mechanisms in response to acute and chronic physical exercise. Biochemical pathways of regulating energy metabolism during exercise, change of gene expression as adaptation to altered diet, environmental factors and aging, and cellular oxidative-antioxidant homeostatsis will be the main foci. The course will expose graduate students and advanced undergraduate students to current topics of biomedical issues affecting human health and wellbeing, modern techniques of exercise science research, and important research articles in literature.\n\nprereq: KIN 3385: Human Physiology and KIN 4385: Exercise Physiology; KIN 5122: Applied Exercise Physiology; college level chemistry. Suggested: organic chemistry, or instr consent\n\nCredits will not be given if taken as KIN 5720 with the same title.",
     "prereq": {
-      "and": [
+      "or": [
         "005270",
         "004545",
         "004547",

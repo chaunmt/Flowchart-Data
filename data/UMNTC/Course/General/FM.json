@@ -22,7 +22,7 @@
     "fullname": "Preparation for Financial Mathematics II",
     "info": "Mathematics needed for MFM program.\n\nprereq: 5001, program director approval",
     "prereq": {
-      "and": [
+      "or": [
         "800443"
       ]
     }
@@ -59,7 +59,7 @@
     "fullname": "Mathematical Background for Finance II",
     "info": "Mathematics needed for MFM program. Focuses on finance.\n\nprereq: 5011, grad MFM major, program director approval",
     "prereq": {
-      "and": [
+      "or": [
         "800445"
       ]
     }
@@ -91,10 +91,10 @@
     "fullname": "Mathematical Theory Applied to Finance II",
     "info": "Bridge between theory and application.\n\nprereq: 5021, [5012 or concurrent registration is required (or allowed) in 5012], grad MFM major, program director approval",
     "prereq": {
-      "and": [
+      "or": [
         "800447",
         {
-          "and": [
+          "or": [
             "800446"
           ]
         }
@@ -128,10 +128,10 @@
     "fullname": "A Practitioner's Course in Finance II",
     "info": "Taught by industry professionals. Focuses on hands-on real-world problem solving.\n\nprereq: 5031, [5022 or concurrent registration is required (or allowed) in 5022], grad MFM major, program director approval",
     "prereq": {
-      "and": [
+      "or": [
         "800449",
         {
-          "and": [
+          "or": [
             "800448"
           ]
         }
@@ -161,7 +161,7 @@
     "fullname": "Computation, Algorithms, and Coding in Finance II",
     "info": "Implements popular finance models and numerical techniques using mainstream computational tools/languages.\n\nprereq: 5091, grad MFM major, program director approval",
     "prereq": {
-      "and": [
+      "or": [
         "800451"
       ]
     }

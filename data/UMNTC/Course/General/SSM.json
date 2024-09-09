@@ -118,7 +118,7 @@
     "fullname": "Sustainable Systems Management Capstone",
     "info": "This course provides students with an opportunity to conduct solutions-driven research in sustainable systems management. Students will work in groups on real-world problems that will require them to integrate the knowledge and skills they have developed in their previous coursework and internship experiences. Project topics will be solicited annually from industrial, corporate, governmental, and other external partners. All projects will require that students take an interdisciplinary systems thinking approach. Strong analytical and communicative skills will be emphasized and developed through iterative assignments. The course will be run by faculty teaching in the Sustainable Systems Management major.\n\nprereq: ESPM 3603, Senior within two semesters of graduation.",
     "prereq": {
-      "and": [
+      "or": [
         "797590"
       ]
     }

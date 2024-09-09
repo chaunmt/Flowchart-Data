@@ -439,7 +439,7 @@
     "fullname": "Work with Youth: Groups",
     "info": "Humans are social creatures.  Throughout the evolution of the human species, the \u201cgroup\u201d has been instrumental in survival and the transmission of culture between generations.  It is generally accepted that the \u201cgroup\u201d is a key building block of the human experience and it has been argued that the \u201cindividual\u201d only knows itself in relation to the \u201cgroup\u201d.\n\nBecause of its fundamental nature in human existence, the group has been a popular topic of study.  Until recently, attempts to chronicle the phenomena of groups have been hampered by a \u201creductionistic\u201d framework.  This attempt to reduce complex phenomena into small measurable parts to be studied has inhibited the ability to capture the \u201csystemic\u201d nature of groups.  The power of the group is the dynamic interaction and interrelation of its component parts.  Advances in general systems and chaos theory have increased our ability to fully grasp the essence of a group.\n\nThere is a difference between group process and group work.  Group processes are naturally occurring phenomena present when a collection of individuals form around a purpose.  Group work is the purposeful and intentional effort on the part of a practitioner to use group process to achieve a goal.  This demands that the practitioner develop a working understanding of group process and develop the skills to effect group functioning.\n\nNumerous group work models have been developed to describe group process and subsequently prescribe the role of the practitioner as facilitator. Although group work\u2019s heritage is tied to the field of Social Work, the preponderance of these models are based upon a therapeutic framework.  Currently, the field of Youth Development is utilizing a solution-oriented participant centered perspective.  This perspective is more in line with the early understanding of group work and is proving to be effective in helping youth develop the skills, knowledge, and attitudes to be successful.\n\nThere are a number of challenges for the practitioner serious about developing their group work ability when working with youth:\n1. Whereas developing an understanding of group process may be obtained in a classroom setting, facilitation skills are best learned and honed through experience in real life settings.  Group work is both a science and an art.\n2. Not only must a practitioner develop a working understanding of groups, they must also have a working understanding of individuals because of the dynamic interplay between individual needs and group phenomena.\n3. The developmental needs of youth dictate that the practitioner's role in working with groups of youth is different than if they were working with adults. \n4. It is virtually impossible to be objective in working with people: a practitioner's own \\\"life history\\\" acts as a lens and filter that influences their interpretation of and strategies for interacting with the group.  This is especially true in youth work where the practitioner, through interaction with youth, is confronted with their own adolescence.\n\nprereq: [1001, 4321 or 4322] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "797905",
         "798585",
         "798586"
@@ -510,9 +510,14 @@
     "fullname": "Indirect Youthwork: Working on Behalf of Young People",
     "info": "Program development/management, policy, and social/community action, all directed at enhancing status of young people. Examining/advocating for particular sociopolitical, economic, and cultural definitions/understandings of young people.\n\nprereq: [[1001 or 2101], 3234] or instr consent",
     "prereq": {
-      "or": [
-        "797905",
-        "797892"
+      "and": [
+        {
+          "or": [
+            "797905",
+            "797892"
+          ]
+        },
+        "797908"
       ]
     }
   },

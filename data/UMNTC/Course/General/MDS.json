@@ -34,7 +34,7 @@
     "fullname": "Project Development",
     "info": "Development, completion, approval of MdS project proposal. Steps/skills of academic project design/development including academic research/writing. Library data base searching methods/citation styles.\n\nprereq: 3001W, MdS major, adviser referral, permission number, basic\ncomputer/internet skills",
     "prereq": {
-      "and": [
+      "or": [
         "798418"
       ]
     }
@@ -50,7 +50,7 @@
     "fullname": "Project Registration",
     "info": "The Project Registration course is an elective within the Multidisciplinary Studies program. The proposal for this course is designed within the previous course, MDS 3101-Project Development. MDS 3201 is designed to allow the completion of project proposal outcomes in consultation with the course instructor and project evaluator, who will provide final approval.  Three completions are allowed. \n\nprereq: include MDS 3001W, MDS 3101, MDS major status, and permission from an MDS adviser.",
     "prereq": {
-      "and": [
+      "or": [
         "798418",
         "808803"
       ]
@@ -67,7 +67,7 @@
     "fullname": "Project Registration 2",
     "info": "Complete project developed in MdS 3101 by conducting research, accomplishing project outcome(s), securing a narrative evaluation from project adviser/evaluator.\n\nprereq: 3001W, MdS major status, C- or above 3101, approved project proposal, permission number, basic computer/internet skills",
     "prereq": {
-      "and": [
+      "or": [
         "798418",
         "808803"
       ]
@@ -84,7 +84,7 @@
     "fullname": "Project Registration 3",
     "info": "Complete project developed in MdS 3101 by conducting research, accomplishing project outcome(s), securing narrative evaluation from project adviser/evaluator.\n\nprereq: 3001W, MdS major, C- or above 3101, approved project proposal, permission number, basic computer/internet skills",
     "prereq": {
-      "and": [
+      "or": [
         "798418",
         "808803"
       ]

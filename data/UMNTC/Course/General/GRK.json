@@ -320,8 +320,12 @@
     "fullname": "Advanced Readings in Greek Prose",
     "info": "The primary material for this course will be a selection of readings from three or more different\nGreek prose authors connected by genre (e.g. historical writing, philosophy, oratory, novel),\ntheme (e.g. medicine, Athenian politics of the 5 th /4 th centuries, religious innovation), period (e.g.\nclassical period, Second Sophistic), or the like. Primary readings and critical approach will vary\nfrom year to year, making the course repeatable. Some modern secondary reading will be\nassigned to provide a basis for discussion and a model for student written work.\n\nprereq: [GRK 3004 or equiv], at least two yrs of college level Greek. Contact the Classical & Near Eastern Religions & Cultures Department (CNRC) with any questions.",
     "prereq": {
-      "or": [
-        "008804"
+      "and": [
+        {
+          "or": [
+            "008804"
+          ]
+        }
       ]
     }
   },

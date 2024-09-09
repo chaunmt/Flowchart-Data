@@ -602,7 +602,7 @@
     "fullname": "Multivariate Techniques",
     "info": "Use of bivariate and multivariate statistical approaches for analyzing and evaluating public affairs issues and the assumptions behind the analytical approaches. Designed to help students read, understand, interpret, use, and evaluate empirical work used in social sciences by policy analysts and policy makers.\n\nprereq: Students who register for PA 5033 must take PA 5044 and PA 5033 in the same semester. The same grade will be issued for PA 5044 and PA 5033 after PA 5033 is completed.",
     "prereq": {
-      "and": [
+      "or": [
         "010697",
         "811878"
       ]
@@ -731,7 +731,7 @@
     "fullname": "Applied Regression, Accelerated",
     "info": "Bivariate/multivariate models used in regression analysis, including assumptions behind them/problems that arise when assumptions are not met. Course covers similar topics as PA 5032 but delves deeper into theory/application of methods.\n\nprereq: Students who register for PA 5044 must take PA 5044 and PA 5033 in the same semester. The same grade will be issued for PA 5044 and PA 5033 after PA 5033 is completed.",
     "prereq": {
-      "and": [
+      "or": [
         "811878",
         "010697"
       ]
@@ -1333,7 +1333,7 @@
     "fullname": "Executive Public Safety Leadership I",
     "info": "Public safety executive leadership, citizen engagement, and organizational change. Understanding the self and community. Leadership foundations and methods. Public trust and legitimacy. Community participation, inclusion and problem solving. This hybrid course meets 1-2 days per month with all other coursework completed online. It is a prerequisite for PA 5182: Public Safety Leadership II.\n\nprereq: Public or nonprofit officials with experience in or with public safety agencies, including law enforcement, fire, emergency management/medical services, or military.",
     "prereq": {
-      "and": [
+      "or": [
         "816315"
       ]
     }
@@ -3637,9 +3637,17 @@
     "fullname": "Economic Demography",
     "info": "Classical theory, advanced econometric methods, recent empirical work, and available datasets for research in economic demography. Topics include the economics of mortality, fertility, migration, marriage, women's labor supply, intra-family bargaining, and age structure. Students develop critical analysis and academic discourse skills through in-depth discussions and replications of papers, presentations, referee-style writing assignments, and a term paper.\n\nprereq: Grad-level economic theory (PA 5021 or equiv) and econometrics (PA 5033 or equiv) and instructor permission",
     "prereq": {
-      "and": [
-        "013939",
-        "010697"
+      "or": [
+        {
+          "or": [
+            "013939"
+          ]
+        },
+        {
+          "or": [
+            "010697"
+          ]
+        }
       ]
     }
   },

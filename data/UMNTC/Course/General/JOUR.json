@@ -278,7 +278,12 @@
     "info": "This course teaches concepts, tools, and techniques for effective data journalism storytelling on digital platforms. Students will develop ways to display stories through the most important emerging tools for using structured information in journalism, including learning the fundamentals of gathering data and performing analyses to find stories and creating visualizations to illustrate trends and patterns. Students will use maintain a blog to curate their work, learning how to use what they build in one of the most common content management systems. Students will rely on open-source tools, but will also learn basic coding to customize those tools for more effective digital presentation. Students will also learn about and critique other digital storytelling formats, user experience concepts, and web analytics.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, JOUR major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229"
       ]
     }
   },
@@ -294,7 +299,12 @@
     "info": "This course is a skills-based course designed to teach journalism students how to report and write the types of stories that are central to the basic beats in most newsrooms. The course expands upon the competencies learned in JOUR 3101, but requires more in-depth records searches, interviewing, and writing. Students also learn the basics of such subjects as libel law, public records law, and media ethics.  Students will learn in this course how to find news that matters to people, and how to write it so that readers understand it. Whether a student is planning a career in newspapers, television, or other media, they will learn enough to get started as a reporter and to understand how things work (or don't work) in a real newsroom. \n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229"
       ]
     }
   },
@@ -310,7 +320,12 @@
     "info": "In this course, students will learn the fundamentals of editing for print and digital publications. Students will learn to edit copy, to exercise news judgment and to improve the flow and accuracy of stories. The course will also cover how to write search-engine friendly headlines, to utilize online tools for fact-checking and to execute compelling visual designs for digital and print. Successful students will develop an excellent understanding of AP style, hone their ability to improve copy and learn to navigate legal, ethical and production challenges. These skills are particularly important in the modern newsroom \u2014 where economic pressures have removed some layers of fact-checking and editing and forced traditional roles to shift and expand.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229"
       ]
     }
   },
@@ -326,7 +341,12 @@
     "info": "This course is about writing feature stories for magazines. You'll learn how that enterprise differs from newspaper writing. You'll also learn about the various types of magazines that exist as well as what constitutes a magazine in this digital age. We will focus on niche - on the importance of writing for the magazine's audience. You'll learn how to sell your work to different markets and platforms. You'll also discover, if you don't already know it, that the best magazine writing is rooted in solid reporting. You'll be doing more interviewing, fact-finding, and field work than you may have imagined, all of which will improve your writing.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229"
       ]
     }
   },
@@ -374,7 +394,12 @@
     "info": "This course is focused on giving strategic communications students the tools needed to better understand how the creative process works to help solve business problems. We will accomplish this by studying successful advertising campaigns (current and past) and by creating concepts for campaigns. Advertising today is more than just the development of a traditional TV or print ad. Creative concepts include the traditional advertising platforms of TV, Radio, Print, and Outdoor along with the vast array of digital platforms. The strategic and creative development experiences and discussions from this class will help aid students in the development of decision-making and concept development skills that are needed to pursue a career in this field.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -389,7 +414,7 @@
     "fullname": "Strategic Communication Research and Analytics",
     "info": "This course is designed to teach strategic communication students the fundamentals of research used by communication and marketing research professionals to evaluate the effectiveness of campaigns. Students will be exposed to various data collection and analysis methods with particular emphasis on quantitative research methods (e.g., surveys, experiments, digital analytics) commonly used to collect data to aid strategic communication decision making.\n\nprereq: JOUR 3004 or 3004H, JOUR 3201, Strat Comm major",
     "prereq": {
-      "and": [
+      "or": [
         "000223",
         "000236"
       ]
@@ -407,7 +432,12 @@
     "info": "This course examines the role of account planning in integrated marketing communications development for today\u2019s complex cultural and media environments. It is designed to teach you how to use research and analytic tools to identify strategic insights about target consumers. These insights will then be used to develop effective brand positioning and message strategies. You will develop an awareness and understanding of the skills needed to become a strategic brand planner and an opportunity to apply these strategic skills in various situations and settings.\n\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -423,7 +453,12 @@
     "info": "The objective of the course is to provide a basic understanding of the media strategy, planning, and selection process within the context of the broader marketing communications process. The course will cover paid, owned and earned media across advertising, digital (including social), and direct marketing disciplines. The media planning process incorporates subjective decision making after reviewing significant amounts of objective data. The development of recommendations with supporting rationale is the basis for the process. Students are introduced to this process focusing on the prioritization of strategies and media selection within a fixed budget. Marketing and media examples covering number industries to help students grasp theoretical concepts. The media selection process incorporates the demographic media consumption patterns of the American consumer. Students will also be exposed to the measurement methodologies for all major media. The course will cover the strengths and weaknesses of various media and how they are applied to accomplish marketing communication objectives. Students will garner hands on experience with data and planning resources.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -439,7 +474,12 @@
     "info": "This course is designed to provide a basic understanding of digital communications and strategy development. The course covers the digital communications planning process and emphasizes how to develop effective communications strategies in today\u2019s digital-centric environment. The digital revolution of the last fifteen years makes it imperative for communications professionals to understand how to evaluate and select digital marketing channels to best achieve business goals. This course is designed to assist students to build the professional skills they need to compete in a digital world. This course teaches students how to develop a digital communications plan from start to finish. Students will increase their understanding of how digital communications relate to more traditional marketing and PR tactics. Students will move through a discovery process learning to analyze consumers\u2019 digital marketing behavior, their demand for content, the effectiveness of various social media channels including website performance. The course will review current digital tools, trends, and tactics; weighing the difference between what is \u201chot\u201d versus which channels can best be used to achieve a brand\u2019s communications goals. Students will leave the course with an increased knowledge of digital communications and ability to evaluate and strategically apply digital marketing techniques in a real-world communications environment.\n\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -455,7 +495,12 @@
     "info": "This course is designed to develop writing expertise for public relations and advertising agency work, corporate and non-profit strategic communication and development of tactical thinking and publicity techniques. The course focuses on developing the essential writing capabilities needed to complete a wide variety of projects in public relations and related strategic communication professions. It is designed to help students gain experience in researching, interviewing, writing, and producing materials used by strategic communication professionals. These include biographies, press releases, fact sheets, backgrounders, newsletters, brochures, speeches, A/V scripts, and other materials for broadcast.\nDiscussion of public relations tactics, the role of public relations and advertising agencies and various media channels is integrated into the course \u2013 so that students should develop a strong understanding of the many aspects of the strategic communication profession. Theories of persuasion, social influence, and compliance gaining are interwoven into class discussions.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -491,7 +536,13 @@
     "info": "This course is the introductory broadcast and digital writing and reporting course. It is the student's introduction to writing in broadcast and digital style, video photojournalism, and digital video editing. This is not a production class. It will apply journalism to the production techniques learned in JOUR 3102. Also included: source and story development, ethical decision-making, audio storytelling, and vocal and on-camera delivery.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229",
+        "790544"
       ]
     }
   },
@@ -775,7 +826,8 @@
           "or": [
             "000223"
           ]
-        }
+        },
+        "000229"
       ]
     }
   },
@@ -791,7 +843,13 @@
     "info": "This course will cover game-story writing, multimedia/digital storytelling, interview/press conference techniques, sports-business reportage, data-driven journalism, effective use of social media and opinion/column writing. Top sports media professionals and other local sports personalities will come in periodically to tell their stories and teach students some of what they know about good sports journalism. The aim of this course is to provide first steps toward working in today's sports media environment. Some possible sports career destinations include becoming: an authoritative sports blogger; TV sports anchor, reporter, or sideline analyst; beat reporter or sports editor for a newspaper (and its website); team sports information director; writer of long, beautiful prose for a national magazine or website.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, JOUR 3121 or instructor permission, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229",
+        "000230"
       ]
     }
   },
@@ -807,7 +865,13 @@
     "info": "Nieman Journalism lab declared Podcasting the last mass medium. WNYC invested $15 million in development on podcasts last year alone with the New York Times, the LA Times, and now the Washington Post not far behind.  Whether it's for news and information, strategic communication messaging, or pure entertainment, podcasting has changed how the world seeks and delivers information.  \n\nThis class will take the mystery out of audio: what makes it different, where its challenges lie, and what makes it such an enticing medium to work in.  Students will learn the basics of narrative audio storytelling, which is used extensively in some of the most influential podcasts including Serial, This American Life, Caliphate, Dirty John to podcasts like Target's Coffee and Crayons (produced in partnership with Slate Studios) and the Trader Joe's podcast Inside Trader Joe\u2019s. Audio has the power to involve the listeners, to make them a part of the story - whether it's buying crayons or explaining an Islamic insurgency - the tools are the same: real voices, sound, and conversational writing. Students will learn how to harness sound, to use it to develop a narrative and tell stories with scope, sound, and texture.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229",
+        "790544"
       ]
     }
   },
@@ -822,12 +886,13 @@
     "fullname": "Brovald-Sim Community Journalism Practicum",
     "info": "Community journalism is arguably the most relevant source of news and information for our citizenry, whether in urban, suburban, or rural settings. That's still true today, but the nature of what we call community journalism is changing. For decades, community journalism has been defined by its geographical boundaries, concerning chiefly the institutions - schools, churches, businesses, or government - within those borders. While that traditional community journalism is certainly still alive today, the reach of digital journalism and social media has transformed the notion of community. New communities can define themselves beyond geography, a shift that creates opportunities for journalists to cover a broader sense of \"where\" people live. This course will explore this shift through practical, hands-on experience, and thoughtful consideration of the journalist's role in covering diverse communities. Through readings, lectures and discussions with professionals who do the work, students will consider the notion of community journalism and the best practices for it. Students will target a community in and around the University of Minnesota and develop cover that community on the student-run website AccessU. The goal is for those teams to publish relevant stories about the community on that site in text, photos, video, and visualizations.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, [JOUR 3103 or JOUR 3121 or JOUR 3155 or JOUR 3173 or JOUR 4302], Jour major",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "000223"
           ]
         },
+        "000229",
         {
           "or": [
             "810238",
@@ -852,7 +917,13 @@
     "info": "This course improves students' creative development and conceptual thinking. Students will develop creative ideas based on sound strategies, with emphasis on developing ideas for current and evolving creative media opportunities. At the end of the term, students will be able to apply strategic and insightful creativity to advertising ideas and will have a basic understanding of how to put a book together for the field of advertising.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, JOUR 3241, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236",
+        "000237"
       ]
     }
   },
@@ -867,12 +938,13 @@
     "fullname": "Digital Content Development and Production for Brand Communications",
     "info": "This course focuses on the conceptual and practical skills necessary for strategic communication practitioners, especially those focused on careers in public relations, corporate communications, and sponsored content generation, to create, produce, publish, and distribute content for brands. The course addresses new technologies for branded storytelling including various forms of online video, longer form digital content such as blogs and web sites, and social media community content created for social platforms. The course also incorporates elements of user experience and graphic design and the skills necessary to adapt and modify content in an iterative process after analyzing audience data.  Discussion of professional ethics in the creation of branded content is incorporated throughout.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, [JOUR 3241 or JOUR 3279], Strat Comm major",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "000223"
           ]
         },
+        "000236",
         {
           "or": [
             "000237",
@@ -894,7 +966,12 @@
     "info": "This course teaches the concepts and strategies of effective crisis communication. Crisis communication is an important and integral part of an organization's strategic communication repertoire. Effective crisis communication can save lives, reduce negative outcomes, and protect an organization's employees, reputation, and brand image. Topics taught in this course include crisis type identification and evaluation, forming a crisis management team, planning and execution of crisis communication strategies, and post-crisis communication evaluation. Case studies will be used to teach and analyze crisis communication concepts. Students will participate in a crisis communication simulation to gain experience planning and executing the concepts and strategies learned in this course. \n\nprereq: [Jour 3004 or 3004H], Jour 3201, any 32xx skills course, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -922,7 +999,12 @@
     "info": "This course seeks to provide the knowledge and skills needed to research, plan, and implement communication campaigns for corporate social responsibility (CSR) practices. In response to increasing social demand, corporations today make significant efforts to integrate CSR initiatives into all aspects of their business. Strategic communication of CSR has a vital role to play in maximizing its business impact, but also creating a more responsible and sustainable society. Effective CSR initiatives and communication must be deliberate, planned, and evaluated. This course examines theories and practices related to CSR in order to understand the business environment in which public relations/advertising operate and apply them to developing and evaluating communication campaigns. Specifically, this course provides an overview of CSR, its evolution, and theories in management and psychology that underlay strategic approaches and consumer behavior. This course also covers the planning and integration of media into strategic CSR communication programs. Students will learn to set objectives, develop CSR campaign plans, integrate traditional and social media into overall communication plans, measure program results, utilize digital media technologies, and about the macro-environmental issues affecting CSR governances.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, any 32xx skills course, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -938,7 +1020,12 @@
     "info": "This course explores a wide range of strategic communications campaigns in a case study setting. Students will explore real-life situations and analyze them from a strategic, integrated communications point of view. The cases will focus on building relationships with key stakeholder groups, using strategic communication in today\u2019s global environment, and critically analyzing ethical and legal issues. The course objective is to provide students with opportunities to apply their analytical skills when identifying communication opportunities and problems, evaluating the cost and benefits of alternative communication strategies, and evaluating the outcomes of communication campaign decisions. Students will learn how quantitative and qualitative evidence can be used to support strategic decisions, recommendations, and campaign evaluation. Campaigns are drawn from the business, nonprofit, government, and political sectors, and they focus on communication issues addressed through strategic communication, including public relations, advertising, marketing, and/or social media. Students also examine cases involving crisis communication, media relations, and multicultural communication. The case study approach will prepare students to develop their decision-making skills based on best practices learned through the critical evaluation of past and present campaigns.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, any 32xx skills course, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -954,7 +1041,12 @@
     "info": "This course teaches the concepts and methods for effective management by placing them in the context of organizations in the field of strategic communication. These organizations are diverse in their scale of operations and in the products and services they produce. They are highly responsive to the latest developments in digital media technology, conditions in the local and global economy, and trends in society. They include advertising agencies, public relations firms, media organizations, digital media agencies, brand content developers, and communication departments in client organizations, both for profit and nonprofit businesses. The topics taught in this course include strategic business planning, budgeting, understanding fundamental financial concepts, leadership skills, human resource management, project management and marketing, and selling skills. The concepts, skills and perspectives covered in this course apply to both working within organizations and to understanding the business circumstances of clients and competitors. The course also serves to awaken students to the potential, when opportunities arise, to propose and develop new business ideas of their own.\n\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, any 32xx skills course, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -970,7 +1062,12 @@
     "info": "This course provides an in-depth look at all aspects of strategic communications culminating in the development of a strategically sound communications campaign.  Emphasis is on \u201creal-life\u201d examples of campaigns, their creation, and development.  All essentials of developing a strategic campaign are covered, including advertising strategy, positioning, developing creative, consumer research, planning and setting objectives, media strategies, budgeting, public relations programs, and promotion.  This course is designed to bring together all aspects of communications planning that students have gained from previous classes.  The class will focus on the integration of various techniques and elements available to most effectively create a strategic communications campaign.  This course will simulate the teamwork involved in working in a strategic communications agency.  Case studies will be used extensively to apply the theory to the practice in a meaningful, memorable way.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, any 32xx skills course, any 4/5xxx skills course or coreq, Strat Comm major\n",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -1050,7 +1147,13 @@
     "info": "Students in this course can expect to learn skills in understanding convergence journalism and visual roles and responsibilities in newsrooms, understanding basic video news production using a DSLR, and using those to create a portfolio of still images with significant journalistic content. Students will study some concept and theory, plus approaches in covering story events and using a variety of technologies to gather, edit, and disseminate stories. Students will look at ways to tailor stories for print, broadcast, web, and mobile reporting, and talk about the differences in audience and will study ethics all along the way, too. Students will get photo-nerdy. They will learn production skills that include visual grammar and application, how to use a DSLR camera for both still and video images, and how to use light and color to tell news and feature stories. Plus, students will learn to edit photos and video for great images and for great stories. \n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229",
+        "790544"
       ]
     }
   },
@@ -1066,7 +1169,13 @@
     "info": "Students produce in-depth multimedia stories, using photography, audio, video, text, and infographics, working both individually and in groups. Students will produce and participate in a completed multimedia project (with at least three story forms)  by the end of the semester. Students examine the implications of differing approaches to multimedia production and consider ethical issues raised by it. Exemplary work of multimedia journalism is regularly presented and reviewed.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3101, JOUR 3102, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229",
+        "790544"
       ]
     }
   },
@@ -1098,7 +1207,10 @@
           "or": [
             "000223"
           ]
-        }
+        },
+        "000229",
+        "790544",
+        "000240"
       ]
     }
   },
@@ -1118,7 +1230,10 @@
           "or": [
             "000223"
           ]
-        }
+        },
+        "000229",
+        "790544",
+        "000240"
       ]
     }
   },
@@ -1236,7 +1351,8 @@
             "000236",
             "000231"
           ]
-        }
+        },
+        "000223"
       ]
     }
   },
@@ -1300,7 +1416,13 @@
     "info": "The approach to the class is dual: First, there is an academic component - studying the best examples in-depth reporting from muckrakers to yesterday\u2019s New York Times. This part of the course will be presented in a seminar style with a high-expectation for student involvement. Second, there is a hands-on component - giving students the opportunity to exercise what they learn in this class and elsewhere in their journalism program. This part of the course will require students to identify appropriate stories for in-depth reporting, outline the proposed stories to the instructor, thoroughly report the stories and go through the editing process. Students will also produce graphics and photographs, and might consider various multi-media possibilities. The class topics will be organized around essential social issues, such as health care, politics, poverty, business, or other topics. During some semesters, students will produce news stories for publication at a professional news organization, such as MinnPost.com. Such opportunities in past classes have allowed students to work with professional reporters and editors and get bylines stories read by thousands.prereq: [JOUR 3004 or 3004H], JOUR 3101, JOUR 3121, Jour major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000229",
+        "000230"
       ]
     }
   },
@@ -1315,9 +1437,10 @@
     "fullname": "Database Reporting",
     "info": "Obtaining and analyzing digital data for computer-assisted reporting that can be published on various media platforms. Using spreadsheets and databases to manage information, find news stories, produce maps and graphics.\n\nprereq: [Jour 3004W or 3004V], 3101, [3103 or 3121]; jour major or approved BIS/IDIM/ICP program",
     "prereq": {
-      "and": [
+      "or": [
+        "000229",
         {
-          "and": [
+          "or": [
             "810238",
             "000230"
           ]
@@ -1336,12 +1459,13 @@
     "fullname": "Magazine Editing and Production",
     "info": "This course focuses on magazine and web writing, editing, photography, graphic design, and production. Students will study concepts of magazine and web communication with a special concern for how words, pictures, multimedia and design can be combined effectively. Over the semester, the class will create and produce a professional quality single-theme magazine and website. During this process, students will experience firsthand the organization and working of an editorial and production staff, and the implications of specific divisions of labor and working relationships. All students will write an article and/or produce web content as well as hold a staff job.prereq: [JOUR 3004 or 3004H], [{JOUR 3101 and [JOUR 3155 or JOUR 3173 or JOUR 3321 or JOUR 4171 or JOUR 4302]}, Jour major.  Strat Comm majors must have completed Jour 3279W and need to contact sjmcugs@umn.edu for a permission number.",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "000223"
           ]
         },
+        "000229",
         {
           "or": [
             "000232",
@@ -1350,7 +1474,8 @@
             "000560",
             "790718"
           ]
-        }
+        },
+        "000234"
       ]
     }
   },
@@ -1498,7 +1623,12 @@
     "info": "Despite the amount of money spent on (and the faith placed in) campaigns and other programs for social good, we often cannot answer basic questions about how these programs worked and the impact they had. There are methodological, programmatic, practical, and political reasons for this\u2014all of which we will address in this course. In so doing, we will identify the key components of program design and evaluation, drawing on examples from domains including the environment, public health, and social justice. The overarching goal of this course is to give students the skills they need to understand and assess the effectiveness of campaigns and other programs for social good, whether as consumers or producers of such content.\n\nprereq: [JOUR 3004 or 3004H], JOUR 3201, any 32xx skills course, Strat Comm major",
     "prereq": {
       "or": [
-        "000223"
+        {
+          "or": [
+            "000223"
+          ]
+        },
+        "000236"
       ]
     }
   },
@@ -1805,7 +1935,7 @@
     "fullname": "Writing and Planning for Converged Media",
     "info": "An exploration of how communication strategies are integrated across media, this course will include the identification of all relevant stakeholders, points of media contact, audience segmentation, and the roles that each communication discipline can play in campaign development. It will also explore the relationships among media that underline a successful communications campaign.\n\nprereq: 8200, 8201, 8202, strat comm MA grad major",
     "prereq": {
-      "and": [
+      "or": [
         "797250",
         "797251",
         "797252"
@@ -1823,7 +1953,7 @@
     "fullname": "Measuring the Effectiveness of Strategic Communication Campaigns",
     "info": "Examination, evaluation, and application of concepts/methods to evaluate effectiveness of strategic communication campaigns and their components.\n\nprereq: 8203, Strat Comm MA grad major",
     "prereq": {
-      "and": [
+      "or": [
         "797253"
       ]
     }
@@ -1839,7 +1969,7 @@
     "fullname": "Strategic Communication Cases & Campaigns",
     "info": "Case study analysis concerning development, implementation, and evaluation of communication strategies. Cases cover broad range of organizations, focus on such issues as brand introduction, brand reinforcement, revitalizations, crisis communication, issues management, and legal/ethical considerations.\n\nprereq: 8203, strat comm MA grad major",
     "prereq": {
-      "and": [
+      "or": [
         "797253"
       ]
     }
@@ -1855,7 +1985,7 @@
     "fullname": "Directed Study: Development of an Integrated Strategic Communication Campaign",
     "info": "Project to develop a case study analysis concerning development, implementation, and evaluation of a strategic communication campaign.\n\nprereq: 8205, strat comm MA grad major",
     "prereq": {
-      "and": [
+      "or": [
         "797255"
       ]
     }
@@ -2019,9 +2149,14 @@
     "fullname": "Seminar: Ethnographic Methods in Mass Communication Research",
     "info": "Theoretical foundations in anthropology/sociology. Field projects.\n\nprereq: [8001, 8002] or instr consent; same as Anth 8810",
     "prereq": {
-      "and": [
-        "000274",
-        "000275"
+      "or": [
+        {
+          "and": [
+            "000274",
+            "000275"
+          ]
+        },
+        "008783"
       ]
     }
   },

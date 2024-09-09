@@ -172,11 +172,19 @@
     "info": "Advanced Object-Oriented programming to implement abstract data types (stacks, queues, lists, key-value stores) using various implementation strategies (array-backed, linked data structures, hash tables, binary trees) using the Java language. Searching/sorting algorithms. Basic algorithmic analysis. The Python scripting language. Substantial programming projects and Weekly labs.\n\nprereq: (CSCI 1103 or CSCI 1113 or EE 1301 or instr consent) AND (concurrent registration in MATH 1271 or MATH 1371 or MATH 1571H or instr consent)",
     "prereq": {
       "and": [
-        "003667",
-        "003669",
-        "016634",
-        "000120",
-        "003692"
+        {
+          "or": [
+            "003667",
+            "003669",
+            "016634"
+          ]
+        },
+        {
+          "or": [
+            "000120",
+            "003692"
+          ]
+        }
       ]
     }
   },
@@ -306,8 +314,12 @@
     "info": "Principles/techniques for creating correct, robust, modular programs. Computing with symbolic data, recursion/induction, functional programming, impact of evaluation strategies, parallelism. Organizing data/computations around types. Search-based programming, concurrency, modularity.\n\nprereq: (CSci 1913 or CSci 1933) and CSci 2011",
     "prereq": {
       "and": [
-        "809667",
-        "810346",
+        {
+          "or": [
+            "809667",
+            "810346"
+          ]
+        },
         "003672"
       ]
     }
@@ -411,8 +423,13 @@
     "fullname": "Introduction to Discrete Structures and Algorithms",
     "info": "Overview of strategies and techniques for the design and analysis of algorithms. Logic and proof techniques, asymptotic notation, recurrences, graphs, and relations. Algorithm design strategies and examples from graph algorithms, greedy, divide-and-conquer, and dynamic programming. This course is intended for non-CS Majors. \n\nprerequisite: CSci 2081 OR (upper class standing AND CSci 2081 as a co-requisite) ",
     "prereq": {
-      "and": [
-        "819081"
+      "or": [
+        "819081",
+        {
+          "and": [
+            "819081"
+          ]
+        }
       ]
     }
   },
@@ -532,8 +549,12 @@
     "info": "Rigorous analysis of algorithms/implementation. Algorithm analysis, sorting algorithms, binary trees, heaps, priority queues, heapsort, balanced binary search trees, AVL trees, hash tables and hashing, graphs, graph traversal, single source shortest path, minimum cost spanning trees.\n\nprereq: [(CSCI 1913 or CSCI 1933) and CSCI 2011] or instr consent or grad standing",
     "prereq": {
       "and": [
-        "809667",
-        "810346",
+        {
+          "or": [
+            "809667",
+            "810346"
+          ]
+        },
         "003672"
       ]
     }
@@ -549,7 +570,7 @@
     "fullname": "Introduction to Operating Systems",
     "info": "Processes/threads, process coordination, interprocess communication, asynchronous events, memory management/file systems. Systems programming projects using operating system interfaces and program development tools.\n\nprereq: 2021 or EE 2361; CS upper div, CompE upper div., EE upper div., EE grad, ITI upper div., or dept. permission; no cr for grads in CSci.",
     "prereq": {
-      "and": [
+      "or": [
         "003673",
         "003371"
       ]
@@ -603,8 +624,13 @@
     "info": "Issues in internet programming. Internet history, architecture/protocols, network programming, Web architecture. Client-server architectures and protocols. Client-side programming, server-side programming, dynamic HTML, Java programming, object-oriented architecture/design, distributed object computing, Web applications.\n\nprereq: [CSCI 1133 OR CSCI 1913] AND CSCI 4061. Cannot be taken for grad CSci cr.",
     "prereq": {
       "or": [
-        "809666",
-        "809667"
+        {
+          "or": [
+            "809666",
+            "809667"
+          ]
+        },
+        "002187"
       ]
     }
   },
@@ -655,7 +681,11 @@
     "prereq": {
       "and": [
         "793076",
-        "002187"
+        {
+          "and": [
+            "002187"
+          ]
+        }
       ]
     }
   },
@@ -694,11 +724,15 @@
     "fullname": "Programming Interactive Computer Graphics and Games",
     "info": "Tools/techniques for programming games/interactive computer graphics. Event loops, rendering/animation, polygonal models, texturing, physical simulation. Modern graphics toolkits. History/future of computer games technology. Social impact of interactive computer graphics.\n\n\nprereq: coreq CSci 2033 and (CSci 2041 or CSci 2081 or CSci 3081W)",
     "prereq": {
-      "and": [
+      "or": [
         "805147",
-        "810347",
-        "819081",
-        "793076"
+        {
+          "or": [
+            "810347",
+            "819081",
+            "793076"
+          ]
+        }
       ]
     }
   },
@@ -753,7 +787,7 @@
     "fullname": "Advanced Project Laboratory",
     "info": "Formulate and solve open-ended project: design, implement, interface, document, test. Team work strongly encouraged. Arranged with CSci faculty.\n\nprereq: Upper div CSci, 4061, instr consent; cannot be taken for grad cr",
     "prereq": {
-      "and": [
+      "or": [
         "002187"
       ]
     }
@@ -781,7 +815,7 @@
     "fullname": "Operating Systems",
     "info": "Conceptual foundation of operating system design and implementation. Operating system internals including OS structures and algorithms, and their relationship to machine architecture. Real-world OS implementation mechanisms as examples.\n\nprereq: CSCI 4061 or graduate standing",
     "prereq": {
-      "and": [
+      "or": [
         "002187"
       ]
     }
@@ -842,10 +876,18 @@
     "fullname": "User Interface Design, Prototyping, and Evaluation",
     "info": "Theory, design, programming, and evaluation of interactive application interfaces. Human capabilities and limitations, interface design and engineering, prototyping and interface construction, interface evaluation, and topics such as data visualization and World Wide Web. Course is built around a group project.\n\nprereq: Graduate Status OR (Junior or Senior Status AND CSCI 3081) OR (Junior or Senior Status AND CSci 2081 AND CSci 3041) OR (Junior or Senior Status and User Experience (UX) Design Undergraduate Minor) OR Permission of Instructor",
     "prereq": {
-      "and": [
-        "793076",
-        "819081",
-        "819147"
+      "or": [
+        {
+          "or": [
+            "793076"
+          ]
+        },
+        {
+          "or": [
+            "819081",
+            "819147"
+          ]
+        }
       ]
     }
   },
@@ -872,7 +914,7 @@
     "fullname": "Developing the Interactive Web",
     "info": "Hands-on design experience using modern web development tools. Students work in teams to develop software programs using each of four toolkits. Analyze developments in forum posts and classroom discussions.\n\nprereq: CSCI 4131 or Grad Standing",
     "prereq": {
-      "and": [
+      "or": [
         "790654"
       ]
     }
@@ -985,7 +1027,7 @@
     "fullname": "Advanced Computer Architecture",
     "info": "Instruction set architecture, processor microarchitecture, memory, I/O systems. Interactions between computer software and hardware. Methodologies of computer design.\n\nprereq: CSCI 4203 or EE 4363 or graduate standing",
     "prereq": {
-      "and": [
+      "or": [
         "002173",
         "793204"
       ]
@@ -1060,7 +1102,7 @@
     "fullname": "Introduction to Computer Security",
     "info": "Concepts of computer, network, and information security.\nRisk analysis, authentication, access control, security evaluation, audit trails, cryptography, network/database/application security, viruses, firewalls.\n\nprereq: CSci 4061 or CSci 5103 or Grad Standing",
     "prereq": {
-      "and": [
+      "or": [
         "002187",
         "002184"
       ]
@@ -1125,7 +1167,7 @@
     "fullname": "Analysis of Numerical Algorithms",
     "info": "Additional topics in numerical analysis. Interpolation, approximation, extrapolation, numerical integration/differentiation, numerical solutions of ordinary differential equations. Introduction to optimization techniques.\n\nprereq: CSCI 2033 OR Math 2142 OR Math 2243 OR Math 2373 OR Math 4242 OR Grad Standing",
     "prereq": {
-      "and": [
+      "or": [
         "805147",
         "792655",
         "000280",
@@ -1205,7 +1247,7 @@
     "fullname": "Advanced Algorithms and Data Structures",
     "info": "Fundamental paradigms of algorithm and data structure design. Divide-and-conquer, dynamic programming, greedy method, graph algorithms, amortization, priority queues and variants, search structures, disjoint-set structures. Theoretical underpinnings. Examples from various problem domains.prereq: CSCI 4041 or Grad Standing",
     "prereq": {
-      "and": [
+      "or": [
         "003675"
       ]
     }
@@ -1233,7 +1275,7 @@
     "fullname": "Functional Genomics, Systems Biology, and Bioinformatics",
     "info": "Computational methods for analyzing, integrating, and\nderiving predictions from genomic/proteomic data. Analyzing gene expression, proteomic data, and protein-protein interaction networks. Protein/gene function prediction, integrating diverse data, visualizing genomic datasets.\n\nprereq: (CSCI 3041, CSCI 4041, CSCI 3003, or CSCI 5465) or Grad Standing",
     "prereq": {
-      "and": [
+      "or": [
         "819147",
         "003675",
         "797344",
@@ -1264,7 +1306,7 @@
     "fullname": "Modern Cryptography",
     "info": "Introduction to cryptography. Theoretical foundations, practical applications. Threats, attacks, and countermeasures, including cryptosystems and cryptographic protocols. Secure systems/networks. History of cryptography, encryption (conventional, public key), digital signatures, hash functions, message authentication codes, identification, authentication, applications.\n\nprereq: CSci 4041 or Grad Standing",
     "prereq": {
-      "and": [
+      "or": [
         "003675"
       ]
     }
@@ -1310,10 +1352,14 @@
     "fullname": "Artificial Intelligence II",
     "info": "Uncertainty in artificial intelligence. Probability as a model of uncertainty, methods for reasoning/learning under uncertainty, utility theory, decision-theoretic methods.\n\nprereq: Stat 3021 and (CSci 3041 or 4041)) or graduate standing",
     "prereq": {
-      "and": [
+      "or": [
         "001622",
-        "819147",
-        "003675"
+        {
+          "or": [
+            "819147",
+            "003675"
+          ]
+        }
       ]
     }
   },
@@ -1342,9 +1388,13 @@
     "prereq": {
       "and": [
         "001622",
-        "805147",
-        "792655",
-        "010795"
+        {
+          "or": [
+            "805147",
+            "792655",
+            "010795"
+          ]
+        }
       ]
     }
   },
@@ -1391,7 +1441,7 @@
     "fullname": "Deep Learning: Models, Computation, and Applications",
     "info": "This course introduces the basic ingredients of deep learning, describes effective models and computational principles, and samples important applications. Topics include universal approximation theorems, basics of numerical optimization, auto-differentiation, convolution neural networks, recurrent neural networks, generative neural networks, representation learning, and deep reinforcement learning. \n\nprereq: CSCI 5521 \n\nMaturity in linear algebra, calculus, and basic probability is assumed. Familiarity with Python is necessary to complete the homework assignments and final project. ",
     "prereq": {
-      "and": [
+      "or": [
         "014090"
       ]
     }
@@ -1419,7 +1469,7 @@
     "fullname": "Introduction to Intelligent Robotic Systems",
     "info": "Transformations, forward and inverse kinematics, Jacobians. Path planning, motion control, reactive controllers, configuration spaces, sampling-based planning, potential fields. Mobile Robots, control, sensing for robotics, and programming.\n\nprereq: (2033 or Math 2142 or Math 4242) or grad standing",
     "prereq": {
-      "and": [
+      "or": [
         "805147",
         "792655",
         "010795"
@@ -1546,7 +1596,7 @@
     "fullname": "Animation & Planning in Games",
     "info": "Theory behind algorithms used to bring virtual worlds to life. Computer animation topics. Real-time, interactive techniques used in modern games. Physically-based animation, motion planning, character animation, simulation in virtual worlds.\n\nprereq: CSCI 5511 (AI) or CSCI 5551 (Robotics) or CSCI 5607 (Comp Graphics 1) or grad standing",
     "prereq": {
-      "and": [
+      "or": [
         "002152",
         "004518",
         "002142"
@@ -1628,7 +1678,7 @@
     "fullname": "Big Data Engineering and Architecture",
     "info": " Big data and data-intensive application management, design and processing concepts. Data modeling on different NoSQL databases: key/value, column-family, document, graph-based stores. Stream and real-time processing. Big data architectures. Distributed computing using Spark, Hadoop or other distributed systems. Big data projects.prereq: 4041, 5707, or instructor consent.",
     "prereq": {
-      "and": [
+      "or": [
         "003675",
         "002192"
       ]
@@ -1645,10 +1695,18 @@
     "fullname": "Software Engineering I",
     "info": "Advanced introduction to software engineering. Software life cycle, development models, software requirements analysis, software design, coding, maintenance.\n\nprereq: (2081 and 3041) or (3081) or (Grad Status)",
     "prereq": {
-      "and": [
-        "819081",
-        "819147",
-        "793076"
+      "or": [
+        {
+          "and": [
+            "819081",
+            "819147"
+          ]
+        },
+        {
+          "or": [
+            "793076"
+          ]
+        }
       ]
     }
   },
@@ -1663,10 +1721,18 @@
     "fullname": "Software Engineering II",
     "info": "Introduction to software testing, software maturity models, cost specification models, bug estimation, software reliability models, software complexity, quality control, and experience report. Student groups specify, design, implement, and test partial software systems.  Application of general software development methods and principles from 5801.\n\nprereq: (CSCI 2081 and CSCI 3041) or (CSCI 3081) or (Grad Status)",
     "prereq": {
-      "and": [
-        "819081",
-        "819147",
-        "793076"
+      "or": [
+        {
+          "and": [
+            "819081",
+            "819147"
+          ]
+        },
+        {
+          "and": [
+            "793076"
+          ]
+        }
       ]
     }
   },
@@ -1898,9 +1964,15 @@
     "fullname": "Security and Privacy in Computing",
     "info": "Recent security/privacy issues in computer systems/networks. Threats, attacks, countermeasures. Security research, authentication, network security, wireless security, computer system security, anonymous system, pseudonym, access control, intrusion detection system, cryptographic protocols. How to pursue research in security and design secure systems.\n\nprereq: [5211, 5103] or instr consent; 5471 or EE 5248 or Math 5248 or equiv recommended",
     "prereq": {
-      "and": [
-        "002174",
-        "002184"
+      "or": [
+        {
+          "and": [
+            "002174",
+            "002184"
+          ]
+        },
+        "793078",
+        "004196"
       ]
     }
   },

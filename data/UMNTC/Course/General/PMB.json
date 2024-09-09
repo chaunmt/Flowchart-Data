@@ -161,7 +161,7 @@
     "fullname": "Microbial Ecology and Applied Microbiology",
     "info": "Evolution/structure of microbial communities. Population interaction within ecosystems. Quantitative/habitat ecology. Biogeochemical cycling. Molecular microbial ecology, gene transfer in the environment. Molecular phylogeny of microorganisms. Application of microbes in agriculture. Production of commodity chemicals, drugs, and other high-value products. \n\nprereq: BIOL 1009, BIOL 1951 or equivalent.",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         "817196"
       ]
@@ -214,7 +214,7 @@
     "fullname": "Plant Physiology and Development",
     "info": "Plant physiology and development is the study of how plant cells, tissues, and whole organisms grow and function in response to internal and external cues. PMB 4412/5412 covers the classic plant physiology and development processes including plant water relations, mineral nutrition, membrane transport, photosynthesis, respiration, vascular function, metabolism, growth and development, and hormone responses. The physics underlying our understanding of these physiological systems will also be addressed. Other areas of plant science such as plant genetics and biochemistry are covered in other courses and will not be emphasized this course. \n\nThere are no enforced prerequisites for this course. \n\nThe following preparation is recommended: PMB 2022 General Botany or PMB 3007W Plant Algal and Fungal Diversity; General Chemistry and Introductory Physics.",
     "prereq": {
-      "and": [
+      "or": [
         "005418",
         "014291"
       ]
@@ -262,10 +262,15 @@
     "fullname": "Topics in Plant Biochemistry",
     "info": "Biochemical analysis of processes unique to photosynthetic organisms. Photosynthesis and carbon dioxide fixation.  Synthesis of carbohydrates, lipids, and derivatives. Aromatic compounds such as lignin, other natural products.  Functions of natural products.\n\nprereq: [BIOL 1002 or BIOL 1009 or BIOL 2003], CHEM 2301",
     "prereq": {
-      "or": [
-        "005420",
-        "005416",
-        "800457"
+      "and": [
+        {
+          "or": [
+            "005420",
+            "005416",
+            "800457"
+          ]
+        },
+        "002392"
       ]
     }
   },
@@ -280,7 +285,7 @@
     "fullname": "Directed Studies: Writing Intensive",
     "info": "Writing Intensive Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. One main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. The project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. This course is graded S/N and approval of the DUGS is required before a grade of S can be given by the faculty mentor. prereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788856",
         "788857",
         "013642",
@@ -299,7 +304,7 @@
     "fullname": "Directed Research: Writing Intensive",
     "info": "Writing Intensive Directed Research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. This course is not for students starting out in research. It is intended for students who already have been working in the research group of the mentor and have developed an independent research project. In this course the student will receive writing instruction through a writing support course (corresponding to 1 credit in addition to the credits of directed research time) that will meet weekly throughout the semester. The written output usually is in the form of a scientific paper describing the results of the student's project. Written output of the course must be revised during the semester and a schedule for writing, assessment, and revision needs to be in place at the beginning of the semester. The project needs to be explained in the campus Directed Research contract and the project and participation in the writing support course agreed on by both the student and faculty mentor. The contract must be approved by the Director of Undergraduate Studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, agreement about how writing instruction will take place, confirmation of understanding of the timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course - near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. The DUGS can call for a final revision before a grade is given. This course is graded S/N by the writing support course instructor, and approval of both the DUGS and the research mentor is required before a grade of S can be given by the writing support course instructor.\n\nThis course is for non-Honors students. Students should register for the number of research credits they intend to pursue plus 1 cr for the writing support component (for example: 2-4 cr of research + 1 cr writing support = 3-5 cr).\n\nprereq: department consent, instructor consent, no more than a total of 7 credits of 4793W, 4794W, 4993, 4994 combined can count towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788856",
         "788857",
         "013642",
@@ -318,7 +323,7 @@
     "fullname": "Directed Studies",
     "info": "Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. The topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
     "prereq": {
-      "and": [
+      "or": [
         "788856",
         "788857",
         "013642",
@@ -337,7 +342,7 @@
     "fullname": "Directed Research",
     "info": "Directed Research is an individual-study, laboratory, or field investigation course. The research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788856",
         "788857"
       ]
@@ -414,7 +419,7 @@
     "fullname": "Plant Physiology and Development",
     "info": "Plant physiology and development is the study of how plant cells, tissues and whole organisms grow and function in response to internal and external cues. PMB 4412/5412 covers the classic plant physiology and development processes including plant water relations, mineral nutrition, membrane transport, photosynthesis, respiration, vascular function, metabolism, growth and development, and hormone responses. The physics underlying our understanding of these physiological systems will also be addressed. Other areas of plant science such as plant genetics and biochemistry are covered in other courses and will not be emphasized this course. There are no enforced prerequisites for this course. The following preparation is recommended: PMB 2022 General Botany or PMB 3007W Plant Algal and Fungal Diversity; General Chemistry and Introductory Physics.",
     "prereq": {
-      "and": [
+      "or": [
         "005418",
         "014291"
       ]
@@ -473,10 +478,15 @@
     "fullname": "Topics in Plant Biochemistry",
     "info": "Biochemical analysis of processes unique to photosynthetic organisms. Photosynthesis and carbon dioxide fixation. Synthesis of carbohydrates, lipids, and derivatives. Aromatic compounds such as lignin, other natural products. Functions of natural products.\n\nprereq: [BIOL 1002 or BIOL 1009 or BIOL 2003], CHEM 2301",
     "prereq": {
-      "or": [
-        "005420",
-        "005416",
-        "800457"
+      "and": [
+        {
+          "or": [
+            "005420",
+            "005416",
+            "800457"
+          ]
+        },
+        "002392"
       ]
     }
   },

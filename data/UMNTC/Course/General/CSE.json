@@ -302,7 +302,7 @@
     "fullname": "Cooperative Industrial Assignment I",
     "info": "This course accompanies an industrial work assignment in engineering and applied science. It includes analysis of technical problems that require developing criteria, evaluating alternatives, and completing a final analysis. A final technical design report emphasizes design communication and describes the technical decision process, analysis, and final recommendations. This course is intended for any College of Science and Engineering student who has been admitted to their major and is participating in the co-op program. There are no specific prerequisites for this course, though it is expected that students taking this course have a background in science or engineering appropriate for their industrial co-op position. Registration is by permission only. Please submit your application to the Co-op Program via Handshake to initiate the course access process. Detailed instructions can be found on the co-op website (https://cse.umn.edu/coop/application-process). This is the first course in a two-semester sequence. CSE 4896 is offered in the summer and spring semesters. CSE 4996 is offered in the Summer and fall semesters. It is expected that students complete a co-op experience back-to-back (i.e. summer/fall or spring/summer). If your co-op plan differs from that, please email co-op@umn.edu to receive permission to take the courses in reverse order.",
     "prereq": {
-      "and": [
+      "or": [
         "825242",
         "825436"
       ]
@@ -319,7 +319,7 @@
     "fullname": "Cooperative Industrial Assignment II",
     "info": "This course accompanies an industrial work assignment in engineering and applied science. The course includes generation of a novel idea requiring developing criteria, evaluating alternatives, and completing a final analysis. A final invention disclosure report emphasizes innovation and communication and includes the technical creation process, hypothesis testing, analysis, and final recommendations. This is the second course in a two course series. While some content is similar between the courses, the first course focuses more on the design and problem solving in an industrial context, this course focuses on the idea creation process and intellectual property protection. This course also includes a section on diversity, equity and inclusion in corporate settings. This course is intended for any College of Science and Engineering student who has been admitted to their major and is participating in the CSE Co-op Program. There are no specific prerequisites for this course, though it is expected that students taking this course have a background in science or engineering appropriate for their industrial co-op position. Registration is by permission only. Please submit your application to the Co-op Program via Handshake to initiate the course access process. Detailed instructions can be found on the co-op website (https://cse.umn.edu/coop/application-process). This is the second course in a two semester sequence. CSE 4896 is offered in the summer and spring semesters. CSE 4996 is offered in the summer and fall semesters. It is expected that students complete a co-op experience back-to-back (ie. summer/fall or spring/summer). If your co-op plan differs from that, please email co-op@umn.edu to receive permission to take the courses in reverse order.",
     "prereq": {
-      "and": [
+      "or": [
         "825242",
         "825436"
       ]

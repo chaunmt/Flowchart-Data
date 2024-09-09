@@ -136,7 +136,7 @@
     "fullname": "Intermediate Ojibwe I",
     "info": "Speaking. Grammar. Storytelling. Oral history. Translation projects.\n\nprereq: 1101, 3103, community member, see department for permission to enroll.",
     "prereq": {
-      "and": [
+      "or": [
         "801127",
         "801129"
       ]
@@ -153,7 +153,7 @@
     "fullname": "Intermediate Ojibwe II",
     "info": "Speaking. Grammar. Storytelling. Oral history. Translation projects.\n\nprereq: 1102, 3102, community member, see department for permission to enroll.",
     "prereq": {
-      "and": [
+      "or": [
         "801128"
       ]
     }

@@ -22,7 +22,7 @@
     "fullname": "Honors: Introduction to the Study of Hispanic Literatures",
     "info": "Structures, meaning, and social/historical function of diverse literary texts.\n\nprereq: 3015, Spanish [major or minor]or Span-Port major",
     "prereq": {
-      "and": [
+      "or": [
         "808939"
       ]
     }
@@ -98,7 +98,7 @@
     "fullname": "Honors Seminar in Spanish and Portuguese Studies",
     "info": "Topics related to cultural studies, literature, linguistics in Iberian/Latin American milieus. Taught in Spanish. May be cross-listed with another department.\n\nprereq: honors student, 3015, [3104W or 3105W or TLDO 3104 or TLDO 3105 or VENZ 3104 or VENZ 3512 or instr consent]",
     "prereq": {
-      "and": [
+      "or": [
         "808939"
       ]
     }

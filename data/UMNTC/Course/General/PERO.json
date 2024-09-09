@@ -45,7 +45,11 @@
     "name": "Multi. Discip. Seminars II",
     "fullname": "Multidisciplinary Treatment Seminar in Dentistry Related to Periodontics II",
     "info": "Series of multidisciplinary treatment seminars related to specialized fields in periodontology, endodontics, pediatric dentistry, AEGD/GPR, and prosthodontics dentistry.\n\nprereq: Resident enrolled in [periodontology, endodontics, pediatric dentistry, AEGD/GPR, prosthodontics], completion of PERO 7322",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "790572"
+      ]
+    }
   },
   {
     "uid": "011510",

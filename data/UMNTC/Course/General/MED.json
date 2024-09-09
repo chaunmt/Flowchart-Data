@@ -796,7 +796,7 @@
     "fullname": "Acting Intern Internal Medicine",
     "info": "The Acting Internship in Internal Medicine is an opportunity for students to serve patients in a general inpatient setting. Acting internship students will take on the responsibility of an acting intern on the internal medicine inpatients team. They will collaborate with and medicine interns and medical students in their foundational training. They will be supervised by medicine senior residents and faculty attendings.\n\nprereq: Med 7500 or Med 7502 and Med 7503\n",
     "prereq": {
-      "and": [
+      "or": [
         "011337",
         "820012",
         "820013"

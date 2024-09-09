@@ -10,7 +10,7 @@
     "fullname": "Honors:Principles of Marketing",
     "info": "Honors: Introduction to terms, concepts, and skills for analyzing marketing problems. Factors outside the organization affecting its product, pricing, promotion, and distribution decisions. Cases from actual organizations. \n\nprereq: ECON 1101 or ECON 1165, Honors Student",
     "prereq": {
-      "and": [
+      "or": [
         "010017"
       ]
     }

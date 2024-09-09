@@ -462,7 +462,7 @@
     "fullname": "Indigenous Immersion Methods for the Home, Classroom, and Community",
     "info": "Prepares students as advanced language students to participate in and facilitate immersion environments within both formal and informal settings including the home, second language classrooms, immersion classrooms, language tables, immersion camps, and other community settings. prereq: OJIB 3104, DAKO 3124 or four semesters of another target language, or with instructor approval.",
     "prereq": {
-      "and": [
+      "or": [
         "801130",
         "801126"
       ]

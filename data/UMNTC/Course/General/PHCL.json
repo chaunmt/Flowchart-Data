@@ -106,7 +106,7 @@
     "fullname": "Chemotherapy: from current anticancer drugs to future cancer therapeutics",
     "info": "This course will expose students to the studies of therapeutic agents used for the treatment of cancer.  We will study the mechanisms of current anticancer drugs.  We will also explore the recent development of novel anticancer agents, as well as the process of drug discovery & development.\n\nprereq: College-level biology: PHCL 2001 and/or PHCL3100, GCD4151 recommended.",
     "prereq": {
-      "and": [
+      "or": [
         "809632",
         "796707",
         "788935"
@@ -131,6 +131,7 @@
             "795439"
           ]
         },
+        "796707",
         {
           "or": [
             "014290",
@@ -555,7 +556,7 @@
     "fullname": "Advanced Medical Pharmacology II",
     "info": "Online content focused on organ system-based study of medical therapeutics. In-class content focused on current biomedical literature. Develop critical reasoning skills needed to interpret/critique basic science, translational, clinical research papers/presentations.\n\nprereq: 8211 or instructor consent\n\nKeywords: Pharmacology, Drug, Therapy, Medical, Biomedical, Clinic",
     "prereq": {
-      "and": [
+      "or": [
         "809531"
       ]
     }

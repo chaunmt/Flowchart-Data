@@ -944,7 +944,7 @@
     "fullname": "Contemporary Political Persuasion",
     "info": "Contemporary political speech.  Ideologies in political persuasion.\n\nprereq: 1101, 3431 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003881",
         "004031"
       ]

@@ -123,12 +123,20 @@
     "prereq": {
       "and": [
         "001622",
-        "003669",
-        "809666",
-        "805147",
-        "792655",
-        "000280",
-        "003694"
+        {
+          "or": [
+            "003669",
+            "809666"
+          ]
+        },
+        {
+          "or": [
+            "805147",
+            "792655",
+            "000280",
+            "003694"
+          ]
+        }
       ]
     }
   },
@@ -156,8 +164,12 @@
     "info": "Elementary Monte Carlo, simulation studies, elementary optimization, programming in R, and graphics in R.\n\nprereq: (MATH 1272 or 1372 or 1572H), CSCI 1113, and STAT 3032",
     "prereq": {
       "and": [
-        "000121",
-        "003693",
+        {
+          "or": [
+            "000121",
+            "003693"
+          ]
+        },
         "003669",
         "814524"
       ]
@@ -187,11 +199,19 @@
     "info": "This is the first semester of the applied statistics and statistical machine learning sequence for majors seeking a BA or BS in statistics or data science, coupled with the course STAT 4052. The course delves into the foundational statistics supporting contemporary machine learning techniques. The emphasis lies on identifying problem types, selecting appropriate analytical methods, accurate result interpretation, and hands-on exposure to real-world data analysis. The curriculum builds upon traditional multivariate statistical analysis and unsupervised learning, extending to modern machine learning topics. Topics include clustering, dimension reduction, matrix completion, factor analysis, covariance analysis, and graphical models. Additionally, advanced data structures such as text and graph data are covered. The course prioritizes the fundamental statistical principles integral to machine learning, demonstrated through the analysis and interpretation of numerous datasets. \n\nprereq: (STAT 3701 or STAT 3301) and (STAT 4101 or STAT 5101 or MATH 5651)",
     "prereq": {
       "and": [
-        "815334",
-        "819058",
-        "006405",
-        "006408",
-        "004308"
+        {
+          "or": [
+            "815334",
+            "819058"
+          ]
+        },
+        {
+          "or": [
+            "006405",
+            "006408",
+            "004308"
+          ]
+        }
       ]
     }
   },
@@ -208,8 +228,12 @@
     "prereq": {
       "and": [
         "815335",
-        "006406",
-        "006409"
+        {
+          "or": [
+            "006406",
+            "006409"
+          ]
+        }
       ]
     }
   },
@@ -257,7 +281,7 @@
     "fullname": "Consultation and Communication for Statisticians",
     "info": "This course focuses on how to interact and collaborate as a statistician on a multidisciplinary team. Students will learn about all aspects of statistical consulting by performing an actual consultation. This includes: understanding the needs of the researcher, designing a study to investigate the client's needs, and communicating study results through graphs, writing, and oral presentations in a manner that a non-statistician can understand. Students will also discuss how to design research ethically (respecting the rights of the subjects in the research), how to analyze data without manipulating results, and how to properly cite and credit other people's work. Students will also be exposed to professional statisticians as a means of better understanding careers in statistics.\n\nprereq: Senior Statistics Major. STAT 4051 and STAT 4102 or STAT 5102",
     "prereq": {
-      "and": [
+      "or": [
         "815335",
         "006406",
         "006409"
@@ -315,13 +339,18 @@
     "fullname": "Statistical Methods for Quality Improvement",
     "info": "Random variability/sampling. Controlling statistical process. Shewhart/accumulative charting. Analyzing plant data, trend surface, and variance/design of experiments.\n\nprereq: [3021 or 3022 or 4102 or 5021 or 5102 or 8102],  Math 1272",
     "prereq": {
-      "or": [
-        "001622",
-        "001621",
-        "006406",
-        "001624",
-        "006409",
-        "004711"
+      "and": [
+        {
+          "or": [
+            "001622",
+            "001621",
+            "006406",
+            "001624",
+            "006409",
+            "004711"
+          ]
+        },
+        "000121"
       ]
     }
   },
@@ -367,12 +396,20 @@
     "info": "Logical development of probability, basic issues in statistics. Probability spaces. Random variables, their distributions and expected values. Law of large numbers, central limit theorem, generating functions, multivariate normal distribution.\n\nprereq: (MATH 2263 or MATH 2374 or MATH 2573H), (MATH 2142 or CSCI 2033 or MATH 2373 or MATH 2243)",
     "prereq": {
       "and": [
-        "000282",
-        "003695",
-        "792655",
-        "805147",
-        "003694",
-        "000280"
+        {
+          "or": [
+            "000282",
+            "003695"
+          ]
+        },
+        {
+          "or": [
+            "792655",
+            "805147",
+            "003694",
+            "000280"
+          ]
+        }
       ]
     }
   },
@@ -538,11 +575,19 @@
     "fullname": "Statistical Computing",
     "info": "Statistical programming, function writing, graphics using high-level statistical computing languages. Data management, parallel computing, version control, simulation studies, power calculations. Using optimization to fit statistical models. Monte Carlo methods, reproducible research.\n\nprereq: (Stat 5102 or Stat 8102) and (Stat 5302 or STAT 8051) or consent",
     "prereq": {
-      "and": [
-        "006409",
-        "004711",
-        "003466",
-        "799513"
+      "or": [
+        {
+          "or": [
+            "006409",
+            "004711"
+          ]
+        },
+        {
+          "or": [
+            "003466",
+            "799513"
+          ]
+        }
       ]
     }
   },
@@ -557,7 +602,7 @@
     "fullname": "Bayesian Astrostatistics",
     "info": "This course will introduce Bayesian methods for interpreting and analyzing large data sets from astrophysical experiments. These methods will be demonstrated using astrophysics real-world data sets and a focus on modern statistical software, such as R and python.\n\nprereq:  MATH 2263 and MATH 2243, or equivalent; or instructor consent\nSuggested: statistical course at the level of AST 4031, AST 5031, STAT 3021, or STAT 5021",
     "prereq": {
-      "and": [
+      "or": [
         "000282",
         "000280",
         "811703",
@@ -642,7 +687,7 @@
     "fullname": "Applied Statistical Methods 3: Multivariate Analysis and Advanced Regression",
     "info": "Standard multivariate analysis. Multivariate linear\nmodel, classification, clustering, principal components, factor analysis, canonical correlation. Topics in advanced regression.\n\nprereq: PhD student in stat or DGS permission and 8052",
     "prereq": {
-      "and": [
+      "or": [
         "799514"
       ]
     }
@@ -739,7 +784,7 @@
     "fullname": "Theory of Statistics 2",
     "info": "Statistical inference. Sufficiency. Likelihood-based methods. Point estimation. Confidence intervals. Neyman Pearson hypothesis testing theory. Introduction to theory of linear models.\n\nprereq: 8101, Statistics graduate major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004710"
       ]
     }
@@ -876,7 +921,7 @@
     "fullname": "Linear Models",
     "info": "General linear model theory from a coordinate-free geometric approach. Distribution theory, ANOVA tables, testing, confidence statements, mixed models, covariance structures, variance components estimation.\n\nprereq: Linear algebra, 5102 or 8102 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "006409",
         "004711"
       ]
@@ -1128,7 +1173,7 @@
     "fullname": "Statistical Consulting",
     "info": "Principles of effective consulting/problem-solving, meeting skills, reporting. Aspects of professional practice/behavior, ethics, continuing education.\n\nprereq: STAT 8051 and STAT Grad Student or Instructor Consent",
     "prereq": {
-      "and": [
+      "or": [
         "799513"
       ]
     }

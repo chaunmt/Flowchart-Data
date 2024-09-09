@@ -38,7 +38,7 @@
     "fullname": "Honors Introduction to Algorithms and Data Structures",
     "info": "Advanced object oriented programming to implement abstract data types (stacks, queues, linked lists, hash tables, binary trees) using Java language. Inheritance. Searching/sorting algorithms. Basic algorithmic analysis. Use of software development tools. Weekly lab. Optional honors topics: Advanced Java topics, GUI programming, CS research examples.\n\nco-requisite: Calc I (Math 1271 or Math 1371 or Math 1571H)  \nprerequisite: CSCI 1133 OR CSCI 1133H and honors student",
     "prereq": {
-      "and": [
+      "or": [
         "811072"
       ]
     }
@@ -82,8 +82,12 @@
     "fullname": "Algorithms and Data Structures",
     "info": "Rigorous analysis of algorithms/implementation. Algorithm analysis, sorting algorithms, binary trees, heaps, priority queues, heapsort, balanced binary search trees, AVL trees, hash tables/hashing, graphs, graph traversal, single source shortest path, minimum cost spanning trees.\n\nprereq: [(1913 or 1933) and 2011, honors student] or instr consent. Cannot be taken for Grad CSci cr",
     "prereq": {
-      "and": [
-        "816663",
+      "or": [
+        {
+          "or": [
+            "816663"
+          ]
+        },
         "809449"
       ]
     }

@@ -142,7 +142,7 @@
     "fullname": "Managerial Economics",
     "info": "Microeconomic theory, its application to managerial problems. Introduction to regression analysis, demand analysis, demand function estimation, forecasting, cost function estimation, resource allocation decisions, linear programming, market structure, pricing policy, risk analysis, investment analysis.\n\nprereq - ApEc 3001 or Econ 3101 AND SCO  2550 or Stat 3011",
     "prereq": {
-      "and": [
+      "or": [
         "006291",
         "007259",
         "001618"
@@ -160,7 +160,7 @@
     "fullname": "Introduction to Applied Econometrics",
     "info": "Econometrics is the core empirical methodology used in economics. It allows economists (and others) to learn about the world through data in non-experimental situations. This course teaches student how to use common types of econometric analysis to answer research questions in an experiential learning environment.\n\nprereq: APEC 1101 or equiv., STAT 3011 or equiv.",
     "prereq": {
-      "and": [
+      "or": [
         "006281",
         "001618"
       ]
@@ -219,11 +219,13 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "006286",
             "009923"
           ]
-        }
+        },
+        "006291",
+        "006293"
       ]
     }
   },
@@ -267,7 +269,7 @@
     "fullname": "Microeconomics of International Development",
     "info": "Characteristics and performance of peasant agriculture; potential role of agriculture in economic development, and design of economic policies to achieve agricultural and economic development; role of women in agricultural development.\n\nprereq: 1101, 1102, Econ 1101, 1102, or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "006281",
         "006286",
         "009920",
@@ -455,7 +457,7 @@
     "fullname": "Concept Design and Value-Added Entrepreneurship in Food, Agricultural, and Natural Resource Sciences",
     "info": "Explore the core skills required by entrepreneurs in opportunity identification and problem framing that lead to creating viable concepts that provide solutions to real consumer challenges. Students will tackle innovation challenges from an in-depth exploration of entrepreneurial and design thinking and learn how to incorporate these skills into their future professional work. Master techniques for exploring problems from a systems viewpoint through a series of hands-on projects from concept design to product mapping and consumer testing. Students get to select a project of their choosing directly from their major of study and will pitch their new product or service concept to an expert panel. \n\nprereq: APEC 1101 or APEC 1101H or ECON 1101 or DES 1101W, jr or sr",
     "prereq": {
-      "and": [
+      "or": [
         "006281",
         "009920",
         "012925"
@@ -535,7 +537,21 @@
     "name": "Retail Center Management",
     "fullname": "Retail Center Management",
     "info": "Management of garden centers, grocery stores, and other retail units selling perishable agricultural products.\n\nprereq: [1101 or Econ 1101], [1251 or Acct 2050]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "006281",
+            "009920"
+          ]
+        },
+        {
+          "or": [
+            "006287"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "811891",
@@ -632,7 +648,7 @@
     "fullname": "Tourism Development: Principles, Processes, Policies",
     "info": "Evolution of tourism industry; economic, environmental, and sociocultural impacts of tourism development; influence of government policies and organizations; models and tools needed for successful development; consequences of development activities and ways to involve stakeholders in decisions.\n\nprereq: 1101, 1102 or Econ 1101, 1102",
     "prereq": {
-      "and": [
+      "or": [
         "006281",
         "006286",
         "009920",
@@ -651,13 +667,14 @@
     "fullname": "Food Marketing Economics",
     "info": "Economics of food marketing in the United States. Food consumption trends, consumer food behavior, marketing strategies, consumer survey methodology, food distribution/retailing system. Policy issues related to food marketing. Individual/group projects.\n\nprereq: [[1101 or Econ 1101], [1101H or Econ 1101H], SCO 2550 or STAT 3011 or equiv, 60 cr] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "006281",
             "009920"
           ]
-        }
+        },
+        "001618"
       ]
     }
   },
@@ -754,7 +771,7 @@
     "fullname": "Methods of Economic Data Analysis",
     "info": "The course introduces linear statistical economic (econometric) models with and without independent errors.  It also introduces econometric models for analyzing discrete response variables, censored response variables, and non-random data samples. It shows how these econometric models can be used to evaluate and quantify theoretical relationships and forecast counterfactual economic outcomes.\n\nprereq: APEC 3001, Math 1142 or Math 1272, Stat 3001 or Sco 2550 or grad student or instructor consent ",
     "prereq": {
-      "and": [
+      "or": [
         "006291",
         "000119",
         "000121"
@@ -788,7 +805,7 @@
     "fullname": "Applied Microeconomics: Firm and Household",
     "info": "The course provides a mathematical treatment of cost -benefit analysis in terms of the theory of how prices, income, preferences, and other factors affect consumer choices and the demand for goods and services. It also includes treats the theory of how prices, technology, and other important factors affect producer decisions, the supply of goods and services, and the demand for productive resources. This demand and supply analysis is then combined to explore the theory of price determination in competitive and noncompetitive markets. The optimization theories and economic models are developed without and with uncertainty.\n\nprereq: (APEC 3001, Math 1142 or Math 1272, and Stat 3011 or Sco 2550) or equiv or grad student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "006291",
         "000119",
         "000121",
@@ -872,7 +889,7 @@
     "fullname": "Commodity Marketing",
     "info": "Economic concepts related to marketing agricultural commodities. Conditions of competitive markets, historical perspectives on market institutions/policy, structural characteristics of markets, policies/regulations affecting agricultural marketing of livestock, crop, and dairy products.\n\nprereq: graduate student and 1101 or Econ 1101 ",
     "prereq": {
-      "and": [
+      "or": [
         "006281",
         "009920"
       ]
@@ -975,7 +992,23 @@
     "name": "Econ Nat Resourc & Env Policy",
     "fullname": "Economics of Natural Resource and Environmental Policy",
     "info": "Economic analyses, including project evaluation of current natural resource/environmental issues. Intertemporal use of natural resources, natural resource scarcity/adequacy, environmental quality, and mechanisms for pollution control and their implications for public policy.\n\nprereq: [[3001 or ECON 3101], [3611 or ECON 3611 or ESPM 3261]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "006291",
+            "007259"
+          ]
+        },
+        {
+          "or": [
+            "006697",
+            "007858",
+            "005369"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "006932",
@@ -1029,7 +1062,8 @@
             "007259",
             "001621"
           ]
-        }
+        },
+        "007273"
       ]
     }
   },
@@ -1062,7 +1096,7 @@
     "fullname": "Business Economics and Strategy",
     "info": "Strategic management for production, processing, wholesaling, retailing, and service. Strategy formulation, implementation, and control. Business plans. Case study analysis.\n\nprereq: graduate student and APEC 3001 or equivalent or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "006291"
       ]
     }
@@ -1506,7 +1540,7 @@
     "fullname": "Agricultural Markets and Policy",
     "info": "Seven-week course. Designed for students pursuing the field of food and agricultural economics to acquire a foundational understanding of markets for food and farm commodities and skills to conduct analyses of market supply and demand and efforts of policy changes.  \n\nprereq: APEC 8001 & 8002 or ECON 8101 & 8102, or concurrent registration ",
     "prereq": {
-      "and": [
+      "or": [
         "806881",
         "806883",
         "008894",
@@ -1525,7 +1559,7 @@
     "fullname": "Information and Behavioral Economics",
     "info": "This course examines new theories of consumer behavior that combines economists' and psychologists' modeling of human behavior. Questions about whether human behavior is consistent with standard economic models will be posed and alternative explanatory models will be offered by incorporating psychological phenomena. The influence of information on consumer choice over time and under uncertainty will also be studied from a theoretical and empirical perspective. Topics include expected and unexpected utility theory, bounded rationality, prospect theory, choice over time, and rational addiction with applications to empirical work. prereq: APEC 8001 - 8004 or ECON 8101 - 8104, APEC 8401, APEC 8211-8212",
     "prereq": {
-      "and": [
+      "or": [
         "806881",
         "806859",
         "008894",
@@ -1547,7 +1581,7 @@
     "fullname": "Applied Consumer Theory",
     "info": "The objective of this course is to provide students with the theoretical and methodological foundations to perform analyses of demand and competition in food and agricultural markets. Some of the specific topics include specification and estimation of demand systems such as welfare analysis, analysis of competition, market power and public policy (e.g., a tax policy) in both homogeneous and differentiated product markets, analysis of cost pass-through, and merger analysis. prereqs: APEC 8001 - 8004 or ECON 8001 - 8004 or ECON 8101 - 8104, APEC 8211, APEC 8212, or instructor consent.",
     "prereq": {
-      "and": [
+      "or": [
         "806881",
         "806859",
         "008875",
@@ -1570,7 +1604,7 @@
     "fullname": "Applied Production Theory",
     "info": "Aspects of production theory. Axiomatic representations of multi-output technologies. Input, output, and directional distance functions. Cost, revenue, and profit functions and duality. Input/output separability. Jointness/non-jointness in production. Index numbers, measures of efficiency/productivity.\n\nprereq: APEC 8001 and 8002 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "806881",
         "806883"
       ]
@@ -1599,7 +1633,7 @@
     "fullname": "Labor Economics I",
     "info": "Theoretical and empirical studies of compensating differentials, discrimination, personnel economics, and gross flows. prereq: 8003 or equiv or concurrent registration is required (or allowed) in 8003, 8211, 5032 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "806885",
         "008357",
         "795352"

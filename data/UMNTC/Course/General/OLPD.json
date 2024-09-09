@@ -586,7 +586,7 @@
     "fullname": "Profession and Practice of Business and Marketing Education",
     "info": "Application of theory to practice related to BME core coursework with integrative paper.\n\nprereq: Undergrad student, BME major, OLPD 3318, OLPD 3401, OLPD 3424, and OLPD 4426 completed or in progress.",
     "prereq": {
-      "and": [
+      "or": [
         "805770",
         "805412",
         "805413",
@@ -865,7 +865,7 @@
     "fullname": "Applied Experience in Business & Marketing Education",
     "info": "Application of theory to practice related to BME core coursework with integrative paper. Work, internship, study abroad, research, field experience, service learning, etc. can all fulfill this degree requirement. Contact OLPD Program Advisors for more information.\n\nprereq: BME major, ugrd, [3496 or concurrent registration is required (or allowed) in 3496]",
     "prereq": {
-      "and": [
+      "or": [
         "806568"
       ]
     }
@@ -923,7 +923,7 @@
     "fullname": "Applied Experience in Business Marketing Education & Human Resource Development",
     "info": "OLPD 4696, the Applied Experience course, is designed as a culminating learning experience for students nearing graduation. It affords students an opportunity to seek out practical work experience related to their area of concentration in business and marketing or human resource development. An essential part of an Applied Experience is the opportunity to use the knowledge acquired in the classroom in practical applications in the workplace. Problem-solving and creative thinking in the workplace supports the retention and mastery of information gained in the classroom.\n\nTo be successful, the Applied Experience in BME/HRD should focus on a specific project(s) or task(s) that lend to analysis and resolution over the course of 6 to 14 weeks. A typical Applied Experience in BME/HRD involves 160 hours of work for 4 credits including all the course work listed on this syllabus (20 hr) during a single semester (45 hours per credit). The Applied Experience in BME/HRD is not credit for work. Students must be engaged in specific activities/duties related to their area of concentration related to the field of business and marketing or human resource development. Each activity is expected to relate to a BME/HRD theory, a career competency area, or professional skill. The student and the employment supervisor will be asked to sign a contract stipulating to the internship objective and activities; the contract must also be approved by the instructor.\n\nprereq: OLPD ugrd student in BME/HRD,  BME compl 3 of the 4 cores: OLPD 3318, 3401, 3424, 4426. HRD compl 4 of the 4 cores: OLPD 3601, 3202, 3621, 3641. Completed or permission to be concurrently registered for OLPD 3609.\n",
     "prereq": {
-      "and": [
+      "or": [
         "805770",
         "805412",
         "805413",
@@ -1630,7 +1630,20 @@
     "name": "Meth. of Tch. Inter. Adult Lit",
     "fullname": "Methods of Teaching Intermediate Adult Literacy",
     "info": "Learning English/literacy as an adult. Approaches to teaching reading, writing, and communications skills. Communication/comprehension in oral/written English. English reading/oral communication skills for workplace. Evaluating commercial materials/software.\n\nprereq: [5211 or ADED 5211], [5233 or ADED 5233]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "795494"
+          ]
+        },
+        {
+          "or": [
+            "795506"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "795523",
@@ -1867,7 +1880,7 @@
     "fullname": "The Principal as Leader of High-Performing Schools",
     "info": "Theory and practice for educational leadership that is specifically applied to the principalship. Overview competencies in AR 3512 required for MN K-12 principal licensure. Examines roles of the principal as a leader and manager.\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.\n\n",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -1884,7 +1897,7 @@
     "fullname": "Leaders in the Superintendency and Central Office",
     "info": "Role/responsibility of superintendent in school district. Real life experiences, leadership potential as CEO. Purposes, power, politics, practices of position. Interplay of internal school forces, community forces. Leadership in public, high-profile appointment. Addresses competencies required under MN AR 3512 for administrative licensure.\n\nGrad students working on K-12 Administrative Licensure, MA, MED or PHD \n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -1913,7 +1926,7 @@
     "fullname": "Strategic Financial Planning and Policy for Educational Leaders",
     "info": "State-local school finance systems, budgeting, governmental fund accounting. Interpretation of financial information. Addresses competencies required under MN AR 3512 for administrative licensure\n\nGrad students working on K-12 Administrative Licensure, MA, MED or PHD\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -1990,7 +2003,7 @@
     "fullname": "School Law",
     "info": "Legal foundations of elementary/secondary education. Statutory themes, relevant case law, emergent policy issues. Implications for educational organizations and for administrative practice. Addresses competencies required under MN AR 3512 for administrative licensure.\n\nGrad students working on K-12 Administrative Licensure, MA, MED or PHD\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.\n",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -2019,7 +2032,7 @@
     "fullname": "Leaders of Human Resources Administration",
     "info": "Skills for administrator/leader. Human resources administration, employee recruitment, selection, orientation/support, supervision, performance appraisal of school district personnel. Addresses competencies required under MN AR 3512 for administrative licensure.\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -2060,7 +2073,7 @@
     "fullname": "Leadership for Special Education Services",
     "info": "Legislative, procedural, executive, and judicial actions that affect services, families, and children with special needs at federal, state, and local levels. Overview of cultural competence, conflict management, due process, supplemental programs. Addresses competencies required under MN AR 3512 for administrative licensure\n\nGrad students working on K-12 Administrative Licensure and/or Master in Education (Leadership in Education)\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -2189,7 +2202,7 @@
     "fullname": "Leadership for Teaching and Learning",
     "info": "Multiple aspects of administrating teaching/learning. Administration of teaching/learning as system in inclusive schools. Questions administrator must ask as leader of learning for students/adults. Addresses competencies required under MN AR 3512 for administrative licensure.\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -2206,7 +2219,7 @@
     "fullname": "Leadership for Master(ful) Scheduling",
     "info": "Work of high-performing professional learning communities. Implications for moving from building master schedule to leadership for master(ful) scheduling of time, space, motion, people. Addresses competencies required under MN AR 3512 for administrative licensure.\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -2223,7 +2236,7 @@
     "fullname": "Community Education Leadership",
     "info": "Competencies of leadership, community relations, communication, community assessment, program development, program evaluation. Philosophy/administration of community/alternative education programs. Addresses competencies required under MN AR 3512 for administrative licensure.\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -2240,7 +2253,7 @@
     "fullname": "Field Experience in PK-12 Administration: Authentic Practice in Leadership",
     "info": "Field experience or internship arranged for students seeking licensure as PK-12 principal/superintendent. Content/credit depend on licensure requirements specified in individual field experience agreement\n\nprereqs: OLPD 5385 Licensure Seminar: Program Policies and Inclusionary Leadership or concurrent registration and OLPD 5386 Leadership Portfolio or concurrent registration.",
     "prereq": {
-      "and": [
+      "or": [
         "794267",
         "794260"
       ]
@@ -2532,7 +2545,21 @@
     "name": "Evaluation Colloquium",
     "fullname": "Evaluation Colloquium",
     "info": "Informal seminar of faculty/students. Issues/problems of program evaluation.\n\nprereq: [5501 or EDPA], [5501 or EPSY 5243]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000942"
+          ]
+        },
+        {
+          "or": [
+            "000942",
+            "792018"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "800853",
@@ -2721,16 +2748,16 @@
     "prereq": {
       "and": [
         {
-          "and": [
+          "or": [
             "794250",
             {
-              "and": [
+              "or": [
                 "797881",
                 "792895"
               ]
             },
             {
-              "and": [
+              "or": [
                 "796722"
               ]
             }
@@ -2745,7 +2772,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "792074",
             "000865"
           ]
@@ -3506,7 +3533,7 @@
     "fullname": "Integrative Leadership: Leading Across Sectors to Address Grand Challenges",
     "info": "Are you interested in working across government, business, and the non-profit sector for public good? Are you wondering how you can create sustainable shared leadership on challenges that can best be addressed together? This course explores multisector leadership and related governance and management challenges from a variety of perspectives and provides an opportunity for students to work together to apply what they are learning individually and in teams through in-class exercises and a final team project. The course is taught by a team of interdisciplinary faculty and considers different contexts, forms, and specific examples of multisector leadership that can enable transformative action to tackle a significant societal issue and achieve lasting change. prereq: Doctoral or master's student Credit will not be granted if credit has been received for: GCC 5023, LAW 6623, OLPD 6402PA 5105, PA 5130",
     "prereq": {
-      "and": [
+      "or": [
         "817692",
         "810718",
         "805014"
@@ -3736,7 +3763,7 @@
     "fullname": "Qualitative Longitudinal Research Methods and Analysis in Education",
     "info": "This course introduces students to paradigmatic assumptions, approaches, and the knowledge and skills, needed to undertake qualitative longitudinal research and analyses in education. The course first introduces students to the distinctions of qualitative longitudinal research, and the types of research problems and questions that this approach can address. The course explores the unique contributions of longitudinal research to understanding change, time and continuity. The course then focuses on several research methods' ethnography, life histories, and multiple interviews/observations that are used in qualitative longitudinal research, and the distinct and unique questions that longitudinal approaches using these methods can address. Using existing qualitative longitudinal datasets, students will then engage in different approaches and levels of qualitative longitudinal analyses. The course supports students in the analysis processes of qualitative data that they may use for their own research studies. Students will also produce a final paper of a mini-research project, including the qualitative longitudinal research questions, theoretical framework, approach and analyses they have used.\nprereq: Graduate Student. Requires foundational qualitative research knowledge eg., OLPD 5056 Case Studies; OLPD 5061 Ethnographic Research Methods or CI 8148 Conducting Qualitative Studies in Educat Contexts",
     "prereq": {
-      "and": [
+      "or": [
         "000987",
         "000988",
         "014784"
@@ -3930,7 +3957,7 @@
     "fullname": "Advanced Evaluation Theory and Theory crafting",
     "info": "This advanced course will provide students with an in-depth understanding of major evaluation theories, systems for organizing evaluation theories, and propose ways of expanding current theory.\n\nprereq: Doctoral standing OR instructor\u2019s permission (enforced) Recommend OLPD 5502 (can be taken concurrently)",
     "prereq": {
-      "and": [
+      "or": [
         "808490"
       ]
     }
@@ -4032,7 +4059,20 @@
     "name": "Admin & Leader/HiEd",
     "fullname": "Administration and Leadership in Higher Education",
     "info": "Leadership, governance, and administration in higher education through theoretical perspectives and practical analysis. Planning, change, decision making, organizational culture, budgets, conflict.\n\nprereq: [5001 or EDPA 5001], [5701 or EDPA 5701]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000865"
+          ]
+        },
+        {
+          "or": [
+            "000929"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "000931",
@@ -4044,7 +4084,20 @@
     "name": "Public Policy in Higher Educ",
     "fullname": "Public Policy in Higher Education",
     "info": "Theories, analytic methods, and critical issues in postsecondary education policy at national/state levels. Equality of educational opportunity, affirmative action, system governance/coordination, research funding, student financial aid, public accountability.\n\nprereq: [5001 or EDPA 5001], [5701 or EDPA 5701]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000865"
+          ]
+        },
+        {
+          "or": [
+            "000929"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "803118",
@@ -4261,7 +4314,20 @@
     "name": "Research Seminar",
     "fullname": "Research Seminar",
     "info": "Developing, reporting, and evaluating research. Participants make/react to presentations.\n\nprereq: [[8811 or WHRE 8911] [8812 or WHRE 8912 or WHRE 8913 or WHRE 8914]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "003006"
+          ]
+        },
+        {
+          "or": [
+            "002372"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "002377",

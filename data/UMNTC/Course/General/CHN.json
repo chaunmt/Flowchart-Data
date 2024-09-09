@@ -168,7 +168,7 @@
     "fullname": "Movies in Modern China",
     "info": "Taught entirely in Chinese, this course introduces students to modern Chinese cinema. Each week, students will view and discuss Chinese movies (without subtitles) and learn the basic concepts of film studies, historical movements in Chinese cinema, key filmmakers in China, and how Chinese social issues are represented in the movies. \n\nThis course is designed for students who have completed Chinese immersion school or have advanced proficiency in listening, reading, speaking, and writing in Mandarin Chinese. Not open to native Chinese speakers, except under special circumstances. \n\nprereq: CHN 3032 or permission of instructor.\n\nLectures and assignments are primarily online with one class meeting per week on the UMN campus. ",
     "prereq": {
-      "and": [
+      "or": [
         "009447"
       ]
     }
@@ -747,7 +747,7 @@
     "fullname": "Introductory Classical Chinese II",
     "info": "Reading excerpts from canonical Chinese texts. Transnational nature of Classical Chinese/its importance in study of East Asian cultures. Taught in English.\n\nprereq: 5211 and two years of an East Asian language (Chinese, Japanese, Korean) or its equivalent or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009449"
       ]
     }

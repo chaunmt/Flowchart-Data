@@ -234,7 +234,7 @@
     "fullname": "Architecture Studio 01: Material",
     "info": "Students in this undergraduate studio practice an iterative, open-ended design process as it relates especially to the technical and experiential role of materials, material assembly, construction, structure, and tectonics in architecture. Students develop their ability to think through multiple modes of media, including physical and digital drawings and models, with an emphasis on physical model-making.\n\nprereq: Arch BS major and Arch 2301",
     "prereq": {
-      "and": [
+      "or": [
         "011341"
       ]
     }
@@ -650,7 +650,7 @@
     "fullname": "3-D Computer Architectural Modeling and Design",
     "info": "Use of 3D computer modeling for representation in abstract/realistic ways. Creation/arrangement of objects. Setting up lighting. Developing surface materials. Creating still renderings/animations. Ways computer visualization can be used for design exploration, feedback during idea development, and realistic representation of designs.\n\nprereq: 3351, Arch major",
     "prereq": {
-      "and": [
+      "or": [
         "797715"
       ]
     }
@@ -846,7 +846,12 @@
     "name": "Minnestoa: Arch and Landscapes",
     "fullname": "Minnesota: Architecture and Landscapes",
     "info": "History of major architectural monuments, urban phenomena, and landscape forms of Minnesota. Interrelationships between architecture, geography, and people.\n\nprereq: [3411, 3412] recommended",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "009938",
+        "011316"
+      ]
+    }
   },
   {
     "uid": "797639",
@@ -895,7 +900,7 @@
     "fullname": "North American Indian Architecture",
     "info": "Historic/contemporary principles/theories of North American Indian architecture. Culture, technology, environment, art, and craft of North American Indians in their settlements/architecture.\n\nprereq: Arch 3412, Arch or AmIn major",
     "prereq": {
-      "and": [
+      "or": [
         "011316"
       ]
     }
@@ -1136,7 +1141,7 @@
     "fullname": "Undergraduate Architecture Studio 05: Advanced Design",
     "info": "Advanced design studio to engage students in range of critical subjects to be determined by respective instructors. Intended to challenge students with independent/experimental approach to design that builds on prior knowledge, develop working methodologies/design ethics.\n\nprereq: C- or better in 3281, 3282, 4283, 4284",
     "prereq": {
-      "and": [
+      "or": [
         "798011",
         "011264",
         "788994",
@@ -1167,7 +1172,7 @@
     "fullname": "Principles of Design Programming",
     "info": "Architectural programming. Client/user needs. Equipment, space, activity analysis. Site selection, precedent analysis. Analysis of standards/regulations. Technology and materials. Hypothesis formulation/evaluation. Conceptual development, research, representation, interpretation.\n\nprereq: [8251, [M.Arch or MS Arch] major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012285"
       ]
     }
@@ -1315,7 +1320,7 @@
     "fullname": "Computer Methods II",
     "info": "Current techniques, computer programs, and their application to architectural computing and design.\n\nprereq: 5371, concurrent registration is required (or allowed) in  8252 and M Arch major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "013504",
         "012286"
       ]
@@ -1576,7 +1581,12 @@
     "name": "Minnesota: Arch and Landscapes",
     "fullname": "Minnesota: Architecture and Landscapes",
     "info": "History of major architectural monuments, urban phenomena, and landscape forms of Minnesota. Interrelationships between architecture, geography, and people.\n\nprereq: [3411, 3412] recommended",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "009938",
+        "011316"
+      ]
+    }
   },
   {
     "uid": "797643",
@@ -2081,7 +2091,7 @@
     "fullname": "Topics in Architectural Practice",
     "info": "Topics in architectural practice, methods of design production, marketing, operation, and relationships among clients, architecture, and society.\n\nprereq: 5621, Arch major or 5621, M Arch major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012263"
       ]
     }
@@ -2133,7 +2143,7 @@
     "fullname": "Historic Building Conservation",
     "info": "Historic building materials, systems, and methods of conservation. Discussion of structural systems, building repair and pathology, introduction of new environmental systems in historic buildings, and conservation of historic interiors. Research on historic building materials and techniques using primary and secondary resources and on documentation of a specific historic site through large-format photography and measured drawings.\n\nprereq: 3412, 5671 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "011316",
         "012040"
       ]
@@ -2150,7 +2160,7 @@
     "fullname": "Historic Property Research and Documentation",
     "info": "Philosophy, theory, methods of historic building research. Descriptive analysis of buildings, building documentation, historical archaeology, architectural taxonomy.\n\nprereq: [3412, 3641, 4671, 5671, 4672 or 5672] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "011316",
         "804747",
         "797848",
@@ -2415,7 +2425,7 @@
     "fullname": "Graduate Architectural Design II",
     "info": "Fundamental architectural problems involving design as a creative inquiry.  Individual and collaborative effort.\n\nprereq: 8251, grad Arch major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012285"
       ]
     }
@@ -2447,7 +2457,7 @@
     "fullname": "Technical Applications in Design",
     "info": "Design potential inherent in technical development process of design project. Testing concepts, developing details, integrating building systems. Structural bay enclosure, cost considerations, regulatory compliance. Building-information modeling, analog/digital representations in architecture document production.\n\nprereq: [8253, MArch major] or dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "012294"
       ]
     }
@@ -2463,7 +2473,7 @@
     "fullname": "Graduate Architectural Design V",
     "info": "Fundamental architectural problems involving design as a creative inquiry. Individual/collaborative effort.\n\nprereq: [8254, grad Arch major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012296"
       ]
     }
@@ -2479,7 +2489,7 @@
     "fullname": "Directed Graduate Architectural Design",
     "info": "N/A\n\nprereq: 8251, grad Arch major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012285"
       ]
     }
@@ -2531,7 +2541,7 @@
     "fullname": "Topics in Theory",
     "info": "Topics vary\n\nprereq: 5411, grad Arch major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012038"
       ]
     }
@@ -2603,7 +2613,7 @@
     "fullname": "Materials Performance in Sustainable Building",
     "info": "Building-material properties, resource conservation, fabrication/construction processes in production of high performance sustainable building designs. Application of assessment/evaluation tools (LCA, BEES, Athena or LEED) for IEQ, waste reduction and management with an emphasis on experimental/analytic methods. Aesthetic/technical solutions that integrate design selection processes, construction methods, commissioning processes, and facility management, maintenance, and decommissioning.\n\nprereq: [5512, grad MS or March]] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012119"
       ]
     }

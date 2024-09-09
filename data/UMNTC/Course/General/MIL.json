@@ -22,7 +22,7 @@
     "fullname": "Military Science I Leadership Lab",
     "info": "Basic skills. Preview advanced course. Team-building leadership skills.\n\nprereq: concurrent registration is required (or allowed) in 1201",
     "prereq": {
-      "or": [
+      "and": [
         "799963"
       ]
     }
@@ -118,7 +118,7 @@
     "fullname": "MS I Zero Credit Lead Lab",
     "info": "Army ROTC leadership and personal development lab.\n\nprereq: concurrent registration is required (or allowed) in 1101",
     "prereq": {
-      "or": [
+      "and": [
         "800700"
       ]
     }
@@ -134,7 +134,7 @@
     "fullname": "MS I Zero Credit Lead Lab",
     "info": "Army ROTC leadership and pPersonal development lab.\n\nprereq: concurrent registration is required (or allowed) in 1102",
     "prereq": {
-      "or": [
+      "and": [
         "799962"
       ]
     }
@@ -186,7 +186,7 @@
     "fullname": "MS I One Credit Lead Lab",
     "info": "Army ROTC leadership and personal development lab.\n\nprereq: concurrent registration is required (or allowed) in 1102",
     "prereq": {
-      "or": [
+      "and": [
         "799962"
       ]
     }
@@ -226,7 +226,7 @@
     "fullname": "MS II One Credit Lead Lab",
     "info": "Army ROTC leadership and personal development lab.\n\nprereq: concurrent registration is required (or allowed) in 1201",
     "prereq": {
-      "or": [
+      "and": [
         "799963"
       ]
     }
@@ -242,7 +242,7 @@
     "fullname": "MS II One Credit Lead Lab",
     "info": "Army ROTC leadership and personal development lab.\n\nprereq: concurrent registration is required (or allowed) in 1202",
     "prereq": {
-      "or": [
+      "and": [
         "799964"
       ]
     }
@@ -282,7 +282,7 @@
     "fullname": "MS II Zero Credit Lead Lab",
     "info": "Army ROTC leadership and personal development lab.\n\nprereq: concurrent registration is required (or allowed) in 1201",
     "prereq": {
-      "or": [
+      "and": [
         "799963"
       ]
     }
@@ -298,7 +298,7 @@
     "fullname": "MS II Zero Credit Lead Lab",
     "info": "Army ROTC leadership and personal development lab.\n\nprereq: concurrent registration is required (or allowed) in 1202",
     "prereq": {
-      "or": [
+      "and": [
         "799964"
       ]
     }
@@ -542,7 +542,7 @@
     "fullname": "Applied Military Learning",
     "info": "This course is only offered to Military Science level 5 with special permission.  This course allows you the opportunity to apply the tactical and technical skills you have learned throughout your Military Science classes and Military Experience to assist in the duties of the cadre.\n\nprereq: Must successfully complete or receive constructive credit for all Military Science classes: MIL 1101, MIL 1102, MIL 1201, MIL 1202, MIL 3301, MIL 3302, MIL 3401, MIL 3402",
     "prereq": {
-      "and": [
+      "or": [
         "800700",
         "799962",
         "799963",

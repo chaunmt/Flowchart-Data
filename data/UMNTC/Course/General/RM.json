@@ -130,7 +130,7 @@
     "fullname": "Retail Buying",
     "info": "Principles/mathematics of merchandise inventory control, merchandise selection.\n\nprereq: [2215 or DHA 2215]; [MATH 1031 or MATH 1051 or MATH 1142 or MATH 1151 or MATH 1155 or MATH 1271 or CALG student group]; [jr or sr]; retail merchandising [major or minor] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "014084"

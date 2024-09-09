@@ -322,7 +322,12 @@
     "info": "Expressive visual communication of words. Fundamental legibility of \"invisible art,\" overt expression through type. Students complete extended typographic project.\n\nprereq: [[2345 or DHA 2345], 3351, graphic design major] or design grad student or instr consent",
     "prereq": {
       "or": [
-        "012204"
+        {
+          "or": [
+            "012204"
+          ]
+        },
+        "012610"
       ]
     }
   },
@@ -553,7 +558,7 @@
     "fullname": "Digital Illustration and Animation",
     "info": "Advanced computer design. Integration of design knowledge with Macintosh computer applications. Students use software to create digital illustration and animations. Adobe Illustrator, After Effects, Flash.\n\nprereq: [[2334 or 2342], design minor], [graphic design major or [grad student, experience with computer illustration]]] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "012196",
@@ -574,7 +579,7 @@
     "fullname": "Fundamentals of Game Design",
     "info": "Games of all kinds. Theoretical/practical aspects of making games. Investigation of design process. Rules, strategies, methodologies. Interactivity, choice, action, outcome, rules in game design. Social interaction, story telling, meaning/ideology, semiotics. Signs, cultural meaning.\n\nprereq: [[2334 or 2342], design minor] or [[4384 or DHA 4384 or 5341 or DHA 5341], [graphic design major or sr or grad student]] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "012196",

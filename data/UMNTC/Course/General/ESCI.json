@@ -545,7 +545,7 @@
     "fullname": "Fluid Earth Dynamics",
     "info": "Dynamics of fluid Earth, mainly surface processes and convection.\n\nprereq: concurrent registration is required (or allowed) in 2201",
     "prereq": {
-      "or": [
+      "and": [
         "003952"
       ]
     }
@@ -614,11 +614,16 @@
     "fullname": "Atmospheric Pollution: From Smog to Climate Change",
     "info": "Processes governing chemical makeup of Earth's atmosphere. Implications for air pollution, climate, human welfare.  Evolution of atmosphere. Atmospheric structure/transport. Biogeochemical cycles of carbon, nitrogen, oxygen, mercury.  Greenhouse effect. Aerosols. Stratospheric ozone loss.\n\nprereq: [CHEM 1061, PHYS 1101W, MATH 1142 or 1271] or equiv or instr consent. Course cross-listed with ESCI 3425.",
     "prereq": {
-      "and": [
-        "807753",
-        "002066",
-        "000119",
-        "000120"
+      "or": [
+        {
+          "or": [
+            "807753",
+            "002066",
+            "000119",
+            "000120"
+          ]
+        },
+        "805499"
       ]
     }
   },
@@ -829,7 +834,7 @@
     "fullname": "Geomagnetism and Paleomagnetism",
     "info": "Present geomagnetic field at the Earth's surface, secular variation,  geomagnetic field reversals.  Physical and chemical basis of paleomagnetism: origin of natural remanent magnetization, mineralogy of magnetic minerals, magnetic polarity stratigraphy, apparent polar wander, and environmental magnetism.\n\nprereq: 2201, Phys 1302, Math 1272 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003952",
         "002071",
         "000121"
@@ -1265,13 +1270,29 @@
     "fullname": "Numerical Geodynamic Modeling",
     "info": "The objective of this course is for students to gain a basic understanding of numerical geodynamic modeling. The course consists of a lecture component and in-class modeling exercise component. The lecture component will cover general concepts of continuum mechanics/fluid dynamics, classical geodynamic problems, such as heat transfer and mantle flow, and numerical approaches to solving these problems using the finite difference and finite element methods. Through the in-class modeling exercises and homework assignments, students will learn to write numerical codes to solve simple problems, such as 2-D heat conduction and Stokes flow.\n\nprereq: Instructor\u2019s consent is required if the following prerequisites are not met: Introductory/first-year Calculus (MATH 1371 and 1372 or equivalent), Linear Algebra and Differential Equations (MATH 2373 or equivalent), Multivariable Calculus and Vector Analysis (MATH 2374 or equivalent), and Introductory/first-year physics (PHYS 1301 and 1302 or equivalent).",
     "prereq": {
-      "and": [
-        "003692",
-        "003693",
-        "003694",
-        "003695",
-        "002070",
-        "002071"
+      "or": [
+        {
+          "or": [
+            "003692",
+            "003693"
+          ]
+        },
+        {
+          "or": [
+            "003694"
+          ]
+        },
+        {
+          "or": [
+            "003695"
+          ]
+        },
+        {
+          "or": [
+            "002070",
+            "002071"
+          ]
+        }
       ]
     }
   },
@@ -1865,7 +1886,7 @@
     "fullname": "Numerical Methods in Hydrogeology",
     "info": "Introduction to finite difference and finite element methods in hydrogeology.  Students develop one- and two-dimensional models of diffusion and advection-dispersion equations.\n\nprereq: 5701, CSci 1107 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005413",
         "003668"
       ]

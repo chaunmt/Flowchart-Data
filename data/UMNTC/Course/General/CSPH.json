@@ -142,7 +142,7 @@
     "fullname": "Foundations of Hatha Yoga: Alignment & Movement Principles",
     "info": "This course is the first course in a sequence of three (3) courses in the University of Minnesota Yoga Teachers\u2019 Education & Training Sequence. Students who complete the three courses A-F or S/N may be qualified to register with Yoga Alliance (YA) as a 200 hour Registered Yoga Teacher (RYT). Students who audit the course cannot use the course to be registered with Yoga Alliance. \n\nThis course will introduce students to the anatomical considerations and understanding critical to executing safe and effective Hatha Yoga instruction. This course includes, as essential to Hatha Yoga, an overview of human gross anatomy and bodily systems (specifically neuro-musculoskeletal and respiratory systems). Students will learn and practice foundational concepts of Hatha Yoga and movement, as related to Yoga Asana. Additionally, students will be introduced to methods of effectively communicating these principles as a Hatha Yoga instructor. \n\nprereq: KIN 3027 Human Anatomy for Kinesiology Students (or equivalent, with instructor permission). Recommended: DNCE 1331 for students with no prior yoga experience. These courses can be taken concurrently.",
     "prereq": {
-      "and": [
+      "or": [
         "788993",
         "791094"
       ]
@@ -360,7 +360,7 @@
     "fullname": "Advanced Meditation: Body, Brain, Mind, and Universe",
     "info": "Students will work to integrate meditation practice into daily life, cultivating awareness of the fundamental oneness of body, brain, mind, and universe. Attention will be given to mind-body synergy in health, the \u201chard problem\u201d of consciousness in neuroscience, and the emergence of compassion, wisdom, and healing in non-discursive awareness. \n\nprereq: CSPH 5225, jr or sr or grad student, or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "791710"
       ]
     }
@@ -472,7 +472,7 @@
     "fullname": "Tibetan Medicine in India",
     "info": "Tibetan Medicine has one of the longest histories among scholastic medical traditions, developed alongside of and in dialogue with the ancient Indo-Tibetan Buddhist philosophy, psychology, and contemplative practices. Hence, Tibetan medicine is well-positioned to provide insights into mind-body relationships in health and wellbeing. Because of Tibetan medicine's emphasis on preventive, whole-person, and integrative health approaches, as well as the importance of ethics and spirituality, Tibetan medicine provides a fertile ground for students to view health at the intersection of ethics, spirituality, and healing. While studying with native Tibetan doctors and local experts in India, students will examine the claim that systematic practice of Tibetan medicine promotes optimal health and well-being. Using critical thinking, students will evaluate Tibetan medicinal theories and practices in its cultural milieu, and scientific evidence, and propose research-based programs for integrating Tibetan medicine approaches into personal and professional life. \n\nprereq: CSPH 5315 Tibetan Medicine or CSPH 5000 Death, Resilience and Happiness topic; jr or sr or grad; or instr consent. .",
     "prereq": {
-      "and": [
+      "or": [
         "793079",
         "789339"
       ]
@@ -489,7 +489,7 @@
     "fullname": "Yoga and Ayurveda in India",
     "info": "Yoga and Ayurveda are interrelated, ancient, holistic Indian traditions that integrate ethics, spirituality, and healing. While studying with expert practitioners at the University of Minnesota and in India, students will examine the claim that the systematic practice of these traditions promotes healing and optimal health.\n\nprereq: CSPH 4311 (and instructor approval), CSPH 5317 or CSPH 5318 or instructor consent.",
     "prereq": {
-      "and": [
+      "or": [
         "811482",
         "795576",
         "800825"
@@ -519,7 +519,7 @@
     "fullname": "Foundations of Hatha Yoga: Alignment & Movement Principles",
     "info": "This course will introduce students to the anatomical considerations and understanding critical to executing safe and effective Hatha Yoga instruction. This course includes, as essential to Hatha Yoga, an overview of human gross anatomy and bodily systems (specifically neuro-musculoskeletal and respiratory systems).  Students will learn and practice foundational concepts of Hatha Yoga and movement, as related to Yoga Asana. Additionally, students will be introduced to methods of effectively communicating these principles as a Hatha Yoga instructor. \n\nThis course is the first course in a sequence of three (3) courses in the University of Minnesota Yoga Teachers? Education & Training Sequence. Students who complete the three courses A-F or S/N may be qualified  to register with Yoga Alliance (YA) as a 200-hour Registered Yoga Teacher (RYT).  Students who only audit the course cannot use the course to be registered with Yoga Alliance.\n\nprereq: KIN 3027 Human Anatomy for Kinesiology Students (or equivalent, with instructor permission). Recommended: DNCE 1331 for students with no prior yoga experience. These courses can be taken concurrently.",
     "prereq": {
-      "and": [
+      "or": [
         "788993",
         "791094"
       ]
@@ -1041,8 +1041,13 @@
     "fullname": "Advanced Health Coaching Practicum I",
     "info": "In this course, students participate in a peer-coaching model with their fellow students in dyads or triads, to create opportunities for applying the tools and skills they are learning.  The key to this course is practice not perfection in a safe, supportive environment where mistakes are welcomed and learning and growth is at the center.  This course must be taken concurrently with CSPH 5701 Health Coaching Fundamentals I for Health Coaching Master of Arts and Certificate students, and is a required prerequisite for CSPH 5702 Health Coaching Fundamentals II.\n\nPrereq: This course is required for students who have been admitted to the Integrative Therapies and Healing Practice certificate - Health Coaching track; and Integrative Health and Wellbeing Coaching Master of Arts program.  This course is a required prerequisite for Fundamentals of Health Coaching II (CSH 5702) and must be taken concurrently with CSPH 5701 Fundamentals of Health Coaching I for Health Coaching M.A. and certificate students.  Students from other graduate degree programs may enroll with permission of the course instructor.",
     "prereq": {
-      "and": [
+      "or": [
         "800042",
+        {
+          "and": [
+            "800042"
+          ]
+        },
         "799080"
       ]
     }

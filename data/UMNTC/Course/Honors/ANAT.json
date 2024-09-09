@@ -23,9 +23,13 @@
     "info": "Anatomical relationships. Function based upon form. Clinical applications. Gross (macroscopic) anatomy, histology (microscopic anatomy). Neuroanatomy (nervous system), embryology (developmental anatomy). \n\n150 minutes of lecture and 2 hrs or lab per week. Lecture sections are (i) three 50-minute sessions per week; or (ii) two 75-minute session per week. All lab sections are 2hrs. prereq: [BIOL 1002 or BIOL 1009 or BIOL 2002 or equiv], at least soph. The course director will not allow students to register after the class has started. This course has mandatory orientation sessions that cannot be missed. Principles of Human Anatomy (ANAT 3651, lecture and lab components) is offered in the spring. Human Anatomy (ANAT 3001, has only a lecture component) is offered in fall. ANAT 3651 and ANAT 3001 are not equivalent. A student in-need of a lab component must register for ANAT 3651.",
     "prereq": {
       "or": [
-        "796059",
-        "790816",
-        "800900"
+        {
+          "or": [
+            "796059",
+            "790816",
+            "800900"
+          ]
+        }
       ]
     }
   }

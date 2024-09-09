@@ -46,7 +46,7 @@
     "fullname": "Beginning French II",
     "info": "Bienvenue en 1002! Ready to embark on a new journey to further develop your knowledge of the beautiful language of French? If you passed French 1001 or have taken the Entrance Proficiency Test (EPT) and were placed in 1002, this course is for you!\n\nWhile exploring topics such as French holidays and cultural celebrations and traditions, food, and ecology, you will further develop your listening, speaking, reading, and writing skills. You will also learn about the concept of la\u00efcit\u00e9, one of the pillars of French society, and the differences and similarities between the school systems in France and the U.S.\n\nPreparatory activities designed to encourage students to analyze grammar points need to be completed at home so that class time can be primarily devoted to meaningful interactions in French.\n\nprereq: C- or better in FREN 1001, or EPT (for students taking their first French course at the U)",
     "prereq": {
-      "and": [
+      "or": [
         "009591"
       ]
     }
@@ -62,7 +62,7 @@
     "fullname": "Intermediate French I",
     "info": "Nous vous souhaitons la bienvenue dans le troisi\u00e8me semestre de fran\u00e7ais.  In this course, you will explore current issues such as the role technology plays in today's society and living a healthy lifestyle. Other themes include family, friends, and current social issues such as environment, energy, and immigration. Students will use film, excerpts of literature, and other authentic texts as part of the curriculum. Upon completion of the class, you will have more confidence in expressing past, future, and hypothetical events as well as your own opinions, feelings, and regrets.\n\nFrench 1003 is a five-credit course, so you should plan to spend an additional 10 hours a week on coursework outside the classroom. Upon successful completion of this course you will be able to enroll in French 1004.\n\nprereq: C- or better in FREN 1002 or 1022, or EPT (for students taking their first French course at the U)",
     "prereq": {
-      "and": [
+      "or": [
         "009592",
         "013834"
       ]
@@ -79,7 +79,7 @@
     "fullname": "Intermediate French II",
     "info": "Vous \u00eates les bienvenus! Come join us in exploring some of the foundations of cultural identity. What does it mean to be \"French?\" What does it mean to be \"American?\" What are some things that people living within a particular culture have in common as a function of living in that culture? Where do personal and cultural identities intersect? We pay special attention to development of intercultural competence, comparing how food, child-rearing practices, elements of national identity, and diversity are treated in France and the US. We revisit many grammar concepts you have seen before, focusing on accuracy and extended language use. \n\nThis course will allow you to be much more confident in using comparisons, narrating (past and present), linking ideas together into longer discourse, describing, etc. Upon successful completion of this course, you should be solidly in the Intermediate ranges of proficiency in French, able to travel and/or use French for your own goals. You will also be prepared for more advanced study in French here or abroad (FREN 3015 and 3014 are options after this course).\n\nprereq: C- or better in FREN 1003, or EPT/LPE (for students taking their first French course at the U)",
     "prereq": {
-      "and": [
+      "or": [
         "009593"
       ]
     }
@@ -131,7 +131,7 @@
     "fullname": "Gateways to French and Francophone Studies: English Only",
     "info": "What key moments in French and Francophone culture can help us understand our world today? What are French and Francophone Studies? This course taught in English answers these questions by letting you discover the diverse cultures of France and French-speaking countries (such as Senegal, Canada or Belgium), and the ways we study them in the humanities. You will encounter texts, visual material, films, music, and historical events from various eras and learn how to make sense of them. Faculty from the French program will come and share with you what they research and why. \n\nA portion of the semester will be devoted to one of two role-playing simulations. During these weeks, you will delve deeply into the material, researching your historical character and working with other students whose goals converge with yours to sway the opinions of your other classmates. Along the way, you will enhance your skills in public speaking and writing. \n\n(1) The French Revolution. Where did the notion of the social contract and human rights come from? What dilemmas did the people of France face in this turbulent attempt to transition from monarchy to a new form of government?\n\n(2) The 1889 Universal Exhibition in Paris, which was a focus of debates about art, esthetics and urbanism. Do you want to be a traditional painter, Van Gogh, an art critic, a woman patron, an anarchist, or a worker on the Eiffel Tower? How did each of these groups or individuals understand the role of art?\n\nYou can take French 1501 as a freestanding class or at the same time as a language class (FREN 1001-1004, depending on your level). The class is required for new majors and minors in French Studies, but you can take it simply to discover the fascinating cultures of French-speaking communities worldwide! \n\nNo prerequisites. All materials for French 1501 are in English, and students in all programs are welcome!",
     "prereq": {
-      "and": [
+      "or": [
         "816012"
       ]
     }
@@ -147,7 +147,7 @@
     "fullname": "Gateways to French and Francophone Studies: Bilingual",
     "info": "What are French and Francophone Studies? What key moments in French and Francophone culture can help us understand our world today? This course taught in English answers these questions by letting you discover the diverse cultures of France and French-speaking countries (such as Senegal, Canada or Belgium), and the ways we study them in the humanities. You will encounter texts, visual material, films, music, and historical events from various eras and learn how to make sense of them. Faculty from the French program will come and share with you what they research and why. \n\nA portion of the semester will be devoted to one of two role-playing simulations. During these weeks, you will delve deeply into the material, researching your historical character and working with other students whose goals converge with yours to sway the opinions of your other classmates. Along the way, you will enhance your skills in public speaking and writing. \n\n(1) The French Revolution. Where did the notion of the social contract and human rights come from? What dilemmas did the people of France face in this turbulent attempt to transition from monarchy to a new form of government?\n\n(2) The 1889 art exhibition in Paris, which was a focus of debates about art, esthetics and urbanism. Do you want to be a traditional painter, Van Gogh, an art critic, a woman patron, an anarchist, or a worker on the Eiffel Tower?\n\nFrench 1502 is taught in English, but it includes some readings in French. In some semesters, it may also include occasional discussions or small group activities in French. \n\nYou can take French 1502 as a freestanding class or at the same time as a language class (FREN 3015-3016, depending on your level). The class is required for new majors and minors in French Studies, but you can take it simply to discover the fascinating cultures of French-speaking communities worldwide! \n\nprereq: FREN 1004 (or equivalent through the LPE)",
     "prereq": {
-      "or": [
+      "and": [
         "009594"
       ]
     }
@@ -609,7 +609,7 @@
     "fullname": "The Holocaust in France: Literature, History, Testimony",
     "info": "This course examines the event of the Holocaust (which we call \"Shoah\" in France since the 80s and especially since the film of the same name by Claude Lanzmann) in literature, film, and archives. France has a complex relationship with Jews since the Middle Ages. During the French Revolution (1789), then under the Empire (Napoleon Bonaparte, 1800-1815), the Jews benefitted from political emancipation. The Republic defended the equality of Jews before the law as French citizens. But France was also the country of political anti-Semitism and of the Dreyfus Affair (there were in the nineteenth century some very virulent anti-Semitic propaganda writers, for example Edouard Drumont, author of Jewish France, in 1880, just before the Dreyfus Affair). This history of the Jews in France culminates with the Vichy regime, the policy of collaboration with Nazi Germany, antisemitic writings and propaganda emanating from important writers such as Louis-Ferdinand Celine and politicians, and the deportation of part of the Jewish population to the extermination camps. How does this story affect fictional writing, and debates on how to represent this event? More than a course on the Holocaust, we explore the story of its reminiscence in French culture. It is not a history class, but a class in culture, literature, memory and testimony. \n\nprereq: FREN 3015; it is recommended that students have taken, or take concurrently, FREN 3101W.",
     "prereq": {
-      "and": [
+      "or": [
         "009596",
         "009601"
       ]
@@ -791,7 +791,14 @@
     "info": "Advanced study of sound system of contemporary French.\n\nprereq: 3015, [3014 or 3500 or Ling 3001 or instr consent]",
     "prereq": {
       "and": [
-        "009596"
+        "009596",
+        {
+          "or": [
+            "009595",
+            "808266",
+            "010450"
+          ]
+        }
       ]
     }
   },
@@ -819,7 +826,13 @@
     "info": "Origins/development of French language from Latin to contemporary French. Selected texts. Present stage/development.\n\nprereq: 3015, [3500 or Ling 3001 or instr consent]",
     "prereq": {
       "and": [
-        "009596"
+        "009596",
+        {
+          "or": [
+            "808266",
+            "010450"
+          ]
+        }
       ]
     }
   },
@@ -847,7 +860,13 @@
     "info": "Contemporary French discourse. Spontaneous, multi-speaker discourse. Readings. Syntactic analysis. Phonological/lexical particularities. Macro level analyses. Discourse analysis/conversation analysis.\n\nprereq: 3015, [3500 or Ling 3001 or instr consent]",
     "prereq": {
       "and": [
-        "009596"
+        "009596",
+        {
+          "or": [
+            "808266",
+            "010450"
+          ]
+        }
       ]
     }
   },
@@ -1134,7 +1153,7 @@
     "fullname": "Revolution and Human Rights: The French Revolution and its Legacy",
     "info": " What role did the French Revolution play in shaping how we think about the possibility of massive social change, justice, and rights today? How especially did 18th-century philosophy, culture, politics, and economics influence the development of what we call universal individual \"human rights.\" We also ask: could we have done better?  To do so, we will play \"Rousseau, Burke, and Revolution in France, 1791,\" a Reacting to the Past flipped-classroom role-playing game. Working individually and in teams, students will prepare speeches, produce pamphlets and newspapers, not only to learn about the stakes of this historical turning point and the philosophical debates surrounding it, but also to imagine changing it. We will also seek out and document the legacy of this Revolution in our lives and around the world today.  This class offers students the knowledge and skills to participate in substantive debate aimed at solving problems collectively, to effect change aligning with their beliefs and philosophies, and to reflect critically on historical legacy\n\nNo prerequisites. All materials for Fren 3732 are in English, and students in all programs are welcome! ",
     "prereq": {
-      "and": [
+      "or": [
         "825514"
       ]
     }
@@ -1261,11 +1280,13 @@
       "and": [
         "009597",
         "009595",
-        [
-          "009598"
-        ],
         {
           "and": [
+            "009598"
+          ]
+        },
+        {
+          "or": [
             "009600"
           ]
         }
@@ -1324,7 +1345,7 @@
     "fullname": "Int French for Grad Research I",
     "info": "Nous vous souhaitons la bienvenue dans le troisi\u00e8me semestre de fran\u00e7ais. In this course, you will explore current issues such as the role technology plays in today's society and living a healthy lifestyle. Other themes include family, friends, and current social issues such as environment, energy, and immigration. Students will use film, excerpts of literature, and other authentic texts as part of the curriculum. Upon completion of the class, you will have more confidence in expressing past, future, and hypothetical events as well as your own opinions, feelings, and regrets.\n\nFrench 4003 is a five-credit course, so you should plan to spend an additional 10 hours a week on coursework outside the classroom. Upon successful completion of this course you will be able to enroll in French 4004.\n\nprereq: C- or better in FREN 1002/4002 or 1022/4022, or EPT (for students taking their first French course at the U)",
     "prereq": {
-      "and": [
+      "or": [
         "009592",
         "798792",
         "013834",
@@ -1343,7 +1364,7 @@
     "fullname": "Intermediate French for Graduate Student Research II",
     "info": "Vous \u00eates les bienvenus! Come join us in exploring some of the foundations of cultural identity. What does it mean to be \"French?\" What does it mean to be \"American?\" What are some things that people living within a particular culture have in common as a function of living in that culture? Where do personal and cultural identities intersect? We pay special attention to development of Intercultural Competence, comparing how food, child-rearing practices, elements of national identity, and diversity are treated in France and the US. We revisit many grammar concepts you have seen before, focusing on accuracy and extended language use. This course will allow you to be much more confident in using comparisons, narrating (past and present), linking ideas together into longer discourse, describing, etc. Upon successful completion of this course, you should be solidly in the Intermediate ranges of proficiency in French, able to travel and/or use French for your own goals. You will also be prepared for more advanced study in French here or abroad.\n\nprereq: C- or better in FREN 1003/4003, or EPT/LPE (for students taking their first French course at the U)",
     "prereq": {
-      "and": [
+      "or": [
         "009593",
         "798793"
       ]
@@ -1743,7 +1764,7 @@
     "fullname": "Old French Workshop",
     "info": "Workshop runs concurrently with seminars on Old French literature. Advanced practicum in reading Old French, with discussions of the particularities of seminar texts and formal, aesthetic, and hermeneutic issues directly related to the original language. Students read portions of texts in Old French and prepare an original translation. The workshop is not an introduction to Old French\n\nStudents planning to make medieval French literature their research field should register for the workshop each time it is offered.\n\nprereq: French 5571 or other prior course on Old French language, concurrent registration in the related Ph.D. seminar.",
     "prereq": {
-      "and": [
+      "or": [
         "816062"
       ]
     }
@@ -1975,7 +1996,7 @@
     "fullname": "Doctoral Pre-Thesis Credits",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": {
-      "and": [
+      "or": [
         "009552"
       ]
     }
@@ -2019,7 +2040,7 @@
     "fullname": "Thesis Credit: Doctoral",
     "info": "(No description)\n\nprereq: max 18 cr per semester or summer, 24 cr required",
     "prereq": {
-      "and": [
+      "or": [
         "009552"
       ]
     }

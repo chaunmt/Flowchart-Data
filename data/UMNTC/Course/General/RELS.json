@@ -479,9 +479,11 @@
     "info": "Survey of Israelite prophets. Emphasizes Amos, Hosea, Isaiah, Jeremiah, Ezekiel, Second Isaiah. Prophetic contributions to Israelite religion. Personality of prophets. Politics, prophetic reaction. Textual analysis, Biblical scholarship. Prophecy viewed cross-culturally.prereq: [RelS 1001] or [CNES 1201 or JWST 1201 or RELS 1201 or CNES 3201 or JWST 3201 or RELS 3201]",
     "prereq": {
       "or": [
-        [
-          "010734"
-        ],
+        {
+          "and": [
+            "010734"
+          ]
+        },
         {
           "or": [
             "797684",

@@ -106,7 +106,7 @@
     "fullname": "Growth and Development of Minnesota Field Crops",
     "info": "Students learn how field crop species grow and develop, how unique traits of crop species contribute to ecosystem services, and how to identify important growth stages of crops. In addition to traditional agronomic crops (small grains, alfalfa, soybean and corn), students will work with annual and perennial species that represent emerging crops grown for grain, oil seed, novel products, cover crops and biomass. Course work includes lectures, labs (greenhouse and field), and online assignments and quizzes.  \n\nprereqs: AGRO 1101 or HORT 1001 or BIOL 1009 or BIOL 1001 and AGRO 1103",
     "prereq": {
-      "and": [
+      "or": [
         "007688",
         "007885",
         "005416",
@@ -388,7 +388,7 @@
     "fullname": "Crop Management Field School: A Hands-on Immersion",
     "info": "In this course, you will apply and integrate principles and concepts of agronomy, plant pathology, entomology, and soil and weed science in a hands-on field setting with real-life scenarios and problems common in production agriculture.\n\nprereqs: BIOL 1001, 1009 or HORT 1001; AGRO 1103, and SOIL 2125  ",
     "prereq": {
-      "and": [
+      "or": [
         "005419",
         "005416",
         "007885",
@@ -432,7 +432,7 @@
     "fullname": "Plant Genetics and Breeding",
     "info": "Principles of plant genetics and environmental variation. Applications of genetics to crop evolution and breeding of self-pollinated, cross-pollinated, and asexually propagated crops. Investigation of hybridization, variation, and selection.\n\nprereq: Biol 1009 or equiv or grad, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005416"
       ]
     }
@@ -512,7 +512,7 @@
     "fullname": "Plant Breeding Principles",
     "info": "This course is intended for advanced undergraduate students and graduate students that are either: 1) not plant breeding majors who will benefit from a basic understanding of how genetics is applied to plant improvement; or 2) plant breeding majors lacking prior coursework in plant breeding. The objective of this course is to develop an understanding of the underlying principles, ideas, and concepts important to applying genetic principles to plant breeding, evaluating breeding methods, and enhancing genetic progress and efficiency.\n\nprereq: PLSC 3401 and an introductory statistics course that includes analysis of variance, such as BIOL 3272 or STAT 3011",
     "prereq": {
-      "and": [
+      "or": [
         "817103",
         "806661",
         "001618"
@@ -679,7 +679,7 @@
     "fullname": "Breeding for Quantitative Traits in Plants",
     "info": "Principles and concepts of population and quantitative genetics/application in designing and implementing a plant breeding program/theory, experimental approaches, and evidence that form the basis for these concepts and breeding strategies.\n\nprereq: graduate-level course in plant breeding [AGRO 5021 or equivalent] and graduate-level course in statistics [STAT 5021 or NR 5021 or equivalent] or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "003216"

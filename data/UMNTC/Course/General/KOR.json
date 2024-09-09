@@ -334,7 +334,7 @@
     "fullname": "Introductory Classical Chinese II",
     "info": "Reading excerpts from canonical Chinese texts. Transnational nature of Classical Chinese/its importance in study of East Asian cultures. Taught in English.\n\nprereq: 5211 and two years of an East Asian language (Chinese, Japanese, Korean) or equivalent or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "810688"
       ]
     }

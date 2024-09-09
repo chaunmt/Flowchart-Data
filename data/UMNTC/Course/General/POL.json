@@ -582,7 +582,7 @@
     "fullname": "Suburbs, Stadiums, and Scandals: The Politics of American Cities",
     "info": "Study of politics and policy in the contemporary American city; role of local government in a federal system; evolution of cities in the United States; forms and structures of local government; local politics and patterns of power and influence; special topics in Minnesota local politics.\n\nprereq: 1001, non-pol sci grad major or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005515"
       ]
     }
@@ -1151,7 +1151,15 @@
     "info": "Theoretical responses/interpretations of Western economy, society, politics, democratic culture. Theories of history. Class struggle. End of metaphysics, death of God. Technology/bureaucracy. Psychology of culture in Hegel, Marx, Tocqueville, Mill, Nietzsche, Weber, Freud.\n\nprereq: Suggested 1201, [3225 or 3235W or 3251 or 3252]",
     "prereq": {
       "and": [
-        "005523"
+        "005523",
+        {
+          "or": [
+            "006680",
+            "006681",
+            "006686",
+            "006687"
+          ]
+        }
       ]
     }
   },
@@ -1270,7 +1278,7 @@
     "fullname": "State Governments: Laboratories of Democracy",
     "info": "State governments are rarely at the forefront of the minds of the American public, but in recent years they have made critical decisions about issues like education, health care, climate change, and same-sex marriage. State governments perform a host of vital services, and they regulate and tax a wide array of business activities. Moreover, the states have adopted a very wide range of approaches in addressing these and other policy issues. This course examines the institutional and political changes that sparked the recent \u201cresurgence of the states,\u201d and it investigates why state policies differ so dramatically from one another.\n\nIn addition to playing a central and increasingly important role in the U.S. political system, the American states provide an unusually advantageous venue in which to conduct research about political behavior and policymaking. They are broadly similar in many ways, but they also offer significant variation across a range of social, political, economic, and institutional characteristics that are central to theories about politics. As a result, it becomes possible for scholars to evaluate hypotheses about cause-and-effect relationships in a valid way.\n\nThis course pursues two related objectives. Its first goal is to give students a better understanding of American state governments\u2019 substantive significance. Its second goal is to use the states as an analytical venue in which students can hone their research and writing skills. Students will design and complete an original research paper on an aspect of state politics of their choosing. They will develop a research question, gather and critically evaluate appropriate and relevant evidence, and discuss the implications of their research.\n\nprereq: 1001 or equiv, non-pol sci grad major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "005515"
       ]
     }
@@ -2339,7 +2347,7 @@
     "fullname": "Federal Indian Policy",
     "info": "Formulation, implementation, evolution, comparison of Indian policy from pre-colonial times to self-governance of new millennium. Theoretical approaches to federal Indian policy. Major federal Indian policies.  Views/attitudes of policy-makers, reactions of indigenous nations to policies. Effect of bodies of literature on policies.\n\nprereq: Credit will not be granted if credit has been received for: : 4525, AmIn 4525; grad student",
     "prereq": {
-      "and": [
+      "or": [
         "789839",
         "788979"
       ]

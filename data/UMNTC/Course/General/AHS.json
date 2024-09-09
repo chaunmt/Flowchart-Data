@@ -34,7 +34,7 @@
     "fullname": "Experiences in Health",
     "info": "AHS 1104 Experiences in Health is a two (2) credit course, offered in-person. Classes will be in the classroom every third week, and the other class days will be spent in an experiential learning opportunity in one of our health science schools. Locations will be provided on Canvas. This course is designed for students enrolled in the Health Professions Pathways program. This course will involve hands-on experiential learning in collaboration with many of our health science programs at the University. Including experiences in Dentistry, Medical Lab Science, Nursing, Occupational Therapy, Pharmacy, Physical Therapy, Public Health, and Veterinary Medicine. This course is designed for those interested in exploring a variety of health professions, learning about the different roles of a healthcare team, as well as the attributes and qualities of inter-professional teams in healthcare. The course will also cover materials related to professional development and preparation for a health professional program. prereq: Enrolled in the Health Professions Pathways Program; AHS 1101, AHS 1102 or AHS 1600.",
     "prereq": {
-      "and": [
+      "or": [
         "795135",
         "798927"
       ]
@@ -195,7 +195,7 @@
     "fullname": "HIV Drug Discovery",
     "info": "Basic virology, medicinal chemistry, pharmacology of HIV chemotherapy. General process of drug discovery, including target selection/validation, in vitro assay development, computer-aided inhibitor design strategies/drug-like properties. Major classes of FDA-approved anti-HIV drugs. Intellectual properties, FDA regulatory issues, successful antiviral discovery story.\n\nprereq: One year of organic chemistry, [CHEM 2301 and 2302] or equivalent, [one semester of biochemistry], [BIOC 3021 or equivalent]",
     "prereq": {
-      "and": [
+      "or": [
         {
           "and": [
             "002392",

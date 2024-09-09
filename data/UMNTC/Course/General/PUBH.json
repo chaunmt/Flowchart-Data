@@ -311,9 +311,14 @@
     "info": "Basic principles of global health, including social influences on health/health disparities. How health is measured, how global burden of morbidity/mortality varies throughout world. Investigate relationship between social, political, economic, health systems that interface to influence health outcomes.\n\nprereq: [3001 or 3202 or 3004], 3350 or 3106 strongly recommended",
     "prereq": {
       "or": [
-        "009809",
-        "799580",
-        "009835"
+        {
+          "or": [
+            "009809",
+            "799580",
+            "009835"
+          ]
+        },
+        "807663"
       ]
     }
   },
@@ -460,12 +465,16 @@
     "fullname": "Introduction to Clinical Trials - Online",
     "info": "Phases of trials, hypotheses/endpoints, choice of intervention/control, ethical considerations, blinding/randomization, data collection/monitoring, sample size, analysis strategies. Protocol development/implementation, interactive discussion boards.\n\nprereq: PUBH 3415 enrollees must have one semester of undergraduate level introductory biostatistics or statistics (STAT 3011, EPSY 3264, SOC 3811, BIOL 3272, or instr consent) AND junior or senior standing or instr consent.",
     "prereq": {
-      "and": [
+      "or": [
         "809575",
-        "001618",
-        "002199",
-        "001148",
-        "806661"
+        {
+          "or": [
+            "001618",
+            "002199",
+            "001148",
+            "806661"
+          ]
+        }
       ]
     }
   },
@@ -494,14 +503,14 @@
     "prereq": {
       "or": [
         {
-          "and": [
+          "or": [
             "799580",
             "009809",
             "009835"
           ]
         },
         {
-          "and": [
+          "or": [
             "806949",
             "807663"
           ]
@@ -1468,7 +1477,7 @@
     "fullname": "HIV/AIDS: Epidemiology and Public Health Interventions",
     "info": "Current/controversial issues related to HIV/AIDS. Primary, secondary, and tertiary prevention. HIV/AIDS in resource-limited countries (including sub-Saharan Africa and Southeast Asia) and in marginalized populations. Evaluation of government policy for control of HIV/AIDS.\n\nprereq: [[6320 or 6341 or equiv], [Epi or CHE or MCH or PubH Nutr] MPH student or Epi PhD student] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "002116",
@@ -2150,7 +2159,7 @@
     "fullname": "Principles of Toxicology II",
     "info": "This second part of the Principles of Toxicology course is focused on toxicodynamics. In this course,students will learn to apply their knowledge of basic toxicokinetic principles and metabolic systems to elucidate mechanisms of toxicity induced by xenobiotic compounds. In addition, they will learn basic principles of omics-based approaches and methodologies, and how such data can be integrated to assess and predict adverse effects of chemical exposures across multiple levels of biological complexity. At the end of the course, students will give a scientific presentation on a published article of their choice (approved by instructors) that explores the mechanism of a toxicodynamic process.\n\nprereqs: Biochemistry and PubH 6104 or permission of the instructor",
     "prereq": {
-      "and": [
+      "or": [
         "005284"
       ]
     }
@@ -2886,7 +2895,7 @@
     "fullname": "Human Behavior II",
     "info": "Critical evaluation of major behavioral public health intervention research. Experience in research designs/methods in health behavior intervention.\n\nprereq: [6333, Epidemiology grad student in behavioral track] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009901"
       ]
     }
@@ -2984,7 +2993,7 @@
     "fullname": "Preparing for the Integrative Learning Experience: Secondary Data Analysis",
     "info": "The goal of the course is to prepare students for completing the epidemiology MPH program\u2019s Integrative Learning Experience (ILE) research project where they conduct a secondary data analysis of a cross-sectional, case-control, or cohort study. The course has been designed to work in conjunction with PubH 6344 \u201cCompleting the Integrated Learning Experience: Secondary Data Analysis\u201d which is offered in the Spring Semester. The course is also open to other MPH students preparing to conduct a secondary data analysis for their ILE. PubH 6346 will provide instruction and hands-on experience to help students conduct a literature review in the focus area of their choice, develop their research question(s), and identify a data set that is appropriate and feasible for operationalizing and answering their question(s).\n\nprereq: Concurrent enrollment in PubH 6343, Epi MPH student or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "800670"
       ]
     }
@@ -3060,7 +3069,7 @@
     "fullname": "Global Challenges in Infectious Disease Epidemiology",
     "info": "This course will focus on the considerable burden due to infectious diseases within middle and low-income countries, as well as the underlying risk factors that lead to their emergence and spread. Students will learn about and review different measures of disease burden and health status. Different diseases of international public health significance will be reviewed, with a focus on epidemiologic research and methods used describe and analyze disease determinants. The course will also expose students to different interventions (prevention and control strategies) that have been used in both emergency situation, and to reduce the burden of more endemic diseases that significantly impact the health of populations. The scientific literature concerning specific diseases of interest will be examined and discussed in order to illustrate these principles.\n \nWe recognize that it is impossible to cover all subjects in global health. Using a case-study approach, the course will instead select a variety of infectious diseases of international importance. We will focus instead on approaches to dealing with these different problems, and some of the methodologies used to study them. This course will allow students to gain both skills and a greater understanding of public health research and practice as it applies to international health.\n\nprereq: [6320 or 6341, instr consent] master's or doctoral level student in School of Public Health",
     "prereq": {
-      "and": [
+      "or": [
         "002116",
         "799033"
       ]
@@ -3291,7 +3300,7 @@
     "fullname": "Biostatistical Methods II",
     "info": "Statistical computing. Data transformations. Relative risk, odds ratio estimation. Logistic regression. Survival analysis. Kaplan-Meier tables, survival curves.\n\nprereq: 6414, [MPH or certificate] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002544"
       ]
     }
@@ -3391,7 +3400,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "002925",
             "002928"
           ]
@@ -3416,8 +3425,12 @@
     "fullname": "Equity and Long-Term Care Quality",
     "info": "The objective of this course is to help students gain a deeper understanding of long-term care quality with a focus on equity. We will\npay particular attention to post-acute care settings, care integration across settings, the role of the workforce, and equity considerations\nacross all these topics. Post-acute care settings reviewed will include home care, assisted living, alternative care arrangements, nursing\nhomes, and hospice. There are no required prerequisites but students are encouraged to take a course on U.S. health care (e.g., PubH 6556, Health and Health Systems) prior to taking the course. Cross-listed with: GERO 5518\n\npreq: Public Health [MPH or MHA or certificate] student or instr consent",
     "prereq": {
-      "and": [
-        "014122",
+      "or": [
+        {
+          "and": [
+            "014122"
+          ]
+        },
         "825507"
       ]
     }
@@ -3565,7 +3578,7 @@
     "fullname": "Principles of Problem Solving in Health Services Organizations",
     "info": "Problem-solving theory/technique. Solving a management problem within a health services organization. Presenting a report. Lectures, seminars, demonstrations.\n\nprereq: 6541, completed 30 hours of MHA coursework, health care administration student",
     "prereq": {
-      "and": [
+      "or": [
         "014099"
       ]
     }
@@ -3581,7 +3594,7 @@
     "fullname": "Advanced Problem Solving in Health Services Organizations",
     "info": "Defining, analyzing, and solving significant senior management-level operational or health public policy problems.\n\nprereq: 6544 or concurrent registration is required (or allowed) in 6544, Healthcare Administration student",
     "prereq": {
-      "and": [
+      "or": [
         "014105"
       ]
     }
@@ -4341,7 +4354,7 @@
     "fullname": "Community Health Assessment",
     "info": "Two of the three core functions of public health: health assessment, assurance. Lectures, discussion, group activities, oral presentations.\n\nprereq: concurrent registration is required (or allowed) in 6320 or concurrent registration is required (or allowed) in 6341, public hlth admin/policy or maternal/child hlth major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002116",
         "799033"
       ]
@@ -4757,7 +4770,7 @@
     "fullname": "Health Disparities Capstone Seminar",
     "info": "Readings and discussion-based seminar. Readings emphasize practice and policy solutions to health disparities. prereq: CSPH 5115 OR PubH 6066 OR PUBH 6055 OR PUBH 6855, 2d yr MPH student completing SPH health disparities interdisciplinary concentration] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "797425",
         "002299",
         "015761",
@@ -4872,7 +4885,7 @@
     "fullname": "Professional and Research Practice in Health Services Research, Policy and Administration",
     "info": "Institutional rules related to funder requirement compliance (CMS, NSF, etc.), regulatory compliance (HIPAA, FISMA), risk management related to data management. Integrating/normalizing data from disparate data sources,  managing very large scale projects, organizing data warehouses, supporting collaboration with stakeholders.  Professional practice and research issues.\n\nprereq: MS in HSRP&A or MPH in PHI, PubH6450,6451, & 6806,  or instr consent.",
     "prereq": {
-      "and": [
+      "or": [
         "002806",
         "002810",
         "013692"
@@ -4954,7 +4967,7 @@
     "fullname": "Data and Information for Population Health Management",
     "info": "Information is used for managing population health surveillance, profiling providers, measuring quality, measuring resource use, and managing population health. This course describes the organizational context of health information and how to use health data to manage population health. Sources and types of health information, organizational processes affecting information quality, consistency, completeness, and accuracy, methods for organizing information, use of information for decision making, and how data can be used to provide usable information, will be discussed.\n\nprereq: Completion or concurrent enrollment in PubH 6813, Managing Electronic Health Information, 2cr contains the skills necessary for completing the assigned paper/project in this course, PubH 6814, OR instructor permission.",
     "prereq": {
-      "and": [
+      "or": [
         "812575",
         "812576"
       ]
@@ -6303,7 +6316,7 @@
     "fullname": "Biostatistical Inference II",
     "info": "This course introduces students to a variety of concepts, tools, and techniques that are relevant to the rigorous design and analysis of\ncomplex biomedical studies. Topics include ANOVA, sample-size calculations, multiple testing, missing data, prediction, diagnostic\ntesting, smoothing, variable selection, the bootstrap, and nonparametric tests. R software will be used. Biostatistics students are\nstrongly encouraged to typeset their work using LaTeX or in R markdown.\n\nprereq: [7405, [STAT 5102 or concurrent registration is required (or allowed) in STAT 5102], biostatistics major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002925",
         {
           "or": [
@@ -6380,11 +6393,15 @@
     "fullname": "Statistical Methods for Correlated Data",
     "info": "Correlated data arise in many situations, particularly when observations are made over time and space or on individuals who share certain underlying characteristics. This course covers techniques for exploring and describing correlated data, along with statistical methods for estimating population parameters (mostly means) from these data. The focus will be primarily on generalized linear models (both with and without random effects) for normally and non-normally distributed data. Wherever possible, techniques will be illustrated using real-world examples. Computing will be done using R and SAS.\n\nprereq: Regression at the level of PubH 6451 or PubH 7405 or Stat 5302. Familiarity with basic matrix notation and operations (multiplication, inverse, transpose). Working knowledge of SAS or R (PubH 6420).",
     "prereq": {
-      "and": [
+      "or": [
         "002810",
         "002925",
         "003466",
-        "002753"
+        {
+          "and": [
+            "002753"
+          ]
+        }
       ]
     }
   },
@@ -6407,7 +6424,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "002806",
             "002810"
           ]
@@ -6447,8 +6464,13 @@
     "fullname": "Statistics for Human Genetics and Molecular Biology",
     "info": "Introduction to statistical problems arising in molecular biology. Problems in physical mapping (radiation hybrid mapping, DDP), genetic mapping (pedigree analysis, lod scores, TDT), biopolymer sequence analysis (alignment, motif recognition), and micro array analysis.\n\nprereq: [6450, [6451 or equiv]] or instr consent; background in molecular biology recommended",
     "prereq": {
-      "or": [
-        "002806"
+      "and": [
+        "002806",
+        {
+          "or": [
+            "002810"
+          ]
+        }
       ]
     }
   },
@@ -6485,7 +6507,7 @@
     "fullname": "Advanced Statistical Computing",
     "info": "Statistical computing using SAS, Splus, and FORTRAN or C. Use of pseudo-random number generators, distribution functions. Matrix manipulations with applications to regression and estimation of variance. Simulation studies, minimization of functions, nonlinear regression, macro programming, numerical methods of integration.\n\nprereq: [7405, biostatistics major, [C or FORTRAN]] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002925"
       ]
     }
@@ -6540,12 +6562,20 @@
       "and": [
         "002925",
         "002928",
-        "799513",
-        "799514",
+        {
+          "or": [
+            "799513",
+            "799514"
+          ]
+        },
         "006408",
         "006409",
-        "004710",
-        "004711"
+        {
+          "or": [
+            "004710",
+            "004711"
+          ]
+        }
       ]
     }
   },
@@ -6601,15 +6631,19 @@
     "fullname": "Methods for Causal Inference",
     "info": "Although most of statistical inference focuses on associational relationships among variables, in many biomedical and health sciences contexts the focus is on establishing the causal effect of an intervention or treatment. Drawing causal conclusions can be challenging, particularly in the context of observational data, as treatment assignment may be confounded. The first part of this course focuses on methods to establish the causal effect of a point exposure, i.e., situations in which treatment is given at a single point in time. Methods to estimate causal treatment effects will include outcome regression, propensity score methods (i.e., inverse weighting, matching), and doubly robust approaches. The second half of the course focuses on estimating the effect of a series of treatment decisions during the course of a chronic disease such as cancer, substance abuse, mental health disorders, etc. Methods to estimate these time-varying treatments include marginal structural models estimated by inverse probability weighting, structural nested models estimated by G-estimation, and the (parametric) G-computation algorithm. We will then turn our attention to estimating the optimal treatment sequence for a given subject, i.e., how to determine \"the right treatment, for the right patient, at the right time,\" using dynamic marginal structural models and methods derived from reinforcement learning (e.g., Q-learning, A-learning) and classification problems (outcome weighted learning, C-learning). PubH 8485 is appropriate for Ph.D students in Biostatistics and Statistics. The homework and projects will focus more on the theoretical aspects of the methods to prepare students for methodological research in this area. PubH 7485 is appropriate for Masters students in Biostatistics and PhD students in other fields who wish to learn causal methods to apply them to topics in the health sciences. This course uses the statistical software of R, a freely available statistical software package, to implement many of the methods we discuss. However, most of the methods discussed in this course can be implemented in any statistical software (e.g., SAS, Stata, SPSS, etc.) and students will be free to use any software for homework assignments. \n\nprereq: Background in regression (e.g. linear, logistic, models) at the level of PubH 7405-7406, PubH 6450-6451, PubH 7402, or equiv. Background in statistical theory (Stat 5101-5102 or PubH 7401) is helpful.",
     "prereq": {
-      "and": [
+      "or": [
         "002925",
         "002928",
         "002806",
         "002810",
         "800827",
-        "006408",
-        "006409",
-        "800691"
+        {
+          "or": [
+            "006408",
+            "006409",
+            "800691"
+          ]
+        }
       ]
     }
   },
@@ -6995,7 +7029,23 @@
     "name": "Practicum in Long Term Care",
     "fullname": "Practicum in Long-Term Care Administration",
     "info": "Students apply knowledge to practice of long-term care administration, under guidance of a preceptor.\n\nprereq: [7580, 7581, 7583] or [7587, 7588]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "and": [
+            "014327",
+            "014328",
+            "014330"
+          ]
+        },
+        {
+          "or": [
+            "015807",
+            "014569"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "014330",
@@ -7736,7 +7786,7 @@
     "fullname": "Research Skills in Biostatistics",
     "info": "Introduces research skills necessary for writing/defending dissertation, career in research.\n\nprereq: Stat 8101-02 and admission to PhD program in Biostatistics.  The course is meant to be taken the fall before PhD written exam is attempted, so Schedule 2 students typically wait to enroll until second year in program.",
     "prereq": {
-      "and": [
+      "or": [
         "004710"
       ]
     }
@@ -7764,7 +7814,7 @@
     "fullname": "Advanced Statistical Inference & Probability Models",
     "info": "Overview of inferential methods needed for biostatistical research. Topics without overt reliance on measure-theoretic concepts. Classic likelihood inference, asymptotic distribution theory, robust inferential methods (M-estimation).\n\nprereq: Stat 8101-8102 or equivalent, students should be comfortable with multivariate normal distribution/have some introduction to convergence concepts",
     "prereq": {
-      "and": [
+      "or": [
         "004710",
         "004711"
       ]
@@ -7798,7 +7848,7 @@
     "fullname": "Probability Models for Biostatistics",
     "info": "Three basic models used for stochastic processes in the biomedical sciences: point processes (emphasizes Poisson processes), Markov processes (emphasizes Markov chains), and Brownian motion. Probability structure and statistical inference studied for each process.\n\nprereq: [7450, 7407, Stat 5102, [advanced biostatstics or statistics] major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002929",
         "002930",
         "006409"
@@ -7833,7 +7883,10 @@
           "or": [
             "002805"
           ]
-        }
+        },
+        "006408",
+        "006409",
+        "004717"
       ]
     }
   },
@@ -7877,7 +7930,7 @@
     "fullname": "Advanced Statistical Genetics and Genomics",
     "info": "Genetic mapping of complex traits in humans, modern population genetics with an emphasis on inference based observed molecular genetics data, association studies; statistical methods for low/high level analysis of genomic/proteomic data. Multiple comparison and gene network modeling.\n\nprereq: [7445, statistical theory at level of STAT 5101-2; college-level molecular genetics course is recommended] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "794009",
         "006408"
       ]
@@ -7906,7 +7959,7 @@
     "fullname": "Advanced Survival Analysis",
     "info": "Statistical methods for counting processes. Martingale theory (transforms, predictable processes, Doob decomposition, convergence, submartingales). Applications to nonparametric intensity estimation. Additive/relative risk models. Inference for event history data, recurrent events, multivariate survival, diagnostics.\n\nprereq: [7450, 8432, Stat 5102, advanced [biostatistics or statistics] major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002929",
         "003154",
         "006409"
@@ -7924,19 +7977,24 @@
     "fullname": "Spatial Biostatistics",
     "info": "Spatial data, spatial statistical models, and spatial inference on unknown parameters or unobserved spatial data. Nature of spatial data. Special analysis tools that help to analyze such data. Theory/applications.\n\nprereq: [[STAT 5101, STAT 5102] or [STAT 8101, STAT 8102]], some experience with S-plus; STAT 8311 recommended",
     "prereq": {
-      "or": [
+      "and": [
         {
-          "and": [
-            "006408",
-            "006409"
+          "or": [
+            {
+              "and": [
+                "006408",
+                "006409"
+              ]
+            },
+            {
+              "and": [
+                "004710",
+                "004711"
+              ]
+            }
           ]
         },
-        {
-          "and": [
-            "004710",
-            "004711"
-          ]
-        }
+        "004717"
       ]
     }
   },
@@ -7951,7 +8009,7 @@
     "fullname": "Advanced Topics on Machine Learning",
     "info": "This course covers a range of emerging topics in machine learning, data analytics, and big data. This course will introduce various statistical and computational techniques for prediction and inference. These techniques are directly applicable to Business Analytics, Engineering, and Biomedical Research. \n\nTopics include the following:\n- Data exploration and data science.\n- Optimization for machine learning.\nHigh-dimensional analysis: prediction and inference.\n- Deep neural network learning: basics (FNN, CNN, RNN/LSTM); advanced topics (Transformers, Diffusion models, etc).\n- Recommender systems: personalized prediction.\n- Undirected and directed graphical models.\n- Unstructured data and text mining: Numerical embedding and language models.\n- Causal Machine Learning.\n\nprereq: Pubh7475 or Stat8053 or a similar course, or permission of instructor; familiarity with programming in R or Python. \n\nCredit will not be granted if credit has been received for: STAT 8056",
     "prereq": {
-      "and": [
+      "or": [
         "799870",
         "800960",
         "817909"
@@ -7969,7 +8027,7 @@
     "fullname": "Sequential and Adaptive Methods for Clinical Trials",
     "info": "Statistical methods for design/analysis of sequential experiments. Wald theorems, stopping times, martingales, Brownian motion, dymamic programming. Compares Bayesian/fequentist approaches. Applications to interim monitoring of clinical trials, medical surveillance.\n\nprereq: Stat 8101-8102 or equivalent, [students should be comfortable with the multivariate normal distribution or instr consent]",
     "prereq": {
-      "and": [
+      "or": [
         "004710",
         "004711"
       ]

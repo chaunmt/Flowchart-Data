@@ -118,7 +118,7 @@
     "fullname": "Life Span, Growth, and Development II",
     "info": "An introductory, multimedia course that incorporates biological, sociological, and psychological perspectives of human life span development for the period of young adulthood through aging and the death experience.\n\nprereq: 3690, one general psychology and one general biology course or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "013456"
       ]
     }
@@ -498,7 +498,7 @@
         "805208",
         "805206",
         {
-          "and": [
+          "or": [
             "805211"
           ]
         }
@@ -521,7 +521,7 @@
         "805208",
         "805206",
         {
-          "and": [
+          "or": [
             "805211"
           ]
         }
@@ -675,7 +675,7 @@
     "fullname": "Taking Ethical Action in Health Care",
     "info": "Ethical dimensions/role obligations of health care professionals related to selected social issues with health consequences.\n\nprereq: Senior undergrad nursing student, [4104 or instr consent]",
     "prereq": {
-      "and": [
+      "or": [
         "007429"
       ]
     }
@@ -1242,7 +1242,7 @@
     "fullname": "Consumer Health Informatics Practicum",
     "info": "Students apply consumer health informatics principles, theories, and research to consumer health informatics topics and how technology is used to engage patients, clinicians, and family members in their health care. Specific topics include electronic health literacy, digital/mobile health technologies (health apps), and sensor/remote monitoring.\n\nprereq: Graduate student, [Nurs 5116 or &Nurs 5116] or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "800384"
       ]
     }
@@ -2129,7 +2129,7 @@
     "fullname": "Reproductive Healthcare for Patients with Complex Conditions",
     "info": "The course provides an evidence based, theoretical and epidemiologic basis for advanced practice nursing care of patients with complex reproductive health problems requiring multidisciplinary interventions. Selected high-risk gynecologic and perinatal conditions are examined. \n\nprereqs: (NM and WHNP) 6305/6306, 6501, 6925; (NM only) 6308, 6210/6211; (WHNP only) 6502, 6926, 6927/6928",
     "prereq": {
-      "and": [
+      "or": [
         "805572",
         "805574",
         "805799",
@@ -2581,7 +2581,7 @@
     "fullname": "Nursing Leadership Practicum: Organizational Culture and Leadership",
     "info": "Implement evidence-based models through projects with preceptor in area of organizational environment and culture through experiential activities, including conferences, intensive clinical experiences, clinical conferences, and simulation.\n\nprereq: concurrent registration is required (or allowed) in 6703",
     "prereq": {
-      "or": [
+      "and": [
         "806657"
       ]
     }
@@ -2597,9 +2597,14 @@
     "fullname": "Nursing Leadership Seminar: Quality and Change Management",
     "info": "Comprehensive background in the science of patient safety, quality improvement, error management, and change implementation.\n\nprereq: [6702, 6703] or instr consent, concurrent registration is required (or allowed) in 6704",
     "prereq": {
-      "and": [
-        "805868",
-        "806657"
+      "or": [
+        {
+          "and": [
+            "805868",
+            "806657"
+          ]
+        },
+        "806658"
       ]
     }
   },
@@ -2630,7 +2635,7 @@
     "fullname": "Health Care Design and Innovation Practicum",
     "info": "Synthesis, reflection, and evaluation of learning from courses in the health innovation leadership and design curriculum to identify gaps in knowledge and developmental practicum needs related to leadership in health care innovation and design. prereq: Students in Health Care Design and Innovation certificate program or DNP students who have completed Nurs 7610, CSpH 5711, HUMF 5874.",
     "prereq": {
-      "and": [
+      "or": [
         "803795",
         "800180",
         "811601"
@@ -2791,7 +2796,7 @@
     "fullname": "Nurse Anesthesia Clinical Integration",
     "info": "Develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic airway skills, intravenous fluid replacement, positioning of the patient and management of emergence \n\nprereq: Grad Student in Doctorate of Nursing Practice Program, concurrent registration is required (or allowed) in 6900",
     "prereq": {
-      "and": [
+      "or": [
         "805184"
       ]
     }
@@ -2807,7 +2812,7 @@
     "fullname": "Basic Nurse Anesthesia Principles Practicum I",
     "info": "Develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic/advanced airway skills, intravenous fluid replacement, positioning of the patient, apply interventions, charting, management of emergence, handoff report, and setting personal daily clinical goals to achieve. \n\nprereq: N6910; concurrent registration is required (or allowed) in N6901, Grad student in Doctorate of Nursing Practice Program",
     "prereq": {
-      "and": [
+      "or": [
         "806899",
         "805380"
       ]
@@ -3208,7 +3213,7 @@
     "fullname": "Public Health Nursing Emergency Preparedness Leadership Practicum",
     "info": "Program analysis and planning, training for new employees, and evaluation of exercises used to prepare public health agency emergency readiness within a given public jurisdiction.\n\nprereq: concurrent registration is required (or allowed) in 6938",
     "prereq": {
-      "or": [
+      "and": [
         "807766"
       ]
     }
@@ -3475,7 +3480,7 @@
       "or": [
         "799890",
         {
-          "and": [
+          "or": [
             "805875"
           ]
         },
@@ -3561,7 +3566,7 @@
       "or": [
         "799890",
         {
-          "and": [
+          "or": [
             "805871"
           ]
         },
@@ -3912,7 +3917,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "003767",
             "794317",
             "003770",
@@ -4093,8 +4098,16 @@
         "003767",
         "003770",
         "804451",
-        "805799",
-        "805802"
+        {
+          "or": [
+            "805799"
+          ]
+        },
+        {
+          "or": [
+            "805802"
+          ]
+        }
       ]
     }
   },
@@ -4131,7 +4144,7 @@
     "fullname": "Assessment and Management of Health Practicum IV:Health Leadership for Family Nurse Prac",
     "info": "Integration of the essentials of doctoral education into the FNP clinical role. Students analyze individual level and community/systems factors and public policies to demonstrate leadership capabilities in creating holistic, multi-system, interprofessional collaborative approaches to address health concerns and health disparities. \n\nprereq: 7400 or concurrent registration is required (or allowed) in 7400, 7506",
     "prereq": {
-      "and": [
+      "or": [
         "800426",
         "807209"
       ]
@@ -4522,7 +4535,7 @@
     "fullname": "Adv Assessment, Intervention in Families of Children and Youth With Special Health Care Needs Prac",
     "info": "Assess, intervene, and evaluate intervention models related to patterns of functioning in families of children with complex health care needs. Prepares nurses to become members of an interdisciplinary team, working with families with special health care needs from diverse cultural backgrounds.\n\nprereq: [6102 or equiv family theory course, 6200, concurrent registration is required (or allowed) in 7925, concurrent registration is required (or allowed) in 7926] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "803834",
         "800478",
         "807285",
@@ -4635,7 +4648,7 @@
     "fullname": "Theoretical Foundations of the Discipline",
     "info": "Paradigms in nursing and related methods of inquiry, knowledge structures, and projection of needs for further knowledge development and testing.\n\nprereq: 8100 or equiv, knowledge of phil of sci",
     "prereq": {
-      "and": [
+      "or": [
         "003775"
       ]
     }
@@ -4651,7 +4664,7 @@
     "fullname": "Theory Development in Nursing",
     "info": "Strategies for theory development; synthesis of theoretical formulations in nursing using selected inductive and deductive theory development strategies.\n\nprereq: 8100 or equiv, 8112 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003775",
         "003780"
       ]
@@ -4984,7 +4997,7 @@
     "fullname": "Methods for the Study of Family Health Phenomena",
     "info": "Conceptual and methodological approaches in study of family health phenomena from nursing perspective. Research designs formulated to study questions in this area.\n\nprereq: 8124, 8100 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003777",
         "003775"
       ]
@@ -5001,7 +5014,7 @@
     "fullname": "Biophysiological Measurement and Instrumentation in Clinical Research",
     "info": "Critical issues in measurement and instrumentation for clinical research. Methodological issues and critical appraisal of instruments in the study of biophysiological phenomena. Field observation experiences.\n\nprereq: [8173, 8175 or equiv, advanced level stat or concurrent registration is required (or allowed) in advanced level stat] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "797175",
         "003793"
       ]
@@ -5070,7 +5083,7 @@
     "fullname": "Critical Review in Nursing and Health Research",
     "info": "Skills needed to critique a body of scientific literature in focused areas of nursing research and related fields. Includes construction of literature reviews for planning research projects and for research utilization. \n\nprereq: NURS 8142, instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "820251"
       ]
     }
@@ -5105,7 +5118,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "003789"
           ]
         }
@@ -5493,7 +5506,7 @@
     "fullname": "Advanced Nursing Care of the Elderly (II): For Nurse Practitioners",
     "info": "Synthesis and application of theory and research to effectively implement advanced gerontological nursing practice. Focuses on comprehensive primary care management across settings, evaluation of care, role analysis, and impact of contextual factors on health care services for the elderly.\n\nprereq: 8322, 8xxx advanced gerontological nurs course, grad nurs major, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003866"
       ]
     }
@@ -5838,7 +5851,7 @@
     "fullname": "Assessment and Intervention Models in Families of Children with Special Health Care Needs",
     "info": "In-depth, systemic, and theory-based study of family health assessment methods and intervention models. Practicum to assess, intervene, and evaluate intervention models related to patterns of functioning in families of children with complex health-care needs.\n\nprereq: 8124 or equiv, 8100, 8456, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003777",
         "003775",
         "003824"
@@ -6105,7 +6118,7 @@
     "fullname": "Methods for the Study of Family Health Phenomena",
     "info": "Exploration of conceptual and methodological approaches in study of family health phenomena from a nursing perspective. Formulation of research design to study questions in family health.\n\nprereq: 8124, 8175 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003777",
         "003793"
       ]

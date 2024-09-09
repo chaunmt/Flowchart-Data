@@ -22,7 +22,7 @@
     "fullname": "Preparation for Surgical Internship",
     "info": "Four-week rotation. Students work with University surgery faculty/residents. Interactive didactics, simulation, technical skills practice. Managing emergencies in surgical ward, discharging patients, dosing common medications. Wound care, suturing, use of radiologic tests. Placement of chest tubes and central lines.\n\nprereq: 7500 Surgery Clerkship, or equiv; designed for student entering general surgery categorical resident or beginning a surgical subspecialty or preliminary candidate for surgery",
     "prereq": {
-      "and": [
+      "or": [
         "012253"
       ]
     }

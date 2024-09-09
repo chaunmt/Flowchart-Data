@@ -742,7 +742,7 @@
     "fullname": "Dairy Cattle Genetics",
     "info": "Quantitative genetic principles of breeding dairy cattle. Evaluation of males, females. Systems of mating. Rates of genetic improvement with/without AI.\n\nprereq: (prereq 3221, previous or current registration in 4604, junior status or instructor permission)",
     "prereq": {
-      "and": [
+      "or": [
         "009077",
         "009100"
       ]
@@ -1081,7 +1081,7 @@
     "fullname": "Research Proposals: From Ideas to Strategic Plans",
     "info": "You have a great research idea, now what? How do you turn your idea into a proposal? It has been said paraphrasing Edison, that innovation is one percent inspiration, ninety-nice percent perspiration. In this course, we will start with and inspiring idea and sweat our way to develop a research proposal. The students will go through a step-by-step process that starts choosing and defining a research idea, then proceeding to do literature reviews and to the development of hypothesis, aims, objectives and a research strategy. The aim of this course is to provide students with tools to understand the structure of scientific reports and proposals, literature searches and basic data interpretation. The student will learn about different research approaches and how to achieve consistency in their research projects. We will guide students in how to begin and develop a written research proposal that will satisfy the requirements of their advisers, institution and funding organizations.\n\nprereq: There are no prerequisites, however, having taken ANSC 3011 Statistics for Animal Science is desirable.",
     "prereq": {
-      "and": [
+      "or": [
         "008641"
       ]
     }
@@ -1503,7 +1503,7 @@
     "fullname": "Reproductive Endocrinology",
     "info": "Hormonal regulation of mammalian reproductive cycles and seasonal patterns; nutritional and stress effects on reproductive endocrinology; mechanism of hormone action.\n\nprereq: 3305 or 3327 or equiv, BioC 3021",
     "prereq": {
-      "and": [
+      "or": [
         "009148",
         "009312",
         "014290"

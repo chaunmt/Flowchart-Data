@@ -46,7 +46,7 @@
     "fullname": "Honors: Applied Research and Research Utilization",
     "info": "Systematic inquiry in interpreting/evaluating research.  Implement study proposed in Nurs4205V. Write scholarly research report, which will serve as honors research thesis.\n\nprereq: Honors student in School of Nursing, Nurs 4205V, upper division statistics course",
     "prereq": {
-      "and": [
+      "or": [
         "007436"
       ]
     }

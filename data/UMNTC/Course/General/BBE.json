@@ -166,7 +166,7 @@
     "fullname": "Introduction to Engineering Design",
     "info": "Identify, formulate, develop/complete open-ended designs in bioproducts & biosystems engineering at the conceptual level; engineering economics principles, safety/health considerations, and ethics for design project. Written, graphical, and oral presentations. \n\nprereq: BBE 2003, Chem 1061, Math 2243 or Math 2373, BBE or Pre-BBE student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "817285",
         "807753",
         "000280",
@@ -185,7 +185,7 @@
     "fullname": "Transport in Biological Processes I",
     "info": "Introduction to fluid mechanics. Fluid statics/kinematics. Differential/finite control volume analysis with continuity, momentum, energy equations. Bernoulli/Euler Equation. Dimensional analysis. Potential flow. Non-Newtonian Fluids. Applications to biological fluids/biological systems.\n\nprereq: BBE 1001 or concurrent registration and BBE 2001 and BBE 3033 and Math 2243 or Math 2373 or Math 2574H and Math 2263 or Math 2374 or Math 2573H and Phys 1302W or Phys 1402V",
     "prereq": {
-      "and": [
+      "or": [
         "795645",
         "795655",
         "799866",
@@ -208,7 +208,7 @@
     "fullname": "Engineering Principles of Molecular and Cellular Processes",
     "info": "Applied engineering principles in biological processes. Classification of microbes of industrial importance. Parameters for cellular control. Modeling of cell growth/metabolism, enzymatic catalysis, bioreactor design, product recovery operations design. Case studies.\n\nprereq:  BIOL 1009 or BIOL 2003; and CHEM 1062/CHEM 1066 or equivalent or CHEM 1082; MATH 1372 or MATH 1282",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         "800457",
         "807756",
@@ -233,7 +233,7 @@
       "or": [
         "005416",
         {
-          "and": [
+          "or": [
             "806664"
           ]
         }
@@ -251,7 +251,7 @@
     "fullname": "Material and Energy Balances in Biological Systems",
     "info": "Basic principles of materials and energy balances and their applications in biological systems.\n\nprereq: CHEM 1062 or CHEM 1082, MATH 1372 or equivalent or MATH 1282 and PHYS 1302W or PHYS 1222",
     "prereq": {
-      "and": [
+      "or": [
         "807756",
         "815284",
         "003693",
@@ -272,7 +272,7 @@
     "fullname": "Biological and Environmental Thermodynamics",
     "info": "Laws of thermodynamics for energy, environmental and biological sciences. First/second laws of thermodynamics in representing phase change, biochemical reactions, metabolic cycles, and photosynthesis.\n\nprereq: BIOL 1009 or BIOL 2003 and CHEM 1065 or equivalent or CHEM 1081, MATH 1372 or MATH 1282 and PHYS 1302W or PHYS 1222",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         "800457",
         "807752",
@@ -584,7 +584,7 @@
     "fullname": "Off-road Vehicle Design",
     "info": "Mechanics involved in designing/testing off-road vehicle. Vehicle mechanics, traction, and performance. Complexity/modeling of vehicle interaction with soil, muskeg, and snow.\n\nprereq: [[2001, 4303] or [AEM 2021, AEM 3031], [3012 or CEGE 3502 or concurrent registration is required (or allowed) in CEGE 3502], upper div CSE] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "and": [
             "795655",
@@ -598,7 +598,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "806664",
             "005011"
           ]
@@ -645,10 +645,18 @@
     "fullname": "Bioproducts Separation and Purification Processes",
     "info": "Unit operations of bioproducts engineering/manufacture; separations and purification processes.\n\nprereq: BBE 2003 and BBE 4013 and BBE 3002 or concurrent registration in BBE 3002, [jr or sr or instr consent]\n(this should include: BBE 3012, BBE 3033, BBE 3043, BBE 4013, CSE Upper Division] or instr consent {C- or better)",
     "prereq": {
-      "and": [
+      "or": [
         "817285",
         "004012",
-        "805218"
+        "805218",
+        {
+          "and": [
+            "806664",
+            "799866",
+            "804482",
+            "004012"
+          ]
+        }
       ]
     }
   },
@@ -784,7 +792,7 @@
     "fullname": "BBE Capstone Design",
     "info": "Students develop, select, formulate, and complete an open-ended, comprehensive engineering process/product design project. This course should be taken during the last spring semester before graduation. \n\nprereq: BBE 3002 and BBE 3012 and BBE 4013 and or concurrent with BBE 4013 and CSE Upper Division.",
     "prereq": {
-      "and": [
+      "or": [
         "805218",
         "806664",
         "004012"
@@ -802,7 +810,7 @@
     "fullname": "Ecological Engineering Design",
     "info": "Application of ecological engineering to design of remediation systems. Artificial ecosystems, ecosystem/wetland restoration, constructed wetlands. Biological engineering for slope stability. Waste treatment. Restoring ecological service of watersheds.\n\nprereq: BBE 3012 and CSE upper division or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "806664"
       ]
     }
@@ -834,7 +842,7 @@
     "fullname": "Assessment and Diagnosis of Impaired Waters",
     "info": "Assessing impaired waters and developing TMDL for conventional pollutants. Preparing/communicating legal, social, and policy aspects. TMDL analysis of real-world impaired waters problem. Field trip to impaired waters site. \n\nprereq: BBE 3012 and Upper division in CSE or CFANS or CBS student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "806664"
       ]
     }
@@ -867,7 +875,7 @@
     "fullname": "Environmental and Industrial Microbiology",
     "info": "Microbes, including fungi, bacteria, and other small-scale organisms, are the pioneer life of the planet, shaping and maintaining the ecosystem. Microbiology is the discipline that studies the basic biology and fundamental processes of microbes with the aim of answering and solving the relevant environmental and industrial questions. Microbiology remains a frontier but has developed significantly in recent years. Growth in this research area is largely due to vast improvements in molecular tools (for example: genome sequencing and editing, microscopes, data analysis) and other biochemical techniques, often driven by interest in emergent applications for these unique organisms. These applications include those related to protecting environmental quality as well as those related to making novel products, including materials, fuels, and chemicals. These also include understanding the roles of microbes in the natural nutrient cycles and other key natural processes. This course is therefore designed to introduce students to the taxonomy, biology, and ecology of microbes and to focus on key applications for which these microbes can be applied.\n\nprereq:  BIOL 1001 or BIOL 1009 or BIOL 2003 and CHEM 1015 or CHEM 1061 or CHEM 1081.",
     "prereq": {
-      "and": [
+      "or": [
         "005419",
         "005416",
         "800457",
@@ -891,7 +899,7 @@
       "and": [
         "799866",
         {
-          "and": [
+          "or": [
             "004012"
           ]
         }
@@ -950,8 +958,13 @@
     "info": "Material/energy balances applied to processing systems. Principles of fluid flow, thermodynamics, heat, mass transfer applied to food and bioprocess unit operations such as pumping, heat exchange, refrigeration/freezing, drying, evaporation, and separation.prereq: [Math 1142 or Math 1271], Phys 1101; intended for non engineering students",
     "prereq": {
       "or": [
-        "000119",
-        "000120"
+        {
+          "or": [
+            "000119",
+            "000120"
+          ]
+        },
+        "002066"
       ]
     }
   },
@@ -966,7 +979,7 @@
     "fullname": "Air Quality and Pollution Control Engineering",
     "info": "Air quality and pollution control engineering systems. Air pollutant sources, emissions transformations, dispersion, fate and impacts. Introduction to air quality and pollution laws, regulations and permits. Control technologies including energy conservation, cyclones, electrostatic precipitators, fabric filters, absorbers, adsorbers, incinerators and biofilters.\n\nprereqs: BBE 3012, 3043, upper division CSE, graduate student or instructor consent. Credit will not be granted if credit has been received for CEGE 5561",
     "prereq": {
-      "and": [
+      "or": [
         "806664",
         "804482",
         "807922"
@@ -1192,7 +1205,7 @@
     "fullname": "Off-road Vehicle Design",
     "info": "Mechanics involved in designing/testing off-road vehicles. Vehicle mechanics, traction, performance. Complexity/modeling of vehicle interaction with soil, muskeg, snow. Case study or literature review. Develop paper for publication.\n\nprereq: [[2001, 4303] or [AEM 2021, AEM 3031], [3012 or concurrent registration is required (or allowed) in 3012 or CEGE 3502 or concurrent registration is required (or allowed) in CEGE 3502], upper div CSE] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "and": [
             "795655",
@@ -1206,7 +1219,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "806664",
             "005011"
           ]
@@ -1321,7 +1334,7 @@
     "fullname": "Watershed Engineering",
     "info": "Application of engineering principles to managing surface runoff from agricultural, range, and urban watersheds. Design of facilities and selection of land use practices for controlling surface runoff to mitigate problems of flooding and degradation of surface-water quality. \n\nprereq: 3023, upper div CSE or grad student",
     "prereq": {
-      "and": [
+      "or": [
         "004011"
       ]
     }
@@ -1390,10 +1403,10 @@
     "fullname": "Biological Process Engineering",
     "info": "Material/energy balances. Homogeneous reactions of bioprocess engineering and biological systems. Fermentation engineering, reactor design fundamentals. Filtration, centrifugation, separation, absorption, extraction, chromatography. Biorefining. Conversion of biomass into bioenergy, biochemicals, and biomaterials.\n\nprereq: [3033, [4013 or concurrent registration is required (or allowed) in 4013], or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "799866",
         {
-          "and": [
+          "or": [
             "004012"
           ]
         }
@@ -1519,7 +1532,7 @@
     "fullname": "Parameter Estimation in Biosystems and Agricultural Engineering",
     "info": "Procedures for estimating parameter values and parameter uncertainty from experimental data. Values and interpretation of linear and nonlinear models using ordinary and weighted least-square methods. Design of experiments. Application to biosystems and agricultural engineering problems.\n\nprereq: Stat 3021 or equiv, computer programming course",
     "prereq": {
-      "and": [
+      "or": [
         "001622"
       ]
     }
@@ -1559,9 +1572,14 @@
     "fullname": "Machinery Modeling",
     "info": "Machinery systems modeling using multibody dynamics simulation software (MBS). Review models presented in literature. Report on limitations of modeling approaches used. Models developed in students' areas of interest.\n\nprereq: [3012 or CEGE 3502], AEM 2021",
     "prereq": {
-      "or": [
-        "806664",
-        "005011"
+      "and": [
+        {
+          "or": [
+            "806664",
+            "005011"
+          ]
+        },
+        "004336"
       ]
     }
   },

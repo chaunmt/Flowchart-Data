@@ -253,7 +253,11 @@
     "name": "Principles of Coaching",
     "fullname": "Principles of Effective Coaching",
     "info": "Skills/competencies required to coach, mentor, develop employees/leaders. Managing coaching process. Planning coaching relationship. Coaching as leadership development strategy. Coaching executives. \n\nprereq: HRIR MA student must register A-F, [CSOM or HRD junior or senior or dept consent] with HRIR 3021",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "013134"
+      ]
+    }
   },
   {
     "uid": "825381",
@@ -450,7 +454,7 @@
     "fullname": "Managing Selection and Staffing Processes",
     "info": "Theory/practice related to staffing decisions. Recruitment, selection, promotion, transfer, dismissal, layoff, retirement in organizations. Legal environment in which staffing decisions are made. Staffing from strategic/organizational perspectives.\n\nprereq: MHRIR student, 6301 or dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "010485"
       ]
     }
@@ -466,7 +470,7 @@
     "fullname": "Managing Organizational Training Processes",
     "info": "Theory, research, practice related to design/implementation of employee training programs. Needs analysis. Training outcomes. Instructional design/training techniques. Program evaluation/costing. Role of employees, firm policies/practices in training.prereq: MHRIR student, 6301 or dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "010485"
       ]
     }
@@ -482,7 +486,7 @@
     "fullname": "Managing Employee Training & Development",
     "info": "Career development/planning. Employee/management development techniques, organizational/employee concerns related to socialization, cross-cultural assignments, change, engagement, performance management.\n\nprereq: MHRIR student, 6301 or dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "010485"
       ]
     }
@@ -845,7 +849,7 @@
     "fullname": "Design and Management of Organizations",
     "info": "Introduction to micro through macro organizational issues at individual, dyadic, group, organizational, and environmental levels; their implications for organizational design, control, coordination, and development.\n\nprereq: Econ 1101, Econ 1102, Psy 1001 or instr consent, grad HRIR major or dept consent; grad majors must enroll A-F only",
     "prereq": {
-      "and": [
+      "or": [
         "009920",
         "009923",
         "006265"
@@ -887,7 +891,7 @@
     "fullname": "Human Resources and Organizational Performance",
     "info": "Impact of human resource policies and practices on organizational productivity and effectiveness.  Role of government, unions, and private sector institutions on organizational effectiveness.\n\nprereq: 8061 or instr consent, grad HRIR major or dept consent; grad majors must enroll A-F only",
     "prereq": {
-      "and": [
+      "or": [
         "010489"
       ]
     }

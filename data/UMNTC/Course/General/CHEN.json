@@ -34,7 +34,7 @@
     "fullname": "Material and Energy Balances",
     "info": "Description/analysis of chemical engineering systems. Units/dimensions, materials balances on systems with/without chemical reactions, elementary phase equilibria/diagrams, energy balances. Elementary treatment of multistage steady-state equilibrium operations.\n\nprereq: Chem 1061 or equiv., concurrent registration is required (or allowed) in MATH 2374 or equiv., concurrent registration is required (or allowed) in PHYS 1302 or equiv., CSE student, C- or better in all pre-reqs",
     "prereq": {
-      "and": [
+      "or": [
         "807753",
         "003695",
         "002071"
@@ -64,7 +64,7 @@
     "fullname": "Transport Phenomena: Momentum and Heat",
     "info": "Fluid statics/dynamics. Applications to chemical engineering systems, conduction, diffusion. Principles/applications of heat transfer in chemical engineering systems.\n\nprereq: [2001 or [transfer student, dept consent]], [Math 2373 or equiv.], upper div ChEn major, C- or better in all pre-reqs",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "008635"
@@ -89,19 +89,19 @@
     "fullname": "Mass Transport and Separation Processes",
     "info": "Introduction to principles of mass transfer. Mass transfer operations used in separation processes, unit operations.\n\nprereq: [2001 or 4001], [3005 or 4005], [3101 or 4101], [upper div ChEn major or dept consent], C- or better in all pre-reqs",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "008635"
           ]
         },
         {
-          "and": [
+          "or": [
             "009055"
           ]
         },
         {
-          "and": [
+          "or": [
             "009069"
           ]
         }
@@ -143,7 +143,7 @@
     "fullname": "Chemical Engineering Thermodynamics",
     "info": "Applications of thermodynamics/chemical equilibrium to problems in chemical engineering.\n\nprereq: ChEn 2001, Chem 1062/1066 Math 2374 or equivalent, & Math 2373 or equivalent",
     "prereq": {
-      "and": [
+      "or": [
         "008635",
         "807756",
         "807754",
@@ -163,14 +163,14 @@
     "fullname": "Reaction Kinetics and Reactor Engineering",
     "info": "Chemical equilibrium/chemical kinetics applied to chemical engineering systems. Behavior/design of chemical reactors, interaction between chemical/physical rate processes. Mathematical modeling, design of reactors.\n\nprereq: [2001 or 4001], [3101 or 4101], [upper div ChEn major or dept consent], C- or better in all pre-reqs",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "008635"
           ]
         },
         {
-          "and": [
+          "or": [
             "009069"
           ]
         }
@@ -279,7 +279,17 @@
     "name": "Polymers",
     "fullname": "Polymers",
     "info": "Polymer structure-property relations: structure/morphology of crystalline/amorphous states. Crystallization kinetics. Vitrification and the glass transition. Mechanical properties, failure, permeability, optical/electrical properties, polymer composites, effect of processing on properties.\n\nprereq: [[MATS 3011, [3101 or MATS 3001], [upper div MatS or ChEn]]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "004990",
+        {
+          "or": [
+            "009069",
+            "004997"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "802264",
@@ -321,7 +331,7 @@
     "fullname": "Chemical Engineering Lab II",
     "info": "Principles/techniques of efficient design, structure, measurement, planning, analysis, and presentation of experiments and experimental results. Experimental problems in energy balances, fluid flow, heat transfer, and mass transfer. Design of new systems using data obtained in lab. Oral/written presentations.\n\nprereq: 4006, 4101, 4401W, upper div ChEn major",
     "prereq": {
-      "and": [
+      "or": [
         "009082"
       ]
     }
@@ -341,6 +351,11 @@
         "804191",
         "009076",
         "795907",
+        {
+          "or": [
+            "795907"
+          ]
+        },
         "002392"
       ]
     }
@@ -397,7 +412,7 @@
     "fullname": "Process Control",
     "info": "Analysis of dynamic behavior/design of linear control systems for chemical processes. Dynamic response/stability of linear ODE systems, tuning of PID controllers, synthesis of feedback, feedforward/feedback controller.\n\nprereq: [3102 or 4102], [upper div ChEn major or dept consent], C- or better in all pre-reqs",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "009076"
@@ -501,15 +516,15 @@
     "fullname": "Advanced Undergraduate Physical and Chemical Thermodynamics",
     "info": "Principles of classical thermodynamics, introduction to nonequilibrium thermodynamics. Applications in chemical engineering, materials science.\n\nprereq: CHEM 3502, [3101 or 4101], [3005 or 4005], ChEn major upper div; background in undergrad engineering or chemistry courses in thermodynamics recommended",
     "prereq": {
-      "and": [
+      "or": [
         "002398",
         {
-          "and": [
+          "or": [
             "009069"
           ]
         },
         {
-          "and": [
+          "or": [
             "009055"
           ]
         }
@@ -527,7 +542,7 @@
     "fullname": "Advanced Undergraduate Statistical Thermodynamics and Kinetics",
     "info": "Introduction to statistical mechanical description of equilibrium/non-equilibrium properties of matter. Emphasizes fluids, classical statistical mechanics.\n\nprereq: ChEn 3005 or 4005, 3101 or 4101, CHEM 3501, CHEM 3502, ChEn major upper div",
     "prereq": {
-      "and": [
+      "or": [
         "009055",
         "009069",
         "002397",
@@ -903,7 +918,13 @@
     "info": "How to make rheological lab measurements. Students select/characterize rheologically interesting material with help of instructor. Oral/written report. Half-semester course.\n\nprereq: 8101, [4702 or concurrent registration is required (or allowed) in 4702 or 8102 or concurrent registration is required (or allowed) in 8102]",
     "prereq": {
       "and": [
-        "012679"
+        "012679",
+        {
+          "or": [
+            "789539",
+            "012515"
+          ]
+        }
       ]
     }
   },

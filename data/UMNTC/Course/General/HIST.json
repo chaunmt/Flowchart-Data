@@ -2890,7 +2890,7 @@
     "fullname": "Revolution and Human Rights: The French Revolution and its Legacy",
     "info": "What role did the French Revolution play in shaping how we think about the possibility of massive social change, justice, and rights today? How especially did 18th-century philosophy, culture, politics, and economics influence the development of what we call universal individual \"human rights\" We also ask: could we have done better?  To do so, we will play \"Rousseau, Burke, and Revolution in France, 1791,\" a Reacting to the Past flipped-classroom role-playing game. Working individually and in teams, students will prepare speeches, produce pamphlets and newspapers, not only to learn about the stakes of this historical turning point and the philosophical debates surrounding it, but also to imagine changing it. We will also seek out and document the legacy of this Revolution in our lives and around the world today.  This class offers students the knowledge and skills to participate in substantive debate aimed at solving problems collectively, to effect change aligning with their beliefs and philosophies, and to reflect critically on historical legacy\n\nNo prerequisites. All materials for Fren 3732 are in English, and students in all programs are welcome! ",
     "prereq": {
-      "and": [
+      "or": [
         "825514"
       ]
     }

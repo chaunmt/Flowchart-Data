@@ -538,7 +538,7 @@
     "fullname": "Internship in Technical Writing and Communication",
     "info": "This is an online course for students who are working in an approved internship in the field of technical communication. Students have the opportunity to apply the skills they have learned in the TWC major in a real-world situation. In the course, students are required to read materials, to submit bi-weekly progress reports on their position to an online forum, and respond to other students. Students are also asked to post examples of their projects and to rate their skills using the CLA Competencies and Rate Tool. The final project in the course is a 10-12 page final report that involves submitting a draft and meeting with the instructor.\n\nprereq: Writ 3562W and 24 credits completed in the Technical Writing & Communication major",
     "prereq": {
-      "and": [
+      "or": [
         "002668"
       ]
     }

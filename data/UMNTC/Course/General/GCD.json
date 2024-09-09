@@ -26,7 +26,7 @@
     "fullname": "Stem Cells in Biomedicine and Society",
     "info": "A course that focuses on the general properties of stem cells, their potential uses in biomedicine, and the potential impact of their use on society. The course is suitable for students who have successfully completed at least one general biology course that included coverage of basic genetics and cell biology. Stem cells are one of the rapidly growing topics in biology. Research into stem cells ranges from basic biology to regeneration to clinical applications to ethics. In this course, you will learn the general features of embryonic, artificial, or adult-tissue stem cells: how they contribute to tissue regeneration, how scientists create and manipulate stem cells, what scientists do with them, what the public considers stem cell research and why. Then, you will learn about bone marrow transplantation, an established stem cell-based therapy, and various diseases and potential applications of stem cells to treat/cure the diseases. By the end of this course, you will have deeper insights into stem cells. Recommended prerequisites: BIOL1009 (General Biology), BIOL1951 (Foundations of Biology Lecture I for Biological Sciences Majors) or an equivalent General Biology course that includes basic coverage of genetics and cell biology This course can NOT be used as an elective for some CBS majors, such as the GCD major. Check the Program Requirements for your major to determine if it can be used as an elective.",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         "817196"
       ]
@@ -114,7 +114,7 @@
     "fullname": "Cell Biology-Writing Intensive",
     "info": "Processes fundamental to cells. Emphasizes eukaryotic cells. Assembly/function of membranes/organelles. Cell division, cell form/movement, intercellular communication, transport, secretion pathways. Cancer cells, differentiated cells. \n\nprereq: GCD major, Biol2003/2003H or Biol4003 or grad",
     "prereq": {
-      "and": [
+      "or": [
         "800457",
         "009489"
       ]
@@ -229,7 +229,7 @@
     "fullname": "Human Genetics - Writing Intensive",
     "info": "Human Genetics is the science of how our genomes function, vary, and shape our unique, individual characteristics and is a rapidly expanding field with major implications for medical and fundamental research, clinical practice, and many other areas. In this course, students will learn about the principles of human genetics & genomics at the levels of molecules, cells, individuals, and populations. Topics include patterns of inheritance; the molecular causes and biochemical basis of genetic disorders; disease gene identification; the origin and distribution of human genetic variation; genetic influences on common, complex diseases; epigenetics and regulation of gene expression; genomic technologies for understanding human genomes; cancer genetics; behavioral genetics; human ancestry and evolution; applications such as genetic screening, genetic counseling, and gene therapy; and ethical questions raised by emerging abilities to edit the human genome, modify the human germline, and many more. This writing intensive course is available only to Health and Genomics minors. \n\nprereq: BIOL 4003 or instr consent; Health and Genomics minor",
     "prereq": {
-      "and": [
+      "or": [
         "009489"
       ]
     }
@@ -278,7 +278,7 @@
     "fullname": "Stem Cells in Biology and Medicine",
     "info": "Contemporary stem cell biology with emphasis on mechanisms/applications. Embryonic, tissue-specific, and induced pluripotent stem cells and potential uses in human disease. \n\nprerequisites: BIOL 4003 Genetics; recommended prerequisite: BIOL 4004 Cell Biology or GCD 4005W This course can be used as an elective for certain CBS majors, such as the GCD major. Check the Program Requirements for your major to determine if it can be used as an elective.",
     "prereq": {
-      "and": [
+      "or": [
         "009489",
         "010881",
         "808772"
@@ -332,7 +332,7 @@
     "fullname": "Directed Studies: Writing Intensive",
     "info": "Writing Intensive Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. One main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. The project needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. This course is graded S/N and approval of the DUGS is required before a grade of S can be given by the faculty mentor. \n\nprereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788848",
         "788849"
       ]
@@ -349,7 +349,7 @@
     "fullname": "Directed Research: Writing Intensive",
     "info": "Writing Intensive Directed Research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. This course is not for students starting out in research. It is intended for students who already have been working in the research group of the mentor and have developed an independent research project. In this course, the student will receive writing instruction through a writing support course (corresponding to 1 credit in addition to the credits of directed research time) that will meet weekly throughout the semester. The written output usually is in the form of a scientific paper describing the results of the student's project. Written output of the course must be revised during the semester and a schedule for writing, assessment and revision needs to be in place at the beginning of the semester. The project needs to be explained in the campus Directed Research contract and the project and participation in the writing support course agreed on by both the student and faculty mentor. The contract must be approved by the Director of Undergraduate Studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, agreement about how writing instruction will take place, confirmation of understanding of the timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course - near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. The DUGS can call for a final revision before a grade is given. This course is graded S/N by the writing support course instructor, and approval of both the DUGS and the research mentor is required before a grade of S can be given by the writing support course instructor.\n\nThis course is for non-Honors students. Students should register for the number of research credits they intend to pursue plus 1 cr for the writing support component (for example: 2-4 cr of research + 1 cr writing support = 3-5 cr).\n\nprereq: department consent, instructor consent, no more than a total of 7 credits of 4793W, 4794W, 4993, 4994 combined can count towards CBS major requirements.\n\nprereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788848",
         "788849",
         "013034",
@@ -380,7 +380,7 @@
     "fullname": "Directed Studies",
     "info": "Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. The topic for the course needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.",
     "prereq": {
-      "and": [
+      "or": [
         "788848",
         "788849"
       ]
@@ -397,7 +397,7 @@
     "fullname": "Directed Research",
     "info": "Directed Research is an individual-study, laboratory or field investigation course. The research topic needs to be agreed on by both the student and the faculty mentor and explained in a Research/Directed Studies contract. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. \nprereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "788848",
         "788849"
       ]
@@ -414,7 +414,7 @@
     "fullname": "Computer Programming for Biology",
     "info": "Computer programming skills with applications in biology. Design/build new computer programs for applications in cell/developmental biology, including modeling of biological processes, advanced data analysis, automated image analysis. \n\nprereq: BIOL 4003 or BIOL 4004 or GCD 3033 or CBS grad or BMBB or MCDB&G grad student, general statistics course",
     "prereq": {
-      "and": [
+      "or": [
         "009489",
         "010881",
         "806984"
@@ -644,7 +644,7 @@
     "fullname": "Advanced Molecular Genetics and Genomics",
     "info": "Literature-based course in modern molecular genetic and genomic analysis. Students will gain a deep understanding of the fundamental molecular mechanisms controlling inheritance in biological systems. Students will gain a facility in thinking critically and creatively about how genes work at cellular, organismal, and transgenerational levels. Course instruction emphasizes active-learning approaches, student presentations, and group projects.\n\nprereq: [3022 or BIOL 4003], [BIOC 3021 or BIOC 4331] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "006271",
@@ -695,10 +695,15 @@
     "fullname": "Cellular Biochemistry and Cell Biology",
     "info": "This course introduces graduate students to fundamental concepts of Biochemical Unity (Part 1) and Cell Theory (Part 2). For Part 1, we will discuss matter of life, equilibrium, entropy & law of mass action, two state systems, random walks & diffusion, rate equations of chemical reactions, and explore how they relate to regulation of biological networks (gene regulation and signal transduction). For Part 2 we will focus on properties of biological membranes, membrane trafficking, protein import & degradation, nuclear structures and their function, as well as molecular motors, cytoskeletal dynamics, and mitosis.\n\nThe course assumes students have had previous undergraduate courses in cell biology, biochemistry and genetics.\n\nprereq: [[[4034 or 8121 or BioC 8002], Biol 4004] or BMBB or MCDBG grad student] or instr consent",
     "prereq": {
-      "or": [
-        "007633",
-        "010644",
-        "005145"
+      "and": [
+        {
+          "or": [
+            "007633",
+            "010644",
+            "005145"
+          ]
+        },
+        "010881"
       ]
     }
   },
@@ -722,7 +727,9 @@
                 "010643",
                 "009489"
               ]
-            }
+            },
+            "010881",
+            "007633"
           ]
         }
       ]

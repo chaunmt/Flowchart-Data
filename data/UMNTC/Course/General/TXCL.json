@@ -98,7 +98,7 @@
     "fullname": "Advanced Toxicology I",
     "info": "Absorption, distribution, metabolism, and excretion of xenobiotics; toxicokinetics; mechanisms of toxicity or specific classes of chemical agents.\n\nprereq: 5011 or BioC 4331, PubH 5104 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "014224",
         "002945"
       ]
@@ -115,7 +115,7 @@
     "fullname": "Advanced Toxicology II",
     "info": "Kinetic and dynamic determinants of target organ toxicity; pathological alterations in structure/function relationships for major target organ systems; mechanisms of mutagenesis, carcinogenesis, and teratogenesis.\n\nprereq: 8012, BioC 4332, Phsl 5062 or Phsl 6101 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "014229",
         "003181",
         "010651"

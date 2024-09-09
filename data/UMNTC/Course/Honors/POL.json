@@ -106,7 +106,7 @@
     "fullname": "Honors Thesis Credits",
     "info": "Individual research/writing of departmental honors thesis.\n\nprereq: 3109, pol sci, honors, dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "007461"
       ]
     }

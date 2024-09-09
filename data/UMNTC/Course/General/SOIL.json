@@ -22,9 +22,14 @@
     "fullname": "Basic Soil Science",
     "info": "Basic physical, chemical, and biological properties of soil. Soil genesis classification, principles of soil fertility. Use of soil survey information to make a land-use plan. WWW used for lab preparation information.\n\nprereq: [CHEM 1015, CHEM 1017] or CHEM 1021 or equiv",
     "prereq": {
-      "and": [
-        "797614",
-        "797615"
+      "or": [
+        {
+          "and": [
+            "797614",
+            "797615"
+          ]
+        },
+        "002384"
       ]
     }
   },
@@ -270,7 +275,7 @@
     "fullname": "Soil Biology and Fertility",
     "info": "Properties of microorganisms that impact soil fertility, structure, and quality. Nutrient requirements of microbes and plants, and mineral transformations in biogeochemical cycling. Symbiotic plant/microbe associations and their role in sustainable agricultural production. Biodegradation of pollutants and bioremediation approaches.\n\nprereq: Biol 1009 or equiv, Chem 1021 or equiv; Soil 2125 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         "002384",
         "006578"

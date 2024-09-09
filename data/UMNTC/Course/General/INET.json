@@ -138,7 +138,7 @@
     "fullname": "Security II: Cloud Security and Strategy",
     "info": "An exploration of information security, how it applies to current networking technologies, and ways these technologies are used and consumed. New authentication methods for securing user data, such as telemetry, biometrics, and N factor authentication, will be surveyed. The course will also look at recent instances of information breaches that have put a spotlight on security, especially as they relate to cloud services, virtual environments, and Internet standards.\n\nNo prerequisites. Basic knowledge of security issues and processes (detection, risk assessment, technology, secure design, business continuity, forensics, and legal aspects) is recommended. If you have taken INet 4165, you will be well prepared. If you are unsure about whether your knowledge is sufficient for success in this class, contact the instructor.",
     "prereq": {
-      "and": [
+      "or": [
         "801777"
       ]
     }
@@ -216,7 +216,7 @@
     "fullname": "Networking II: Next-Gen Networking Technologies",
     "info": "Emerging networking concepts, technologies, and applications. Topics will evolve to reflect current trends and expertise of the faculty, such as high-speed networking, ATM, network security, wireless networks, multimedia, and electronic commerce. Each technology is considered for the underlying theory; the driving technological and business needs; the applications; the competing alternative technologies; and the design, implementation, and configuration of such systems. Case studies may be used to identify and analyze strategic issues and problems. Concepts and tools from this and previous ITI courses are applied to solve these problems and design realistic programs of action. Hands-on labs are included when possible. Industry speakers, tours, and demonstrations show practical applications. \n \nprereq: INET 4002 and INET 4011, or equivalents, or professional experience, to comprise a basic understanding and knowledge of operating systems, computer architecture, and probability theory. Senior status preferred.",
     "prereq": {
-      "and": [
+      "or": [
         "817708",
         "790628"
       ]
@@ -233,7 +233,7 @@
     "fullname": "IT Infrastructure Operations: Capstone",
     "info": "Comprehensive review of major aspects of IT infrastructure and operations: networks, databases, servers, storage, project management, governance, compliance, monitoring, and more. This course merges these discrete disciplines into an operational pattern, preparing you to quickly integrate yourself into a productive working IT environment..  You'll learn how to map and develop processes, collect and analyze operational metrics, plan tactically and strategically, plan for capacity, secure the infrastructure, and scale the topics to fit an organization's size. Because IT infrastructure operations are almost always the function of a team, there will be two case study assignments that will challenge you and your group members to use your knowledge about the course material against a current industry issue. \n\nprereq: INet 4002 or CSci 4211 or instructor consent, Senior.",
     "prereq": {
-      "and": [
+      "or": [
         "817708",
         "790655"
       ]
@@ -250,7 +250,7 @@
     "fullname": "Data Science I: Machine Learning Essentials",
     "info": "Introduction to data science. Design strategies for business analytics: statistics for machine learning, core data mining models, data pipeline, visualization. Hands-on labs with data mining, statistics, and in-memory analytics software.\n\nRecommended prerequisites: CSCI 1913 or 1933, statistics.",
     "prereq": {
-      "and": [
+      "or": [
         "809667",
         "810346"
       ]
@@ -268,8 +268,12 @@
     "info": "This course is a follow-up to INET 4061: Data Science Fundamentals. It covers the tools required to apply and implement data science techniques such as mathematical programming libraries, cloud resources, and big data databases. It also gives an overview of advanced data science methodologies such as deep learning, reinforcement learning, recommendation systems, and linear programming. Previously offered as INET 4710.\n\nprereq: Basic programming knowledge (Java, Python, R). Linear algebra and calculus strongly recommended (e.g., MATH 2243 and 2263). INET 4061 strongly recommended.",
     "prereq": {
       "and": [
-        "000280",
-        "000282",
+        {
+          "and": [
+            "000280",
+            "000282"
+          ]
+        },
         "791305"
       ]
     }

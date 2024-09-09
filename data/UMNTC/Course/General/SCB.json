@@ -47,12 +47,16 @@
     "info": "Stem cell research and its applications. Critical analysis, written summaries/critiques, oral presentations.\n\nprereq: [[GCD 4034], [GCD 4161]] or equiv or instr consent",
     "prereq": {
       "and": [
-        [
-          "007633"
-        ],
-        [
-          "007638"
-        ]
+        {
+          "and": [
+            "007633"
+          ]
+        },
+        {
+          "and": [
+            "007638"
+          ]
+        }
       ]
     }
   },

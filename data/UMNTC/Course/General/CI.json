@@ -358,7 +358,7 @@
     "fullname": "Field Experience: Elementary Teaching",
     "info": "Field-based experience. Students apply learning from their University courses to elementary school setting, connecting theory, research, and practice.\n\nprereq: concurrent registration is required in CI 3211, [elementary education foundations or early childhood foundations] major",
     "prereq": {
-      "and": [
+      "or": [
         "804041"
       ]
     }
@@ -374,7 +374,7 @@
     "fullname": "Field Experience in Special Education",
     "info": "Field-based experience. Students apply learning from their university course in elementary school setting, linking theory, research, and practice.\n\nprereq: concurrent registration is required in EDPSY 5613 or EDPSY 5616, elementary education: foundations major",
     "prereq": {
-      "and": [
+      "or": [
         "811555"
       ]
     }
@@ -498,7 +498,7 @@
     "fullname": "Exploring the Teaching Profession II",
     "info": "Diversity in schools, strategies for increasing cultural competence. Parents, communities, professional development. Students reflect on themselves as future teachers and complete 50 hours in educational settings.prereq: CI 3901, admission to DirecTrack to Teaching or department consent",
     "prereq": {
-      "and": [
+      "or": [
         "001178"
       ]
     }
@@ -2057,7 +2057,7 @@
     "fullname": "Minnesota Writing Project Directed Studies",
     "info": "Directed study for teachers involved in MWP. Capstone course for those enrolled in the Certificate in Teaching Writing and Critical Literacy. Teachers investigate current theory and practice of literacy instruction. Ongoing cohort for those enrolled in the Certificate.\n\nprereq: Teaching license, [CI 5463 or enrolled in the Certificate for Teaching Writing and Critical Literacy]",
     "prereq": {
-      "and": [
+      "or": [
         "801480"
       ]
     }
@@ -2190,7 +2190,7 @@
     "fullname": "Minnesota Writing Project Directed Studies",
     "info": "Directed study for teachers involved in MWP. Capstone course for those enrolled in the Certificate in Teaching Writing and Critical Literacy. Teachers investigate current theory and practice of literacy instruction. Ongoing cohort for those enrolled in the Certificate. \n\nprereq: Teaching license, [CI 5463 or enrolled in the Certificate for Teaching Writing and Critical Literacy] or instructor permission.",
     "prereq": {
-      "and": [
+      "or": [
         "801480"
       ]
     }
@@ -3915,7 +3915,7 @@
     "fullname": "Using Mixed Methods in Educational Research",
     "info": "Conceptual issues surrounding design/use of mixed methods in addressing problems/research questions in education. Critique of select mixed design exemplars published in respected research publications/practical application of analyses of data using mixed inquiry methods.\n\nprereq: [8133, 8148, OLPD 8812] or equiv, [CI PhD student or instr consent], additional quantitative/qualitative methodology courses recommended",
     "prereq": {
-      "and": [
+      "or": [
         {
           "and": [
             "005312",
@@ -4086,7 +4086,13 @@
     "fullname": "Research Experience I: Study Design and Planning",
     "info": "Students identify research topic, conduct literature review, refine research questions, design study, obtain IRB approval as needed, and begin data collection. Readings, seminar discussions, peer critique of work.\n\nprereq: [8134, 8135, 6-12 cr. of research methodology, CI PhD student] or instr consent. Class Notes: Multilingual Education research seminar for PhD students developing dissertation projects. Time to be negotiated to work for all. Enrollment Requirements: CI 8134 and CI 8135 and CI PhD student.",
     "prereq": {
-      "and": [
+      "or": [
+        {
+          "and": [
+            "815539",
+            "815545"
+          ]
+        },
         "815539",
         "815545"
       ]

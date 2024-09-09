@@ -34,8 +34,13 @@
     "fullname": "Soil Chemistry and Mineralogy",
     "info": "Structural chemistry, origin/identification of crystalline soil clay minerals. Structure of soil organic matter. Chemical processes in soil: solubility, adsorption/desorption, ion exchange, oxidation/reduction, acidity, alkalinity. Solution of problems related to environmental degradation, plant nutrition, and soil genesis.\n\nprereq: [[Chem 1022 or equiv], Phys 1102, grad] or instr consent",
     "prereq": {
-      "or": [
-        "002385"
+      "and": [
+        {
+          "or": [
+            "002385"
+          ]
+        },
+        "002067"
       ]
     }
   },
@@ -73,7 +78,11 @@
     "name": "Atmospheric Processes II",
     "fullname": "Atmospheric Processes II: Radiation, Composition, and Climate",
     "info": "Atmospheric radiation, composition/chemistry, climate change. Radiative transfer in Earth's atmosphere. Changing chemical makeup of troposphere/stratosphere. Interplay between natural processes and human activities in air pollution, stratospheric ozone depletion, and chemical forcing of climate. Anthropogenic contribution to climate change/role of land-atmosphere feedbacks affecting atmosphere's energy budget and cycling of greenhouse gases. Application to numerical modeling.\n\nprereq: [one yr college-level [calculus, physics, chemistry]]; LAAS 5425 recommended",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "806457"
+      ]
+    }
   },
   {
     "uid": "803964",

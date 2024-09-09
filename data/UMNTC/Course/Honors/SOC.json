@@ -194,7 +194,7 @@
     "fullname": "Honors: Youth Crime & Punishment",
     "info": "This course offers an overview of social theory and research on youth crime, punishment, and delinquency. We start by critically examining the social facts surrounding the measurement, extent, and distribution of delinquency. Next, we study the principal sociological explanations of delinquent behavior. These theories provide conceptual tools for analyzing delinquency and punishment among groups such as gang members. We then trace youth experiences in the juvenile justice system, from policing, to juvenile court, to probation, and institutionalization. Throughout, we analyze the success or failure of key programs implemented in attempts to prevent or reduce delinquency. \n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session.  Examples of additional requirements may include:\n\u00b7   Honors students will be expected to interview a current Sociology graduate student working on a LCD topic. Following this, each student will individually be expected to do an in-class power-point presentation explaining how the interviewees? research relates with themes presented in the course. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2-page maximum reflective paper.\n\nprereq:  honors student, Soc 3101 or 3102 recommended; Sociology majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "810720"
       ]
     }
@@ -270,7 +270,7 @@
     "fullname": "Senior Honors Proseminar I",
     "info": "Exploring contemporary research for senior thesis. Guidance in defining a problem and reviewing prior theory/research. Presentation/discussion with faculty researchers.\n\nprereq: 3701, 3801, 3811, 9 additional upper div sociology cr, sr soc honors major, dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "788745"
       ]
     }
@@ -286,7 +286,7 @@
     "fullname": "Honors Capstone Experience: Proseminar II",
     "info": "This is the second course in the two-course Honors Capstone Experience. In Soc 4978V, students will complete their data collection and analysis while the focus of the seminar turns to scholarly writing, and particularly to drafting and refining arguments.  \n\nThe Department of Sociology does not make any initial distinction between Honors students who are seeking cum laude, magna cum laude, or summa cum laude levels of Latin Honors. Instead, our focus is on helping students to develop ambitious and high-quality original research papers of which they can be justifiably proud and which can serve as testaments to their abilities.\n\nThe Department of Sociologys approach is to support every Honors student as they plan and conduct summa-level work. The ultimate recommendation for level of latin honors is made by the committee at the time of the thesis defense. In addition to the Honors thesis requirements, the recommendation for summa-level honors is reserved for the papers that demonstrate the following criteria:\n\n- Tight integration between a clearly defined question or thesis and the research presented;\n- Ambitious original research design, with research completed on time and analyzed appropriately;\n- Integration of ongoing conversations in the research literature into the design and analysis of the data gathered;\n- Powerful and precise prose which weaves together evidence and argument and which is attentive to both the lessons and limits of the data.\n\nStudents will do an Oral Defense and participate in a panel presentation at the spring Sociological Research Institute (SRI). \n\nThe Sociology Department requires completion of Soc 4977V/4978V to graduate with Latin Honors. \n\nprereq: 1001/1011V, 3701, 3801, 3811, 4977V, and at least 12 upper-division SOC credits; Sociology honors major & department consent",
     "prereq": {
-      "and": [
+      "or": [
         "003009",
         "788745",
         "008176"

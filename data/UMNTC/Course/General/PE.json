@@ -558,7 +558,7 @@
     "fullname": "Intermediate Swimming",
     "info": "Intermediate swimming skills. Fundamentals of swimming and hydrodynamics.\n\nprereq: 1007 or equiv, proficient ability to swim 100 meters or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002623"
       ]
     }
@@ -674,7 +674,7 @@
     "fullname": "Intermediate Tae Kwan Do",
     "info": "Continuation of 1046. Focuses on Olympic-style intermediate skills/techniques. Self-defense techniques for men/women.\n\nprereq: 1046, previous Tae Kwon Do experience (World Tae Kwon Do Federation sanctioned), basic white Tae Kwon Do uniform",
     "prereq": {
-      "and": [
+      "or": [
         "790638"
       ]
     }

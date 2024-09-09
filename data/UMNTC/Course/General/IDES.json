@@ -78,8 +78,13 @@
     "fullname": "Interior Design Studio IV",
     "info": "Relationship between exterior/interior design as it pertains to building construction. Methods/materials, principles of structure, building systems, construction details. Interface of electrical, HVAC, plumbing systems in buildings.\n\nprereq: [2603 or DHA 2603], 2613",
     "prereq": {
-      "or": [
-        "012928"
+      "and": [
+        {
+          "or": [
+            "012928"
+          ]
+        },
+        "012930"
       ]
     }
   },
@@ -290,7 +295,7 @@
     "fullname": "Interior Design Studio VII",
     "info": "Advanced interior design problems dealing with large scale spaces. Historic precedent, adaptive use, renovation.\n\nprereq: [IDes 2604] or [DHA 2604]] with grade of at least C-",
     "prereq": {
-      "or": [
+      "and": [
         "012929"
       ]
     }
@@ -305,7 +310,20 @@
     "name": "ID Thesis",
     "fullname": "Interior Design Thesis",
     "info": "Comprehensive independent interior design project developed from student-conducted research/program developed in 4615W.\n\nprereq: [4615W or DHA 4615W], [4607 or DHA 4607] with grade of at least C-",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "794625"
+          ]
+        },
+        {
+          "or": [
+            "009303"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "794625",

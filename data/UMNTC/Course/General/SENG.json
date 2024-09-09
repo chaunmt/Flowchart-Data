@@ -190,7 +190,7 @@
     "fullname": "Software Testing and Verification",
     "info": "Theoretical/practical aspects of testing software. Analyzing a requirements document for test conditions. Writing a test plan. Designing, creating, and executing test cases. Recording defects. Writing a test report.\n\nprereq: 5801, grad SEng major",
     "prereq": {
-      "and": [
+      "or": [
         "014285"
       ]
     }

@@ -46,7 +46,7 @@
     "fullname": "Honors Chemistry II",
     "info": "Advanced introduction. Chemical kinetics/reaction mechanisms, chemical/physical equilibria, acids/bases, entropy/second law of thermodynamics, electrochemistry/corrosion; descriptive chemistry of elements; coordination chemistry; biochemistry.\n\nprereq: 1071H, concurrent registration is required (or allowed) in 1076H, honors student, registration for 1076H must precede registration for 1072H",
     "prereq": {
-      "and": [
+      "or": [
         "807758",
         "807740",
         "807755"
@@ -80,7 +80,7 @@
     "fullname": "Honors Chemistry II Laboratory",
     "info": "Develop laboratory skills as experiments become increasingly complex. Data collection/treatment, discussion of errors, proper treatment of hazardous wastes, experiment design.\n\nprereq: concurrent registration is required (or allowed) in 1072H",
     "prereq": {
-      "or": [
+      "and": [
         "807755"
       ]
     }

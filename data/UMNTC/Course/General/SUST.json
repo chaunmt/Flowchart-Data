@@ -58,7 +58,7 @@
     "fullname": "Sustainable Communities",
     "info": "Students synthesize multiple disciplinary perspectives and integrate insights gained from various approaches/methods. Concepts/scholarship related to sustainability. Applying knowledge/experience to real sustainability problems.\n\nprereq: [3003 or GLOS 3304, [jr or sr] in sustainability studies minor] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "799700",
         "800687"
       ]

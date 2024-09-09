@@ -71,8 +71,14 @@
     "info": "Force/moment vectors, resultants. Principles of statics and free-body diagrams. Applications to simple trusses, frames, and machines. Distributed loads. Internal forces in beams. Properties of areas, second moments. Laws of friction.\n\nprereq: [PHYS 1301W or Phys 1201W or Phys 1401V or 1501V] , &Math 2374 or &Math 2263 or &Math 2573H], CSE Student or Pre-Bioprod & Biosys Engn (PRE)",
     "prereq": {
       "or": [
-        "002070",
-        "002068"
+        {
+          "or": [
+            "002070",
+            "002068"
+          ]
+        },
+        "003695",
+        "000282"
       ]
     }
   },
@@ -129,7 +135,7 @@
     "fullname": "Mechanics for Materials Engineers",
     "info": "This course covers the basics of equilibrium of rigid and deformable bodies for Materials Engineers. The course begins with the principles of statics, including a review of vector operations and analysis of moments and resultant forces from multiple loads, including distributed loads, equilibrium and free body diagrams, center of gravity and moments of inertia.   The course then moves on to explore stress and strain, including normal and shear stresses, and stress and strain transformations. Then the materials properties of interest to the mechanical response and testing procedures used to determine these properties are discussed. Lastly, the stresses and strains associated with common loading modes (e.g., axial, torsion, shear and bending) are covered. Modes of failure, including yielding and buckling, are also introduced.\n\nprereq: Math 2374, Math 2373 (concurrent allowed), Phys 1301W, CSE Student, Materials Engineering Major or premajor",
     "prereq": {
-      "and": [
+      "or": [
         "003695",
         "003694",
         "002070"
@@ -174,7 +180,7 @@
             "004329",
             "004336",
             {
-              "and": [
+              "or": [
                 "809573"
               ]
             }
@@ -203,7 +209,11 @@
     "name": "Software Applications in AEM",
     "fullname": "Software Applications in AEM",
     "info": "Topics covering software applications for problems of interest.\n\nprereq: [CSCI 1113 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "003669"
+      ]
+    }
   },
   {
     "uid": "809432",
@@ -294,7 +304,7 @@
     "fullname": "Aerodynamics",
     "info": "Inviscid aerodynamics. Subsonic, transonic, and supersonic airfoil theory; wing theory. Introduction to compressible flow, normal and oblique shock waves, Prandtl-Meyer expansions. Linearized compressible flow. Wing-body combinations. Computational aerodynamics methods.\n\nprereq: upper div CSE or grad, 4201",
     "prereq": {
-      "and": [
+      "or": [
         "004443"
       ]
     }
@@ -445,7 +455,7 @@
       "and": [
         "004352",
         {
-          "and": [
+          "or": [
             "004849",
             "004489"
           ]
@@ -597,7 +607,7 @@
     "fullname": "Aerospace Structures",
     "info": "Advanced strength of materials analysis of elastic structures with aerospace applications; failure modes and criteria, buckling, matrix methods for analysis, plane truss design; energy and Castigliano methods for statically determinate and indeterminate structures; torsion and bending of asymmetrical thin-walled sections. Design project.\n\nprereq: CSE upper div or grad, 3031 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "004340"
       ]
     }
@@ -631,7 +641,11 @@
     "prereq": {
       "and": [
         "004340",
-        "818261"
+        {
+          "or": [
+            "818261"
+          ]
+        }
       ]
     }
   },
@@ -821,7 +835,7 @@
     "fullname": "Hypersonic Aerodynamics",
     "info": "Importance/properties of hypersonic flow. Hypersonic shock and expansion-wave relations. Local surface inclination methods. Approximate/exact methods for hypersonic inviscid flow fields. Viscous flow: boundary layers, aerodynamic heating, hypersonic viscous interactions, computational methods. Hypersonic propulsion and vehicle design.\n\nprereq: 4202 or equiv, CSE grad student",
     "prereq": {
-      "and": [
+      "or": [
         "004447"
       ]
     }
@@ -910,7 +924,7 @@
     "fullname": "Intermediate Dynamics",
     "info": "Three-dimensional Newtonian mechanics, kinematics of rigid bodies, dynamics of rigid bodies, generalized coordinates, holonomic constraints, Lagrange equations, applications.\n\nprereq: CSE upper div or grad, 2012, Math 2243",
     "prereq": {
-      "and": [
+      "or": [
         "004334",
         "000280"
       ]
@@ -956,7 +970,23 @@
     "name": "Optimal Estimation",
     "fullname": "Optimal Estimation",
     "info": "Basic probability theory. Batch/recursive least squares estimation. Filtering of linear/non-linear systems using Kalman and extended Kalman filters. Applications to sensor fusion, fault detection, and system identification.\n\nprereq: [[MATH 2243 or STAT 3021 or equiv], [4321 or EE 4231 or ME 5281 or equiv]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "000280",
+            "001622"
+          ]
+        },
+        {
+          "or": [
+            "800746",
+            "004535",
+            "004859"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "794287",
@@ -981,7 +1011,7 @@
     "fullname": "Continuum Mechanics",
     "info": "Concepts common to all continuous media; elements of tensor analysis; motion, deformation, vorticity; material derivatives; mass, continuity equation; balance of linear, angular momentum; geometric characterization of stress; constitutive equations.\n\nprereq: CSE upper div or grad, 3031, Math 2243 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004340",
         "000280"
       ]
@@ -998,7 +1028,7 @@
     "fullname": "Theory of Elasticity",
     "info": "Introduction to the theory of elasticity, with emphasis on linear elasticity.  Linear and nonlinear strain measures, boundary-value problem for linear elasticity, plane problems in linear elasticity, three dimensional problems in linear elasticity.  Topics from nonlinear elasticity, micromechanics, contact problems, fracture mechanics.\n\nprereq: 4501 or equiv, Math 2263 or equiv or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004354",
         "000282"
       ]
@@ -1015,7 +1045,7 @@
     "fullname": "Mechanics of Solids",
     "info": "Continuum mechanics in one dimension: kinematics; mass, momentum/energy, constitutive theory. Wave propagation, heat conduction. Strings. Euler-Bernoulli theory. 3-D deformations/stress. Topics from fracture mechanics, structural stability, vibrations, thin films, layered media, smart materials, phase transformations, 3-D elastic wave propagation. Elasticity, viscoelasticity, plasticity.\n\nprereq: 3031 or equiv, [Math 2373 or equiv], [Math 2374 or equiv], [CSE grad student]",
     "prereq": {
-      "and": [
+      "or": [
         "004340",
         {
           "or": [
@@ -1070,7 +1100,7 @@
     "fullname": "Fluid Mechanics I",
     "info": "Mathematical and physical principles governing the motion of fluids. Kinematic, dynamic, and thermodynamic properties of fluids; stress and \ndeformation; equations of motion; analysis of rotational and irrotational inviscid incompressible flow; two-dimensional and three-dimensional potential flow.\n\nprereq: 4201 or equiv, Math 2263 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "004443",
         "000282"
       ]
@@ -1208,7 +1238,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "004360"
           ]
         },
@@ -1275,7 +1305,7 @@
     "fullname": "Finite-Volume Methods in Computational Fluid Dynamics",
     "info": "Development of finite-volume computational methods for solution of compressible Navier-Stokes equations. Accuracy, consistency, and stability of numerical methods; high-resolution upwind shock-capturing schemes; treatment of boundary conditions; explicit and implicit formulations; considerations for high performance computers; recent developments and advanced topics.\n\nprereq: 4201 or 8201 or equiv, CSci 1107 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "004443",
         "006905",
         "003668"
@@ -1486,7 +1516,7 @@
     "fullname": "Optimization and System Sciences",
     "info": "Review of probability concepts and random variables, nonlinear stochastic differential equations and their numerical solutions, Monte-Carlo simulations, Gauss-Markov process, stochastic dynamic programming, and optimal control of practical uncertain dynamic systems.\n\nprereq: 5321 or 5431, CSE grad student",
     "prereq": {
-      "and": [
+      "or": [
         "006959",
         "007191"
       ]

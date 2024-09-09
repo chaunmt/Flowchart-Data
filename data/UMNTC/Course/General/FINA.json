@@ -181,7 +181,7 @@
     "fullname": "Corporate Investment Decisions",
     "info": "This case-based course provides the student with an opportunity to apply the concepts from previous finance coursework to a variety of decisions a firm would face when allocating capital to investment decisions. The focus is weighted toward combining the theory with the practice of valuation of investment opportunities through the use of group cases to give the student a sense of the strengths and weaknesses of such analysis. The course presents firm performance measurement metrics, APV & WACC based valuation, working capital management, making capital budgeting decisions, financial distress and capital structure, real options, and mergers and acquisitions. \n\nprereq: FINA 4121, 4321, 4422 or 5322, 4522, and CSOM major",
     "prereq": {
-      "and": [
+      "or": [
         "013653",
         "013656",
         "802598",
@@ -245,7 +245,7 @@
     "fullname": "Security Analysis Capstone",
     "info": "Valuation of equity securities. Principles. Relationship between various valuation approaches. Tools to test self-designed security selection rules.\n\nprereq: FINA 4121 or 4121H, 4321 or 4321H, 4422 or 5322, 4522, ACCT 5100 or ACCT 5101",
     "prereq": {
-      "and": [
+      "or": [
         "013653",
         "013656",
         "802598",
@@ -267,7 +267,7 @@
     "fullname": "Financial Modeling",
     "info": "This applied course builds on principles from the prerequisite courses and provides students with significant practice building financial models to identify the free cash flow from and required investment in projects or firms for discounted cash flow and sensitivity analysis. Course presents net operating working capital requirements, Valuation with Free Cash Flow based methods, and the construction of three statement pro-forma cash flow projections.  \n\nprereq: Fina 4221 (can be concurrent),  Acct 5101 (can be concurrent), CSOM major",
     "prereq": {
-      "and": [
+      "or": [
         "802591",
         "013815"
       ]
@@ -343,7 +343,7 @@
     "fullname": "The Global Economy (Macro)",
     "info": "The course is intended to help you develop a global perspective on the economy. You will\ndevelop a set of skills and concepts that will permit you to understand and to analyze the foundations of the economy at large. We want to understand the main drivers of economic growth over time and across countries. Key skills and conceptual take-aways from this course:\n1. Explain how an economy, firms, labor, and finance fit together.\n2. Able to use the Solow and Romer growth models: i) to understand long term growth, ii) to\npredict shock effects, iii) to measure TFP iv) to examine GDP differences across countries\n3. Understand labor market using supply and demand, and using the bathtub model\n4. Able to analytically derive the classical gains from free trade. Understand key benefits and\ndrawbacks to globalization.\nThe lectures are structured as Foundations, Growth, Labor, Globalization. We start by setting up a foundation that stresses the fact that things have to fit together coherently. We need to be careful about how we measure things. The role of firms and financial markets are frequently\nmisunderstood so we devote special effort to why these exist and what role they play.\n\nNext we turn to the overall evolution of the economy \u2013 sometimes called mega-trends. People open underestimate the amount of economic variation from one decade to the next and hence may not adequately prepare. A key purpose of this course is to help you understand key\ndrivers of economic growth, and the wealth difference across time and between countries. This will provide context for you to think about some potentially forthcoming major changes.  The role of labor deserves special attention since it connects directly to human beings. The\ntreatment of, and returns to labor are critical to human welfare. We will consider the labor market in general, unemployment, and inequality both within and across countries.\n\nFinally we will examine the role of globalization and international trade. We will formally develop the classical gains from free trade. We will also discuss the reasons for controversies surrounding trade and globalization.\n\nprereq: 3001 or 3001H, CSOM major or Math major/Act Sci, or Management minor.",
     "prereq": {
-      "and": [
+      "or": [
         "013118"
       ]
     }
@@ -359,7 +359,7 @@
     "fullname": "International Finance",
     "info": "This course provides the student with an understanding of the nature and purposes of financial management in the international context for multinational enterprises and skills in international investment, financing techniques and exchange rate risks.  The student will examine barriers to international capital flows and some of the tools used to overcome these barriers. The course presents cost of capital in emerging economies and currency risk management.\n\nprereq: CSOM major, Fina 3001 or 3001H, 4121 or 4121H, 4221",
     "prereq": {
-      "and": [
+      "or": [
         "013118",
         "013653",
         "802591"
@@ -678,11 +678,15 @@
     "fullname": "Mergers and Acquisitions",
     "info": "How corporate managers achieve growth through mergers/acquisitions. Examine buyer/seller motivations in context of M&A transactions/strategic alliances. Private equity, especially in context of corporate M&A transaction.\n\nprereq: MBA or Mgmt Sci MBA Student; MBA 6231 (previously MBA 6230), FINA 6241   OR   (FINA 6213 & FINA 6214)",
     "prereq": {
-      "and": [
+      "or": [
         "014054",
         "013667",
-        "825156",
-        "825158"
+        {
+          "and": [
+            "825156",
+            "825158"
+          ]
+        }
       ]
     }
   },
@@ -725,7 +729,7 @@
     "fullname": "Portfolio Analysis and Management",
     "info": "Introduces analytical concepts used to manage security portfolios from perspective of an institutional investor. Market microstructure. Margin purchasing, short selling. Portfolio risk management, risk/return tradeoffs, strategic/tactical asset allocation, active versus passive management. Portfolio revision, performance evaluation.\n\nprereq: MBA 6121 (previously MBA 6120), MBA 6231 (previously MBA 6230), MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "013927",
         "014054"
       ]
@@ -742,7 +746,7 @@
     "fullname": "Financial Modeling",
     "info": "Financial modeling tools to access financial data warehouses to build, estimate, maintain, and interpret comprehensive financial models that provide the framework for understanding businesses and their historical performance, plans/strategies, and market values. Financial analytics/modeling skills, including data mining of large standard financial databases (warehouses) (e.g. Capital IQ), and a manageable introduction to Excel VBA programming.\n\nprereq: MBA 6231 (previously MBA 6230), MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014054"
       ]
     }
@@ -758,7 +762,7 @@
     "fullname": "Advanced Financial Modeling",
     "info": "Advanced financial modeling tools to build, estimate, operate, audit, evaluate and understand business performance, and M&A, equity, and credit securities analysis models that have become central to sophisticated financial analysis of all operating businesses, transactions, and securities. How to analyze by way of financial models, screening (data mining) of large financial databases (warehouses). Adding to VBA programming skills required for advanced financial modeling.\n\nprereq: FINA 6322, MBA or Mgmt Sci MBA Student",
     "prereq": {
-      "and": [
+      "or": [
         "013665"
       ]
     }
@@ -774,7 +778,7 @@
     "fullname": "Securitization Markets",
     "info": "Splitting risks. Redirecting risks to investors able to analyze and take on those risks. Reasons for development of securitization. Products, their similarities in character. How to build simple models and analyze examples of actual securitized liabilities.\n\nprereq: FINA 6121, MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "013661"
       ]
     }
@@ -802,7 +806,7 @@
     "fullname": "World Economy",
     "info": "Tools to predict/understand ramifications of major economic events.  Financial crises. Changes in monetary, fiscal, financial policies. Strategies for promoting long-run economic growth. Examples from U.S., Europe, Japan, developing countries.\n\nprereq: MBA 6231 (previously MBA 6230), MBA or Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "014054"
       ]
     }

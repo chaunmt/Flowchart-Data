@@ -260,7 +260,7 @@
     "fullname": "Nutrition Education and Counseling",
     "info": "Effective communication and counseling skills are essential for all food and nutrition professionals, whether working in clinical, community, or food service settings. This course will teach necessary concepts and skills for entry-level dietitians, such as educational theory, basic counseling techniques, and health disparities and health literacy. You will develop skills and explore these concepts through application: by practicing in small group breakout sessions and by completing written assignments. You will also reflect on the nature of dietetics as a helping profession and your role in supporting clients who want to make lifestyle changes. There are no required prerequisites courses for FSCN 3614. However, it is recommended that students take an introductory nutrition course, such as FSCN 1112 (Principles of Nutrition) or equivalent in order to be prepared.",
     "prereq": {
-      "and": [
+      "or": [
         "007481",
         "007468"
       ]
@@ -312,7 +312,20 @@
     "name": "Food Service Oper Mgmt Lab",
     "fullname": "Food Service Operations Management Laboratory",
     "info": "Experience in managing a food service operation. On- and off-campus commercial and institutional restaurants used as labs. Required field trips.\n\nprereq: [3102 or concurrent registration is required (or allowed) in  3102], [3732 or concurrent registration is required (or allowed) in  3732]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "007469"
+          ]
+        },
+        {
+          "or": [
+            "007487"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "007487",
@@ -439,7 +452,14 @@
     "info": "Microorganisms involved in food-borne disease, food fermentations, and food spoilage. Methods for their control/detection. Food microbiology. Foodborne pathogens. Microbial food spoilage. Control of microorganisms in food.\n\nprereq: BIOC 3021, [2021 or VBS 2032 or MICB 3301]",
     "prereq": {
       "and": [
-        "014290"
+        "014290",
+        {
+          "or": [
+            "007542",
+            "012976",
+            "008659"
+          ]
+        }
       ]
     }
   },
@@ -471,9 +491,14 @@
     "fullname": "Molecular Biology for Applied Scientists",
     "info": "Basics of molecular biology. Origins of molecular biology from discovery to ad of gene cloning/sequencing technologies. PCR, DNA fingerprinting, metagenomics. Synthetic biology for biotechnological production of novel peptides/ proteins.\n\nprereq: [BioC 3021 and MicB 3301] or FScN 2021 or instr consent",
     "prereq": {
-      "and": [
-        "014290",
-        "008659"
+      "or": [
+        {
+          "and": [
+            "014290",
+            "008659"
+          ]
+        },
+        "007542"
       ]
     }
   },
@@ -683,7 +708,7 @@
     "fullname": "Food Science Capstone",
     "info": "Planning of process or product development project. Defining goals, preparing/following time line, reviewing literature, coordinating with experts, procuring supplies, writing progress reports. Determining ingredient specifications, lab/pilot plant production. Chemical, microbiological, sensory testing. Oral/written presentations.\n\nprereq: 4112, 4121, 4131, 4312, 4332, BBE 4744, Food Science Major, senior",
     "prereq": {
-      "and": [
+      "or": [
         "802983",
         "007472",
         "013271",
@@ -781,7 +806,7 @@
     "fullname": "Nutrition and Metabolism",
     "info": "Carbohydrate, lipid, protein metabolism. Uses systems/holistic approach to emphasize how metabolic pathways interrelate. \n\nprereq: FSCN 4612, BIOC 3021; ANSC 3301 or PHSL 3051",
     "prereq": {
-      "and": [
+      "or": [
         "007490",
         "014290",
         "009261",
@@ -1069,7 +1094,7 @@
     "fullname": "Food Packaging",
     "info": "Materials, principles, and procedures of packaging as they apply to food products. Emphasis is on consumer products, but the principles also apply to bulk and institutional foods and ingredients.\n\nprereq: 1102, 3102, Phys 1102 or Phys 1302",
     "prereq": {
-      "and": [
+      "or": [
         "007467",
         "007469",
         "002067",
@@ -1145,7 +1170,7 @@
     "fullname": "Grains: Introduction to Cereal Chemistry and Technology",
     "info": "Origins, structure, biochemistry, and cellular properties of major cereal grains as they relate to primary processing (milling) and secondary processing (production of cereal products).\n\nprereq: Biol 1009, Chem 1022 or Graduate Student ",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         "002385"
       ]
@@ -1162,7 +1187,7 @@
     "fullname": "Dairy Product Chemistry and Technology",
     "info": "Designed for upper division Food Science undergraduate/graduate students. Physiology of milk production in ruminants. Resulting composition. Chemical, physical, microbiological properties of milk components. How milk products are manufactured.\n\nprereq: 3102, 4112, Food Science major, upper division undergraduate or graduate student",
     "prereq": {
-      "and": [
+      "or": [
         "007469",
         "802983"
       ]
@@ -1560,7 +1585,7 @@
     "fullname": "Antioxidants in Food: Practical Applications",
     "info": "Mechanisms of antioxidant activities in food systems. Free radical scavengers, hydroperoxide stabilizers, synergists, metal chelators, singlet oxygen quenchers, substance reducing hydroperoxides. Practical applications of antioxidants in various food systems, effect of antioxidants on health/diseases.\n\nprereq: 4111, Bioc 3021, food chemistry, organic chemistry, biochemistry",
     "prereq": {
-      "and": [
+      "or": [
         "007470",
         "014290"
       ]

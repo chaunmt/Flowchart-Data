@@ -361,7 +361,7 @@
     "fullname": "Choral/Vocal Methods and Materials II",
     "info": "Choral/vocal methods and materials as part of licensure to work in K-12 settings per legislated standards. Choral conducting skills, rehearsal techniques, and interpretation of choral compositions. Methods, materials, and curriculum for high school choral ensembles. 20 hours of practicum at the high school level. Second of two required semesters.\n\nprereq: MUED 5415, MUED 1201, MUS 4504, and MUS 4514 with grade of at least C-, [music education major or instr consent], completion of the Music Education sophomore proficiency exam",
     "prereq": {
-      "and": [
+      "or": [
         "008337",
         "008068",
         "005238",
@@ -380,7 +380,7 @@
     "fullname": "Advanced Conducting and Repertoire (Choral)",
     "info": "Conducting/baton technique, nonverbal communication skills, rehearsal techniques, score study habits. Aural/diagnostic skills to rehearse a choral ensemble. Selection of age-appropriate repertoire.\n\nprereq: 3416, MUS 3401, MUS 3502, MUS 3512, music education major [choral]",
     "prereq": {
-      "and": [
+      "or": [
         "009182",
         "005275",
         "799028"
@@ -434,7 +434,7 @@
     "fullname": "Instrumental Methods and Materials I",
     "info": "Instrumental methods and materials as part of licensure to work in K-12 settings per legislated standards. Sight-singing, classroom management, adolescent development, instrumental conducting skills, repertoire, and rehearsal techniques. 25 hours of practicum at the middle school level. Applications of technology. First of two required semesters. \n\nprereq: MUED 1201, MUS 4504, and MUS 4514 with a grade of C- or better, music education major, successful completion of Music Education sophomore proficiency exam",
     "prereq": {
-      "and": [
+      "or": [
         "008068",
         "005238",
         "801574"
@@ -637,9 +637,14 @@
     "fullname": "Group Music Leadership Skills",
     "info": "Role of group music experiences in human development. Relations specific to music therapy. Students develop repertoire of music applications/techniques for various age groups/populations. Standards for group leadership. Precision teaching skills.\n\nprereq: [[Completion of [MUS 1151, MUS 1152] or MUS 1155], music therapy major] or instr consent",
     "prereq": {
-      "and": [
-        "004733",
-        "004784"
+      "or": [
+        {
+          "and": [
+            "004733",
+            "004784"
+          ]
+        },
+        "005001"
       ]
     }
   },

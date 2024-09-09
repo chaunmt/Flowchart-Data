@@ -1681,7 +1681,11 @@
     "name": "Literary Mag Production Lab II",
     "fullname": "Literary Magazine Production Lab II",
     "info": "ENGL 3712 is the second of a two-semester course. In this hands-on, experiential lab, we solicit, acquire, edit, copyedit, design, typeset, proofread, print, publicize and distribute the upcoming edition of The Tower, the magazine of undergraduate art and creative writing by University of Minnesota students. This is the semester in which we bring out the finished, printed magazine, and in which we host a launch party on campus. We'll continue to apply and expand the lessons from our exploration in ENGL 3711 of the theory and history of literary magazine production in any number of ways: we'll revise our mission and theme as we draft and revise ancillary copy for the issue itself and as we refresh the marketing copy for our social media, blog, and website; we'll hone our design and typesetting skills as we lay out the issue; we'll refine our aesthetic sensibilities as we collaborate on final selections, strengthening our willingness to revise our opinions as compromise for the greater good; we'll add to our firsthand valuable on-the-job skills of budgeting, scheduling, and vendor relations; and we will deepen our understanding of the publishing profession as it exists today, locally, and nationally.\n\nprereq: [3711, instr consent]\n",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "793689"
+      ]
+    }
   },
   {
     "uid": "006936",
@@ -2869,7 +2873,11 @@
     "name": "Diss: Book List & Prospectus",
     "fullname": "Dissertation Seminar: Preparing the Book List and Prospectus",
     "info": "Assembling book list, defining field of study, and articulating a rationale for list. How to conceptualize/develop dissertation prospectus. Students work with faculty instructor, advising committee, and peer writing group.\n\nprereq: Engl PhD student in [3rd or 4th yr], at least 12 cr completed",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "816604"
+      ]
+    }
   },
   {
     "uid": "801508",
@@ -2894,7 +2902,7 @@
     "fullname": "Doctoral Pre-Thesis Credits",
     "info": "Doctoral Pre-Thesis Credits\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": {
-      "and": [
+      "or": [
         "816604"
       ]
     }

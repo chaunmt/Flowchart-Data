@@ -58,7 +58,7 @@
     "fullname": "Physiology From Cells to Systems",
     "info": "Basic physiology of human cells and organ systems, including nerve, muscle, cardiovascular, respiratory, renal, digestive, endocrine, metabolic and reproductive systems. Critical thinking about physiological concepts through active learning exercises involving analysis and manipulation of ideas. Apply concepts in basic research or clinical settings.\n\nprereq: BIOL 1009 or equiv [including eukaryotic cellular biology], [[CHEM 1021, CHEM 1022] or 1 yr of college-level chemistry]",
     "prereq": {
-      "and": [
+      "or": [
         "005416",
         {
           "and": [
@@ -108,7 +108,7 @@
     "fullname": "Research Paper for Physiology Majors",
     "info": "Students write a research review on a physiological topic. Students select an area of focus within the discipline of physiology, and complete a literature review of basic science papers published in the past 10 years in their topic area. All students will work with a faculty advisor, who will assist the student in selecting their topic area, refining the focus of their literature review, and provide guidance on writing a scientific review article. \n\nprereq: concurrent registration is required (or allowed) in 3061, physiology major, 1 yr [college chem, physics], math through integral calculus",
     "prereq": {
-      "and": [
+      "or": [
         "010511"
       ]
     }
@@ -299,7 +299,13 @@
     "info": "Teaching in undergrad physiology labs. Instructional sessions, hands-on teaching experiences.\n\nprereq: [3051 or [3061, 3071]], instr consent",
     "prereq": {
       "and": [
-        "010566"
+        "010566",
+        {
+          "or": [
+            "010511",
+            "010434"
+          ]
+        }
       ]
     }
   },
@@ -522,7 +528,7 @@
     "fullname": "Muscle",
     "info": "Muscle molecular structure/function and disease.  Muscle regulation, ion transport, and force generation.  Muscular dystrophy and heart disease. \n\nprereq: PHSL 3061 or PHSL 5061 or BioC 3021, BIOL 3021 or BIOL 4331 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "010511",
         "010527",
         "014290"

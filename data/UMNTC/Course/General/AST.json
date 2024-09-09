@@ -208,7 +208,7 @@
     "fullname": "Interpretation and Analysis of Astrophysical Data",
     "info": "Introduction to analysis techniques with applications to modern astrophysics. Methods to interpret/analyze large data sets from experiments. Principles/methods of analysis, with applications to current research. For senior undergraduate/graduate students in Physics/Astronomy.\n\nprereq: [Math 2243 or 2373 or equivalent[, [Math 2263 or 2374 or equivalent], Ast 2001 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "000280",
         "003694",
         {
@@ -216,7 +216,8 @@
             "000282",
             "003695"
           ]
-        }
+        },
+        "000043"
       ]
     }
   },
@@ -291,7 +292,7 @@
     "fullname": "The Interstellar Medium",
     "info": "Survey of physical processes in the interstellar medium. Dynamic processes, excitation processes, emission and absorption by gas and dust. Hot bubbles, HII regions, molecular clouds.\n\nprereq: 2001, Phys 2601 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "000043",
         "002078"
       ]

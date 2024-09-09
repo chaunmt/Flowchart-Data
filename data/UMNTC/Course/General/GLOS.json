@@ -618,7 +618,7 @@
     "fullname": "Stories, Bodies, Movements",
     "info": "For most of us, stories seem to simply 'happen.' We listen to stories, we tell stories, we are moved by stories, and we retell stories. However, every act of telling stories involves making decisions or moves, and each re-telling of a familiar story may either give birth to new meanings, nuances, and affects, or, it may erase their possibility. Thus, each storyteller can be seen as a translator of stories with a responsibility to retell stories ethically. It is precisely through these translational acts that all politics become politics of storytelling. In this course, we will consider the ways in which the politics of the global and the intimate derive their meanings, effects, and affects from the circulation, transaction, and re-tellings of stories within and across borders.  We will ask how a praxis of ethical engagement with politics can be imagined as a praxis of receiving and retelling stories. By immersing ourselves in the process of remembering, telling, listening, trimming, interweaving, distilling, and performing stories, we will consider how ethical receiving and retelling of stories involves continuous revising, repositioning, and re-theorizing of such vexed and entangled terrains and terminologies as identity, community, rights, and justice, as well as the contingent meanings of knowledge, truth, and ethics.\n\nThis course engages this terrain through a mode of active learning in which all the participants will read and reflect, listen and discuss, tell and retell, watch and play, move and perform collectively. By becoming aware of the ways in which our minds-bodies-souls are inserted in the receiving and translation of stories, we will grapple together with the ways in which our bodies--as our embodiments--help to relationally shape not only our own performances but also our responses to the performances of other living and moving bodies around us. \n\nWe will learn from writings, film, songs, and plays by writers, artists, activists, and thinkers from a range of historical and contemporary locations and struggles. These include: Marie Lily Cerat, W. E. B. Du Bois, Suheir Hammad, Sterlin Harjo, Naeem Inayatullah, June Jordan, AnaLouise Keating, Kauanui, J. Kehaulani, Audre Lorde, Viet Thanh Nguyen, Middle East Research and Information Project, Alok Rai, Nina Simone, Leanne Betasamosake Simpson, Sangtin Writers, Standing Rock Collective, Eve Tuck, Patrick Wolfe, and K. Wayne Yang. Many of the 'Acts' in this course will be co-facilitated with local or international artists and writers.   \n\nGrading Basis: A/F. The course requires all the participants to do sustained work and deep reflections, enjoy the process of imagining and creating with peers in a non-competitive environment.\n\nprereq: GLOS 3611 is for jr or sr only. People from all kinds of locations and journeys are invited to join us in this collective exploration. For further information, email: nagar@umn.edu.\n",
     "prereq": {
-      "and": [
+      "or": [
         "819455"
       ]
     }
@@ -1042,7 +1042,7 @@
     "fullname": "Crime and Human Rights",
     "info": "This course addresses serious violations of humanitarian and human rights law, efforts to criminalize those violations (laws and institutions), and consequences of these efforts. Special attention will be paid to the impact interventions have on representations and memories of atrocities on responses and the future of cycles of violence. Case studies on Holocaust, Balkan wars, Darfur, My Lai massacre, etc. Criminal justice, truth commissions, vetting, compensation programs.\n\nprereq: SOC 1001, at least one 3xxx SOC or GLOS course recommended, Sociology and Global Studies majors/minors must register A-F",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1102,7 +1102,7 @@
     "fullname": "Never Again! Memory & Politics after Genocide",
     "info": "Course focuses on the social repercussions and political consequences of large-scale political violence, such as genocide, war crimes, and crimes against humanity. Students learn how communities and states balance the demands for justice and memory with the need for peace and reconciliation and addresses cases from around the globe and different historical settings. \n\nprereq: SOC 1001 or 1011V recommended, A-F required for Majors/Minors.",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }
@@ -1431,7 +1431,7 @@
     "fullname": "Never Again! Memory & Politics after Genocide",
     "info": "Course focuses on the social repercussions and political consequences of large-scale political violence, such as genocide, war crimes, and crimes against humanity. Students learn how communities and states balance the demands for justice and memory with the need for peace and reconciliation and addresses cases from around the globe and different historical settings.\n\nprereq: SOC 1001 or 1011V recommended, A-F required for Majors/Minors.",
     "prereq": {
-      "and": [
+      "or": [
         "002943"
       ]
     }

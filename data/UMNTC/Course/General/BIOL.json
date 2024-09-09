@@ -154,7 +154,7 @@
     "fullname": "Genetics and Society",
     "info": "Principles of heredity and their social and cultural implications.\n\nprereq: Credit will not be granted if credit has been received for: BIOL 3020, Biol 4003, GCD 3022. No CBS Major Juniors or Seniors.",
     "prereq": {
-      "and": [
+      "or": [
         "009489",
         "006271"
       ]
@@ -744,7 +744,7 @@
     "fullname": "Brewing: The Biology, History, and Practice",
     "info": "Rigorous look at the history of brewing, microbiology, biochemistry, and biological concepts associated with brewing, such as competition, and practical aspects of modern brewing. This lecture/laboratory hybrid course will teach students the components used in brewing and how they contribute to the final product as well as the process of brewing using hands on laboratory.\n\nTextbook is online and will be posted on the Canvas site.\n\nprereq: BIOL 1001 or 1009 or 1951 or 2002 or 2003 or 2004\n\nStudents must be 21 by the first day of class to register, we will check IDs on the first day of class. There are three required field trips. For the field trips students meet in McNeal Hall at 1:00pm and return approximately at 5pm to McNeal Hall.",
     "prereq": {
-      "and": [
+      "or": [
         "005419",
         "005416",
         "817196",
@@ -897,7 +897,7 @@
     "fullname": "Foundations of Biology for Biological Sciences Majors, Part II Laboratory",
     "info": "This course follows BIOL 1961 and is required for all CBS majors. Students design and perform research projects that will require an additional 4-to-6 hours per week of work outside of class; times to be arranged. Each section is devoted to a single research area; check the section details to see which sections correspond to each research area. Research projects in zebrafish environmental toxicology and zebrafish microbiome sections will require in-person work in the BIOL 3004 laboratory. Only students with previous command line coding experience should enroll for a computational microbiology section. All projects involve applying quantitative skills, scientific method, and modern biological tools to real-world questions. \n\nprereq: Foundations of Biology Lab I: BIOL 1961, 1961H, 2002, or 2002H AND CHEM 1021, 1061, 1071H, or 1081. \nCredit will not be granted if credit has been received for: BIOL 3004H.",
     "prereq": {
-      "and": [
+      "or": [
         "817200",
         "800456",
         "002384",
@@ -917,7 +917,7 @@
     "fullname": "Animal Diversity and Evolution",
     "info": "This course is a survey of animal diversity, with an emphasis on understanding the major animal groups, how they are related to one another, how they differ in structure, and how each group achieves survival and reproduction in the diverse environments of the Earth. We will place particular emphasis on major evolutionary transitions that animals have made through their history, including the origins of multicellularity, the achievement of motion, invasion of terrestrial habitats, and the achievement of flight. We will also emphasize the science behind our contemporary understanding of animals, from multiple perspectives \u2013 behavioral, evolutionary, physiological, and ecological.  Lab requires dissection, including mammals.\n\nprereq: BIOL 1001/1001H, or BIOL 1009/1009H, or BIOL 1951/1951H",
     "prereq": {
-      "and": [
+      "or": [
         "005419",
         "005416",
         "817196"
@@ -959,7 +959,7 @@
     "fullname": "Genome Editing and Engineering",
     "info": "Allowing researchers to modify genetic information in nearly any organism\u2019s genome, genome editing, and engineering technologies have been widely used in all areas of biology. These technologies have evolved rapidly in recent years and not only hold the promise to revolutionize medical and agricultural fields, but also make profound impacts on our society. The purpose of the course is to give students a comprehensive overview of principles, development and applications of genetic engineering and genome editing technologies in both prokaryotes and eukaryotes. \n\nThis course will introduce concepts and history of genome engineering in both prokaryotes and eukaryotes. We will discuss the mechanisms and applications of both techniques using examples in bacteria and plant genome and metabolic pathway engineering. Students will also have hands-on experience to design CRISPR and modify bacterial and plant genomes.\n\nIn addition, this course will contribute to students\u2019 liberal education by discussing the consequences of these technologies for society and technological development, including the ethics of altering genomes, consequences on ecosystems, and the benefits, drawbacks, and limitations of these technologies. \n\nRecommended prerequisites: Introductory biology such as Biol 1951 and 2003, Biol 1009 or BMEN 2501",
     "prereq": {
-      "and": [
+      "or": [
         "817196",
         "800457",
         "005416",
@@ -1002,7 +1002,7 @@
     "fullname": "Understanding the Evolution-Creationism Controversy",
     "info": "Aspects of evolution-creationism controversy, including its history, legacy, relevance, and key people. Court decisions, public opinion, and related issues (e.g., racism, politics).\n\nprereq: BIOL 1001, 1009, 1951 or 2002, or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "005419",
         "005416",
         "817196",
@@ -1429,7 +1429,7 @@
     "fullname": "Cell Biology",
     "info": "Processes fundamental to cells. Emphasizes eukaryotic cells.  Assembly/function of membranes/organelles. Cell division, cell form/movement, intercellular communication, transport, secretion pathways. Cancer cells, differentiated cells. \n\nprereq: Completion of Biol 4003 is preferred, Biol2003/2003H or Biol4003 or grad",
     "prereq": {
-      "and": [
+      "or": [
         "009489",
         "800457"
       ]
@@ -1590,7 +1590,7 @@
     "fullname": "Directed Studies: Writing Intensive",
     "info": "Writing Intensive Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. One main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. The project needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. This course is graded S/N and approval of the DUGS is required before a grade of S can be given by the faculty mentor. \n\nprereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "803434",
         "803435",
         "803140",
@@ -1609,7 +1609,7 @@
     "fullname": "Directed Research: Writing Intensive",
     "info": "Writing Intensive Directed Research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. This course is not for students starting out in research. It is intended for students who already have been working in the research group of the mentor and have developed an independent research project. In this course, the student will receive writing instruction through a writing support course (corresponding to 1 credit in addition to the credits of directed research time) that will meet weekly throughout the semester. The written output usually is in the form of a scientific paper describing the results of the student's project. Written output of the course must be revised during the semester and a schedule for writing, assessment, and revision needs to be in place at the beginning of the semester. The project needs to be explained in the campus Directed Research contract and the project and participation in the writing support course agreed on by both the student and faculty mentor. The contract must be approved by the Director of Undergraduate Studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, agreement about how writing instruction will take place, confirmation of understanding of the timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course - near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. The DUGS can call for a final revision before a grade is given. This course is graded S/N by the writing support course instructor, and approval of both the DUGS and the research mentor is required before a grade of S can be given by the writing support course instructor.\n\nThis course is for non-Honors students. Students should register for the number of research credits they intend to pursue plus 1 cr for the writing support component (for example: 2-4 cr of research + 1 cr writing support = 3-5 cr).\n\nprereq: department consent, instructor consent, no more than a total of 7 credits of 4793W, 4794W, 4993, 4994 combined can count towards CBS major requirements.\n",
     "prereq": {
-      "and": [
+      "or": [
         "803434",
         "803435",
         "803140",
@@ -1652,7 +1652,7 @@
     "fullname": "Directed Research In Biotechnology",
     "info": "Directed Research is an individual-study, laboratory or field investigation course. For Directed Research in Biotechnology, the faculty mentor must be approved by the Director of Undergraduate Studies for the Biotechnology minor and the research topic must be related to Biotechnology. The research topic needs to be agreed on by both the student and the faculty mentor and explained in a Research/Directed Studies contract. The contract must be approved by the director of undergraduate studies (DUGS) for the Biotechnology minor before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.\nprereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
     "prereq": {
-      "and": [
+      "or": [
         "803434",
         "803435",
         "803140",
@@ -1683,7 +1683,7 @@
     "fullname": "Directed Studies",
     "info": "Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. The topic for the course needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
     "prereq": {
-      "and": [
+      "or": [
         "803434",
         "803435",
         "803140",
@@ -1702,7 +1702,7 @@
     "fullname": "Directed Research",
     "info": "Directed Research is an individual-study, laboratory or field investigation course. The research topic needs to be agreed on by both the student and the faculty mentor and explained in a Research/Directed Studies contract. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. \nprereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.\n\n ",
     "prereq": {
-      "and": [
+      "or": [
         "803434",
         "803435",
         "803140",

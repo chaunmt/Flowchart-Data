@@ -408,7 +408,22 @@
     "name": "Field Methods I",
     "fullname": "Field Methods in Linguistics I",
     "info": "Techniques for obtaining/analyzing linguistic data from unfamiliar languages through direct interaction with native speaker.\n\nprereq: [[4201 or 5201], [4302W or 5302]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "802458",
+            "010454"
+          ]
+        },
+        {
+          "or": [
+            "802459",
+            "010469"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "010461",
@@ -421,7 +436,7 @@
     "fullname": "Field Methods in Linguistics II",
     "info": "Techniques for obtaining/analyzing linguistic data from unfamiliar languages through direct interaction with a native speaker.\n\nprereq: [5105, grad major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "010460"
       ]
     }
@@ -437,7 +452,7 @@
     "fullname": "Syntactic Theory I",
     "info": "Concepts/issues in current syntactic theory. \n\nprereq: Ling 5001 and graduate student or honors student, or instructor consent",
     "prereq": {
-      "and": [
+      "or": [
         "016263"
       ]
     }
@@ -453,7 +468,7 @@
     "fullname": "Syntactic Theory II",
     "info": "Modern syntactic theory. Syntactic phenomena in various languages. Syntactic argumentation, development of constraints on grammar formalisms.\n\nprereq: 5201 or instructor consent. LING 5201 is directed towards honors students and graduate students.",
     "prereq": {
-      "and": [
+      "or": [
         "010454"
       ]
     }
@@ -531,7 +546,7 @@
     "fullname": "Phonological Theory I",
     "info": "How sounds are organized/patterned in human languages. Phonological theory/problem-solving for advanced work in in linguistics. Analyzing data. Presenting written solutions to problem sets.\n\nprereq: 5001 or honors student or instructor consent. LING 5302 is directed towards honors students and graduate students.",
     "prereq": {
-      "and": [
+      "or": [
         "016263",
         "010469"
       ]
@@ -548,7 +563,7 @@
     "fullname": "Phonological Theory II",
     "info": "Phonology of human languages. Reading papers in the literature. Doing research in phonology.\n\nprereq: 5302 or instr consent. LING 5303 is directed towards honors and graduate students.",
     "prereq": {
-      "and": [
+      "or": [
         "010469",
         "010471"
       ]
@@ -758,7 +773,7 @@
             "010456",
             "010458",
             {
-              "and": [
+              "or": [
                 "802459",
                 "010469"
               ]
@@ -807,7 +822,7 @@
     "fullname": "Topics in Syntax and Semantics",
     "info": "Syntax and semantics of natural language, with particular emphasis on the interface between the two.\n\nprereq: 5202, 5205 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "010456",
         "010458"
       ]
@@ -824,7 +839,7 @@
     "fullname": "Seminar in Syntax",
     "info": "Current issues in syntactic theory. Topics vary.\n\nprereq: 5202, 5205 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "010456",
         "010458"
       ]

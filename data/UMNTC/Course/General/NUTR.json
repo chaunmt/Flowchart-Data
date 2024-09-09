@@ -244,7 +244,7 @@
     "fullname": "The Role of Nutrition in Cancer Causation and Prevention",
     "info": "This is a lecture and seminar based course that covers issues in nutrition and cancer, with an emphasis on the role of nutritional factors in the etiology and prevention of cancer and how nutrition research is translated into dietary recommendations for cancer prevention. During the seminars, students will discuss current epidemiological, clinical and laboratory evidences on modulation of cancer risk by dietary factors.\n\nprereq: FScN 1112 (Principles of Nutrition), FScN 4612 (Advanced Human Nutrition), NUTR 5626 (Nutritional Physiology), Toxicology, Advanced Biology/Biochemistry/Genetics/Molecular Biology",
     "prereq": {
-      "and": [
+      "or": [
         "007468",
         "007490",
         "805132"

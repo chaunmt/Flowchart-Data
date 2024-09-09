@@ -270,7 +270,16 @@
     "name": "Int Latin Prose: Grad Research",
     "fullname": "Intermediate Latin Prose for Graduate Student Research",
     "info": "Introduction to Latin prose authors of 1st centuries BCE/CE. Readings of continuous passages of unadapted Latin texts (history, speeches, letters). Review of grammar/vocabulary as needed. Some discussion of major themes/issues in Roman culture as illustrated by texts.\n\nprereq: [Grade of at least [C- or S] in [1002 or 5001] or instr consent]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        {
+          "or": [
+            "008456",
+            "008700"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "801450",
@@ -311,8 +320,12 @@
     "fullname": "Advanced Readings in Latin Prose",
     "info": "The primary material for this course will be a selection of readings from three or more different\nLatin prose authors connected by genre (e.g. historical writing, philosophy, religious texts),\ntheme (e.g. Epicureanism and Stoicism, Christian apologetics, grammarians), period (e.g.\nRepublican, Late Imperial), or the like. Primary readings and critical approach will vary from\nyear to year, making the course repeatable. Some modern secondary reading will be assigned\nto provide a basis for discussion and a model for student written work.\n\nprereq: [LAT 3004 or equiv], at least two yrs of college level Latin. Contact the Classical & Near Eastern Religions & Cultures department (CNRC) with any questions.",
     "prereq": {
-      "or": [
-        "008687"
+      "and": [
+        {
+          "or": [
+            "008687"
+          ]
+        }
       ]
     }
   },

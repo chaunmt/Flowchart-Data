@@ -102,7 +102,7 @@
     "fullname": "Ballet Technique 2",
     "info": "Second of two-semester sequence of fundamental Classical Ballet Technique. Principles of Classical Ballet technique. Each principle introduced separately/in progression. Barre/center work with emphasis on simplicity, repetition, creativity.\n\nprereq: 1101, or audition, or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "008652"
       ]
     }
@@ -1087,7 +1087,7 @@
     "fullname": "Dance Production II",
     "info": "Continuation of 3621. Students produce the spring Student Dance Concert.\n\nprereq: 3621, dance major, dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "791100"
       ]
     }

@@ -3751,7 +3751,7 @@
     "fullname": "Raptor",
     "info": "Students participate in all aspects of raptor medicine, surgery, and rehabilitation and gain avian experience. Conservation medicine.\n\nprereq: 6497, DVM 3rd or 4th yr, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "788148"
       ]
     }

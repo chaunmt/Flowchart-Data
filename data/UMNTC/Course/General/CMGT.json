@@ -58,7 +58,7 @@
     "fullname": "Facility Programming and Design",
     "info": "Facility Programming and Design moves through the process of defining a building-related need, evaluating the existing facility, exploring design solutions, and presenting a business case for the final project. This course is constructed from the viewpoint of the facility manager, and each step of the instruction and each assignment builds to the final project and presentation. It is a requirement for Construction Management degree and certificate students. It can also be used as an elective for undergraduate or graduate students pursuing degrees in architecture, civil engineering, facility management, interior design, housing studies, and other related majors.\n\nThere are no formal prerequisites, but it is recommended that students have completed at least one of the following: \n1. CMgt 3011 (Construction Plan Reading) or CMgt 3001/3001W (Introduction to Construction) taken before or simultaneously with this course; 2. completion of a first or second year architecture or interior design studio; 3. relevant prior experience in the facility management industry; 4. approval of the instructor.\n",
     "prereq": {
-      "and": [
+      "or": [
         "791698",
         "788913"
       ]
@@ -458,7 +458,7 @@
     "fullname": "Facility Quality Assessment and Commissioning",
     "info": "How to assess condition/quality of building site, exterior/interior of facility, and  building equipment. Evaluating effectiveness/efficiency of facility operations/maintenance program. What to look for during building audits. How to write professional assessment reports. How to make useful recommendations for improvements. Value/purpose of building commissioning/ re-commissioning.\n\nprereq: 3001, [4213 or concurrent registration is required (or allowed) in 4213}, 4542, 4562",
     "prereq": {
-      "and": [
+      "or": [
         "788913",
         "800369",
         "806841"
@@ -536,7 +536,7 @@
     "fullname": "Advanced Construction Scheduling",
     "info": "This course builds on the prerequisite course CMGT 4021 - Construction Planning and Scheduling. Students will gain technical literacy and competency when crafting a detailed construction project schedule intended for the execution of the flow of work that will meet or exceed modern industry scheduling standards. Using Microsoft Project and Procore software, the student will apply and communicate principles of sequencing, duration, and resource leveling while also implementing applicable lean principles.",
     "prereq": {
-      "and": [
+      "or": [
         "013722"
       ]
     }
@@ -636,7 +636,7 @@
     "fullname": "Building Envelope Design and Construction",
     "info": "Science behind design of a weather-tight building envelope. Construction principles for foundations, exterior walls, windows, opening, roofs. Consequences of poor design/construction. Component review of building envelope (shell) elements. Testing/quality control strategies. Construction issues/envelope sequencing.\n\nprereq: None, but 4542 or 4572 or professional experience recommended",
     "prereq": {
-      "and": [
+      "or": [
         "800369",
         "798966"
       ]

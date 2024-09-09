@@ -298,8 +298,13 @@
     "fullname": "Introduction to Research Methods",
     "info": "Concepts/procedures used to conduct/evaluate research, especially in social sciences. Benefits/limitations of traditional research methods. Evaluating scientific claims.\n\nprereq: [1001, [2801 or 3801 or equiv]] or dept consent",
     "prereq": {
-      "or": [
-        "006265"
+      "and": [
+        "006265",
+        {
+          "or": [
+            "798902"
+          ]
+        }
       ]
     }
   },
@@ -418,8 +423,13 @@
     "fullname": "Introduction to Individual Differences",
     "info": "Differential methods in studying human behavior. Psychological traits. Influence of age, sex, heredity, environment in individual/group differences in ability, personality, interests, social attitudes.\n\nprereq: [1001, [3801 or equiv]] or instr consent",
     "prereq": {
-      "or": [
-        "006265"
+      "and": [
+        "006265",
+        {
+          "or": [
+            "798902"
+          ]
+        }
       ]
     }
   },
@@ -589,7 +599,7 @@
       "or": [
         "006265",
         {
-          "and": [
+          "or": [
             "798902"
           ]
         }
@@ -636,7 +646,12 @@
     "info": "\tThe capstone courses in Psychology synthesize knowledge gained throughout major and create pathways to post-graduation life. Students will reflect on the discipline of psychology and on their experiences in their degree program; class and small group discussions will support this reflection. Students will be provided with access to professionals who are alumni of the psychology program and will have the opportunity to hear these career professionals speak about their varied career paths and to network with them for advice and connections to other professionals. Students will also receive important information regarding graduate school and career preparation from the Psychology Advising Office and CLA Career Services.\n\nIn this course, you will draw from your experience in a faculty research lab (PSY 4/5993) to help develop the topic of your major project paper. Students complete a research paper based on activities in the lab, or a literature review if the lab did not complete empirical work. \n\nBefore class begins students must secure a laboratory research experience in a faculty member's lab for PSY 4/5993 credits or enroll in the PSY 5993 class, either the semester prior to or concurrently with your PSY 3901W enrollment. Because research lab positions are not guaranteed, we recommend BA students only select this option if they already have a PSY 4/5993 position secured. \n\nprereq: [3801 or equiv], 3001W, completion of five courses from three distribution areas, PSY major, senio",
     "prereq": {
       "or": [
-        "798902"
+        {
+          "or": [
+            "798902"
+          ]
+        },
+        "799440"
       ]
     }
   },
@@ -652,7 +667,12 @@
     "info": "The capstone courses in Psychology synthesize knowledge gained throughout major and create pathways to post-graduation life. Students will reflect on the discipline of psychology and on their experiences in their degree program; class and small group discussions will support this reflection. Students will be provided with access to professionals who are alumni of the psychology program and will have the opportunity to hear these career professionals speak about their varied career paths and to network with them for advice and connections to other professionals. Students will also receive important information regarding graduate school and career preparation from the Psychology Advising Office and CLA Career Services.\n\nIn this course, you will develop a project that relates to your personal or occupational interests. It includes extra reading or contact with people working in your area of interest. The most common way to satisfy this requirement is to read a book written by a psychologist for a general audience or to interview at least three professionals working in your area of interest. Other ideas may be discussed with the course instructor.\n\nprereq: [3801 or equiv], 3001W, completion of five courses from three distribution areas, PSY major, senior",
     "prereq": {
       "or": [
-        "798902"
+        {
+          "or": [
+            "798902"
+          ]
+        },
+        "799440"
       ]
     }
   },
@@ -668,7 +688,12 @@
     "info": "\tThe capstone courses in Psychology synthesize knowledge gained throughout major and create pathways to post-graduation life. Students will reflect on the discipline of psychology and on their experiences in their degree program; class and small group discussions will support this reflection. Students will be provided with access to professionals who are alumni of the psychology program and will have the opportunity to hear these career professionals speak about their varied career paths and to network with them for advice and connections to other professionals. Students will also receive important information regarding graduate school and career preparation from the Psychology Advising Office and CLA Career Services.\n\nIn this course, you will have the opportunity to connect your study of psychology to important issues in the local community. The Center for Community-Engaged Learning provides students with the opportunity to work onsite at a nearby community organization for approximately four hours each week throughout the semester. Students draw from this community experience to help identify the topic of their capstone paper.\n\nIn the first week of classes you will receive instructions from the Center for Community-Engaged Learning regarding community site placement.\n\nprereq: [3801 or equiv], 3001W, completion of five courses from three distribution areas, PSY major, senior",
     "prereq": {
       "or": [
-        "798902"
+        {
+          "or": [
+            "798902"
+          ]
+        },
+        "799440"
       ]
     }
   },
@@ -755,7 +780,7 @@
     "fullname": "Behavior Analysis and Autism",
     "info": "Psy 4016/5016: Behavior Analysis and Autism\nFall Semester Only\nThis practicum course is a special service-learning opportunity on current Applied Behavior Analysis (ABA) interventions for children who suffer from the challenges of autism. In this practicum, students gain substantial experience working with children in off-campus settings under the supervision of Board Certified Behavior Analysts who are engaged in the direct application of ABA and behavior therapy. This field experience involves a minimum of 7 hours per week for 12 weeks. Each week, the students participate in two 3-hour, one-on-one therapy sessions at either a home-based or center-based ABA program site, plus one 1-hour clinical review meeting at that site. Students also attend one 1.5-hour lecture/discussion session and complete weekly reading assignments. Students are introduced to the principles and methods currently employed to help young children with autism acquire functional language and appropriate social behavior, and control autistic behavior. Issues of professional ethics, social responsibility, and scientific and moral philosophy pertaining to the treatment of children with autism are also addressed. Grading is based on appropriate participation in the service-learning activities, competency evaluations at the service-learning site, and performance on a final exam. The prerequisite for the course is either Psy 4011/5011: Applied Behavior Analysis, or a comparable course or experience. Students who have prior mastery of the technical vocabulary of ABA are given preference.\n\nprereq: Individual auto transportation, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "006505",
         "817506"
       ]
@@ -787,7 +812,18 @@
     "name": "Psychology  of Music",
     "fullname": "Psychology of Music",
     "info": "Sound, hearing, music perception. Cognitive neuroscience of music appreciation/production. Concepts in perception/production of sound/music. Music psychology topics. Recent primary research.\n\nprereq: Grad or [[jr or sr], [3011 or 3031 or 3051 or 3061]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "006264",
+            "006360",
+            "006457",
+            "006460"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "009988",
@@ -881,7 +917,7 @@
     "fullname": "Psychology of Stress and Trauma",
     "info": "This course covers the major theories and research findings related to stress and trauma, including the effects of stress and trauma on mental and physical health, factors related to more effective coping with stress/trauma and interventions designed to decrease the negative effects of stress and trauma. Course material will highlight research related to stress and coping with the COVID-19 pandemic. The course focuses on both research methods and personal application of research findings. \n\nprereq: PSY 1001 and 3001W or PSY 3001V or CPSY 3308W",
     "prereq": {
-      "and": [
+      "or": [
         "006265",
         "799440",
         "002365"
@@ -923,7 +959,7 @@
     "fullname": "Seminar in Psychology",
     "info": "Seminars in subjects of current interest in Psychology.\n\nprereq: [1001, psych major] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "006265"
       ]
     }
@@ -1008,7 +1044,22 @@
     "name": "Cognit,Comput,Brain",
     "fullname": "Cognition, Computation, and Brain",
     "info": "Human cognitive abilities (perception, memory, attention) from different perspectives (e.g., cognitive psychological approach, cognitive neuroscience approach).\n\nprereq: [Honors or grad] or [[jr or sr], [3011 or 3031 or 3051 or 3061]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "or": [
+                "006264",
+                "006360",
+                "006457",
+                "006460"
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "817519",
@@ -1021,7 +1072,7 @@
     "fullname": "Behavior Analysis and Autism",
     "info": "Psy 4016/5016: Behavior Analysis and Autism\nFall Semester Only\nThis practicum course is a special service-learning opportunity on current Applied Behavior Analysis (ABA) interventions for children who suffer from the challenges of autism. In this practicum, students gain substantial experience working with children in off-campus settings under the supervision of Board Certified Behavior Analysts who are engaged in the direct application of ABA and behavior therapy. This field experience involves a minimum of 7 hours per week for 12 weeks. Each week, the students participate in two 3-hour, one-on-one therapy sessions at either a home-based or center-based ABA program site, plus one 1-hour clinical review meeting at that site. Students also attend one 1.5-hour lecture/discussion session and complete weekly reading assignments. Students are introduced to the principles and methods currently employed to help young children with autism acquire functional language and appropriate social behavior, and control autistic behavior. Issues of professional ethics, social responsibility, and scientific and moral philosophy pertaining to the treatment of children with autism are also addressed. Grading is based on appropriate participation in the service-learning activities, competency evaluations at the service-learning site, and performance on a final exam. The prerequisite for the course is either Psy 4011/5011: Applied Behavior Analysis, or a comparable course or experience. Students who have prior mastery of the technical vocabulary of ABA are given preference.\n\nprereq: Individual auto transportation, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "006505",
         "817506"
       ]
@@ -1158,7 +1209,18 @@
     "name": "Psych of Language",
     "fullname": "Psychology of Language",
     "info": "Theories/experimental evidence in past/present conceptions of psychology of language.\n\nprereq: Grad or [[jr or sr], [3011 or 3031 or 3051 or 3061]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "006264",
+            "006360",
+            "006457",
+            "006460"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "006517",
@@ -1182,7 +1244,18 @@
     "name": "Cog Neuropsych",
     "fullname": "Cognitive Neuropsychology",
     "info": "Consequences of different types of brain damage on human perception/cognition. Neural mechanisms of normal perceptual/cognitive functions. Vision/attention disorders, split brain, language deficits, memory disorders, central planning deficits. Emphasizes function/phenomenology. Minimal amount of brain anatomy.\n\nprereq: Grad or [[jr or sr], [3011 or 3031 or 3051 or 3061]] or instr consent",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "006264",
+            "006360",
+            "006457",
+            "006460"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "806387",
@@ -1231,7 +1304,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "006460",
             "790199"
           ]
@@ -1294,13 +1367,13 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "006479",
             "006521"
           ]
         },
         {
-          "and": [
+          "or": [
             "006625"
           ]
         }
@@ -1495,8 +1568,13 @@
     "fullname": "Personnel Psychology",
     "info": "Application of psychological research/theory regarding individual differences, psychological measurement, decision making, and learning to personnel selection, performance assessment, and occupational training. Job analysis, recruitment, selection decisions, performance appraisals, and training design, evaluation, and practice.\n\nprereq: [[3001W or equiv], 3711] or instr consent",
     "prereq": {
-      "or": [
-        "799440"
+      "and": [
+        {
+          "or": [
+            "799440"
+          ]
+        },
+        "009935"
       ]
     }
   },
@@ -1631,7 +1709,7 @@
     "fullname": "Neuro-Immune Interactions",
     "info": "Regulatory systems (neuroendocrine, cytokine, and autonomic nervous systems) linking brain and immune systems in brain-immune axis. Functional effects of bidirectional brain-immune regulation.\n\nprereq: MicB 4131 or equiv, NSc 5111 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "009267"
       ]
     }
@@ -2392,7 +2470,7 @@
     "fullname": "Applied Assessment II, Personality and Psychopathology",
     "info": "Theory/practice in clinical application of assessment techniques/interviewing. Lab observations, administration, scoring, interpretation.\n\nprereq: 8611/8615, clinical psych grad student",
     "prereq": {
-      "and": [
+      "or": [
         "010470",
         "825455"
       ]
@@ -2653,7 +2731,7 @@
     "fullname": "Computerized Adaptive Testing\u2014Methods and Applications",
     "info": "Computerized adaptive testing (CAT) is the redesign of psychological, educational, and other tests and instruments for delivery by computers\u2014it is the first application of artificial intelligence in the field of psychological measurement.  CATs dynamically adjust the test questions delivered to each examinee in real time to simultaneously maximize measurement precision and efficiency.  Although CAT research began in the early 1970s, it was not until the mid-1990s that CATs began to impact testing programs and instruments in education, business and industry, medical research, personality measurement, and other applications, worldwide. This seminar is designed to (1) expose graduate students to the origins, methods, and applications of CAT, (2) evaluate its current status as reflected in the research literature, (3) identify areas in need of further research, and (4) provide the knowledge to design CATs for specific purposes. \n\nprereq: Psy 5865, EPsy 8226, or equivalent, or instructor permission",
     "prereq": {
-      "and": [
+      "or": [
         "006627",
         "808716"
       ]
@@ -2718,7 +2796,7 @@
     "fullname": "Readings in Behavioral Genetics and Individual Differences Psychology",
     "info": "Each week participants read and discuss one or two primary research articles.\n\nprereq: 5135, 5137 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "006521",
         "006520"
       ]

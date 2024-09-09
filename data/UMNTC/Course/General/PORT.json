@@ -193,7 +193,7 @@
     "fullname": "Global Portuguese: 1900-present",
     "info": "This course is the second half of a two-semester introduction to Global Portuguese literatures and cultures. Beginning where PORT3501w ended, you will examine twentieth-century cultural texts in Portuguese, focusing primarily on Brazil, though also reading texts from other countries where Portuguese, among other languages, is spoken, such as Angola, Mozambique, and Portugal. Much of what you will study is related to different modernist traditions. You will primarily read poetry and short stories, though you may also study other genres, such as songs and essays. PORT3501w is not a prerequisite. PORT3502w is taught in Portuguese, and all of the reading, writing, and speaking will be done in Portuguese. Assessments include essays and may also include other graded assignments, such as oral presentations or written exams. \n\nprereq: 3003",
     "prereq": {
-      "and": [
+      "or": [
         "007882",
         "007879"
       ]
@@ -292,7 +292,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "007878",
             "007879"
           ]
@@ -323,7 +323,7 @@
     "fullname": "Portuguese for Spanish Speakers and Graduate Student Research",
     "info": "Listening, reading, speaking, writing. Uses communicative approach.\n\nprereq: [SPAN 1004 or SPAN 1014 or SPAN 1044, SPAN LPE pass] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "009754",
         "790229"
       ]

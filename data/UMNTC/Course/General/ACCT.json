@@ -102,7 +102,7 @@
     "fullname": "Intermediate Accounting I",
     "info": "Valuation, measurement, reporting issues related to selected assets/liabilities of firm. Theory underlying accounting issues. Applying accounting principles.\n\nprereq: Grade of B- or better in Acct 2050/Acct 2051 OR passed the Acct pretest (z.umn.edu/Acct5101pretest); CSOM Major, MGMT minor, mgmt grad student",
     "prereq": {
-      "and": [
+      "or": [
         "013103"
       ]
     }
@@ -236,7 +236,11 @@
     "name": "Financial Statement",
     "fullname": "Financial Statement Analysis",
     "info": "Interpretation/analysis of financial statements. Introduces basic techniques of financial statement analysis and applies them in different settings (e.g., in investment/credit decisions).\n\nprereq: [5101]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        "013815"
+      ]
+    }
   },
   {
     "uid": "013823",
@@ -249,7 +253,7 @@
     "fullname": "Consolidations and Advanced Reporting",
     "info": "Theory underlying preparation of consolidated financial statements, as well as mechanical computations needed to prepare statements. \n\nprereq: 5101, 5102 recommended, or MBA 6031 (equiv. is also MBA 6030 before course number change in Fall 2022). MBA/Mgmt Sci MBA students must register A/F grade base.",
     "prereq": {
-      "and": [
+      "or": [
         "013815",
         "013816",
         "015811"
@@ -464,7 +468,7 @@
     "fullname": "Financial Statement Analysis",
     "info": "Firms communicate their results to various users through financial statements. By developing an understanding about how companies report their economic transactions, financial statement users can better understand the results of those transactions. Financial statements tell the story of a firm and are the basis upon which business decisions are made, so users need the ability to properly analyze the financial statements in order to make accurate decisions regarding the firm\u2019s future. By the end of this course, students should be able to evaluate how a firm\u2019s business strategy translates to the financial statements, recognize potential earnings management, decipher whether a firm\u2019s profitability is sustainable or unsustainable, understand revenue recognition rules and the potential for manipulation, articulate the general accounting rules regarding operating activities for a firm, evaluate how investing and financing activities affect a firm\u2019s health, and utilize financial forecasting to predict how a company will likely perform in the future.\n\n\nprereq: MBA 6031, MBA/Mgmt Sci MBA student",
     "prereq": {
-      "and": [
+      "or": [
         "015811"
       ]
     }

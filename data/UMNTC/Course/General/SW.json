@@ -1060,14 +1060,14 @@
     "fullname": "Social Work Interventions With Families",
     "info": "Theory/models of social work intervention with families. Theoretical constructs of traditional/emerging models of social work practice with families. Develop assessment/ intervention skills.\n\nprereq: [8451 or concurrent registration is required (or allowed) in 8451], [8351 or concurrent registration is required (or allowed) in 8351], [5051, 5801, 8151, 8152, 8153, 8841] or MSW Adv Standing or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "807864"
           ]
         },
         {
-          "and": [
+          "or": [
             "807828"
           ]
         },

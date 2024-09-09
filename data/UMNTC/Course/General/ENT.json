@@ -510,9 +510,14 @@
     "fullname": "Pesticides in Horticulture: Their Use and Abuse",
     "info": "History of pesticide use. Case studies on specific pesticide issues, such as DDT, atrazine, Temik, and imidacloprid. Pesticides use, application methods, environmental concerns. Training for pesticide certification license for Minnesota. Test given near campus during course.\n\nprereq: [[4015 or 4251], PlPA 2001] or instr consent",
     "prereq": {
-      "or": [
-        "015560",
-        "005495"
+      "and": [
+        {
+          "or": [
+            "015560",
+            "005495"
+          ]
+        },
+        "006949"
       ]
     }
   },

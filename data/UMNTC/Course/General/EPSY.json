@@ -350,7 +350,7 @@
     "fullname": "Teaching Students with Special Needs in Inclusive Settings",
     "info": "Historical perspectives, definitions/professional language, characteristics, needs, service delivery systems for each area of exceptionality.\n\nprereq: Must be enrolled in either the initial teaching licensure program for music education or agricultural education students. All other initial teaching licensure candidates  should enroll in 5015 and 5016.",
     "prereq": {
-      "and": [
+      "or": [
         "808132",
         "808133"
       ]
@@ -1778,7 +1778,13 @@
     "info": "Developing programs/curricula for students with moderate, severe, profound developmental delays, as well as severe multihandicapping conditions. Special consideration given to preparing children/youth for integrated community environments.\n\nprereq: 5621 or [5661 and 5662]",
     "prereq": {
       "and": [
-        "001199"
+        "001199",
+        {
+          "or": [
+            "797298",
+            "809198"
+          ]
+        }
       ]
     }
   },
@@ -2209,7 +2215,7 @@
     "fullname": "Assessment and Identification of Autism Spectrum Disorders",
     "info": "Selection/use of assessment procedures that may be used to screen/identify children with autism spectrum disorders.\n\nprereq: 5661, Spec Ed grad or licensure student or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "797298"
       ]
     }
@@ -2225,7 +2231,7 @@
     "fullname": "Assessment and Intervention for Individuals with Autism Spectrum Disorder",
     "info": "Selection/use of range of procedures, including non-biased, specific assessments to screen/identify children with autism spectrum disorder. Specific intervention strategies designed to teach beginning communication/social skills to children with Autism Spectrum Disorder (ASD). \n\nprereq: 5661, Special Ed grad, licensure student, ASD Certificate student, IDP major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "797298"
       ]
     }
@@ -2995,7 +3001,7 @@
     "fullname": "Seminar: Research Processes in Psychological Foundations of Education",
     "info": "Advanced examination of research processes in educational psychology. Invited faculty discuss specific research designs. Students refine/implement research projects and present them in class.\n\nprereq: [5216, admitted to doctoral program in psych foundations] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "003551"
       ]
     }
@@ -3022,7 +3028,20 @@
     "name": "Psych Scaling",
     "fullname": "Psychological Scaling",
     "info": "Topics in uni/multidimensional scaling. Measurement theory/statistics. Rating scales, category scaling methods. Magnitude estimation, paired comparisons, multi-attribute scaling, multidimensional scaling.\n\nprereq: [5221 or equiv], [8252 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "002247"
+          ]
+        },
+        {
+          "or": [
+            "806939"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "002258",
@@ -3034,7 +3053,21 @@
     "name": "Adv Meas:Theor/Appl",
     "fullname": "Advanced Measurement: Theory and Application",
     "info": "Topics in test theory. Classical reliability/validity theory/methods, generalizability theory. Linking, scaling, equating. Item response theory, methods for dichotomous/polytomous responses. Comparisons between classical, item response theory methods in instrument construction. \n\nprereq: [5221 or PSY 5862 or equiv], [8252 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "002247",
+            "006625"
+          ]
+        },
+        {
+          "or": [
+            "806939"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "804193",
@@ -3060,7 +3093,14 @@
     "info": "Conceptualization, design, implementation, analysis of performance assessments as employed in both small-scale (e.g., classrooms), large-scale (e.g., statewide, national testing programs), professional (e.g., teacher assessment, professional certification) settings.\n\nprereq: 5221, [5262 or 8261 or 8251 or equiv]",
     "prereq": {
       "and": [
-        "002247"
+        "002247",
+        {
+          "or": [
+            "788804",
+            "002261",
+            "806938"
+          ]
+        }
       ]
     }
   },
@@ -3076,7 +3116,12 @@
     "info": "Principles/practices of test score quality assurance, standard setting/equating. Operational testing programs. Focus on achievement tests.\n\nprereq: 5221, [8252 or eqiv]",
     "prereq": {
       "and": [
-        "002247"
+        "002247",
+        {
+          "or": [
+            "806939"
+          ]
+        }
       ]
     }
   },
@@ -3146,7 +3191,12 @@
     "name": "Statistical Methods in Educ II",
     "fullname": "Statistical Methods in Education II",
     "info": "Statistical Methods in Education II is the second course in an entry-level, doctoral sequence for students in education. This course focuses on multiple linear regression and provides an introduction to linear mixed models.\n\nprereq: [8251, 8261 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "806938",
+        "002261"
+      ]
+    }
   },
   {
     "uid": "002261",
@@ -3175,7 +3225,12 @@
     "name": "Statistical Methods in Educ II",
     "fullname": "Statistical Methods in Education II",
     "info": "Statistical Methods in Education II is the second course in an entry-level, doctoral sequence for students in education. This course focuses on multiple linear regression and provides an introduction to linear mixed models.\n\nprereq: [EPSY 8251, 8261 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "806938",
+        "002261"
+      ]
+    }
   },
   {
     "uid": "002263",
@@ -3215,7 +3270,11 @@
     "name": "Factor Analysis",
     "fullname": "Factor Analysis",
     "info": "Factor analytic techniques/applications. Component, common factor, confirmatory analysis. Factor extraction, estimating number of dimensions. Rotation, factor scores, hierarchical factor analysis.\n\nprereq: [8252 or equiv or instr consent]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "806939"
+      ]
+    }
   },
   {
     "uid": "002321",
@@ -3255,7 +3314,11 @@
     "name": "HLM in Educ Research",
     "fullname": "Hierarchical Linear Modeling in Educational Research",
     "info": "Conceptual framework of hierarchical linear models for nested data, their application in educational research. Nature/effects of nested data, logic of hierarchical models, mixed-effects models. Estimation/hypothesis testing in these models, model-checking, nonlinear models.\n\nprereq: [8252 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "806939"
+      ]
+    }
   },
   {
     "uid": "796876",
@@ -3267,7 +3330,12 @@
     "name": "Matrix Algebra",
     "fullname": "Matrix Algebra for Statistical Modeling",
     "info": "Linear/matrix algebra, including vector operations, applications to multivariate statistics. Procedures for solving systems of linear equations. Geometry of vectors/matrices. Regression/regression diagnostics in matrix framework. Uses SPSS MATRIX language.\n\nprereq: [8252 or 8262 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "806939",
+        "002262"
+      ]
+    }
   },
   {
     "uid": "794134",
@@ -3291,7 +3359,11 @@
     "name": "Nonpar Statistics in Educ",
     "fullname": "Nonparametric Statistics in Education",
     "info": "Estimation/inferential techniques outside normal-theory tests. One-, two-, K-sample procedures for between-/within-subject differences, including factorial analysis of variance/covariance. Contingency table analysis (tests of independence, homogeneity).\n\nprereq: [8252 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "806939"
+      ]
+    }
   },
   {
     "uid": "002316",
@@ -3303,7 +3375,11 @@
     "name": "Data Analysis--SAS",
     "fullname": "Advanced Statistical Computing and Data Analysis",
     "info": "Cross-disciplinary course. Use SAS statistical package to perform data management, data analysis, report writing.\n\nprereq: [5261 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "002250"
+      ]
+    }
   },
   {
     "uid": "796877",
@@ -3315,7 +3391,11 @@
     "name": "Stat Analysis Longitudinl Data",
     "fullname": "Statistical Analysis of Longitudinal Data",
     "info": "Traditional/modern approaches to analyzing longitudinal data. Dependent t-test, repeated measures ANOVA/MANOVA. Linear mixed models, multilevel models, generalized models. \n\nprereq: [8252 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "806939"
+      ]
+    }
   },
   {
     "uid": "818124",
@@ -3468,7 +3548,7 @@
     "fullname": "Master's Research Seminar: CSPP",
     "info": "Survey of research methods, data-based decision making, basic research design skills, and research simulation.\n\nprereq: 5261 or equiv, 5221 or equiv, EPsy MA student with CSPP subprog or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002250",
         "002247"
       ]
@@ -3621,7 +3701,7 @@
     "fullname": "Advanced Topics in Special Education Research",
     "info": "This course will offer sections on varying topics focused on research, policy, practice, and related issues in special education and disability services for advanced graduate seminars. The course is intended to allow enrolled students to conduct in-depth and focused review and analysis of scholarship in a contemporary area of special education, and to provide each student the opportunity to develop in-depth understanding of a specific topic within this area. \n\nThis is a seminar course, with a combination of faculty-presented, student-presented, and group discussion content. Course topics will include an overview of relevant theoretical models, research methods, empirical and other findings, and areas of emerging interest, scholarship, policy, and practice.\n\nprereq: Completion of EPsy 8701, 8702, and 8694 or equivalent coursework; doctoral Student in Special Education or a related academic area, or permission of instructor",
     "prereq": {
-      "and": [
+      "or": [
         "001502",
         "001506",
         "001495"

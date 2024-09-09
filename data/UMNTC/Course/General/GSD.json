@@ -190,7 +190,7 @@
     "fullname": "Dissertation Writing Seminar",
     "info": "Critical, supportive forum for discussion of problems/issues related to dissertation research/writing. Shaping/controlling one's topic. Developing chapter outlines. Questions of audience. Careful uses of language. Turning a dissertation into a book.\n\nprereq: 8801, completion of doctoral preliminary examinations",
     "prereq": {
-      "and": [
+      "or": [
         "008624"
       ]
     }

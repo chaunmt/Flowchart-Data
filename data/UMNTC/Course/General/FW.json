@@ -142,7 +142,11 @@
     "name": "Vegetation Sampling",
     "fullname": "Vegetation Sampling for Habitat Assessments",
     "info": "Common vegetation sampling methods used for habitat assessments. Identify approximately 75 vascular plant species typical of Minnesota terrestrial and aquatic ecosystems using taxonomic keys and readily observable traits. Importance of plants for providing food, cover, and nesting habitat. prereq: [soph, jr, sr], FW major, must be taken concurrently with FW 3108",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "009727"
+      ]
+    }
   },
   {
     "uid": "009727",
@@ -515,8 +519,7 @@
     "prereq": {
       "and": [
         "013853",
-        "012868",
-        "002384"
+        "012868"
       ]
     }
   },
@@ -567,9 +570,14 @@
     "fullname": "Human Dimensions of Biological Conservation",
     "info": "Survey of social, psychological, economic, policy aspects of managing/conserving wildlife, fisheries, and related resources.\n\nprereq: [Biol 1001 or Biol 1009], Biol 3407",
     "prereq": {
-      "or": [
-        "005419",
-        "005416"
+      "and": [
+        {
+          "or": [
+            "005419",
+            "005416"
+          ]
+        },
+        "012848"
       ]
     }
   },
@@ -584,7 +592,7 @@
     "fullname": "Analysis of Populations",
     "info": "Regulation, growth, general dynamics of populations. Data needed to describe populations, population growth, population models, regulatory mechanisms. \n\nprereq: [4001 or STAT 3011 or ESPM 3012], [EEB 3407 or EEB 3408W or EEB 3807], Senior or grad student",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "014649",
@@ -800,6 +808,7 @@
             "001624"
           ]
         },
+        "012848",
         {
           "or": [
             "000119",

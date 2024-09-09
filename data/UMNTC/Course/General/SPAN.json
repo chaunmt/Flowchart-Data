@@ -10,7 +10,7 @@
     "fullname": "Beginning Spanish",
     "info": "Listening, speaking, reading, writing. Emphasizes development of communicative competence. Cultural readings. \n\nprereq: Less than 2 yrs of high school Spanish and/or three or more years away from Spanish language study; and dept consent.\n\nIf you\u2019ve studied some Spanish and are unsure if SPAN 1001 or SPAN 1022 is a better fit for you, you can use the Beginning Spanish Class Recommendation Tool (https://umn.qualtrics.com/jfe/form/SV_eRNMZP0kAnhHY22) to see what you know and receive a recommendation based on your current skills.",
     "prereq": {
-      "and": [
+      "or": [
         "010246",
         "010594"
       ]
@@ -27,7 +27,7 @@
     "fullname": "Beginning Spanish",
     "info": "Listening, speaking, reading, writing. Emphasizes development of communicative competence. Cultural readings.\n\nprereq: A grade of C- or better in SPAN 1001 completed at UMNTC, and dept consent",
     "prereq": {
-      "and": [
+      "or": [
         "010246"
       ]
     }
@@ -80,7 +80,11 @@
     "prereq": {
       "and": [
         "010246",
-        "010594"
+        {
+          "or": [
+            "010594"
+          ]
+        }
       ]
     }
   },
@@ -452,7 +456,13 @@
     "info": "Wide variety of texts. Questions of gender, class, subjectivity, representation, art, and politics.\n\nprereq: 3015, [3104W or TLDO 3104 or VENZ 3104 or instr consent]",
     "prereq": {
       "and": [
-        "010382"
+        "010382",
+        {
+          "or": [
+            "007860",
+            "791502"
+          ]
+        }
       ]
     }
   },
@@ -542,7 +552,7 @@
     "fullname": "Medical Spanish and Community Health Learning",
     "info": "Medical Spanish and Community Health Learning is an advanced language and culture course that trains Spanish Studies majors and minors to communicate effectively with Spanish-speaking patients in a healthcare setting. The course includes a service-learning component where students work with community healthcare partners who serve the growing Chicano/Latino population in Minnesota. The course seeks to provide students interested in healthcare professions with a better understanding of the health disparities faced by Latino migrant communities in the United States. SPAN 3404 covers various topics such as challenges and opportunities in achieving equitable health access and preventive medicine in underserved populations, the role of social determinants of health in community healthcare, understanding culture-bound syndromes, comprehensive medical terminology, and basic medical interpretation. It's important to note that while some students may observe medical provider-patient interactions, they are not allowed to be involved in direct patient health care.\n\nprereq: SPAN 3015W with grade of at least C- or better and instructor permission.  Recommended one additional upper division Spanish class.",
     "prereq": {
-      "and": [
+      "or": [
         "010382"
       ]
     }
@@ -571,7 +581,14 @@
     "info": "Historical/cultural events leading to nation building in early modern Spain and Spanish speaking America.\n\nprereq: 3015, [3105W or TLDO 3105 or VENZ 3512 or instr consent]",
     "prereq": {
       "and": [
-        "010382"
+        "010382",
+        {
+          "or": [
+            "008830",
+            "791519",
+            "791521"
+          ]
+        }
       ]
     }
   },
@@ -1065,7 +1082,7 @@
     "fullname": "Capstone Seminar",
     "info": "Completion of a research paper on cultural, literary, or artistic issue in Spanish or Portuguese speaking worlds or on a topic related to Hispanic linguistics. In-depth research/consultation with instructor.\n\nSPAN 3972W needs to be taken during the semester in which student completes major course work.\n\nprereq: Spanish Studies Major (for those who declared before Fall 2018): C- or better in SPAN 3015w, 3104w, 3105w, 3107w and 3 SPAN electives with a critical analysis prerequisite. \n\nSpanish Studies major (for those who declare Fall 2018 and after): C- or better in Span 3015w, 2 Span 31xx courses, and 4 electives with a Critical Analysis prerequisite. \n\nSpanish/Portuguese Studies Majors (for those who declared before Spring 2022): C- or better in SPAN 3015w, PORT 3003, SPAN 3104w, 3107w, 1 PORT 35xx class, 2 upper level SPAN or PORT electives.\n\nSpanish/Portuguese Studies Majors (for those who declared Spring 2022 and after): C- or better in SPAN 3015W, PORT 3003, SPAN 3104W or 3105W & 3107W, 1 PORT elective, 2 additional upper level Spanish or Portuguese electives.\n",
     "prereq": {
-      "and": [
+      "or": [
         "010382",
         "007879",
         "007860",

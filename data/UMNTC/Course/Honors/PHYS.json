@@ -46,7 +46,7 @@
     "fullname": "Honors Introduction to Electricity and Magnetism",
     "info": "Principles of electricity/magnetism for those with full year of calculus/equivalent of one year of high-school physics. Introduction to electrostatics, magnetostatics, electrodynamics, electric/magnetic properties of materials, circuits, Maxwell's equations, electromagnetic waves.\n\nprereq: 1501V, honors",
     "prereq": {
-      "and": [
+      "or": [
         "797531"
       ]
     }
@@ -62,7 +62,7 @@
     "fullname": "Honors Physics III",
     "info": "Third semester of comprehensive calculus-level general physics. Emphasizes use of fundamental principles to solve quantitative problems. Applications to 20th-century physics such as classical/quantum mechanical waves, optics, special relativity, and atomic structure of materials.\n\nprereq: 1402V, honors student and permission of University Honors Program",
     "prereq": {
-      "and": [
+      "or": [
         "002074"
       ]
     }
@@ -78,7 +78,7 @@
     "fullname": "Honors Physics III",
     "info": "The third semester of a calculus-based introductory physics sequence. Topics include: relativistic kinematics and dynamics, mechanical and electromagnetic waves, light, interference, diffraction, wave-particle duality, and topics in modern physics. Course emphasizes the use of fundamental problems to solve quantitative problems. Intended primarily for those who have completed 1401V/1402V, although those students with outstanding performance in 1301W/1302W may be granted permission to enroll. \n\nprereq: Honors program or with permission, PHYS 1402V or equivalent\nprereq: 1402V or 1502V, honors student or permission of University Honors Program or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002074",
         "798138"
       ]

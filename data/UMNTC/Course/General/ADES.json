@@ -258,7 +258,7 @@
     "fullname": "Product Development: Softlines",
     "info": "Product development for apparel and other sewn products. Developing products in a lab studio for effectiveness, reliability, and marketability. Team approach using merchandising/design principles to develop products for specific markets.\n\nprereq: 2213 or DHA 2213 or apparel design major or clothing design major or retail merchandising major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "012824"
       ]
     }
@@ -285,7 +285,20 @@
     "name": "Apparel Design Studio V",
     "fullname": "Apparel Design Studio V",
     "info": "Market research information/implementation. Designing for specific audience, market, user group. Applying market research to design line of apparel. Research of promotional methods for design project.\n\nprereq: [[3224 or DHA 3224], [3225 or DHA 3225]] with grade of at least C-, apparel design major",
-    "prereq": {}
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            "012840"
+          ]
+        },
+        {
+          "or": [
+            "801507"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "012844",

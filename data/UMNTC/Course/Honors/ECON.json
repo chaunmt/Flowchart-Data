@@ -57,7 +57,16 @@
     "name": "Hon Game Theory & Applications",
     "fullname": "Honors Course: Game Theory and Applications",
     "info": "For ECON B.S. students only. Games. Normal form, extensive form. Wars of attrition. Games of timing. Bargaining applications in industrial organization, macroeconomics, and international economics.\n\nprereq: [[3101, 3102]] or equiv], [[MATH 1271, MATH 1272] or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            "010421",
+            "010422"
+          ]
+        }
+      ]
+    }
   },
   {
     "uid": "809483",
@@ -70,9 +79,9 @@
     "fullname": "Honors: Introduction to Mathematical Economics Honors",
     "info": "Development of selected models of economic behavior in mathematical terms. Topics selected to illustrate advantages of mathematical formulation.\n\nprereq: [3101, 3102 or equiv], [MATH 1271, MATH 1272, MATH 2243 or equiv], honors student",
     "prereq": {
-      "and": [
+      "or": [
         {
-          "and": [
+          "or": [
             "010421",
             "010422"
           ]
@@ -206,7 +215,7 @@
       "and": [
         "010421",
         {
-          "and": [
+          "or": [
             "010422"
           ]
         }

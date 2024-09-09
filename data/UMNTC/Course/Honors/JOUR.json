@@ -22,7 +22,7 @@
     "fullname": "Information for Mass Communication",
     "info": " The ability to acquire, evaluate, and use different information sources are essential skills for professional communicators and citizens. This course teaches the process of information gathering, evaluation, and implications through the lens of mass communication. A case study is used to study this process in depth throughout the semester.\n\nprereq: Honors, [JOUR 1001 or JOUR100H], [Jour major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program]",
     "prereq": {
-      "and": [
+      "or": [
         {
           "or": [
             "803308"

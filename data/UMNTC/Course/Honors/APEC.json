@@ -22,7 +22,7 @@
     "fullname": "Honors: Principles of Macroeconomics",
     "info": "Measuring/describing an economy. Macroeconomic phenomena, including long-term growth, inflation, unemployment, and recessions. International trade and capital flows. Simple macroeconomic models. Financial markets. Monetary policy. Taxation, government expenditure, and debt as macroeconomic policy. Poverty and income distribution.\n\nprereq: [1101 or 1101H or ECON 1101 or ECON 1101H, honors",
     "prereq": {
-      "and": [
+      "or": [
         "801983",
         "010017"
       ]

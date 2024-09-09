@@ -22,7 +22,7 @@
     "fullname": "Introductory Chemistry: Lecture",
     "info": "Matter/energy, atoms, compounds, solutions, chemical reactions, mole/chemical calculations, gases, liquids, solids, chemical bonding, atomic/molecular structure, acids, bases, equilibria. Physical/chemical properties of hydrocarbons and organic compounds. Problem solving.\n\nEffective fall 2024, CHEM 1015 is no longer a prerequisite to CHEM 1061/1081/1071. \n\nCHEM 1015 should only be completed by students whose major requires this course and or any student who is taking the course to fulfill the Physical Liberal Education requirement.\n\nCHEM 1015 will meet in-person.\n\nConcurrent enrollment in CHEM 1017 lab is required. You must enroll in CHEM 1017 first.\n\nConsult with your advisor with any questions or contact the Chemistry department at chemfaq@umn.ed",
     "prereq": {
-      "and": [
+      "or": [
         "807753",
         "815252",
         "827126",
@@ -110,7 +110,7 @@
     "fullname": "Chemical Principles II",
     "info": "Chemical kinetics. Radioactive decay. Chemical equilibrium. Solutions. Acids/bases. Solubility. Second law of thermodynamics. Electrochemistry/corrosion. Descriptive chemistry of elements. Coordination chemistry. Biochemistry.\n\nprereq: Grade of at least C- in 1061 or equiv, concurrent registration is required (or allowed) in 1066; registration for 1066 must precede registration for 1062",
     "prereq": {
-      "and": [
+      "or": [
         "807753",
         "807754",
         "807756"
@@ -146,7 +146,7 @@
     "fullname": "Chemical Principles II Laboratory",
     "info": "Basic laboratory skills while investigating physical and chemical phenomena closely linked to lecture material. Experimental design, data collection and treatment, discussion of errors, and proper treatment of hazardous wastes.\n\nprereq: concurrent registration is required (or allowed) in 1062",
     "prereq": {
-      "or": [
+      "and": [
         "807756"
       ]
     }
@@ -198,7 +198,7 @@
     "fullname": "Chemistry for the Life Sciences II",
     "info": "The topics of acids, bases and equilibrium, kinetics, nucleophilic substitution and elimination reactions, free radicals, electrochemistry, and alkene addition reactions will be presented along with their application to biological systems. Intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science related fields. prereq: grade of a C- or better in CHEM 1081 (lecture) and CHEM 1065 (lab); concurrent registration is required (or allowed) in 1086; registration for 1086 must precede registration for 1082. This course is recommended for CBS majors. ",
     "prereq": {
-      "and": [
+      "or": [
         "815252",
         "807752",
         "815283",
@@ -409,7 +409,7 @@
     "fullname": "Chemistry for the Life Sciences III",
     "info": "The topics of spectroscopy, conjugation and aromaticity, carbonyl and their reactivity, carboxylic acid derivatives, and electrophilic aromatic substitution reactions will be presented along with their application to biological systems. Intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science related fields.\n\nprereq: grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab)",
     "prereq": {
-      "and": [
+      "or": [
         "815284",
         "815283"
       ]
@@ -426,7 +426,7 @@
     "fullname": "Chemistry for the Life Sciences III Laboratory",
     "info": "Experimental techniques and instrumentation applied to the study of chemical reactions and related biological systems. Techniques include spectroscopy, isolation, kinetics and thermodynamics, green chemistry, oxidations, enzymatic reductions, drug discovery. \n\nprereq: grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab). Concurrent registration in CHEM 2081 is required.",
     "prereq": {
-      "and": [
+      "or": [
         "815284",
         "815283",
         "815286"
@@ -506,6 +506,11 @@
     "info": "Laboratory techniques in synthesis, purification and characterization of organic compounds with an emphasis on green chemistry methodologies.\n\nprereq: Grade of at least C- in [2302] or [concurrent registration is required (or allowed) in 2302",
     "prereq": {
       "or": [
+        {
+          "and": [
+            "002393"
+          ]
+        },
         "002393"
       ]
     }
@@ -613,7 +618,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "016186"
           ]
         }
@@ -757,8 +762,13 @@
     "fullname": "Materials Chemistry",
     "info": "Crystal systems/unit cells, phase diagrams, defects/interfaces, optical/dielectric properties, electrical/thermal conductivity, X-ray diffraction, thin film analysis, electronic structure, polarons/phonons, solid state chemistry, liquid/molecular crystals, polymers, magnetic/optical materials, porous materials, ceramics, piezoelectric materials, biomedical materials, catalysts.\n\nprereq: [[4502 or equiv], 4701] or instr consent",
     "prereq": {
-      "or": [
-        "016224"
+      "and": [
+        {
+          "or": [
+            "016224"
+          ]
+        },
+        "002408"
       ]
     }
   },
@@ -864,8 +874,13 @@
     "fullname": "Organic Synthesis",
     "info": "Fundamental concepts, reactions, reagents, structural/stereochemical issues, mechanistic skills for organic chemistry.\n\nprereq: [2302 or equiv], 4501, instr consent",
     "prereq": {
-      "or": [
-        "002393"
+      "and": [
+        {
+          "or": [
+            "002393"
+          ]
+        },
+        "016186"
       ]
     }
   },
@@ -880,8 +895,13 @@
     "fullname": "Advanced Organic Chemistry",
     "info": "Topics vary by instructor. Examples: natural products, heterocycles, asymmetric synthesis, organometallic chemistry, polymer chemistry.\n\nprereq: [2302 or equiv], 4501, instr consent",
     "prereq": {
-      "or": [
-        "002393"
+      "and": [
+        {
+          "or": [
+            "002393"
+          ]
+        },
+        "016186"
       ]
     }
   },
@@ -897,7 +917,13 @@
     "info": "Fundamental concepts and mechanistic tools for analysis of organic reaction mechanisms. Solvation, reactive intermediates, gas phase chemistry. Photochemistry/strained-ring chemistry.\n\nprereq: 4501, [4011 or 8011]",
     "prereq": {
       "and": [
-        "016186"
+        "016186",
+        {
+          "or": [
+            "004115",
+            "004114"
+          ]
+        }
       ]
     }
   },
@@ -912,8 +938,13 @@
     "fullname": "Interpretation of Organic Spectra",
     "info": "Application of nuclear magnetic resonance, mass, ultraviolet, and infrared spectral analyses to organic structural problems.\n\nprereq: [2302 or equiv], 4501, instr consent",
     "prereq": {
-      "or": [
-        "002393"
+      "and": [
+        {
+          "or": [
+            "002393"
+          ]
+        },
+        "016186"
       ]
     }
   },
@@ -927,7 +958,12 @@
     "name": "Intro Chem Biology",
     "fullname": "Introduction to Chemical Biology",
     "info": "Chemistry of amino acids, peptides, proteins, lipids, carbohydrates, and nucleic acids. Structure, nomenclature, synthesis, reactivity. Techniques to characterize biomolecules.\n\nprereq: [2302 or 2081 equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "002393",
+        "815286"
+      ]
+    }
   },
   {
     "uid": "004144",
@@ -940,8 +976,13 @@
     "fullname": "Chemical Biology of Enzymes",
     "info": "Enzyme classification with examples from current literature. Strategies to decipher enzyme mechanisms. Chemical approaches to control enzyme catalysis.\n\nprereq: [2302 or equiv], 4501",
     "prereq": {
-      "or": [
-        "002393"
+      "and": [
+        {
+          "or": [
+            "002393"
+          ]
+        },
+        "016186"
       ]
     }
   },
@@ -957,7 +998,12 @@
     "info": "Chemistry/biology of nucleic acids. Structure, thermodynamics, reactivity, DNA repair, chemical oligonucleotide synthesis, antisense approaches, ribozymes. Techniques for nucleic acid research. Interactions with small molecules/proteins.\n\nprereq: 2302, [3501 or equiv]",
     "prereq": {
       "and": [
-        "002393"
+        "002393",
+        {
+          "or": [
+            "002397"
+          ]
+        }
       ]
     }
   },
@@ -972,7 +1018,7 @@
     "fullname": "Foundations of Chemical Biology Laboratory",
     "info": "Experimental techniques from all areas of chemistry applied to biological problems. Experiments to highlight techniques and concepts used in modern Chemical Biology research. Emphasis on connections between classroom/laboratory learning and experimental science, health, disease, and medical research. While biochemistry courses are allowed as a prerequisite, completion of or concurrent enrollment in Chem 4411, Introduction to Chemical Biology, will provide students with the best preparation for this lab course.\n\nprereq: Chem 2311 or 2312H or 2085 (prereq); and Chem 4411 or BioC 4331 or BioC 3021 (concurrent allowed)",
     "prereq": {
-      "and": [
+      "or": [
         "004142",
         "002395",
         "815285",
@@ -1060,7 +1106,7 @@
     "fullname": "Advanced Physical Chemistry Lab",
     "info": "Experiments illustrating principles and methods of thermodynamics, reaction kinetics, and quantum mechanics. \n\nprereq: 4502, chemistry major",
     "prereq": {
-      "and": [
+      "or": [
         "016224"
       ]
     }
@@ -1075,7 +1121,12 @@
     "name": "Green Chemistry",
     "fullname": "Green Chemistry",
     "info": "Survey key aspects of green chemistry in modern research and development both in academia and industry, as well as relevant implications for the environment, technology, and public policy. prereq: [2302 or 2081 or equiv]",
-    "prereq": {}
+    "prereq": {
+      "or": [
+        "002393",
+        "815286"
+      ]
+    }
   },
   {
     "uid": "002408",
@@ -1104,7 +1155,7 @@
     "fullname": "Advanced Inorganic Chemistry Lab",
     "info": "Lab experiments in inorganic/organometallic chemistry illustrating synthetic/spectroscopic techniques.\n\nprereq: 4701, chem major",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1120,7 +1171,7 @@
     "fullname": "Physical Inorganic Chemistry",
     "info": "Physical methods (e.g., IR, UV-VIS, ESR, Mossbauer and mass spectroscopy, magnetic measurements, X-ray diffraction) and concepts applied to inorganic and organometallic systems.\n\nprereq: 4701 or equiv, chem major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1136,7 +1187,7 @@
     "fullname": "Organometallic Chemistry",
     "info": "Synthesis, reactions, structures, and other properties of main group and transition metal organometallic compounds; electronic and structural theory, emphasizing their use as stoichiometric and homogeneous catalytic reagents in organic and inorganic systems.\n\nprereq: 4701 or equiv, chem major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1152,7 +1203,7 @@
     "fullname": "Bioinorganic Chemistry",
     "info": "Role of metal ions in biology. Emphasizes structure, function, and spectroscopy of metalloproteins and their synthetic analogs.\n\nprereq: 4701 or equiv, chem grad or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1168,7 +1219,7 @@
     "fullname": "Advanced Inorganic Chemistry",
     "info": "Topics in main group and transition metal chemistry. Emphasizes synthesis, structure, physical properties, and chemical reactivity.\n\nprereq: 4701, chem major, instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1867,7 +1918,7 @@
     "fullname": "Physical Inorganic Chemistry",
     "info": "Physical methods and concepts applied to inorganic and organometallic systems, including many of the following methods: NMR, IR, UV-VIS, ESR, M[\u00f6]ssbauer and mass spectroscopy, magnetic measurements, X-ray diffraction.\n\nprereq: 4701 or equiv, grad chem major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1883,7 +1934,7 @@
     "fullname": "Organometallic Chemistry",
     "info": "Synthesis, reactions, structures, and other important properties of main group and transition metal organometallic compounds; treatment in terms of modern electronic and structural theory; emphasis on their use as stoichiometric and homogeneous catalytic reagents in organic and inorganic systems.\n\nprereq: 4701 or equiv, grad chem major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1899,7 +1950,7 @@
     "fullname": "Bioinorganic Chemistry",
     "info": "Survey of role of metal ions in biology; emphasizes structure, function, and spectroscopy of metalloproteins and their synthetic analogs.\n\nprereq: 4701 or equiv, grad chem major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "002408"
       ]
     }
@@ -1915,7 +1966,7 @@
     "fullname": "Advanced Inorganic Chemistry",
     "info": "Survey of topics in main group and transition metal chemistry; emphasizes synthesis, structure, physical properties, and chemical reactivity.\n\nprereq: 8715, grad chem major or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "004153"
       ]
     }

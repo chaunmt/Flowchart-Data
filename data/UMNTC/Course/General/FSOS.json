@@ -1101,7 +1101,7 @@
     "fullname": "Curricular Design in Parent Education",
     "info": "Students will develop the skills to adapt and design curricular resources and teaching strategies for effective parent education with diverse families across multiple contexts. Students will develop competence in conducting needs assessment, identifying content, discerning teaching methods, and designing lesson plans. As they develop their own philosophy of practice, students will study the history and evolution of parent education in Minnesota and across the U.S. prereq: FSoS 5937 & FSoS 5942 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "791951",
         "798954"
       ]
@@ -1118,7 +1118,7 @@
     "fullname": "Teaching and Learning in Parent Education",
     "info": "\t\nStudents will examine adult, adolescent, and parent learning and development from the perspective of their relevance for parent education. Students will select, use, and reflect on group and individual parent education teaching strategies and facilitation processes designed to meet the needs of diverse populations of adult learners. Critical reflection, ethical practices, and other parent educator competencies related to teaching methods and processes will be addressed. Personal professional development will be facilitated through challenging assumptions and examining the knowledge and competencies required for parent educators. prereq: FSoS 5937 & FSoS 5942 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "791951",
         "798954"
       ]
@@ -1151,7 +1151,7 @@
     "fullname": "Student Teaching in Parent Education",
     "info": "\t\nStudents will participate in mentored and supervised parent education practice designed to meet individual student needs and interests in parent education. The student teaching assignment is supplemented with online discussions and chats intended to provide students an opportunity to engage in discussion, reflection, and cooperative learning with regard to the practice of parent education. prereq: Application for student teaching; FSoS 5937, 5942, 5944 and 5945 or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         "791951",
         "798954",
         "799056",
@@ -1253,7 +1253,7 @@
           ]
         },
         {
-          "and": [
+          "or": [
             "007623"
           ]
         }
@@ -1375,7 +1375,7 @@
     "fullname": "Family Theory Development: A Systemic Perspective",
     "info": "Concepts and principles of systems and ecosystems and their applications in family science; emphasizes theoretical integration and development of research models with appropriate methodologies.\n\nprereq: 8001 or equiv or instr consent, FSoS PhD student beyond 1st yr",
     "prereq": {
-      "and": [
+      "or": [
         "007623"
       ]
     }
@@ -1391,7 +1391,7 @@
     "fullname": "Integrative Research Seminar",
     "info": "For advanced doctoral students primarily in family social science who are working on independent research projects. Giving and receiving of constructive criticism and support in integrating theories, methods, and applications in order to create a totality that is logically coherent and conceptually and methodologically sound.\n\nprereq: 8001 or equiv, 8013 or equiv, 8014 or equiv",
     "prereq": {
-      "and": [
+      "or": [
         "007623",
         "010240",
         "010172"
@@ -1409,7 +1409,7 @@
     "fullname": "Family Stress, Coping, and Adaptation",
     "info": "Helping families become more resilient to stress by decreasing vulnerability to crises and traumatic stress disorders. Students develop research or intervention proposal on family stress, coping, adaptation, crisis, trauma, or resilience.\n\nprereq: 8001 or equiv, research methods course",
     "prereq": {
-      "and": [
+      "or": [
         "007623"
       ]
     }
@@ -1489,7 +1489,7 @@
     "fullname": "Family Values Research: Theories and Critical Methods",
     "info": "Interdisciplinary seminar on critical modes of inquiry in the family domain that require designing studies using normative theories, examining values as units of observation, and solving practical problems by collaborative strategies designed to encourage change.\n\nprereq: 8013 or equiv, 8014 or equiv or instr consent; WCFE 8920 recommended",
     "prereq": {
-      "and": [
+      "or": [
         "010240",
         "010172"
       ]
