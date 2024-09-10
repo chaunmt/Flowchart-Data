@@ -1,80 +1,69 @@
-# Course Flowchart Data
-Course Flowchart's Data Server
+# 📖 Introduction
+This repository includes all classes and methods that are used to fetch, process, write, and publish data on to the data server for [Course Flowchart](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart).
 
 __Table of Contents__
-- [Course Flowchart Data](#course-flowchart-data)
-  - [1. How to run?](#1-how-to-run)
-    - [Main](#main)
-    - [Test](#test)
-    - [Clean](#clean)
-  - [2. Python](#2-python)
-    - [Filter](#filter)
-    - [Helper](#helper)
-    - [Converter](#converter)
-  - [3. PostgreSQL](#3-postgresql)
-  - [4. Sample](#4-sample)
-  - [5. Configuration](#5-configuration)
-  - [6. Diagram](#6-diagram)
-
-## 1. How to run?
-- Run from `src`.
-
-### Main
-    python3 -m python.sources
-
-### Test
-    # Run all tests
-    pytest -q
-
-    # Run a module test
-    pytest -q python/test/test_module_name.py
-
-- `run_tests.py` can be modified to run only specified tests.
-- For more information, check:
-  + [unnittest documentation](https://docs.python.org/3/library/unittest.html)
-  + [pytest documentation](https://docs.pytest.org/en/stable/contents.html)
-
-### Clean
-    pylint filename
-
-## 2. Python
-
-### Filter
-- Applying Decorator Design Pattern to make sure that objects come in and out with the same type. Each filter only allows a certain type of object to be processed.
-- Folder's structure:
-    + `filter.py` holds the base class Filter for all filters.
-    + `prereq_filter.py` holds all filters dedicated for PrereqFormat type object.
-    + `course_filter.py` holds all filters dedicated for Course type object.
-    + `string_filter.py` holds all filters dedicated for string type object.
-
-### Helper
-- Helper classes and methods to help cleaning and modifying our data.
-- Folder's structure:
-    + Checker: classes and methods that output a boolean as the result of a valuation on an object.
-        + `course_checker.py` holds all checkers dedicated for Course type object.
-        + `string_checker.py` holds all checkers dedicated for String type object.
-    + `new_types.py` defines all the newly created types to be used in our project: CourseShell, Course, PrereqFormat, ProgramShell, Program.
-    + `string_splitter.py` holds all classes and methods that can help split a string into a list of strings.
-
-### Converter
-- Converter classes and methods to help with the converting process.
-- Folder's structure:
-    + `nested_course_converter.py` holds all converters dedicated to encoded, decoded, and reformat our nested course info strings.
-    + `prereq_logic_converter.py` holds all converters dedicated to implement logic into our prerequisites.
-
-## 3. PostgreSQL
-- ...
+- [📖 Introduction](#-introduction)
+- [📈 Data](#-data)
+  - [1. Where are they from?](#1-where-are-they-from)
+  - [2. What are they like?](#2-what-are-they-like)
+  - [3. How to access them?](#3-how-to-access-them)
+  - [4. Python UML](#4-python-uml)
+- [🐍 Python](#-python)
+- [🔍 Test](#-test)
+- [🔖 Archive](#-archive)
   
-## 4. Sample
-- All JavaScript and TypeScript files can be found in `src/jsts`. They are used as references for the python files.
-- They can be run with node.js from `src/jsts` directory. EX:
-  <br></br>
+# 📈 Data
+## 1. Where are they from?
+- The data is fetched from [Coursedog Curriculum API](https://coursedogcurriculum.docs.apiary.io/#reference/courses). This is the data sources used by the University of Minnesota's [ASR](https://asr-custom.umn.edu/) (Academic Support Resources Application Development) and [Gopher Grade](https://umn.lol/).
+## 2. What are they like?
+- Necessary data are read as JSON from Coursedog API. They are then processed based on the project's usages. Prerequisites data are heavily processed from a natural language format into a logical structure that increases readability and allows ease of access for [Course Flowchart](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart) graphbuilders. 
+## 3. How to access them?
+- Data are saved in the data folder.
+- Processed data will also be added into the main repository ([Course Flowchart](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart)). They can then be access by the Access (.ts or .js) file in the data folder.
+- Attempts were made to add the data into a PostgreSQL on Vercel. However, Vercel's low limits for free tier and the complicated nature of the nested logical structure of prerequisites hinders our progress to transfer to this format. Some data (Subject's code and name etc.) are already availlable on this server and can be accessed if desired. Please contact the [project lead](mailto:truon417@umn.edu) if you want to access these data.
+## 4. Python UML
+<img src="https://github.com/chaunmt/Flowchart-Data/blob/main/img/CourseFlowchart-coursesys_uml_light.drawio.png"></img>
+
+# 🐍 Python
+- Currently, our system involves a Course System ([Course Flowchart](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart)) and a Program System (to be implemented as a collaboration result with [Gopher Major Planner](https://gophermajorplanner-steven-tams-projects.vercel.app/)).
+- This is a sketch describes how client communicate with our project:
+<img src="https://github.com/chaunmt/Flowchart-Data/blob/main/img/CourseFlowchart-client.drawio.png"></img>
+- To run the project from src directory:
   ```
-  node sources.js
+  python3 -m python.client
+  ```
+- The Python project involes 7 majors packages, each associate with a certain task. Each packages can include multiple packages or modules associated with a specific task or system.
+- The first 3 packages are low level tools:
+  + Checker
+    - Check whether something is true or false.
+  + Splitter
+    - Split an object into a list of something.
+  + Converter
+    - Convert an object from one type (or form) to another.
+
+- The next 2 packages are used to extract and sanitize a course's prerequisites.
+  + Extractor
+    - An interface calling to pre-process, extract, and post-process a course's prerequisites.
+  + Filter
+    - A tool used to remove unnecessary parts from an object.
+
+- The last 2 packages are other tools more related to our API and main project ([Course Flowchart](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart)):
+  + Schema
+    - These schemas are used mostly as a reference point to the schemas used in [Course Flowchart](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart).
+    - They are also used to post-process and test our data.
+  + Sources
+    - This packages contains all handlers to the file systems and API requests.
+
+# 🔍 Test
+- The test directory contains all test modules for our project.
+- To run all tests:
+  ```
+  pytest -q
+  ```
+- To run a module test:
+  ```
+  pytest -q [file_path]/[test_module_name].py
   ```
 
-## 5. Configuration
-- `.pylintrc` holds the configuration for pylint.
-
-## 6. Diagram
-  pyreverse -o png -p module_name .
+# 🔖 Archive
+  - Obsolete codes that are used for references.
