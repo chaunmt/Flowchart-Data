@@ -101,7 +101,7 @@ class CourseSystem:
     #############################################################################
     def get_subject_courses_output_json(self, subject: str, is_honors: bool):
         """
-        Generate output json file.
+        Generate output json file for courses by subject and honors type.
         """
 
         # Get raw json data from CourseDog API
@@ -116,6 +116,21 @@ class CourseSystem:
 
         # Write processed json data to output file
         path = self.get_full_file_path(subject, is_honors)
+        JSONHandler.write_to_path(path, processed)
+    
+    def get_general_courses_output_json(self):
+        """
+        Generate output json for general courses.
+        """
+        
+        # Get raw json data from CourseDog API
+        raw = self.get_subject_courses_input_json('allCourses')
+        raw = raw['data']
+        
+        processed = self.process_course_full(raw, False)
+        
+        # Write processed json data to output file
+        path = self.get_full_file_path('general', False)
         JSONHandler.write_to_path(path, processed)
 
     #############################################################################
@@ -152,7 +167,7 @@ class CourseSystem:
         Process JSON data to get Course JSON.
         """
 
-        processed_data = []
+        processed_data = {}
 
         for course in data:
             # Split a course's number and its suffix
@@ -170,7 +185,7 @@ class CourseSystem:
             # Only get required courses
             if honors == is_honors:
                 # Map value to corresponding key
-                processed_data.append({
+                processed_data[course['institutionId']] = {
                     'uid' : course['institutionId'],
                     'code' : course['code'],
                     'subject' : course['subjectCode'],
@@ -180,9 +195,8 @@ class CourseSystem:
                     'name' : course['name'],
                     'fullname' :  course['longName'],
                     'info' : course['description'],
-                    'prereq' : prereq
-
-                })
+                    'prereq' : prereq           
+                }
 
         return processed_data
 

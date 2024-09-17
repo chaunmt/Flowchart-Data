@@ -24,23 +24,48 @@ class CourseSystemInterface:
         self._sys = CourseSystem(self._UMNTC_ID)
 
         return "++ Course System: Ready!"
-
-    def get_all(self) -> str:
+    
+    def get_all(self, is_by_subject: bool, is_by_type: bool) -> str:
         """
-        Records all course data information.
+        Record all courses data.\n
+        Organize the data by subject or by type.
         """
+        
+        if is_by_subject == is_by_type:
+            return "++ Course System: Please choose only 1 way to organize data!"
+        
+        if is_by_subject:
+            self.get_subjects(False)    # Get general courses
+            self.get_subjects(True)     # Get honors courses
+            return "++ Course System: Recorded all data by subject!"
+        
+        if is_by_type:
+            self.get_general()
+            self.get_honors()
+            return "++ Course System: Recorded all data by type!"    
+    
+    def get_general(self) -> str:
+        """
+        Record all general courses.
+        """
+        
+        self._sys.get_general_courses_output_json()
+        
+        return "++ Course System: Recorded general courses." 
 
-        self._sys.get_subject_courses_output_json('allCourses', False)
-        self._sys.get_subject_courses_output_json('allCourses', True)
-        self.get_subjects(False)
-        self.get_subjects(True)
-
-        return "++ Course System: Recorded all data."
+    def get_honors(self) -> str:
+        """
+        Record all honors courses and courses with honors prerequisites.
+        """
+        
+        return "++ Course System: Recorded honors courses"
 
     def get_subjects(self, is_honors: bool) -> str:
         """
         Records course data of all subjects.
         """
+        
+        self._sys.get_subject_courses_output_json('allCourses', is_honors)
         
         subjs = self._sys.get_all_subjects_list_json()
         for subj in subjs:
