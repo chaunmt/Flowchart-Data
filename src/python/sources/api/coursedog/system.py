@@ -158,6 +158,7 @@ class CourseSystem:
                     'number' : number,
                     'honors' : honors
                 })
+            # TODO modify course shell to either get all courses honors or general depend on a parameter maybe?
 
         return processed_data
 
@@ -183,7 +184,7 @@ class CourseSystem:
             prereq = prereq.get_prereq()
 
             # Only get required courses
-            if honors == is_honors:
+            if honors == is_honors:     # TODO this is true for general but not for honors
                 # Map value to corresponding key
                 processed_data[course['institutionId']] = {
                     'uid' : course['institutionId'],
@@ -197,6 +198,9 @@ class CourseSystem:
                     'info' : course['description'],
                     'prereq' : prereq           
                 }
+            # TODO for honors courses
+            # if course is honors --> get
+            # if course's prereq includes honors courses -> get
 
         return processed_data
 

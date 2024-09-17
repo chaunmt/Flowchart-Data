@@ -37,5 +37,7 @@ class CourseDogFacade:
         res.append("++ Course Dog Facade orders subsystems to perform the action:")
         # res.append(self._coursesys.get_all())
         res.append(self._coursesys.get_general())
+        # TODO: res.append(self._coursys.get_all(by_subject = False, by_type = True)) == get_general() + get_honors()
+        # TODO: find better way to handle parameter by_subject and by_type
 
         return "\n".join(res)

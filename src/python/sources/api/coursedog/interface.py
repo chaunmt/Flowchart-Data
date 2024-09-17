@@ -40,6 +40,8 @@ class CourseSystemInterface:
             return "++ Course System: Recorded all data by subject!"
         
         if is_by_type:
+            # TODO self.get_subject('allCourses', True)
+            # TODO modify get_subject for all honors courses to include all courses related to honors courses
             self.get_general()
             self.get_honors()
             return "++ Course System: Recorded all data by type!"    
@@ -57,6 +59,8 @@ class CourseSystemInterface:
         """
         Record all honors courses and courses with honors prerequisites.
         """
+        
+        #TODO self._sys.get_honors_courses_output_json()
         
         return "++ Course System: Recorded honors courses"
 
