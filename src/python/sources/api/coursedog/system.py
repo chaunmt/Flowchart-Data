@@ -3,7 +3,7 @@ Classes to help handle Course Dog's API.
 """
 
 from python.sources.format import JSONHandler
-from python.checker.course import CourseChecker
+from python.checker.course import CourseChecker, PrereqChecker
 from python.splitter.course import CourseInfoSplitter
 from python.extractor.course import PrereqExtractor
 
@@ -61,21 +61,6 @@ class CourseSystem:
         return api_url
 
     #############################################################################
-    def get_full_file_path(self, subject: str, is_honors: bool) -> str:
-        """
-        Get full file path for output file.
-        """
-
-        if is_honors:
-            return (
-                self._data_path + self._honors_path + subject + ".json"
-            )
-        else:
-            return (
-                self._data_path + self._general_path + subject + ".json"
-            )
-
-    #############################################################################
     def get_all_subjects_list_json(self):
         """
         Get a JSON file with a list of all subjects' code and their name.
@@ -99,6 +84,26 @@ class CourseSystem:
         return data
 
     #############################################################################
+    def get_all_courses(self, by_type: bool, is_honors: bool):
+        """
+        """
+        # Get raw json data from CourseDog API
+        raw = self.get_subject_courses_input_json("allCourses")
+        raw = raw['data']
+
+        # Processed json data by subject
+        processed = self.process_course_shell(raw, is_honors)
+
+        # Set path and file name
+        path = self._data_path
+        if by_type:
+            path += "Honors/" if is_honors else "General/"
+        path += "allCourses.json"
+
+        # Write processed json data to output file
+        JSONHandler.write_to_path(path, processed)
+
+    #############################################################################
     def get_subject_courses_output_json(self, subject: str, is_honors: bool):
         """
         Generate output json file for courses by subject and honors type.
@@ -114,23 +119,27 @@ class CourseSystem:
         else:
             processed = self.process_course_full(raw, is_honors)
 
+        # Set path and file name
+        path = self._data_path
+        path += "Honors/" if is_honors else "General/"
+        path += subject + ".json"
+
         # Write processed json data to output file
-        path = self.get_full_file_path(subject, is_honors)
         JSONHandler.write_to_path(path, processed)
-    
+
     def get_general_courses_output_json(self):
         """
         Generate output json for general courses.
         """
-        
+
         # Get raw json data from CourseDog API
         raw = self.get_subject_courses_input_json('allCourses')
         raw = raw['data']
-        
+
         processed = self.process_course_full(raw, False)
-        
+
         # Write processed json data to output file
-        path = self.get_full_file_path('general', False)
+        path = self._data_path + "general.json"
         JSONHandler.write_to_path(path, processed)
 
     #############################################################################
@@ -158,7 +167,6 @@ class CourseSystem:
                     'number' : number,
                     'honors' : honors
                 })
-            # TODO modify course shell to either get all courses honors or general depend on a parameter maybe?
 
         return processed_data
 
@@ -184,7 +192,10 @@ class CourseSystem:
             prereq = prereq.get_prereq()
 
             # Only get required courses
-            if honors == is_honors:     # TODO this is true for general but not for honors
+            if (
+                (not is_honors and not honors) # General courses
+                or (is_honors or PrereqChecker.includes_honors(prereq)) # Honors course or honors prereq
+            ):
                 # Map value to corresponding key
                 processed_data[course['institutionId']] = {
                     'uid' : course['institutionId'],
@@ -196,11 +207,9 @@ class CourseSystem:
                     'name' : course['name'],
                     'fullname' :  course['longName'],
                     'info' : course['description'],
-                    'prereq' : prereq           
+                    'prereq' : prereq
                 }
-            # TODO for honors courses
-            # if course is honors --> get
-            # if course's prereq includes honors courses -> get
+
 
         return processed_data
 

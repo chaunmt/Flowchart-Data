@@ -148,11 +148,14 @@ class CourseInfoConverter():
         Convert a string of course's code into that course's uid.
         """
 
-        honors_type = "General"
-        if is_honors:
-            honors_type = "Honors"
-
-        all_courses = JSONHandler.get_from_path(f"../data/UMNTC/Course/{honors_type}/allCourses.json")
+        if not is_honors:
+            all_courses = (
+                JSONHandler.get_from_path(f"../data/UMNTC/Course/General/allCourses.json")
+            )
+        else:
+            all_courses = (
+                JSONHandler.get_from_path(f"../data/UMNTC/Course/allCourses.json")
+            )
 
         # Given that honors type is matched,
         # if subject and number is the same then it's the same course.

@@ -3,7 +3,7 @@ This module contains checkers on prerequisites object .\n
 It includes CourseChecker and CourseInfoChecker.
 """
 
-from python.schema.course import Course, CourseShell
+from python.schema.course import Course, CourseShell, PrereqFormat
 from python.sources.format import JSONHandler
 
 class CourseInfoChecker:
@@ -105,3 +105,24 @@ class CourseChecker(CourseInfoChecker):
             return False
 
         return True
+
+###############################################################################
+class PrereqChecker():
+    """
+    Perform checks on PrereqFormat type related object.
+    """
+    
+    #############################################################################
+    @staticmethod
+    def includes_honors(p: PrereqFormat) -> bool:
+        """
+        Check whether a logical prerequisites dictionary includes any honors class.
+        """
+
+        all_honors_courses = JSONHandler.get_from_path("../data/UMNTC/Course/Honors/allCourses.json")
+
+        for uid, course in p.items():
+            if all_honors_courses[uid]:
+                return True
+
+        return False
