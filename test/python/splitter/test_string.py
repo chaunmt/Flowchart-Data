@@ -21,8 +21,10 @@ class TestStringSplitter:
         assert StringSplitter.at_index("abcdef", 0) == ['a', 'bcdef']
         assert StringSplitter.at_index("abcdef", 5) == ['abcdef', '']
         assert StringSplitter.at_index("a", 0) == ['a', '']
+        # Any empty input string returns []
+        assert StringSplitter.at_index("", 0) == []
 
-        # Test index out of bounds (this also catches empty input strings)
+        # Test index out of bounds
         try:
             StringSplitter.at_index("abcdef", 10)
         except ValueError as error:
