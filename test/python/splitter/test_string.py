@@ -1,56 +1,115 @@
+"""
+Unit tests for the string manipulation functionality in the StringSplitter class.
+This module tests various methods that split strings based on indices, substrings,
+and type-based conditions like letters and digits.
+"""
 
 from src.python.splitter.string import StringSplitter
 
-# Test StringSplitter class
+
 class TestStringSplitter:
+    """
+    This class contains unit tests for the StringSplitter class.
+    """
 
     def test_at_index(self):
-        # Test case for the StringSplitter's at_index method
+        """
+        Tests the at_index method of the StringSplitter class.
+        """
         assert StringSplitter.at_index("abcdef", 2) == ['abc', 'def']
+        assert StringSplitter.at_index("abcdef", 1) == ['ab', 'cdef']
         assert StringSplitter.at_index("abcdef", 0) == ['a', 'bcdef']
         assert StringSplitter.at_index("abcdef", 5) == ['abcdef', '']
         assert StringSplitter.at_index("a", 0) == ['a', '']
-        assert StringSplitter.at_index("a", 4) == ['a', ''] #not sure if this is the intended functionality
-        assert StringSplitter.at_index("", 2) == []
-        
-    def test_at_substring(self):
-        assert StringSplitter.at_substring("hello world", " ") == ["hello", "world"]
-        assert StringSplitter.at_substring("", " ") == []
-        assert StringSplitter.at_substring("hello world", "x") == ["hello world"]
-        assert StringSplitter.at_substring("apple|banana|cherry", "|") == ["apple", "banana", "cherry"]
-        assert StringSplitter.at_substring("|apple|banana|", "|") == ["", "apple", "banana", ""]
 
+        # Test index out of bounds (this also catches empty input strings)
+        try:
+            StringSplitter.at_index("abcdef", 10)
+        except ValueError as error:
+            assert str(
+                error) == "Index must be within the length of the string."
+
+        # Test negative index
+        try:
+            StringSplitter.at_index("abcdef", -5)
+        except ValueError as error:
+            assert str(
+                error) == "Index must be non-negative integer"
+
+    def test_at_substring(self):
+        """
+        Tests the at_substring method of the StringSplitter class.
+        """
+        assert StringSplitter.at_substring("hello world", " ") == [
+            "hello", "world"]
+        assert StringSplitter.at_substring("", " ") == []
+        assert StringSplitter.at_substring(
+            "hello world", "x") == ["hello world"]
+        assert StringSplitter.at_substring("apple|banana|cherry", "|") == [
+            "apple", "banana", "cherry"]
+        assert StringSplitter.at_substring("|apple|banana|", "|") == [
+            "", "apple", "banana", ""]
+        assert StringSplitter.at_substring(
+            "abc--def--ghi", "--") == ['abc', 'def', 'ghi']
 
     def test_at_first_type_occurrence(self):
-        assert StringSplitter.at_first_type_occurrence("123abc456", "letter") == ["123", "abc456"]
-        assert StringSplitter.at_first_type_occurrence("abc123def", "number") == ["abc", "123def"]
-        assert StringSplitter.at_first_type_occurrence("123456", "letter") == ["123456", None]
-        assert StringSplitter.at_first_type_occurrence("abcdef", "number") == ["abcdef", None]
-        assert StringSplitter.at_first_type_occurrence("", "letter") == [None, None]
+        """
+        Tests the at_first_type_occurrence method of the StringSplitter class.
+        """
+        assert StringSplitter.at_first_type_occurrence(
+            "123abc456", "letter") == ["123", "abc456"]
+        assert StringSplitter.at_first_type_occurrence(
+            "abc123def", "number") == ["abc", "123def"]
+        assert StringSplitter.at_first_type_occurrence(
+            "123456", "letter") == ["123456", None]
+        assert StringSplitter.at_first_type_occurrence(
+            "abcdef", "number") == ["abcdef", None]
+        assert StringSplitter.at_first_type_occurrence("", "letter") == [
+            None, None]
+        assert StringSplitter.at_first_type_occurrence(
+            "123!abc456", "letter") == ["123!", "abc456"]
 
         # Test invalid split_type
         try:
             StringSplitter.at_first_type_occurrence("abc123", "symbol")
-        except ValueError as e:
-            assert str(e) == "split_type can only be either 'letter' or 'number'"
-
+        except ValueError as error:
+            assert str(
+                error) == "split_type can only be either 'letter' or 'number'"
 
     def test_at_last_type_occurrence(self):
-        assert StringSplitter.at_last_type_occurrence("123abc456", "letter") == ["123abc", "456"]
-        assert StringSplitter.at_last_type_occurrence("abc123def", "number") == ["abc123", "def"]
-        assert StringSplitter.at_last_type_occurrence("123456", "letter") == ["123456", None]
-        assert StringSplitter.at_last_type_occurrence("abcdef", "number") == ["abcdef", None]
-        assert StringSplitter.at_last_type_occurrence("", "letter") == [None, None]
+        """
+        Tests the at_last_type_occurrence method of the StringSplitter class.
+        """
+        assert StringSplitter.at_last_type_occurrence(
+            "123abc456", "letter") == ["123abc", "456"]
+        assert StringSplitter.at_last_type_occurrence(
+            "abc123def", "number") == ["abc123", "def"]
+        assert StringSplitter.at_last_type_occurrence(
+            "123456", "letter") == ["123456", None]
+        assert StringSplitter.at_last_type_occurrence(
+            "abcdef", "number") == ["abcdef", None]
+        assert StringSplitter.at_last_type_occurrence("", "letter") == [
+            None, None]
+        assert StringSplitter.at_last_type_occurrence(
+            "123abc!456", "letter") == ["123abc", "!456"]
 
         # Test invalid split_type
         try:
             StringSplitter.at_last_type_occurrence("abc123", "symbol")
-        except ValueError as e:
-            assert str(e) == "split_type can only be either 'letter' or 'number'"
+        except ValueError as error:
+            assert str(
+                error) == "split_type can only be either 'letter' or 'number'"
 
     def test_to_letter_or_digit_substrs(self):
-        assert StringSplitter.to_letter_or_digit_substrs("abc123def456") == ["abc", "123", "def", "456"]
-        assert StringSplitter.to_letter_or_digit_substrs("abcdef") == ["abcdef"]
-        assert StringSplitter.to_letter_or_digit_substrs("123456") == ["123456"]
+        """
+        Tests the to_letter_or_digit_substrs method of the StringSplitter class.
+        """
+        assert StringSplitter.to_letter_or_digit_substrs(
+            "abc123def456") == ["abc", "123", "def", "456"]
+        assert StringSplitter.to_letter_or_digit_substrs("abcdef") == [
+            "abcdef"]
+        assert StringSplitter.to_letter_or_digit_substrs("123456") == [
+            "123456"]
         assert StringSplitter.to_letter_or_digit_substrs("") == []
-        assert StringSplitter.to_letter_or_digit_substrs("abc123!@#def456") == ["abc", "123", "def", "456"]
+        assert StringSplitter.to_letter_or_digit_substrs(
+            "abc123!@#def456") == ["abc", "123", "def", "456"]
