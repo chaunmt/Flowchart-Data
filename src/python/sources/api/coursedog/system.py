@@ -21,12 +21,21 @@ class CourseSystem:
             raise ValueError('This system only works with UMNTC data from CourseDog.')
 
         self._school_id = school_id
+        self.init_path()
+        
+    def init_path(self, school_id: str) -> None:
+        """
+        Initialize file paths.
+        """
+        
         self._data_path = "../data/UMNTC/"
-        self._general_path = "Course/General/"
-        self._honors_path = "Course/Honors/"
+        self._course_path = "../data/UMNTC/Course/"
+        self._program_path = "../data/UMNTC/Program/"
+        self._general_key = "General"
+        self._honors_key = "Honors"
 
     #############################################################################
-    def generate_url(self, subject: str) -> str:
+    def get_url_for_subject_courses(self, subject: str) -> str:
         """
         Generate CourseDog's API URL for Course.
         """
@@ -78,7 +87,7 @@ class CourseSystem:
         """
 
         # Request data from CourseDog API
-        data = JSONHandler.get_from_url(self.generate_url(subject))
+        data = JSONHandler.get_from_url(self.get_url_for_subject_courses(subject))
 
         print('Data is fetched for ' + subject)
         return data
