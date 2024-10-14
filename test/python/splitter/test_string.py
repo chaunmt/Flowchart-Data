@@ -4,6 +4,7 @@ This module tests various methods that split strings based on indices, substring
 and type-based conditions like letters and digits.
 """
 
+import pytest
 from src.python.splitter.string import StringSplitter
 
 
@@ -25,18 +26,12 @@ class TestStringSplitter:
         assert StringSplitter.at_index("", 0) == []
 
         # Test index out of bounds
-        try:
-            StringSplitter.at_index("abcdef", 10)
-        except ValueError as error:
-            assert str(
-                error) == "Index must be within the length of the string."
+        with pytest.raises(ValueError) as error:
+            assert StringSplitter.at_index("abcdef", 10)
 
         # Test negative index
-        try:
-            StringSplitter.at_index("abcdef", -5)
-        except ValueError as error:
-            assert str(
-                error) == "Index must be non-negative integer"
+        with pytest.raises(ValueError) as error:
+            assert StringSplitter.at_index("abcdef", -5)
 
     def test_at_substring(self):
         """
@@ -71,12 +66,9 @@ class TestStringSplitter:
         assert StringSplitter.at_first_type_occurrence(
             "123!abc456", "letter") == ["123!", "abc456"]
 
-        # Test invalid split_type
-        try:
-            StringSplitter.at_first_type_occurrence("abc123", "symbol")
-        except ValueError as error:
-            assert str(
-                error) == "split_type can only be either 'letter' or 'number'"
+        # Test invalid split_type (split type can only be number or letter)
+        with pytest.raises(ValueError):
+            StringSplitter.at_first_type_occurrence("abc123!!", "symbol")
 
     def test_at_last_type_occurrence(self):
         """
@@ -95,12 +87,9 @@ class TestStringSplitter:
         assert StringSplitter.at_last_type_occurrence(
             "123abc!456", "letter") == ["123abc", "!456"]
 
-        # Test invalid split_type
-        try:
-            StringSplitter.at_last_type_occurrence("abc123", "symbol")
-        except ValueError as error:
-            assert str(
-                error) == "split_type can only be either 'letter' or 'number'"
+        # Test invalid split_type (split type can only be number or letter)
+        with pytest.raises(ValueError):
+            StringSplitter.at_last_type_occurrence("abc123!!", "symbol")
 
     def test_to_letter_or_digit_substrs(self):
         """
