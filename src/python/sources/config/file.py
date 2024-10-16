@@ -15,11 +15,10 @@ class FileHandler:
         Find the outermost directory of the project by searching upwards from start_path
         for the presence of one or more marker files that indicate the project root.
         """
-
         # If no start path is provided, use the current working directory
         if start_path is None:
             start_path = Path.cwd()
-            
+
         current_path = start_path.resolve()
 
         # Traverse upwards through all the paths

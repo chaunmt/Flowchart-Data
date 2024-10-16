@@ -3,7 +3,6 @@ This module contains classes that help handle the configuration of different sch
 """
 
 from python.sources.config.file import FileHandler
-from pathlib import Path
 
 class SchoolConfigManager:
     """
@@ -24,7 +23,6 @@ class SchoolConfigManager:
         """
         Initializes the configuration manager with the correct settings for the given school.
         """
-
         # Get school key
         school_key = self._school_uid_to_key.get(
             school_uid,
@@ -38,7 +36,6 @@ class SchoolConfigManager:
         Builds a configuration dictionary with
         common paths and school-specific subfolders.
         """
-
         base_path = self._base_dir / f"data/{school_key}"
         return {
             "school_key": school_key,
@@ -53,40 +50,34 @@ class SchoolConfigManager:
         """
         Get school key from config data. It is usually the abbreviation of the school's uid.
         """
-
         return self._config["school_key"]
 
     def get_data_path(self) -> str:
         """
         Get the path to the data folder.
         """
-
         return self._config["data_path"]
 
     def get_course_path(self) -> str:
         """
         Get the path to the course folder.
         """
-
         return self._config["course_path"]
 
     def get_program_path(self) -> str:
         """
         Get the path to the program folder.
         """
-
         return self._config["program_path"]
 
     def get_general_key(self) -> str:
         """
         Get the general key.
         """
-
         return self._config["general_key"]
 
     def get_honors_key(self) -> str:
         """
         Get the honors key.
         """
-
         return self._config["honors_key"]

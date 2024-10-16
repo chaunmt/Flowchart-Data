@@ -61,3 +61,5 @@ class JSONHandler():
             json.dump(data, file, indent = 2)
 
         print(f'Data is dumped to {path}.')
+        
+    
