@@ -144,21 +144,26 @@ class CourseInfoConverter():
 
     #############################################################################
     @staticmethod
-    def course_code_to_uid(codestr : str, is_honors : bool) -> str:
+    def course_code_to_uid(codestr : str, is_honors : bool = None) -> str:
         """
         Convert a string of course's code into that course's uid.
         """
 
         _base_dir = FileHandler.find_project_root()
         
-        if not is_honors:
-            all_courses = (
-                JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/generalShells.json")
-            )
-        else:
-            all_courses = (
-                JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/honorsShells.json")
-            )
+        match is_honors:
+            case None:
+                all_courses = (
+                    JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/allCoursesShells.json")
+                )
+            case False:
+                all_courses = (
+                    JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/generalShells.json")
+                )
+            case True:
+                all_courses = (
+                    JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/honorsShells.json")
+                )
 
         # Given that honors type is matched,
         # if subject and number is the same then it's the same course.
