@@ -8,6 +8,7 @@ import re
 from python.checker.course import CourseInfoChecker
 from python.splitter.course import CourseInfoSplitter
 from python.sources.format import JSONHandler
+from python.sources.config.file import FileHandler
 
 ###############################################################################
 class CourseInfoConverter():
@@ -148,13 +149,15 @@ class CourseInfoConverter():
         Convert a string of course's code into that course's uid.
         """
 
+        _base_dir = FileHandler.find_project_root()
+        
         if not is_honors:
             all_courses = (
-                JSONHandler.get_from_path(f"../data/UMNTC/Course/General/allCourses.json")
+                JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/generalShells.json")
             )
         else:
             all_courses = (
-                JSONHandler.get_from_path(f"../data/UMNTC/Course/allCourses.json")
+                JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/honorsShells.json")
             )
 
         # Given that honors type is matched,
