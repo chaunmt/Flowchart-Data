@@ -8,7 +8,7 @@ import re
 from python.checker.course import CourseInfoChecker
 from python.splitter.course import CourseInfoSplitter
 from python.sources.format import JSONHandler
-from python.sources.config.file import FileHandler
+from python.sources.config.school import SchoolConfigManager
 
 ###############################################################################
 class CourseInfoConverter():
@@ -148,21 +148,23 @@ class CourseInfoConverter():
         """
         Convert a string of course's code into that course's uid.
         """
-
-        _base_dir = FileHandler.find_project_root()
+        # Get the school's config data
+        config = SchoolConfigManager()
         
+        # Find the course shells json to cross-checked values
+        # Only courses exist in this json file are deemed valid courses
         match is_honors:
             case None:
-                all_courses = (
-                    JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/allCoursesShells.json")
+                all_courses =JSONHandler.get_from_path(
+                    f"{config.get_course_path()}/allCoursesShells.json"
                 )
             case False:
-                all_courses = (
-                    JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/generalShells.json")
+                all_courses = JSONHandler.get_from_path(
+                    f"{config.get_course_path()}/{config.get_general_key()}Shells.json"
                 )
             case True:
-                all_courses = (
-                    JSONHandler.get_from_path(f"{_base_dir}/data/UMNTC/honorsShells.json")
+                all_courses = JSONHandler.get_from_path(
+                    f"{config.get_course_path()}/{config.get_honors_key()}Shells.json"
                 )
 
         # Given that honors type is matched,
