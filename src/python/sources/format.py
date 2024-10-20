@@ -13,8 +13,7 @@ class JSONHandler():
     """
 
     #############################################################################
-    @staticmethod
-    def get_from_path(path: str):
+    def get_from_path(self, path: str):
         """
         Get the json data from the specified path.
         """
@@ -27,19 +26,18 @@ class JSONHandler():
             return json.load(file)
 
     #############################################################################
-    @staticmethod
-    def get_from_url(url: str):
+    def get_from_url(self, url: str):
         """
         Get the json data from the specified url.
         """
-        
+
         while True:
             try:
                 response = requests.get(url, timeout=10)
 
                 # Raise an exception on bad response's status code
                 response.raise_for_status()
-                
+
                 # print(f'Data is fetched from {url}.')
                 return response.json()
             except Timeout:
@@ -50,8 +48,7 @@ class JSONHandler():
                 print(f"An error occurred: {err}. Retry request.")
 
     #############################################################################
-    @staticmethod
-    def write_to_path(path: str, data: any) -> None:
+    def write_to_path(self, path: str, data: any) -> None:
         """
         Write to the json file at the specified path.
         """
@@ -61,5 +58,46 @@ class JSONHandler():
             json.dump(data, file, indent = 2)
 
         print(f'Data is dumped to {path}.')
-        
-    
+
+    #############################################################################
+    def write_append_to_path(self, path: str, additional_data: any) -> None:
+        """
+        Append data to the json file at the specified path.
+        """
+
+        # Get the original data from the specified path
+        data = self.get_from_path(path)
+
+        # Combine data
+        data = data + additional_data
+
+        # Write updated data to path
+        self.write_to_path(path, data)
+
+    #############################################################################
+    def write_more_values_to_dict(self, data: dict, additional_data: dict) -> None:
+        """
+        Write more values to dictionary's object with the same key
+        """
+
+        # Write new values into data object with the same key
+        for key in data:
+            for new_key in additional_data[key]:
+                data[new_key] = additional_data[new_key]
+
+        return data
+
+    #############################################################################
+    def write_more_fields_to_path(self, path: str, additional_data: dict) -> None:
+        """
+        Write more fields to the JSON dict of a specified path
+        """
+
+        # Get the original data from the specified path
+        data = self.get_from_path(path)
+
+        # Combine this data with the additional data
+        data = self.write_more_values_to_dict(data, additional_data)
+
+        # Write the updated data to the specified
+        self.write_to_path(path, data)
