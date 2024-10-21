@@ -5,6 +5,7 @@ This module contains filter classes related to course system.
 from python.schema.course import PrereqFormat
 from python.filter.string import StringFilter
 from python.splitter.string import StringSplitter
+from python.sources.format import JSONHandler
 
 ###############################################################################
 class CourseInfoNonPrereqFilter(StringFilter):
@@ -309,7 +310,77 @@ class PrereqFilterNonUid(PrereqFilter):
                             res[key] = value
                         elif not isinstance(value, str):
                             res[key] = value
+                    prereq = res
 
+                    changed = False
+                    for key, value in prereq.items():
+                        # Recursively filter nested value
+                        new_prereq = rec_filter(value)
+
+                        if prereq[key] != new_prereq:
+                            changed = True
+                            prereq[key] = new_prereq
+
+                    # If no value is changed, all values are filtered
+                    if not changed:
+                        break
+            return prereq
+
+        return rec_filter(self.prereq.process())
+    
+###############################################################################
+class PrereqFilterNonGeneralUid(PrereqFilter):
+    """
+    This class filter out all non-general (honors or others) course's uid.
+    """
+
+    def __init__(self, prereq, generalShells: dict):
+        super().__init__(prereq)
+        self._generalShells = generalShells
+
+    def process(self) -> dict:
+        """
+        Delete all non-general (honors or others) course's uid.
+        """
+
+        def rec_filter(prereq):
+            """
+            Recursively filter all nested level.
+            """
+
+            if isinstance(prereq, list):
+                # Filter all possible elements
+                while True:
+                    # Delete all non-general uids from list
+                    res = []
+                    for value in prereq:
+                        if isinstance(value, str) and value not in self._generalShells:
+                            continue
+                        res.append(value)
+                    prereq = res
+
+                    changed = False
+                    for index, value in enumerate(prereq):
+                        # Recursively filter nested value
+                        new_prereq = rec_filter(value)
+
+                        if prereq[index] != new_prereq:
+                            changed = True
+                            prereq[index] = new_prereq
+
+                    # If no value is changed, all values are filtered
+                    if not changed:
+                        break
+
+            elif isinstance(prereq, dict): # Logical operation 'and', 'or' and their value
+                # Filter all possible elements
+                while True:
+                    # Delete all non-general uids from dictionary
+                    res = {}
+                    for key, value in prereq.items():
+                        if isinstance(value, str) and value not in self._generalShells:
+                            continue
+                        res[key] = value
                     prereq = res
 
                     changed = False
