@@ -111,10 +111,10 @@ class PrereqChecker():
     """
     Perform checks on PrereqFormat type related object.
     """
-    
+
     #############################################################################
     @classmethod
-    def is_honors_included(cls, prereq: PrereqFormat, honorsOnlyShells: dict) -> bool:
+    def is_honors_included(cls, prereq: PrereqFormat, honors_only_shells: dict) -> bool:
         """
         Check whether a logical prerequisites dictionary includes any honors class.
         """
@@ -122,25 +122,25 @@ class PrereqChecker():
         if isinstance(prereq, list):
             # Traverse all possible elements
             while True:
-                for index, value in enumerate(prereq):
+                for _, value in enumerate(prereq):
                     # If found an honor course, return True
-                    if isinstance(value, str) and value in honorsOnlyShells:
+                    if isinstance(value, str) and value in honors_only_shells:
                         return True
-                    
+
                     # Recursively traverse nested value
-                    if cls.is_honors_included(value, honorsOnlyShells):
+                    if cls.is_honors_included(value, honors_only_shells):
                         return True
-                
+
                 return False  # No honor courses found
 
         elif isinstance(prereq, dict): # Logical operation 'and', 'or' and their value
             # Traverse all possible elements
             while True:
-                for key, value in prereq.items():
+                for _, value in prereq.items():
                     # Recursively traverse nested value
-                    if cls.is_honors_included(value, honorsOnlyShells):
+                    if cls.is_honors_included(value, honors_only_shells):
                         return True
 
                 return False  # No honor courses found
-        
+
         return False  # No honor courses found

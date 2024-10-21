@@ -13,7 +13,7 @@ class CourseSystemInterface:
 
     # All school ids that are used in our CourseSystem
     _SCHOOL_UIDS = "umn_umntc_peoplesoft"
-    
+
     def __init__(self) -> None:
         # Store the CourseSystem instances for each school
         self._sys = {}
@@ -22,11 +22,11 @@ class CourseSystemInterface:
         """
         Initializes the course system.
         """
-        
+
         self._sys = CourseSystem(self._SCHOOL_UIDS)
 
         return "++ Course System: Ready!"
-    
+
     def get_all(self, by_type: bool = True, by_subject: bool = False) -> str:
         """
         Record all courses data.\n
@@ -34,12 +34,13 @@ class CourseSystemInterface:
         We organize the data by type by default.
         """
         if by_subject:
-           # TODO 
-           return "++ Course System: Recorded all data by subject!"
-        else:
-            self._sys.record_all_shells_and_courses()
-            return "++ Course System: Recorded all data by type!"
-        
+            # TODO
+            return "++ Course System: Recorded all data by subject!"
+
+        # By type
+        self._sys.record_all_shells_and_courses()
+        return "++ Course System: Recorded all data by type!"
+
 class ProgramSystemInterface:
     """
     Interface for a system that manages and records program data.\n

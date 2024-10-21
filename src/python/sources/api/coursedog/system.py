@@ -2,6 +2,8 @@
 Classes to help handle Course Dog's API.
 """
 
+import copy
+
 from python.sources.format import JSONHandler
 from python.checker.course import CourseChecker, PrereqChecker
 from python.splitter.course import CourseInfoSplitter
@@ -10,14 +12,12 @@ from python.filter.course import PrereqFilterNonGeneralUid
 from python.schema.course import PrereqFormat
 from python.sources.config.school import SchoolConfigManager
 
-import copy
-
 class CourseSystem:
     """
     Handling Course Dog's API works for Courses.
     """
     # Course Dog's API variables
-    _ALL_COURSE_KEY = "allCourses"
+    _ALL_COURSE_KEY = "all_courses"
     _API_RETURN_FIELDS = (
         "institutionId,"
         + "code,"
@@ -69,97 +69,97 @@ class CourseSystem:
         # Get raw input data from the API.
         raw = self.get_api_input()
         print(">>>>>> Got raw data!")
-        
+
         # Get all courses shells and full data
-        allCoursesShells = self.get_all_course_shells(raw)
-        print(">>>>>> Got allCoursesShells data!")
-        
-        allCourses = self.get_all_courses(raw)
-        # allCourses = JSONHandler.get_from_path(
-        #     f"{self._course_path}/allCourses.json"
+        all_courses_shells = self.get_all_course_shells(raw)
+        print(">>>>>> Got all_courses_shells data!")
+
+        all_courses = self.get_all_courses(raw)
+        # all_courses = JSONHandler.get_from_path(
+        #     f"{self._course_path}/all_courses.json"
         # )
-        print(">>>>>> Got allCourses data!")
-        
+        print(">>>>>> Got all_courses data!")
+
         # Get general courses shells and full data
-        generalShells = self.get_all_course_shells(raw, False)
-        print(">>>>>> Got generalShells data!")
-        
-        generalCourses = self.get_general_courses(generalShells, allCourses)
-        print(">>>>>> Got generalCourses data!")
-        
+        general_shells = self.get_all_course_shells(raw, False)
+        print(">>>>>> Got general_shells data!")
+
+        general_courses = self.get_general_courses(general_shells, all_courses)
+        print(">>>>>> Got general_courses data!")
+
         # Honors courses structure is a little more complicated than other types.
-        # Our honors.json and honorsShells.json need to include all courses
+        # Our honors.json and honors_shells.json need to include all courses
         # that need honors courses info ==> any honors related courses.
         # An honors related course is one that is either:
         # -- A courses of type honors (is_honors = True).
-        # -- A courses with at least 1 honors course as its prereq.       
-        honorsCourses = self.get_honors_courses(
-            self.get_all_course_shells(raw, True), allCourses
+        # -- A courses with at least 1 honors course as its prereq.
+        honors_courses = self.get_honors_courses(
+            self.get_all_course_shells(raw, True), all_courses
         )
-        print(">>>>>> Got honorsCourses data!")
-        
-        honorsShells = self.get_course_shell_data(honorsCourses)
-        print(">>>>>> Got honorsShells data!")
-        
+        print(">>>>>> Got honors_courses data!")
+
+        honors_shells = self.get_course_shell_data(honors_courses)
+        print(">>>>>> Got honors_shells data!")
+
         # Define full file paths and data to write into
         data_to_write = [
-            (f"{self._ALL_COURSE_KEY}Shells.json", allCoursesShells),
-            (f"{self._general_key}Shells.json", generalShells),
-            (f"{self._honors_key}Shells.json", honorsShells),
-            (f"{self._ALL_COURSE_KEY}.json", allCourses),
-            (f"{self._general_key}.json", generalCourses),
-            (f"{self._honors_key}.json", honorsCourses)
+            (f"{self._ALL_COURSE_KEY}Shells.json", all_courses_shells),
+            (f"{self._general_key}Shells.json", general_shells),
+            (f"{self._honors_key}Shells.json", honors_shells),
+            (f"{self._ALL_COURSE_KEY}.json", all_courses),
+            (f"{self._general_key}.json", general_courses),
+            (f"{self._honors_key}.json", honors_courses)
         ]
-        
+
         # Write shells and courses data to path
         for file_name, data in data_to_write:
             JSONHandler.write_to_path(f"{self._course_path}/{file_name}", data)
-    
-    def get_honors_courses(self, honorsOnlyShells: dict, allCourses: dict):
+
+    def get_honors_courses(self, honors_only_shells: dict, all_courses: dict):
         """
         Get all honors courses.
         """
         # Get honors courses
-        honorsCourses = {}
-        for uid in allCourses:
+        honors_courses = {}
+        for uid in all_courses:
             # If the course exists in honors only shells then it's an honors course
-            if uid in honorsOnlyShells:
-                honorsCourses[uid] = allCourses[uid]
+            if uid in honors_only_shells:
+                honors_courses[uid] = all_courses[uid]
             else:
                 # Get the course's prerequisites
-                p = allCourses[uid]
+                p = all_courses[uid]
                 p = p["prereq"]
-        
-                if PrereqChecker.is_honors_included(p, honorsOnlyShells):
-                    honorsCourses[uid] = allCourses[uid]
-        
-        return honorsCourses
 
-    def get_general_courses(self, generalShells: dict, allCourses: dict):
+                if PrereqChecker.is_honors_included(p, honors_only_shells):
+                    honors_courses[uid] = all_courses[uid]
+
+        return honors_courses
+
+    def get_general_courses(self, general_shells: dict, all_courses: dict):
         """
         Get all general courses.
         """
         # Get honors courses
-        generalCourses = {}
-        for uid in allCourses:
+        general_courses = {}
+        for uid in all_courses:
             # If the course exists in general shells then it's a general course
-            if uid in generalShells:
+            if uid in general_shells:
                 # Make a completely separate clone
-                c =  copy.deepcopy(allCourses[uid])
+                c =  copy.deepcopy(all_courses[uid])
 
                 # Filter non general uids out of the course's prereq
                 prereq = PrereqFormat(c["prereq"])
                 prereq = PrereqFilterNonGeneralUid(
                     prereq,
-                    generalShells
+                    general_shells
                 )
                 prereq = prereq.process()
                 c["prereq"] = prereq
-                
-                generalCourses[uid] = c
-        
-        return generalCourses
-    
+
+                general_courses[uid] = c
+
+        return general_courses
+
     def get_course_shell_data(self, courses: dict):
         """
         Get course shell data from a course.
@@ -199,7 +199,7 @@ class CourseSystem:
         # Get raw input data
         if raw_data is None:
             raw_data = self.get_api_input()
-        
+
         # Get all related courses
         data = {}
         length = len(raw_data)
@@ -221,7 +221,7 @@ class CourseSystem:
             )
             prereq.extract()
             prereq = prereq.get_prereq()
-            
+
             data[course['institutionId']] = {
                 'uid' : course['institutionId'],
                 'code' : course['code'],
@@ -234,14 +234,14 @@ class CourseSystem:
                 'info' : course['description'],
                 'prereq' : prereq
             }
-            
+
             # Checking the progress
             counter += 1
             if counter % interval == 0:
                 print(f"Progress: {int((counter / length) * 100)}%")
-                    
+
         return data
-        
+
     def get_all_course_shells(self, data: dict = None, is_honors: bool = None) -> dict:
         """
         Get all CourseShell objects of a certain type (honors, general, either)
@@ -257,9 +257,9 @@ class CourseSystem:
         }}
         """
         # Get raw data input of all courses
-        if data == None:
+        if data is None:
             data = self.get_api_input()
-        
+
         # Get course shells
         shells = {}
         for course in data:

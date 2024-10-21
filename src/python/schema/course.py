@@ -44,6 +44,10 @@ class CourseShell:
 
     #####################################
     def process(self) -> dict:
+        """
+        Process the object.
+        """
+
         return self
 
 ###############################################################################
@@ -78,6 +82,10 @@ class PrereqFormat:
 
     #####################################
     def process(self) -> dict:
+        """
+        Process the object.
+        """
+
         return self._prereq
 
 ###############################################################################
@@ -138,4 +146,8 @@ class Course(CourseShell):
 
     #####################################
     def process(self) -> dict:
+        """
+        Process the object.
+        """
+
         return self

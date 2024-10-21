@@ -58,13 +58,23 @@ class PrereqFilter(PrereqFormat):
     _prereq : PrereqFormat = None
 
     def __init__(self, prereq: PrereqFormat) -> None:
+        """
+        Initialize the class instance.
+        """
+        super().__init__(prereq)
         self._prereq = prereq
 
     @property
     def prereq(self) -> PrereqFormat:
+        """
+        Get the prereq value.
+        """
         return self._prereq
 
     def process(self) -> dict:
+        """
+        Process all filters.
+        """
         return self._prereq.process()
 
 ###############################################################################
@@ -114,7 +124,7 @@ class PrereqFilterEmpty(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[key] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[key] = new_prereq
 
@@ -147,7 +157,7 @@ class PrereqFilterRedundantNest(PrereqFilter):
                 while True:
                     # Delete a redundant outer list (list of only 1 item)
                     if len(prereq) == 1:
-                        if isinstance(prereq[0], list) or isinstance(prereq[0], dict):
+                        if isinstance(prereq[0], (dict, list)):
                             prereq = prereq[0]
                             return rec_filter(prereq)
 
@@ -156,7 +166,7 @@ class PrereqFilterRedundantNest(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[index] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[index] = new_prereq
 
@@ -178,7 +188,7 @@ class PrereqFilterRedundantNest(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[key] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[key] = new_prereq
 
@@ -222,7 +232,7 @@ class PrereqFilterDuplicate(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[index] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[index] = new_prereq
 
@@ -247,7 +257,7 @@ class PrereqFilterDuplicate(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[key] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[key] = new_prereq
 
@@ -292,7 +302,7 @@ class PrereqFilterNonUid(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[index] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[index] = new_prereq
 
@@ -317,7 +327,7 @@ class PrereqFilterNonUid(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[key] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[key] = new_prereq
 
@@ -327,16 +337,19 @@ class PrereqFilterNonUid(PrereqFilter):
             return prereq
 
         return rec_filter(self.prereq.process())
-    
+
 ###############################################################################
 class PrereqFilterNonGeneralUid(PrereqFilter):
     """
     This class filter out all non-general (honors or others) course's uid.
     """
 
-    def __init__(self, prereq, generalShells: dict):
+    def __init__(self, prereq: PrereqFormat, general_shells: dict):
+        """
+        Initialize the class instance.
+        """
         super().__init__(prereq)
-        self._generalShells = generalShells
+        self._general_shells = general_shells
 
     def process(self) -> dict:
         """
@@ -354,7 +367,7 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
                     # Delete all non-general uids from list
                     res = []
                     for value in prereq:
-                        if isinstance(value, str) and value not in self._generalShells:
+                        if isinstance(value, str) and value not in self._general_shells:
                             continue
                         res.append(value)
                     prereq = res
@@ -364,7 +377,7 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[index] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[index] = new_prereq
 
@@ -378,7 +391,7 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
                     # Delete all non-general uids from dictionary
                     res = {}
                     for key, value in prereq.items():
-                        if isinstance(value, str) and value not in self._generalShells:
+                        if isinstance(value, str) and value not in self._general_shells:
                             continue
                         res[key] = value
                     prereq = res
@@ -388,7 +401,7 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
-                        if prereq[key] != new_prereq:
+                        if value != new_prereq:
                             changed = True
                             prereq[key] = new_prereq
 
