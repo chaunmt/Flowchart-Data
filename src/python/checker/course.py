@@ -113,16 +113,34 @@ class PrereqChecker():
     """
     
     #############################################################################
-    @staticmethod
-    def includes_honors(p: PrereqFormat) -> bool:
+    @classmethod
+    def is_honors_included(cls, prereq: PrereqFormat, honorsOnlyShells: dict) -> bool:
         """
         Check whether a logical prerequisites dictionary includes any honors class.
         """
 
-        all_honors_courses = JSONHandler.get_from_path("../data/UMNTC/Course/Honors/allCourses.json")
+        if isinstance(prereq, list):
+            # Traverse all possible elements
+            while True:
+                for index, value in enumerate(prereq):
+                    # If found an honor course, return True
+                    if isinstance(value, str) and value in honorsOnlyShells:
+                        return True
+                    
+                    # Recursively traverse nested value
+                    if cls.is_honors_included(value, honorsOnlyShells):
+                        return True
+                
+                return False  # No honor courses found
 
-        for uid, course in p.items():
-            if all_honors_courses[uid]:
-                return True
+        elif isinstance(prereq, dict): # Logical operation 'and', 'or' and their value
+            # Traverse all possible elements
+            while True:
+                for key, value in prereq.items():
+                    # Recursively traverse nested value
+                    if cls.is_honors_included(value, honorsOnlyShells):
+                        return True
 
-        return False
+                return False  # No honor courses found
+        
+        return False  # No honor courses found
