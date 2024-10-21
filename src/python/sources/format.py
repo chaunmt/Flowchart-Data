@@ -13,7 +13,8 @@ class JSONHandler():
     """
 
     #############################################################################
-    def get_from_path(self, path: str):
+    @staticmethod
+    def get_from_path(path: str):
         """
         Get the json data from the specified path.
         """
@@ -26,7 +27,8 @@ class JSONHandler():
             return json.load(file)
 
     #############################################################################
-    def get_from_url(self, url: str):
+    @staticmethod
+    def get_from_url(url: str):
         """
         Get the json data from the specified url.
         """
@@ -48,7 +50,8 @@ class JSONHandler():
                 print(f"An error occurred: {err}. Retry request.")
 
     #############################################################################
-    def write_to_path(self, path: str, data: any) -> None:
+    @staticmethod
+    def write_to_path(path: str, data: any) -> None:
         """
         Write to the json file at the specified path.
         """
@@ -75,7 +78,8 @@ class JSONHandler():
         self.write_to_path(path, data)
 
     #############################################################################
-    def write_more_values_to_dict(self, data: dict, additional_data: dict) -> None:
+    @staticmethod
+    def write_more_values_to_dict(data: dict, additional_data: dict) -> None:
         """
         Write more values to dictionary's object with the same key
         """
