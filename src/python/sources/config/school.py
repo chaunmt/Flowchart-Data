@@ -26,7 +26,7 @@ class SchoolConfigManager:
         # Get school key
         school_key = self._school_uid_to_key.get(
             school_uid,
-            self._school_uid_to_key["Default"])
+            self._school_uid_to_key["Default"])  # If no uid found, use the default uid
 
         # Build school's config data
         self._config = self.build_config(school_key)
@@ -42,8 +42,8 @@ class SchoolConfigManager:
             "data_path": base_path,
             "course_path": base_path / "Course/",
             "program_path": base_path / "Program/",
-            "general_key": "General",
-            "honors_key": "Honors"
+            "general_key": "general",
+            "honors_key": "honors"
         }
 
     def get_school_key(self) -> str:
