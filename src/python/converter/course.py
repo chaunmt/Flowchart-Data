@@ -8,6 +8,7 @@ import re
 from python.checker.course import CourseInfoChecker
 from python.splitter.course import CourseInfoSplitter
 from python.sources.format import JSONHandler
+from python.sources.config.school import SchoolConfigManager
 
 ###############################################################################
 class CourseInfoConverter():
@@ -74,11 +75,11 @@ class CourseInfoConverter():
         "csci 2021, csci 2041, and more" ==> "CSCI2021"\n
         "This is not a valid one :)" ==> "" \n
         """
-        
+
         # Alternative subject is required.
         if not alter_subj:
             return ""
-        
+
         # Narrow down the info string with regex (first match only)
         s = s.upper()
         pattern =  r'\b([A-Z]+)?(\s+)?(\d{2,4})([A-Z]{0,1})?\b'
@@ -132,7 +133,7 @@ class CourseInfoConverter():
 
             # Get closest subject.
             if get_closest_subj:
-                [subj, num, suf] = (
+                [subj, _, _] = (
                     CourseInfoSplitter.code_into_subj_num_suf(course_codes[index])
                 )
                 if CourseInfoChecker.is_valid_subj(subj) and subj != alter_subj:
@@ -143,25 +144,23 @@ class CourseInfoConverter():
 
     #############################################################################
     @staticmethod
-    def course_code_to_uid(codestr : str, is_honors : bool) -> str:
+    def course_code_to_uid(school_uid: str, codestr : str) -> str:
         """
         Convert a string of course's code into that course's uid.
         """
+        # Get the school's config data
+        config = SchoolConfigManager(school_uid)
 
-        honors_type = "General"
-        if is_honors:
-            honors_type = "Honors"
+        # Find the course shells json to cross-checked values
+        # Only courses exist in this json file are deemed valid courses
+        all_courses = JSONHandler.get_from_path(
+            f"{config.get_course_path()}/allCoursesShells.json"
+        )
 
-        all_courses = JSONHandler.get_from_path(f"../data/UMNTC/Course/{honors_type}/allCourses.json")
-
-        # Given that honors type is matched,
-        # if subject and number is the same then it's the same course.
-        for course in all_courses:
-            if (
-                (codestr == course['code']) or
-                (codestr == course['code'][:-1])
-            ):
-                return course['uid']
+        # if the codes are the same then they are the same course.
+        for uid, course in all_courses.items():
+            if codestr in (course['code'], course['code'][:-1]):
+                return uid
 
         return codestr
 
@@ -171,22 +170,31 @@ class PrereqInfoConverter:
     Convert objects into prerequisites type.
     """
 
-    def __init__(self, s : str, alter_subj : str, is_honors : bool) -> None:
+    def __init__(self, s: str, alter_subj: str, school_uid: str) -> None:
+        """
+        Initialize the class instance.
+        """
         self._prereq_str = s
         self._prereq = {}
         self._alter_subj = alter_subj
-        self._is_honors = is_honors
+        self._school_uid = school_uid
 
     def process(self) -> dict:
+        """
+        Convert info string into a logical structured dictionary following PrereqFormat.
+        """
         prereq = self._prereq_str
         prereq = self.to_nested_ss(prereq)
         prereq = self.to_nested_code_dicts(prereq)
         prereq = self.to_combined_logic_code_dict(prereq)
-        prereq = self.to_logic_uid_dict(prereq, self._is_honors)
+        prereq = self.to_logic_uid_dict(prereq)
 
         self._prereq = prereq
 
     def get_prereq(self):
+        """
+        Get the prereq dictionary value.
+        """
         return self._prereq
 
     #############################################################################
@@ -254,13 +262,12 @@ class PrereqInfoConverter:
         if "or" in s:
             return {
                 "or" : CourseInfoConverter.info_to_course_codes(s, self._alter_subj, True)
-        }
-            
-        # Convert 'A and B', 'A B' into { and : ['A', 'B'] }
-        else:
-            return {
-                "and" : CourseInfoConverter.info_to_course_codes(s, self._alter_subj, True)
             }
+
+        # Convert 'A and B', 'A B' into { and : ['A', 'B'] }
+        return {
+            "and" : CourseInfoConverter.info_to_course_codes(s, self._alter_subj, True)
+        }
 
     #############################################################################
     def to_nested_code_dicts(self, nested_ss : list) -> list[dict]:
@@ -284,7 +291,7 @@ class PrereqInfoConverter:
             d = self.to_nested_code_dict(s)
             nested_code_dicts.append(d)
 
-        if nested_code_dicts == []:
+        if not nested_code_dicts:
             nested_code_dicts.append({})
 
         return nested_code_dicts
@@ -317,20 +324,24 @@ class PrereqInfoConverter:
 
             # Breaking all encoded keys into course's codes
             while True:
+                if not isinstance(logic_code_dict, dict):
+                    break
+
+                # Start the decoding process
                 decoded = False
+                for _, values in logic_code_dict.items():
+                    for vi, value in enumerate(values):
+                        # Recursively traverse through all nested dictionary
+                        if isinstance(value, dict):
+                            values[vi] = rec_combine(nested_code_dicts, value)
+                        elif isinstance(value, str):
+                            # Decode the encoded key
+                            if value.startswith("NESTEDS"):
+                                index = int(value[7:])
 
-                if isinstance(logic_code_dict, dict):
-                    for k, values in logic_code_dict.items():
-                        for vi, value in enumerate(values):
-                            if isinstance(value, dict):
-                                values[vi] = rec_combine(nested_code_dicts, value)
-                            elif isinstance(value, str):
-                                if value.startswith("NESTEDS"):
-                                    index = int(value[7:])
-
-                                    # Replace encoded key with its actual value
-                                    values[vi] = nested_code_dicts[index]
-                                    decoded = True
+                                # Replace encoded key with its actual value
+                                values[vi] = nested_code_dicts[index]
+                                decoded = True
 
                 # If no more encoded key is found, no more decode is needed
                 if not decoded:
@@ -340,7 +351,7 @@ class PrereqInfoConverter:
 
         return rec_combine(nested_code_dicts, nested_code_dicts[-1])
 
-    def to_logic_uid_dict(self, logic_code_dict : dict, is_honors : bool) -> dict:
+    def to_logic_uid_dict(self, logic_code_dict : dict) -> dict:
         """
         Convert a logical course's codes dictionary
         into a logical course's uids dictionary.\n
@@ -363,14 +374,14 @@ class PrereqInfoConverter:
 
             if isinstance(values, str):
                 # Replace code with uid
-                return CourseInfoConverter.course_code_to_uid(values, is_honors)
+                return CourseInfoConverter.course_code_to_uid(self._school_uid, values)
 
             # Recursively replace nested value in list
-            elif isinstance(values, list):
+            if isinstance(values, list):
                 return [rec_replace(value) for value in values]
 
             # Recursively replace nested value in dictionary
-            elif isinstance(values, dict):
+            if isinstance(values, dict):
                 return {
                     key: rec_replace(value)
                     for key, value in values.items()

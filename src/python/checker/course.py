@@ -3,7 +3,7 @@ This module contains checkers on prerequisites object .\n
 It includes CourseChecker and CourseInfoChecker.
 """
 
-from python.schema.course import Course, CourseShell
+from python.schema.course import Course, CourseShell, PrereqFormat
 from python.sources.format import JSONHandler
 
 class CourseInfoChecker:
@@ -105,3 +105,42 @@ class CourseChecker(CourseInfoChecker):
             return False
 
         return True
+
+###############################################################################
+class PrereqChecker():
+    """
+    Perform checks on PrereqFormat type related object.
+    """
+
+    #############################################################################
+    @classmethod
+    def is_honors_included(cls, prereq: PrereqFormat, honors_only_shells: dict) -> bool:
+        """
+        Check whether a logical prerequisites dictionary includes any honors class.
+        """
+
+        if isinstance(prereq, list):
+            # Traverse all possible elements
+            while True:
+                for _, value in enumerate(prereq):
+                    # If found an honor course, return True
+                    if isinstance(value, str) and value in honors_only_shells:
+                        return True
+
+                    # Recursively traverse nested value
+                    if cls.is_honors_included(value, honors_only_shells):
+                        return True
+
+                return False  # No honor courses found
+
+        elif isinstance(prereq, dict): # Logical operation 'and', 'or' and their value
+            # Traverse all possible elements
+            while True:
+                for _, value in prereq.items():
+                    # Recursively traverse nested value
+                    if cls.is_honors_included(value, honors_only_shells):
+                        return True
+
+                return False  # No honor courses found
+
+        return False  # No honor courses found

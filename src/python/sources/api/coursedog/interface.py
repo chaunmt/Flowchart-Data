@@ -11,61 +11,35 @@ class CourseSystemInterface:
     Data is recording in their respective folder inside 'data' folder .
     """
 
+    # All school ids that are used in our CourseSystem
+    _SCHOOL_UIDS = "umn_umntc_peoplesoft"
+
     def __init__(self) -> None:
-        # Note: We only work with UMNTC
-        # For future extension, id should be passed and checked from facade
-        self._UMNTC_ID = 'umn_umntc_peoplesoft'
+        # Store the CourseSystem instances for each school
+        self._sys = {}
 
     def init_op(self) -> str:
         """
         Initializes the course system.
         """
-        
-        self._sys = CourseSystem(self._UMNTC_ID)
+
+        self._sys = CourseSystem(self._SCHOOL_UIDS)
 
         return "++ Course System: Ready!"
 
-    def get_all(self) -> str:
+    def get_all(self, by_type: bool = True, by_subject: bool = False) -> str:
         """
-        Records all course data information.
+        Record all courses data.\n
+        Organize the data by subject or by type.\n
+        We organize the data by type by default.
         """
+        if by_subject:
+            # TODO
+            return "++ Course System: Recorded all data by subject!"
 
-        self._sys.get_subject_courses_output_json('allCourses', False)
-        self._sys.get_subject_courses_output_json('allCourses', True)
-        self.get_subjects(False)
-        self.get_subjects(True)
-
-        return "++ Course System: Recorded all data."
-
-    def get_subjects(self, is_honors: bool) -> str:
-        """
-        Records course data of all subjects.
-        """
-        
-        subjs = self._sys.get_all_subjects_list_json()
-        for subj in subjs:
-            self.get_subject(subj, is_honors)
-
-        honors_type = "general"
-        if is_honors:
-            honors_type = "honors"
-
-        return f"++ Course System: Recorded all subjects' {honors_type} course data."
-
-    def get_subject(self, subject_code: str, is_honors: bool) -> str:
-        """
-        Records course data of a subject by the subject's code and its honors type.
-        """
-
-        if subject_code != 'allCourses':
-            subject_code = subject_code.upper()
-        self._sys.get_subject_courses_output_json(subject_code, is_honors)
-
-        honors_type = "general"
-        if is_honors:
-            honors_type = "honors"
-
-        return f"++ Course System: Recorded {honors_type} course data for subject {subject_code}."
+        # By type
+        self._sys.record_all_shells_and_courses()
+        return "++ Course System: Recorded all data by type!"
 
 class ProgramSystemInterface:
     """

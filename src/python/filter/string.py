@@ -15,13 +15,23 @@ class StringFilter(StringComponent):
     _s : StringComponent = None
 
     def __init__(self, s: str) -> None:
+        """
+        Initialize the class instance.
+        """
+        super().__init__(s)
         self._s = s
 
     @property
-    def prereq(self) -> StringComponent:
+    def value(self) -> StringComponent:
+        """
+        Get the value.
+        """
         return self._s
 
     def process(self) -> str:
+        """
+        Process all filters.
+        """
         return self._s.process()
 
 ###############################################################################

@@ -3,6 +3,8 @@ method-rgx=(([a-z_][a-z0-9_]{2,30})|(setUp)|(tearDown))$
 disable=
     too-many-instance-attributes,
     too-many-arguments,
+    too-many-positional-arguments,
+    too-many-branches,
     too-few-public-methods,
     unnecessary-pass,
     fixme,
