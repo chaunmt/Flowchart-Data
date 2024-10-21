@@ -17,7 +17,7 @@ class CourseSystem:
     Handling Course Dog's API works for Courses.
     """
     # Course Dog's API variables
-    _ALL_COURSE_KEY = "all_courses"
+    _ALL_COURSE_KEY = "allCourses"
     _API_RETURN_FIELDS = (
         "institutionId,"
         + "code,"
