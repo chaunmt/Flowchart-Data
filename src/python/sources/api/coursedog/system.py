@@ -6,24 +6,28 @@ from python.sources.format import JSONHandler
 from python.checker.course import CourseChecker, PrereqChecker
 from python.splitter.course import CourseInfoSplitter
 from python.extractor.course import PrereqExtractor
+from python.filter.course import PrereqFilterNonGeneralUid
+from python.schema.course import PrereqFormat
 from python.sources.config.school import SchoolConfigManager
+
+import copy
 
 class CourseSystem:
     """
     Handling Course Dog's API works for Courses.
     """
     # Course Dog's API variables
-    _all_courses_key = "allCourses"
-    _api_return_fields = (
-        'institutionId,'
-        + 'code,'
-        + 'subjectCode,'
-        + 'courseNumber,'
-        + 'name,'
-        + 'longName,'
-        + 'description'
+    _ALL_COURSE_KEY = "allCourses"
+    _API_RETURN_FIELDS = (
+        "institutionId,"
+        + "code,"
+        + "subjectCode,"
+        + "courseNumber,"
+        + "name,"
+        + "longName,"
+        + "description"
     )
-    _api_limit = "infinity"
+    _API_LIMIT = "infinity"
 
     def __init__(self, school_uid: str = None) -> None:
         """
@@ -41,16 +45,16 @@ class CourseSystem:
         self._general_key = config.get_general_key()
         self._honors_key = config.get_honors_key()
 
-        # Initialize an object to handle the school's subjects
-        self._subject = SubjectHandler(
-            JSONHandler.get_from_path.get(
+        # Initialize an object to handle the school"s subjects
+        self._subject_handler  = SubjectHandler(
+            JSONHandler.get_from_path(
                 self._data_path / "allSubjects.json"
             )
         )
 
-    def record_all_courses(self, is_honors: bool, subject: str = _all_courses_key):
+    def record_all_courses(self, is_honors: bool, subject: str = _ALL_COURSE_KEY):
         """
-        Record all courses of a certain type (General, Honors) and subject.\n
+        Record all courses of a certain type (general, honors) and subject.\n
         If no subject is passed, record all subjects.
         """
         # TODO record_all_courses(is_honors: bool) first
@@ -58,95 +62,258 @@ class CourseSystem:
         # TODO get only data of a specified subject
         # TODO record the data we get into specific subject json file
 
-    def record_all_courses(self, is_honors: bool = None) -> None:
+    def record_all_shells_and_courses(self) -> None:
         """
-        Record all courses of a certain type (General, Honors, or Either).
+        Record all courses of a certain type (general, honors, or either).
         """
-        JSONHandler.write_to_path(
-            self._course_path,
-            self.get_all_related_courses(is_honors)
+        # Get raw input data from the API.
+        raw = self.get_api_input()
+        print(">>>>>> Got raw data!")
+        
+        # Get all courses shells and full data
+        allCoursesShells = self.get_all_course_shells(raw)
+        print(">>>>>> Got allCoursesShells data!")
+        
+        allCourses = self.get_all_courses(raw)
+        # allCourses = JSONHandler.get_from_path(
+        #     f"{self._course_path}/allCourses.json"
+        # )
+        print(">>>>>> Got allCourses data!")
+        
+        # Get general courses shells and full data
+        generalShells = self.get_all_course_shells(raw, False)
+        print(">>>>>> Got generalShells data!")
+        
+        generalCourses = self.get_general_courses(generalShells, allCourses)
+        print(">>>>>> Got generalCourses data!")
+        
+        # Honors courses structure is a little more complicated than other types.
+        # Our honors.json and honorsShells.json need to include all courses
+        # that need honors courses info ==> any honors related courses.
+        # An honors related course is one that is either:
+        # -- A courses of type honors (is_honors = True).
+        # -- A courses with at least 1 honors course as its prereq.       
+        honorsCourses = self.get_honors_courses(
+            self.get_all_course_shells(raw, True), allCourses
         )
-
-    def record_additional_values(self, json_file_path: str, add_vals: dict) -> None:
+        print(">>>>>> Got honorsCourses data!")
+        
+        honorsShells = self.get_course_shell_data(honorsCourses)
+        print(">>>>>> Got honorsShells data!")
+        
+        # Define full file paths and data to write into
+        data_to_write = [
+            (f"{self._ALL_COURSE_KEY}Shells.json", allCoursesShells),
+            (f"{self._general_key}Shells.json", generalShells),
+            (f"{self._honors_key}Shells.json", honorsShells),
+            (f"{self._ALL_COURSE_KEY}.json", allCourses),
+            (f"{self._general_key}.json", generalCourses),
+            (f"{self._honors_key}.json", honorsCourses)
+        ]
+        
+        # Write shells and courses data to path
+        for file_name, data in data_to_write:
+            JSONHandler.write_to_path(f"{self._course_path}/{file_name}", data)
+    
+    def get_honors_courses(self, honorsOnlyShells: dict, allCourses: dict):
         """
-        Record additional values into a json file.
+        Get all honors courses.
         """
-        # TODO MOVE TO FORMAT.PY
+        # Get honors courses
+        honorsCourses = {}
+        for uid in allCourses:
+            # If the course exists in honors only shells then it's an honors course
+            if uid in honorsOnlyShells:
+                honorsCourses[uid] = allCourses[uid]
+            else:
+                # Get the course's prerequisites
+                p = allCourses[uid]
+                p = p["prereq"]
+        
+                if PrereqChecker.is_honors_included(p, honorsOnlyShells):
+                    honorsCourses[uid] = allCourses[uid]
+        
+        return honorsCourses
 
-    def get_api_input(self, subject_code: str = _all_courses_key, limit: str = _api_limit):
+    def get_general_courses(self, generalShells: dict, allCourses: dict):
+        """
+        Get all general courses.
+        """
+        # Get honors courses
+        generalCourses = {}
+        for uid in allCourses:
+            # If the course exists in general shells then it's a general course
+            if uid in generalShells:
+                # Make a completely separate clone
+                c =  copy.deepcopy(allCourses[uid])
+
+                # Filter non general uids out of the course's prereq
+                prereq = PrereqFormat(c["prereq"])
+                prereq = PrereqFilterNonGeneralUid(
+                    prereq,
+                    generalShells
+                )
+                prereq = prereq.process()
+                c["prereq"] = prereq
+                
+                generalCourses[uid] = c
+        
+        return generalCourses
+    
+    def get_course_shell_data(self, courses: dict):
+        """
+        Get course shell data from a course.
+        """
+        shells = {}
+        for uid, course in courses.items():  # Iterate over key-value pairs
+            shells[uid] = {
+                "uid": course["uid"],        # Access course details
+                "code": course["code"],
+                "subject": course["subject"],
+                "number": course["number"],
+                "honors": course["honors"]
+            }
+        return shells
+
+    def get_api_input(self, subject_code: str = "", limit: str = _API_LIMIT):
         """
         Get the API result for certain courses.
         """
-        return JSONHandler.get_from_url(
+        raw = JSONHandler.get_from_url(
             'https://app.coursedog.com/api/v1/cm/'  # API
-            + self._school_id
+            + self._school_uid
             + '/courses/search/$filters?'  # Search courses
             + 'subjectCode=' + subject_code
-            + '&returnFields=' + self.return_fields
+            + '&returnFields=' + self._API_RETURN_FIELDS
             + '&limit=' + limit
         )
-        
-    def get_all_related_courses(self, is_honors: bool = None) -> dict:
-        """
-        Get a dictionary of courses that belong to one of these type:
-        - All courses.
-        - Only general courses.
-        - Only courses related to honors courses (including honors courses).
-        """
-        # TODO get_api_input() --> raw
-        # TODO get_all_course_shells() --> format
-        
-        match is_honors:
-            case None:  # Get all courses
-                # TODO
-                return
-            case False:  # Get all general only courses with general only prerequisites
-                return
-            case True:  # Get all courses related to honors courses (including honors courses)
-                return
+        return raw["data"]
 
-    def get_all_course_shells(self, data: dict = get_api_input()) -> dict:
+    def get_all_courses(
+        self,
+        raw_data: dict = None
+    ) -> dict:
         """
-        Get all CourseShell objects from the raw data and map them by uid.
+        Get a dictionary of all courses.
+        """
+        # Get raw input data
+        if raw_data is None:
+            raw_data = self.get_api_input()
+        
+        # Get all related courses
+        data = {}
+        length = len(raw_data)
+        interval = length // 100
+        counter = 0
+        for course in raw_data:
+            # Split a course's number and its suffix
+            number, suffix = CourseInfoSplitter.split_num_suf(course['courseNumber'])
+
+            # Check course's type
+            honors = CourseChecker.is_honors_suf(suffix)
+            writing = CourseChecker.is_writing_suf(suffix)
+
+            # Process info string into a logical dictionary of prerequisite courses
+            prereq = PrereqExtractor(
+                course['description'],
+                course['subjectCode'],
+                self._school_uid
+            )
+            prereq.extract()
+            prereq = prereq.get_prereq()
+            
+            data[course['institutionId']] = {
+                'uid' : course['institutionId'],
+                'code' : course['code'],
+                'subject' : course['subjectCode'],
+                'number' : number,
+                'honors' : honors,
+                'writing' : writing,
+                'name' : course['name'],
+                'fullname' :  course['longName'],
+                'info' : course['description'],
+                'prereq' : prereq
+            }
+            
+            # Checking the progress
+            counter += 1
+            if counter % interval == 0:
+                print(f"Progress: {int((counter / length) * 100)}%")
+                    
+        return data
+        
+    def get_all_course_shells(self, data: dict = None, is_honors: bool = None) -> dict:
+        """
+        Get all CourseShell objects of a certain type (honors, general, either)
+        from the raw data and map them by uid.\n
         (A CourseShell is a Course object without prereq information).\n
         EX: {
         "797460" : {
-            "uid": "797460",  // Change to number?
+            "uid": "797460",
             "code": "AAS1101",
             "subject": "AAS",
-            "number": "1101",  // Change to number?
+            "number": "1101",
             "honors": false
         }}
         """
-        # TODO
+        # Get raw data input of all courses
+        if data == None:
+            data = self.get_api_input()
+        
+        # Get course shells
+        shells = {}
+        for course in data:
+            # Split a course's number and its suffix
+            number, suffix = CourseInfoSplitter.split_num_suf(course["courseNumber"])
 
-class SubjectHandler:
+            # Check course's type
+            honors = CourseChecker.is_honors_suf(suffix)
+
+            # Only get shells of a certain type
+            if is_honors is None or honors == is_honors:
+                # Map value to corresponding key
+                shells[course["institutionId"]] = {
+                    "uid" : course["institutionId"],
+                    "code" : course["code"],
+                    "subject" : course["subjectCode"],
+                    "number" : number,
+                    "honors" : honors
+                }
+
+        return shells
+
+class SubjectHandler():
     """
     # TODO
     """
-    
+
     def __init__(self, all_subjs: dict):
         self._all_subjects = all_subjs
-    
+
     def record_all_subj_ranges(self, data: dict = None) -> None:
         """
-        Record all subject's ranges of a data's file.\n
-        A subject's range involes its lowest course uid and its highest course uid.
+        Record all subject's ranges to the subject file.\n
+        A subject's range involes its lowest course uid and its highest course uid.\n
+        EX: A subject range:
+        "CSCI" : {
+            "start" : 1024959,
+            "end" : 1988499
+        }
         """
         # TODO
-        
+
     def get_subj_range(self, subj: str, data: dict = None) -> tuple:
         """
         Get a tuple of the subject's lowest course uid and subject's highest course uid from data.
         """
         # TODO
-    
+
     def get_all_subj_ranges(self, data: dict = None) -> dict:
         """
         Get a dictionary with subject as key and subject's ranges as value from data.
         """
         # TODO
-        
+
 class ProgramSystem:
     """
     # TODO
