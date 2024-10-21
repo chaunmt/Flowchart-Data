@@ -144,37 +144,26 @@ class CourseInfoConverter():
 
     #############################################################################
     @staticmethod
-    def course_code_to_uid(codestr : str, is_honors : bool = None) -> str:
+    def course_code_to_uid(school_uid: str, codestr : str) -> str:
         """
         Convert a string of course's code into that course's uid.
         """
         # Get the school's config data
-        config = SchoolConfigManager()
+        config = SchoolConfigManager(school_uid)
         
         # Find the course shells json to cross-checked values
         # Only courses exist in this json file are deemed valid courses
-        match is_honors:
-            case None:
-                all_courses =JSONHandler.get_from_path(
-                    f"{config.get_course_path()}/allCoursesShells.json"
-                )
-            case False:
-                all_courses = JSONHandler.get_from_path(
-                    f"{config.get_course_path()}/{config.get_general_key()}Shells.json"
-                )
-            case True:
-                all_courses = JSONHandler.get_from_path(
-                    f"{config.get_course_path()}/{config.get_honors_key()}Shells.json"
-                )
+        all_courses = JSONHandler.get_from_path(
+            f"{config.get_course_path()}/allCoursesShells.json"
+        )
 
-        # Given that honors type is matched,
-        # if subject and number is the same then it's the same course.
-        for course in all_courses:
+        # if the codes are the same then they are the same course.
+        for uid, course in all_courses.items():
             if (
                 (codestr == course['code']) or
                 (codestr == course['code'][:-1])
             ):
-                return course['uid']
+                return uid
 
         return codestr
 
@@ -184,18 +173,18 @@ class PrereqInfoConverter:
     Convert objects into prerequisites type.
     """
 
-    def __init__(self, s : str, alter_subj : str, is_honors : bool) -> None:
+    def __init__(self, s: str, alter_subj: str, school_uid: str) -> None:
         self._prereq_str = s
         self._prereq = {}
         self._alter_subj = alter_subj
-        self._is_honors = is_honors
+        self._school_uid = school_uid
 
     def process(self) -> dict:
         prereq = self._prereq_str
         prereq = self.to_nested_ss(prereq)
         prereq = self.to_nested_code_dicts(prereq)
         prereq = self.to_combined_logic_code_dict(prereq)
-        prereq = self.to_logic_uid_dict(prereq, self._is_honors)
+        prereq = self.to_logic_uid_dict(prereq)
 
         self._prereq = prereq
 
@@ -353,7 +342,7 @@ class PrereqInfoConverter:
 
         return rec_combine(nested_code_dicts, nested_code_dicts[-1])
 
-    def to_logic_uid_dict(self, logic_code_dict : dict, is_honors : bool) -> dict:
+    def to_logic_uid_dict(self, logic_code_dict : dict) -> dict:
         """
         Convert a logical course's codes dictionary
         into a logical course's uids dictionary.\n
@@ -376,7 +365,7 @@ class PrereqInfoConverter:
 
             if isinstance(values, str):
                 # Replace code with uid
-                return CourseInfoConverter.course_code_to_uid(values, is_honors)
+                return CourseInfoConverter.course_code_to_uid(self._school_uid, values)
 
             # Recursively replace nested value in list
             elif isinstance(values, list):

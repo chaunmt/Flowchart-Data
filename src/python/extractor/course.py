@@ -19,15 +19,15 @@ class PrereqExtractor:
     Extract logical dictionary of prerequisites from an info string.
     """
 
-    def __init__(self, info_str: str, target_subj: str, is_honors: bool) -> None:
+    def __init__(self, info_str: str, target_subj: str, school_uid: str) -> None:
         """
         Initialize PrereqExtractor.
         """
 
         self._info_str = info_str
         self._target_subj = target_subj
-        self._is_honors = is_honors
         self._prereq = {}
+        self._school_uid = school_uid
 
     def get_prereq(self) -> dict:
         """
@@ -43,7 +43,11 @@ class PrereqExtractor:
 
         self.pre_processing()
 
-        prereq = PrereqInfoConverter(self._info_str, self._target_subj, self._is_honors)
+        prereq = PrereqInfoConverter(
+            self._info_str,
+            self._target_subj,
+            self._school_uid
+        )
         prereq.process()
         prereq = prereq.get_prereq()
         self._prereq = prereq
@@ -83,4 +87,3 @@ class PrereqExtractor:
         p = PrereqFilterEmpty(p)
 
         self._prereq = p.process()
-        pass
