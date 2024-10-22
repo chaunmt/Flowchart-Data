@@ -114,33 +114,33 @@ class PrereqChecker():
 
     #############################################################################
     @classmethod
-    def is_honors_included(cls, prereq: PrereqFormat, honors_only_shells: dict) -> bool:
+    def has_shared_uid(cls, prereq: PrereqFormat, course_shells: dict) -> bool:
         """
-        Check whether a logical prerequisites dictionary includes any honors class.
+        Check whether a logical prerequisites dictionary has any shared uid with a course shells.
         """
 
         if isinstance(prereq, list):
             # Traverse all possible elements
             while True:
                 for _, value in enumerate(prereq):
-                    # If found an honor course, return True
-                    if isinstance(value, str) and value in honors_only_shells:
+                    # If found a shared uid, return True
+                    if isinstance(value, str) and value in course_shells:
                         return True
 
                     # Recursively traverse nested value
-                    if cls.is_honors_included(value, honors_only_shells):
+                    if cls.has_shared_uid(value, course_shells):
                         return True
 
-                return False  # No honor courses found
+                return False  # No shared uid found
 
         elif isinstance(prereq, dict): # Logical operation 'and', 'or' and their value
             # Traverse all possible elements
             while True:
                 for _, value in prereq.items():
                     # Recursively traverse nested value
-                    if cls.is_honors_included(value, honors_only_shells):
+                    if cls.has_shared_uid(value, course_shells):
                         return True
 
-                return False  # No honor courses found
+                return False  # No shared uid found
 
-        return False  # No honor courses found
+        return False  # No shared uid found
