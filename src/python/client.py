@@ -1,6 +1,5 @@
 """
-This is what the highest level client would see.
-hello world!
+This is what the highest level where client would see.
 """
 
 # from python.sources.api.facade import CourseDogFacade
