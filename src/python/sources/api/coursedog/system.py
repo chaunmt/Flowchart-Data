@@ -72,23 +72,20 @@ class CourseSystem:
 
         # Get all courses shells and full data
         all_courses_shells = self.get_all_course_shells(raw)
-        print(">>>>>> Got all_courses_shells data!")
+        print(">>>>>> Got all courses shells data!")
 
         all_courses = self.get_all_courses(raw)
-        # all_courses = JSONHandler.get_from_path(
-        #     f"{self._course_path}/all_courses.json"
-        # )
-        print(">>>>>> Got all_courses data!")
+        print(">>>>>> Got all courses data!")
 
         # Get general courses shells and full data
         general_shells = self.get_all_course_shells(raw, False)
-        print(">>>>>> Got general_shells data!")
+        print(">>>>>> Got general shells data!")
 
         general_courses = self.get_general_courses(general_shells, all_courses)
-        print(">>>>>> Got general_courses data!")
+        print(">>>>>> Got general courses data!")
 
         # Honors courses structure is a little more complicated than other types.
-        # Our honors.json and honors_shells.json need to include all courses
+        # Our honors.json and honorsShells.json need to include all courses
         # that need honors courses info ==> any honors related courses.
         # An honors related course is one that is either:
         # -- A courses of type honors (is_honors = True).
@@ -96,10 +93,10 @@ class CourseSystem:
         honors_courses = self.get_honors_courses(
             self.get_all_course_shells(raw, True), all_courses
         )
-        print(">>>>>> Got honors_courses data!")
+        print(">>>>>> Got honors courses data!")
 
         honors_shells = self.get_course_shell_data(honors_courses)
-        print(">>>>>> Got honors_shells data!")
+        print(">>>>>> Got honors shells data!")
 
         # Define full file paths and data to write into
         data_to_write = [
