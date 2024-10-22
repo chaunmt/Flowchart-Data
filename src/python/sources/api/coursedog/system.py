@@ -127,7 +127,7 @@ class CourseSystem:
                 p = all_courses[uid]
                 p = p["prereq"]
 
-                if PrereqChecker.is_honors_included(p, honors_only_shells):
+                if PrereqChecker.has_shared_uid(p, honors_only_shells):
                     honors_courses[uid] = all_courses[uid]
 
         return honors_courses
