@@ -15,6 +15,7 @@ from ...filter.string import (
     StringFilterSpace
 )
 
+
 class TestStringFilter():
     """
     This class contains tests for the StringFilter class.
@@ -79,19 +80,24 @@ class TestStringFilter():
             neststr = f"Processed: {neststr}"   # Expected value
             assert s == neststr
 
+
 class TestStringFilterSpace():
     """
     This class contains tests for the StringFilterSpace class.
     """
+
     def test_process(self):
         """
         This method contains tests for the process method.
         """
         # Define a list of test strings and their expected outputs
         test_cases = [
-            ("my string 123", "mystring123"),         # Contains spaces and numbers
-            ("hello @world!", "hello@world!"),        # Contains spaces and special character
-            ("  spaced out text  ", "spacedouttext")  # Leading, trailing, and multiple spaces
+            # Contains spaces and numbers
+            ("my string 123", "mystring123"),
+            # Contains spaces and special character
+            ("hello @world!", "hello@world!"),
+            # Leading, trailing, and multiple spaces
+            ("  spaced out text  ", "spacedouttext")
         ]
 
         # Iterate over each test case
@@ -110,20 +116,25 @@ class TestStringFilterSpace():
                     f"Processed string = '{s}' is not the same as '{expected_str}'."
                 )
 
+
 class TestStringFilterSign:
     """
     This class contains tests for the StringFilterSign class.
     """
+
     def test_process(self):
         """
         This method contains tests for the process method.
         """
         # Define a list of test strings and their expected outputs
         test_cases = [
-            ("hello@world!", "helloworld"),            # Special character '@' and '!'
+            # Special character '@' and '!'
+            ("hello@world!", "helloworld"),
             ("greeting$%^", "greeting"),               # Multiple signs
-            ("123 !@# abc", "123abc"),                 # Mixed with digits and letters
-            ("  spaced out text  ", "spacedouttext")   # Leading, trailing, and multiple spaces
+            # Mixed with digits and letters
+            ("123 !@# abc", "123abc"),
+            # Leading, trailing, and multiple spaces
+            ("  spaced out text  ", "spacedouttext")
         ]
 
         # Iterate over each test case
@@ -147,6 +158,7 @@ class TestStringFilterBracket:
     """
     This class contains tests for the StringFilterBracket class.
     """
+
     def test_process(self):
         """
         This method contains tests for the process method.
@@ -174,10 +186,12 @@ class TestStringFilterBracket:
                     f"Processed string = '{s}' is not the same as '{expected_str}'."
                 )
 
+
 class TestStringFilterAlpha:
     """
     This class contains tests for the StringFilterAlpha class.
     """
+
     def test_process(self):
         """
         This method contains tests for the process method.
@@ -205,12 +219,37 @@ class TestStringFilterAlpha:
                     f"Processed string = '{s}' is not the same as '{expected_str}'."
                 )
 
+
 class TestStringFilterNumeric:
     """
     This class contains tests for the StringFilterNumeric class.
     """
+
     def test_process(self):
         """
         This method contains tests for the process method.
         """
-        # TODO
+        # Define a list of test strings and their expected outputs
+        test_cases = [
+            ("hello123", "hello"),          # Letters with digits
+            ("456ABCdef", "ABCdef"),        # Digits with mixed case letters
+            ("123!@#456", "!@#"),           # Digits with special characters
+            ("7890", ""),                   # Only digits
+            ("no digits here!", "no digits here!")  # No digits
+        ]
+
+        # Iterate over each test case
+        for original_str, expected_str in test_cases:
+            # Initialize the StringComponent
+            sf = StringComponent(original_str)
+
+            # Check nested value
+            for _ in range(1, 3):
+                sf = StringFilterNumeric(sf)       # Nest filter
+                s = sf.process()                   # Process all nested filters
+
+                # Assert value
+                assert s == expected_str, (
+                    f"Failed for original string = '{original_str}'." +
+                    f"Processed string = '{s}' is not the same as '{expected_str}'."
+                )
