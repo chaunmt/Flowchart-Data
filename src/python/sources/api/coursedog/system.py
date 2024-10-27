@@ -8,7 +8,7 @@ from python.sources.format import JSONHandler
 from python.checker.course import CourseChecker, PrereqChecker
 from python.splitter.course import CourseInfoSplitter
 from python.extractor.course import PrereqExtractor
-from python.filter.course import PrereqFilterNonGeneralUid
+from python.filter.course import PrereqFilterUidNotInShell
 from python.schema.course import PrereqFormat
 from python.sources.config.school import SchoolConfigManager
 
@@ -149,7 +149,7 @@ class CourseSystem:
 
                 # Filter non general uids out of the course's prereq
                 prereq = PrereqFormat(c["prereq"])
-                prereq = PrereqFilterNonGeneralUid(
+                prereq = PrereqFilterUidNotInShell(
                     prereq,
                     general_shells
                 )
