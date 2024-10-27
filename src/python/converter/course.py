@@ -58,7 +58,7 @@ class CourseInfoConverter():
 
         # Substitute and combine the subject with the course numbers inside the brackets
         for pattern in patterns:
-            s = re.sub(pattern, r"[\1 \5", s)  # Use \1 for subject and \5 for course number
+            s = re.sub(pattern, r"\3\1 \5", s)  # Use \1 for subject and \5 for course number
 
         # Return the modified string
         return s
