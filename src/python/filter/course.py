@@ -299,7 +299,7 @@ class PrereqFilterNonUid(PrereqFilter):
                     for value in prereq:
                         if isinstance(value, str) and value.isdigit():
                             res.append(value)
-                        elif not isinstance(value, str):
+                        elif isinstance(value, (list, dict)):
                             res.append(value)
                     prereq = res
 
@@ -324,7 +324,7 @@ class PrereqFilterNonUid(PrereqFilter):
                     for key, value in prereq.items():
                         if isinstance(value, str) and value.isdigit():
                             res[key] = value
-                        elif not isinstance(value, str):
+                        elif isinstance(value, (list, dict)):
                             res[key] = value
                     prereq = res
 
@@ -345,17 +345,17 @@ class PrereqFilterNonUid(PrereqFilter):
         return rec_filter(self.prereq.process())
 
 ###############################################################################
-class PrereqFilterNonGeneralUid(PrereqFilter):
+class PrereqFilterUidNotInShell(PrereqFilter):
     """
-    This class filter out all non-general (honors or others) course's uid.
+    This class filter out all course's uid that is not in the provided course shells.
     """
 
-    def __init__(self, prereq: PrereqFormat, general_shells: dict):
+    def __init__(self, prereq: PrereqFormat, course_shells: dict):
         """
         Initialize the class instance.
         """
         super().__init__(prereq)
-        self._general_shells = general_shells
+        self._shells = course_shells
 
     def process(self) -> dict:
         """
@@ -370,10 +370,10 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
             if isinstance(prereq, list):
                 # Filter all possible elements
                 while True:
-                    # Delete all non-general uids from list
+                    # Delete all uids not belong in the provided course shells from the list
                     res = []
                     for value in prereq:
-                        if isinstance(value, str) and value not in self._general_shells:
+                        if isinstance(value, str) and value not in self._shells:
                             continue
                         res.append(value)
                     prereq = res
@@ -394,10 +394,10 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
             elif isinstance(prereq, dict): # Logical operation 'and', 'or' and their value
                 # Filter all possible elements
                 while True:
-                    # Delete all non-general uids from dictionary
+                    # Delete all uids not belong in the provided course shells from the dictionary
                     res = {}
                     for key, value in prereq.items():
-                        if isinstance(value, str) and value not in self._general_shells:
+                        if isinstance(value, str) and value not in self._shells:
                             continue
                         res[key] = value
                     prereq = res
