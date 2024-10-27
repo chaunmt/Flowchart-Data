@@ -162,7 +162,7 @@ class CourseInfoConverter():
             if codestr in (course['code'], course['code'][:-1]):
                 return uid
 
-        return codestr
+        return ""
 
 ###############################################################################
 class PrereqInfoConverter:
