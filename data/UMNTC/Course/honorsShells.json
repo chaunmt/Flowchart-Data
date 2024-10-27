@@ -650,6 +650,13 @@
     "number": "4994",
     "honors": true
   },
+  "795655": {
+    "uid": "795655",
+    "code": "BBE2001",
+    "subject": "BBE",
+    "number": "2001",
+    "honors": false
+  },
   "806664": {
     "uid": "806664",
     "code": "BBE3012",
@@ -760,6 +767,13 @@
     "code": "BIOL3012",
     "subject": "BIOL",
     "number": "3012",
+    "honors": false
+  },
+  "814490": {
+    "uid": "814490",
+    "code": "BIOL3025",
+    "subject": "BIOL",
+    "number": "3025",
     "honors": false
   },
   "817674": {
@@ -1272,6 +1286,13 @@
     "subject": "CSCI",
     "number": "4041",
     "honors": true
+  },
+  "827160": {
+    "uid": "827160",
+    "code": "CSCI4521",
+    "subject": "CSCI",
+    "number": "4521",
+    "honors": false
   },
   "805148": {
     "uid": "805148",
@@ -2027,6 +2048,13 @@
     "code": "ESCI4102W",
     "subject": "ESCI",
     "number": "4102",
+    "honors": false
+  },
+  "820254": {
+    "uid": "820254",
+    "code": "ESCI4104",
+    "subject": "ESCI",
+    "number": "4104",
     "honors": false
   },
   "803163": {
@@ -3008,6 +3036,13 @@
     "subject": "HRIR",
     "number": "3021",
     "honors": true
+  },
+  "819851": {
+    "uid": "819851",
+    "code": "HRIR3111",
+    "subject": "HRIR",
+    "number": "3111",
+    "honors": false
   },
   "813469": {
     "uid": "813469",
@@ -6019,6 +6054,13 @@
     "number": "3950",
     "honors": true
   },
+  "813368": {
+    "uid": "813368",
+    "code": "NSCI5300",
+    "subject": "NSCI",
+    "number": "5300",
+    "honors": false
+  },
   "806338": {
     "uid": "806338",
     "code": "NURS3802H",
@@ -6369,11 +6411,25 @@
     "number": "2601",
     "honors": false
   },
+  "817153": {
+    "uid": "817153",
+    "code": "PHYS3041",
+    "subject": "PHYS",
+    "number": "3041",
+    "honors": false
+  },
   "002076": {
     "uid": "002076",
     "code": "PHYS3071W",
     "subject": "PHYS",
     "number": "3071",
+    "honors": false
+  },
+  "817275": {
+    "uid": "817275",
+    "code": "PHYS3605W",
+    "subject": "PHYS",
+    "number": "3605",
     "honors": false
   },
   "004512": {
@@ -6642,6 +6698,13 @@
     "number": "3960",
     "honors": true
   },
+  "825677": {
+    "uid": "825677",
+    "code": "PSY4301",
+    "subject": "PSY",
+    "number": "4301",
+    "honors": false
+  },
   "813973": {
     "uid": "813973",
     "code": "PSY4521",
@@ -6690,6 +6753,13 @@
     "subject": "PSY",
     "number": "5604",
     "honors": true
+  },
+  "791409": {
+    "uid": "791409",
+    "code": "PSY5708",
+    "subject": "PSY",
+    "number": "5708",
+    "honors": false
   },
   "006625": {
     "uid": "006625",
@@ -7034,6 +7104,13 @@
     "number": "3104",
     "honors": true
   },
+  "007860": {
+    "uid": "007860",
+    "code": "SPAN3104W",
+    "subject": "SPAN",
+    "number": "3104",
+    "honors": false
+  },
   "817157": {
     "uid": "817157",
     "code": "SPAN3105V",
@@ -7132,6 +7209,13 @@
     "number": "3501",
     "honors": true
   },
+  "008142": {
+    "uid": "008142",
+    "code": "SPAN3502",
+    "subject": "SPAN",
+    "number": "3502",
+    "honors": false
+  },
   "016420": {
     "uid": "016420",
     "code": "SPAN3502H",
@@ -7146,12 +7230,26 @@
     "number": "3503",
     "honors": false
   },
+  "008671": {
+    "uid": "008671",
+    "code": "SPAN3510",
+    "subject": "SPAN",
+    "number": "3510",
+    "honors": false
+  },
   "016118": {
     "uid": "016118",
     "code": "SPAN3510H",
     "subject": "SPAN",
     "number": "3510",
     "honors": true
+  },
+  "008678": {
+    "uid": "008678",
+    "code": "SPAN3512",
+    "subject": "SPAN",
+    "number": "3512",
+    "honors": false
   },
   "016353": {
     "uid": "016353",
@@ -7173,6 +7271,13 @@
     "subject": "SPAN",
     "number": "3701",
     "honors": true
+  },
+  "008135": {
+    "uid": "008135",
+    "code": "SPAN3702",
+    "subject": "SPAN",
+    "number": "3702",
+    "honors": false
   },
   "016366": {
     "uid": "016366",
@@ -7277,6 +7382,13 @@
     "code": "SPAN3807",
     "subject": "SPAN",
     "number": "3807",
+    "honors": false
+  },
+  "008075": {
+    "uid": "008075",
+    "code": "SPAN3910",
+    "subject": "SPAN",
+    "number": "3910",
     "honors": false
   },
   "016349": {
