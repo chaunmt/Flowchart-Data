@@ -16,7 +16,6 @@ class StringComponent:
         """
         Initialize a string object.
         """
-
         self._s = s
 
     #####################################
@@ -24,5 +23,4 @@ class StringComponent:
         """
         Process the object.
         """
-
         return self._s
