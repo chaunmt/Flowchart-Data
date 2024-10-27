@@ -1,0 +1,4 @@
+This is a marker file to determine the project's root directory.
+Using the .gitignore or a README.md as a marker file is bad practice as
+there are legitimate patterns (read: entirely valid reasons) to place
+additional .gitignore or README.md files further down the file structure.

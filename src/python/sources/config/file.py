@@ -10,7 +10,7 @@ class FileHandler:
     """
 
     @staticmethod
-    def find_project_root(start_path: Path = None, marker_file: str = '.gitignore') -> Path:
+    def find_project_root(start_path: Path = None, marker_file: str = 'rootdir.txt') -> Path:
         """
         Find the outermost directory of the project by searching upwards from start_path
         for the presence of one or more marker files that indicate the project root.
