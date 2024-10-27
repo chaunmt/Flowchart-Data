@@ -7,7 +7,6 @@ and type-based conditions like letters and digits.
 import pytest
 from ...splitter.string import StringSplitter
 
-
 class TestStringSplitter:
     """
     This class contains unit tests for the StringSplitter class.
@@ -26,11 +25,11 @@ class TestStringSplitter:
         assert StringSplitter.at_index("", 0) == []
 
         # Test index out of bounds
-        with pytest.raises(ValueError) as error:
+        with pytest.raises(ValueError) as _:
             assert StringSplitter.at_index("abcdef", 10)
 
         # Test negative index
-        with pytest.raises(ValueError) as error:
+        with pytest.raises(ValueError) as _:
             assert StringSplitter.at_index("abcdef", -5)
 
     def test_at_substring(self):
