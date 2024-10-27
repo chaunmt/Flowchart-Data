@@ -18,8 +18,13 @@ class StringFilter(StringComponent):
         """
         Initialize the class instance.
         """
+        # Only accept StringComponent object
         if not isinstance(s, StringComponent):
-            raise TypeError(f"Expected a StringComponent instance for 's' instead of {type(s)}")
+            raise TypeError(
+                f"Expected a StringComponent instance for 's' instead of {type(s)}"
+            )
+        
+        # Initialize
         super().__init__(s)
         self._s = s
 
