@@ -33,7 +33,7 @@ class TestStringFilter():
         assert sf._s._s == "@$90 asfuh0 1-1 !"
 
         # Wrong type
-        with pytest.raises(TypeError) as _:
+        with pytest.raises(TypeError):
             assert StringFilter("just a string")
             assert StringFilter(10)
             assert StringFilter(True)
