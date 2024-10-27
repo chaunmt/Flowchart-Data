@@ -5,7 +5,6 @@ This module contains filter classes related to course system.
 from python.schema.course import PrereqFormat
 from python.filter.string import StringFilter
 from python.splitter.string import StringSplitter
-from python.sources.format import JSONHandler
 
 ###############################################################################
 class CourseInfoNonPrereqFilter(StringFilter):
@@ -20,15 +19,16 @@ class CourseInfoNonPrereqFilter(StringFilter):
 
         # Process all previous filters
         info = self._s.process()
+        info = info.lower()
 
         # Possible split patterns for prerequisites
         split_patterns = [
-            "prereq:",
-            "prerequisite:",
-            "prerequisites:",
             "prereq",
+            "prereq:",
             "prerequisite",
-            "prerequisites"
+            "prerequisite:",
+            "prerequisites",
+            "prerequisites:",
         ]
 
         # Find a split pattern in info string
@@ -38,7 +38,6 @@ class CourseInfoNonPrereqFilter(StringFilter):
                 split_pattern = pattern
 
         # Split prereq from info
-        info = info.lower()
         splitted_info = StringSplitter.at_substring(info, split_pattern)
 
         # Combine all founded prereq into one string
@@ -61,6 +60,13 @@ class PrereqFilter(PrereqFormat):
         """
         Initialize the class instance.
         """
+        # Only accept PrereqFormat object
+        if not isinstance(prereq, PrereqFormat):
+            raise TypeError(
+                f"Expected a StringComponent instance for 's' instead of {type(prereq)}"
+            )
+        
+        # Initialize
         super().__init__(prereq)
         self._prereq = prereq
 
@@ -293,7 +299,7 @@ class PrereqFilterNonUid(PrereqFilter):
                     for value in prereq:
                         if isinstance(value, str) and value.isdigit():
                             res.append(value)
-                        elif not isinstance(value, str):
+                        elif isinstance(value, (list, dict)):
                             res.append(value)
                     prereq = res
 
@@ -318,7 +324,7 @@ class PrereqFilterNonUid(PrereqFilter):
                     for key, value in prereq.items():
                         if isinstance(value, str) and value.isdigit():
                             res[key] = value
-                        elif not isinstance(value, str):
+                        elif isinstance(value, (list, dict)):
                             res[key] = value
                     prereq = res
 
@@ -339,17 +345,17 @@ class PrereqFilterNonUid(PrereqFilter):
         return rec_filter(self.prereq.process())
 
 ###############################################################################
-class PrereqFilterNonGeneralUid(PrereqFilter):
+class PrereqFilterUidNotInShell(PrereqFilter):
     """
-    This class filter out all non-general (honors or others) course's uid.
+    This class filter out all course's uid that is not in the provided course shells.
     """
 
-    def __init__(self, prereq: PrereqFormat, general_shells: dict):
+    def __init__(self, prereq: PrereqFormat, course_shells: dict):
         """
         Initialize the class instance.
         """
         super().__init__(prereq)
-        self._general_shells = general_shells
+        self._shells = course_shells
 
     def process(self) -> dict:
         """
@@ -364,10 +370,10 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
             if isinstance(prereq, list):
                 # Filter all possible elements
                 while True:
-                    # Delete all non-general uids from list
+                    # Delete all uids not belong in the provided course shells from the list
                     res = []
                     for value in prereq:
-                        if isinstance(value, str) and value not in self._general_shells:
+                        if isinstance(value, str) and value not in self._shells:
                             continue
                         res.append(value)
                     prereq = res
@@ -388,10 +394,10 @@ class PrereqFilterNonGeneralUid(PrereqFilter):
             elif isinstance(prereq, dict): # Logical operation 'and', 'or' and their value
                 # Filter all possible elements
                 while True:
-                    # Delete all non-general uids from dictionary
+                    # Delete all uids not belong in the provided course shells from the dictionary
                     res = {}
                     for key, value in prereq.items():
-                        if isinstance(value, str) and value not in self._general_shells:
+                        if isinstance(value, str) and value not in self._shells:
                             continue
                         res[key] = value
                     prereq = res
