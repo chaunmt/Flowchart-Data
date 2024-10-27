@@ -74,8 +74,8 @@ class TestStringFilter():
 
         # Check nested value
         for _ in range(1, 6):
-            sf = TextDecorator(sf)              # Nested
-            s = sf.process()                    # Process all nests
+            sf = TextDecorator(sf)              # Neste decorator
+            s = sf.process()                    # Process all nested decorator
             neststr = f"Processed: {neststr}"   # Expected value
             assert s == neststr
 
@@ -101,13 +101,13 @@ class TestStringFilterSpace():
 
             # Check nested value
             for _ in range(1, 3):
-                sf = StringFilterSpace(sf)          # Nested
-                s = sf.process()                    # Process all nests
+                sf = StringFilterSpace(sf)          # Nest filter
+                s = sf.process()                    # Process all nested filters
 
                 # Assert value
                 assert s == expected_str, (
-                    f"Failed for original string = {original_str}." +
-                    f"Processed string = {s} is not the same as {expected_str}."
+                    f"Failed for original string = '{original_str}'." +
+                    f"Processed string = '{s}' is not the same as '{expected_str}'."
                 )
 
 class TestStringFilterSign:
@@ -133,13 +133,13 @@ class TestStringFilterSign:
 
             # Check nested value
             for _ in range(1, 3):
-                sf = StringFilterSign(sf)           # Nested
-                s = sf.process()                    # Process all nests
+                sf = StringFilterSign(sf)           # Nest filter
+                s = sf.process()                    # Process all nested filters
 
                 # Assert value
                 assert s == expected_str, (
-                    f"Failed for original string = {original_str}." +
-                    f"Processed string = {s} is not the same as {expected_str}."
+                    f"Failed for original string = '{original_str}'." +
+                    f"Processed string = '{s}' is not the same as '{expected_str}'."
                 )
 
 
@@ -165,13 +165,13 @@ class TestStringFilterBracket:
 
             # Check nested value
             for _ in range(1, 3):
-                sf = StringFilterBracket(sf)           # Nested
-                s = sf.process()                    # Process all nests
+                sf = StringFilterBracket(sf)        # Nest filter
+                s = sf.process()                    # Process all nested filters
 
                 # Assert value
                 assert s == expected_str, (
-                    f"Failed for original string = {original_str}." +
-                    f"Processed string = {s} is not the same as {expected_str}."
+                    f"Failed for original string = '{original_str}'." +
+                    f"Processed string = '{s}' is not the same as '{expected_str}'."
                 )
 
 class TestStringFilterAlpha:
@@ -196,13 +196,13 @@ class TestStringFilterAlpha:
 
             # Check nested value
             for _ in range(1, 3):
-                sf = StringFilterAlpha(sf)           # Nested
-                s = sf.process()                    # Process all nests
+                sf = StringFilterAlpha(sf)          # Nest filter
+                s = sf.process()                    # Process all nested filters
 
                 # Assert value
                 assert s == expected_str, (
-                    f"Failed for original string = {original_str}." +
-                    f"Processed string = {s} is not the same as {expected_str}."
+                    f"Failed for original string = '{original_str}'." +
+                    f"Processed string = '{s}' is not the same as '{expected_str}'."
                 )
 
 class TestStringFilterNumeric:
