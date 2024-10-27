@@ -60,6 +60,13 @@ class PrereqFilter(PrereqFormat):
         """
         Initialize the class instance.
         """
+        # Only accept PrereqFormat object
+        if not isinstance(prereq, PrereqFormat):
+            raise TypeError(
+                f"Expected a StringComponent instance for 's' instead of {type(prereq)}"
+            )
+        
+        # Initialize
         super().__init__(prereq)
         self._prereq = prereq
 
