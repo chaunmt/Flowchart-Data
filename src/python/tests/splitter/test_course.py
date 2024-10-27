@@ -1,13 +1,13 @@
 """
 Unit tests for the course information splitting functionality in the CourseInfoSplitter class.
-This module tests various methods that split course code strings into components such as subject,
-number, and suffix. The tests cover different input scenarios including valid course codes, edge cases,
-and invalid inputs to ensure the correct behavior of the splitting logic.
+This module tests various methods that split course code strings into components
+such as subject, number, and suffix. The tests cover different input scenarios including
+valid course codes, edge cases, and invalid inputs to
+ensure the correct behavior of the splitting logic.
 """
 
-
 import pytest
-from python.splitter.course import CourseInfoSplitter
+from ...splitter.course import CourseInfoSplitter
 
 class TestCourseInfoSplitter:
     """
@@ -28,12 +28,12 @@ class TestCourseInfoSplitter:
         assert CourseInfoSplitter.code_into_subj_num_suf("1001W") == ["", "", ""]
         # Invalid course code with invalid number
         assert CourseInfoSplitter.code_into_subj_num_suf("CSCINUM") == ["", "", ""]
-        
+
         # Testing test_code_into_subj_num_suf - Invalid course code with no number
         # This test passes with the current functionality
         assert CourseInfoSplitter.code_into_subj_num_suf("CSCI") == ["", "", ""]
 
-        
+
         # Course code with special characters, expect valid splits
         assert CourseInfoSplitter.code_into_subj_num_suf("TH-1101W") == ["TH", "1101", "W"]
         # Course code with spaces, expect valid splits
