@@ -18,15 +18,15 @@ class CourseSystem:
     """
     # Course Dog's API variables
     _ALL_COURSE_KEY = "allCourses"
-    _API_RETURN_FIELDS = (
-        "institutionId,"
-        + "code,"
-        + "subjectCode,"
-        + "courseNumber,"
-        + "name,"
-        + "longName,"
-        + "description"
-    )
+    _API_RETURN_FIELDS = ",".join([
+        "institutionId",
+        "code",
+        "subjectCode",
+        "courseNumber",
+        "name",
+        "longName",
+        "description",
+    ])
     _API_LIMIT = "infinity"
 
     def __init__(self, school_uid: str = None) -> None:
@@ -48,8 +48,9 @@ class CourseSystem:
         # Initialize an object to handle the school"s subjects
         self._subject_handler  = SubjectHandler(
             JSONHandler.get_from_path(
-                self._data_path / "allSubjects.json"
-            )
+                f"{self._data_path}/allSubjects.json"
+            ),
+            self._data_path
         )
 
     def record_all_courses(self, is_honors: bool, subject: str = _ALL_COURSE_KEY):
@@ -111,6 +112,10 @@ class CourseSystem:
         # Write shells and courses data to path
         for file_name, data in data_to_write:
             JSONHandler.write_to_path(f"{self._course_path}/{file_name}", data)
+        print(">>>>>> Course data written successfully!")
+        
+        # Finally, invoke the subject handler
+        self._subject_handler.record_all_subj_uids(all_courses_shells)
 
     def get_honors_courses(self, honors_only_shells: dict, all_courses: dict):
         """
@@ -172,7 +177,7 @@ class CourseSystem:
             }
         return shells
 
-    def get_api_input(self, subject_code: str = "", limit: str = _API_LIMIT):
+    def get_api_input(self, subject_code: str = "", limit: str = _API_LIMIT) -> list:
         """
         Get the API result for certain courses.
         """
@@ -235,7 +240,7 @@ class CourseSystem:
             # Checking the progress
             counter += 1
             if counter % interval == 0:
-                print(f"Progress: {int((counter / length) * 100)}%")
+                print(f"Progress: {counter * 100 // length}%")
 
         return data
 
@@ -284,32 +289,55 @@ class SubjectHandler():
     # TODO
     """
 
-    def __init__(self, all_subjs: dict):
+    def __init__(self, all_subjs: dict, data_path):
         self._all_subjects = all_subjs
+        self._data_path = data_path
 
-    def record_all_subj_ranges(self, data: dict = None) -> None:
+    def record_all_subj_uids(self, courses) -> None:
         """
-        Record all subject's ranges to the subject file.\n
-        A subject's range involes its lowest course uid and its highest course uid.\n
-        EX: A subject range:
-        "CSCI" : {
-            "start" : 1024959,
-            "end" : 1988499
-        }
+        Record all subjects' course uids to the subject file.\n
+        `data` should be a dictionary mapping uids to Courses or CourseShells\n
+        See `self.get_all_subj_uids()`
         """
-        # TODO
+        # Get the mapping from subject to num->uid dict
+        print(">>>>>> Generating course number to uid maps for subjects...")
+        subj_lists = self.get_all_subj_uids(courses)
+        print(">>>>>> Successfully mapped course numbers to uids!")
+        # Define file path and write to it
+        filename = "subject_uids.json"
+        JSONHandler.write_to_path(f"{self._data_path}/{filename}", subj_lists)
+        print(">>>>>> Subject maps written successfully!")
 
-    def get_subj_range(self, subj: str, data: dict = None) -> tuple:
+    def get_subj_uids(self, subj: str, courses) -> list[str]:
         """
-        Get a tuple of the subject's lowest course uid and subject's highest course uid from data.
+        Get a mapping of the subject's course numbers to uids from data.\n
+        If you're fetching many, consider using `get_all_subj_uids()` instead\n
+        `data` should be a dictionary mapping uids to Courses or CourseShells
         """
-        # TODO
+        return self.get_all_subj_uids(courses).get(subj)
 
-    def get_all_subj_ranges(self, data: dict = None) -> dict:
+    def get_all_subj_uids(self, courses) -> dict[str, dict[str, str]]:
         """
-        Get a dictionary with subject as key and subject's ranges as value from data.
+        Get a dict with subject as key and number->uid dict as value from data.\n
+        `data` should be a dictionary mapping uids to Courses or CourseShells
         """
-        # TODO
+        if isinstance(courses, dict):
+            courses = courses.values()
+        failed = []
+        # Create empty dicts for each subject
+        mapping = { subj: {} for subj in self._all_subjects }
+        for course in courses:
+            uid = course["uid"]
+            num = course["number"]
+            subj = course["subject"]
+            subj_map = mapping.get(subj)
+            if subj_map is None:
+                # failed.append((subj, num))
+                pass
+            else:
+                subj_map[num] = uid
+        # print(", ".join(failed))
+        return mapping
 
 class ProgramSystem:
     """
