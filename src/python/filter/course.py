@@ -5,7 +5,6 @@ This module contains filter classes related to course system.
 from python.schema.course import PrereqFormat
 from python.filter.string import StringFilter
 from python.splitter.string import StringSplitter
-from python.sources.format import JSONHandler
 
 ###############################################################################
 class CourseInfoNonPrereqFilter(StringFilter):
