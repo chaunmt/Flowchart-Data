@@ -5,7 +5,7 @@ and type-based conditions like letters and digits.
 """
 
 import pytest
-from ...splitter.string import StringSplitter
+from src.python.splitter.string import StringSplitter
 
 
 class TestStringSplitter:
