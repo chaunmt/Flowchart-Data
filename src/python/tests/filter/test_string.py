@@ -101,8 +101,8 @@ class TestStringFilterSpace():
 
             # Check nested value
             for _ in range(1, 3):
-                sf = StringFilterSpace(sf)          # Nest filter
-                s = sf.process()                    # Process all nested filters
+                sf = StringFilterSpace(sf)      # Nest filter
+                s = sf.process()                # Process all nested filters
 
                 # Assert value
                 assert s == expected_str, (
