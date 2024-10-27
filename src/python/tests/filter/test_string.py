@@ -2,14 +2,24 @@
 This module contains tests for string's filter.
 """
 
+# pylint: disable=protected-access
+
 import pytest
-from ...filter.string import *
+from ...filter.string import (
+    StringComponent,
+    StringFilter,
+    StringFilterAlpha,
+    StringFilterBracket,
+    StringFilterNumeric,
+    StringFilterSign,
+    StringFilterSpace
+)
 
 class TestStringFilter():
     """
     This class contains tests for the StringFilter class.
     """
-    
+
     ###############################################################################
     def test_init(self):
         """
@@ -18,17 +28,17 @@ class TestStringFilter():
         # Correct type
         sf = StringFilter(StringComponent("ayo"))
         assert sf._s._s == "ayo"
-        
+
         sf = StringFilter(StringComponent("@$90 asfuh0 1-1 !"))
         assert sf._s._s == "@$90 asfuh0 1-1 !"
-        
+
         # Wrong type
-        with pytest.raises(TypeError) as error:
+        with pytest.raises(TypeError) as _:
             assert StringFilter("just a string")
             assert StringFilter(10)
             assert StringFilter(True)
             assert StringFilter(None)
-    
+
     ###############################################################################
     def test_value(self):
         """
@@ -36,10 +46,10 @@ class TestStringFilter():
         """
         sf = StringFilter(StringComponent("ayo"))
         assert sf.value._s == "ayo"
-        
+
         sf = StringFilter(StringComponent("@$90 asfuh0 1-1 !"))
         assert sf.value._s == "@$90 asfuh0 1-1 !"
-    
+
     ###############################################################################
     def test_process(self):
         """
@@ -51,17 +61,17 @@ class TestStringFilter():
             This decorator adds a text to check the nested behavior
             of StringFilter's process method.
             """
-            
+
             def process(self):
                 """
                 Add a text to the return component.
                 """
                 return f"Processed: {self._s.process()}"
-        
+
         # Initialize variables
         neststr = "my string"
         sf = StringComponent(neststr)
-        
+
         # Check nested value
         for _ in range(1, 6):
             sf = TextDecorator(sf)              # Nested
@@ -83,17 +93,17 @@ class TestStringFilterSpace():
             ("hello @world!", "hello@world!"),        # Contains spaces and special character
             ("  spaced out text  ", "spacedouttext")  # Leading, trailing, and multiple spaces
         ]
-        
+
         # Iterate over each test case
         for original_str, expected_str in test_cases:
             # Initialize the StringComponent
             sf = StringComponent(original_str)
-            
+
             # Check nested value
             for _ in range(1, 3):
                 sf = StringFilterSpace(sf)          # Nested
                 s = sf.process()                    # Process all nests
-                
+
                 # Assert value
                 assert s == expected_str, (
                     f"Failed for original string = {original_str}." +
@@ -120,19 +130,19 @@ class TestStringFilterSign:
         for original_str, expected_str in test_cases:
             # Initialize the StringComponent
             sf = StringComponent(original_str)
-            
+
             # Check nested value
             for _ in range(1, 3):
                 sf = StringFilterSign(sf)           # Nested
                 s = sf.process()                    # Process all nests
-                
+
                 # Assert value
                 assert s == expected_str, (
                     f"Failed for original string = {original_str}." +
                     f"Processed string = {s} is not the same as {expected_str}."
                 )
 
-    
+
 class TestStringFilterBracket:
     """
     This class contains tests for the StringFilterBracket class.
@@ -143,8 +153,8 @@ class TestStringFilterBracket:
         """
         # Define a list of test strings and their expected outputs
         test_cases = [
-            ("text with (round) brackets", "text with round brackets"), 
-            ("{curly} and [square]", "curly and square"),              
+            ("text with (round) brackets", "text with round brackets"),
+            ("{curly} and [square]", "curly and square"),
             ("(nested{brackets[example]})", "nestedbracketsexample")
         ]
 
@@ -152,18 +162,18 @@ class TestStringFilterBracket:
         for original_str, expected_str in test_cases:
             # Initialize the StringComponent
             sf = StringComponent(original_str)
-            
+
             # Check nested value
             for _ in range(1, 3):
                 sf = StringFilterBracket(sf)           # Nested
                 s = sf.process()                    # Process all nests
-                
+
                 # Assert value
                 assert s == expected_str, (
                     f"Failed for original string = {original_str}." +
                     f"Processed string = {s} is not the same as {expected_str}."
                 )
-    
+
 class TestStringFilterAlpha:
     """
     This class contains tests for the StringFilterAlpha class.
@@ -183,18 +193,18 @@ class TestStringFilterAlpha:
         for original_str, expected_str in test_cases:
             # Initialize the StringComponent
             sf = StringComponent(original_str)
-            
+
             # Check nested value
             for _ in range(1, 3):
                 sf = StringFilterAlpha(sf)           # Nested
                 s = sf.process()                    # Process all nests
-                
+
                 # Assert value
                 assert s == expected_str, (
                     f"Failed for original string = {original_str}." +
                     f"Processed string = {s} is not the same as {expected_str}."
                 )
-    
+
 class TestStringFilterNumeric:
     """
     This class contains tests for the StringFilterNumeric class.
