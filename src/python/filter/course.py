@@ -19,15 +19,16 @@ class CourseInfoNonPrereqFilter(StringFilter):
 
         # Process all previous filters
         info = self._s.process()
+        info = info.lower()
 
         # Possible split patterns for prerequisites
         split_patterns = [
-            "prereq:",
-            "prerequisite:",
-            "prerequisites:",
             "prereq",
+            "prereq:",
             "prerequisite",
-            "prerequisites"
+            "prerequisite:",
+            "prerequisites",
+            "prerequisites:",
         ]
 
         # Find a split pattern in info string
@@ -37,7 +38,6 @@ class CourseInfoNonPrereqFilter(StringFilter):
                 split_pattern = pattern
 
         # Split prereq from info
-        info = info.lower()
         splitted_info = StringSplitter.at_substring(info, split_pattern)
 
         # Combine all founded prereq into one string
