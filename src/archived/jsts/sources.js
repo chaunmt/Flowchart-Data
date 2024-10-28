@@ -21,7 +21,7 @@ function replaceSigns(str) {
 }
 
 /** Delete info about recommended courses from info string
- * WARNING: Omit this case because of data"s inconsistency */
+ * WARNING: Omit this case because of data's inconsistency */
 function spliceRecommendAt(str, splitPattern) {
   let arr = str.split(splitPattern);
   let i = 0;
@@ -36,7 +36,7 @@ function spliceRecommendAt(str, splitPattern) {
 }
 
 /** ASSUMPTION: Filter out extra information from info string 
- * WARNING: Omit this case because of data"s inconsistency
+ * WARNING: Omit this case because of data's inconsistency
 */
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
@@ -93,7 +93,7 @@ function extractCourses(str, targetSubject, targetId) {
       let [num, suffix] = splitStringAt(id, "word");
       let allowedSuffix = ["W", "H", "V", ""];
 
-      // We don"t keep any remedial courses
+      // We don't keep any remedial courses
       if (!num) {
         num = id;
       }
@@ -102,7 +102,7 @@ function extractCourses(str, targetSubject, targetId) {
         return null;
       }
 
-      // Check what is this course"s type based on its suffix
+      // Check what is this course's type based on its suffix
       if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) {
         id = num;
       }
@@ -119,7 +119,7 @@ function extractCourses(str, targetSubject, targetId) {
         }
       }
 
-      // We don"t keep any honor course in prereq
+      // We don't keep any honor course in prereq
       if (id.includes("V") || id.includes("H")) {
         return null;
       }
@@ -133,7 +133,7 @@ function extractCourses(str, targetSubject, targetId) {
     }
 
     // Remove semester and year (not a course)
-    // ASSUME: NO PREREQ"S SUBJECT --> USE TARGET"S SUBJECT
+    // ASSUME: NO PREREQ'S SUBJECT --> USE TARGET'S SUBJECT
     if (!(subject == "INSIDE") && !allSubjects.includes(subject)) {
       if (allSems.includes(subject)) {
         return null;
@@ -165,7 +165,7 @@ function isEqualCourse(A, B) {
     return false;
   }
 
-  // If A"s differs from B"s, return false
+  // If A's differs from B's, return false
   if (A.code != B.code) {
     return false;
   }

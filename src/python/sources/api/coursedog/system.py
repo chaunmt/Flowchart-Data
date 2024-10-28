@@ -45,7 +45,7 @@ class CourseSystem:
         self._general_key = config.get_general_key()
         self._honors_key = config.get_honors_key()
 
-        # Initialize an object to handle the school"s subjects
+        # Initialize an object to handle the school's subjects
         self._subject_handler  = SubjectHandler(
             JSONHandler.get_from_path(
                 self._data_path / "allSubjects.json"
