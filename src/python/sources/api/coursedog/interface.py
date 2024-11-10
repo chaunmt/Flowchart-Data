@@ -39,6 +39,7 @@ class CourseSystemInterface:
 
         # By type
         self._sys.record_all_shells_and_courses()
+        self._sys.record_all_subj_num_uids()
         return "++ Course System: Recorded all data by type!"
 
 class ProgramSystemInterface:
