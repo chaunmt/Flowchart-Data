@@ -95,7 +95,7 @@ class CourseChecker(CourseInfoChecker):
 
         # NoneType is not a valid object to compare
         if not a or not b:
-            return False
+            raise ValueError("NoneType object is not a valid object to compare.")
 
         # We can't compared objects of different types/instances
         if not (isinstance(a, type(b)) and isinstance(b, type(a))):
