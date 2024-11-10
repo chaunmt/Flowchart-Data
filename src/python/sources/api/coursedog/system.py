@@ -12,26 +12,14 @@ from python.filter.course import PrereqFilterUidNotInShell
 from python.schema.course import PrereqFormat
 from python.sources.config.school import SchoolConfigManager
 
-class CourseSystem:
+class SystemConfig():
     """
-    Handling Course Dog's API works for Courses.
+    Configuration for Course Dog's API system.
     """
-    # Course Dog's API variables
-    _ALL_COURSE_KEY = "allCourses"
-    _API_RETURN_FIELDS = (
-        "institutionId,"
-        + "code,"
-        + "subjectCode,"
-        + "courseNumber,"
-        + "name,"
-        + "longName,"
-        + "description"
-    )
-    _API_LIMIT = "infinity"
 
-    def __init__(self, school_uid: str = None) -> None:
+    def __init__(self, school_uid: str = None):
         """
-        Initalize a CourseSystem object.
+        Initalize a SystemConfig object.
         """
         # Stored school uid
         self._school_uid = school_uid
@@ -45,12 +33,76 @@ class CourseSystem:
         self._general_key = config.get_general_key()
         self._honors_key = config.get_honors_key()
 
-        # Initialize an object to handle the school's subjects
-        self._subject_handler  = SubjectHandler(
-            JSONHandler.get_from_path(
-                self._data_path / "allSubjects.json"
-            )
-        )
+class SubjectHandler(SystemConfig):
+    """
+    Handling Course Dog's API works for Subjects.
+    """
+
+    def __init__(self, school_uid: str = None):
+        """
+        Initalize a SubjectHandler object.
+        """
+        super().__init__(school_uid)
+        self._all_subjects = JSONHandler.get_from_path(f"{self._data_path}/subjects.json")
+
+    def record_all_subj(self, data: dict = None) -> None:
+        """
+        Record all subjects' code and name of the school.
+        """
+        # TODO
+
+    def record_all_subj_uids(self, data: dict = None) -> None:
+        """
+        Record all subject's ranges to the subject file.\n
+        A subject's range involes its lowest course uid and its highest course uid.\n
+        EX: A subject range:
+        "CSCI" : {
+            "start" : 1024959,
+            "end" : 1988499
+        }
+        """
+        # TODO
+
+    def get_subj_uids(self, subj: str, data: dict = None) -> tuple:
+        """
+        Get a tuple of the subject's lowest course uid and subject's highest course uid from data.
+        """
+        # TODO
+
+    def get_all_subj_uids(self, data: dict = None) -> dict:
+        """
+        Get a dictionary with subject as key and subject's ranges as value from data.
+        """
+        # TODO
+
+    def get_all_subjs(self) -> dict:
+        """
+        Get all subjects' code and name of the school.
+        """
+        # TODO
+
+class CourseSystem(SubjectHandler):
+    """
+    Handling Course Dog's API works for Courses.
+    """
+    # Course Dog's API variables
+    _ALL_COURSE_KEY = "allCourses"
+    _API_RETURN_FIELDS = ",".join([
+        "institutionId",
+        "code",
+        "subjectCode",
+        "courseNumber",
+        "name",
+        "longName",
+        "description",
+    ])
+    _API_LIMIT = "infinity"
+
+    def __init__(self, school_uid: str = None) -> None:
+        """
+        Initalize a CourseSystem object.
+        """
+        super().__init__(school_uid)
 
     def record_all_courses(self, is_honors: bool, subject: str = _ALL_COURSE_KEY):
         """
@@ -172,7 +224,7 @@ class CourseSystem:
             }
         return shells
 
-    def get_api_input(self, subject_code: str = "", limit: str = _API_LIMIT):
+    def get_api_input(self, subject_code: str = "", limit: str = _API_LIMIT) -> dict:
         """
         Get the API result for certain courses.
         """
@@ -235,7 +287,7 @@ class CourseSystem:
             # Checking the progress
             counter += 1
             if counter % interval == 0:
-                print(f"Progress: {int((counter / length) * 100)}%")
+                print(f"Progress: {counter * 100 // length}%")
 
         return data
 
@@ -278,38 +330,6 @@ class CourseSystem:
                 }
 
         return shells
-
-class SubjectHandler():
-    """
-    # TODO
-    """
-
-    def __init__(self, all_subjs: dict):
-        self._all_subjects = all_subjs
-
-    def record_all_subj_ranges(self, data: dict = None) -> None:
-        """
-        Record all subject's ranges to the subject file.\n
-        A subject's range involes its lowest course uid and its highest course uid.\n
-        EX: A subject range:
-        "CSCI" : {
-            "start" : 1024959,
-            "end" : 1988499
-        }
-        """
-        # TODO
-
-    def get_subj_range(self, subj: str, data: dict = None) -> tuple:
-        """
-        Get a tuple of the subject's lowest course uid and subject's highest course uid from data.
-        """
-        # TODO
-
-    def get_all_subj_ranges(self, data: dict = None) -> dict:
-        """
-        Get a dictionary with subject as key and subject's ranges as value from data.
-        """
-        # TODO
 
 class ProgramSystem:
     """
