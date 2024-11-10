@@ -19,8 +19,8 @@ class TestStringSplitter:
         assert StringSplitter.at_index("abcdef", 2) == ['abc', 'def']
         assert StringSplitter.at_index("abcdef", 1) == ['ab', 'cdef']
         assert StringSplitter.at_index("abcdef", 0) == ['a', 'bcdef']
-        assert StringSplitter.at_index("abcdef", 5) == ['abcdef', '']
-        assert StringSplitter.at_index("a", 0) == ['a', '']
+        assert StringSplitter.at_index("abcdef", 5) == ['abcdef']
+        assert StringSplitter.at_index("a", 0) == ['a']
         # Any empty input string returns []
         assert StringSplitter.at_index("", 0) == []
 

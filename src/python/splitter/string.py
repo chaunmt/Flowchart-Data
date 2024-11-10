@@ -18,10 +18,20 @@ class StringSplitter:
         return the result list with this character.
         """
 
+        # Error handlers
         if not s:
             return []
-
-        return [s[:index + 1], s[index + 1:]]
+        
+        if index < 0 or index >= len(s):
+            raise ValueError("Index out of bounds")
+        
+        # Split the list into two halves at index
+        splits = [s[:index + 1], s[index + 1:]]
+        
+        if splits[1] == '':  # If the second string is empty
+            splits.pop()  # Remove the empty string
+        
+        return splits
 
     #############################################################################
     @staticmethod
