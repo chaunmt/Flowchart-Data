@@ -43,37 +43,58 @@ class SubjectHandler(SystemConfig):
         Initalize a SubjectHandler object.
         """
         super().__init__(school_uid)
-        self._all_subjects = JSONHandler.get_from_path(f"{self._data_path}/subjects.json")
+        self._all_subjects = JSONHandler.get_from_path(f"{self._data_path}/allSubjects.json")
 
-    def record_all_subj(self, data: dict = None) -> None:
+    def record_all_subj(self) -> None:
         """
         Record all subjects' code and name of the school.
         """
         # TODO
 
-    def record_all_subj_uids(self, data: dict = None) -> None:
+    def record_all_subj_num_uids(self) -> None:
         """
-        Record all subject's ranges to the subject file.\n
-        A subject's range involes its lowest course uid and its highest course uid.\n
-        EX: A subject range:
-        "CSCI" : {
-            "start" : 1024959,
-            "end" : 1988499
+        Record all subject's num->uid maps to a json file.\n
+        EX:
+        {
+            "AAS": {
+                "1101": "797460",
+                "1201": "803713"
+            }
         }
         """
-        # TODO
+        # Get the mapping from subject to num->uid dict
+        print(">>>>>> Generating course number to uid maps for subjects...")
+        subj_lists = self.get_all_subj_num_uids(
+            JSONHandler.get_from_path(f"{self._course_path}/{self._ALL_COURSE_KEY}Shells.json")
+        )
+        print(">>>>>> Successfully mapped course numbers to uids!")
+        
+        # Define file path and write to it
+        filename = "subject_uids.json"
+        JSONHandler.write_to_path(f"{self._data_path}/{filename}", subj_lists)
+        print(">>>>>> Subject maps written successfully!")
 
-    def get_subj_uids(self, subj: str, data: dict = None) -> tuple:
+    def get_all_subj_num_uids(self, courses) -> dict:
         """
-        Get a tuple of the subject's lowest course uid and subject's highest course uid from data.
+        Get a dictionary with subject as key and subject's num->uid maps as value from data.
         """
-        # TODO
+        if isinstance(courses, dict):
+            courses = courses.values()
 
-    def get_all_subj_uids(self, data: dict = None) -> dict:
-        """
-        Get a dictionary with subject as key and subject's ranges as value from data.
-        """
-        # TODO
+        # Create empty dicts for each subject
+        mapping = { subj: {} for subj in self._all_subjects }
+        for course in courses:
+            # Get necessary data
+            uid = course["uid"]
+            num = course["number"]
+            subj = course["subject"]
+            subj_map = mapping.get(subj)
+
+            # Map a subject's course number to its uid
+            if subj_map is not None:
+                subj_map[num] = uid
+
+        return mapping
 
     def get_all_subjs(self) -> dict:
         """
