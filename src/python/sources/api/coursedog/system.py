@@ -70,7 +70,7 @@ class SubjectHandler(SystemConfig):
         print(">>>>>> Successfully mapped course numbers to uids!")
         
         # Define file path and write to it
-        filename = "subject_uids.json"
+        filename = "subjectUidMaps.json"
         JSONHandler.write_to_path(f"{self._data_path}/{filename}", subj_lists)
         print(">>>>>> Subject maps written successfully!")
 
