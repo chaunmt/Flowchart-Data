@@ -31,8 +31,9 @@ class CourseDogFacade:
         """
 
         res = []
-        res.append(self._coursesys.record_all_shells_and_courses())
-        res.append(self._coursesys.record_all_subj_num_uids())
+        # res.append(self._coursesys.record_all_shells_and_courses())
+        # res.append(self._coursesys.record_all_subj_num_uids())
+        res.append(self._programsys.record_all_programs())
         res.append("++ Course Dog Facade: Subsystems' actions performed!")
 
         return "\n".join(res)

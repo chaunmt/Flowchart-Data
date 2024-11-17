@@ -360,10 +360,42 @@ class CourseSystem(SubjectHandler):
 
         return shells
 
-class ProgramSystem:
+class ProgramSystem(SubjectHandler):
     """
     # TODO
     """
     
+    # Course Dog's API variables
+    _API_RETURN_FIELDS = ",".join([
+        "",""
+    ])
+    _API_LIMIT = "infinity"
+    
     def __init__(self, school_uid: str = None) -> None:
-        pass
+        """
+        Initalize a ProgramSystem object.
+        """
+        self._school_uid = school_uid
+    
+    def record_all_shells_and_programs(self) -> str:
+        """
+        Record all programs of the school.
+        """
+        # TODO record all program shells
+        # TODO record major program shells
+        # TODO record minor program shells
+        # TODO record certificate program shells
+        # TODO record other program shells
+        # TODO record all program data
+        # TODO record major program data
+        # TODO record minor program data
+        # TODO record certificate program data
+        # TODO record other program data
+        
+        return "++ ProgramSystem: All programs data written successfully!"
+    
+    def get_program_requirements(self, program) -> dict:
+        """
+        Get the requirements of a program.
+        """
+        # TODO
