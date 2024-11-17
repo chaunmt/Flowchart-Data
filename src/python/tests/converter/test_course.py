@@ -327,7 +327,7 @@ class TestPrereqInfoConverter:
 
     def test_to_nested_code_dicts(self):
         """
-        This method contains tests for the to_nested_code_dict method.
+        This method contains tests for the to_nested_code_dicts method.
         """
         # Define expected outputs for each info string from self.original
         # Skip the last case because this method only work with one string
