@@ -11,6 +11,7 @@ from ...converter.course import (
     PrereqInfoConverter
 )
 
+
 class TestCourseInfoConverter:
     """
     This class contains tests for the CourseInfoConverter class.
@@ -79,7 +80,8 @@ class TestCourseInfoConverter:
     #############################################################################
     @pytest.mark.parametrize("original, alter_subj, expected", [
         # Case 1
-        ("CSci 3081 W", "CSCI", "CSCI3081"),  # We don't care about suffix if it's separated
+        # We don't care about suffix if it's separated
+        ("CSci 3081 W", "CSCI", "CSCI3081"),
         # Case 2
         ("csci 2021, csci 2041", "CSCI", "CSCI2021"),
         # Case 3
@@ -131,14 +133,16 @@ class TestCourseInfoConverter:
             "MATH 1001, CSCI 3081W, 101",
             "MATH",
             True,   # Get closest subject
-            ["MATH1001", "CSCI3081W", "CSCI"]   # Number is picked but is found to be invalid
+            # Number is picked but is found to be invalid
+            ["MATH1001", "CSCI3081W", "CSCI"]
         ),
     ])
     def test_info_to_course_codes(self, original, alter_subj, get_closest_subj, expected):
         """
         This method contains tests for the info_to_course_codes method.
         """
-        result = CourseInfoConverter.info_to_course_codes(original, alter_subj, get_closest_subj)
+        result = CourseInfoConverter.info_to_course_codes(
+            original, alter_subj, get_closest_subj)
         assert result == expected, f"Expected '{expected}', got '{result}'"
 
     #############################################################################
@@ -154,8 +158,10 @@ class TestCourseInfoConverter:
         """
         This method contains tests for the course_code_to_uid method.
         """
-        result = CourseInfoConverter.course_code_to_uid("umn_umntc_peoplesoft", original)
+        result = CourseInfoConverter.course_code_to_uid(
+            "umn_umntc_peoplesoft", original)
         assert result == expected, f"Expected '{expected}', got '{result}'"
+
 
 class TestPrereqInfoConverter:
     """
@@ -169,17 +175,17 @@ class TestPrereqInfoConverter:
         cls.school_uid = "umn_umntc_peoplesoft"
         cls.original = [
             {
-                "info_string" : "1913 or 1933 or instr consent",
-                "alter_subj" : "CSCI"
+                "info_string": "1913 or 1933 or instr consent",
+                "alter_subj": "CSCI"
             },
             {
-                "info_string" : "at least C- in [PSTL 731 or PSTL 732]",
-                "alter_subj" : "MATH"
+                "info_string": "at least C- in [PSTL 731 or PSTL 732]",
+                "alter_subj": "MATH"
             },
             {
                 # Info string is already pre-processed in extractor
-                "info_string" : "5651 or [Stat 5101 and 5052 and [CSCI 4041 or 2021]]",
-                "alter_subj" : "MATH"
+                "info_string": "5651 or [Stat 5101 and 5052 and [CSCI 4041 or 2021]]",
+                "alter_subj": "MATH"
             }
         ]
 
@@ -190,16 +196,17 @@ class TestPrereqInfoConverter:
                     "810346"
                 ]
             },
-            {'and': [{'or': ['', '']}]},    # Empties are filtered later in extractor
+            # Empties are filtered later in extractor
+            {'and': [{'or': ['', '']}]},
             {
                 "or": [
                     "004308",
                     {
-                        "and" : [
+                        "and": [
                             "006408",
                             "820085",
                             {
-                                "or" : [
+                                "or": [
                                     "003675",
                                     "003673"
                                 ]
@@ -309,7 +316,8 @@ class TestPrereqInfoConverter:
         for i in range(0, 1):
             # Convert a string into a nested code dictionary
             converter = self.converts[i]
-            nested_code_dict = converter.to_nested_code_dict(converter._prereq_str)
+            nested_code_dict = converter.to_nested_code_dict(
+                converter._prereq_str)
 
             # Assert value
             assert nested_code_dict == expected_outputs[i], (
@@ -319,9 +327,34 @@ class TestPrereqInfoConverter:
 
     def test_to_nested_code_dicts(self):
         """
-        This method contains tests for the to_nested_code_dicts method.
+        This method contains tests for the to_nested_code_dict method.
         """
-        # TODO
+        # Define expected outputs for each info string from self.original
+        # Skip the last case because this method only work with one string
+        expected_outputs = [
+            # Expected output for "1913 or 1933 or instr consent"
+            [{"or": ["CSCI1913", "CSCI1933"]}],
+
+            # Expected output for "at least C- in [PSTL 731 or PSTL 732]"
+            [{'or': ['MATH', 'MATH']}, {'and': ['NESTEDS0']}],
+
+            [{'or': ['CSCI4041', 'CSCI2021']}, {
+                'and': ['STAT5101', 'STAT5052', 'NESTEDS0']}, {'or': ['MATH5651', 'NESTEDS1']}]
+        ]
+
+        # Iterate over each test case
+        for i in range(0, 3):
+            # Convert a string into a nested code dictionary
+            converter = self.converts[i]
+            nested_ss = converter.to_nested_ss(converter._prereq_str)
+            print(nested_ss)
+            nested_code_dicts = converter.to_nested_code_dicts(nested_ss)
+
+            # Assert value
+            assert nested_code_dicts == expected_outputs[i], (
+                f"For input '{converter._prereq_str}', " +
+                f"expected {expected_outputs[i]}, got {nested_code_dicts}"
+            )
 
     def test_to_combined_logic_code_dict(self):
         """
@@ -339,7 +372,8 @@ class TestPrereqInfoConverter:
             converter = self.converts[i]
             nested_ss = converter.to_nested_ss(converter._prereq_str)
             nested_code_dicts = converter.to_nested_code_dicts(nested_ss)
-            logic_code_dict = converter.to_combined_logic_code_dict(nested_code_dicts)
+            logic_code_dict = converter.to_combined_logic_code_dict(
+                nested_code_dicts)
             logic_uid_dict = converter.to_logic_uid_dict(logic_code_dict)
 
             # Assert value
