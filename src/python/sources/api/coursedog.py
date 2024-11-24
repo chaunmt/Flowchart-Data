@@ -50,7 +50,7 @@ class SubjectHandler(SystemConfig):
         Record all subjects' code and name of the school.
         """
         # TODO
-        
+
         return "++ SubjectHandler: All subjects data written successfully!"
 
     def record_all_subj_num_uids(self) -> None:
@@ -70,12 +70,12 @@ class SubjectHandler(SystemConfig):
             JSONHandler.get_from_path(f"{self._course_path}/{self._ALL_COURSE_KEY}Shells.json")
         )
         print(">>>>>> Successfully mapped course numbers to uids!")
-        
+
         # Define file path and write to it
         filename = "subjectUidMaps.json"
         JSONHandler.write_to_path(f"{self._data_path}/{filename}", subj_lists)
         print(">>>>>> Subject maps written successfully!")
-        
+
         return "++ SubjectHandler: All subjects' num->uid maps data written successfully!"
 
     def get_all_subj_num_uids(self, courses) -> dict:
@@ -140,7 +140,7 @@ class CourseSystem(SubjectHandler):
         # TODO record the data we get into specific subject json file
 
         return "++ CourseSystem: All courses data written successfully!"
-    
+
     def record_all_shells_and_courses(self) -> str:
         """
         Record all courses of a certain type (general, honors, or either).
@@ -190,7 +190,7 @@ class CourseSystem(SubjectHandler):
         # Write shells and courses data to path
         for file_name, data in data_to_write:
             JSONHandler.write_to_path(f"{self._course_path}/{file_name}", data)
-            
+
         return "++ CourseSystem: All courses and shells data written successfully!"
 
     def get_honors_courses(self, honors_only_shells: dict, all_courses: dict):
@@ -364,19 +364,31 @@ class ProgramSystem(SubjectHandler):
     """
     # TODO
     """
-    
+
     # Course Dog's API variables
     _API_RETURN_FIELDS = ",".join([
-        "",""
+        "_id",
+        # "type",
+        # "career",
+        # "catalogDisplayName",
+        # "diplomaDescription",
+        # "description",
+        # "customFields.cdProgramCreditsProgramMin",
+        # "customFields.cdProgramCreditsProgramMax",
+        # "customFields.cdProgramCreditsDegreeMin",
+        # "customFields.cdProgramCreditsDegreeMax",
+        "requisites"
     ])
+    _API_IS_ACTIVE = "true"
+    _API_INCLUDE_PENDING = "false"
     _API_LIMIT = "infinity"
-    
+
     def __init__(self, school_uid: str = None) -> None:
         """
         Initalize a ProgramSystem object.
         """
-        self._school_uid = school_uid
-    
+        super().__init__(school_uid)
+
     def record_all_shells_and_programs(self) -> str:
         """
         Record all programs of the school.
@@ -391,9 +403,70 @@ class ProgramSystem(SubjectHandler):
         # TODO record minor program data
         # TODO record certificate program data
         # TODO record other program data
-        
+
+        # Sample (TODO PLEASE REMOVE)
+        raw = self.get_api_input()
+        print(">>>>>> Got raw data!")
+        JSONHandler.write_to_path(f"{self._program_path}/allProgramsShells.json", raw)
+
         return "++ ProgramSystem: All programs data written successfully!"
-    
+
+    def get_api_input(self, limit: str = _API_LIMIT) -> dict:
+        """
+        Get the API result for certain courses.
+        """
+        raw = JSONHandler.get_from_url(
+            'https://app.coursedog.com/api/v1/cm/'  # API
+            + self._school_uid
+            + '/programs?'  # Search programs
+            + 'list=' # Return a list of programs with _id as key
+            + '&isActive=' + self._API_IS_ACTIVE
+            + '&includePending=' + self._API_INCLUDE_PENDING
+            + '&limit=' + limit
+        )
+
+        def get_safe_value(data, keys, default: any = None):
+            """
+            Safely access nested dictionary keys.\n
+            Returns the default value if any key is missing.
+            """
+            try:
+                for key in keys:
+                    data = data[key]
+                return data
+            except (KeyError, TypeError):
+                return default
+
+        # return
+        p = {
+            program["_id"]: {
+                # Basic information
+                "uid": program["_id"],
+                # "type": get_safe_value(program, ["type"]),
+                # "career": get_safe_value(program, ["career"]),
+                "name": get_safe_value(program, ["catalogDisplayName"]),
+                # "diploma": get_safe_value(program, ["diplomaDescription"]),
+                # "info": get_safe_value(program, ["description"]),
+                # # Credit information
+                # "programMinCredit": get_safe_value(program, [
+                #     "customFields", "cdProgramCreditsProgramMin"
+                # ]),
+                # "programMaxCredit": get_safe_value(program, [
+                #     "customFields", "cdProgramCreditsProgramMax"
+                # ]),
+                # "degreeMinCredit": get_safe_value(program, [
+                #     "customFields", "cdProgramCreditsDegreeMin"
+                # ]),
+                # "degreeMaxCredit": get_safe_value(program, [
+                #     "customFields", "cdProgramCreditsDegreeMax"
+                # ]),,
+                # Requisites
+                "requisite": get_safe_value(program, ["requisites", "requisitesSimple"])
+            } for _, program in raw.items()
+        }
+
+        # TODO Check requisite's subRules and value field
+
     def get_program_requirements(self, program) -> dict:
         """
         Get the requirements of a program.
