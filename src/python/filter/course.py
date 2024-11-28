@@ -179,11 +179,11 @@ class PrereqFilterRedundantNest(PrereqFilter):
                             if len(value) == 1:
                                 prereq[index] = value[0]
                             else:
-                                ValueError(
-                                    f"An important logical key ('and', 'or')" +
+                                raise ValueError(
+                                    "An important logical key ('and', 'or')" +
                                     f"is missing for the nest of this list: {value}"
                                 )
-                        
+
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
@@ -203,7 +203,7 @@ class PrereqFilterRedundantNest(PrereqFilter):
                         key = list(prereq.keys())[0]
                         if isinstance(prereq[key], dict):
                             return rec_filter(prereq[key])
-                        elif isinstance(prereq[key], list) and len(prereq[key]) == 1:
+                        if isinstance(prereq[key], list) and len(prereq[key]) == 1:
                             return rec_filter(prereq[key])
 
                     changed = False
@@ -221,11 +221,11 @@ class PrereqFilterRedundantNest(PrereqFilter):
             return prereq
 
         p = rec_filter(self.prereq.process())
-        
+
         # Make sure the final result is a PrereqFormat object
         if isinstance(p, list):
             p = { "and": p }
-            
+
         return p
 
 ###############################################################################
