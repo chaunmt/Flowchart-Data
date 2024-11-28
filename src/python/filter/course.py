@@ -1,5 +1,12 @@
 """
-This module contains filter classes related to course system.
+This module contains filter classes related to course system:
+- CourseInfoNonPrereqFilter
+- PrereqFilter
+- PrereqFilterEmpty
+- PrereqFilterRedundantNest
+- PrereqFilterDuplicate
+- PrereqFilterNonUid
+- PrereqFilterUidNotInShell
 """
 
 from python.schema.course import PrereqFormat
@@ -65,7 +72,7 @@ class PrereqFilter(PrereqFormat):
             raise TypeError(
                 f"Expected a StringComponent instance for 's' instead of {type(prereq)}"
             )
-        
+
         # Initialize
         super().__init__(prereq)
         self._prereq = prereq
@@ -169,6 +176,15 @@ class PrereqFilterRedundantNest(PrereqFilter):
 
                     changed = False
                     for index, value in enumerate(prereq):
+                        if isinstance(value, list):
+                            if len(value) == 1:
+                                prereq[index] = value[0]
+                            else:
+                                ValueError(
+                                    f"An important logical key ('and', 'or')" +
+                                    f"is missing for the nest of this list: {value}"
+                                )
+                        
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
@@ -188,6 +204,8 @@ class PrereqFilterRedundantNest(PrereqFilter):
                         key = list(prereq.keys())[0]
                         if isinstance(prereq[key], dict):
                             prereq = prereq[key]
+                        elif isinstance(prereq[key], list) and len(prereq[key]) == 1:
+                            return rec_filter(prereq[key])
 
                     changed = False
                     for key, value in prereq.items():
@@ -210,7 +228,6 @@ class PrereqFilterDuplicate(PrereqFilter):
     """
     This class filter out all duplicate elements of the same nested level in prereq.
     """
-
 
     def process(self) -> dict:
         """

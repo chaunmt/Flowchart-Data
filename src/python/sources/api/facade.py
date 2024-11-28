@@ -33,6 +33,6 @@ class CourseDogFacade:
         res = []
         res.append("++ Course Dog Facade orders subsystems to perform the action:")
         res.append(self._coursesys.record_all_shells_and_courses())
-        res.append(self._coursesys.record_all_subj_num_uids())
+        # res.append(self._coursesys.record_all_subj_num_uids())
 
         return "\n".join(res)

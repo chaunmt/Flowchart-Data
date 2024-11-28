@@ -81,9 +81,14 @@ class PrereqExtractor:
         """
 
         p = PrereqFormat(self._prereq)
-        p = PrereqFilterDuplicate(p)
-        p = PrereqFilterNonUid(p)
-        p = PrereqFilterRedundantNest(p)
-        p = PrereqFilterEmpty(p)
 
-        self._prereq = p.process()
+        while True:
+            p = PrereqFilterNonUid(p)
+            p = PrereqFilterDuplicate(p)
+            p = PrereqFilterEmpty(p)
+            p = PrereqFilterRedundantNest(p)
+
+            pp = p.process()
+            if pp == self._prereq:
+                break
+            self._prereq = pp
