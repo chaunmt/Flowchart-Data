@@ -293,12 +293,12 @@ class TestPrereqFilterRedundantNest:
             # Case 1
             "single_item_list": {
                 "original": ["004126"],     # Single item list
-                "expected": ["004126"]      # Keep 1 nest
+                "expected": {"and" : ["004126"]}  # Change key to "and" for outermost 1 member nest
             },
             # Case 2
             "single_item_dict": {
-                "original": {"and": {"or": "004126"}},  # Single-item nested dict
-                "expected": {"or": "004126"}            # Keep 1 nest
+                "original": {"and": {"or": ["004126"]}},  # Single-item nested dict
+                "expected": {"and": ["004126"]}         # PrereqFormat should be a dictionary
             },
             # Case 3
             "multi_level_single_item_nesting": {
@@ -311,7 +311,7 @@ class TestPrereqFilterRedundantNest:
                     "and": [
                         {
                             "or": [
-                                {"and": "016224"}
+                                {"and": ["016224"]}
                             ]
                         }
                     ]
@@ -324,7 +324,7 @@ class TestPrereqFilterRedundantNest:
                     "and": [
                         {
                             "or": [
-                                {"and": "016224"}
+                                {"and": ["016224"]}
                             ]
                         },
                         "004126"

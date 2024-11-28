@@ -171,8 +171,7 @@ class PrereqFilterRedundantNest(PrereqFilter):
                     # Delete a redundant outer list (list of only 1 item)
                     if len(prereq) == 1:
                         if isinstance(prereq[0], (dict, list)):
-                            prereq = prereq[0]
-                            return rec_filter(prereq)
+                            return rec_filter(prereq[0])
 
                     changed = False
                     for index, value in enumerate(prereq):
@@ -203,7 +202,7 @@ class PrereqFilterRedundantNest(PrereqFilter):
                     if len(prereq) == 1:
                         key = list(prereq.keys())[0]
                         if isinstance(prereq[key], dict):
-                            prereq = prereq[key]
+                            return rec_filter(prereq[key])
                         elif isinstance(prereq[key], list) and len(prereq[key]) == 1:
                             return rec_filter(prereq[key])
 
