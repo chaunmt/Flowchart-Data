@@ -316,9 +316,23 @@ class TestPrereqFilterRedundantNest:
                         }
                     ]
                 },
-                "expected": {"and": "016224"}  # Should recursively flatten to the closest nest
+                "expected": {"and": ["016224"]}  # Should recursively flatten to the closest nest
             },
             # Case 5
+            "mixed_nesting": {
+                "original": {
+                    "and": [
+                        {
+                            "or": [
+                                {"and": "016224"}
+                            ]
+                        },
+                        "004126"
+                    ]
+                },
+                "expected": {"and": ["016224", "004126"]}
+            },
+            # Case 6
             "already_flattened": {
                 "original": {
                     "and": [

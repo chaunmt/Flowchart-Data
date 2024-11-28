@@ -221,7 +221,13 @@ class PrereqFilterRedundantNest(PrereqFilter):
                         break
             return prereq
 
-        return rec_filter(self.prereq.process())
+        p = rec_filter(self.prereq.process())
+        
+        # Make sure the final result is a PrereqFormat object
+        if isinstance(p, list):
+            p = { "and": p }
+            
+        return p
 
 ###############################################################################
 class PrereqFilterDuplicate(PrereqFilter):
