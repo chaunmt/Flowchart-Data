@@ -50,7 +50,7 @@ class SubjectHandler(SystemConfig):
         Record all subjects' code and name of the school.
         """
         # TODO
-        
+
         return "++ SubjectHandler: All subjects data written successfully!"
 
     def record_all_subj_num_uids(self) -> None:
@@ -70,12 +70,12 @@ class SubjectHandler(SystemConfig):
             JSONHandler.get_from_path(f"{self._course_path}/{self._ALL_COURSE_KEY}Shells.json")
         )
         print(">>>>>> Successfully mapped course numbers to uids!")
-        
+
         # Define file path and write to it
         filename = "subjectUidMaps.json"
         JSONHandler.write_to_path(f"{self._data_path}/{filename}", subj_lists)
         print(">>>>>> Subject maps written successfully!")
-        
+
         return "++ SubjectHandler: All subjects' num->uid maps data written successfully!"
 
     def get_all_subj_num_uids(self, courses) -> dict:
@@ -86,17 +86,19 @@ class SubjectHandler(SystemConfig):
             courses = courses.values()
 
         # Create empty dicts for each subject
-        mapping = { subj: {} for subj in self._all_subjects }
+        mapping = { subj: dict() for subj in self._all_subjects }
         for course in courses:
             # Get necessary data
             uid = course["uid"]
+            honor = course["honors"]
             num = course["number"]
             subj = course["subject"]
             subj_map = mapping.get(subj)
 
-            # Map a subject's course number to its uid
+            # Map a subject's course number (including an H for honors) to its uid
+            index = f"{num}{"H" if honor else ""}"
             if subj_map is not None:
-                subj_map[num] = uid
+                subj_map[index] = uid
 
         return mapping
 
@@ -140,7 +142,7 @@ class CourseSystem(SubjectHandler):
         # TODO record the data we get into specific subject json file
 
         return "++ CourseSystem: All courses data written successfully!"
-    
+
     def record_all_shells_and_courses(self) -> str:
         """
         Record all courses of a certain type (general, honors, or either).
@@ -190,7 +192,7 @@ class CourseSystem(SubjectHandler):
         # Write shells and courses data to path
         for file_name, data in data_to_write:
             JSONHandler.write_to_path(f"{self._course_path}/{file_name}", data)
-            
+
         return "++ CourseSystem: All courses and shells data written successfully!"
 
     def get_honors_courses(self, honors_only_shells: dict, all_courses: dict):
@@ -364,6 +366,6 @@ class ProgramSystem:
     """
     # TODO
     """
-    
+
     def __init__(self, school_uid: str = None) -> None:
         pass
