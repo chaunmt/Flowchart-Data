@@ -1646,7 +1646,9 @@
     "name": "Applied Biostatistics",
     "fullname": "Applied Biostatistics",
     "info": "Conceptual basis of statistical analysis. Statistical analysis of biological data. Data visualization, descriptive statistics, significance tests, experimental design, linear model, simple/multiple regression, general linear model. Lectures, computer lab.\n\nprereq: High school algebra; BIOL 2003 recommended.",
-    "prereq": "800457"
+    "prereq": {
+      "and": "800457"
+    }
   },
   "790564": {
     "uid": "790564",
@@ -2040,7 +2042,9 @@
     "name": "Honors Chemistry I Laboratory",
     "fullname": "Honors Chemistry I Laboratory",
     "info": "Develop laboratory skills while investigating physical and chemical phenomena closely linked to lecture material. Experimental design, data collection and treatment, discussion of errors, and the proper treatment of hazardous wastes. \n\nprereq: prereq or coreq 1071H; honors student or permission of University Honors Program",
-    "prereq": "807758"
+    "prereq": {
+      "and": "807758"
+    }
   },
   "807740": {
     "uid": "807740",
@@ -2052,7 +2056,9 @@
     "name": "Honors Chem II Lab",
     "fullname": "Honors Chemistry II Laboratory",
     "info": "Develop laboratory skills as experiments become increasingly complex. Data collection/treatment, discussion of errors, proper treatment of hazardous wastes, experiment design.\n\nprereq: concurrent registration is required (or allowed) in 1072H",
-    "prereq": "807755"
+    "prereq": {
+      "and": "807755"
+    }
   },
   "002392": {
     "uid": "002392",
@@ -2083,7 +2089,9 @@
     "name": "Honors Organic Lab",
     "fullname": "Honors Organic Lab",
     "info": "Honors organic chemistry lab.\n\nprereq: [2301 or concurrent registration is required (or allowed) in 2301], [Chem or ChemE or BioC major], instr consent",
-    "prereq": "002392"
+    "prereq": {
+      "and": "002392"
+    }
   },
   "808185": {
     "uid": "808185",
@@ -2095,7 +2103,9 @@
     "name": "Honors Elem Org Chem I",
     "fullname": "Honors Elementary Organic Chemistry I",
     "info": "Important classes of organic compounds, their constitutions, configurations, conformations, reactions. Relationships between molecular structure/chemical properties/reactivities. Spectroscopic methods/characterization of organic molecules.\n\nprereq: At least B+ in 1072H, UHP student",
-    "prereq": "807755"
+    "prereq": {
+      "and": "807755"
+    }
   },
   "808186": {
     "uid": "808186",
@@ -2107,7 +2117,9 @@
     "name": "Honors Elem Org Chem II",
     "fullname": "Honors Elementary Organic Chemistry II",
     "info": "Continuation of 2331H. Reactions, synthesis, and spectroscopic characterization of organic compounds, organic polymers, and their role in biologically important classes of organic molecules such as lipids, carbohydrates, amino acids, peptides, proteins, and nucleic acids.\n\nprereq: At least C- in 2331H, UHP student",
-    "prereq": "808185"
+    "prereq": {
+      "and": "808185"
+    }
   },
   "804696": {
     "uid": "804696",
@@ -3159,7 +3171,9 @@
     "name": "Hons Urban Econ",
     "fullname": "Honors Course: Urban Economics",
     "info": "Economics of urbanization. Location of economic activity and cities. Central place theory. Site rents and form of city. Urban economic base and economic policy. Urban problems and economic policies: transportation, poverty/segregation, housing, public finance.\n\nprereq: 3101 or equiv",
-    "prereq": "007259"
+    "prereq": {
+      "and": "007259"
+    }
   },
   "007303": {
     "uid": "007303",
@@ -3171,7 +3185,9 @@
     "name": "Hons Industrial Organization",
     "fullname": "Honors: Industrial Organization and Antitrust Policy",
     "info": "Economic aspects of antitrust and related policies. Relations between market structure, economic efficiency, and welfare. Economic origins of monopoly and other restraints on competition. Purposes/effects of antitrust/related legislation.\n\nprereq: 3101 or equiv",
-    "prereq": "007259"
+    "prereq": {
+      "and": "007259"
+    }
   },
   "007316": {
     "uid": "007316",
@@ -3593,7 +3609,9 @@
     "name": "Sr Honors Proj II",
     "fullname": "Senior Honors Project II",
     "info": "Experience in research/design for electrical/computer engineering. Oral/written reports.\n\nprereq: 4981",
-    "prereq": "004814"
+    "prereq": {
+      "and": "004814"
+    }
   },
   "812592": {
     "uid": "812592",
@@ -4585,7 +4603,9 @@
     "name": "Financial Markets",
     "fullname": "Financial Markets and Interest Rates",
     "info": "Valuing fixed income securities. Term structure on interest rates. Forward rates. Fixed income valuation. Treasury, corporate, municipal, securitization markets.\n\nprereq: 3001, CSOM major, honors",
-    "prereq": "013118"
+    "prereq": {
+      "and": "013118"
+    }
   },
   "013654": {
     "uid": "013654",
@@ -4666,7 +4686,9 @@
     "name": "Portfolio Mgmt",
     "fullname": "Portfolio Management and Performance Evaluation",
     "info": "Investment environment. Concepts used to manage security portfolios. Risk/return tradeoffs, diversification. Asset allocation, Active portfolio management versus indexed portfolios. Portfolio performance evaluation.\n\nprereq: 3001, CSOM major, honors",
-    "prereq": "013118"
+    "prereq": {
+      "and": "013118"
+    }
   },
   "809513": {
     "uid": "809513",
@@ -4826,7 +4848,9 @@
     "name": "Honors Capstone Sem French",
     "fullname": "Honors Capstone Seminar in French and Francophone Studies",
     "info": "Course for French and FRIT majors only, to be taken during the final semester. \n\nThis is the capstone experience of the major in French and Francophone or FRIT Studies. Building on your prior coursework, your linguistic expertise in French, and your analytical skills, it gives you the opportunity to do independent, original work on a topic of particular interest to you. \n\nThis project is designed to bridge two upper-division French courses: a 3-credit elective of your own choice in the areas of literature, culture, or linguistics (i.e., one of your required electives numbered 31xx-36xx) and the senior project course itself (4101W/V). The elective provides background in the general field of research, while French 4101W/V allows you to learn the basics of research and advanced academic writing while working with a faculty member and a group of peers involved in similar projects.\n\nprereq: French 3101W and at least three electives completed.",
-    "prereq": "009601"
+    "prereq": {
+      "and": "009601"
+    }
   },
   "807276": {
     "uid": "807276",
@@ -5459,7 +5483,9 @@
     "name": "Honors: Sr. Seminar",
     "fullname": "Honors: Senior Seminar in Global Studies",
     "info": "Globalization, nationalism, colonialism, cultural production, environmental sustainability,  globalization of economy, migration, diasporas, global conflict/cooperation, human rights. Students examine theoretical debates and cutting edge scholarship and develop their own research projects. Capstone course.\n\nprereq: [3101, 3144, honors student, Global Studies major] or instr consent",
-    "prereq": "009237"
+    "prereq": {
+      "and": "009237"
+    }
   },
   "816524": {
     "uid": "816524",
@@ -9859,7 +9885,9 @@
     "name": "Info for Mass Communication",
     "fullname": "Information for Mass Communication",
     "info": " The ability to acquire, evaluate, and use different information sources are essential skills for professional communicators and citizens. This course teaches the process of information gathering, evaluation, and implications through the lens of mass communication. A case study is used to study this process in depth throughout the semester.\n\nprereq: Honors, [JOUR 1001 or JOUR100H], [Jour major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program]",
-    "prereq": "000222"
+    "prereq": {
+      "and": "000222"
+    }
   },
   "793487": {
     "uid": "793487",
@@ -11179,7 +11207,9 @@
     "name": "Honors Calculus II",
     "fullname": "Honors Calculus II",
     "info": "Continuation of 1571. Infinite series, differential calculus of several variables, introduction to linear algebra.\n\nprereq: 1571H (or equivalent)  honors student",
-    "prereq": "003696"
+    "prereq": {
+      "and": "003696"
+    }
   },
   "000280": {
     "uid": "000280",
@@ -11266,7 +11296,9 @@
     "name": "Honors Calculus III",
     "fullname": "Honors Calculus III",
     "info": "Integral calculus of several variables. Vector analysis, including theorems of Gauss, Green, Stokes.\n\nprereq: Math 1572H (or equivalent), honors student",
-    "prereq": "003697"
+    "prereq": {
+      "and": "003697"
+    }
   },
   "004311": {
     "uid": "004311",
@@ -11331,7 +11363,9 @@
     "name": "Honors Calc 3 - Adv Placement",
     "fullname": "Honors Calculus IV: Advanced Placement",
     "info": "Advanced linear algebra, differential equations. Introduction to complex analysis.\n\nprereq: [2583 or equiv], IT Honors office approval",
-    "prereq": "792656"
+    "prereq": {
+      "and": "792656"
+    }
   },
   "792127": {
     "uid": "792127",
@@ -11355,7 +11389,9 @@
     "name": "Honors Mathematics II",
     "fullname": "Honors Mathematics II",
     "info": "Second semester of three-semester sequence. Focuses on multivariable calculus at deeper level than regular calculus offerings. Rigorous introduction to sequences/series. Theoretical treatment of multivariable calculus. Strong introduction to linear algebra.\n\nprereq: 3592H or instr consent",
-    "prereq": "792127"
+    "prereq": {
+      "and": "792127"
+    }
   },
   "002368": {
     "uid": "002368",
@@ -11532,7 +11568,9 @@
     "name": "Honors Algebra II",
     "fullname": "Honors: Fundamental Structures of Algebra II",
     "info": "Ring/module theory, including ideals, quotients, homomorphisms,\ndomains (unique factorization, euclidean, principal ideal), fundamental theorem for finitely generated modules over euclidean domains, Jordan canonical form. Introduction to field theory, including finite fields,\nalgebraic/transcendental extensions, Galois theory.\n\nprereq: 5285",
-    "prereq": "004069"
+    "prereq": {
+      "and": "004069"
+    }
   },
   "004071": {
     "uid": "004071",
@@ -11869,7 +11907,9 @@
     "name": "Honors Mathematics - Topics",
     "fullname": "Honors Mathematics - Topics",
     "info": "Topics vary depending on interests of instructor. Theoretical treatment of chosen topic.\n\nprereq: [3593H with grade of at least B, experience in writing proofs] or dept consent; intended for mathematically-talented students with proven achievement in theoretical mathematics courses",
-    "prereq": "792657"
+    "prereq": {
+      "and": "792657"
+    }
   },
   "004181": {
     "uid": "004181",
@@ -11919,7 +11959,9 @@
     "name": "Honors Analysis II",
     "fullname": "Honors: Introduction to Analysis II",
     "info": "Rigorous treatment of Riemann-Stieltjes integration. Sequences/series of functions, uniform convergence, equicontinuous families, Stone-Weierstrass Theorem, power series. Rigorous treatment of differentiation/integration of multivariable functions, Implicit Function Theorem, Stokes' Theorem.  Additional topics as time permits.\n\nprereq: 5615",
-    "prereq": "004181"
+    "prereq": {
+      "and": "004181"
+    }
   },
   "004308": {
     "uid": "004308",
@@ -12386,7 +12428,9 @@
     "name": "Honors: App Res/Resear Utiliza",
     "fullname": "Honors: Applied Research and Research Utilization",
     "info": "Systematic inquiry in interpreting/evaluating research.  Implement study proposed in Nurs4205V. Write scholarly research report, which will serve as honors research thesis.\n\nprereq: Honors student in School of Nursing, Nurs 4205V, upper division statistics course",
-    "prereq": "007436"
+    "prereq": {
+      "and": "007436"
+    }
   },
   "792667": {
     "uid": "792667",
@@ -12753,7 +12797,9 @@
     "name": "Honors Intro. Electr. and Mag.",
     "fullname": "Honors Introduction to Electricity and Magnetism",
     "info": "Principles of electricity/magnetism for those with full year of calculus/equivalent of one year of high-school physics. Introduction to electrostatics, magnetostatics, electrodynamics, electric/magnetic properties of materials, circuits, Maxwell's equations, electromagnetic waves.\n\nprereq: 1501V, honors",
-    "prereq": "797531"
+    "prereq": {
+      "and": "797531"
+    }
   },
   "002072": {
     "uid": "002072",
@@ -12811,7 +12857,9 @@
     "name": "Hnrs Phys III",
     "fullname": "Honors Physics III",
     "info": "Third semester of comprehensive calculus-level general physics. Emphasizes use of fundamental principles to solve quantitative problems. Applications to 20th-century physics such as classical/quantum mechanical waves, optics, special relativity, and atomic structure of materials.\n\nprereq: 1402V, honors student and permission of University Honors Program",
-    "prereq": "002074"
+    "prereq": {
+      "and": "002074"
+    }
   },
   "813648": {
     "uid": "813648",
@@ -13190,7 +13238,9 @@
     "name": "Honors Thesis",
     "fullname": "Honors Thesis Credits",
     "info": "Individual research/writing of departmental honors thesis.\n\nprereq: 3109, pol sci, honors, dept consent",
-    "prereq": "007461"
+    "prereq": {
+      "and": "007461"
+    }
   },
   "804133": {
     "uid": "804133",
@@ -13422,7 +13472,9 @@
     "name": "Hrs Psy Meas & Data Analysis",
     "fullname": "Honors Introduction to Psychological Measurement and Data Analysis",
     "info": "Descriptive/basic inferential statistics in psychology. Measures of central tendency, variability, t tests, one-way ANOVA, correlation, regression, confidence intervals, effect sizes. Psychological measurement. Graphical data presentation. Statistical software.\n\nprereq: [1001 or equiv], high school algebra, honors; intended for students who plan to major in psychology",
-    "prereq": "006265"
+    "prereq": {
+      "and": "006265"
+    }
   },
   "798774": {
     "uid": "798774",
@@ -13514,7 +13566,9 @@
     "name": "Math Models Human Behavior",
     "fullname": "Mathematical Models of Human Behavior",
     "info": "Mathematical models of complex human behavior, including individual/group decision making, information processing, learning, perception, and overt action. Specific computational techniques drawn from decision theory, information theory, probability theory, machine learning, and elements of data analysis.\n\nprereq: Math 1271 or instr consent",
-    "prereq": "000120"
+    "prereq": {
+      "and": "000120"
+    }
   },
   "006518": {
     "uid": "006518",
@@ -13841,7 +13895,9 @@
     "name": "Honors: Persp Crim Justice Sys",
     "fullname": "Honors: Sociological Perspectives on the Criminal Justice System",
     "info": "This course introduces students to a sociological account of the U.S. criminal justice system. We will critically examine the components, dynamics, and effects of policing, criminal courts, community supervision, jails, and prisons. Throughout the course, we focus on sociological understandings of these processes, with particular attention to ethnic, racial, class, and gender inequalities as well as long-term problems associated with the high rate of criminal justice supervision in the U.S.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Examples of additional requirements may include:\n\u00b7   Honor students will be expected to interview a current Sociology graduate student working on a LCD topic. Following this, each student will individually be expected to do an in-class power-point presentation explaining how the interviewees? research relates with themes presented in the course. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2 page maximum reflective paper.\n\nprereq: [SOC 1001] recommended, Sociology majors/minors must register A-F, honors",
-    "prereq": "002943"
+    "prereq": {
+      "and": "002943"
+    }
   },
   "812791": {
     "uid": "812791",
@@ -13853,7 +13909,9 @@
     "name": "Honors: Social Networking",
     "fullname": "Honors: Social Networking: Theories and Methods",
     "info": "Network analysis spans a diverse range of phenomena from ego-centric ties, to small work-team sociograms, to organizational relations, to trade and military alliances among nation states. This course introduces undergraduate students to theories and methods for studying social networks, the ties connecting people, groups, and organizations. Topics include friendship, communication, small group, health, sexual and romantic, corporate, social movement, public policy, innovation diffusion, criminal and terrorist, and Internet networks. Honors students are expected to demonstrate greater depth of discussion, depth and to a degree length of writing assignments, presentations, and leadership of the students.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \nExamples of additional requirements may include:\n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper \n    exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a \n    class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2 \n    page maximum reflective paper.\n\u00b7   Interview a current Sociology graduate student and present briefly in class or write a \n    reflective piece, not more than 2 pages in length, to be submitted to the Professor. \n\nprereq: [SOC 1001] recommended, Sociology majors/minors must register A-F, honors",
-    "prereq": "002943"
+    "prereq": {
+      "and": "002943"
+    }
   },
   "810628": {
     "uid": "810628",
@@ -13865,7 +13923,9 @@
     "name": "Honors: Cities & Social Change",
     "fullname": "Honors: Cities & Social Change",
     "info": "The core themes of this class will provide an essential toolkit for approaching broad questions about social justice, culture, work, housing and service provision on multiple levels and across the globe. This course will have units on economic development, inequality, the interaction between design and human action, inclusive and exclusive cultural formations, crime and cultures of fear, social control and surveillance.\n\nprereq: 1001 recommended, Soc majors/minors must register A-F",
-    "prereq": "002943"
+    "prereq": {
+      "and": "002943"
+    }
   },
   "811599": {
     "uid": "811599",
@@ -13877,7 +13937,9 @@
     "name": "Honors: Asian Am Identities",
     "fullname": "Honors: Asian American Identities, Families & Communities",
     "info": "This course provides a sociological overview of Asian American identities, families, and communities. To place these experiences within a broader historical, structural, and cultural context the course will begin with a brief introduction to the history of Asians and Asian Americans in the United States and sociological theories about incorporation and racial stratification. We will then examine the diversity of Asian American communities and families, highlighting ethnic, gender, and class variations. Other topics of focus include racialization and discrimination, education, ethnic enclaves, family and intergenerational relationships, identity, media, culture, and politics and social action. Throughout the course, we will consider the ways in which society affects individuals, and how in turn, individuals affect society. Students will have an option to do community-engaged learning or another course project.\n\nHonors students are expected to demonstrate a greater depth of discussion, depth and to a degree length of writing assignments, presentations, and leadership of the students.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \nExamples of additional requirements may include:\n- Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n- Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n- Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n- Attend a presentation, workshop, or seminar on a related topic for this class and write a 2-page maximum reflective paper.\n- Interview a current Sociology graduate student and present briefly in class or write a reflective piece, not more than 2 pages in length, to be submitted to the Professor. \n\nprereq: [SOC 1001] recommended, honors",
-    "prereq": "002943"
+    "prereq": {
+      "and": "002943"
+    }
   },
   "811411": {
     "uid": "811411",
@@ -13889,7 +13951,9 @@
     "name": "Honors: World Pop Problems",
     "fullname": "Honors: World Population Problems",
     "info": "This class is an introduction to the contemporary issues that accompany such dramatic population change, including fertility change, disease experiences, migration as opportunity and challenge and human-environment conflict. Further, we will examine the roles of global organizations, national governments, and culture in shaping and reshaping populations. \n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session.   Students will also be expected to meet as a group and individually with the professor four times during the course semester. \nExamples of additional requirements may include:\n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2-page maximum reflective paper.\n\u00b7   Interview a current Sociology graduate student and present briefly in class or write a reflective piece, not more than 2 pages in length, to be submitted to the Professor. \n\nprereq: [SOC 1001] recommended, Sociology majors/minors must register A-F",
-    "prereq": "002943"
+    "prereq": {
+      "and": "002943"
+    }
   },
   "811450": {
     "uid": "811450",
@@ -13977,7 +14041,9 @@
     "name": "Honors: Crime and Human Rights",
     "fullname": "Honors: Crime and Human Rights",
     "info": "This course addresses serious violations of humanitarian and human rights law, efforts to criminalize those violations (laws and institutions), and consequences of these efforts. Special attention will be paid to the impact interventions have on representations and memories of atrocities on responses and the future of cycles of violence. Case studies on Holocaust, Balkan wars, Darfur, My Lai massacre, etc. Criminal justice, truth commissions, vetting, compensation programs.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Examples of additional requirements may include:\n\u00b7 Honors students will be expected to interview a current Sociology graduate student working on an LCD topic. Following this, each student will individually be expected to do an in-class PowerPoint presentation explaining how the interviewees? research relates to themes presented in the course. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \n\u00b7 Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7 Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7 Write two brief (1-page) reflection papers on current news or a two-page critique of a class reading\n\u00b7 Attend a presentation, workshop, or seminar on a related topic for this class and write a 2-page maximum reflective paper.\n\nprereq: SOC 1001, at least one 3xxx SOC course recommended, Sociology majors/minors must register A-F",
-    "prereq": "002943"
+    "prereq": {
+      "and": "002943"
+    }
   },
   "813949": {
     "uid": "813949",
@@ -14084,7 +14150,9 @@
     "name": "Hon: Sport, Culture & Society",
     "fullname": "Honors: Sport, Culture & Society",
     "info": "This course is intended to stimulate critical, sociological thinking about sport? How it is socially organized, who participates in what and why, what role (or roles) sport plays in society, and what sporting practices tell us about contemporary social life more generally. It begins from and is grounded in the notion that sport is one of the most powerful and paradoxical institutions in the modern world. The course is intended for a wide range of undergraduates, though some familiarity with basic social scientific thinking and techniques will be helpful. \n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session.  Examples of additional requirements may include:\n\u00b7   Honors students will be expected to interview a current Sociology graduate student working on a topic of interest. Following this, each student will individually be expected to do an in-class power point presentation explaining how the interviewees? research relates with themes presented in the course. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2 page maximum reflective paper.\n\nprereq: Honors; SOC 1001 recommended\n",
-    "prereq": "002943"
+    "prereq": {
+      "and": "002943"
+    }
   },
   "809976": {
     "uid": "809976",
@@ -14248,7 +14316,9 @@
     "name": "Honors: Intro Study/Hisp Lit",
     "fullname": "Honors: Introduction to the Study of Hispanic Literatures",
     "info": "Structures, meaning, and social/historical function of diverse literary texts.\n\nprereq: 3015, Spanish [major or minor]or Span-Port major",
-    "prereq": "808939"
+    "prereq": {
+      "and": "808939"
+    }
   },
   "007860": {
     "uid": "007860",
@@ -15104,7 +15174,9 @@
     "name": "Intro to Prob&Stat Honors",
     "fullname": "Introduction to Probability and Statistics Honors",
     "info": "This is an introductory course in statistics whose primary objectives are to teach students the theory of elementary probability theory and an introduction to the elements of statistical inference, including testing, estimation, and confidence statements.\n\nprereq: Math 1272",
-    "prereq": "000121"
+    "prereq": {
+      "and": "000121"
+    }
   },
   "815334": {
     "uid": "815334",
@@ -15275,7 +15347,9 @@
     "name": "Honors: Tutorial",
     "fullname": "Honors: Tutorial Seminar in Theatre Arts",
     "info": "Independent reading/research in preparing honors thesis or selected creative project.prereq: Credit will not be granted if credit has been received for: 4905; honors, theatre arts, dept consent; limit [2 cr for [cum laude or magna cum laude], 4 cr for summa cum laude]",
-    "prereq": "008615"
+    "prereq": {
+      "and": "008615"
+    }
   },
   "008299": {
     "uid": "008299",
