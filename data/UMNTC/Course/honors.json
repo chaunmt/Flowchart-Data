@@ -378,6 +378,20 @@
       ]
     }
   },
+  "008995": {
+    "uid": "008995",
+    "code": "ANTH3041",
+    "subject": "ANTH",
+    "number": "3041",
+    "honors": false,
+    "writing": false,
+    "name": "Ecological Anthropology",
+    "fullname": "Ecological Anthropology",
+    "info": "Concepts, theories, and methods of ecological anthropology (cultural ecology). How humans interact with biophysical environment. Compares biological/cultural interactions with environment. Examines adaptive strategies cross-culturally.\n\nprereq: 1003 or instr consent",
+    "prereq": {
+      "and": "008991"
+    }
+  },
   "797547": {
     "uid": "797547",
     "code": "ANTH3306W",
@@ -949,6 +963,76 @@
       ]
     }
   },
+  "797706": {
+    "uid": "797706",
+    "code": "ARCH4423",
+    "subject": "ARCH",
+    "number": "4423",
+    "honors": false,
+    "writing": false,
+    "name": "Gothic Arch",
+    "fullname": "Gothic Architecture",
+    "info": "History of architecture and urban design in Western Europe, from 1150 to 1400.\n\nprereq: 3411 or instr consent",
+    "prereq": {
+      "and": "805534"
+    }
+  },
+  "797707": {
+    "uid": "797707",
+    "code": "ARCH4424",
+    "subject": "ARCH",
+    "number": "4424",
+    "honors": false,
+    "writing": false,
+    "name": "Ren Arch",
+    "fullname": "Renaissance Architecture",
+    "info": "History of architecture and urban design in Italy, from 1400 to 1600. Emphasizes major figures (Brunelleschi, Alberti, Bramante, Palladio) and evolution of major cities (Rome, Florence, Venice).\n\nprereq: 3411 or instr consent",
+    "prereq": {
+      "and": "805534"
+    }
+  },
+  "797708": {
+    "uid": "797708",
+    "code": "ARCH4425W",
+    "subject": "ARCH",
+    "number": "4425",
+    "honors": false,
+    "writing": true,
+    "name": "Baroque Arch",
+    "fullname": "Baroque Architecture",
+    "info": "Architecture and urban design in Italy, from 1600 to 1750. Emphasizes major figures (Bernini, Borromini, Cortona, Guarini) and evolution of major cities (Rome, Turin).\n\nprereq: 3411 or instr consent",
+    "prereq": {
+      "and": "805534"
+    }
+  },
+  "797710": {
+    "uid": "797710",
+    "code": "ARCH4432",
+    "subject": "ARCH",
+    "number": "4432",
+    "honors": false,
+    "writing": false,
+    "name": "Modern Arch",
+    "fullname": "Modern Architecture",
+    "info": "Architecture and urban design in Europe and the United States from early 19th century to World War II.\n\nprereq: 3412 or instr consent",
+    "prereq": {
+      "and": "788798"
+    }
+  },
+  "797711": {
+    "uid": "797711",
+    "code": "ARCH4434",
+    "subject": "ARCH",
+    "number": "4434",
+    "honors": false,
+    "writing": false,
+    "name": "Contemporary Arch",
+    "fullname": "Contemporary Architecture",
+    "info": "Developments, theories, movements, and trends in architecture and urban design from World War II to present.\n\nprereq: 3412 or instr consent",
+    "prereq": {
+      "and": "788798"
+    }
+  },
   "804709": {
     "uid": "804709",
     "code": "ARCH4441",
@@ -964,6 +1048,20 @@
         "805534",
         "788798"
       ]
+    }
+  },
+  "797713": {
+    "uid": "797713",
+    "code": "ARCH4461",
+    "subject": "ARCH",
+    "number": "4461",
+    "honors": false,
+    "writing": false,
+    "name": "North American Indian Arch",
+    "fullname": "North American Indian Architecture",
+    "info": "Historic/contemporary principles/theories of North American Indian architecture. Culture, technology, environment, art, and craft of North American Indians in their settlements/architecture.\n\nprereq: Arch 3412, Arch or AmIn major",
+    "prereq": {
+      "and": "788798"
     }
   },
   "797641": {
@@ -3454,6 +3552,20 @@
       ]
     }
   },
+  "008914": {
+    "uid": "008914",
+    "code": "ECON8117",
+    "subject": "ECON",
+    "number": "8117",
+    "honors": false,
+    "writing": false,
+    "name": "Noncoop Game Theory",
+    "fullname": "Noncooperative Game Theory",
+    "info": "Solution concepts for noncooperative games in normal form, including Nash and perfect equilibrium and stable sets of equilibria. Extensive form games of perfect and incomplete information, sequential equilibrium, and consequences of stability for extensive form. Applications including bargaining and auctions. Seven-week course.\n\nprereq: Math 5616 or equiv or instr consent",
+    "prereq": {
+      "and": "004182"
+    }
+  },
   "008916": {
     "uid": "008916",
     "code": "ECON8119",
@@ -5270,6 +5382,20 @@
     "fullname": "Honors: Senior Project",
     "info": "Senior Project add-on credit. Must be taken concurrently with required or elective course related to area of specialization.\nPrereq instr consent, dept consent, college consent.",
     "prereq": {}
+  },
+  "003845": {
+    "uid": "003845",
+    "code": "GEOG5423",
+    "subject": "GEOG",
+    "number": "5423",
+    "honors": false,
+    "writing": false,
+    "name": "Climate Models",
+    "fullname": "Climate Models and Modeling",
+    "info": "Survey of development and research with simple and complex (three-dimensional) climate models. Environmental processes and their numerical representation in climate models; evaluation of model sensitivity and accuracy; coupling between atmosphere, biosphere, hydrosphere, and cryosphere; assessment of model predictions for climate change.\n\nprereq: 3401 or instr consent",
+    "prereq": {
+      "and": "788686"
+    }
   },
   "004870": {
     "uid": "004870",
@@ -12185,6 +12311,20 @@
     "info": "Integrative perspective on overall direction of enterprise. Choice of products/markets, selection of organizaton structures and management styles. Case analysis: identifying key issues, evaluating options, and making recommendations, under conditions of uncertainty and incomplete information.",
     "prereq": {}
   },
+  "013240": {
+    "uid": "013240",
+    "code": "MGMT4004W",
+    "subject": "MGMT",
+    "number": "4004",
+    "honors": false,
+    "writing": true,
+    "name": "Bus Policy:Strategy",
+    "fullname": "Business Policy: Strategy Formulation and Implementation",
+    "info": "Integrative perspective on overall direction of the enterprise involving both choice of products and markets and selection of organization structures and management styles; case analysis involving the identification of key issues, evaluation of options, and making recommendations under conditions of uncertainty and incomplete information.\n\nprereq: 3040, 90 cr, completion of business core courses",
+    "prereq": {
+      "and": "793666"
+    }
+  },
   "817641": {
     "uid": "817641",
     "code": "MKTG3001H",
@@ -12200,6 +12340,20 @@
         "009920",
         "825772"
       ]
+    }
+  },
+  "816784": {
+    "uid": "816784",
+    "code": "MKTG3005",
+    "subject": "MKTG",
+    "number": "3005",
+    "honors": false,
+    "writing": false,
+    "name": "Analytical Tools for Bus Probs",
+    "fullname": "Introduction to Applying Analytical Tools for Solving Business Problems",
+    "info": "The ability to make intelligent business decisions based on large data and information is becoming increasingly important for businesses and managers. This course provides a practitioner-oriented introduction of applying analytical tools in business setting. This class entails hands-on computer exercises on real data sets to apply various analytical techniques in common business applications. This course assumes that students have knowledge of fundamental analytical tools and statistical methods. The class emphasizes understanding model assumptions to help students with appropriate model selection; interpreting results in order to make optimal business decisions; designing experiments in a business setting and analyzing the experimental data to advance business objectives.\n\nprereq: SCO 2550 or equivalent statistics course",
+    "prereq": {
+      "and": "795440"
     }
   },
   "013768": {
@@ -12644,6 +12798,62 @@
     "info": "Topics of contemporary interest varying from semester to semester.\n\nprereq: honors enroll, 6 crs of 3xxx-5xxx philosophy courses",
     "prereq": {}
   },
+  "005463": {
+    "uid": "005463",
+    "code": "PHIL4010",
+    "subject": "PHIL",
+    "number": "4010",
+    "honors": false,
+    "writing": false,
+    "name": "Ancient Philosophers",
+    "fullname": "Ancient Philosophers",
+    "info": "Major work of selected ancient philosophers (e.g., Plato's Parmenides, Plato's Sophist, Aristotle's Metaphysics). Works discussed may vary from offering to offering.\n\nprereq: 3001 or instr consent",
+    "prereq": {
+      "and": "788557"
+    }
+  },
+  "005468": {
+    "uid": "005468",
+    "code": "PHIL4055",
+    "subject": "PHIL",
+    "number": "4055",
+    "honors": false,
+    "writing": false,
+    "name": "Kant",
+    "fullname": "Kant",
+    "info": "Immanuel Kant has long been recognized as a particularly systematic thinker, one who wrote foundational texts in epistemology, metaphysics, ethics, politics, aesthetics, religion, teleology, and anthropology, which still resonate and influence contemporary thought. This course studies the wide breadth of Kant's philosophical system, paying especial attention to its relevance today.\n\nprereq: 3005 or 4004 or instr consent",
+    "prereq": {
+      "and": "788558"
+    }
+  },
+  "006990": {
+    "uid": "006990",
+    "code": "PHIL4311W",
+    "subject": "PHIL",
+    "number": "4311",
+    "honors": false,
+    "writing": true,
+    "name": "History of Moral Theories",
+    "fullname": "History of Moral Theories",
+    "info": "Is human nature fundamentally selfish or are we sympathetic creatures? What is free will and do we have it? Do moral principles have a rational basis or are our moral judgments expressions of feelings? Should morality be thought of in terms of acting on principle or producing good outcomes? We will focus on these and other questions as they are explored in primary texts from the early modern history of western philosophy. prereq: 1003 or instr consent",
+    "prereq": {
+      "and": "788555"
+    }
+  },
+  "006375": {
+    "uid": "006375",
+    "code": "PHIL4320",
+    "subject": "PHIL",
+    "number": "4320",
+    "honors": false,
+    "writing": false,
+    "name": "Historical Moral Theory",
+    "fullname": "Intensive Study of a Historical Moral Theory",
+    "info": "Intensive consideration of an author or theory in the history of moral or political philosophy.\n\nprereq: 1003 or instr consent",
+    "prereq": {
+      "and": "788555"
+    }
+  },
   "006991": {
     "uid": "006991",
     "code": "PHIL4321W",
@@ -12659,6 +12869,34 @@
         "788555",
         "788556"
       ]
+    }
+  },
+  "006993": {
+    "uid": "006993",
+    "code": "PHIL4331",
+    "subject": "PHIL",
+    "number": "4331",
+    "honors": false,
+    "writing": false,
+    "name": "Contemp Moral Theories",
+    "fullname": "Contemporary Moral Theories",
+    "info": "Is morality objective, just a matter of feeling, or something in between? How do we know even the most basic of moral truths? Do I always have a reason to do what is moral? What motivates people to be moral and why do some people behave immorally? This class looks at these and related questions in metaethics, moral psychology, and other areas of contemporary moral theory. prereq: 1003 or instr consent",
+    "prereq": {
+      "and": "788555"
+    }
+  },
+  "006376": {
+    "uid": "006376",
+    "code": "PHIL4414",
+    "subject": "PHIL",
+    "number": "4414",
+    "honors": false,
+    "writing": false,
+    "name": "Political Phil",
+    "fullname": "Political Philosophy",
+    "info": "Survey of historical/contemporary works in political philosophy.\n\nprereq: 1004 or instr consent",
+    "prereq": {
+      "and": "788556"
     }
   },
   "825630": {
@@ -12685,6 +12923,62 @@
     "info": "Guided individual study leading to research paper that satisfies senior project requirement.\n\nprereq: instr consent, dept consent",
     "prereq": {}
   },
+  "808476": {
+    "uid": "808476",
+    "code": "PHIL5010",
+    "subject": "PHIL",
+    "number": "5010",
+    "honors": false,
+    "writing": false,
+    "name": "Ancient Philosophers",
+    "fullname": "Ancient Philosophers",
+    "info": "Major work of selected ancient philosophers (e.g., Plato's Parmenides, Plato's Sophist, Aristotle's Metaphysics). Works discussed vary.\n\nprereq: 3001 or instr consent",
+    "prereq": {
+      "and": "788557"
+    }
+  },
+  "798757": {
+    "uid": "798757",
+    "code": "PHIL5050",
+    "subject": "PHIL",
+    "number": "5050",
+    "honors": false,
+    "writing": false,
+    "name": "Empiricists",
+    "fullname": "Empiricists",
+    "info": "Major work of selected early modern empiricists (e.g., Locke's Essay Concerning Human Understanding, Berkeley's Principles of Human Knowledge, Hume's Treatise of Human Nature). Works discussed may vary from offering to offering.\n\nprereq: 3005 or instr consent",
+    "prereq": {
+      "and": "788558"
+    }
+  },
+  "825137": {
+    "uid": "825137",
+    "code": "PHIL5055",
+    "subject": "PHIL",
+    "number": "5055",
+    "honors": false,
+    "writing": false,
+    "name": "Kant",
+    "fullname": "Kant",
+    "info": "Immanuel Kant has long been recognized as a particularly systematic thinker, one who wrote foundational texts in epistemology, metaphysics, ethics, politics, aesthetics, religion, teleology, and anthropology, which still resonate and influence contemporary thought. This course studies the wide breadth of Kant's philosophical system, paying especial attention to its relevance today.\n\nprereq: 3005 or 4004 or instr consent\n",
+    "prereq": {
+      "and": "788558"
+    }
+  },
+  "817750": {
+    "uid": "817750",
+    "code": "PHIL5320",
+    "subject": "PHIL",
+    "number": "5320",
+    "honors": false,
+    "writing": false,
+    "name": "Historical Moral Theory",
+    "fullname": "Intensive Study of a Historical Moral Theory",
+    "info": "Intensive consideration of an author or theory in the history of moral or political philosophy.\n\nprereq: 1003 or instr consent",
+    "prereq": {
+      "and": "788555"
+    }
+  },
   "825141": {
     "uid": "825141",
     "code": "PHIL5321",
@@ -12700,6 +12994,34 @@
         "788555",
         "788556"
       ]
+    }
+  },
+  "819028": {
+    "uid": "819028",
+    "code": "PHIL5331",
+    "subject": "PHIL",
+    "number": "5331",
+    "honors": false,
+    "writing": false,
+    "name": "Contemporary Moral Theories",
+    "fullname": "Contemporary Moral Theories",
+    "info": "Is morality objective, just a matter of feeling, or something in between?  How do we know even the most basic of moral truths?  Do I always have a reason to do what is moral?  What motivates people to be moral and why do some people behave immorally? This class looks at these and related questions in metaethics, moral psychology, and other areas of contemporary moral theory.\n\nprereq: 1003 or instr consent",
+    "prereq": {
+      "and": "788555"
+    }
+  },
+  "819433": {
+    "uid": "819433",
+    "code": "PHIL5414",
+    "subject": "PHIL",
+    "number": "5414",
+    "honors": false,
+    "writing": false,
+    "name": "Political Phil",
+    "fullname": "Political Philosophy",
+    "info": "Works in political philosophy, whether historical or more contemporary, are one central element of the study of philosophy more broadly. As we will address these works, and the issues and concepts they take up, they fall within the larger field of moral philosophy. Like other works in this broad category, discussion in political philosophy typically consider both metaethical and normative questions. \n\nMetaethical questions concern the concepts we use as we consider matters of right and wrong or of ethical value. In the realm of political philosophy, authors consider rightness, wrongness and ethical value as they bear on political societies and political leaders, and not only on citizens but on non-citizens who experience the effects of political power. Examples of such questions include: What is justice? What is political power? What are freedom, equality and autonomy?\n\nNormative questions, by contrast, concern matters of practice. In the context of moral and political philosophy, they are typically questions about what we must do or refrain from doing if we are to act rightly (as opposed to prudently or efficiently for instance). Examples in the political realm include: What are just standards of criminal punishment? What obligations does a just state have to citizens and to non-citizen residents? What right, if any, do citizens and others have to protest state laws, policies and actions? What rights can citizens or others claim to equality under the law? What grounds or justifies our responses to such questions?\n\nOver the course of this semester, we will read both canonical texts in the history of political philosophy and pieces by a variety of authors who are less well known. Our aim will be to improve our ability to understand broad claims and more nuanced points, to compare and critically assess contrasting views, and to appreciate the ways in which political philosophers often draw or expand on others' works even as they challenge them. We will also be working towards improvements in the difficult task of explaining and supporting claims and analyses, in short written pieces, longer essays and oral discussions. \n\nprereq: 1004 or instr consent",
+    "prereq": {
+      "and": "788556"
     }
   },
   "006985": {
@@ -13655,6 +13977,20 @@
         "800362",
         "000120"
       ]
+    }
+  },
+  "819427": {
+    "uid": "819427",
+    "code": "PUBH3212",
+    "subject": "PUBH",
+    "number": "3212",
+    "honors": false,
+    "writing": false,
+    "name": "Infct Disease Outbreak: PubH",
+    "fullname": "Infectious Disease Outbreaks: Review of Public Health Investigation, Response, & Prevention Strategy",
+    "info": "We share the planet with a myriad of living things. The smallest of those are the ones that may impact our lives the most. These creatures are in the news nearly every day: Ebola virus in Africa, measles outbreaks in large cities, norovirus outbreaks on cruise ships, Zika virus precautions for pregnant women. This course will focus on the principles of outbreak investigation and response at the local, state, and national public health level through lectures and interactive experiences led by former public health leaders from the Minnesota Department of Health, editors and reporters from Center for Infectious Disease Research and Policy (CIDRAP) News, and current leaders of the University of Minnesota public health response system. Students will explore the many facets of infectious disease outbreak investigation, response, and prevention operations and decision-making which are often behind the scenes and not well understood by the general public. prereq: BIOL 1xxx or equivalent Honor students who have completed HSEM 2707H are NOT eligible to register for this course.",
+    "prereq": {
+      "and": "801841"
     }
   },
   "009167": {
@@ -15152,6 +15488,20 @@
       ]
     }
   },
+  "010145": {
+    "uid": "010145",
+    "code": "SPPT3256",
+    "subject": "SPPT",
+    "number": "3256",
+    "honors": false,
+    "writing": false,
+    "name": "LatAmer Cult Dis",
+    "fullname": "Latin American Cultural Discourse",
+    "info": "Cultural assumptions in current modes of interpreting Latin American reality. Representative texts are analyzed.\n\nprereq: SPAN 3015",
+    "prereq": {
+      "and": "808939"
+    }
+  },
   "016416": {
     "uid": "016416",
     "code": "SPPT3256H",
@@ -15300,6 +15650,20 @@
     "fullname": "Theatre: Spaces and Practices",
     "info": "Various theatre subjects developed by pool of instructors.",
     "prereq": {}
+  },
+  "791327": {
+    "uid": "791327",
+    "code": "TH3120",
+    "subject": "TH",
+    "number": "3120",
+    "honors": false,
+    "writing": false,
+    "name": "Theatre/Theory/Practice",
+    "fullname": "Theatre: Theory and Practice",
+    "info": "Introdution to diverse ways of thinking about theatre and its representational practices. Students explore traditional/non-traditional modes of performance through readings, discussions, and hands-on performance projects. Seminar-style course.\n\nprereq: 1101",
+    "prereq": {
+      "and": "790514"
+    }
   },
   "790362": {
     "uid": "790362",

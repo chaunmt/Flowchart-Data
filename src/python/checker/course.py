@@ -119,7 +119,10 @@ class PrereqChecker():
         Check whether a logical prerequisites dictionary has any shared uid with a course shells.
         """
 
-        if isinstance(prereq, list):
+        # If found a shared uid, return True
+        if isinstance(prereq, str) and prereq in course_shells:
+            return True
+        elif isinstance(prereq, list):
             # Traverse all possible elements
             while True:
                 for _, value in enumerate(prereq):
