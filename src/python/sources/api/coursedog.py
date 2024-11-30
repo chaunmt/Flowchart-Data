@@ -19,6 +19,7 @@ from python.filter.course import (
     PrereqFilterEmpty,
     PrereqFilterRedundantNest
 )
+from python.converter.client import FlowchartConverter
 
 class SystemConfig():
     """
@@ -255,6 +256,11 @@ class CourseSystem(SubjectHandler):
                     if pp == prereq:
                         break
                     prereq = pp
+                
+                # Convert to client's format
+                client_format = FlowchartConverter(prereq)
+                client_format.convert()
+                prereq = client_format.get_prereq()
                 # End
                 
                 prereq = prereq

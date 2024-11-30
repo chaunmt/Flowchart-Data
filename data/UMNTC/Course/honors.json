@@ -378,22 +378,6 @@
       ]
     }
   },
-  "008995": {
-    "uid": "008995",
-    "code": "ANTH3041",
-    "subject": "ANTH",
-    "number": "3041",
-    "honors": false,
-    "writing": false,
-    "name": "Ecological Anthropology",
-    "fullname": "Ecological Anthropology",
-    "info": "Concepts, theories, and methods of ecological anthropology (cultural ecology). How humans interact with biophysical environment. Compares biological/cultural interactions with environment. Examines adaptive strategies cross-culturally.\n\nprereq: 1003 or instr consent",
-    "prereq": {
-      "and": [
-        "008991"
-      ]
-    }
-  },
   "797547": {
     "uid": "797547",
     "code": "ANTH3306W",
@@ -965,86 +949,6 @@
       ]
     }
   },
-  "797706": {
-    "uid": "797706",
-    "code": "ARCH4423",
-    "subject": "ARCH",
-    "number": "4423",
-    "honors": false,
-    "writing": false,
-    "name": "Gothic Arch",
-    "fullname": "Gothic Architecture",
-    "info": "History of architecture and urban design in Western Europe, from 1150 to 1400.\n\nprereq: 3411 or instr consent",
-    "prereq": {
-      "and": [
-        "805534"
-      ]
-    }
-  },
-  "797707": {
-    "uid": "797707",
-    "code": "ARCH4424",
-    "subject": "ARCH",
-    "number": "4424",
-    "honors": false,
-    "writing": false,
-    "name": "Ren Arch",
-    "fullname": "Renaissance Architecture",
-    "info": "History of architecture and urban design in Italy, from 1400 to 1600. Emphasizes major figures (Brunelleschi, Alberti, Bramante, Palladio) and evolution of major cities (Rome, Florence, Venice).\n\nprereq: 3411 or instr consent",
-    "prereq": {
-      "and": [
-        "805534"
-      ]
-    }
-  },
-  "797708": {
-    "uid": "797708",
-    "code": "ARCH4425W",
-    "subject": "ARCH",
-    "number": "4425",
-    "honors": false,
-    "writing": true,
-    "name": "Baroque Arch",
-    "fullname": "Baroque Architecture",
-    "info": "Architecture and urban design in Italy, from 1600 to 1750. Emphasizes major figures (Bernini, Borromini, Cortona, Guarini) and evolution of major cities (Rome, Turin).\n\nprereq: 3411 or instr consent",
-    "prereq": {
-      "and": [
-        "805534"
-      ]
-    }
-  },
-  "797710": {
-    "uid": "797710",
-    "code": "ARCH4432",
-    "subject": "ARCH",
-    "number": "4432",
-    "honors": false,
-    "writing": false,
-    "name": "Modern Arch",
-    "fullname": "Modern Architecture",
-    "info": "Architecture and urban design in Europe and the United States from early 19th century to World War II.\n\nprereq: 3412 or instr consent",
-    "prereq": {
-      "and": [
-        "788798"
-      ]
-    }
-  },
-  "797711": {
-    "uid": "797711",
-    "code": "ARCH4434",
-    "subject": "ARCH",
-    "number": "4434",
-    "honors": false,
-    "writing": false,
-    "name": "Contemporary Arch",
-    "fullname": "Contemporary Architecture",
-    "info": "Developments, theories, movements, and trends in architecture and urban design from World War II to present.\n\nprereq: 3412 or instr consent",
-    "prereq": {
-      "and": [
-        "788798"
-      ]
-    }
-  },
   "804709": {
     "uid": "804709",
     "code": "ARCH4441",
@@ -1058,22 +962,6 @@
     "prereq": {
       "and": [
         "805534",
-        "788798"
-      ]
-    }
-  },
-  "797713": {
-    "uid": "797713",
-    "code": "ARCH4461",
-    "subject": "ARCH",
-    "number": "4461",
-    "honors": false,
-    "writing": false,
-    "name": "North American Indian Arch",
-    "fullname": "North American Indian Architecture",
-    "info": "Historic/contemporary principles/theories of North American Indian architecture. Culture, technology, environment, art, and craft of North American Indians in their settlements/architecture.\n\nprereq: Arch 3412, Arch or AmIn major",
-    "prereq": {
-      "and": [
         "788798"
       ]
     }
@@ -1758,11 +1646,7 @@
     "name": "Applied Biostatistics",
     "fullname": "Applied Biostatistics",
     "info": "Conceptual basis of statistical analysis. Statistical analysis of biological data. Data visualization, descriptive statistics, significance tests, experimental design, linear model, simple/multiple regression, general linear model. Lectures, computer lab.\n\nprereq: High school algebra; BIOL 2003 recommended.",
-    "prereq": {
-      "and": [
-        "800457"
-      ]
-    }
+    "prereq": "800457"
   },
   "790564": {
     "uid": "790564",
@@ -2156,11 +2040,7 @@
     "name": "Honors Chemistry I Laboratory",
     "fullname": "Honors Chemistry I Laboratory",
     "info": "Develop laboratory skills while investigating physical and chemical phenomena closely linked to lecture material. Experimental design, data collection and treatment, discussion of errors, and the proper treatment of hazardous wastes. \n\nprereq: prereq or coreq 1071H; honors student or permission of University Honors Program",
-    "prereq": {
-      "and": [
-        "807758"
-      ]
-    }
+    "prereq": "807758"
   },
   "807740": {
     "uid": "807740",
@@ -2172,11 +2052,7 @@
     "name": "Honors Chem II Lab",
     "fullname": "Honors Chemistry II Laboratory",
     "info": "Develop laboratory skills as experiments become increasingly complex. Data collection/treatment, discussion of errors, proper treatment of hazardous wastes, experiment design.\n\nprereq: concurrent registration is required (or allowed) in 1072H",
-    "prereq": {
-      "and": [
-        "807755"
-      ]
-    }
+    "prereq": "807755"
   },
   "002392": {
     "uid": "002392",
@@ -2207,11 +2083,7 @@
     "name": "Honors Organic Lab",
     "fullname": "Honors Organic Lab",
     "info": "Honors organic chemistry lab.\n\nprereq: [2301 or concurrent registration is required (or allowed) in 2301], [Chem or ChemE or BioC major], instr consent",
-    "prereq": {
-      "and": [
-        "002392"
-      ]
-    }
+    "prereq": "002392"
   },
   "808185": {
     "uid": "808185",
@@ -2223,11 +2095,7 @@
     "name": "Honors Elem Org Chem I",
     "fullname": "Honors Elementary Organic Chemistry I",
     "info": "Important classes of organic compounds, their constitutions, configurations, conformations, reactions. Relationships between molecular structure/chemical properties/reactivities. Spectroscopic methods/characterization of organic molecules.\n\nprereq: At least B+ in 1072H, UHP student",
-    "prereq": {
-      "and": [
-        "807755"
-      ]
-    }
+    "prereq": "807755"
   },
   "808186": {
     "uid": "808186",
@@ -2239,11 +2107,7 @@
     "name": "Honors Elem Org Chem II",
     "fullname": "Honors Elementary Organic Chemistry II",
     "info": "Continuation of 2331H. Reactions, synthesis, and spectroscopic characterization of organic compounds, organic polymers, and their role in biologically important classes of organic molecules such as lipids, carbohydrates, amino acids, peptides, proteins, and nucleic acids.\n\nprereq: At least C- in 2331H, UHP student",
-    "prereq": {
-      "and": [
-        "808185"
-      ]
-    }
+    "prereq": "808185"
   },
   "804696": {
     "uid": "804696",
@@ -3295,11 +3159,7 @@
     "name": "Hons Urban Econ",
     "fullname": "Honors Course: Urban Economics",
     "info": "Economics of urbanization. Location of economic activity and cities. Central place theory. Site rents and form of city. Urban economic base and economic policy. Urban problems and economic policies: transportation, poverty/segregation, housing, public finance.\n\nprereq: 3101 or equiv",
-    "prereq": {
-      "and": [
-        "007259"
-      ]
-    }
+    "prereq": "007259"
   },
   "007303": {
     "uid": "007303",
@@ -3311,11 +3171,7 @@
     "name": "Hons Industrial Organization",
     "fullname": "Honors: Industrial Organization and Antitrust Policy",
     "info": "Economic aspects of antitrust and related policies. Relations between market structure, economic efficiency, and welfare. Economic origins of monopoly and other restraints on competition. Purposes/effects of antitrust/related legislation.\n\nprereq: 3101 or equiv",
-    "prereq": {
-      "and": [
-        "007259"
-      ]
-    }
+    "prereq": "007259"
   },
   "007316": {
     "uid": "007316",
@@ -3582,22 +3438,6 @@
       ]
     }
   },
-  "008914": {
-    "uid": "008914",
-    "code": "ECON8117",
-    "subject": "ECON",
-    "number": "8117",
-    "honors": false,
-    "writing": false,
-    "name": "Noncoop Game Theory",
-    "fullname": "Noncooperative Game Theory",
-    "info": "Solution concepts for noncooperative games in normal form, including Nash and perfect equilibrium and stable sets of equilibria. Extensive form games of perfect and incomplete information, sequential equilibrium, and consequences of stability for extensive form. Applications including bargaining and auctions. Seven-week course.\n\nprereq: Math 5616 or equiv or instr consent",
-    "prereq": {
-      "and": [
-        "004182"
-      ]
-    }
-  },
   "008916": {
     "uid": "008916",
     "code": "ECON8119",
@@ -3753,11 +3593,7 @@
     "name": "Sr Honors Proj II",
     "fullname": "Senior Honors Project II",
     "info": "Experience in research/design for electrical/computer engineering. Oral/written reports.\n\nprereq: 4981",
-    "prereq": {
-      "and": [
-        "004814"
-      ]
-    }
+    "prereq": "004814"
   },
   "812592": {
     "uid": "812592",
@@ -4749,11 +4585,7 @@
     "name": "Financial Markets",
     "fullname": "Financial Markets and Interest Rates",
     "info": "Valuing fixed income securities. Term structure on interest rates. Forward rates. Fixed income valuation. Treasury, corporate, municipal, securitization markets.\n\nprereq: 3001, CSOM major, honors",
-    "prereq": {
-      "and": [
-        "013118"
-      ]
-    }
+    "prereq": "013118"
   },
   "013654": {
     "uid": "013654",
@@ -4834,11 +4666,7 @@
     "name": "Portfolio Mgmt",
     "fullname": "Portfolio Management and Performance Evaluation",
     "info": "Investment environment. Concepts used to manage security portfolios. Risk/return tradeoffs, diversification. Asset allocation, Active portfolio management versus indexed portfolios. Portfolio performance evaluation.\n\nprereq: 3001, CSOM major, honors",
-    "prereq": {
-      "and": [
-        "013118"
-      ]
-    }
+    "prereq": "013118"
   },
   "809513": {
     "uid": "809513",
@@ -4998,11 +4826,7 @@
     "name": "Honors Capstone Sem French",
     "fullname": "Honors Capstone Seminar in French and Francophone Studies",
     "info": "Course for French and FRIT majors only, to be taken during the final semester. \n\nThis is the capstone experience of the major in French and Francophone or FRIT Studies. Building on your prior coursework, your linguistic expertise in French, and your analytical skills, it gives you the opportunity to do independent, original work on a topic of particular interest to you. \n\nThis project is designed to bridge two upper-division French courses: a 3-credit elective of your own choice in the areas of literature, culture, or linguistics (i.e., one of your required electives numbered 31xx-36xx) and the senior project course itself (4101W/V). The elective provides background in the general field of research, while French 4101W/V allows you to learn the basics of research and advanced academic writing while working with a faculty member and a group of peers involved in similar projects.\n\nprereq: French 3101W and at least three electives completed.",
-    "prereq": {
-      "and": [
-        "009601"
-      ]
-    }
+    "prereq": "009601"
   },
   "807276": {
     "uid": "807276",
@@ -5423,22 +5247,6 @@
     "info": "Senior Project add-on credit. Must be taken concurrently with required or elective course related to area of specialization.\nPrereq instr consent, dept consent, college consent.",
     "prereq": {}
   },
-  "003845": {
-    "uid": "003845",
-    "code": "GEOG5423",
-    "subject": "GEOG",
-    "number": "5423",
-    "honors": false,
-    "writing": false,
-    "name": "Climate Models",
-    "fullname": "Climate Models and Modeling",
-    "info": "Survey of development and research with simple and complex (three-dimensional) climate models. Environmental processes and their numerical representation in climate models; evaluation of model sensitivity and accuracy; coupling between atmosphere, biosphere, hydrosphere, and cryosphere; assessment of model predictions for climate change.\n\nprereq: 3401 or instr consent",
-    "prereq": {
-      "and": [
-        "788686"
-      ]
-    }
-  },
   "004870": {
     "uid": "004870",
     "code": "GEOG5426",
@@ -5651,11 +5459,7 @@
     "name": "Honors: Sr. Seminar",
     "fullname": "Honors: Senior Seminar in Global Studies",
     "info": "Globalization, nationalism, colonialism, cultural production, environmental sustainability,  globalization of economy, migration, diasporas, global conflict/cooperation, human rights. Students examine theoretical debates and cutting edge scholarship and develop their own research projects. Capstone course.\n\nprereq: [3101, 3144, honors student, Global Studies major] or instr consent",
-    "prereq": {
-      "and": [
-        "009237"
-      ]
-    }
+    "prereq": "009237"
   },
   "816524": {
     "uid": "816524",
@@ -10055,11 +9859,7 @@
     "name": "Info for Mass Communication",
     "fullname": "Information for Mass Communication",
     "info": " The ability to acquire, evaluate, and use different information sources are essential skills for professional communicators and citizens. This course teaches the process of information gathering, evaluation, and implications through the lens of mass communication. A case study is used to study this process in depth throughout the semester.\n\nprereq: Honors, [JOUR 1001 or JOUR100H], [Jour major, Strat Comm major, Media and Information major or Media and Information minor or approved BIS/IDIM/ICP program]",
-    "prereq": {
-      "and": [
-        "000222"
-      ]
-    }
+    "prereq": "000222"
   },
   "793487": {
     "uid": "793487",
@@ -11379,11 +11179,7 @@
     "name": "Honors Calculus II",
     "fullname": "Honors Calculus II",
     "info": "Continuation of 1571. Infinite series, differential calculus of several variables, introduction to linear algebra.\n\nprereq: 1571H (or equivalent)  honors student",
-    "prereq": {
-      "and": [
-        "003696"
-      ]
-    }
+    "prereq": "003696"
   },
   "000280": {
     "uid": "000280",
@@ -11470,11 +11266,7 @@
     "name": "Honors Calculus III",
     "fullname": "Honors Calculus III",
     "info": "Integral calculus of several variables. Vector analysis, including theorems of Gauss, Green, Stokes.\n\nprereq: Math 1572H (or equivalent), honors student",
-    "prereq": {
-      "and": [
-        "003697"
-      ]
-    }
+    "prereq": "003697"
   },
   "004311": {
     "uid": "004311",
@@ -11539,11 +11331,7 @@
     "name": "Honors Calc 3 - Adv Placement",
     "fullname": "Honors Calculus IV: Advanced Placement",
     "info": "Advanced linear algebra, differential equations. Introduction to complex analysis.\n\nprereq: [2583 or equiv], IT Honors office approval",
-    "prereq": {
-      "and": [
-        "792656"
-      ]
-    }
+    "prereq": "792656"
   },
   "792127": {
     "uid": "792127",
@@ -11567,11 +11355,7 @@
     "name": "Honors Mathematics II",
     "fullname": "Honors Mathematics II",
     "info": "Second semester of three-semester sequence. Focuses on multivariable calculus at deeper level than regular calculus offerings. Rigorous introduction to sequences/series. Theoretical treatment of multivariable calculus. Strong introduction to linear algebra.\n\nprereq: 3592H or instr consent",
-    "prereq": {
-      "and": [
-        "792127"
-      ]
-    }
+    "prereq": "792127"
   },
   "002368": {
     "uid": "002368",
@@ -11748,11 +11532,7 @@
     "name": "Honors Algebra II",
     "fullname": "Honors: Fundamental Structures of Algebra II",
     "info": "Ring/module theory, including ideals, quotients, homomorphisms,\ndomains (unique factorization, euclidean, principal ideal), fundamental theorem for finitely generated modules over euclidean domains, Jordan canonical form. Introduction to field theory, including finite fields,\nalgebraic/transcendental extensions, Galois theory.\n\nprereq: 5285",
-    "prereq": {
-      "and": [
-        "004069"
-      ]
-    }
+    "prereq": "004069"
   },
   "004071": {
     "uid": "004071",
@@ -12089,11 +11869,7 @@
     "name": "Honors Mathematics - Topics",
     "fullname": "Honors Mathematics - Topics",
     "info": "Topics vary depending on interests of instructor. Theoretical treatment of chosen topic.\n\nprereq: [3593H with grade of at least B, experience in writing proofs] or dept consent; intended for mathematically-talented students with proven achievement in theoretical mathematics courses",
-    "prereq": {
-      "and": [
-        "792657"
-      ]
-    }
+    "prereq": "792657"
   },
   "004181": {
     "uid": "004181",
@@ -12143,11 +11919,7 @@
     "name": "Honors Analysis II",
     "fullname": "Honors: Introduction to Analysis II",
     "info": "Rigorous treatment of Riemann-Stieltjes integration. Sequences/series of functions, uniform convergence, equicontinuous families, Stone-Weierstrass Theorem, power series. Rigorous treatment of differentiation/integration of multivariable functions, Implicit Function Theorem, Stokes' Theorem.  Additional topics as time permits.\n\nprereq: 5615",
-    "prereq": {
-      "and": [
-        "004181"
-      ]
-    }
+    "prereq": "004181"
   },
   "004308": {
     "uid": "004308",
@@ -12371,22 +12143,6 @@
     "info": "Integrative perspective on overall direction of enterprise. Choice of products/markets, selection of organizaton structures and management styles. Case analysis: identifying key issues, evaluating options, and making recommendations, under conditions of uncertainty and incomplete information.",
     "prereq": {}
   },
-  "013240": {
-    "uid": "013240",
-    "code": "MGMT4004W",
-    "subject": "MGMT",
-    "number": "4004",
-    "honors": false,
-    "writing": true,
-    "name": "Bus Policy:Strategy",
-    "fullname": "Business Policy: Strategy Formulation and Implementation",
-    "info": "Integrative perspective on overall direction of the enterprise involving both choice of products and markets and selection of organization structures and management styles; case analysis involving the identification of key issues, evaluation of options, and making recommendations under conditions of uncertainty and incomplete information.\n\nprereq: 3040, 90 cr, completion of business core courses",
-    "prereq": {
-      "and": [
-        "793666"
-      ]
-    }
-  },
   "817641": {
     "uid": "817641",
     "code": "MKTG3001H",
@@ -12401,22 +12157,6 @@
       "or": [
         "009920",
         "825772"
-      ]
-    }
-  },
-  "816784": {
-    "uid": "816784",
-    "code": "MKTG3005",
-    "subject": "MKTG",
-    "number": "3005",
-    "honors": false,
-    "writing": false,
-    "name": "Analytical Tools for Bus Probs",
-    "fullname": "Introduction to Applying Analytical Tools for Solving Business Problems",
-    "info": "The ability to make intelligent business decisions based on large data and information is becoming increasingly important for businesses and managers. This course provides a practitioner-oriented introduction of applying analytical tools in business setting. This class entails hands-on computer exercises on real data sets to apply various analytical techniques in common business applications. This course assumes that students have knowledge of fundamental analytical tools and statistical methods. The class emphasizes understanding model assumptions to help students with appropriate model selection; interpreting results in order to make optimal business decisions; designing experiments in a business setting and analyzing the experimental data to advance business objectives.\n\nprereq: SCO 2550 or equivalent statistics course",
-    "prereq": {
-      "and": [
-        "795440"
       ]
     }
   },
@@ -12646,11 +12386,7 @@
     "name": "Honors: App Res/Resear Utiliza",
     "fullname": "Honors: Applied Research and Research Utilization",
     "info": "Systematic inquiry in interpreting/evaluating research.  Implement study proposed in Nurs4205V. Write scholarly research report, which will serve as honors research thesis.\n\nprereq: Honors student in School of Nursing, Nurs 4205V, upper division statistics course",
-    "prereq": {
-      "and": [
-        "007436"
-      ]
-    }
+    "prereq": "007436"
   },
   "792667": {
     "uid": "792667",
@@ -12864,70 +12600,6 @@
     "info": "Topics of contemporary interest varying from semester to semester.\n\nprereq: honors enroll, 6 crs of 3xxx-5xxx philosophy courses",
     "prereq": {}
   },
-  "005463": {
-    "uid": "005463",
-    "code": "PHIL4010",
-    "subject": "PHIL",
-    "number": "4010",
-    "honors": false,
-    "writing": false,
-    "name": "Ancient Philosophers",
-    "fullname": "Ancient Philosophers",
-    "info": "Major work of selected ancient philosophers (e.g., Plato's Parmenides, Plato's Sophist, Aristotle's Metaphysics). Works discussed may vary from offering to offering.\n\nprereq: 3001 or instr consent",
-    "prereq": {
-      "and": [
-        "788557"
-      ]
-    }
-  },
-  "005468": {
-    "uid": "005468",
-    "code": "PHIL4055",
-    "subject": "PHIL",
-    "number": "4055",
-    "honors": false,
-    "writing": false,
-    "name": "Kant",
-    "fullname": "Kant",
-    "info": "Immanuel Kant has long been recognized as a particularly systematic thinker, one who wrote foundational texts in epistemology, metaphysics, ethics, politics, aesthetics, religion, teleology, and anthropology, which still resonate and influence contemporary thought. This course studies the wide breadth of Kant's philosophical system, paying especial attention to its relevance today.\n\nprereq: 3005 or 4004 or instr consent",
-    "prereq": {
-      "and": [
-        "788558"
-      ]
-    }
-  },
-  "006990": {
-    "uid": "006990",
-    "code": "PHIL4311W",
-    "subject": "PHIL",
-    "number": "4311",
-    "honors": false,
-    "writing": true,
-    "name": "History of Moral Theories",
-    "fullname": "History of Moral Theories",
-    "info": "Is human nature fundamentally selfish or are we sympathetic creatures? What is free will and do we have it? Do moral principles have a rational basis or are our moral judgments expressions of feelings? Should morality be thought of in terms of acting on principle or producing good outcomes? We will focus on these and other questions as they are explored in primary texts from the early modern history of western philosophy. prereq: 1003 or instr consent",
-    "prereq": {
-      "and": [
-        "788555"
-      ]
-    }
-  },
-  "006375": {
-    "uid": "006375",
-    "code": "PHIL4320",
-    "subject": "PHIL",
-    "number": "4320",
-    "honors": false,
-    "writing": false,
-    "name": "Historical Moral Theory",
-    "fullname": "Intensive Study of a Historical Moral Theory",
-    "info": "Intensive consideration of an author or theory in the history of moral or political philosophy.\n\nprereq: 1003 or instr consent",
-    "prereq": {
-      "and": [
-        "788555"
-      ]
-    }
-  },
   "006991": {
     "uid": "006991",
     "code": "PHIL4321W",
@@ -12941,38 +12613,6 @@
     "prereq": {
       "or": [
         "788555",
-        "788556"
-      ]
-    }
-  },
-  "006993": {
-    "uid": "006993",
-    "code": "PHIL4331",
-    "subject": "PHIL",
-    "number": "4331",
-    "honors": false,
-    "writing": false,
-    "name": "Contemp Moral Theories",
-    "fullname": "Contemporary Moral Theories",
-    "info": "Is morality objective, just a matter of feeling, or something in between? How do we know even the most basic of moral truths? Do I always have a reason to do what is moral? What motivates people to be moral and why do some people behave immorally? This class looks at these and related questions in metaethics, moral psychology, and other areas of contemporary moral theory. prereq: 1003 or instr consent",
-    "prereq": {
-      "and": [
-        "788555"
-      ]
-    }
-  },
-  "006376": {
-    "uid": "006376",
-    "code": "PHIL4414",
-    "subject": "PHIL",
-    "number": "4414",
-    "honors": false,
-    "writing": false,
-    "name": "Political Phil",
-    "fullname": "Political Philosophy",
-    "info": "Survey of historical/contemporary works in political philosophy.\n\nprereq: 1004 or instr consent",
-    "prereq": {
-      "and": [
         "788556"
       ]
     }
@@ -13001,70 +12641,6 @@
     "info": "Guided individual study leading to research paper that satisfies senior project requirement.\n\nprereq: instr consent, dept consent",
     "prereq": {}
   },
-  "808476": {
-    "uid": "808476",
-    "code": "PHIL5010",
-    "subject": "PHIL",
-    "number": "5010",
-    "honors": false,
-    "writing": false,
-    "name": "Ancient Philosophers",
-    "fullname": "Ancient Philosophers",
-    "info": "Major work of selected ancient philosophers (e.g., Plato's Parmenides, Plato's Sophist, Aristotle's Metaphysics). Works discussed vary.\n\nprereq: 3001 or instr consent",
-    "prereq": {
-      "and": [
-        "788557"
-      ]
-    }
-  },
-  "798757": {
-    "uid": "798757",
-    "code": "PHIL5050",
-    "subject": "PHIL",
-    "number": "5050",
-    "honors": false,
-    "writing": false,
-    "name": "Empiricists",
-    "fullname": "Empiricists",
-    "info": "Major work of selected early modern empiricists (e.g., Locke's Essay Concerning Human Understanding, Berkeley's Principles of Human Knowledge, Hume's Treatise of Human Nature). Works discussed may vary from offering to offering.\n\nprereq: 3005 or instr consent",
-    "prereq": {
-      "and": [
-        "788558"
-      ]
-    }
-  },
-  "825137": {
-    "uid": "825137",
-    "code": "PHIL5055",
-    "subject": "PHIL",
-    "number": "5055",
-    "honors": false,
-    "writing": false,
-    "name": "Kant",
-    "fullname": "Kant",
-    "info": "Immanuel Kant has long been recognized as a particularly systematic thinker, one who wrote foundational texts in epistemology, metaphysics, ethics, politics, aesthetics, religion, teleology, and anthropology, which still resonate and influence contemporary thought. This course studies the wide breadth of Kant's philosophical system, paying especial attention to its relevance today.\n\nprereq: 3005 or 4004 or instr consent\n",
-    "prereq": {
-      "and": [
-        "788558"
-      ]
-    }
-  },
-  "817750": {
-    "uid": "817750",
-    "code": "PHIL5320",
-    "subject": "PHIL",
-    "number": "5320",
-    "honors": false,
-    "writing": false,
-    "name": "Historical Moral Theory",
-    "fullname": "Intensive Study of a Historical Moral Theory",
-    "info": "Intensive consideration of an author or theory in the history of moral or political philosophy.\n\nprereq: 1003 or instr consent",
-    "prereq": {
-      "and": [
-        "788555"
-      ]
-    }
-  },
   "825141": {
     "uid": "825141",
     "code": "PHIL5321",
@@ -13078,38 +12654,6 @@
     "prereq": {
       "or": [
         "788555",
-        "788556"
-      ]
-    }
-  },
-  "819028": {
-    "uid": "819028",
-    "code": "PHIL5331",
-    "subject": "PHIL",
-    "number": "5331",
-    "honors": false,
-    "writing": false,
-    "name": "Contemporary Moral Theories",
-    "fullname": "Contemporary Moral Theories",
-    "info": "Is morality objective, just a matter of feeling, or something in between?  How do we know even the most basic of moral truths?  Do I always have a reason to do what is moral?  What motivates people to be moral and why do some people behave immorally? This class looks at these and related questions in metaethics, moral psychology, and other areas of contemporary moral theory.\n\nprereq: 1003 or instr consent",
-    "prereq": {
-      "and": [
-        "788555"
-      ]
-    }
-  },
-  "819433": {
-    "uid": "819433",
-    "code": "PHIL5414",
-    "subject": "PHIL",
-    "number": "5414",
-    "honors": false,
-    "writing": false,
-    "name": "Political Phil",
-    "fullname": "Political Philosophy",
-    "info": "Works in political philosophy, whether historical or more contemporary, are one central element of the study of philosophy more broadly. As we will address these works, and the issues and concepts they take up, they fall within the larger field of moral philosophy. Like other works in this broad category, discussion in political philosophy typically consider both metaethical and normative questions. \n\nMetaethical questions concern the concepts we use as we consider matters of right and wrong or of ethical value. In the realm of political philosophy, authors consider rightness, wrongness and ethical value as they bear on political societies and political leaders, and not only on citizens but on non-citizens who experience the effects of political power. Examples of such questions include: What is justice? What is political power? What are freedom, equality and autonomy?\n\nNormative questions, by contrast, concern matters of practice. In the context of moral and political philosophy, they are typically questions about what we must do or refrain from doing if we are to act rightly (as opposed to prudently or efficiently for instance). Examples in the political realm include: What are just standards of criminal punishment? What obligations does a just state have to citizens and to non-citizen residents? What right, if any, do citizens and others have to protest state laws, policies and actions? What rights can citizens or others claim to equality under the law? What grounds or justifies our responses to such questions?\n\nOver the course of this semester, we will read both canonical texts in the history of political philosophy and pieces by a variety of authors who are less well known. Our aim will be to improve our ability to understand broad claims and more nuanced points, to compare and critically assess contrasting views, and to appreciate the ways in which political philosophers often draw or expand on others' works even as they challenge them. We will also be working towards improvements in the difficult task of explaining and supporting claims and analyses, in short written pieces, longer essays and oral discussions. \n\nprereq: 1004 or instr consent",
-    "prereq": {
-      "and": [
         "788556"
       ]
     }
@@ -13209,11 +12753,7 @@
     "name": "Honors Intro. Electr. and Mag.",
     "fullname": "Honors Introduction to Electricity and Magnetism",
     "info": "Principles of electricity/magnetism for those with full year of calculus/equivalent of one year of high-school physics. Introduction to electrostatics, magnetostatics, electrodynamics, electric/magnetic properties of materials, circuits, Maxwell's equations, electromagnetic waves.\n\nprereq: 1501V, honors",
-    "prereq": {
-      "and": [
-        "797531"
-      ]
-    }
+    "prereq": "797531"
   },
   "002072": {
     "uid": "002072",
@@ -13271,11 +12811,7 @@
     "name": "Hnrs Phys III",
     "fullname": "Honors Physics III",
     "info": "Third semester of comprehensive calculus-level general physics. Emphasizes use of fundamental principles to solve quantitative problems. Applications to 20th-century physics such as classical/quantum mechanical waves, optics, special relativity, and atomic structure of materials.\n\nprereq: 1402V, honors student and permission of University Honors Program",
-    "prereq": {
-      "and": [
-        "002074"
-      ]
-    }
+    "prereq": "002074"
   },
   "813648": {
     "uid": "813648",
@@ -13654,11 +13190,7 @@
     "name": "Honors Thesis",
     "fullname": "Honors Thesis Credits",
     "info": "Individual research/writing of departmental honors thesis.\n\nprereq: 3109, pol sci, honors, dept consent",
-    "prereq": {
-      "and": [
-        "007461"
-      ]
-    }
+    "prereq": "007461"
   },
   "804133": {
     "uid": "804133",
@@ -13890,11 +13422,7 @@
     "name": "Hrs Psy Meas & Data Analysis",
     "fullname": "Honors Introduction to Psychological Measurement and Data Analysis",
     "info": "Descriptive/basic inferential statistics in psychology. Measures of central tendency, variability, t tests, one-way ANOVA, correlation, regression, confidence intervals, effect sizes. Psychological measurement. Graphical data presentation. Statistical software.\n\nprereq: [1001 or equiv], high school algebra, honors; intended for students who plan to major in psychology",
-    "prereq": {
-      "and": [
-        "006265"
-      ]
-    }
+    "prereq": "006265"
   },
   "798774": {
     "uid": "798774",
@@ -13986,11 +13514,7 @@
     "name": "Math Models Human Behavior",
     "fullname": "Mathematical Models of Human Behavior",
     "info": "Mathematical models of complex human behavior, including individual/group decision making, information processing, learning, perception, and overt action. Specific computational techniques drawn from decision theory, information theory, probability theory, machine learning, and elements of data analysis.\n\nprereq: Math 1271 or instr consent",
-    "prereq": {
-      "and": [
-        "000120"
-      ]
-    }
+    "prereq": "000120"
   },
   "006518": {
     "uid": "006518",
@@ -14076,22 +13600,6 @@
       "or": [
         "800362",
         "000120"
-      ]
-    }
-  },
-  "819427": {
-    "uid": "819427",
-    "code": "PUBH3212",
-    "subject": "PUBH",
-    "number": "3212",
-    "honors": false,
-    "writing": false,
-    "name": "Infct Disease Outbreak: PubH",
-    "fullname": "Infectious Disease Outbreaks: Review of Public Health Investigation, Response, & Prevention Strategy",
-    "info": "We share the planet with a myriad of living things. The smallest of those are the ones that may impact our lives the most. These creatures are in the news nearly every day: Ebola virus in Africa, measles outbreaks in large cities, norovirus outbreaks on cruise ships, Zika virus precautions for pregnant women. This course will focus on the principles of outbreak investigation and response at the local, state, and national public health level through lectures and interactive experiences led by former public health leaders from the Minnesota Department of Health, editors and reporters from Center for Infectious Disease Research and Policy (CIDRAP) News, and current leaders of the University of Minnesota public health response system. Students will explore the many facets of infectious disease outbreak investigation, response, and prevention operations and decision-making which are often behind the scenes and not well understood by the general public. prereq: BIOL 1xxx or equivalent Honor students who have completed HSEM 2707H are NOT eligible to register for this course.",
-    "prereq": {
-      "and": [
-        "801841"
       ]
     }
   },
@@ -14333,11 +13841,7 @@
     "name": "Honors: Persp Crim Justice Sys",
     "fullname": "Honors: Sociological Perspectives on the Criminal Justice System",
     "info": "This course introduces students to a sociological account of the U.S. criminal justice system. We will critically examine the components, dynamics, and effects of policing, criminal courts, community supervision, jails, and prisons. Throughout the course, we focus on sociological understandings of these processes, with particular attention to ethnic, racial, class, and gender inequalities as well as long-term problems associated with the high rate of criminal justice supervision in the U.S.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Examples of additional requirements may include:\n\u00b7   Honor students will be expected to interview a current Sociology graduate student working on a LCD topic. Following this, each student will individually be expected to do an in-class power-point presentation explaining how the interviewees? research relates with themes presented in the course. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2 page maximum reflective paper.\n\nprereq: [SOC 1001] recommended, Sociology majors/minors must register A-F, honors",
-    "prereq": {
-      "and": [
-        "002943"
-      ]
-    }
+    "prereq": "002943"
   },
   "812791": {
     "uid": "812791",
@@ -14349,11 +13853,7 @@
     "name": "Honors: Social Networking",
     "fullname": "Honors: Social Networking: Theories and Methods",
     "info": "Network analysis spans a diverse range of phenomena from ego-centric ties, to small work-team sociograms, to organizational relations, to trade and military alliances among nation states. This course introduces undergraduate students to theories and methods for studying social networks, the ties connecting people, groups, and organizations. Topics include friendship, communication, small group, health, sexual and romantic, corporate, social movement, public policy, innovation diffusion, criminal and terrorist, and Internet networks. Honors students are expected to demonstrate greater depth of discussion, depth and to a degree length of writing assignments, presentations, and leadership of the students.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \nExamples of additional requirements may include:\n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper \n    exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a \n    class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2 \n    page maximum reflective paper.\n\u00b7   Interview a current Sociology graduate student and present briefly in class or write a \n    reflective piece, not more than 2 pages in length, to be submitted to the Professor. \n\nprereq: [SOC 1001] recommended, Sociology majors/minors must register A-F, honors",
-    "prereq": {
-      "and": [
-        "002943"
-      ]
-    }
+    "prereq": "002943"
   },
   "810628": {
     "uid": "810628",
@@ -14365,11 +13865,7 @@
     "name": "Honors: Cities & Social Change",
     "fullname": "Honors: Cities & Social Change",
     "info": "The core themes of this class will provide an essential toolkit for approaching broad questions about social justice, culture, work, housing and service provision on multiple levels and across the globe. This course will have units on economic development, inequality, the interaction between design and human action, inclusive and exclusive cultural formations, crime and cultures of fear, social control and surveillance.\n\nprereq: 1001 recommended, Soc majors/minors must register A-F",
-    "prereq": {
-      "and": [
-        "002943"
-      ]
-    }
+    "prereq": "002943"
   },
   "811599": {
     "uid": "811599",
@@ -14381,11 +13877,7 @@
     "name": "Honors: Asian Am Identities",
     "fullname": "Honors: Asian American Identities, Families & Communities",
     "info": "This course provides a sociological overview of Asian American identities, families, and communities. To place these experiences within a broader historical, structural, and cultural context the course will begin with a brief introduction to the history of Asians and Asian Americans in the United States and sociological theories about incorporation and racial stratification. We will then examine the diversity of Asian American communities and families, highlighting ethnic, gender, and class variations. Other topics of focus include racialization and discrimination, education, ethnic enclaves, family and intergenerational relationships, identity, media, culture, and politics and social action. Throughout the course, we will consider the ways in which society affects individuals, and how in turn, individuals affect society. Students will have an option to do community-engaged learning or another course project.\n\nHonors students are expected to demonstrate a greater depth of discussion, depth and to a degree length of writing assignments, presentations, and leadership of the students.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \nExamples of additional requirements may include:\n- Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n- Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n- Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n- Attend a presentation, workshop, or seminar on a related topic for this class and write a 2-page maximum reflective paper.\n- Interview a current Sociology graduate student and present briefly in class or write a reflective piece, not more than 2 pages in length, to be submitted to the Professor. \n\nprereq: [SOC 1001] recommended, honors",
-    "prereq": {
-      "and": [
-        "002943"
-      ]
-    }
+    "prereq": "002943"
   },
   "811411": {
     "uid": "811411",
@@ -14397,11 +13889,7 @@
     "name": "Honors: World Pop Problems",
     "fullname": "Honors: World Population Problems",
     "info": "This class is an introduction to the contemporary issues that accompany such dramatic population change, including fertility change, disease experiences, migration as opportunity and challenge and human-environment conflict. Further, we will examine the roles of global organizations, national governments, and culture in shaping and reshaping populations. \n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session.   Students will also be expected to meet as a group and individually with the professor four times during the course semester. \nExamples of additional requirements may include:\n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2-page maximum reflective paper.\n\u00b7   Interview a current Sociology graduate student and present briefly in class or write a reflective piece, not more than 2 pages in length, to be submitted to the Professor. \n\nprereq: [SOC 1001] recommended, Sociology majors/minors must register A-F",
-    "prereq": {
-      "and": [
-        "002943"
-      ]
-    }
+    "prereq": "002943"
   },
   "811450": {
     "uid": "811450",
@@ -14489,11 +13977,7 @@
     "name": "Honors: Crime and Human Rights",
     "fullname": "Honors: Crime and Human Rights",
     "info": "This course addresses serious violations of humanitarian and human rights law, efforts to criminalize those violations (laws and institutions), and consequences of these efforts. Special attention will be paid to the impact interventions have on representations and memories of atrocities on responses and the future of cycles of violence. Case studies on Holocaust, Balkan wars, Darfur, My Lai massacre, etc. Criminal justice, truth commissions, vetting, compensation programs.\n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session. Examples of additional requirements may include:\n\u00b7 Honors students will be expected to interview a current Sociology graduate student working on an LCD topic. Following this, each student will individually be expected to do an in-class PowerPoint presentation explaining how the interviewees? research relates to themes presented in the course. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \n\u00b7 Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7 Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7 Write two brief (1-page) reflection papers on current news or a two-page critique of a class reading\n\u00b7 Attend a presentation, workshop, or seminar on a related topic for this class and write a 2-page maximum reflective paper.\n\nprereq: SOC 1001, at least one 3xxx SOC course recommended, Sociology majors/minors must register A-F",
-    "prereq": {
-      "and": [
-        "002943"
-      ]
-    }
+    "prereq": "002943"
   },
   "813949": {
     "uid": "813949",
@@ -14600,11 +14084,7 @@
     "name": "Hon: Sport, Culture & Society",
     "fullname": "Honors: Sport, Culture & Society",
     "info": "This course is intended to stimulate critical, sociological thinking about sport? How it is socially organized, who participates in what and why, what role (or roles) sport plays in society, and what sporting practices tell us about contemporary social life more generally. It begins from and is grounded in the notion that sport is one of the most powerful and paradoxical institutions in the modern world. The course is intended for a wide range of undergraduates, though some familiarity with basic social scientific thinking and techniques will be helpful. \n\nAdditional special assignments will be discussed with honors participants who seek to earn honors credit toward the end of our first class session.  Examples of additional requirements may include:\n\u00b7   Honors students will be expected to interview a current Sociology graduate student working on a topic of interest. Following this, each student will individually be expected to do an in-class power point presentation explaining how the interviewees? research relates with themes presented in the course. Students will also be expected to meet as a group and individually with the professor four times during the course semester. \n\u00b7   Sign up and prepare 3-4 discussion questions in advance of at least one class session.\n\u00b7   Work with professor and TA on other small leadership tasks (class discussion, paper exchange, tour).\n\u00b7   Write two brief (1-page) reflection papers on current news, or a two-page critique of a class reading\n\u00b7   Attend a presentation, workshop, or seminar on a related topic for this class and write a 2 page maximum reflective paper.\n\nprereq: Honors; SOC 1001 recommended\n",
-    "prereq": {
-      "and": [
-        "002943"
-      ]
-    }
+    "prereq": "002943"
   },
   "809976": {
     "uid": "809976",
@@ -14768,11 +14248,7 @@
     "name": "Honors: Intro Study/Hisp Lit",
     "fullname": "Honors: Introduction to the Study of Hispanic Literatures",
     "info": "Structures, meaning, and social/historical function of diverse literary texts.\n\nprereq: 3015, Spanish [major or minor]or Span-Port major",
-    "prereq": {
-      "and": [
-        "808939"
-      ]
-    }
+    "prereq": "808939"
   },
   "007860": {
     "uid": "007860",
@@ -15606,22 +15082,6 @@
       ]
     }
   },
-  "010145": {
-    "uid": "010145",
-    "code": "SPPT3256",
-    "subject": "SPPT",
-    "number": "3256",
-    "honors": false,
-    "writing": false,
-    "name": "LatAmer Cult Dis",
-    "fullname": "Latin American Cultural Discourse",
-    "info": "Cultural assumptions in current modes of interpreting Latin American reality. Representative texts are analyzed.\n\nprereq: SPAN 3015",
-    "prereq": {
-      "and": [
-        "808939"
-      ]
-    }
-  },
   "016416": {
     "uid": "016416",
     "code": "SPPT3256H",
@@ -15644,11 +15104,7 @@
     "name": "Intro to Prob&Stat Honors",
     "fullname": "Introduction to Probability and Statistics Honors",
     "info": "This is an introductory course in statistics whose primary objectives are to teach students the theory of elementary probability theory and an introduction to the elements of statistical inference, including testing, estimation, and confidence statements.\n\nprereq: Math 1272",
-    "prereq": {
-      "and": [
-        "000121"
-      ]
-    }
+    "prereq": "000121"
   },
   "815334": {
     "uid": "815334",
@@ -15773,22 +15229,6 @@
     "info": "Various theatre subjects developed by pool of instructors.",
     "prereq": {}
   },
-  "791327": {
-    "uid": "791327",
-    "code": "TH3120",
-    "subject": "TH",
-    "number": "3120",
-    "honors": false,
-    "writing": false,
-    "name": "Theatre/Theory/Practice",
-    "fullname": "Theatre: Theory and Practice",
-    "info": "Introdution to diverse ways of thinking about theatre and its representational practices. Students explore traditional/non-traditional modes of performance through readings, discussions, and hands-on performance projects. Seminar-style course.\n\nprereq: 1101",
-    "prereq": {
-      "and": [
-        "790514"
-      ]
-    }
-  },
   "790362": {
     "uid": "790362",
     "code": "TH3314",
@@ -15835,11 +15275,7 @@
     "name": "Honors: Tutorial",
     "fullname": "Honors: Tutorial Seminar in Theatre Arts",
     "info": "Independent reading/research in preparing honors thesis or selected creative project.prereq: Credit will not be granted if credit has been received for: 4905; honors, theatre arts, dept consent; limit [2 cr for [cum laude or magna cum laude], 4 cr for summa cum laude]",
-    "prereq": {
-      "and": [
-        "008615"
-      ]
-    }
+    "prereq": "008615"
   },
   "008299": {
     "uid": "008299",

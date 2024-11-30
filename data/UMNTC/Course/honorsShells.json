@@ -160,13 +160,6 @@
     "number": "3025",
     "honors": false
   },
-  "008995": {
-    "uid": "008995",
-    "code": "ANTH3041",
-    "subject": "ANTH",
-    "number": "3041",
-    "honors": false
-  },
   "797547": {
     "uid": "797547",
     "code": "ANTH3306W",
@@ -398,53 +391,11 @@
     "number": "4421",
     "honors": false
   },
-  "797706": {
-    "uid": "797706",
-    "code": "ARCH4423",
-    "subject": "ARCH",
-    "number": "4423",
-    "honors": false
-  },
-  "797707": {
-    "uid": "797707",
-    "code": "ARCH4424",
-    "subject": "ARCH",
-    "number": "4424",
-    "honors": false
-  },
-  "797708": {
-    "uid": "797708",
-    "code": "ARCH4425W",
-    "subject": "ARCH",
-    "number": "4425",
-    "honors": false
-  },
-  "797710": {
-    "uid": "797710",
-    "code": "ARCH4432",
-    "subject": "ARCH",
-    "number": "4432",
-    "honors": false
-  },
-  "797711": {
-    "uid": "797711",
-    "code": "ARCH4434",
-    "subject": "ARCH",
-    "number": "4434",
-    "honors": false
-  },
   "804709": {
     "uid": "804709",
     "code": "ARCH4441",
     "subject": "ARCH",
     "number": "4441",
-    "honors": false
-  },
-  "797713": {
-    "uid": "797713",
-    "code": "ARCH4461",
-    "subject": "ARCH",
-    "number": "4461",
     "honors": false
   },
   "797641": {
@@ -1609,13 +1560,6 @@
     "number": "8113",
     "honors": false
   },
-  "008914": {
-    "uid": "008914",
-    "code": "ECON8117",
-    "subject": "ECON",
-    "number": "8117",
-    "honors": false
-  },
   "008916": {
     "uid": "008916",
     "code": "ECON8119",
@@ -2483,13 +2427,6 @@
     "subject": "GEOG",
     "number": "3997",
     "honors": true
-  },
-  "003845": {
-    "uid": "003845",
-    "code": "GEOG5423",
-    "subject": "GEOG",
-    "number": "5423",
-    "honors": false
   },
   "004870": {
     "uid": "004870",
@@ -5984,26 +5921,12 @@
     "number": "4004",
     "honors": true
   },
-  "013240": {
-    "uid": "013240",
-    "code": "MGMT4004W",
-    "subject": "MGMT",
-    "number": "4004",
-    "honors": false
-  },
   "817641": {
     "uid": "817641",
     "code": "MKTG3001H",
     "subject": "MKTG",
     "number": "3001",
     "honors": true
-  },
-  "816784": {
-    "uid": "816784",
-    "code": "MKTG3005",
-    "subject": "MKTG",
-    "number": "3005",
-    "honors": false
   },
   "013768": {
     "uid": "013768",
@@ -6222,53 +6145,11 @@
     "number": "3900",
     "honors": true
   },
-  "005463": {
-    "uid": "005463",
-    "code": "PHIL4010",
-    "subject": "PHIL",
-    "number": "4010",
-    "honors": false
-  },
-  "005468": {
-    "uid": "005468",
-    "code": "PHIL4055",
-    "subject": "PHIL",
-    "number": "4055",
-    "honors": false
-  },
-  "006990": {
-    "uid": "006990",
-    "code": "PHIL4311W",
-    "subject": "PHIL",
-    "number": "4311",
-    "honors": false
-  },
-  "006375": {
-    "uid": "006375",
-    "code": "PHIL4320",
-    "subject": "PHIL",
-    "number": "4320",
-    "honors": false
-  },
   "006991": {
     "uid": "006991",
     "code": "PHIL4321W",
     "subject": "PHIL",
     "number": "4321",
-    "honors": false
-  },
-  "006993": {
-    "uid": "006993",
-    "code": "PHIL4331",
-    "subject": "PHIL",
-    "number": "4331",
-    "honors": false
-  },
-  "006376": {
-    "uid": "006376",
-    "code": "PHIL4414",
-    "subject": "PHIL",
-    "number": "4414",
     "honors": false
   },
   "825630": {
@@ -6285,53 +6166,11 @@
     "number": "4995",
     "honors": true
   },
-  "808476": {
-    "uid": "808476",
-    "code": "PHIL5010",
-    "subject": "PHIL",
-    "number": "5010",
-    "honors": false
-  },
-  "798757": {
-    "uid": "798757",
-    "code": "PHIL5050",
-    "subject": "PHIL",
-    "number": "5050",
-    "honors": false
-  },
-  "825137": {
-    "uid": "825137",
-    "code": "PHIL5055",
-    "subject": "PHIL",
-    "number": "5055",
-    "honors": false
-  },
-  "817750": {
-    "uid": "817750",
-    "code": "PHIL5320",
-    "subject": "PHIL",
-    "number": "5320",
-    "honors": false
-  },
   "825141": {
     "uid": "825141",
     "code": "PHIL5321",
     "subject": "PHIL",
     "number": "5321",
-    "honors": false
-  },
-  "819028": {
-    "uid": "819028",
-    "code": "PHIL5331",
-    "subject": "PHIL",
-    "number": "5331",
-    "honors": false
-  },
-  "819433": {
-    "uid": "819433",
-    "code": "PHIL5414",
-    "subject": "PHIL",
-    "number": "5414",
     "honors": false
   },
   "006985": {
@@ -6766,13 +6605,6 @@
     "code": "PSY5862",
     "subject": "PSY",
     "number": "5862",
-    "honors": false
-  },
-  "819427": {
-    "uid": "819427",
-    "code": "PUBH3212",
-    "subject": "PUBH",
-    "number": "3212",
     "honors": false
   },
   "009167": {
@@ -7426,13 +7258,6 @@
     "number": "3972",
     "honors": true
   },
-  "010145": {
-    "uid": "010145",
-    "code": "SPPT3256",
-    "subject": "SPPT",
-    "number": "3256",
-    "honors": false
-  },
   "016416": {
     "uid": "016416",
     "code": "SPPT3256H",
@@ -7488,13 +7313,6 @@
     "subject": "TH",
     "number": "1405",
     "honors": true
-  },
-  "791327": {
-    "uid": "791327",
-    "code": "TH3120",
-    "subject": "TH",
-    "number": "3120",
-    "honors": false
   },
   "790362": {
     "uid": "790362",
