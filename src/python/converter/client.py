@@ -98,7 +98,7 @@ class FlowchartConverter:
         if isinstance(prereq, dict) and len(prereq) == 1:
             key = list(prereq.keys())[0]
             if len(prereq[key]) == 1:
-                return {"and" : prereq[key][0]}
+                return prereq[key][0]
         elif isinstance(prereq, list) and len(prereq) == 1:
             return prereq[0]
         
