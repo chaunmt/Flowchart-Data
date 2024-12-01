@@ -12,6 +12,7 @@ from python.filter.course import PrereqFilterUidNotInShell
 from python.schema.course import PrereqFormat
 from python.sources.config.school import SchoolConfigManager
 
+
 class SystemConfig():
     """
     Configuration for Course Dog's API system.
@@ -33,6 +34,7 @@ class SystemConfig():
         self._general_key = config.get_general_key()
         self._honors_key = config.get_honors_key()
 
+
 class SubjectHandler(SystemConfig):
     """
     Handling Course Dog's API works for Subjects.
@@ -43,7 +45,8 @@ class SubjectHandler(SystemConfig):
         Initalize a SubjectHandler object.
         """
         super().__init__(school_uid)
-        self._all_subjects = JSONHandler.get_from_path(f"{self._data_path}/allSubjects.json")
+        self._all_subjects = JSONHandler.get_from_path(
+            f"{self._data_path}/allSubjects.json")
 
     def record_all_subj(self) -> None:
         """
@@ -67,7 +70,8 @@ class SubjectHandler(SystemConfig):
         # Get the mapping from subject to num->uid dict
         print(">>>>>> Generating course number to uid maps for subjects...")
         subj_lists = self.get_all_subj_num_uids(
-            JSONHandler.get_from_path(f"{self._course_path}/{self._ALL_COURSE_KEY}Shells.json")
+            JSONHandler.get_from_path(
+                f"{self._course_path}/{self._ALL_COURSE_KEY}Shells.json")
         )
         print(">>>>>> Successfully mapped course numbers to uids!")
 
@@ -86,7 +90,7 @@ class SubjectHandler(SystemConfig):
             courses = courses.values()
 
         # Create empty dicts for each subject
-        mapping = { subj: {} for subj in self._all_subjects }
+        mapping = {subj: {} for subj in self._all_subjects}
         for course in courses:
             # Get necessary data
             uid = course["uid"]
@@ -105,6 +109,7 @@ class SubjectHandler(SystemConfig):
         Get all subjects' code and name of the school.
         """
         # TODO
+
 
 class CourseSystem(SubjectHandler):
     """
@@ -223,7 +228,7 @@ class CourseSystem(SubjectHandler):
             # If the course exists in general shells then it's a general course
             if uid in general_shells:
                 # Make a completely separate clone
-                c =  copy.deepcopy(all_courses[uid])
+                c = copy.deepcopy(all_courses[uid])
 
                 # Filter non general uids out of the course's prereq
                 prereq = PrereqFormat(c["prereq"])
@@ -285,7 +290,8 @@ class CourseSystem(SubjectHandler):
         counter = 0
         for course in raw_data:
             # Split a course's number and its suffix
-            number, suffix = CourseInfoSplitter.split_num_suf(course['courseNumber'])
+            number, suffix = CourseInfoSplitter.split_num_suf(
+                course['courseNumber'])
 
             # Check course's type
             honors = CourseChecker.is_honors_suf(suffix)
@@ -301,16 +307,16 @@ class CourseSystem(SubjectHandler):
             prereq = prereq.get_prereq()
 
             data[course['institutionId']] = {
-                'uid' : course['institutionId'],
-                'code' : course['code'],
-                'subject' : course['subjectCode'],
-                'number' : number,
-                'honors' : honors,
-                'writing' : writing,
-                'name' : course['name'],
-                'fullname' :  course['longName'],
-                'info' : course['description'],
-                'prereq' : prereq
+                'uid': course['institutionId'],
+                'code': course['code'],
+                'subject': course['subjectCode'],
+                'number': number,
+                'honors': honors,
+                'writing': writing,
+                'name': course['name'],
+                'fullname':  course['longName'],
+                'info': course['description'],
+                'prereq': prereq
             }
 
             # Checking the progress
@@ -342,7 +348,8 @@ class CourseSystem(SubjectHandler):
         shells = {}
         for course in data:
             # Split a course's number and its suffix
-            number, suffix = CourseInfoSplitter.split_num_suf(course["courseNumber"])
+            number, suffix = CourseInfoSplitter.split_num_suf(
+                course["courseNumber"])
 
             # Check course's type
             honors = CourseChecker.is_honors_suf(suffix)
@@ -351,14 +358,15 @@ class CourseSystem(SubjectHandler):
             if is_honors is None or honors == is_honors:
                 # Map value to corresponding key
                 shells[course["institutionId"]] = {
-                    "uid" : course["institutionId"],
-                    "code" : course["code"],
-                    "subject" : course["subjectCode"],
-                    "number" : number,
-                    "honors" : honors
+                    "uid": course["institutionId"],
+                    "code": course["code"],
+                    "subject": course["subjectCode"],
+                    "number": number,
+                    "honors": honors
                 }
 
         return shells
+
 
 class ProgramSystem(SubjectHandler):
     """
@@ -391,23 +399,69 @@ class ProgramSystem(SubjectHandler):
 
     def record_all_shells_and_programs(self) -> str:
         """
-        Record all programs of the school.
+        Record all shells and programs of the school.
         """
-        # TODO record all program shells
-        # TODO record major program shells
-        # TODO record minor program shells
-        # TODO record certificate program shells
-        # TODO record other program shells
+
+        # record...
+        #   all program shells,
+        #   major program shells,
+        #   minor program shells,
+        #   certificate program shells,
+        #   other program shells
+
+        raw = self.get_api_input()
+        print(">>>>>> Got raw data!")
+
+        all_programs_shells = {}
+        major_shells = {}
+        minor_shells = {}
+        certificate_shells = {}
+        other_shells = {}
+
+        for uid, program in raw.items():
+            program_type = program.get("type", "")
+
+            program_shell = {
+                "uid": program["uid"],
+                "type": program_type,
+                "career": program.get("career", ""),
+                "name": program.get("name", ""),
+                "diploma": program.get("diploma", ""),
+                "info": program.get("info", ""),
+                # Credit information
+                "programMinCredit": program.get("programMinCredit"),
+                "programMaxCredit": program.get("programMaxCredit"),
+                "degreeMinCredit": program.get("degreeMinCredit"),
+                "degreeMaxCredit": program.get("degreeMaxCredit"),
+            }
+
+            all_programs_shells[uid] = program_shell
+
+            if "Major" in program_type:
+                major_shells[uid] = program
+            elif "Minor" in program_type:
+                minor_shells[uid] = program
+            elif "Certificate" in program_type:
+                certificate_shells[uid] = program
+            else:
+                other_shells[uid] = program
+
+        JSONHandler.write_to_path(
+            f"{self._program_path}/allProgramsShells.json", all_programs_shells)
+        JSONHandler.write_to_path(
+            f"{self._program_path}/majorProgramsShells.json", major_shells)
+        JSONHandler.write_to_path(
+            f"{self._program_path}/minorProgramsShells.json", minor_shells)
+        JSONHandler.write_to_path(
+            f"{self._program_path}/certificateProgramsShells.json", certificate_shells)
+        JSONHandler.write_to_path(
+            f"{self._program_path}/otherProgramsShells.json", other_shells)
+
         # TODO record all program data
         # TODO record major program data
         # TODO record minor program data
         # TODO record certificate program data
         # TODO record other program data
-
-        # Sample (TODO PLEASE REMOVE)
-        raw = self.get_api_input()
-        print(">>>>>> Got raw data!")
-        JSONHandler.write_to_path(f"{self._program_path}/allProgramsShells.json", raw)
 
         return "++ ProgramSystem: All programs data written successfully!"
 
@@ -419,7 +473,7 @@ class ProgramSystem(SubjectHandler):
             'https://app.coursedog.com/api/v1/cm/'  # API
             + self._school_uid
             + '/programs?'  # Search programs
-            + 'list=' # Return a list of programs with _id as key
+            + 'list='  # Return a list of programs with _id as key
             + '&isActive=' + self._API_IS_ACTIVE
             + '&includePending=' + self._API_INCLUDE_PENDING
             + '&limit=' + limit
@@ -442,28 +496,30 @@ class ProgramSystem(SubjectHandler):
             program["_id"]: {
                 # Basic information
                 "uid": program["_id"],
-                # "type": get_safe_value(program, ["type"]),
-                # "career": get_safe_value(program, ["career"]),
+                "type": get_safe_value(program, ["type"]),
+                "career": get_safe_value(program, ["career"]),
                 "name": get_safe_value(program, ["catalogDisplayName"]),
-                # "diploma": get_safe_value(program, ["diplomaDescription"]),
-                # "info": get_safe_value(program, ["description"]),
-                # # Credit information
-                # "programMinCredit": get_safe_value(program, [
-                #     "customFields", "cdProgramCreditsProgramMin"
-                # ]),
-                # "programMaxCredit": get_safe_value(program, [
-                #     "customFields", "cdProgramCreditsProgramMax"
-                # ]),
-                # "degreeMinCredit": get_safe_value(program, [
-                #     "customFields", "cdProgramCreditsDegreeMin"
-                # ]),
-                # "degreeMaxCredit": get_safe_value(program, [
-                #     "customFields", "cdProgramCreditsDegreeMax"
-                # ]),,
+                "diploma": get_safe_value(program, ["diplomaDescription"]),
+                "info": get_safe_value(program, ["description"]),
+                # Credit information
+                "programMinCredit": get_safe_value(program, [
+                    "customFields", "cdProgramCreditsProgramMin"
+                ]),
+                "programMaxCredit": get_safe_value(program, [
+                    "customFields", "cdProgramCreditsProgramMax"
+                ]),
+                "degreeMinCredit": get_safe_value(program, [
+                    "customFields", "cdProgramCreditsDegreeMin"
+                ]),
+                "degreeMaxCredit": get_safe_value(program, [
+                    "customFields", "cdProgramCreditsDegreeMax"
+                ]),
                 # Requisites
-                "requisite": get_safe_value(program, ["requisites", "requisitesSimple"])
+                # "requisite": get_safe_value(program, ["requisites", "requisitesSimple"])
             } for _, program in raw.items()
         }
+
+        return p
 
         # TODO Check requisite's subRules and value field
 
