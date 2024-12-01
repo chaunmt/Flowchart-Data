@@ -16,8 +16,8 @@ class TestFlowchartConverter:
     @pytest.mark.parametrize("original, expected", [
         # Expect changes
         (["003675"], "003675"),
-        ({"and": ["003675"]}, {"and": "003675"}),
-        ({"or": ["003675"]}, {"and": "003675"}),
+        ({"and": ["003675"]}, "003675"),
+        ({"or": ["003675"]}, "003675"),
         # Expect no changes
         ({}, {}),
         ("003675", "003675"),
