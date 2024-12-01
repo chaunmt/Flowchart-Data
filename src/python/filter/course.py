@@ -389,6 +389,8 @@ class PrereqFilterUidNotInShell(PrereqFilter):
             Recursively filter all nested level.
             """
 
+            if isinstance(prereq, str) and prereq not in self._shells:
+                return {}
             if isinstance(prereq, list):
                 # Filter all possible elements
                 while True:
