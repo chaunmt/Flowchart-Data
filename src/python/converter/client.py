@@ -34,67 +34,6 @@ class FlowchartConverter:
         """
         Break all one child nest (dict or list of 1 member) into just that child.
         """
-
-        # def rec_converter(prq):
-        #     """
-        #     Recursively convert all one child nests.
-        #     """
-
-        #     # if isinstance(prq, {}):
-        #     #     return None
-        #     if isinstance(prq, list):
-        #         # Filter all possible elements
-        #         while True:
-        #             if len(prq) == 1:
-        #                 return rec_converter(prq[0])
-
-        #             changed = False
-        #             for index, value in enumerate(prq):
-        #                 if isinstance(value, list):
-        #                     if len(value) == 1:
-        #                         prq[index] = value[0]
-        #                     else:
-        #                         raise ValueError(
-        #                             "An important logical key ('and', 'or')" +
-        #                             f"is missing for the nest of this list: {value}"
-        #                         )
-
-        #                 # Recursively convert nested value
-        #                 new_prq = rec_converter(value)
-
-        #                 if value != new_prq:
-        #                     changed = True
-        #                     prq[index] = new_prq
-
-        #             # If no value is changed, all values are converted
-        #             if not changed:
-        #                 break
-
-        #     elif isinstance(prq, dict):
-        #         # Filter all possible elements
-        #         while True:
-        #             if len(prq) == 1:
-        #                 key = list(prq.keys())[0]
-        #                 if isinstance(prq[key], dict):
-        #                     return rec_converter(prq[key])
-        #                 if isinstance(prq[key], list) and len(prq[key]) == 1:
-        #                     return rec_converter(prq[key])
-
-        #             changed = False
-        #             for key, value in prq.items():
-        #                 # Recursively convert nested value
-        #                 new_prq = rec_converter(value)
-
-        #                 if value != new_prq:
-        #                     changed = True
-        #                     prq[key] = new_prq
-
-        #             # If no value is changed, all values are converted
-        #             if not changed:
-        #                 break
-        #     return prq
-
-        # return rec_converter(prereq)
         if isinstance(prereq, dict) and len(prereq) == 1:
             key = list(prereq.keys())[0]
             if len(prereq[key]) == 1:
