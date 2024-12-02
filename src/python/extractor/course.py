@@ -13,6 +13,7 @@ from python.filter.course import (
     PrereqFilterNonUid,
     PrereqFilterRedundantNest
 )
+from python.converter.client import FlowchartConverter
 
 class PrereqExtractor:
     """
@@ -81,9 +82,20 @@ class PrereqExtractor:
         """
 
         p = PrereqFormat(self._prereq)
-        p = PrereqFilterDuplicate(p)
-        p = PrereqFilterNonUid(p)
-        p = PrereqFilterRedundantNest(p)
-        p = PrereqFilterEmpty(p)
 
-        self._prereq = p.process()
+        # Filter the prereq dictionary
+        while True:
+            p = PrereqFilterNonUid(p)
+            p = PrereqFilterDuplicate(p)
+            p = PrereqFilterEmpty(p)
+            p = PrereqFilterRedundantNest(p)
+
+            pp = p.process()
+            if pp == self._prereq:
+                break
+            self._prereq = pp
+        
+        # Convert to client's format
+        client_format = FlowchartConverter(self._prereq)
+        client_format.convert()
+        self._prereq = client_format.get_prereq()

@@ -12,6 +12,15 @@ from python.filter.course import PrereqFilterUidNotInShell
 from python.schema.course import PrereqFormat
 from python.sources.config.school import SchoolConfigManager
 
+# TODO remove this import after modify Extractor, it should be called from there
+from python.filter.course import (
+    PrereqFilterNonUid,
+    PrereqFilterDuplicate,
+    PrereqFilterEmpty,
+    PrereqFilterRedundantNest
+)
+from python.converter.client import FlowchartConverter
+
 class SystemConfig():
     """
     Configuration for Course Dog's API system.
@@ -233,7 +242,28 @@ class CourseSystem(SubjectHandler):
                     prereq,
                     general_shells
                 )
-                prereq = prereq.process()
+                
+                # TODO remove these filter after modify Extractor, it should be called from there
+                # Start
+                p = prereq
+                while True:
+                    p = PrereqFilterNonUid(p)
+                    p = PrereqFilterDuplicate(p)
+                    p = PrereqFilterEmpty(p)
+                    p = PrereqFilterRedundantNest(p)
+
+                    pp = p.process()
+                    if pp == prereq:
+                        break
+                    prereq = pp
+                
+                # Convert to client's format
+                client_format = FlowchartConverter(prereq)
+                client_format.convert()
+                prereq = client_format.get_prereq()
+                # End
+                
+                prereq = prereq
                 c["prereq"] = prereq
 
                 general_courses[uid] = c

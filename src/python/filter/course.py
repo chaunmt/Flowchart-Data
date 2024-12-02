@@ -1,5 +1,12 @@
 """
-This module contains filter classes related to course system.
+This module contains filter classes related to course system:
+- CourseInfoNonPrereqFilter
+- PrereqFilter
+- PrereqFilterEmpty
+- PrereqFilterRedundantNest
+- PrereqFilterDuplicate
+- PrereqFilterNonUid
+- PrereqFilterUidNotInShell
 """
 
 from python.schema.course import PrereqFormat
@@ -65,7 +72,7 @@ class PrereqFilter(PrereqFormat):
             raise TypeError(
                 f"Expected a StringComponent instance for 's' instead of {type(prereq)}"
             )
-        
+
         # Initialize
         super().__init__(prereq)
         self._prereq = prereq
@@ -164,11 +171,19 @@ class PrereqFilterRedundantNest(PrereqFilter):
                     # Delete a redundant outer list (list of only 1 item)
                     if len(prereq) == 1:
                         if isinstance(prereq[0], (dict, list)):
-                            prereq = prereq[0]
-                            return rec_filter(prereq)
+                            return rec_filter(prereq[0])
 
                     changed = False
                     for index, value in enumerate(prereq):
+                        if isinstance(value, list):
+                            if len(value) == 1:
+                                prereq[index] = value[0]
+                            else:
+                                raise ValueError(
+                                    "An important logical key ('and', 'or')" +
+                                    f"is missing for the nest of this list: {value}"
+                                )
+
                         # Recursively filter nested value
                         new_prereq = rec_filter(value)
 
@@ -187,7 +202,9 @@ class PrereqFilterRedundantNest(PrereqFilter):
                     if len(prereq) == 1:
                         key = list(prereq.keys())[0]
                         if isinstance(prereq[key], dict):
-                            prereq = prereq[key]
+                            return rec_filter(prereq[key])
+                        if isinstance(prereq[key], list) and len(prereq[key]) == 1:
+                            return rec_filter(prereq[key])
 
                     changed = False
                     for key, value in prereq.items():
@@ -203,14 +220,19 @@ class PrereqFilterRedundantNest(PrereqFilter):
                         break
             return prereq
 
-        return rec_filter(self.prereq.process())
+        p = rec_filter(self.prereq.process())
+
+        # Make sure the final result is a PrereqFormat object
+        if isinstance(p, list):
+            p = { "and": p }
+
+        return p
 
 ###############################################################################
 class PrereqFilterDuplicate(PrereqFilter):
     """
     This class filter out all duplicate elements of the same nested level in prereq.
     """
-
 
     def process(self) -> dict:
         """
@@ -367,6 +389,8 @@ class PrereqFilterUidNotInShell(PrereqFilter):
             Recursively filter all nested level.
             """
 
+            if isinstance(prereq, str) and prereq not in self._shells:
+                return {}
             if isinstance(prereq, list):
                 # Filter all possible elements
                 while True:
