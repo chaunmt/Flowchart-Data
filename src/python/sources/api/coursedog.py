@@ -401,75 +401,34 @@ class ProgramSystem(SubjectHandler):
         """
         Record all shells and programs of the school.
         """
-
-        # record...
-        #   all program shells,
-        #   major program shells,
-        #   minor program shells,
-        #   certificate program shells,
-        #   other program shells
-
+        recorded_types = [
+            "all",
+            "major",
+            "minor",
+            "certificate"
+            # Skip other types
+        ]
+        
         raw = self.get_api_input()
         print(">>>>>> Got raw data!")
+        
+        for t in recorded_types:
+            JSONHandler.write_to_path(
+                f"{self._program_path}/{t}ProgramsShells.json",
+                self.get_program_shells(raw)
+            )
+            JSONHandler.write_to_path(
+                f"{self._program_path}/{t}Programs.json",
+                self.get_program_shells(raw)
+            )
 
-        all_programs_shells = {}
-        major_shells = {}
-        minor_shells = {}
-        certificate_shells = {}
-        other_shells = {}
-
-        for uid, program in raw.items():
-            program_type = program.get("type", "")
-
-            program_shell = {
-                "uid": program["uid"],
-                "type": program_type,
-                "career": program.get("career", ""),
-                "name": program.get("name", ""),
-                "diploma": program.get("diploma", ""),
-                "info": program.get("info", ""),
-                # Credit information
-                "programMinCredit": program.get("programMinCredit"),
-                "programMaxCredit": program.get("programMaxCredit"),
-                "degreeMinCredit": program.get("degreeMinCredit"),
-                "degreeMaxCredit": program.get("degreeMaxCredit"),
-            }
-
-            all_programs_shells[uid] = program_shell
-
-            if "Major" in program_type:
-                major_shells[uid] = program
-            elif "Minor" in program_type:
-                minor_shells[uid] = program
-            elif "Certificate" in program_type:
-                certificate_shells[uid] = program
-            else:
-                other_shells[uid] = program
-
-        JSONHandler.write_to_path(
-            f"{self._program_path}/allProgramsShells.json", all_programs_shells)
-        JSONHandler.write_to_path(
-            f"{self._program_path}/majorProgramsShells.json", major_shells)
-        JSONHandler.write_to_path(
-            f"{self._program_path}/minorProgramsShells.json", minor_shells)
-        JSONHandler.write_to_path(
-            f"{self._program_path}/certificateProgramsShells.json", certificate_shells)
-        JSONHandler.write_to_path(
-            f"{self._program_path}/otherProgramsShells.json", other_shells)
-
-        # TODO record all program data
-        # TODO record major program data
-        # TODO record minor program data
-        # TODO record certificate program data
-        # TODO record other program data
-
-        return "++ ProgramSystem: All programs data written successfully!"
+        return "++ ProgramSystem: All programs and shells data written successfully!"
 
     def get_api_input(self, limit: str = _API_LIMIT) -> dict:
         """
         Get the API result for certain courses.
         """
-        raw = JSONHandler.get_from_url(
+        return JSONHandler.get_from_url(
             'https://app.coursedog.com/api/v1/cm/'  # API
             + self._school_uid
             + '/programs?'  # Search programs
@@ -479,52 +438,87 @@ class ProgramSystem(SubjectHandler):
             + '&limit=' + limit
         )
 
-        def get_safe_value(data, keys, default: any = None):
-            """
-            Safely access nested dictionary keys.\n
-            Returns the default value if any key is missing.
-            """
-            try:
-                for key in keys:
-                    data = data[key]
-                return data
-            except (KeyError, TypeError):
-                return default
+    def get_safe_values(self, data: dict, keys, default: any = None):
+        """
+        Safely access nested dictionary keys.\n
+        Returns the default value if any key is missing.
+        """
+        try:
+            for key in keys:
+                data = data[key]
+            return data
+        except (KeyError, TypeError):
+            return default
 
-        # return
-        p = {
+    def get_program_shells(self, data: dict = "all", by_type: str = None):
+        """
+        Get shells data of programs of a certain type.\n
+        Get all program's shells data if by_type is None.
+        """
+        shells = {}
+        for _, program in data.items():
+            if by_type is "all" or program["type"] == by_type:
+                shells[program["uid"]] = {
+                    "uid": program["_id"],
+                    "type": self.get_safe_values(program, ["type"]),
+                    "career": self.get_safe_values(program, ["career"]),
+                    "name": self.get_safe_values(program, ["catalogDisplayName"]),
+                    "diploma": self.get_safe_values(program, ["diplomaDescription"]),
+                    "info": self.get_safe_values(program, ["description"]),
+                    # Credit information
+                    "programMinCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsProgramMin"
+                    ]),
+                    "programMaxCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsProgramMax"
+                    ]),
+                    "degreeMinCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsDegreeMin"
+                    ]),
+                    "degreeMaxCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsDegreeMax"
+                    ])
+                }
+
+        return shells
+
+    def get_programs(self, data: dict = None, by_type: str = None):
+        """
+        Get full data of programs of a certain type.\n
+        Get all programs data if by_type is None.
+        """
+        return {
             program["_id"]: {
                 # Basic information
                 "uid": program["_id"],
-                "type": get_safe_value(program, ["type"]),
-                "career": get_safe_value(program, ["career"]),
-                "name": get_safe_value(program, ["catalogDisplayName"]),
-                "diploma": get_safe_value(program, ["diplomaDescription"]),
-                "info": get_safe_value(program, ["description"]),
+                "type": self.get_safe_values(program, ["type"]),
+                "career": self.get_safe_values(program, ["career"]),
+                "name": self.get_safe_values(program, ["catalogDisplayName"]),
+                "diploma": self.get_safe_values(program, ["diplomaDescription"]),
+                "info": self.get_safe_values(program, ["description"]),
                 # Credit information
-                "programMinCredit": get_safe_value(program, [
+                "programMinCredit": self.get_safe_values(program, [
                     "customFields", "cdProgramCreditsProgramMin"
                 ]),
-                "programMaxCredit": get_safe_value(program, [
+                "programMaxCredit": self.get_safe_values(program, [
                     "customFields", "cdProgramCreditsProgramMax"
                 ]),
-                "degreeMinCredit": get_safe_value(program, [
+                "degreeMinCredit": self.get_safe_values(program, [
                     "customFields", "cdProgramCreditsDegreeMin"
                 ]),
-                "degreeMaxCredit": get_safe_value(program, [
+                "degreeMaxCredit": self.get_safe_values(program, [
                     "customFields", "cdProgramCreditsDegreeMax"
                 ]),
                 # Requisites
-                # "requisite": get_safe_value(program, ["requisites", "requisitesSimple"])
-            } for _, program in raw.items()
+                "requisite": self.get_program_requirements(
+                    self.get_safe_values(program, ["requisites", "requisitesSimple"])
+                )
+            } for _, program in data.items()
         }
 
-        return p
-
-        # TODO Check requisite's subRules and value field
-
-    def get_program_requirements(self, program) -> dict:
+    def get_program_requirements(self, req) -> dict:
         """
         Get the requirements of a program.
         """
         # TODO
+        return {}
