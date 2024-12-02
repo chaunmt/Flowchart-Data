@@ -415,11 +415,11 @@ class ProgramSystem(SubjectHandler):
         for t in recorded_types:
             JSONHandler.write_to_path(
                 f"{self._program_path}/{t}ProgramsShells.json",
-                self.get_program_shells(raw)
+                self.get_program_shells(raw, t)
             )
             JSONHandler.write_to_path(
                 f"{self._program_path}/{t}Programs.json",
-                self.get_program_shells(raw)
+                self.get_programs(raw, t)
             )
 
         return "++ ProgramSystem: All programs and shells data written successfully!"
@@ -450,15 +450,15 @@ class ProgramSystem(SubjectHandler):
         except (KeyError, TypeError):
             return default
 
-    def get_program_shells(self, data: dict = "all", by_type: str = None):
+    def get_program_shells(self, data: dict = None, by_type: str = "all"):
         """
         Get shells data of programs of a certain type.\n
         Get all program's shells data if by_type is None.
         """
         shells = {}
         for _, program in data.items():
-            if by_type is "all" or program["type"] == by_type:
-                shells[program["uid"]] = {
+            if by_type == "all" or program["type"].lower() == by_type:
+                shells[program["_id"]] = {
                     "uid": program["_id"],
                     "type": self.get_safe_values(program, ["type"]),
                     "career": self.get_safe_values(program, ["career"]),
@@ -487,34 +487,36 @@ class ProgramSystem(SubjectHandler):
         Get full data of programs of a certain type.\n
         Get all programs data if by_type is None.
         """
-        return {
-            program["_id"]: {
-                # Basic information
-                "uid": program["_id"],
-                "type": self.get_safe_values(program, ["type"]),
-                "career": self.get_safe_values(program, ["career"]),
-                "name": self.get_safe_values(program, ["catalogDisplayName"]),
-                "diploma": self.get_safe_values(program, ["diplomaDescription"]),
-                "info": self.get_safe_values(program, ["description"]),
-                # Credit information
-                "programMinCredit": self.get_safe_values(program, [
-                    "customFields", "cdProgramCreditsProgramMin"
-                ]),
-                "programMaxCredit": self.get_safe_values(program, [
-                    "customFields", "cdProgramCreditsProgramMax"
-                ]),
-                "degreeMinCredit": self.get_safe_values(program, [
-                    "customFields", "cdProgramCreditsDegreeMin"
-                ]),
-                "degreeMaxCredit": self.get_safe_values(program, [
-                    "customFields", "cdProgramCreditsDegreeMax"
-                ]),
-                # Requisites
-                "requisite": self.get_program_requirements(
-                    self.get_safe_values(program, ["requisites", "requisitesSimple"])
-                )
-            } for _, program in data.items()
-        }
+        programs = {}
+        for _, program in data.items():
+            if by_type == "all" or program["type"].lower() == by_type:
+                programs[program["_id"]] = {
+                    "uid": program["_id"],
+                    "type": self.get_safe_values(program, ["type"]),
+                    "career": self.get_safe_values(program, ["career"]),
+                    "name": self.get_safe_values(program, ["catalogDisplayName"]),
+                    "diploma": self.get_safe_values(program, ["diplomaDescription"]),
+                    "info": self.get_safe_values(program, ["description"]),
+                    # Credit information
+                    "programMinCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsProgramMin"
+                    ]),
+                    "programMaxCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsProgramMax"
+                    ]),
+                    "degreeMinCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsDegreeMin"
+                    ]),
+                    "degreeMaxCredit": self.get_safe_values(program, [
+                        "customFields", "cdProgramCreditsDegreeMax"
+                    ]),
+                    # Requisites
+                    "requisite": self.get_program_requirements(
+                        self.get_safe_values(program, ["requisites", "requisitesSimple"])
+                    )
+                }
+
+        return programs
 
     def get_program_requirements(self, req) -> dict:
         """
