@@ -1,6 +1,6 @@
 {
-  "000355306-2024-09-03": {
-    "uid": "000355306-2024-09-03",
+  "000355306": {
+    "uid": "000355306",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Adult Education Postbaccalaureate Certificate",
@@ -12,8 +12,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "000357806-2024-09-03": {
-    "uid": "000357806-2024-09-03",
+  "000357806": {
+    "uid": "000357806",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Adult Education Undergraduate Certificate",
@@ -25,8 +25,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "00055C620-2024-09-03": {
-    "uid": "00055C620-2024-09-03",
+  "00055C620": {
+    "uid": "00055C620",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Aging Studies Postbaccalaureate Certificate",
@@ -38,8 +38,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "009352918-2024-09-03": {
-    "uid": "009352918-2024-09-03",
+  "009352918": {
+    "uid": "009352918",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Applied Business Certificate",
@@ -51,21 +51,21 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "018757506-2024-09-03": {
-    "uid": "018757506-2024-09-03",
+  "018757506": {
+    "uid": "018757506",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Sports Coaching Certificate",
     "diploma": "Coaching - Undergraduate Level",
-    "info": "",
+    "info": "The sports coaching certificate offers students the opportunity to study the theoretical and applied nature of coaching through an integrated series of courses, based on national standards. The educational objectives of the certificate in Sports Coaching are for students to acquire knowledge of theoretical foundations of sport coaching and the growth and development of athletes. The psychological, social, biological, and physical aspects of coaching and athletic injury will be addressed throughout the curriculum. Students will also develop a philosophical approach and foundational knowledge that academically prepares them to coach.",
     "programMinCredit": "12",
     "programMaxCredit": null,
     "degreeMinCredit": null,
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "025650606-2024-09-03": {
-    "uid": "025650606-2024-09-03",
+  "025650606": {
+    "uid": "025650606",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Specialist in Education and General Education Administration Certificate",
@@ -77,8 +77,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "026051106-2024-09-03": {
-    "uid": "026051106-2024-09-03",
+  "026051106": {
+    "uid": "026051106",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Educational Psychology Specialist Certificate in Education and School Psychological Services",
@@ -90,8 +90,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "026051306-2024-09-03": {
-    "uid": "026051306-2024-09-03",
+  "026051306": {
+    "uid": "026051306",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Educational Psychology Specialist Certificate in Education and Special Education",
@@ -103,8 +103,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "040259606-2024-09-03": {
-    "uid": "040259606-2024-09-03",
+  "040259606": {
+    "uid": "040259606",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Human Resource Development Certificate",
@@ -116,8 +116,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "040259706-2024-09-03": {
-    "uid": "040259706-2024-09-03",
+  "040259706": {
+    "uid": "040259706",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Human Resource Development Postbaccalaureate Certificate",
@@ -129,8 +129,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "05845K117-2024-09-03": {
-    "uid": "05845K117-2024-09-03",
+  "05845K117": {
+    "uid": "05845K117",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Music Education Post-Baccalaureate Licensure Certificate",
@@ -142,8 +142,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "09135B817-2024-09-03": {
-    "uid": "09135B817-2024-09-03",
+  "09135B817": {
+    "uid": "09135B817",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Technical Communication Postbaccalaureate Certificate",
@@ -155,8 +155,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "100653518-2024-09-03": {
-    "uid": "100653518-2024-09-03",
+  "100653518": {
+    "uid": "100653518",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Construction Management Certificate",
@@ -168,8 +168,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "101451606-2024-09-03": {
-    "uid": "101451606-2024-09-03",
+  "101451606": {
+    "uid": "101451606",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Disability Policy and Services Postbaccalaureate Certificate",
@@ -181,8 +181,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "11855G720-2024-09-03": {
-    "uid": "11855G720-2024-09-03",
+  "11855G720": {
+    "uid": "11855G720",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Clinical Research Postbaccalaureate Certificate",
@@ -194,8 +194,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "151552106-2024-09-03": {
-    "uid": "151552106-2024-09-03",
+  "151552106": {
+    "uid": "151552106",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Professional Development Postbaccalaureate Certificate",
@@ -207,8 +207,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "200158106-2024-09-03": {
-    "uid": "200158106-2024-09-03",
+  "200158106": {
+    "uid": "200158106",
     "type": "Certificate",
     "career": "Graduate",
     "name": "K-12 Technology Integration Postbaccalaureate Certificate",
@@ -220,8 +220,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "200258206-2024-09-03": {
-    "uid": "200258206-2024-09-03",
+  "200258206": {
+    "uid": "200258206",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Multimedia Design and Development Postbaccalaureate Certificate",
@@ -233,8 +233,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "202953206-2024-09-03": {
-    "uid": "202953206-2024-09-03",
+  "202953206": {
+    "uid": "202953206",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Program Evaluation Postbaccalaureate Certificate",
@@ -246,8 +246,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "203458916-2024-09-03": {
-    "uid": "203458916-2024-09-03",
+  "203458916": {
+    "uid": "203458916",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Policy Issues on Work and Pay Postbaccalaureate Certificate",
@@ -259,8 +259,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "204151920-2024-09-03": {
-    "uid": "204151920-2024-09-03",
+  "204151920": {
+    "uid": "204151920",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Public Health Core Concepts Postbaccalaureate Certificate",
@@ -272,8 +272,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "204651706-2024-09-03": {
-    "uid": "204651706-2024-09-03",
+  "204651706": {
+    "uid": "204651706",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Dual Language and Immersion Education Postbaccalaureate Certificate",
@@ -285,8 +285,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "204952306-2024-09-03": {
-    "uid": "204952306-2024-09-03",
+  "204952306": {
+    "uid": "204952306",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Talent Development and Gifted Education Postbaccalaureate Certificate",
@@ -298,8 +298,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "206752618-2024-09-03": {
-    "uid": "206752618-2024-09-03",
+  "206752618": {
+    "uid": "206752618",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Information Technology Infrastructure Certificate",
@@ -311,8 +311,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "207953720-2024-09-03": {
-    "uid": "207953720-2024-09-03",
+  "207953720": {
+    "uid": "207953720",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Public Health Preparedness, Response, and Recovery Postbaccalaureate Certificate",
@@ -324,8 +324,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "208053820-2024-09-03": {
-    "uid": "208053820-2024-09-03",
+  "208053820": {
+    "uid": "208053820",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Public Health Food Protection Postbaccalaureate Certificate",
@@ -337,8 +337,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "208554304-2023-09-05": {
-    "uid": "208554304-2023-09-05",
+  "208554304": {
+    "uid": "208554304",
     "type": "Certificate",
     "career": "",
     "name": "Endodontics",
@@ -350,8 +350,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "208654404-2023-09-05": {
-    "uid": "208654404-2023-09-05",
+  "208654404": {
+    "uid": "208654404",
     "type": "Certificate",
     "career": "",
     "name": "General Practice Residency",
@@ -363,8 +363,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "208754504-2023-09-05": {
-    "uid": "208754504-2023-09-05",
+  "208754504": {
+    "uid": "208754504",
     "type": "Certificate",
     "career": "",
     "name": "Oral Hlth. Serv. for Older Ads",
@@ -376,8 +376,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "208854604-2023-09-05": {
-    "uid": "208854604-2023-09-05",
+  "208854604": {
+    "uid": "208854604",
     "type": "Certificate",
     "career": "",
     "name": "Orofacial Pain",
@@ -389,8 +389,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "209054904-2023-09-05": {
-    "uid": "209054904-2023-09-05",
+  "209054904": {
+    "uid": "209054904",
     "type": "Certificate",
     "career": "",
     "name": "Prosthodontics",
@@ -402,8 +402,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "209155004-2023-09-05": {
-    "uid": "209155004-2023-09-05",
+  "209155004": {
+    "uid": "209155004",
     "type": "Certificate",
     "career": "",
     "name": "Periodontics",
@@ -415,8 +415,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "209255104-2023-09-05": {
-    "uid": "209255104-2023-09-05",
+  "209255104": {
+    "uid": "209255104",
     "type": "Certificate",
     "career": "",
     "name": "Pediatric Dentistry",
@@ -428,8 +428,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "209355404-2023-09-05": {
-    "uid": "209355404-2023-09-05",
+  "209355404": {
+    "uid": "209355404",
     "type": "Certificate",
     "career": "",
     "name": "Orthodontics",
@@ -441,8 +441,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "209455504-2023-09-05": {
-    "uid": "209455504-2023-09-05",
+  "209455504": {
+    "uid": "209455504",
     "type": "Certificate",
     "career": "",
     "name": "Oral & Maxillofacial Surgery",
@@ -454,8 +454,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "209855703-2023-09-01": {
-    "uid": "209855703-2023-09-01",
+  "209855703": {
+    "uid": "209855703",
     "type": "Certificate",
     "career": "",
     "name": "Clinical Training",
@@ -467,8 +467,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "209955803-2023-09-01": {
-    "uid": "209955803-2023-09-01",
+  "209955803": {
+    "uid": "209955803",
     "type": "Certificate",
     "career": "",
     "name": "Foreign Grad. Train.",
@@ -480,8 +480,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "210255906-2024-09-03": {
-    "uid": "210255906-2024-09-03",
+  "210255906": {
+    "uid": "210255906",
     "type": "Certificate",
     "career": "Graduate",
     "name": "PK-12 Administration Postbaccalaureate Certificate",
@@ -493,8 +493,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "210356016-2024-09-03": {
-    "uid": "210356016-2024-09-03",
+  "210356016": {
+    "uid": "210356016",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Nonprofit Management Postbaccalaureate Certificate",
@@ -506,8 +506,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21055C506-2024-09-03": {
-    "uid": "21055C506-2024-09-03",
+  "21055C506": {
+    "uid": "21055C506",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Teaching English as a Second Language Certificate",
@@ -519,8 +519,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "211356122-2024-09-03": {
-    "uid": "211356122-2024-09-03",
+  "211356122": {
+    "uid": "211356122",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Metropolitan Design Postbaccalaureate Certificate",
@@ -532,8 +532,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "212055606-2024-09-03": {
-    "uid": "212055606-2024-09-03",
+  "212055606": {
+    "uid": "212055606",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Adult Literacy Postbaccalaureate Certificate",
@@ -545,8 +545,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "212256403-2023-09-01": {
-    "uid": "212256403-2023-09-01",
+  "212256403": {
+    "uid": "212256403",
     "type": "Certificate",
     "career": "",
     "name": "Swine Medicine",
@@ -558,8 +558,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21265A216-2024-09-03": {
-    "uid": "21265A216-2024-09-03",
+  "21265A216": {
+    "uid": "21265A216",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Early Childhood Policy Postbaccalaureate Certificate",
@@ -571,8 +571,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21305A706-2024-09-03": {
-    "uid": "21305A706-2024-09-03",
+  "21305A706": {
+    "uid": "21305A706",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Autism Spectrum Disorder Certificate",
@@ -584,8 +584,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21305A806-2024-09-03": {
-    "uid": "21305A806-2024-09-03",
+  "21305A806": {
+    "uid": "21305A806",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Autism Spectrum Disorder Postbaccalaureate Certificate",
@@ -597,8 +597,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21555B606-2024-09-03": {
-    "uid": "21555B606-2024-09-03",
+  "21555B606": {
+    "uid": "21555B606",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Teaching Writing and Critical Literacy Postbaccalaureate Certificate",
@@ -610,8 +610,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21575B707-2024-09-03": {
-    "uid": "21575B707-2024-09-03",
+  "21575B707": {
+    "uid": "21575B707",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Stream Restoration Science and Engineering Postbaccalaureate Certificate",
@@ -623,8 +623,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21645B906-2024-09-03": {
-    "uid": "21645B906-2024-09-03",
+  "21645B906": {
+    "uid": "21645B906",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Online Distance Learning Postbaccalaureate Certificate",
@@ -636,8 +636,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21705C206-2024-09-03": {
-    "uid": "21705C206-2024-09-03",
+  "21705C206": {
+    "uid": "21705C206",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Infant and Early Childhood Mental Health Postbaccalaureate Certificate",
@@ -649,8 +649,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "21805C306-2024-09-03": {
-    "uid": "21805C306-2024-09-03",
+  "21805C306": {
+    "uid": "21805C306",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Parent Education Postbaccalaureate Certificate",
@@ -662,8 +662,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22075C906-2024-09-03": {
-    "uid": "22075C906-2024-09-03",
+  "22075C906": {
+    "uid": "22075C906",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Undergraduate Multicultural Teaching and Learning Postbaccalaureate Certificate",
@@ -675,8 +675,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22085D106-2024-09-03": {
-    "uid": "22085D106-2024-09-03",
+  "22085D106": {
+    "uid": "22085D106",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Advanced Practices in Second Language Teaching Postbaccalaureate Certificate",
@@ -688,8 +688,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22215D714-2023-09-05": {
-    "uid": "22215D714-2023-09-05",
+  "22215D714": {
+    "uid": "22215D714",
     "type": "Certificate",
     "career": "",
     "name": "Adult Health/Gerontological Clinical Nurse Specialist Postgraduate Certificate",
@@ -701,8 +701,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22225D814-2024-09-03": {
-    "uid": "22225D814-2024-09-03",
+  "22225D814": {
+    "uid": "22225D814",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Adult/Gerontological Primary Care Nurse Practitioner Postgraduate Certificate",
@@ -714,8 +714,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22235D914-2024-09-03": {
-    "uid": "22235D914-2024-09-03",
+  "22235D914": {
+    "uid": "22235D914",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Women's Health/Gender Related Nurse Practitioner Postgraduate Certificate",
@@ -727,8 +727,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22275E414-2024-09-03": {
-    "uid": "22275E414-2024-09-03",
+  "22275E414": {
+    "uid": "22275E414",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Nurse Midwifery Postgraduate Certificate",
@@ -740,8 +740,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22295E614-2024-09-03": {
-    "uid": "22295E614-2024-09-03",
+  "22295E614": {
+    "uid": "22295E614",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Pediatric Clinical Nurse Specialist Postgraduate Certificate",
@@ -753,8 +753,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22305E714-2024-09-03": {
-    "uid": "22305E714-2024-09-03",
+  "22305E714": {
+    "uid": "22305E714",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Pediatric Nurse Practitioner - Primary Care Postgraduate Certificate",
@@ -766,8 +766,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22315E814-2024-09-03": {
-    "uid": "22315E814-2024-09-03",
+  "22315E814": {
+    "uid": "22315E814",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Psychiatric Mental Health Nurse Practitioner Postgraduate Certificate",
@@ -779,8 +779,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22375F207-2024-09-03": {
-    "uid": "22375F207-2024-09-03",
+  "22375F207": {
+    "uid": "22375F207",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Fundamentals of Quantitative Finance Postbaccalaureate Certificate",
@@ -792,8 +792,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22385F306-2024-09-03": {
-    "uid": "22385F306-2024-09-03",
+  "22385F306": {
+    "uid": "22385F306",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Clinical Physiology and Movement Science Postbaccalaureate Certificate",
@@ -805,8 +805,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22435P114-2024-09-03": {
-    "uid": "22435P114-2024-09-03",
+  "22435P114": {
+    "uid": "22435P114",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Integrative Therapies & Healing Practices Postbaccalaureate Certificate",
@@ -818,8 +818,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22485F814-2024-09-03": {
-    "uid": "22485F814-2024-09-03",
+  "22485F814": {
+    "uid": "22485F814",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Leadership in Health Information Technology for Health Professionals Postbaccalaureate Certificate",
@@ -831,10 +831,10 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22495F920-2024-09-03": {
-    "uid": "22495F920-2024-09-03",
+  "22495F920": {
+    "uid": "22495F920",
     "type": "Certificate",
-    "career": "Graduate",
+    "career": "",
     "name": "Public Health Postbaccalaureate Certificate in Performance Improvement",
     "diploma": "Performance Improvement",
     "info": "NOTE: Applications to the Performance Improvement Certificate program are not being accepted at this time. For more information, please contact sph-ask@umn.edu.\n\nThe public health certificate in performance improvement trains students to understand and apply quality improvement methods at both the systems and organizational level. The program will provide the tools needed in order to achieve and maintain high process performance.\n\nThe certificate provides participants with hands-on knowledge about how to improve processes in their respective organizations. By so doing, best practices will be diffused, and process performance will improve public health services.\n\nThis certificate addresses concerns voiced by the National Board of Public Health Examiners, the Public Health Accreditation Board, and the Council on Education for Public Health to provide more educational opportunities in performance improvement to working public health professionals.",
@@ -844,8 +844,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22535G216-2024-09-03": {
-    "uid": "22535G216-2024-09-03",
+  "22535G216": {
+    "uid": "22535G216",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Public Affairs Leadership Postbaccalaureate Certificate",
@@ -857,8 +857,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22565G308-2024-09-03": {
-    "uid": "22565G308-2024-09-03",
+  "22565G308": {
+    "uid": "22565G308",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Health Care Design and Innovation Postbaccalaureate Certificate",
@@ -870,8 +870,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22725G920-2024-09-03": {
-    "uid": "22725G920-2024-09-03",
+  "22725G920": {
+    "uid": "22725G920",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Applied Biostatistics Postbaccalaureate Certificate",
@@ -883,8 +883,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22805H218-2024-09-03": {
-    "uid": "22805H218-2024-09-03",
+  "22805H218": {
+    "uid": "22805H218",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Facility Management Certificate",
@@ -896,8 +896,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "22835H520-2024-09-03": {
-    "uid": "22835H520-2024-09-03",
+  "22835H520": {
+    "uid": "22835H520",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Advanced Management Training for Clinician Leaders Postbaccalaureate Certificate",
@@ -909,21 +909,21 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23005M402-2024-09-03": {
-    "uid": "23005M402-2024-09-03",
+  "23005M402": {
+    "uid": "23005M402",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Business Analytics Postbaccalaureate Certificate",
     "diploma": "Business Analytics",
-    "info": "Business analytics and data science is one of the most sought after skill sets in modern industry. The Business Analytics certificate offers candidates the skills to extract insights with creative data analysis, and then apply the results in real business settings. ",
+    "info": "Business analytics and data science is one of the most sought after skill sets in modern industry. The Business Analytics certificate offers candidates the skills to extract insights with creative data analysis and then apply the results in real business settings. ",
     "programMinCredit": "12",
     "programMaxCredit": null,
     "degreeMinCredit": null,
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23035H911-2024-09-03": {
-    "uid": "23035H911-2024-09-03",
+  "23035H911": {
+    "uid": "23035H911",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Orthoptics Post-baccalaureate Certificate",
@@ -935,8 +935,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23055I117-2024-09-03": {
-    "uid": "23055I117-2024-09-03",
+  "23055I117": {
+    "uid": "23055I117",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Spanish Language Advanced-Level Proficiency Certificate",
@@ -948,8 +948,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23085J315-2024-09-03": {
-    "uid": "23085J315-2024-09-03",
+  "23085J315": {
+    "uid": "23085J315",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Medical Laboratory Sciences Certificate",
@@ -961,8 +961,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23125I206-2024-09-03": {
-    "uid": "23125I206-2024-09-03",
+  "23125I206": {
+    "uid": "23125I206",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Private College Leadership Postbaccalaureate Certificate",
@@ -974,8 +974,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23135K207-2024-09-03": {
-    "uid": "23135K207-2024-09-03",
+  "23135K207": {
+    "uid": "23135K207",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Data Science Postbaccalaureate Certificate",
@@ -987,8 +987,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23165I308-2024-09-03": {
-    "uid": "23165I308-2024-09-03",
+  "23165I308": {
+    "uid": "23165I308",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Clinical Ethics Postbaccalaureate Certificate",
@@ -1000,8 +1000,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23175J118-2024-09-03": {
-    "uid": "23175J118-2024-09-03",
+  "23175J118": {
+    "uid": "23175J118",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Health Services Management Certificate",
@@ -1013,8 +1013,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23255I920-2024-09-03": {
-    "uid": "23255I920-2024-09-03",
+  "23255I920": {
+    "uid": "23255I920",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Global Health Postbaccalaureate Certificate",
@@ -1026,8 +1026,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23365J217-2024-09-03": {
-    "uid": "23365J217-2024-09-03",
+  "23365J217": {
+    "uid": "23365J217",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Chinese Language Advanced-Level Certificate",
@@ -1039,8 +1039,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23395J416-2024-09-03": {
-    "uid": "23395J416-2024-09-03",
+  "23395J416": {
+    "uid": "23395J416",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Election Administration Postbaccalaureate Certificate",
@@ -1052,8 +1052,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23395K316-2024-09-03": {
-    "uid": "23395K316-2024-09-03",
+  "23395K316": {
+    "uid": "23395K316",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Election Administration Undergraduate Certificate",
@@ -1065,10 +1065,10 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23565J616-2023-09-05": {
-    "uid": "23565J616-2023-09-05",
+  "23565J616": {
+    "uid": "23565J616",
     "type": "Certificate",
-    "career": "",
+    "career": "Graduate",
     "name": "Human Services Leadership Postbaccalaureate Certificate",
     "diploma": "Human Services Leadership",
     "info": "",
@@ -1078,8 +1078,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23585J817-2024-09-03": {
-    "uid": "23585J817-2024-09-03",
+  "23585J817": {
+    "uid": "23585J817",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "French Advanced-Level Proficiency Certificate",
@@ -1091,8 +1091,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23595J917-2024-09-03": {
-    "uid": "23595J917-2024-09-03",
+  "23595J917": {
+    "uid": "23595J917",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "German Advanced-Level Proficiency Certificate",
@@ -1104,8 +1104,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23725K503-2023-09-01": {
-    "uid": "23725K503-2023-09-01",
+  "23725K503": {
+    "uid": "23725K503",
     "type": "Certificate",
     "career": "",
     "name": "Veterinary Medical Education",
@@ -1117,8 +1117,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23795K618-2024-09-03": {
-    "uid": "23795K618-2024-09-03",
+  "23795K618": {
+    "uid": "23795K618",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Human Sexuality Postbaccalaureate Certificate",
@@ -1130,8 +1130,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23825K722-2024-09-03": {
-    "uid": "23825K722-2024-09-03",
+  "23825K722": {
+    "uid": "23825K722",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Advanced Wearable Products Post-Baccalaureate Certificate",
@@ -1143,8 +1143,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "23875K817-2024-09-03": {
-    "uid": "23875K817-2024-09-03",
+  "23875K817": {
+    "uid": "23875K817",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Career Readiness Certificate",
@@ -1156,8 +1156,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24255M502-2024-09-03": {
-    "uid": "24255M502-2024-09-03",
+  "24255M502": {
+    "uid": "24255M502",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Strategic Management Postbaccalaureate Certificate",
@@ -1169,8 +1169,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24265L620-2024-09-03": {
-    "uid": "24265L620-2024-09-03",
+  "24265L620": {
+    "uid": "24265L620",
     "type": "Certificate",
     "career": "Graduate",
     "name": "American Indian Public Health and Wellness Post-Baccalaureate Certificate",
@@ -1182,8 +1182,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24315L717-2024-09-03": {
-    "uid": "24315L717-2024-09-03",
+  "24315L717": {
+    "uid": "24315L717",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Editing and Publishing Certificate",
@@ -1195,8 +1195,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24415L802-2024-09-03": {
-    "uid": "24415L802-2024-09-03",
+  "24415L802": {
+    "uid": "24415L802",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Closely-Held Business Taxation Postbaccalaureate Certificate",
@@ -1208,8 +1208,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24425L902-2024-09-03": {
-    "uid": "24425L902-2024-09-03",
+  "24425L902": {
+    "uid": "24425L902",
     "type": "Certificate",
     "career": "Graduate",
     "name": "High Net-Worth Individual Taxation Postbaccalaureate Certificate",
@@ -1221,8 +1221,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24435M102-2024-09-03": {
-    "uid": "24435M102-2024-09-03",
+  "24435M102": {
+    "uid": "24435M102",
     "type": "Certificate",
     "career": "Graduate",
     "name": "International Taxation Postbaccalaureate Certificate",
@@ -1234,8 +1234,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24445M202-2024-09-03": {
-    "uid": "24445M202-2024-09-03",
+  "24445M202": {
+    "uid": "24445M202",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Tax Executive Postbaccalaureate Certificate",
@@ -1247,8 +1247,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24455M302-2024-09-03": {
-    "uid": "24455M302-2024-09-03",
+  "24455M302": {
+    "uid": "24455M302",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Taxation Postbaccalaureate Certificate",
@@ -1260,8 +1260,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24465M602-2024-09-03": {
-    "uid": "24465M602-2024-09-03",
+  "24465M602": {
+    "uid": "24465M602",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Asset Management Postbaccalaureate Certificate",
@@ -1273,8 +1273,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24475M702-2024-09-03": {
-    "uid": "24475M702-2024-09-03",
+  "24475M702": {
+    "uid": "24475M702",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Corporate Financial Management Postbaccalaureate Certificate",
@@ -1286,8 +1286,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24485M802-2024-09-03": {
-    "uid": "24485M802-2024-09-03",
+  "24485M802": {
+    "uid": "24485M802",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Leadership for Managers Postbaccalaureate Certificate",
@@ -1299,8 +1299,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24495M902-2024-09-03": {
-    "uid": "24495M902-2024-09-03",
+  "24495M902": {
+    "uid": "24495M902",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Strategic Marketing Postbaccalaureate Certificate",
@@ -1312,8 +1312,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24525N118-2024-09-03": {
-    "uid": "24525N118-2024-09-03",
+  "24525N118": {
+    "uid": "24525N118",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Leadership for Science Professionals Postbaccalaureate Certificate",
@@ -1325,8 +1325,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24535N202-2024-09-03": {
-    "uid": "24535N202-2024-09-03",
+  "24535N202": {
+    "uid": "24535N202",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Medical Industry Postbaccalaureate Certificate",
@@ -1338,8 +1338,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24545N302-2024-09-03": {
-    "uid": "24545N302-2024-09-03",
+  "24545N302": {
+    "uid": "24545N302",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Supply Chain Management for the Medical and Health Sector Postbaccalaureate Certificate",
@@ -1351,8 +1351,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24585O218-2024-09-03": {
-    "uid": "24585O218-2024-09-03",
+  "24585O218": {
+    "uid": "24585O218",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Long Term Care Management Certificate",
@@ -1364,8 +1364,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24615N420-2024-09-03": {
-    "uid": "24615N420-2024-09-03",
+  "24615N420": {
+    "uid": "24615N420",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Healthcare Management Postbaccalaureate Certificate",
@@ -1377,8 +1377,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24635N518-2024-09-03": {
-    "uid": "24635N518-2024-09-03",
+  "24635N518": {
+    "uid": "24635N518",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Environmental Health and Safety Certificate",
@@ -1390,8 +1390,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24675N606-2024-09-03": {
-    "uid": "24675N606-2024-09-03",
+  "24675N606": {
+    "uid": "24675N606",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Sales Certificate",
@@ -1403,8 +1403,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24685N803-2024-09-03": {
-    "uid": "24685N803-2024-09-03",
+  "24685N803": {
+    "uid": "24685N803",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Poultry Health Postbaccalaureate Certificate",
@@ -1416,8 +1416,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24705N902-2024-09-03": {
-    "uid": "24705N902-2024-09-03",
+  "24705N902": {
+    "uid": "24705N902",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Entrepreneurship & Innovation Postbaccalaureate Certificate",
@@ -1429,8 +1429,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24765O106-2024-09-03": {
-    "uid": "24765O106-2024-09-03",
+  "24765O106": {
+    "uid": "24765O106",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Learning Sciences Postbaccalaureate Certificate",
@@ -1442,8 +1442,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24855O518-2024-09-03": {
-    "uid": "24855O518-2024-09-03",
+  "24855O518": {
+    "uid": "24855O518",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Sex Therapy Postbaccalaureate Certificate",
@@ -1455,8 +1455,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24865O618-2024-09-03": {
-    "uid": "24865O618-2024-09-03",
+  "24865O618": {
+    "uid": "24865O618",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Regulatory Affairs for Food Professionals Postbaccalaureate Certificate",
@@ -1468,8 +1468,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24905O906-2024-09-03": {
-    "uid": "24905O906-2024-09-03",
+  "24905O906": {
+    "uid": "24905O906",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Learning Analytics Postbaccalaureate Certificate",
@@ -1481,8 +1481,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "24965P318-2024-09-03": {
-    "uid": "24965P318-2024-09-03",
+  "24965P318": {
+    "uid": "24965P318",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Transgender & Gender Diverse Health Postbaccalaureate Certificate",
@@ -1494,8 +1494,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "25005P414-2024-09-03": {
-    "uid": "25005P414-2024-09-03",
+  "25005P414": {
+    "uid": "25005P414",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Pediatric Nurse Practitioner - Acute Care Post-Graduate Certificate",
@@ -1507,8 +1507,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "25015P514-2024-09-03": {
-    "uid": "25015P514-2024-09-03",
+  "25015P514": {
+    "uid": "25015P514",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Population Health Informatics & Technology Post Baccalaureate Certificate",
@@ -1520,8 +1520,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "25035P722-2024-09-03": {
-    "uid": "25035P722-2024-09-03",
+  "25035P722": {
+    "uid": "25035P722",
     "type": "Certificate",
     "career": "Undergraduate",
     "name": "Design Justice Certificate",
@@ -1533,8 +1533,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "25045P804-2023-09-05": {
-    "uid": "25045P804-2023-09-05",
+  "25045P804": {
+    "uid": "25045P804",
     "type": "Certificate",
     "career": "",
     "name": "Oral Health Educator Certificate",
@@ -1546,8 +1546,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "25065Q107-2024-09-03": {
-    "uid": "25065Q107-2024-09-03",
+  "25065Q107": {
+    "uid": "25065Q107",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Electrification Engineering Postbaccalaureate Certificate",
@@ -1559,8 +1559,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "25105Q214-2024-09-03": {
-    "uid": "25105Q214-2024-09-03",
+  "25105Q214": {
+    "uid": "25105Q214",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Adult Gerontological Acute Care Nurse Practitioner Post-Graduate Certificate",
@@ -1572,8 +1572,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "25135Q307-2024-09-03": {
-    "uid": "25135Q307-2024-09-03",
+  "25135Q307": {
+    "uid": "25135Q307",
     "type": "Certificate",
     "career": "Graduate",
     "name": "Technology Leadership Postbaccalaureate Certificate",

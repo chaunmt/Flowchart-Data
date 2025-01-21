@@ -374,19 +374,6 @@ class ProgramSystem(SubjectHandler):
     """
 
     # Course Dog's API variables
-    _API_RETURN_FIELDS = ",".join([
-        "_id",
-        # "type",
-        # "career",
-        # "catalogDisplayName",
-        # "diplomaDescription",
-        # "description",
-        # "customFields.cdProgramCreditsProgramMin",
-        # "customFields.cdProgramCreditsProgramMax",
-        # "customFields.cdProgramCreditsDegreeMin",
-        # "customFields.cdProgramCreditsDegreeMax",
-        "requisites"
-    ])
     _API_IS_ACTIVE = "true"
     _API_INCLUDE_PENDING = "false"
     _API_LIMIT = "infinity"
@@ -449,6 +436,16 @@ class ProgramSystem(SubjectHandler):
             return data
         except (KeyError, TypeError):
             return default
+        
+    def delete_from_char(self, s: str, ch: str) -> str:
+        """
+        Delete the part of the string starting from the first occurence of a certain character.
+        """
+        try:
+            index = s.index(ch)
+            return s[:index]
+        except ValueError:
+            return s  # Character not found, return the original string
 
     def get_program_shells(self, data: dict = None, by_type: str = "all"):
         """
@@ -458,8 +455,9 @@ class ProgramSystem(SubjectHandler):
         shells = {}
         for _, program in data.items():
             if by_type == "all" or program["type"].lower() == by_type:
-                shells[program["_id"]] = {
-                    "uid": program["_id"],
+                uid = self.delete_from_char(program["_id"], "-")
+                shells[uid] = {
+                    "uid": uid,
                     "type": self.get_safe_values(program, ["type"]),
                     "career": self.get_safe_values(program, ["career"]),
                     "name": self.get_safe_values(program, ["catalogDisplayName"]),
@@ -487,34 +485,11 @@ class ProgramSystem(SubjectHandler):
         Get full data of programs of a certain type.\n
         Get all programs data if by_type is None.
         """
-        programs = {}
-        for _, program in data.items():
-            if by_type == "all" or program["type"].lower() == by_type:
-                programs[program["_id"]] = {
-                    "uid": program["_id"],
-                    "type": self.get_safe_values(program, ["type"]),
-                    "career": self.get_safe_values(program, ["career"]),
-                    "name": self.get_safe_values(program, ["catalogDisplayName"]),
-                    "diploma": self.get_safe_values(program, ["diplomaDescription"]),
-                    "info": self.get_safe_values(program, ["description"]),
-                    # Credit information
-                    "programMinCredit": self.get_safe_values(program, [
-                        "customFields", "cdProgramCreditsProgramMin"
-                    ]),
-                    "programMaxCredit": self.get_safe_values(program, [
-                        "customFields", "cdProgramCreditsProgramMax"
-                    ]),
-                    "degreeMinCredit": self.get_safe_values(program, [
-                        "customFields", "cdProgramCreditsDegreeMin"
-                    ]),
-                    "degreeMaxCredit": self.get_safe_values(program, [
-                        "customFields", "cdProgramCreditsDegreeMax"
-                    ]),
-                    # Requisites
-                    "requisite": self.get_program_requirements(
-                        self.get_safe_values(program, ["requisites", "requisitesSimple"])
-                    )
-                }
+        programs = self.get_program_shells(data, by_type)
+        for _, program in programs.items():
+            program["requisite"] = self.get_program_requirements(
+                self.get_safe_values(program, ["requisites", "requisitesSimple"])
+            )
 
         return programs
 
