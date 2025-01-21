@@ -84,7 +84,7 @@ class PrereqFilter(PrereqFormat):
         """
         return self._prereq
 
-    def process(self) -> dict:
+    def process(self) -> dict | str:
         """
         Process all filters.
         """
@@ -106,7 +106,8 @@ class PrereqFilterEmpty(PrereqFilter):
             """
             Recursively filter all nested level.
             """
-
+            if prereq in [None, "", {}]:
+                return {}
             if isinstance(prereq, list):
                 # Filter all possible elements
                 while True:
@@ -170,8 +171,7 @@ class PrereqFilterRedundantNest(PrereqFilter):
                 while True:
                     # Delete a redundant outer list (list of only 1 item)
                     if len(prereq) == 1:
-                        if isinstance(prereq[0], (dict, list)):
-                            return rec_filter(prereq[0])
+                        return rec_filter(prereq[0])
 
                     changed = False
                     for index, value in enumerate(prereq):
@@ -201,10 +201,8 @@ class PrereqFilterRedundantNest(PrereqFilter):
                     # Delete a redundant outer dictionary (dict of only 1 dict)
                     if len(prereq) == 1:
                         key = list(prereq.keys())[0]
-                        if isinstance(prereq[key], dict):
-                            return rec_filter(prereq[key])
-                        if isinstance(prereq[key], list) and len(prereq[key]) == 1:
-                            return rec_filter(prereq[key])
+                        if len(prereq[key]) == 1:
+                            return rec_filter(prereq[key][0])
 
                     changed = False
                     for key, value in prereq.items():

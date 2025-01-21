@@ -53,14 +53,14 @@ class CourseShell:
 ###############################################################################
 class PrereqFormat:
     """
-    PrereqFormat is a dictionary of courses' uid\n
-    with or without their nested logical operation ('and', 'or').\n
+    PrereqFormat is either a course's uid or a dictionary of courses' uids lists\n
+    with their nested logical operation key ('and', 'or').\n
     """
 
     #####################################
     def __init__(
             self,
-            prereq: dict
+            prereq: dict | str
         ) -> None:
         """
         Initialize a PrereqFormat object.
@@ -81,7 +81,7 @@ class PrereqFormat:
         )
 
     #####################################
-    def process(self) -> dict:
+    def process(self) -> dict | str:
         """
         Process the object.
         """
