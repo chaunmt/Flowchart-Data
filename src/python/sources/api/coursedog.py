@@ -391,14 +391,13 @@ class ProgramSystem(SubjectHandler):
         recorded_types = [
             "major",
             "minor",
-            "certificate"
-            "all",
-            # Skip other types
+            # "certificate" (use a different format so need more testing)
+            # Skip other types ("all" included)
         ]
-        
+
         raw = self.get_api_input()
         print(">>>>>> Got raw data!")
-        
+
         for t in recorded_types:
             JSONHandler.write_to_path(
                 f"{self._program_path}/{t}ProgramsShells.json",
@@ -436,7 +435,7 @@ class ProgramSystem(SubjectHandler):
             return data
         except (KeyError, TypeError):
             return default
-        
+
     def delete_from_char(self, s: str, ch: str) -> str:
         """
         Delete the part of the string starting from the first occurence of a certain character.
@@ -447,14 +446,14 @@ class ProgramSystem(SubjectHandler):
         except ValueError:
             return s  # Character not found, return the original string
 
-    def get_program_shells(self, data: dict = None, by_type: str = "all"):
+    def get_program_shells(self, data: dict, by_type: str):
         """
         Get shells data of programs of a certain type.\n
         Get all program's shells data if by_type is None.
         """
         shells = {}
         for _, program in data.items():
-            if by_type == "all" or program["type"].lower() == by_type:
+            if program["type"].lower() == by_type:
                 shells[program["_id"]] = {
                     "uid": program["_id"],
                     "type": self.get_safe_values(program, ["type"]),
@@ -479,23 +478,128 @@ class ProgramSystem(SubjectHandler):
 
         return shells
 
-    def get_programs(self, data: dict = None, by_type: str = None):
+    def get_programs(self, data: dict, by_type: str):
         """
         Get full data of programs of a certain type.\n
         Get all programs data if by_type is None.
         """
         programs = self.get_program_shells(data, by_type)
         for _, program in programs.items():
-            program["requisite"] = self.get_program_requirements(
+            program["requisites"] = self.get_program_requirements(
                 self.get_safe_values(data[program["uid"]], ["requisites", "requisitesSimple"])
             )
 
         return programs
 
-    def get_program_requirements(self, original_req) -> dict:
+    def get_program_requirements(self, original_reqs):
         """
         Get the requirements of a program.
-        """ 
-        req = {}
-        return req
-    
+        """
+        reqs = []
+
+        if original_reqs is not None:
+            for i, req in enumerate(original_reqs):
+                reqs.insert(i, {
+                    "uid": req["id"],
+                    "name": req["name"],
+                    "type": req["requirementLevel"],
+                    "rule": self.get_requirement_rules(req["rules"])
+                })
+
+        return reqs
+
+    def get_requirement_rules(self, original_rules):
+        """
+        Get all the rules in a cleaner format.
+        """
+
+        def get_rule_values(this_rule):
+            """
+            Recursively get all rule's values
+            """
+            
+            if len(this_rule) == 0 or not this_rule:
+                return {}
+
+            match this_rule["condition"]:
+                case "freeformText" | "none":
+                    return {}
+
+                case "courses":
+                    res = []
+                    courses = this_rule["values"]
+                    for i, course in enumerate(courses):
+                        # Strip the last character ("1") from this uid
+                        # provides the actual uid in course system
+                        course_uids = course["value"]
+                        for ii, this_uid in enumerate(course_uids):
+                            course_uids[ii] = this_uid[:-1]
+
+                        if len(course_uids) == 1:
+                            # Strip unnecessary nest
+                            res.insert(i, course_uids[0])
+                        else:
+                            # Insert the logically nested course uids
+                            res.insert(i, {
+                                course["logic"]: course_uids
+                            })
+                            
+                    return res
+
+                case (
+                    "minimumCredits" | 
+                    "completedAtLeastXOf" |
+                    "completedAnyOf" | 
+                    "completeVariableCoursesAndVariableCredits"
+                ):
+                    # Assume this condition should be "or"
+                    # Because its name suggests it does not require all of these courses
+                    vals = get_rule_values(this_rule["value"])
+                    if len(vals) == 1:
+                        return vals[0]
+                    else:
+                        extractor = PrereqExtractor("", "", "")
+                        extractor._prereq = { "or": vals }
+                        extractor.post_processing()
+                        return extractor.get_prereq()
+
+                case "completedAllOf":
+                    # Assume this condition should be "and"
+                    # Because its name suggests it does require all of these courses
+                    vals = get_rule_values(this_rule["value"])
+                    if len(vals) == 1:
+                        return vals[0]
+                    else:
+                        extractor = PrereqExtractor("", "", "")
+                        extractor._prereq = { "and": vals }
+                        extractor.post_processing()
+                        return extractor.get_prereq()
+
+                case "numberOf" | "anyOf" | "allOf":
+                    return self.get_requirement_rules(this_rule["subRules"])
+                
+                case _:
+                    return {}
+
+        rules = []
+
+        if original_rules is not None:
+            for i, rule in enumerate(original_rules):
+                if isinstance(rule, str):
+                    print(rule)
+                    continue
+                rules.insert(i, {
+                    "uid": rule["id"],
+                    "name": rule["name"] if "name" in rule else "",
+                    "condition": rule["condition"],
+                    "credits": rule["credits"] if "credits" in rule else None,
+                    "minCredits": rule["minCredits"] if "minCredits" in rule else None,
+                    "maxCredits": rule["maxCredits"] if "maxCredits" in rule else None,
+                    "minCourses": rule["minCourses"] if "minCourses" in rule else None,
+                    "maxCourses": rule["maxCourses"] if "maxCourses" in rule else None,
+                    "info": rule["description"] if "description" in rule else "",
+                    "note": rule["notes"] if "notes" in rule else "",
+                    "values": get_rule_values(rule)
+                })
+
+        return rules
