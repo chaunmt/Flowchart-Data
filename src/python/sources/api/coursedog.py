@@ -389,10 +389,10 @@ class ProgramSystem(SubjectHandler):
         Record all shells and programs of the school.
         """
         recorded_types = [
-            "all",
             "major",
             "minor",
             "certificate"
+            "all",
             # Skip other types
         ]
         
@@ -455,9 +455,8 @@ class ProgramSystem(SubjectHandler):
         shells = {}
         for _, program in data.items():
             if by_type == "all" or program["type"].lower() == by_type:
-                uid = self.delete_from_char(program["_id"], "-")
-                shells[uid] = {
-                    "uid": uid,
+                shells[program["_id"]] = {
+                    "uid": program["_id"],
                     "type": self.get_safe_values(program, ["type"]),
                     "career": self.get_safe_values(program, ["career"]),
                     "name": self.get_safe_values(program, ["catalogDisplayName"]),
@@ -488,14 +487,15 @@ class ProgramSystem(SubjectHandler):
         programs = self.get_program_shells(data, by_type)
         for _, program in programs.items():
             program["requisite"] = self.get_program_requirements(
-                self.get_safe_values(program, ["requisites", "requisitesSimple"])
+                self.get_safe_values(data[program["uid"]], ["requisites", "requisitesSimple"])
             )
 
         return programs
 
-    def get_program_requirements(self, req) -> dict:
+    def get_program_requirements(self, original_req) -> dict:
         """
         Get the requirements of a program.
-        """
-        # TODO
-        return {}
+        """ 
+        req = {}
+        return req
+    

@@ -1,6 +1,6 @@
 {
-  "000335006": {
-    "uid": "000335006",
+  "000335006-2024-09-03": {
+    "uid": "000335006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Adult Education M.Ed.",
@@ -11,8 +11,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": null
   },
-  "000420502": {
-    "uid": "000420502",
+  "000420502-2025-01-21": {
+    "uid": "000420502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Accounting B.S.B.",
@@ -23,8 +23,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "000821107": {
-    "uid": "000821107",
+  "000821107-2024-09-03": {
+    "uid": "000821107-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Aerospace Engineering and Mechanics B.A.E.M.",
@@ -35,8 +35,8 @@
     "degreeMinCredit": "122",
     "degreeMaxCredit": "122"
   },
-  "000920217": {
-    "uid": "000920217",
+  "000920217-2024-09-03": {
+    "uid": "000920217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "African American and African Studies B.A.",
@@ -47,8 +47,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "001920130": {
-    "uid": "001920130",
+  "001920130-2024-09-03": {
+    "uid": "001920130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Agricultural Communication and Marketing B.S.",
@@ -59,8 +59,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "002020130": {
-    "uid": "002020130",
+  "002020130-2024-09-03": {
+    "uid": "002020130-2024-09-03",
     "type": "Major",
     "career": "",
     "name": "Agricultural Education B.S.",
@@ -71,8 +71,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "005420217": {
-    "uid": "005420217",
+  "005420217-2024-09-03": {
+    "uid": "005420217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "American Indian Studies B.A.",
@@ -83,8 +83,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "005620217": {
-    "uid": "005620217",
+  "005620217-2024-09-03": {
+    "uid": "005620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "American Studies B.A.",
@@ -95,8 +95,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "005630417": {
-    "uid": "005630417",
+  "005630417-2024-09-03": {
+    "uid": "005630417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "American Studies M.A.",
@@ -107,8 +107,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "005660217": {
-    "uid": "005660217",
+  "005660217-2024-09-03": {
+    "uid": "005660217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "American Studies Ph.D.",
@@ -119,8 +119,8 @@
     "degreeMinCredit": "57",
     "degreeMaxCredit": "69"
   },
-  "006931530": {
-    "uid": "006931530",
+  "006931530-2024-09-03": {
+    "uid": "006931530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Animal Sciences M.S.",
@@ -131,8 +131,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "006960230": {
-    "uid": "006960230",
+  "006960230-2024-09-03": {
+    "uid": "006960230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Animal Sciences Ph.D.",
@@ -143,8 +143,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": "48"
   },
-  "008020117": {
-    "uid": "008020117",
+  "008020117-2024-09-03": {
+    "uid": "008020117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Anthropology B.S.",
@@ -155,8 +155,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "008020217": {
-    "uid": "008020217",
+  "008020217-2024-09-03": {
+    "uid": "008020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Anthropology B.A.",
@@ -167,8 +167,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "008030417": {
-    "uid": "008030417",
+  "008030417-2024-09-03": {
+    "uid": "008030417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Anthropology M.A.",
@@ -179,8 +179,8 @@
     "degreeMinCredit": "33",
     "degreeMaxCredit": null
   },
-  "008060217": {
-    "uid": "008060217",
+  "008060217-2024-09-03": {
+    "uid": "008060217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Anthropology Ph.D.",
@@ -191,8 +191,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": "60"
   },
-  "008320130": {
-    "uid": "008320130",
+  "008320130-2024-09-03": {
+    "uid": "008320130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Applied Economics B.S.",
@@ -203,8 +203,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "008331530": {
-    "uid": "008331530",
+  "008331530-2024-09-03": {
+    "uid": "008331530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Applied Economics M.S.",
@@ -215,8 +215,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "008360230": {
-    "uid": "008360230",
+  "008360230-2024-09-03": {
+    "uid": "008360230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Applied Economics Ph.D.",
@@ -227,8 +227,8 @@
     "degreeMinCredit": 61,
     "degreeMaxCredit": null
   },
-  "008820122": {
-    "uid": "008820122",
+  "008820122-2024-09-03": {
+    "uid": "008820122-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Architecture B.S.",
@@ -239,8 +239,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "008830322": {
-    "uid": "008830322",
+  "008830322-2024-09-03": {
+    "uid": "008830322-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Architecture M.Arch.",
@@ -251,8 +251,8 @@
     "degreeMinCredit": "59",
     "degreeMaxCredit": "90"
   },
-  "008831522": {
-    "uid": "008831522",
+  "008831522-2024-09-03": {
+    "uid": "008831522-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Architecture M.S.",
@@ -263,8 +263,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": 36
   },
-  "009420130": {
-    "uid": "009420130",
+  "009420130-2024-09-03": {
+    "uid": "009420130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Agricultural and Food Business Management B.S.",
@@ -275,8 +275,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "009620217": {
-    "uid": "009620217",
+  "009620217-2024-09-03": {
+    "uid": "009620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Art B.A.",
@@ -287,8 +287,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "009620917": {
-    "uid": "009620917",
+  "009620917-2024-09-03": {
+    "uid": "009620917-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Art B.F.A.",
@@ -299,8 +299,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "009630817": {
-    "uid": "009630817",
+  "009630817-2024-09-03": {
+    "uid": "009630817-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Art M.F.A.",
@@ -311,8 +311,8 @@
     "degreeMinCredit": "64",
     "degreeMaxCredit": null
   },
-  "010420217": {
-    "uid": "010420217",
+  "010420217-2024-09-03": {
+    "uid": "010420217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Art History B.A.",
@@ -323,8 +323,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "010430417": {
-    "uid": "010430417",
+  "010430417-2024-09-03": {
+    "uid": "010430417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Art History M.A.",
@@ -335,8 +335,8 @@
     "degreeMinCredit": "36",
     "degreeMaxCredit": "36"
   },
-  "010460217": {
-    "uid": "010460217",
+  "010460217-2024-09-03": {
+    "uid": "010460217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Art History Ph.D.",
@@ -347,8 +347,8 @@
     "degreeMinCredit": 72,
     "degreeMaxCredit": null
   },
-  "011220217": {
-    "uid": "011220217",
+  "011220217-2024-09-03": {
+    "uid": "011220217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Astrophysics B.A.",
@@ -359,8 +359,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "011624207": {
-    "uid": "011624207",
+  "011624207-2024-09-03": {
+    "uid": "011624207-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Astrophysics B.S.Astrop.",
@@ -371,8 +371,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "011631507": {
-    "uid": "011631507",
+  "011631507-2024-09-03": {
+    "uid": "011631507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Astrophysics M.S.",
@@ -383,8 +383,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "011660207": {
-    "uid": "011660207",
+  "011660207-2024-09-03": {
+    "uid": "011660207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Astrophysics Ph.D.",
@@ -395,8 +395,8 @@
     "degreeMinCredit": "64",
     "degreeMaxCredit": null
   },
-  "011837918": {
-    "uid": "011837918",
+  "011837918-2024-09-03": {
+    "uid": "011837918-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biological Sciences M.B.S.",
@@ -407,8 +407,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "012326017": {
-    "uid": "012326017",
+  "012326017-2024-09-03": {
+    "uid": "012326017-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Bachelor of Individualized Studies B.I.S.",
@@ -419,8 +419,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "012420110": {
-    "uid": "012420110",
+  "012420110-2024-09-03": {
+    "uid": "012420110-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Biochemistry B.S.",
@@ -431,8 +431,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "012730408": {
-    "uid": "012730408",
+  "012730408-2024-09-03": {
+    "uid": "012730408-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Bioethics M.A.",
@@ -443,8 +443,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "013220110": {
-    "uid": "013220110",
+  "013220110-2024-09-03": {
+    "uid": "013220110-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Biology B.S.",
@@ -455,8 +455,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "013428907": {
-    "uid": "013428907",
+  "013428907-2024-09-03": {
+    "uid": "013428907-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Biomedical Engineering B.Bm.E.",
@@ -467,8 +467,8 @@
     "degreeMinCredit": 125,
     "degreeMaxCredit": 125
   },
-  "013431507": {
-    "uid": "013431507",
+  "013431507-2024-09-03": {
+    "uid": "013431507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biomedical Engineering M.S.",
@@ -479,8 +479,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "013460207": {
-    "uid": "013460207",
+  "013460207-2024-09-03": {
+    "uid": "013460207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biomedical Engineering Ph.D.",
@@ -491,8 +491,8 @@
     "degreeMinCredit": "54",
     "degreeMaxCredit": null
   },
-  "013531508": {
-    "uid": "013531508",
+  "013531508-2024-09-03": {
+    "uid": "013531508-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biochemistry, Molecular Biology and Biophysics M.S.",
@@ -503,8 +503,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "013560208": {
-    "uid": "013560208",
+  "013560208-2024-09-03": {
+    "uid": "013560208-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biochemistry, Molecular Biology and Biophysics Ph.D.",
@@ -515,8 +515,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "013831520": {
-    "uid": "013831520",
+  "013831520-2024-09-03": {
+    "uid": "013831520-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biostatistics M.S.",
@@ -527,8 +527,8 @@
     "degreeMinCredit": "36",
     "degreeMaxCredit": null
   },
-  "013860220": {
-    "uid": "013860220",
+  "013860220-2024-09-03": {
+    "uid": "013860220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biostatistics Ph.D.",
@@ -539,8 +539,8 @@
     "degreeMinCredit": 54,
     "degreeMaxCredit": 67
   },
-  "014320122": {
-    "uid": "014320122",
+  "014320122-2024-09-03": {
+    "uid": "014320122-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Apparel Design B.S.",
@@ -551,8 +551,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "015230602": {
-    "uid": "015230602",
+  "015230602-2024-09-03": {
+    "uid": "015230602-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Business Administration M.B.A.",
@@ -563,8 +563,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": "64"
   },
-  "015260202": {
-    "uid": "015260202",
+  "015260202-2024-09-03": {
+    "uid": "015260202-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Business Administration Ph.D.",
@@ -575,8 +575,8 @@
     "degreeMinCredit": "64",
     "degreeMaxCredit": "68"
   },
-  "0152MIM08": {
-    "uid": "0152MIM08",
+  "0152MIM08-2023-09-05": {
+    "uid": "0152MIM08-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Business Admin Master",
@@ -587,8 +587,8 @@
     "degreeMinCredit": 60,
     "degreeMaxCredit": null
   },
-  "015836402": {
-    "uid": "015836402",
+  "015836402-2024-09-03": {
+    "uid": "015836402-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Business Taxation M.B.T.",
@@ -599,8 +599,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "016021407": {
-    "uid": "016021407",
+  "016021407-2024-09-03": {
+    "uid": "016021407-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Chemical Engineering B.Ch.E.",
@@ -611,8 +611,8 @@
     "degreeMinCredit": "122",
     "degreeMaxCredit": "122"
   },
-  "016032007": {
-    "uid": "016032007",
+  "016032007-2024-09-03": {
+    "uid": "016032007-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Chemical Engineering M.S.Ch.E.",
@@ -623,8 +623,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "016036107": {
-    "uid": "016036107",
+  "016036107-2024-09-03": {
+    "uid": "016036107-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Chemical Engineering M.Ch.E.",
@@ -635,8 +635,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "016060207": {
-    "uid": "016060207",
+  "016060207-2024-09-03": {
+    "uid": "016060207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Chemical Engineering Ph.D.",
@@ -647,8 +647,8 @@
     "degreeMinCredit": 54,
     "degreeMaxCredit": null
   },
-  "016431507": {
-    "uid": "016431507",
+  "016431507-2024-09-03": {
+    "uid": "016431507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Chemical Physics M.S.",
@@ -659,8 +659,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "016460207": {
-    "uid": "016460207",
+  "016460207-2024-09-03": {
+    "uid": "016460207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Chemical Physics Ph.D.",
@@ -671,8 +671,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "016820217": {
-    "uid": "016820217",
+  "016820217-2024-09-03": {
+    "uid": "016820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Chemistry B.A.",
@@ -683,8 +683,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "016827007": {
-    "uid": "016827007",
+  "016827007-2025-01-21": {
+    "uid": "016827007-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Chemistry B.S.Chem.",
@@ -695,8 +695,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "016831507": {
-    "uid": "016831507",
+  "016831507-2024-09-03": {
+    "uid": "016831507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Chemistry M.S.",
@@ -707,8 +707,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "016860207": {
-    "uid": "016860207",
+  "016860207-2024-09-03": {
+    "uid": "016860207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Chemistry Ph.D.",
@@ -719,8 +719,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "017020217": {
-    "uid": "017020217",
+  "017020217-2024-09-03": {
+    "uid": "017020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Chicano-Latino Studies B.A.",
@@ -731,8 +731,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "017220117": {
-    "uid": "017220117",
+  "017220117-2024-09-03": {
+    "uid": "017220117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Developmental Psychology B.S.",
@@ -743,8 +743,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "017220217": {
-    "uid": "017220217",
+  "017220217-2024-09-03": {
+    "uid": "017220217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Developmental Psychology B.A.",
@@ -755,8 +755,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "017735220": {
-    "uid": "017735220",
+  "017735220-2024-09-03": {
+    "uid": "017735220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Community Health Promotion M.P.H.",
@@ -767,8 +767,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": 48
   },
-  "018021607": {
-    "uid": "018021607",
+  "018021607-2024-09-03": {
+    "uid": "018021607-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Civil Engineering B.C.E.",
@@ -779,8 +779,8 @@
     "degreeMinCredit": "125",
     "degreeMaxCredit": "125"
   },
-  "018030707": {
-    "uid": "018030707",
+  "018030707-2024-01-16": {
+    "uid": "018030707-2024-01-16",
     "type": "Major",
     "career": "Graduate",
     "name": "Civil Engineering M.C.E.",
@@ -791,8 +791,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "018031507": {
-    "uid": "018031507",
+  "018031507-2024-09-03": {
+    "uid": "018031507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Civil Engineering M.S.",
@@ -803,8 +803,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "018060207": {
-    "uid": "018060207",
+  "018060207-2024-09-03": {
+    "uid": "018060207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Civil Engineering Ph.D.",
@@ -815,8 +815,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": null
   },
-  "018326107": {
-    "uid": "018326107",
+  "018326107-2024-09-03": {
+    "uid": "018326107-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Computer Engineering B.Comp.E.",
@@ -827,8 +827,8 @@
     "degreeMinCredit": "124",
     "degreeMaxCredit": null
   },
-  "019230417": {
-    "uid": "019230417",
+  "019230417-2024-09-03": {
+    "uid": "019230417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Comparative Literature M.A.",
@@ -839,8 +839,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "019260217": {
-    "uid": "019260217",
+  "019260217-2024-09-03": {
+    "uid": "019260217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Comparative Literature Ph.D.",
@@ -851,8 +851,8 @@
     "degreeMinCredit": "66",
     "degreeMaxCredit": "66"
   },
-  "019620217": {
-    "uid": "019620217",
+  "019620217-2024-09-03": {
+    "uid": "019620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Computer Science B.A.",
@@ -863,8 +863,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "019627107": {
-    "uid": "019627107",
+  "019627107-2024-09-03": {
+    "uid": "019627107-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Computer Science B.S. Comp.Sc.",
@@ -875,8 +875,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "019631507": {
-    "uid": "019631507",
+  "019631507-2025-01-21": {
+    "uid": "019631507-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Computer Science M.S.",
@@ -887,8 +887,8 @@
     "degreeMinCredit": "31",
     "degreeMaxCredit": null
   },
-  "019639507": {
-    "uid": "019639507",
+  "019639507-2024-09-03": {
+    "uid": "019639507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Computer Science M.C.S.",
@@ -899,8 +899,8 @@
     "degreeMinCredit": "31",
     "degreeMaxCredit": null
   },
-  "019660207": {
-    "uid": "019660207",
+  "019660207-2025-01-21": {
+    "uid": "019660207-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Computer Science Ph.D.",
@@ -911,8 +911,8 @@
     "degreeMinCredit": 52,
     "degreeMaxCredit": null
   },
-  "021624904": {
-    "uid": "021624904",
+  "021624904-2024-09-03": {
+    "uid": "021624904-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Dental Hygiene B.S.D.H.",
@@ -923,8 +923,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "022031504": {
-    "uid": "022031504",
+  "022031504-2023-09-05": {
+    "uid": "022031504-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Dentistry M.S.",
@@ -935,8 +935,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "022040104": {
-    "uid": "022040104",
+  "022040104-2023-09-05": {
+    "uid": "022040104-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Dentistry D D S",
@@ -947,8 +947,8 @@
     "degreeMinCredit": 60,
     "degreeMaxCredit": null
   },
-  "022320217": {
-    "uid": "022320217",
+  "022320217-2024-09-03": {
+    "uid": "022320217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Dance B.A.",
@@ -959,8 +959,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "022320917": {
-    "uid": "022320917",
+  "022320917-2024-09-03": {
+    "uid": "022320917-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Dance B.F.A.",
@@ -971,8 +971,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "022830I30": {
-    "uid": "022830I30",
+  "022830I30-2024-09-03": {
+    "uid": "022830I30-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Dietetics M.P.S.",
@@ -983,8 +983,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "023020217": {
-    "uid": "023020217",
+  "023020217-2024-09-03": {
+    "uid": "023020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Cultural Studies and Comparative Literature B.A.",
@@ -995,8 +995,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "023130417": {
-    "uid": "023130417",
+  "023130417-2024-09-03": {
+    "uid": "023130417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Comparative Studies in Discourse and Society M.A.",
@@ -1007,8 +1007,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "023160217": {
-    "uid": "023160217",
+  "023160217-2024-09-03": {
+    "uid": "023160217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Comparative Studies in Discourse and Society Ph.D.",
@@ -1019,8 +1019,8 @@
     "degreeMinCredit": "66",
     "degreeMaxCredit": "66"
   },
-  "023835006": {
-    "uid": "023835006",
+  "023835006-2023-09-05": {
+    "uid": "023835006-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Early Childhood Education M.Ed.",
@@ -1031,8 +1031,8 @@
     "degreeMinCredit": "32",
     "degreeMaxCredit": "40"
   },
-  "024135006": {
-    "uid": "024135006",
+  "024135006-2024-09-03": {
+    "uid": "024135006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Curriculum and Instruction M.Ed.",
@@ -1043,8 +1043,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "024520217": {
-    "uid": "024520217",
+  "024520217-2024-09-03": {
+    "uid": "024520217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Economics - Quantitative Emphasis B.A.",
@@ -1055,8 +1055,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "024731517": {
-    "uid": "024731517",
+  "024731517-2024-09-03": {
+    "uid": "024731517-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Cognitive Science M.S.",
@@ -1067,8 +1067,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "024760217": {
-    "uid": "024760217",
+  "024760217-2024-09-03": {
+    "uid": "024760217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Cognitive Science Ph.D.",
@@ -1079,8 +1079,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": "60"
   },
-  "024820117": {
-    "uid": "024820117",
+  "024820117-2024-09-03": {
+    "uid": "024820117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Economics B.S.",
@@ -1091,8 +1091,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "024820217": {
-    "uid": "024820217",
+  "024820217-2024-09-03": {
+    "uid": "024820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Economics B.A.",
@@ -1103,8 +1103,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "024830417": {
-    "uid": "024830417",
+  "024830417-2024-09-03": {
+    "uid": "024830417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Economics M.A.",
@@ -1115,8 +1115,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": 30
   },
-  "024860217": {
-    "uid": "024860217",
+  "024860217-2024-09-03": {
+    "uid": "024860217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Economics Ph.D.",
@@ -1127,8 +1127,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": 60
   },
-  "025120110": {
-    "uid": "025120110",
+  "025120110-2025-01-21": {
+    "uid": "025120110-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Ecology, Evolution, and Behavior B.S.",
@@ -1139,8 +1139,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "026030406": {
-    "uid": "026030406",
+  "026030406-2024-09-03": {
+    "uid": "026030406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Educational Psychology M.A.",
@@ -1151,8 +1151,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "60"
   },
-  "026060206": {
-    "uid": "026060206",
+  "026060206-2024-09-03": {
+    "uid": "026060206-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Educational Psychology Ph.D.",
@@ -1163,8 +1163,8 @@
     "degreeMinCredit": "66",
     "degreeMaxCredit": "97"
   },
-  "026421707": {
-    "uid": "026421707",
+  "026421707-2024-09-03": {
+    "uid": "026421707-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Electrical Engineering B.E.E.",
@@ -1175,8 +1175,8 @@
     "degreeMinCredit": "124",
     "degreeMaxCredit": null
   },
-  "026460207": {
-    "uid": "026460207",
+  "026460207-2024-09-03": {
+    "uid": "026460207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Electrical Engineering Ph.D.",
@@ -1187,8 +1187,8 @@
     "degreeMinCredit": "64",
     "degreeMaxCredit": null
   },
-  "026520217": {
-    "uid": "026520217",
+  "026520217-2024-09-03": {
+    "uid": "026520217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Environmental Geosciences BA",
@@ -1199,8 +1199,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "02652A107": {
-    "uid": "02652A107",
+  "02652A107-2024-09-03": {
+    "uid": "02652A107-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Environmental Geosciences B S E G",
@@ -1211,8 +1211,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "027139107": {
-    "uid": "027139107",
+  "027139107-2024-09-03": {
+    "uid": "027139107-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Electrical and Computer Engineering MS.E.C.E.",
@@ -1223,8 +1223,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "027620217": {
-    "uid": "027620217",
+  "027620217-2024-09-03": {
+    "uid": "027620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "English B.A.",
@@ -1235,8 +1235,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "027630417": {
-    "uid": "027630417",
+  "027630417-2025-01-21": {
+    "uid": "027630417-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "English M.A.",
@@ -1247,8 +1247,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "027660217": {
-    "uid": "027660217",
+  "027660217-2024-09-03": {
+    "uid": "027660217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "English Ph.D.",
@@ -1259,8 +1259,8 @@
     "degreeMinCredit": "63",
     "degreeMaxCredit": "63"
   },
-  "028431530": {
-    "uid": "028431530",
+  "028431530-2024-09-03": {
+    "uid": "028431530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Entomology M.S.",
@@ -1271,8 +1271,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "028460230": {
-    "uid": "028460230",
+  "028460230-2024-09-03": {
+    "uid": "028460230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Entomology Ph.D.",
@@ -1283,8 +1283,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "028831520": {
-    "uid": "028831520",
+  "028831520-2024-09-03": {
+    "uid": "028831520-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Environmental Health M.S.",
@@ -1295,8 +1295,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": 33
   },
-  "028835220": {
-    "uid": "028835220",
+  "028835220-2024-09-03": {
+    "uid": "028835220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Environmental Health M.P.H.",
@@ -1307,8 +1307,8 @@
     "degreeMinCredit": "42",
     "degreeMaxCredit": 42
   },
-  "028860220": {
-    "uid": "028860220",
+  "028860220-2024-09-03": {
+    "uid": "028860220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Environmental Health Ph.D.",
@@ -1319,8 +1319,8 @@
     "degreeMinCredit": "49",
     "degreeMaxCredit": 68
   },
-  "029231520": {
-    "uid": "029231520",
+  "029231520-2024-09-03": {
+    "uid": "029231520-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Epidemiology M.S.",
@@ -1331,8 +1331,8 @@
     "degreeMinCredit": 34,
     "degreeMaxCredit": 34
   },
-  "029235220": {
-    "uid": "029235220",
+  "029235220-2024-09-03": {
+    "uid": "029235220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Epidemiology M.P.H.",
@@ -1343,8 +1343,8 @@
     "degreeMinCredit": "42",
     "degreeMaxCredit": "48"
   },
-  "029260220": {
-    "uid": "029260220",
+  "029260220-2024-09-03": {
+    "uid": "029260220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Epidemiology Ph.D.",
@@ -1355,8 +1355,8 @@
     "degreeMinCredit": 51,
     "degreeMaxCredit": 63
   },
-  "029620106": {
-    "uid": "029620106",
+  "029620106-2025-01-21": {
+    "uid": "029620106-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Family Social Science B.S.",
@@ -1367,8 +1367,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "029630406": {
-    "uid": "029630406",
+  "029630406-2024-09-03": {
+    "uid": "029630406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Family Social Science M.A.",
@@ -1379,8 +1379,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "32"
   },
-  "029660206": {
-    "uid": "029660206",
+  "029660206-2024-09-03": {
+    "uid": "029660206-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Family Social Science Ph.D.",
@@ -1391,8 +1391,8 @@
     "degreeMinCredit": "72",
     "degreeMaxCredit": "75"
   },
-  "030020130": {
-    "uid": "030020130",
+  "030020130-2024-09-03": {
+    "uid": "030020130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Fisheries, Wildlife, and Conservation Biology B.S.",
@@ -1403,8 +1403,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "030820130": {
-    "uid": "030820130",
+  "030820130-2024-09-03": {
+    "uid": "030820130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Food Science B.S.",
@@ -1415,8 +1415,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "030831530": {
-    "uid": "030831530",
+  "030831530-2024-09-03": {
+    "uid": "030831530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Food Science M.S.",
@@ -1427,8 +1427,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "030860230": {
-    "uid": "030860230",
+  "030860230-2024-09-03": {
+    "uid": "030860230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Food Science Ph.D.",
@@ -1439,8 +1439,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "032420130": {
-    "uid": "032420130",
+  "032420130-2024-09-03": {
+    "uid": "032420130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Forest and Natural Resource Management B.S.",
@@ -1451,8 +1451,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "032930417": {
-    "uid": "032930417",
+  "032930417-2025-01-21": {
+    "uid": "032930417-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Feminist Studies M.A.",
@@ -1463,8 +1463,8 @@
     "degreeMinCredit": 34,
     "degreeMaxCredit": "40"
   },
-  "032960217": {
-    "uid": "032960217",
+  "032960217-2024-09-03": {
+    "uid": "032960217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Feminist Studies Ph.D.",
@@ -1475,8 +1475,8 @@
     "degreeMinCredit": "67",
     "degreeMaxCredit": "67"
   },
-  "033520217": {
-    "uid": "033520217",
+  "033520217-2024-09-03": {
+    "uid": "033520217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "French and Italian Studies B.A.",
@@ -1487,8 +1487,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "033620217": {
-    "uid": "033620217",
+  "033620217-2024-09-03": {
+    "uid": "033620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "French Studies B.A.",
@@ -1499,8 +1499,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "033630417": {
-    "uid": "033630417",
+  "033630417-2024-09-03": {
+    "uid": "033630417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "French M.A.",
@@ -1511,8 +1511,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "34"
   },
-  "033660217": {
-    "uid": "033660217",
+  "033660217-2024-09-03": {
+    "uid": "033660217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "French Ph.D.",
@@ -1523,8 +1523,8 @@
     "degreeMinCredit": "78",
     "degreeMaxCredit": "78"
   },
-  "033735006": {
-    "uid": "033735006",
+  "033735006-2024-09-03": {
+    "uid": "033735006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Family Education M.Ed.",
@@ -1535,8 +1535,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "034520110": {
-    "uid": "034520110",
+  "034520110-2024-09-03": {
+    "uid": "034520110-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Genetics, Cell Biology, and Development B.S.",
@@ -1547,8 +1547,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "034820117": {
-    "uid": "034820117",
+  "034820117-2024-09-03": {
+    "uid": "034820117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Geography B.S.",
@@ -1559,8 +1559,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "034820217": {
-    "uid": "034820217",
+  "034820217-2024-09-03": {
+    "uid": "034820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Geography B.A.",
@@ -1571,8 +1571,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "034830417": {
-    "uid": "034830417",
+  "034830417-2024-09-03": {
+    "uid": "034830417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Geography M.A.",
@@ -1583,8 +1583,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "034860217": {
-    "uid": "034860217",
+  "034860217-2024-09-03": {
+    "uid": "034860217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Geography Ph.D.",
@@ -1595,8 +1595,8 @@
     "degreeMinCredit": "52",
     "degreeMaxCredit": 52
   },
-  "034937817": {
-    "uid": "034937817",
+  "034937817-2025-01-21": {
+    "uid": "034937817-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Geographic Information Science M.G.I.S.",
@@ -1607,8 +1607,8 @@
     "degreeMinCredit": "35",
     "degreeMaxCredit": "35"
   },
-  "035221807": {
-    "uid": "035221807",
+  "035221807-2024-09-03": {
+    "uid": "035221807-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Geoengineering B.GeoE.",
@@ -1619,8 +1619,8 @@
     "degreeMinCredit": "125",
     "degreeMaxCredit": "125"
   },
-  "035231007": {
-    "uid": "035231007",
+  "035231007-2024-01-16": {
+    "uid": "035231007-2024-01-16",
     "type": "Major",
     "career": "Graduate",
     "name": "Geoengineering M.GeoE.",
@@ -1631,8 +1631,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "035231507": {
-    "uid": "035231507",
+  "035231507-2024-09-03": {
+    "uid": "035231507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Geoengineering M.S.",
@@ -1643,8 +1643,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "035320106": {
-    "uid": "035320106",
+  "035320106-2024-09-03": {
+    "uid": "035320106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Elementary Education: Foundations B.S.",
@@ -1655,8 +1655,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "035620217": {
-    "uid": "035620217",
+  "035620217-2024-09-03": {
+    "uid": "035620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Earth Sciences B.A.",
@@ -1667,8 +1667,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "036520922": {
-    "uid": "036520922",
+  "036520922-2024-09-03": {
+    "uid": "036520922-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Graphic Design B.F.A.",
@@ -1679,8 +1679,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "038020217": {
-    "uid": "038020217",
+  "038020217-2024-09-03": {
+    "uid": "038020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "History B.A.",
@@ -1691,8 +1691,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "038030417": {
-    "uid": "038030417",
+  "038030417-2024-09-03": {
+    "uid": "038030417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "History M.A.",
@@ -1703,8 +1703,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "31"
   },
-  "038060217": {
-    "uid": "038060217",
+  "038060217-2024-09-03": {
+    "uid": "038060217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "History Ph.D.",
@@ -1715,8 +1715,8 @@
     "degreeMinCredit": "63",
     "degreeMaxCredit": null
   },
-  "038331508": {
-    "uid": "038331508",
+  "038331508-2024-09-03": {
+    "uid": "038331508-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Health Informatics M.S.",
@@ -1727,8 +1727,8 @@
     "degreeMinCredit": "36",
     "degreeMaxCredit": null
   },
-  "038339208": {
-    "uid": "038339208",
+  "038339208-2024-09-03": {
+    "uid": "038339208-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Health Informatics M.H.I.",
@@ -1739,8 +1739,8 @@
     "degreeMinCredit": 36,
     "degreeMaxCredit": 36
   },
-  "038360208": {
-    "uid": "038360208",
+  "038360208-2024-09-03": {
+    "uid": "038360208-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Health Informatics Ph.D.",
@@ -1751,8 +1751,8 @@
     "degreeMinCredit": "70",
     "degreeMaxCredit": "70"
   },
-  "039720502": {
-    "uid": "039720502",
+  "039720502-2025-01-21": {
+    "uid": "039720502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Human Resources and Industrial Relations B.S.B.",
@@ -1763,8 +1763,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "039730W02": {
-    "uid": "039730W02",
+  "039730W02-2024-09-03": {
+    "uid": "039730W02-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Human Resources and Industrial Relations M.H.R.I.R.",
@@ -1775,8 +1775,8 @@
     "degreeMinCredit": "40",
     "degreeMaxCredit": null
   },
-  "040220106": {
-    "uid": "040220106",
+  "040220106-2024-09-03": {
+    "uid": "040220106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Human Resource Development B.S.",
@@ -1787,8 +1787,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "040235006": {
-    "uid": "040235006",
+  "040235006-2024-09-03": {
+    "uid": "040235006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Human Resource Development M.Ed.",
@@ -1799,8 +1799,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": null
   },
-  "040531520": {
-    "uid": "040531520",
+  "040531520-2024-09-03": {
+    "uid": "040531520-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Health Services Research, Policy, and Administration M.S.",
@@ -1811,8 +1811,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": 34
   },
-  "040560220": {
-    "uid": "040560220",
+  "040560220-2024-09-03": {
+    "uid": "040560220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Health Services Research, Policy, and Administration Ph.D.",
@@ -1823,8 +1823,8 @@
     "degreeMinCredit": 63,
     "degreeMaxCredit": 72
   },
-  "044220122": {
-    "uid": "044220122",
+  "044220122-2024-09-03": {
+    "uid": "044220122-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Interior Design B.S.",
@@ -1835,8 +1835,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "044435120": {
-    "uid": "044435120",
+  "044435120-2024-09-03": {
+    "uid": "044435120-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Health Care Administration M.H.A.",
@@ -1847,8 +1847,8 @@
     "degreeMinCredit": "42",
     "degreeMaxCredit": "60"
   },
-  "045220217": {
-    "uid": "045220217",
+  "045220217-2024-09-03": {
+    "uid": "045220217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Italian Studies B.A.",
@@ -1859,8 +1859,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "045820217": {
-    "uid": "045820217",
+  "045820217-2024-09-03": {
+    "uid": "045820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Jewish Studies B.A.",
@@ -1871,8 +1871,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "045920217": {
-    "uid": "045920217",
+  "045920217-2024-09-03": {
+    "uid": "045920217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Individually Designed Interdepartmental B.A.",
@@ -1883,8 +1883,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "046020217": {
-    "uid": "046020217",
+  "046020217-2024-09-03": {
+    "uid": "046020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Journalism B.A.",
@@ -1895,8 +1895,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "046520106": {
-    "uid": "046520106",
+  "046520106-2025-01-21": {
+    "uid": "046520106-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Kinesiology B.S.",
@@ -1907,8 +1907,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "046531506": {
-    "uid": "046531506",
+  "046531506-2023-09-05": {
+    "uid": "046531506-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Kinesiology M.S.",
@@ -1919,8 +1919,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "046560206": {
-    "uid": "046560206",
+  "046560206-2023-09-05": {
+    "uid": "046560206-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Kinesiology Ph.D.",
@@ -1931,8 +1931,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": "72"
   },
-  "046822022": {
-    "uid": "046822022",
+  "046822022-2024-09-03": {
+    "uid": "046822022-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Bachelor of Landscape Architecture",
@@ -1943,8 +1943,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "046831522": {
-    "uid": "046831522",
+  "046831522-2024-09-03": {
+    "uid": "046831522-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Landscape Architecture M.S.",
@@ -1955,8 +1955,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "046836722": {
-    "uid": "046836722",
+  "046836722-2024-09-03": {
+    "uid": "046836722-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Landscape Architecture M.L.A.",
@@ -1967,8 +1967,8 @@
     "degreeMinCredit": 84,
     "degreeMaxCredit": 84
   },
-  "048436509": {
-    "uid": "048436509",
+  "048436509-2024-09-03": {
+    "uid": "048436509-2024-09-03",
     "type": "Major",
     "career": "Law",
     "name": "Law L.L.M.",
@@ -1979,8 +1979,8 @@
     "degreeMinCredit": "24",
     "degreeMaxCredit": null
   },
-  "048440409": {
-    "uid": "048440409",
+  "048440409-2024-09-03": {
+    "uid": "048440409-2024-09-03",
     "type": "Major",
     "career": "Law",
     "name": "Law J.D.",
@@ -1991,8 +1991,8 @@
     "degreeMinCredit": "88",
     "degreeMaxCredit": null
   },
-  "050420217": {
-    "uid": "050420217",
+  "050420217-2024-09-03": {
+    "uid": "050420217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Linguistics B.A.",
@@ -2003,8 +2003,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "050430417": {
-    "uid": "050430417",
+  "050430417-2024-09-03": {
+    "uid": "050430417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Linguistics M.A.",
@@ -2015,8 +2015,8 @@
     "degreeMinCredit": "32",
     "degreeMaxCredit": "36"
   },
-  "050460217": {
-    "uid": "050460217",
+  "050460217-2024-09-03": {
+    "uid": "050460217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Linguistics Ph.D.",
@@ -2027,8 +2027,8 @@
     "degreeMinCredit": "72",
     "degreeMaxCredit": null
   },
-  "051620217": {
-    "uid": "051620217",
+  "051620217-2025-01-21": {
+    "uid": "051620217-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Media and Information B.A.",
@@ -2039,8 +2039,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "051630417": {
-    "uid": "051630417",
+  "051630417-2025-01-21": {
+    "uid": "051630417-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Mass Communication M.A.",
@@ -2051,8 +2051,8 @@
     "degreeMinCredit": "35",
     "degreeMaxCredit": null
   },
-  "051660217": {
-    "uid": "051660217",
+  "051660217-2024-09-03": {
+    "uid": "051660217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Mass Communication Ph.D.",
@@ -2063,8 +2063,8 @@
     "degreeMinCredit": "70",
     "degreeMaxCredit": null
   },
-  "052020217": {
-    "uid": "052020217",
+  "052020217-2024-09-03": {
+    "uid": "052020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Mathematics B.A.",
@@ -2075,8 +2075,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "052027207": {
-    "uid": "052027207",
+  "052027207-2024-09-03": {
+    "uid": "052027207-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Mathematics B.S.Math.",
@@ -2087,8 +2087,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "052031507": {
-    "uid": "052031507",
+  "052031507-2025-01-21": {
+    "uid": "052031507-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Mathematics M.S.",
@@ -2099,8 +2099,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "052060207": {
-    "uid": "052060207",
+  "052060207-2024-09-03": {
+    "uid": "052060207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Mathematics Ph.D.",
@@ -2111,8 +2111,8 @@
     "degreeMinCredit": "61",
     "degreeMaxCredit": null
   },
-  "052125507": {
-    "uid": "052125507",
+  "052125507-2024-09-03": {
+    "uid": "052125507-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Materials Science and Engineering B.Mat.S.E.",
@@ -2123,8 +2123,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "052136807": {
-    "uid": "052136807",
+  "052136807-2024-09-03": {
+    "uid": "052136807-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Materials Science and Engineering M.Mat.S.E.",
@@ -2135,8 +2135,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "052136907": {
-    "uid": "052136907",
+  "052136907-2024-09-03": {
+    "uid": "052136907-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Materials Science and Engineering M.S.Mat.S.E.",
@@ -2147,8 +2147,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "052160207": {
-    "uid": "052160207",
+  "052160207-2024-09-03": {
+    "uid": "052160207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Materials Science and Engineering Ph.D.",
@@ -2159,8 +2159,8 @@
     "degreeMinCredit": 54,
     "degreeMaxCredit": null
   },
-  "052822207": {
-    "uid": "052822207",
+  "052822207-2024-09-03": {
+    "uid": "052822207-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Mechanical Engineering B.M.E.",
@@ -2171,8 +2171,8 @@
     "degreeMinCredit": "124",
     "degreeMaxCredit": null
   },
-  "052832707": {
-    "uid": "052832707",
+  "052832707-2024-09-03": {
+    "uid": "052832707-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Mechanical Engineering M.S.M.E.",
@@ -2183,8 +2183,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "052860207": {
-    "uid": "052860207",
+  "052860207-2024-09-03": {
+    "uid": "052860207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Mechanical Engineering Ph.D.",
@@ -2195,8 +2195,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": null
   },
-  "054831515": {
-    "uid": "054831515",
+  "054831515-2023-09-05": {
+    "uid": "054831515-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Medicinal Chemistry M.S.",
@@ -2207,8 +2207,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "054860215": {
-    "uid": "054860215",
+  "054860215-2024-09-03": {
+    "uid": "054860215-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Medicinal Chemistry Ph.D.",
@@ -2219,8 +2219,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "055240211": {
-    "uid": "055240211",
+  "055240211-2023-08-22": {
+    "uid": "055240211-2023-08-22",
     "type": "Major",
     "career": "",
     "name": "Medicine M D",
@@ -2231,8 +2231,8 @@
     "degreeMinCredit": 60,
     "degreeMaxCredit": null
   },
-  "055537307": {
-    "uid": "055537307",
+  "055537307-2024-09-03": {
+    "uid": "055537307-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Management of Technology M.S.M.O.T.",
@@ -2243,8 +2243,8 @@
     "degreeMinCredit": 32,
     "degreeMaxCredit": null
   },
-  "056020110": {
-    "uid": "056020110",
+  "056020110-2024-09-03": {
+    "uid": "056020110-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Microbiology B.S.",
@@ -2255,8 +2255,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "056731510": {
-    "uid": "056731510",
+  "056731510-2025-01-21": {
+    "uid": "056731510-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Microbial Engineering M.S.",
@@ -2267,8 +2267,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "057131508": {
-    "uid": "057131508",
+  "057131508-2024-09-03": {
+    "uid": "057131508-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Molecular, Cellular, Developmental Biology and Genetics M.S.",
@@ -2279,8 +2279,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "55"
   },
-  "057160208": {
-    "uid": "057160208",
+  "057160208-2024-09-03": {
+    "uid": "057160208-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Molecular, Cellular, Developmental Biology and Genetics Ph.D.",
@@ -2291,8 +2291,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": "63"
   },
-  "057220111": {
-    "uid": "057220111",
+  "057220111-2024-09-03": {
+    "uid": "057220111-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Mortuary Science B.S.",
@@ -2303,8 +2303,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "058020217": {
-    "uid": "058020217",
+  "058020217-2024-09-03": {
+    "uid": "058020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Music B.A.",
@@ -2315,8 +2315,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "058024717": {
-    "uid": "058024717",
+  "058024717-2024-09-03": {
+    "uid": "058024717-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Music B. Mus.",
@@ -2327,8 +2327,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "125"
   },
-  "058030417": {
-    "uid": "058030417",
+  "058030417-2024-09-03": {
+    "uid": "058030417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Music M.A.",
@@ -2339,8 +2339,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "34"
   },
-  "058036617": {
-    "uid": "058036617",
+  "058036617-2024-09-03": {
+    "uid": "058036617-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Music M.M.",
@@ -2351,8 +2351,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "37"
   },
-  "058060217": {
-    "uid": "058060217",
+  "058060217-2024-09-03": {
+    "uid": "058060217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Music Ph.D.",
@@ -2363,8 +2363,8 @@
     "degreeMinCredit": 75,
     "degreeMaxCredit": 88
   },
-  "058061717": {
-    "uid": "058061717",
+  "058061717-2024-09-03": {
+    "uid": "058061717-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Music D.M.A.",
@@ -2375,8 +2375,8 @@
     "degreeMinCredit": "85",
     "degreeMaxCredit": "97"
   },
-  "058424717": {
-    "uid": "058424717",
+  "058424717-2024-09-03": {
+    "uid": "058424717-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Music Education B. Mus",
@@ -2387,8 +2387,8 @@
     "degreeMinCredit": "126",
     "degreeMaxCredit": "129"
   },
-  "058624717": {
-    "uid": "058624717",
+  "058624717-2024-09-03": {
+    "uid": "058624717-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Music Therapy B. Mus.",
@@ -2399,8 +2399,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "059020110": {
-    "uid": "059020110",
+  "059020110-2024-09-03": {
+    "uid": "059020110-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Neuroscience B.S.",
@@ -2411,8 +2411,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "059031511": {
-    "uid": "059031511",
+  "059031511-2024-09-03": {
+    "uid": "059031511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Neuroscience M.S.",
@@ -2423,8 +2423,8 @@
     "degreeMinCredit": 30,
     "degreeMaxCredit": 36
   },
-  "059060211": {
-    "uid": "059060211",
+  "059060211-2024-09-03": {
+    "uid": "059060211-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Neuroscience Ph.D.",
@@ -2435,8 +2435,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "059620714": {
-    "uid": "059620714",
+  "059620714-2024-09-03": {
+    "uid": "059620714-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Nursing B.S.N.",
@@ -2447,8 +2447,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "059639814": {
-    "uid": "059639814",
+  "059639814-2024-09-03": {
+    "uid": "059639814-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Master of Nursing M.N.",
@@ -2459,8 +2459,8 @@
     "degreeMinCredit": 48,
     "degreeMaxCredit": null
   },
-  "059660214": {
-    "uid": "059660214",
+  "059660214-2024-09-03": {
+    "uid": "059660214-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Nursing Ph.D.",
@@ -2471,8 +2471,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": "72"
   },
-  "059662114": {
-    "uid": "059662114",
+  "059662114-2024-09-03": {
+    "uid": "059662114-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Doctor of Nursing Practice D.N.P.",
@@ -2483,8 +2483,8 @@
     "degreeMinCredit": 35,
     "degreeMaxCredit": 98
   },
-  "059820130": {
-    "uid": "059820130",
+  "059820130-2024-09-03": {
+    "uid": "059820130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Nutrition B.S.",
@@ -2495,8 +2495,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "059831530": {
-    "uid": "059831530",
+  "059831530-2024-09-03": {
+    "uid": "059831530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Nutrition M.S.",
@@ -2507,8 +2507,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "059860230": {
-    "uid": "059860230",
+  "059860230-2024-09-03": {
+    "uid": "059860230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Nutrition Ph.D.",
@@ -2519,8 +2519,8 @@
     "degreeMinCredit": "50",
     "degreeMaxCredit": null
   },
-  "061431504": {
-    "uid": "061431504",
+  "061431504-2023-09-05": {
+    "uid": "061431504-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Oral Biology M.S.",
@@ -2531,8 +2531,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "061460204": {
-    "uid": "061460204",
+  "061460204-2023-09-05": {
+    "uid": "061460204-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Oral Biology Ph.D.",
@@ -2543,8 +2543,8 @@
     "degreeMinCredit": "55",
     "degreeMaxCredit": "61"
   },
-  "062461611": {
-    "uid": "062461611",
+  "062461611-2023-09-05": {
+    "uid": "062461611-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Otolaryngology Ph.D. Otol.",
@@ -2555,8 +2555,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "063631515": {
-    "uid": "063631515",
+  "063631515-2024-09-03": {
+    "uid": "063631515-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Pharmaceutics M.S.",
@@ -2567,8 +2567,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "063660215": {
-    "uid": "063660215",
+  "063660215-2024-09-03": {
+    "uid": "063660215-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Pharmaceutics Ph.D.",
@@ -2579,8 +2579,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "064840315": {
-    "uid": "064840315",
+  "064840315-2023-08-28": {
+    "uid": "064840315-2023-08-28",
     "type": "Major",
     "career": "",
     "name": "Pharmacy Pharm D",
@@ -2591,8 +2591,8 @@
     "degreeMinCredit": 60,
     "degreeMaxCredit": null
   },
-  "065220217": {
-    "uid": "065220217",
+  "065220217-2024-09-03": {
+    "uid": "065220217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Philosophy B.A.",
@@ -2603,8 +2603,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "065230417": {
-    "uid": "065230417",
+  "065230417-2024-09-03": {
+    "uid": "065230417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Philosophy M.A.",
@@ -2615,8 +2615,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "065260217": {
-    "uid": "065260217",
+  "065260217-2024-09-03": {
+    "uid": "065260217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Philosophy Ph.D.",
@@ -2627,8 +2627,8 @@
     "degreeMinCredit": "62",
     "degreeMaxCredit": "62"
   },
-  "067261911": {
-    "uid": "067261911",
+  "067261911-2024-09-03": {
+    "uid": "067261911-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Physical Therapy D.P.T.",
@@ -2639,8 +2639,8 @@
     "degreeMinCredit": "137",
     "degreeMaxCredit": null
   },
-  "067620217": {
-    "uid": "067620217",
+  "067620217-2024-09-03": {
+    "uid": "067620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Physics B.A.",
@@ -2651,8 +2651,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "067627307": {
-    "uid": "067627307",
+  "067627307-2024-09-03": {
+    "uid": "067627307-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Physics B.S. Phys.",
@@ -2663,8 +2663,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "067631507": {
-    "uid": "067631507",
+  "067631507-2024-09-03": {
+    "uid": "067631507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Physics M.S.",
@@ -2675,8 +2675,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "067660207": {
-    "uid": "067660207",
+  "067660207-2024-09-03": {
+    "uid": "067660207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Physics Ph.D.",
@@ -2687,8 +2687,8 @@
     "degreeMinCredit": "64",
     "degreeMaxCredit": null
   },
-  "068820217": {
-    "uid": "068820217",
+  "068820217-2024-09-03": {
+    "uid": "068820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Human Physiology B.A.",
@@ -2699,8 +2699,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "069331530": {
-    "uid": "069331530",
+  "069331530-2024-09-03": {
+    "uid": "069331530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Plant Pathology M.S.",
@@ -2711,8 +2711,8 @@
     "degreeMinCredit": "31",
     "degreeMaxCredit": null
   },
-  "069360230": {
-    "uid": "069360230",
+  "069360230-2024-09-03": {
+    "uid": "069360230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Plant Pathology Ph.D.",
@@ -2723,8 +2723,8 @@
     "degreeMinCredit": "56",
     "degreeMaxCredit": null
   },
-  "069720110": {
-    "uid": "069720110",
+  "069720110-2024-09-03": {
+    "uid": "069720110-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Plant and Microbial Biology B.S.",
@@ -2735,8 +2735,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "069731510": {
-    "uid": "069731510",
+  "069731510-2024-09-03": {
+    "uid": "069731510-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Plant and Microbial Biology M.S.",
@@ -2747,8 +2747,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "069760210": {
-    "uid": "069760210",
+  "069760210-2024-09-03": {
+    "uid": "069760210-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Plant and Microbial Biology Ph.D.",
@@ -2759,8 +2759,8 @@
     "degreeMinCredit": "54",
     "degreeMaxCredit": null
   },
-  "071220217": {
-    "uid": "071220217",
+  "071220217-2025-01-21": {
+    "uid": "071220217-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Political Science B.A.",
@@ -2771,8 +2771,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "071230417": {
-    "uid": "071230417",
+  "071230417-2024-09-03": {
+    "uid": "071230417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Political Science M.A.",
@@ -2783,8 +2783,8 @@
     "degreeMinCredit": "33",
     "degreeMaxCredit": null
   },
-  "071260217": {
-    "uid": "071260217",
+  "071260217-2024-09-03": {
+    "uid": "071260217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Political Science Ph.D.",
@@ -2795,8 +2795,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": null
   },
-  "081220117": {
-    "uid": "081220117",
+  "081220117-2025-01-21": {
+    "uid": "081220117-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Psychology B.S.",
@@ -2807,8 +2807,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "081220217": {
-    "uid": "081220217",
+  "081220217-2025-01-21": {
+    "uid": "081220217-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Psychology B.A.",
@@ -2819,8 +2819,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "081230417": {
-    "uid": "081230417",
+  "081230417-2024-09-03": {
+    "uid": "081230417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Psychology M.A.",
@@ -2831,8 +2831,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "081260217": {
-    "uid": "081260217",
+  "081260217-2024-09-03": {
+    "uid": "081260217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Psychology Ph.D.",
@@ -2843,8 +2843,8 @@
     "degreeMinCredit": 59,
     "degreeMaxCredit": "96"
   },
-  "081838316": {
-    "uid": "081838316",
+  "081838316-2024-09-03": {
+    "uid": "081838316-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Public Affairs M.P.A.",
@@ -2855,8 +2855,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "081860216": {
-    "uid": "081860216",
+  "081860216-2024-09-03": {
+    "uid": "081860216-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Public Affairs Ph.D.",
@@ -2867,8 +2867,8 @@
     "degreeMinCredit": "66",
     "degreeMaxCredit": null
   },
-  "081935220": {
-    "uid": "081935220",
+  "081935220-2024-09-03": {
+    "uid": "081935220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Public Health Administration and Policy M.P.H.",
@@ -2879,8 +2879,8 @@
     "degreeMinCredit": "42",
     "degreeMaxCredit": "44"
   },
-  "082020220": {
-    "uid": "082020220",
+  "082020220-2024-09-03": {
+    "uid": "082020220-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Public Health B.A.",
@@ -2891,8 +2891,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": 120
   },
-  "082331511": {
-    "uid": "082331511",
+  "082331511-2024-09-03": {
+    "uid": "082331511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Rehabilitation Science M.S.",
@@ -2903,8 +2903,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "33"
   },
-  "082360211": {
-    "uid": "082360211",
+  "082360211-2024-09-03": {
+    "uid": "082360211-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Rehabilitation Science Ph.D.",
@@ -2915,8 +2915,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": null
   },
-  "082535220": {
-    "uid": "082535220",
+  "082535220-2024-09-03": {
+    "uid": "082535220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Public Health Nutrition M.P.H.",
@@ -2927,8 +2927,8 @@
     "degreeMinCredit": "42",
     "degreeMaxCredit": "57"
   },
-  "082735220": {
-    "uid": "082735220",
+  "082735220-2024-09-03": {
+    "uid": "082735220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Maternal and Child Health M.P.H.",
@@ -2939,8 +2939,8 @@
     "degreeMinCredit": "42",
     "degreeMaxCredit": "48"
   },
-  "083130417": {
-    "uid": "083130417",
+  "083130417-2024-09-03": {
+    "uid": "083130417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Rhetoric, Scientific and Technical Communication M.A.",
@@ -2951,8 +2951,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": 34
   },
-  "083160217": {
-    "uid": "083160217",
+  "083160217-2024-09-03": {
+    "uid": "083160217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Rhetoric, Scientific and Technical Communication Ph.D.",
@@ -2963,8 +2963,8 @@
     "degreeMinCredit": "67",
     "degreeMaxCredit": null
   },
-  "083420217": {
-    "uid": "083420217",
+  "083420217-2024-09-03": {
+    "uid": "083420217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Religious Studies B.A.",
@@ -2975,8 +2975,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "084020217": {
-    "uid": "084020217",
+  "084020217-2024-09-03": {
+    "uid": "084020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Russian B.A.",
@@ -2987,8 +2987,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "085531515": {
-    "uid": "085531515",
+  "085531515-2024-09-03": {
+    "uid": "085531515-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Social and Administrative Pharmacy M.S.",
@@ -2999,8 +2999,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "32"
   },
-  "085560215": {
-    "uid": "085560215",
+  "085560215-2024-09-03": {
+    "uid": "085560215-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Social and Administrative Pharmacy Ph.D.",
@@ -3011,8 +3011,8 @@
     "degreeMinCredit": 69,
     "degreeMaxCredit": 69
   },
-  "086431406": {
-    "uid": "086431406",
+  "086431406-2024-09-03": {
+    "uid": "086431406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Social Work M.S.W.",
@@ -3023,8 +3023,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": "53"
   },
-  "086460206": {
-    "uid": "086460206",
+  "086460206-2024-09-03": {
+    "uid": "086460206-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Social Work Ph.D.",
@@ -3035,8 +3035,8 @@
     "degreeMinCredit": "64",
     "degreeMaxCredit": null
   },
-  "0864MIM08": {
-    "uid": "0864MIM08",
+  "0864MIM08-2023-09-05": {
+    "uid": "0864MIM08-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Social Work Master",
@@ -3047,8 +3047,8 @@
     "degreeMinCredit": 30,
     "degreeMaxCredit": null
   },
-  "086720117": {
-    "uid": "086720117",
+  "086720117-2024-09-03": {
+    "uid": "086720117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Sociology of Law, Criminology, and Justice B.S.",
@@ -3059,8 +3059,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "086720217": {
-    "uid": "086720217",
+  "086720217-2024-09-03": {
+    "uid": "086720217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Sociology of Law, Criminology, and Justice B.A.",
@@ -3071,8 +3071,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "086820117": {
-    "uid": "086820117",
+  "086820117-2024-09-03": {
+    "uid": "086820117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Sociology B.S.",
@@ -3083,8 +3083,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "086820217": {
-    "uid": "086820217",
+  "086820217-2024-09-03": {
+    "uid": "086820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Sociology B.A.",
@@ -3095,8 +3095,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "086830417": {
-    "uid": "086830417",
+  "086830417-2024-09-03": {
+    "uid": "086830417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Sociology M.A.",
@@ -3107,8 +3107,8 @@
     "degreeMinCredit": "32",
     "degreeMaxCredit": "33"
   },
-  "086860217": {
-    "uid": "086860217",
+  "086860217-2024-09-03": {
+    "uid": "086860217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Sociology Ph.D.",
@@ -3119,8 +3119,8 @@
     "degreeMinCredit": "65",
     "degreeMaxCredit": null
   },
-  "087620217": {
-    "uid": "087620217",
+  "087620217-2024-09-03": {
+    "uid": "087620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Spanish Studies B.A.",
@@ -3131,8 +3131,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "087720217": {
-    "uid": "087720217",
+  "087720217-2024-09-03": {
+    "uid": "087720217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Spanish and Portuguese Studies B.A.",
@@ -3143,8 +3143,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "087920106": {
-    "uid": "087920106",
+  "087920106-2024-09-03": {
+    "uid": "087920106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Special Education B.S.",
@@ -3155,8 +3155,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "087935006": {
-    "uid": "087935006",
+  "087935006-2025-01-21": {
+    "uid": "087935006-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Special Education M.Ed.",
@@ -3167,8 +3167,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "088420217": {
-    "uid": "088420217",
+  "088420217-2025-01-21": {
+    "uid": "088420217-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Communication Studies B.A.",
@@ -3179,8 +3179,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "088620217": {
-    "uid": "088620217",
+  "088620217-2024-09-03": {
+    "uid": "088620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Speech-Language-Hearing Sciences B.A.",
@@ -3191,8 +3191,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "089731517": {
-    "uid": "089731517",
+  "089731517-2024-09-03": {
+    "uid": "089731517-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Scientific and Technical Communication M.S.",
@@ -3203,8 +3203,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "090031517": {
-    "uid": "090031517",
+  "090031517-2024-09-03": {
+    "uid": "090031517-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Statistics M.S.",
@@ -3215,8 +3215,8 @@
     "degreeMinCredit": 32,
     "degreeMaxCredit": 34
   },
-  "090060217": {
-    "uid": "090060217",
+  "090060217-2024-09-03": {
+    "uid": "090060217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Statistics Ph.D.",
@@ -3227,8 +3227,8 @@
     "degreeMinCredit": 64,
     "degreeMaxCredit": 64
   },
-  "090834711": {
-    "uid": "090834711",
+  "090834711-2023-09-05": {
+    "uid": "090834711-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Surgery M.S. Surg.",
@@ -3239,8 +3239,8 @@
     "degreeMinCredit": "37",
     "degreeMaxCredit": null
   },
-  "091320117": {
-    "uid": "091320117",
+  "091320117-2024-09-03": {
+    "uid": "091320117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Technical Writing and Communication B.S.",
@@ -3251,8 +3251,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "092020217": {
-    "uid": "092020217",
+  "092020217-2024-09-03": {
+    "uid": "092020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Theatre Arts B.A.",
@@ -3263,8 +3263,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "092030417": {
-    "uid": "092030417",
+  "092030417-2024-09-03": {
+    "uid": "092030417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Theatre Arts M.A.",
@@ -3275,8 +3275,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "40"
   },
-  "092030817": {
-    "uid": "092030817",
+  "092030817-2024-09-03": {
+    "uid": "092030817-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Theatre Arts M.F.A.",
@@ -3287,8 +3287,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": "60"
   },
-  "092060217": {
-    "uid": "092060217",
+  "092060217-2024-09-03": {
+    "uid": "092060217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Theatre Arts Ph.D.",
@@ -3299,8 +3299,8 @@
     "degreeMinCredit": "54",
     "degreeMaxCredit": null
   },
-  "092435006": {
-    "uid": "092435006",
+  "092435006-2024-09-03": {
+    "uid": "092435006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Leadership in Education M.Ed.",
@@ -3311,8 +3311,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "093020117": {
-    "uid": "093020117",
+  "093020117-2024-09-03": {
+    "uid": "093020117-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Urban Studies B.S.",
@@ -3323,8 +3323,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "093020217": {
-    "uid": "093020217",
+  "093020217-2024-09-03": {
+    "uid": "093020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Urban Studies B.A.",
@@ -3335,8 +3335,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "093120122": {
-    "uid": "093120122",
+  "093120122-2024-09-03": {
+    "uid": "093120122-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Retail and Consumer Studies B.S.",
@@ -3347,8 +3347,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "094425003": {
-    "uid": "094425003",
+  "094425003-2023-09-01": {
+    "uid": "094425003-2023-09-01",
     "type": "Major",
     "career": "",
     "name": "Veterinary Medicine B S V S",
@@ -3359,8 +3359,8 @@
     "degreeMinCredit": 60,
     "degreeMaxCredit": null
   },
-  "094431503": {
-    "uid": "094431503",
+  "094431503-2024-05-13": {
+    "uid": "094431503-2024-05-13",
     "type": "Major",
     "career": "",
     "name": "Veterinary Medicine M.S.",
@@ -3371,8 +3371,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "094440503": {
-    "uid": "094440503",
+  "094440503-2023-09-01": {
+    "uid": "094440503-2023-09-01",
     "type": "Major",
     "career": "",
     "name": "Veterinary Medicine D V M",
@@ -3383,8 +3383,8 @@
     "degreeMinCredit": 60,
     "degreeMaxCredit": null
   },
-  "094460203": {
-    "uid": "094460203",
+  "094460203-2024-05-13": {
+    "uid": "094460203-2024-05-13",
     "type": "Major",
     "career": "",
     "name": "Veterinary Medicine Ph.D.",
@@ -3395,8 +3395,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "095435006": {
-    "uid": "095435006",
+  "095435006-2024-09-03": {
+    "uid": "095435006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Youth Development Leadership M.Ed.",
@@ -3407,8 +3407,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "095935006": {
-    "uid": "095935006",
+  "095935006-2024-09-03": {
+    "uid": "095935006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Work and Human Resource Education M.Ed.",
@@ -3419,8 +3419,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "097020217": {
-    "uid": "097020217",
+  "097020217-2024-09-03": {
+    "uid": "097020217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Gender, Women and Sexuality Studies B.A.",
@@ -3431,8 +3431,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "097931508": {
-    "uid": "097931508",
+  "097931508-2024-09-03": {
+    "uid": "097931508-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Water Resources Science M.S.",
@@ -3443,8 +3443,8 @@
     "degreeMinCredit": 30,
     "degreeMaxCredit": 32
   },
-  "097960208": {
-    "uid": "097960208",
+  "097960208-2024-09-03": {
+    "uid": "097960208-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Water Resources Science PhD",
@@ -3455,8 +3455,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "099235006": {
-    "uid": "099235006",
+  "099235006-2024-09-03": {
+    "uid": "099235006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Teaching M.Ed.",
@@ -3467,8 +3467,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "55"
   },
-  "100624618": {
-    "uid": "100624618",
+  "100624618-2024-09-03": {
+    "uid": "100624618-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Construction Management B.A.Sc.",
@@ -3479,8 +3479,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "100820130": {
-    "uid": "100820130",
+  "100820130-2024-09-03": {
+    "uid": "100820130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Sustainable Systems Management B.S.",
@@ -3491,8 +3491,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "101929707": {
-    "uid": "101929707",
+  "101929707-2024-09-03": {
+    "uid": "101929707-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Environmental Engineering B.Env.E",
@@ -3503,8 +3503,8 @@
     "degreeMinCredit": "125",
     "degreeMaxCredit": "125"
   },
-  "102220502": {
-    "uid": "102220502",
+  "102220502-2025-01-21": {
+    "uid": "102220502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Finance B.S.B.",
@@ -3515,8 +3515,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "102231502": {
-    "uid": "102231502",
+  "102231502-2024-09-03": {
+    "uid": "102231502-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Finance M.S.",
@@ -3527,8 +3527,8 @@
     "degreeMinCredit": "39",
     "degreeMaxCredit": null
   },
-  "102420502": {
-    "uid": "102420502",
+  "102420502-2025-01-21": {
+    "uid": "102420502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Management Information Systems B.S.B.",
@@ -3539,8 +3539,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "102520502": {
-    "uid": "102520502",
+  "102520502-2025-01-21": {
+    "uid": "102520502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "International Business B.S.B.",
@@ -3551,8 +3551,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "102620502": {
-    "uid": "102620502",
+  "102620502-2025-01-21": {
+    "uid": "102620502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Marketing B.S.B.",
@@ -3563,8 +3563,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "102630Y02": {
-    "uid": "102630Y02",
+  "102630Y02-2024-09-03": {
+    "uid": "102630Y02-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Marketing M.MKTG",
@@ -3575,8 +3575,8 @@
     "degreeMinCredit": "32",
     "degreeMaxCredit": "32"
   },
-  "104520106": {
-    "uid": "104520106",
+  "104520106-2024-09-03": {
+    "uid": "104520106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Sport Management B.S.",
@@ -3587,8 +3587,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "104838107": {
-    "uid": "104838107",
+  "104838107-2025-01-21": {
+    "uid": "104838107-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Software Engineering M.S.S.E.",
@@ -3599,8 +3599,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "115031530": {
-    "uid": "115031530",
+  "115031530-2024-09-03": {
+    "uid": "115031530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Applied Plant Sciences M.S.",
@@ -3611,8 +3611,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "115060230": {
-    "uid": "115060230",
+  "115060230-2024-09-03": {
+    "uid": "115060230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Applied Plant Sciences Ph.D.",
@@ -3623,8 +3623,8 @@
     "degreeMinCredit": "54",
     "degreeMaxCredit": null
   },
-  "118430417": {
-    "uid": "118430417",
+  "118430417-2023-09-05": {
+    "uid": "118430417-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Classical and Near Eastern Studies M.A.",
@@ -3635,8 +3635,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "43"
   },
-  "118460217": {
-    "uid": "118460217",
+  "118460217-2023-09-05": {
+    "uid": "118460217-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Classical and Near Eastern Studies Ph.D.",
@@ -3647,8 +3647,8 @@
     "degreeMinCredit": "69",
     "degreeMaxCredit": "69"
   },
-  "118531520": {
-    "uid": "118531520",
+  "118531520-2024-09-03": {
+    "uid": "118531520-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Clinical Research M.S.",
@@ -3659,8 +3659,8 @@
     "degreeMinCredit": 36,
     "degreeMaxCredit": 36
   },
-  "120330817": {
-    "uid": "120330817",
+  "120330817-2024-09-03": {
+    "uid": "120330817-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Creative Writing M.F.A.",
@@ -3671,8 +3671,8 @@
     "degreeMinCredit": "45",
     "degreeMaxCredit": null
   },
-  "122730422": {
-    "uid": "122730422",
+  "122730422-2024-09-03": {
+    "uid": "122730422-2024-09-03",
     "type": "Major",
     "career": "",
     "name": "Design M.A.",
@@ -3683,8 +3683,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": null
   },
-  "122730822": {
-    "uid": "122730822",
+  "122730822-2024-09-03": {
+    "uid": "122730822-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Design M.F.A.",
@@ -3695,8 +3695,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": null
   },
-  "122731522": {
-    "uid": "122731522",
+  "122731522-2024-09-03": {
+    "uid": "122731522-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Design M.S.",
@@ -3707,8 +3707,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": "37"
   },
-  "122760222": {
-    "uid": "122760222",
+  "122760222-2024-09-03": {
+    "uid": "122760222-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Design Ph.D.",
@@ -3719,8 +3719,8 @@
     "degreeMinCredit": "62",
     "degreeMaxCredit": null
   },
-  "124431510": {
-    "uid": "124431510",
+  "124431510-2024-09-03": {
+    "uid": "124431510-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Ecology, Evolution and Behavior M.S.",
@@ -3731,8 +3731,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "124460210": {
-    "uid": "124460210",
+  "124460210-2024-09-03": {
+    "uid": "124460210-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Ecology, Evolution and Behavior Ph.D.",
@@ -3743,8 +3743,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "136330417": {
-    "uid": "136330417",
+  "136330417-2024-09-03": {
+    "uid": "136330417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Germanic Studies M.A.",
@@ -3755,8 +3755,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "136360217": {
-    "uid": "136360217",
+  "136360217-2024-09-03": {
+    "uid": "136360217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Germanic Studies Ph.D.",
@@ -3767,8 +3767,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": "60"
   },
-  "136820217": {
-    "uid": "136820217",
+  "136820217-2024-09-03": {
+    "uid": "136820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Global Studies B.A.",
@@ -3779,8 +3779,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "141931522": {
-    "uid": "141931522",
+  "141931522-2024-09-03": {
+    "uid": "141931522-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Human Factors and Ergonomics M.S.",
@@ -3791,8 +3791,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "141960222": {
-    "uid": "141960222",
+  "141960222-2024-09-03": {
+    "uid": "141960222-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Human Factors and Ergonomics Ph.D.",
@@ -3803,8 +3803,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": "60"
   },
-  "156631511": {
-    "uid": "156631511",
+  "156631511-2024-09-03": {
+    "uid": "156631511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Microbiology, Immunology, and Cancer Biology M.S.",
@@ -3815,8 +3815,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": null
   },
-  "156660211": {
-    "uid": "156660211",
+  "156660211-2024-09-03": {
+    "uid": "156660211-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Microbiology, Immunology, and Cancer Biology Ph.D.",
@@ -3827,8 +3827,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": "48"
   },
-  "177838216": {
-    "uid": "177838216",
+  "177838216-2024-09-03": {
+    "uid": "177838216-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Public Policy M.P.P.",
@@ -3839,8 +3839,8 @@
     "degreeMinCredit": "45",
     "degreeMaxCredit": null
   },
-  "186731516": {
-    "uid": "186731516",
+  "186731516-2024-09-03": {
+    "uid": "186731516-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Science, Technology, and Environmental Policy M.S.",
@@ -3851,8 +3851,8 @@
     "degreeMinCredit": "36",
     "degreeMaxCredit": null
   },
-  "192538416": {
-    "uid": "192538416",
+  "192538416-2024-09-03": {
+    "uid": "192538416-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Urban and Regional Planning M.U.R.P.",
@@ -3863,8 +3863,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "201820106": {
-    "uid": "201820106",
+  "201820106-2024-09-03": {
+    "uid": "201820106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Early Childhood B.S.",
@@ -3875,8 +3875,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "202620217": {
-    "uid": "202620217",
+  "202620217-2024-09-03": {
+    "uid": "202620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Asian and Middle Eastern Studies B.A.",
@@ -3887,8 +3887,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "202720217": {
-    "uid": "202720217",
+  "202720217-2024-09-03": {
+    "uid": "202720217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Studies in Cinema and Media Culture B.A.",
@@ -3899,8 +3899,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "203720118": {
-    "uid": "203720118",
+  "203720118-2024-09-03": {
+    "uid": "203720118-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Inter-College Program B.S.",
@@ -3911,8 +3911,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "203720218": {
-    "uid": "203720218",
+  "203720218-2024-09-03": {
+    "uid": "203720218-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Inter-College Program B.A.",
@@ -3923,8 +3923,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "203835220": {
-    "uid": "203835220",
+  "203835220-2024-09-03": {
+    "uid": "203835220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Public Health Practice M.P.H.",
@@ -3935,8 +3935,8 @@
     "degreeMinCredit": "42",
     "degreeMaxCredit": "42"
   },
-  "204030406": {
-    "uid": "204030406",
+  "204030406-2024-09-03": {
+    "uid": "204030406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Sport Management M. A.",
@@ -3947,8 +3947,8 @@
     "degreeMinCredit": "36",
     "degreeMaxCredit": null
   },
-  "204035006": {
-    "uid": "204035006",
+  "204035006-2024-09-03": {
+    "uid": "204035006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Sport Management M.Ed.",
@@ -3959,8 +3959,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "204731502": {
-    "uid": "204731502",
+  "204731502-2024-09-03": {
+    "uid": "204731502-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Supply Chain Management M.S.",
@@ -3971,8 +3971,8 @@
     "degreeMinCredit": "32",
     "degreeMaxCredit": null
   },
-  "205220917": {
-    "uid": "205220917",
+  "205220917-2025-01-21": {
+    "uid": "205220917-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Acting B.F.A.",
@@ -3983,8 +3983,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "205820217": {
-    "uid": "205820217",
+  "205820217-2024-09-03": {
+    "uid": "205820217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Biology, Society, and Environment B.A.",
@@ -3995,8 +3995,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "206724618": {
-    "uid": "206724618",
+  "206724618-2024-09-03": {
+    "uid": "206724618-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Information Technology Infrastructure B.A.Sc.",
@@ -4007,8 +4007,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "207231530": {
-    "uid": "207231530",
+  "207231530-2024-09-03": {
+    "uid": "207231530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Natural Resources Science and Management M.S.",
@@ -4019,8 +4019,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "207260230": {
-    "uid": "207260230",
+  "207260230-2024-09-03": {
+    "uid": "207260230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Natural Resources Science and Management Ph.D.",
@@ -4031,8 +4031,8 @@
     "degreeMinCredit": "59",
     "degreeMaxCredit": null
   },
-  "207330406": {
-    "uid": "207330406",
+  "207330406-2024-09-03": {
+    "uid": "207330406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Education, Curriculum, and Instruction M.A.",
@@ -4043,8 +4043,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "41"
   },
-  "207360206": {
-    "uid": "207360206",
+  "207360206-2024-09-03": {
+    "uid": "207360206-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Education, Curriculum, and Instruction Ph.D.",
@@ -4055,8 +4055,8 @@
     "degreeMinCredit": 72,
     "degreeMaxCredit": null
   },
-  "207430417": {
-    "uid": "207430417",
+  "207430417-2024-09-03": {
+    "uid": "207430417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Communication Studies M.A.",
@@ -4067,8 +4067,8 @@
     "degreeMinCredit": "33",
     "degreeMaxCredit": "33"
   },
-  "207460217": {
-    "uid": "207460217",
+  "207460217-2024-09-03": {
+    "uid": "207460217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Communication Studies Ph.D.",
@@ -4079,8 +4079,8 @@
     "degreeMinCredit": "66",
     "degreeMaxCredit": "72"
   },
-  "207520106": {
-    "uid": "207520106",
+  "207520106-2024-09-03": {
+    "uid": "207520106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Business and Marketing Education B.S.",
@@ -4091,8 +4091,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "207830P16": {
-    "uid": "207830P16",
+  "207830P16-2024-09-03": {
+    "uid": "207830P16-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Human Rights M.H.R.",
@@ -4103,8 +4103,8 @@
     "degreeMinCredit": "45",
     "degreeMaxCredit": null
   },
-  "210031511": {
-    "uid": "210031511",
+  "210031511-2024-09-03": {
+    "uid": "210031511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Biomedical Sciences M.S.",
@@ -4115,8 +4115,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "210420130": {
-    "uid": "210420130",
+  "210420130-2025-01-21": {
+    "uid": "210420130-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Animal Science B.S.",
@@ -4127,8 +4127,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "210620502": {
-    "uid": "210620502",
+  "210620502-2025-01-21": {
+    "uid": "210620502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Entrepreneurial Management B.S.B.",
@@ -4139,8 +4139,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "211762017": {
-    "uid": "211762017",
+  "211762017-2024-09-03": {
+    "uid": "211762017-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Audiology Au.D.",
@@ -4151,8 +4151,8 @@
     "degreeMinCredit": "102",
     "degreeMaxCredit": 102
   },
-  "212520217": {
-    "uid": "212520217",
+  "212520217-2025-01-21": {
+    "uid": "212520217-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Strategic Communication: Advertising and Public Relations B.A.",
@@ -4163,8 +4163,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "212530417": {
-    "uid": "212530417",
+  "212530417-2025-01-21": {
+    "uid": "212530417-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Strategic Communication M.A.",
@@ -4175,8 +4175,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": 30
   },
-  "212935006": {
-    "uid": "212935006",
+  "212935006-2024-09-03": {
+    "uid": "212935006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Literacy Education M.Ed.",
@@ -4187,8 +4187,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "213630417": {
-    "uid": "213630417",
+  "213630417-2024-09-03": {
+    "uid": "213630417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Speech-Language-Hearing Science M.A.",
@@ -4199,8 +4199,8 @@
     "degreeMinCredit": "36",
     "degreeMaxCredit": "60"
   },
-  "213660217": {
-    "uid": "213660217",
+  "213660217-2024-09-03": {
+    "uid": "213660217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Speech-Language-Hearing Sciences Ph.D.",
@@ -4211,8 +4211,8 @@
     "degreeMinCredit": "65",
     "degreeMaxCredit": null
   },
-  "213860208": {
-    "uid": "213860208",
+  "213860208-2023-09-05": {
+    "uid": "213860208-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Integrated Biosciences Ph.D.",
@@ -4223,8 +4223,8 @@
     "degreeMinCredit": "56",
     "degreeMaxCredit": null
   },
-  "214623122": {
-    "uid": "214623122",
+  "214623122-2024-09-03": {
+    "uid": "214623122-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Architecture B.D.A.",
@@ -4235,8 +4235,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "214831507": {
-    "uid": "214831507",
+  "214831507-2024-09-03": {
+    "uid": "214831507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Aerospace Engineering and Mechanics M.S.",
@@ -4247,8 +4247,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "214860207": {
-    "uid": "214860207",
+  "214860207-2024-09-03": {
+    "uid": "214860207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Aerospace Engineering and Mechanics Ph.D.",
@@ -4259,8 +4259,8 @@
     "degreeMinCredit": "66",
     "degreeMaxCredit": null
   },
-  "214929607": {
-    "uid": "214929607",
+  "214929607-2024-09-03": {
+    "uid": "214929607-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Industrial and Systems Engineering B.I.Sy.E.",
@@ -4271,8 +4271,8 @@
     "degreeMinCredit": "122",
     "degreeMaxCredit": null
   },
-  "214939607": {
-    "uid": "214939607",
+  "214939607-2024-09-03": {
+    "uid": "214939607-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Industrial and Systems Engineering M.S.I.SY.E.",
@@ -4283,8 +4283,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "32"
   },
-  "214960207": {
-    "uid": "214960207",
+  "214960207-2024-09-03": {
+    "uid": "214960207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Industrial and Systems Engineering Ph.D.",
@@ -4295,8 +4295,8 @@
     "degreeMinCredit": "68",
     "degreeMaxCredit": null
   },
-  "215639702": {
-    "uid": "215639702",
+  "215639702-2024-09-03": {
+    "uid": "215639702-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Accountancy M.Acc",
@@ -4307,8 +4307,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "44"
   },
-  "215930408": {
-    "uid": "215930408",
+  "215930408-2024-09-03": {
+    "uid": "215930408-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "History of Science, Technology, and Medicine M.A.",
@@ -4319,8 +4319,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "31"
   },
-  "215960208": {
-    "uid": "215960208",
+  "215960208-2024-09-03": {
+    "uid": "215960208-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "History of Science, Technology, and Medicine Ph.D.",
@@ -4331,8 +4331,8 @@
     "degreeMinCredit": "54",
     "degreeMaxCredit": null
   },
-  "216020130": {
-    "uid": "216020130",
+  "216020130-2024-09-03": {
+    "uid": "216020130-2024-09-03",
     "type": "Major",
     "career": "",
     "name": "Environmental Sciences, Policy and Management B.S.",
@@ -4343,8 +4343,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "216539907": {
-    "uid": "216539907",
+  "216539907-2025-01-21": {
+    "uid": "216539907-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Financial Mathematics M.F.M.",
@@ -4355,8 +4355,8 @@
     "degreeMinCredit": "35",
     "degreeMaxCredit": null
   },
-  "216629107": {
-    "uid": "216629107",
+  "216629107-2024-09-03": {
+    "uid": "216629107-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Bioproducts and Biosystems Engineering B.B.B.E.",
@@ -4367,8 +4367,8 @@
     "degreeMinCredit": "125",
     "degreeMaxCredit": "125"
   },
-  "216930417": {
-    "uid": "216930417",
+  "216930417-2024-09-03": {
+    "uid": "216930417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Hispanic and Lusophone Literatures, Cultures, and Linguistics M.A.",
@@ -4379,8 +4379,8 @@
     "degreeMinCredit": "36",
     "degreeMaxCredit": "36"
   },
-  "216960217": {
-    "uid": "216960217",
+  "216960217-2024-09-03": {
+    "uid": "216960217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Hispanic and Lusophone Literatures, Cultures, and Linguistics Ph.D.",
@@ -4391,8 +4391,8 @@
     "degreeMinCredit": "79",
     "degreeMaxCredit": "82"
   },
-  "217520502": {
-    "uid": "217520502",
+  "217520502-2024-09-03": {
+    "uid": "217520502-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Public & Nonprofit Management B.S.B",
@@ -4403,8 +4403,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "219331507": {
-    "uid": "219331507",
+  "219331507-2024-09-03": {
+    "uid": "219331507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Bioinformatics and Computational Biology M S",
@@ -4415,8 +4415,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "219360207": {
-    "uid": "219360207",
+  "219360207-2024-09-03": {
+    "uid": "219360207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Bioinformatics and Computational Biology Ph D",
@@ -4427,8 +4427,8 @@
     "degreeMinCredit": "55",
     "degreeMaxCredit": null
   },
-  "219431530": {
-    "uid": "219431530",
+  "219431530-2024-09-03": {
+    "uid": "219431530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Bioproducts and Biosystems Science, Eng and Mgmt M.S.",
@@ -4439,8 +4439,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "219460230": {
-    "uid": "219460230",
+  "219460230-2024-09-03": {
+    "uid": "219460230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Bioproducts and Biosystems Science, Engineering and Management Ph.D.",
@@ -4451,8 +4451,8 @@
     "degreeMinCredit": "54",
     "degreeMaxCredit": null
   },
-  "219620502": {
-    "uid": "219620502",
+  "219620502-2025-01-21": {
+    "uid": "219620502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Supply Chain & Operations Management B.S.B.",
@@ -4463,8 +4463,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "219720502": {
-    "uid": "219720502",
+  "219720502-2025-01-21": {
+    "uid": "219720502-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Finance & Risk Management Insurance B.S.B.",
@@ -4475,8 +4475,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "220031511": {
-    "uid": "220031511",
+  "220031511-2024-09-03": {
+    "uid": "220031511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Stem Cell Biology M.S.",
@@ -4487,8 +4487,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "220130D07": {
-    "uid": "220130D07",
+  "220130D07-2025-01-21": {
+    "uid": "220130D07-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Security Technologies M.S.S.T.",
@@ -4499,8 +4499,8 @@
     "degreeMinCredit": "32",
     "degreeMaxCredit": null
   },
-  "220230E04": {
-    "uid": "220230E04",
+  "220230E04-2023-09-05": {
+    "uid": "220230E04-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Dental Therapy M D T",
@@ -4511,8 +4511,8 @@
     "degreeMinCredit": 30,
     "degreeMaxCredit": null
   },
-  "220620217": {
-    "uid": "220620217",
+  "220620217-2024-09-03": {
+    "uid": "220620217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Ojibwe Language B.A.",
@@ -4523,8 +4523,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "220930G16": {
-    "uid": "220930G16",
+  "220930G16-2024-09-03": {
+    "uid": "220930G16-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Development Practice M.D.P.",
@@ -4535,8 +4535,8 @@
     "degreeMinCredit": "50",
     "degreeMaxCredit": null
   },
-  "221331530": {
-    "uid": "221331530",
+  "221331530-2023-09-05": {
+    "uid": "221331530-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Land and Atmospheric Science M.S.",
@@ -4547,8 +4547,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "221360230": {
-    "uid": "221360230",
+  "221360230-2024-09-03": {
+    "uid": "221360230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Land and Atmospheric Science Ph.D.",
@@ -4559,8 +4559,8 @@
     "degreeMinCredit": "50",
     "degreeMaxCredit": null
   },
-  "221431511": {
-    "uid": "221431511",
+  "221431511-2024-09-03": {
+    "uid": "221431511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Integrative Biology and Physiology M.S.",
@@ -4571,8 +4571,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "221460211": {
-    "uid": "221460211",
+  "221460211-2024-09-03": {
+    "uid": "221460211-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Integrative Biology and Physiology Ph.D.",
@@ -4583,8 +4583,8 @@
     "degreeMinCredit": "56",
     "degreeMaxCredit": "56"
   },
-  "223631515": {
-    "uid": "223631515",
+  "223631515-2024-09-03": {
+    "uid": "223631515-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Experimental and Clinical Pharmacology M.S.",
@@ -4595,8 +4595,8 @@
     "degreeMinCredit": "34",
     "degreeMaxCredit": null
   },
-  "223660215": {
-    "uid": "223660215",
+  "223660215-2024-09-03": {
+    "uid": "223660215-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Experimental and Clinical Pharmacology Ph.D.",
@@ -4607,8 +4607,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "224020122": {
-    "uid": "224020122",
+  "224020122-2024-09-03": {
+    "uid": "224020122-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Product Design B.S.",
@@ -4619,8 +4619,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "224429307": {
-    "uid": "224429307",
+  "224429307-2025-01-21": {
+    "uid": "224429307-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Earth Sciences B.S. Earth Sciences",
@@ -4631,8 +4631,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "224431507": {
-    "uid": "224431507",
+  "224431507-2024-09-03": {
+    "uid": "224431507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Earth Sciences M.S.",
@@ -4643,8 +4643,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "224460207": {
-    "uid": "224460207",
+  "224460207-2024-09-03": {
+    "uid": "224460207-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Earth Sciences Ph.D.",
@@ -4655,8 +4655,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "224530I18": {
-    "uid": "224530I18",
+  "224530I18-2024-09-03": {
+    "uid": "224530I18-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Arts and Cultural Leadership M.P.S.",
@@ -4667,8 +4667,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "225130I18": {
-    "uid": "225130I18",
+  "225130I18-2024-09-03": {
+    "uid": "225130I18-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Horticulture M.P.S.",
@@ -4679,8 +4679,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "226320118": {
-    "uid": "226320118",
+  "226320118-2024-09-03": {
+    "uid": "226320118-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Multidisciplinary Studies B.S.",
@@ -4691,8 +4691,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "226320218": {
-    "uid": "226320218",
+  "226320218-2024-09-03": {
+    "uid": "226320218-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Multidisciplinary Studies B.A.",
@@ -4703,8 +4703,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "227030I18": {
-    "uid": "227030I18",
+  "227030I18-2024-09-03": {
+    "uid": "227030I18-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Integrated Behavioral Health M.P.S.",
@@ -4715,8 +4715,8 @@
     "degreeMinCredit": "60",
     "degreeMaxCredit": null
   },
-  "227630L09": {
-    "uid": "227630L09",
+  "227630L09-2024-09-03": {
+    "uid": "227630L09-2024-09-03",
     "type": "Major",
     "career": "Law",
     "name": "Business Law LL.M.",
@@ -4727,8 +4727,8 @@
     "degreeMinCredit": "24",
     "degreeMaxCredit": null
   },
-  "228220217": {
-    "uid": "228220217",
+  "228220217-2024-09-03": {
+    "uid": "228220217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "German, Scandinavian, Dutch B.A.",
@@ -4739,8 +4739,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "228520106": {
-    "uid": "228520106",
+  "228520106-2024-09-03": {
+    "uid": "228520106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Integrated Degree Program B.S.",
@@ -4751,8 +4751,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "228820130": {
-    "uid": "228820130",
+  "228820130-2024-09-03": {
+    "uid": "228820130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Plant Science B.S.",
@@ -4763,8 +4763,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "228920130": {
-    "uid": "228920130",
+  "228920130-2024-09-03": {
+    "uid": "228920130-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Sustainable Agriculture and Food Systems B.S.",
@@ -4775,8 +4775,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "229830406": {
-    "uid": "229830406",
+  "229830406-2024-09-03": {
+    "uid": "229830406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Organizational Leadership, Policy, and Development M.A.",
@@ -4787,8 +4787,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "36"
   },
-  "229860106": {
-    "uid": "229860106",
+  "229860106-2024-09-03": {
+    "uid": "229860106-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Organizational Leadership, Policy, and Development Ed.D.",
@@ -4799,8 +4799,8 @@
     "degreeMinCredit": "58",
     "degreeMaxCredit": "72"
   },
-  "229860206": {
-    "uid": "229860206",
+  "229860206-2024-09-03": {
+    "uid": "229860206-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Organizational Leadership, Policy, and Development Ph.D.",
@@ -4811,8 +4811,8 @@
     "degreeMinCredit": "70",
     "degreeMaxCredit": "72"
   },
-  "230031502": {
-    "uid": "230031502",
+  "230031502-2025-01-21": {
+    "uid": "230031502-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Business Analytics M.S.",
@@ -4823,8 +4823,8 @@
     "degreeMinCredit": "45",
     "degreeMaxCredit": null
   },
-  "230231507": {
-    "uid": "230231507",
+  "230231507-2025-01-21": {
+    "uid": "230231507-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Medical Device Innovation M.S.",
@@ -4835,8 +4835,8 @@
     "degreeMinCredit": 30,
     "degreeMaxCredit": null
   },
-  "230431511": {
-    "uid": "230431511",
+  "230431511-2024-09-03": {
+    "uid": "230431511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Medical Physics M.S.",
@@ -4847,8 +4847,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "230460211": {
-    "uid": "230460211",
+  "230460211-2024-09-03": {
+    "uid": "230460211-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Medical Physics Ph.D.",
@@ -4859,8 +4859,8 @@
     "degreeMinCredit": 48,
     "degreeMaxCredit": null
   },
-  "230720217": {
-    "uid": "230720217",
+  "230720217-2024-09-03": {
+    "uid": "230720217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Classical and Near Eastern Religions and Cultures B.A.",
@@ -4871,8 +4871,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "230820115": {
-    "uid": "230820115",
+  "230820115-2024-09-03": {
+    "uid": "230820115-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Medical Laboratory Sciences B.S.",
@@ -4883,8 +4883,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "230830T15": {
-    "uid": "230830T15",
+  "230830T15-2024-09-03": {
+    "uid": "230830T15-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Medical Laboratory Sciences MMLS",
@@ -4895,8 +4895,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "55"
   },
-  "230930L09": {
-    "uid": "230930L09",
+  "230930L09-2024-09-03": {
+    "uid": "230930L09-2024-09-03",
     "type": "Major",
     "career": "Law",
     "name": "Patent Law LL.M.",
@@ -4907,8 +4907,8 @@
     "degreeMinCredit": "24",
     "degreeMaxCredit": null
   },
-  "230930N09": {
-    "uid": "230930N09",
+  "230930N09-2024-09-03": {
+    "uid": "230930N09-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Master of Science Patent Law",
@@ -4919,8 +4919,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "231030Q04": {
-    "uid": "231030Q04",
+  "231030Q04-2023-09-05": {
+    "uid": "231030Q04-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Dental Hygiene M.S.D.H.",
@@ -4931,8 +4931,8 @@
     "degreeMinCredit": "32",
     "degreeMaxCredit": "39"
   },
-  "231329907": {
-    "uid": "231329907",
+  "231329907-2024-09-03": {
+    "uid": "231329907-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Data Science B S D S",
@@ -4943,8 +4943,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "231331507": {
-    "uid": "231331507",
+  "231331507-2024-09-03": {
+    "uid": "231331507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Data Science M.S.",
@@ -4955,8 +4955,8 @@
     "degreeMinCredit": "31",
     "degreeMaxCredit": null
   },
-  "231530414": {
-    "uid": "231530414",
+  "231530414-2024-09-03": {
+    "uid": "231530414-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Integrative Health and Wellbeing Coaching M.A.",
@@ -4967,8 +4967,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "231724618": {
-    "uid": "231724618",
+  "231724618-2024-09-03": {
+    "uid": "231724618-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Health Services Management B.A.Sc.",
@@ -4979,8 +4979,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "231930417": {
-    "uid": "231930417",
+  "231930417-2024-09-03": {
+    "uid": "231930417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Health Communication M.A.",
@@ -4991,8 +4991,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "232431502": {
-    "uid": "232431502",
+  "232431502-2024-09-03": {
+    "uid": "232431502-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Business Research M.S.",
@@ -5003,8 +5003,8 @@
     "degreeMinCredit": "40",
     "degreeMaxCredit": "44"
   },
-  "233435006": {
-    "uid": "233435006",
+  "233435006-2024-09-03": {
+    "uid": "233435006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Sport and Exercise Science M.Ed.",
@@ -5015,8 +5015,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "234062209": {
-    "uid": "234062209",
+  "234062209-2024-09-03": {
+    "uid": "234062209-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Juridical Science S.J.D.",
@@ -5027,8 +5027,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": "48"
   },
-  "234135006": {
-    "uid": "234135006",
+  "234135006-2025-01-21": {
+    "uid": "234135006-2025-01-21",
     "type": "Major",
     "career": "Graduate",
     "name": "Special Education Initial License M.Ed.",
@@ -5039,8 +5039,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "234320217": {
-    "uid": "234320217",
+  "234320217-2025-01-21": {
+    "uid": "234320217-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Statistical Practice B.A.",
@@ -5051,8 +5051,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "234420117": {
-    "uid": "234420117",
+  "234420117-2025-01-21": {
+    "uid": "234420117-2025-01-21",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Statistical Science B.S.",
@@ -5063,8 +5063,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "234930I18": {
-    "uid": "234930I18",
+  "234930I18-2024-09-03": {
+    "uid": "234930I18-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Addictions Counseling M.P.S.",
@@ -5075,8 +5075,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "235131530": {
-    "uid": "235131530",
+  "235131530-2024-09-03": {
+    "uid": "235131530-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Conservation Sciences M.S.",
@@ -5087,8 +5087,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "235160230": {
-    "uid": "235160230",
+  "235160230-2024-09-03": {
+    "uid": "235160230-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Conservation Sciences Ph.D.",
@@ -5099,8 +5099,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "236030406": {
-    "uid": "236030406",
+  "236030406-2024-09-03": {
+    "uid": "236030406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Applied Child and Adolescent Development M.A.",
@@ -5111,8 +5111,8 @@
     "degreeMinCredit": 33,
     "degreeMaxCredit": 36
   },
-  "236230S22": {
-    "uid": "236230S22",
+  "236230S22-2024-09-03": {
+    "uid": "236230S22-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Heritage Studies and Public History M.H.S.P.H.",
@@ -5123,8 +5123,8 @@
     "degreeMinCredit": "37",
     "degreeMaxCredit": null
   },
-  "236662302": {
-    "uid": "236662302",
+  "236662302-2024-09-03": {
+    "uid": "236662302-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Doctor of Business Administration D.B.A.",
@@ -5135,8 +5135,8 @@
     "degreeMinCredit": 57,
     "degreeMaxCredit": 57
   },
-  "237035006": {
-    "uid": "237035006",
+  "237035006-2023-09-05": {
+    "uid": "237035006-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Physical Activity and Health M.Ed.",
@@ -5147,8 +5147,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "237630I18": {
-    "uid": "237630I18",
+  "237630I18-2024-09-03": {
+    "uid": "237630I18-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Sexual Health M.P.S.",
@@ -5159,8 +5159,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "2380MIM08": {
-    "uid": "2380MIM08",
+  "2380MIM08-2025-01-21": {
+    "uid": "2380MIM08-2025-01-21",
     "type": "Major",
     "career": "",
     "name": "Integrated Bioscience M S",
@@ -5171,8 +5171,8 @@
     "degreeMinCredit": 60,
     "degreeMaxCredit": null
   },
-  "238520110": {
-    "uid": "238520110",
+  "238520110-2024-09-03": {
+    "uid": "238520110-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Cellular and Organismal Physiology B.S.",
@@ -5183,8 +5183,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "239262415": {
-    "uid": "239262415",
+  "239262415-2024-09-03": {
+    "uid": "239262415-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Occupational Therapy O.T.D.",
@@ -5195,8 +5195,8 @@
     "degreeMinCredit": "116",
     "degreeMaxCredit": null
   },
-  "240030I18": {
-    "uid": "240030I18",
+  "240030I18-2024-09-03": {
+    "uid": "240030I18-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Civic Engagement M.P.S.",
@@ -5207,8 +5207,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "241320118": {
-    "uid": "241320118",
+  "241320118-2024-09-03": {
+    "uid": "241320118-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Health and Wellbeing Sciences B.S.",
@@ -5219,8 +5219,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "242030406": {
-    "uid": "242030406",
+  "242030406-2024-09-03": {
+    "uid": "242030406-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Developmental Psychology MA",
@@ -5231,8 +5231,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "242060206": {
-    "uid": "242060206",
+  "242060206-2024-09-03": {
+    "uid": "242060206-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Developmental Psychology PhD",
@@ -5243,8 +5243,8 @@
     "degreeMinCredit": "68",
     "degreeMaxCredit": 96
   },
-  "242831515": {
-    "uid": "242831515",
+  "242831515-2023-09-05": {
+    "uid": "242831515-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Biomedical Laboratory Sciences M.S.",
@@ -5255,8 +5255,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "33"
   },
-  "242931507": {
-    "uid": "242931507",
+  "242931507-2024-09-03": {
+    "uid": "242931507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Robotics M.S.",
@@ -5267,8 +5267,8 @@
     "degreeMinCredit": "31",
     "degreeMaxCredit": "31"
   },
-  "243230X02": {
-    "uid": "243230X02",
+  "243230X02-2024-09-03": {
+    "uid": "243230X02-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Applied Business Analytics M.A.B.A.",
@@ -5279,8 +5279,8 @@
     "degreeMinCredit": 30,
     "degreeMaxCredit": 30
   },
-  "243930I18": {
-    "uid": "243930I18",
+  "243930I18-2024-09-03": {
+    "uid": "243930I18-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Applied Sciences Leadership M.P.S.",
@@ -5291,8 +5291,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "30"
   },
-  "246220106": {
-    "uid": "246220106",
+  "246220106-2024-09-03": {
+    "uid": "246220106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Physical Activity and Health Promotion B.S.",
@@ -5303,8 +5303,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": "120"
   },
-  "246930602": {
-    "uid": "246930602",
+  "246930602-2024-09-03": {
+    "uid": "246930602-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Management Science M.B.A.",
@@ -5315,8 +5315,8 @@
     "degreeMinCredit": "64",
     "degreeMaxCredit": null
   },
-  "247530417": {
-    "uid": "247530417",
+  "247530417-2024-09-03": {
+    "uid": "247530417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Asian and Middle Eastern Cultures and Media MA",
@@ -5327,8 +5327,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "247560217": {
-    "uid": "247560217",
+  "247560217-2024-09-03": {
+    "uid": "247560217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Asian and Middle Eastern Cultures and Media PhD",
@@ -5339,8 +5339,8 @@
     "degreeMinCredit": "72",
     "degreeMaxCredit": null
   },
-  "247830417": {
-    "uid": "247830417",
+  "247830417-2023-09-05": {
+    "uid": "247830417-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Asian and Middle Eastern Studies MA",
@@ -5351,8 +5351,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "247935220": {
-    "uid": "247935220",
+  "247935220-2024-09-03": {
+    "uid": "247935220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Public Health Data Science M.P.H.",
@@ -5363,8 +5363,8 @@
     "degreeMinCredit": "43",
     "degreeMaxCredit": null
   },
-  "248031511": {
-    "uid": "248031511",
+  "248031511-2024-09-03": {
+    "uid": "248031511-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Molecular Pharmacology and Therapeutics MS",
@@ -5375,8 +5375,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "35"
   },
-  "248060211": {
-    "uid": "248060211",
+  "248060211-2024-09-03": {
+    "uid": "248060211-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Molecular Pharmacology and Therapeutics PhD",
@@ -5387,8 +5387,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": "48"
   },
-  "249731507": {
-    "uid": "249731507",
+  "249731507-2024-09-03": {
+    "uid": "249731507-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Data Science for Chemical Engineering and Materials Science M.S.",
@@ -5399,8 +5399,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "250220217": {
-    "uid": "250220217",
+  "250220217-2024-09-03": {
+    "uid": "250220217-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Dakota Language B.A.",
@@ -5411,8 +5411,8 @@
     "degreeMinCredit": "120",
     "degreeMaxCredit": null
   },
-  "250830Z06": {
-    "uid": "250830Z06",
+  "250830Z06-2024-09-03": {
+    "uid": "250830Z06-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Master of Learning and Talent Development",
@@ -5423,8 +5423,8 @@
     "degreeMinCredit": "33",
     "degreeMaxCredit": "33"
   },
-  "250935006": {
-    "uid": "250935006",
+  "250935006-2024-09-03": {
+    "uid": "250935006-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Early Care and Education M.Ed.",
@@ -5435,8 +5435,8 @@
     "degreeMinCredit": "31",
     "degreeMaxCredit": "34"
   },
-  "251231503": {
-    "uid": "251231503",
+  "251231503-2024-09-03": {
+    "uid": "251231503-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Veterinary Sciences M.S.",
@@ -5447,8 +5447,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "251260203": {
-    "uid": "251260203",
+  "251260203-2024-09-03": {
+    "uid": "251260203-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Veterinary Sciences Ph.D.",
@@ -5459,8 +5459,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "251831520": {
-    "uid": "251831520",
+  "251831520-2024-09-03": {
+    "uid": "251831520-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Occupational Hygiene M.S.",
@@ -5471,8 +5471,8 @@
     "degreeMinCredit": 48,
     "degreeMaxCredit": 48
   },
-  "251860220": {
-    "uid": "251860220",
+  "251860220-2024-09-03": {
+    "uid": "251860220-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Occupational Hygiene PhD",
@@ -5483,8 +5483,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "251930417": {
-    "uid": "251930417",
+  "251930417-2024-09-03": {
+    "uid": "251930417-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Classical and Near Eastern Religions and Cultures M.A.",
@@ -5495,8 +5495,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": 33
   },
-  "251960217": {
-    "uid": "251960217",
+  "251960217-2024-09-03": {
+    "uid": "251960217-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Classical and Near Eastern Religions and Cultures Ph.D.",
@@ -5507,8 +5507,8 @@
     "degreeMinCredit": "69",
     "degreeMaxCredit": "69"
   },
-  "252031530": {
-    "uid": "252031530",
+  "252031530-2023-09-05": {
+    "uid": "252031530-2023-09-05",
     "type": "Major",
     "career": "",
     "name": "Agricultural Education & Communication MS",
@@ -5519,8 +5519,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": "45"
   },
-  "313531503": {
-    "uid": "313531503",
+  "313531503-2024-09-03": {
+    "uid": "313531503-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Comparative and Molecular Biosciences M.S.",
@@ -5531,8 +5531,8 @@
     "degreeMinCredit": "30",
     "degreeMaxCredit": null
   },
-  "313560203": {
-    "uid": "313560203",
+  "313560203-2024-09-03": {
+    "uid": "313560203-2024-09-03",
     "type": "Major",
     "career": "Graduate",
     "name": "Comparative and Molecular Biosciences Ph.D.",
@@ -5543,8 +5543,8 @@
     "degreeMinCredit": "48",
     "degreeMaxCredit": null
   },
-  "505520106": {
-    "uid": "505520106",
+  "505520106-2024-09-03": {
+    "uid": "505520106-2024-09-03",
     "type": "Major",
     "career": "Undergraduate",
     "name": "Youth Studies B.S.",

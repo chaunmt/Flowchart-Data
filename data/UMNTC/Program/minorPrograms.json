@@ -1,6 +1,6 @@
 {
-  "0004MIN02": {
-    "uid": "0004MIN02",
+  "0004MIN02-2024-09-03": {
+    "uid": "0004MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Accounting Minor",
@@ -12,8 +12,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0009MIN17": {
-    "uid": "0009MIN17",
+  "0009MIN17-2024-09-03": {
+    "uid": "0009MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "African American and African Studies Minor",
@@ -25,8 +25,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0040MIN30": {
-    "uid": "0040MIN30",
+  "0040MIN30-2024-09-03": {
+    "uid": "0040MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Agronomy Minor",
@@ -38,8 +38,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0054MIN17": {
-    "uid": "0054MIN17",
+  "0054MIN17-2024-09-03": {
+    "uid": "0054MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "American Indian Studies Minor",
@@ -51,8 +51,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0056MIN17": {
-    "uid": "0056MIN17",
+  "0056MIN17-2024-09-03": {
+    "uid": "0056MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "American Studies Minor",
@@ -64,8 +64,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0056MING17": {
-    "uid": "0056MING17",
+  "0056MING17-2024-09-03": {
+    "uid": "0056MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "American Studies Minor",
@@ -77,8 +77,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0069MING30": {
-    "uid": "0069MING30",
+  "0069MING30-2024-09-03": {
+    "uid": "0069MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Animal Sciences Minor",
@@ -90,8 +90,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0080MIN17": {
-    "uid": "0080MIN17",
+  "0080MIN17-2024-09-03": {
+    "uid": "0080MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Anthropology Minor",
@@ -103,8 +103,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0080MING17": {
-    "uid": "0080MING17",
+  "0080MING17-2024-09-03": {
+    "uid": "0080MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Anthropology Minor",
@@ -116,8 +116,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0082MING08": {
-    "uid": "0082MING08",
+  "0082MING08-2023-09-05": {
+    "uid": "0082MING08-2023-09-05",
     "type": "Minor",
     "career": "Graduate",
     "name": "Applied/Computational Math",
@@ -129,8 +129,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0083MIN30": {
-    "uid": "0083MIN30",
+  "0083MIN30-2024-09-03": {
+    "uid": "0083MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Applied Economics Minor",
@@ -142,8 +142,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0083MING30": {
-    "uid": "0083MING30",
+  "0083MING30-2024-09-03": {
+    "uid": "0083MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Applied Economics Minor",
@@ -155,8 +155,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0088MIN22": {
-    "uid": "0088MIN22",
+  "0088MIN22-2024-09-03": {
+    "uid": "0088MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Architecture Minor",
@@ -168,8 +168,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0094MIN30": {
-    "uid": "0094MIN30",
+  "0094MIN30-2024-09-03": {
+    "uid": "0094MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Agricultural and Food Business Management Minor",
@@ -181,8 +181,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0096MIN17": {
-    "uid": "0096MIN17",
+  "0096MIN17-2024-09-03": {
+    "uid": "0096MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Art Minor",
@@ -194,8 +194,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0096MING17": {
-    "uid": "0096MING17",
+  "0096MING17-2024-09-03": {
+    "uid": "0096MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Art Minor",
@@ -207,8 +207,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0104MIN17": {
-    "uid": "0104MIN17",
+  "0104MIN17-2024-09-03": {
+    "uid": "0104MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Art History Minor",
@@ -220,8 +220,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0104MING17": {
-    "uid": "0104MING17",
+  "0104MING17-2024-09-03": {
+    "uid": "0104MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Art History Minor",
@@ -233,8 +233,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0112MIN17": {
-    "uid": "0112MIN17",
+  "0112MIN17-2024-09-03": {
+    "uid": "0112MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Astrophysics Minor",
@@ -246,8 +246,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0116MING07": {
-    "uid": "0116MING07",
+  "0116MING07-2024-09-03": {
+    "uid": "0116MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Astrophysics Minor",
@@ -259,8 +259,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0122MIN17": {
-    "uid": "0122MIN17",
+  "0122MIN17-2024-09-03": {
+    "uid": "0122MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Biblical Studies Minor",
@@ -272,8 +272,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0124MIN10": {
-    "uid": "0124MIN10",
+  "0124MIN10-2025-01-21": {
+    "uid": "0124MIN10-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Biochemistry Minor",
@@ -285,8 +285,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0127MING08": {
-    "uid": "0127MING08",
+  "0127MING08-2024-09-03": {
+    "uid": "0127MING08-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Bioethics Minor",
@@ -298,8 +298,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0132MIN10": {
-    "uid": "0132MIN10",
+  "0132MIN10-2024-09-03": {
+    "uid": "0132MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Biology Minor",
@@ -311,8 +311,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0134MING07": {
-    "uid": "0134MING07",
+  "0134MING07-2024-09-03": {
+    "uid": "0134MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Biomedical Engineering Minor",
@@ -324,8 +324,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0135MING08": {
-    "uid": "0135MING08",
+  "0135MING08-2024-09-03": {
+    "uid": "0135MING08-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Biochemistry, Molecular Biology and Biophysics Minor",
@@ -337,8 +337,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0138MING20": {
-    "uid": "0138MING20",
+  "0138MING20-2024-09-03": {
+    "uid": "0138MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Biostatistics Minor",
@@ -350,8 +350,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0152MING02": {
-    "uid": "0152MING02",
+  "0152MING02-2023-09-05": {
+    "uid": "0152MING02-2023-09-05",
     "type": "Minor",
     "career": "Graduate",
     "name": "Business Administration Minor",
@@ -363,8 +363,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0160MING07": {
-    "uid": "0160MING07",
+  "0160MING07-2024-09-03": {
+    "uid": "0160MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Chemical Engineering Minor",
@@ -376,8 +376,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0164MING07": {
-    "uid": "0164MING07",
+  "0164MING07-2024-09-03": {
+    "uid": "0164MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Chemical Physics Minor",
@@ -389,8 +389,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0168MIN17": {
-    "uid": "0168MIN17",
+  "0168MIN17-2024-09-03": {
+    "uid": "0168MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Chemistry Minor",
@@ -402,8 +402,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0168MING07": {
-    "uid": "0168MING07",
+  "0168MING07-2024-09-03": {
+    "uid": "0168MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Chemistry Minor",
@@ -415,8 +415,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0170MIN17": {
-    "uid": "0170MIN17",
+  "0170MIN17-2024-09-03": {
+    "uid": "0170MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Chicano-Latino Studies Minor",
@@ -428,8 +428,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0172MIN17": {
-    "uid": "0172MIN17",
+  "0172MIN17-2024-09-03": {
+    "uid": "0172MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Developmental Psychology Minor",
@@ -441,8 +441,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0180MING07": {
-    "uid": "0180MING07",
+  "0180MING07-2024-09-03": {
+    "uid": "0180MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Civil Engineering Minor",
@@ -454,8 +454,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0186MIN17": {
-    "uid": "0186MIN17",
+  "0186MIN17-2024-09-03": {
+    "uid": "0186MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Classical and Near Eastern Religions and Cultures Minor",
@@ -467,8 +467,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0187MIN06": {
-    "uid": "0187MIN06",
+  "0187MIN06-2025-01-21": {
+    "uid": "0187MIN06-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Sports Coaching Minor",
@@ -480,8 +480,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0192MING17": {
-    "uid": "0192MING17",
+  "0192MING17-2024-09-03": {
+    "uid": "0192MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Comparative Literature Minor",
@@ -493,8 +493,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0196MIN17": {
-    "uid": "0196MIN17",
+  "0196MIN17-2024-09-03": {
+    "uid": "0196MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Computer Science Minor",
@@ -506,8 +506,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0196MING07": {
-    "uid": "0196MING07",
+  "0196MING07-2024-09-03": {
+    "uid": "0196MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Computer Science Minor",
@@ -519,8 +519,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0223MIN17": {
-    "uid": "0223MIN17",
+  "0223MIN17-2024-09-03": {
+    "uid": "0223MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Dance Minor",
@@ -532,8 +532,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0230MIN17": {
-    "uid": "0230MIN17",
+  "0230MIN17-2024-09-03": {
+    "uid": "0230MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Cultural Studies and Comparative Literature Minor",
@@ -545,8 +545,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0231MING17": {
-    "uid": "0231MING17",
+  "0231MING17-2024-09-03": {
+    "uid": "0231MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Comparative Studies in Discourse and Society Minor",
@@ -558,8 +558,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0235MIN17": {
-    "uid": "0235MIN17",
+  "0235MIN17-2024-09-03": {
+    "uid": "0235MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Dutch Studies Minor",
@@ -571,8 +571,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0247MING17": {
-    "uid": "0247MING17",
+  "0247MING17-2024-09-03": {
+    "uid": "0247MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Cognitive Science Minor",
@@ -584,8 +584,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0248MIN17": {
-    "uid": "0248MIN17",
+  "0248MIN17-2025-01-21": {
+    "uid": "0248MIN17-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Economics Minor",
@@ -597,8 +597,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0248MING17": {
-    "uid": "0248MING17",
+  "0248MING17-2024-09-03": {
+    "uid": "0248MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Economics Minor",
@@ -610,8 +610,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0253MING17": {
-    "uid": "0253MING17",
+  "0253MING17-2024-09-03": {
+    "uid": "0253MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Developmental Studies and Social Change Minor",
@@ -623,8 +623,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0260MING06": {
-    "uid": "0260MING06",
+  "0260MING06-2024-09-03": {
+    "uid": "0260MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Educational Psychology Minor",
@@ -636,8 +636,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0264MING07": {
-    "uid": "0264MING07",
+  "0264MING07-2024-09-03": {
+    "uid": "0264MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Electrical Engineering Minor",
@@ -649,8 +649,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0265MIN17": {
-    "uid": "0265MIN17",
+  "0265MIN17-2024-09-03": {
+    "uid": "0265MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Environmental Geosciences Minor",
@@ -662,8 +662,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0276MIN17": {
-    "uid": "0276MIN17",
+  "0276MIN17-2024-09-03": {
+    "uid": "0276MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "English Minor",
@@ -675,8 +675,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0276MING17": {
-    "uid": "0276MING17",
+  "0276MING17-2024-09-03": {
+    "uid": "0276MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "English Minor",
@@ -688,8 +688,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0284MIN30": {
-    "uid": "0284MIN30",
+  "0284MIN30-2024-09-03": {
+    "uid": "0284MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Insect Science Minor",
@@ -701,8 +701,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0284MING30": {
-    "uid": "0284MING30",
+  "0284MING30-2024-09-03": {
+    "uid": "0284MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Entomology Minor",
@@ -714,8 +714,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0286MIN22": {
-    "uid": "0286MIN22",
+  "0286MIN22-2024-09-03": {
+    "uid": "0286MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Landscape Design and Planning Minor",
@@ -727,8 +727,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0288MING20": {
-    "uid": "0288MING20",
+  "0288MING20-2024-09-03": {
+    "uid": "0288MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Environmental Health Minor",
@@ -740,8 +740,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0292MING20": {
-    "uid": "0292MING20",
+  "0292MING20-2024-09-03": {
+    "uid": "0292MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Epidemiology Minor",
@@ -753,8 +753,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0296MIN06": {
-    "uid": "0296MIN06",
+  "0296MIN06-2024-09-03": {
+    "uid": "0296MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Family Social Science Minor",
@@ -766,8 +766,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0296MING06": {
-    "uid": "0296MING06",
+  "0296MING06-2024-09-03": {
+    "uid": "0296MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Family Social Science Minor",
@@ -779,8 +779,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0299MIN17": {
-    "uid": "0299MIN17",
+  "0299MIN17-2024-09-03": {
+    "uid": "0299MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Finnish Minor",
@@ -792,8 +792,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0300MIN30": {
-    "uid": "0300MIN30",
+  "0300MIN30-2024-09-03": {
+    "uid": "0300MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Fisheries, Wildlife, and Conservation Biology Minor",
@@ -805,8 +805,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0308MIN30": {
-    "uid": "0308MIN30",
+  "0308MIN30-2024-09-03": {
+    "uid": "0308MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Food Science Minor",
@@ -818,8 +818,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0308MING30": {
-    "uid": "0308MING30",
+  "0308MING30-2024-09-03": {
+    "uid": "0308MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Food Science Minor",
@@ -831,8 +831,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0324MIN30": {
-    "uid": "0324MIN30",
+  "0324MIN30-2024-09-03": {
+    "uid": "0324MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Forest Ecosystem Management and Conservation Minor",
@@ -844,8 +844,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0336MIN17": {
-    "uid": "0336MIN17",
+  "0336MIN17-2024-09-03": {
+    "uid": "0336MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "French Studies Minor",
@@ -857,8 +857,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0336MING17": {
-    "uid": "0336MING17",
+  "0336MING17-2024-09-03": {
+    "uid": "0336MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "French Minor",
@@ -870,8 +870,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0344MIN10": {
-    "uid": "0344MIN10",
+  "0344MIN10-2024-09-03": {
+    "uid": "0344MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Genetics Minor",
@@ -883,8 +883,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0348MIN17": {
-    "uid": "0348MIN17",
+  "0348MIN17-2024-09-03": {
+    "uid": "0348MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Geography Minor",
@@ -896,8 +896,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0348MING17": {
-    "uid": "0348MING17",
+  "0348MING17-2024-09-03": {
+    "uid": "0348MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Geography Minor",
@@ -909,8 +909,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0349MIN17": {
-    "uid": "0349MIN17",
+  "0349MIN17-2024-09-03": {
+    "uid": "0349MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Geographic Information Science Minor",
@@ -922,8 +922,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0349MING17": {
-    "uid": "0349MING17",
+  "0349MING17-2025-01-21": {
+    "uid": "0349MING17-2025-01-21",
     "type": "Minor",
     "career": "Graduate",
     "name": "Geographic Information Science Minor",
@@ -935,8 +935,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0352MING07": {
-    "uid": "0352MING07",
+  "0352MING07-2024-09-03": {
+    "uid": "0352MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Geoengineering Minor",
@@ -948,8 +948,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0356MIN17": {
-    "uid": "0356MIN17",
+  "0356MIN17-2024-09-03": {
+    "uid": "0356MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Earth Sciences Minor",
@@ -961,8 +961,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0364MIN17": {
-    "uid": "0364MIN17",
+  "0364MIN17-2024-09-03": {
+    "uid": "0364MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "German Minor",
@@ -974,8 +974,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0369MING20": {
-    "uid": "0369MING20",
+  "0369MING20-2024-09-03": {
+    "uid": "0369MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Gerontology Minor",
@@ -987,8 +987,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0370MIN17": {
-    "uid": "0370MIN17",
+  "0370MIN17-2024-09-03": {
+    "uid": "0370MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Greek Minor",
@@ -1000,8 +1000,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0372MIN17": {
-    "uid": "0372MIN17",
+  "0372MIN17-2024-09-03": {
+    "uid": "0372MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Hebrew Minor",
@@ -1013,8 +1013,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0380MIN17": {
-    "uid": "0380MIN17",
+  "0380MIN17-2024-09-03": {
+    "uid": "0380MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "History Minor",
@@ -1026,8 +1026,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0380MING17": {
-    "uid": "0380MING17",
+  "0380MING17-2024-09-03": {
+    "uid": "0380MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "History Minor",
@@ -1039,8 +1039,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0383MING08": {
-    "uid": "0383MING08",
+  "0383MING08-2024-09-03": {
+    "uid": "0383MING08-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Health Informatics Minor",
@@ -1052,8 +1052,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0397MIN02": {
-    "uid": "0397MIN02",
+  "0397MIN02-2024-09-03": {
+    "uid": "0397MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Human Resources and Industrial Relations Minor",
@@ -1065,8 +1065,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0400MIN30": {
-    "uid": "0400MIN30",
+  "0400MIN30-2024-09-03": {
+    "uid": "0400MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Horticulture Minor",
@@ -1078,8 +1078,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0405MING20": {
-    "uid": "0405MING20",
+  "0405MING20-2024-09-03": {
+    "uid": "0405MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Health Services Research, Policy, and Administration Minor",
@@ -1091,8 +1091,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0445MING08": {
-    "uid": "0445MING08",
+  "0445MING08-2023-09-05": {
+    "uid": "0445MING08-2023-09-05",
     "type": "Minor",
     "career": "Graduate",
     "name": "Internal",
@@ -1104,8 +1104,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0447MIN30": {
-    "uid": "0447MIN30",
+  "0447MIN30-2024-09-03": {
+    "uid": "0447MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "International Agriculture Minor",
@@ -1117,8 +1117,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0449MING06": {
-    "uid": "0449MING06",
+  "0449MING06-2024-09-03": {
+    "uid": "0449MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Interpersonal Relationships Research Minor",
@@ -1130,8 +1130,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0452MIN17": {
-    "uid": "0452MIN17",
+  "0452MIN17-2024-09-03": {
+    "uid": "0452MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Italian Studies Minor",
@@ -1143,8 +1143,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0458MIN17": {
-    "uid": "0458MIN17",
+  "0458MIN17-2024-09-03": {
+    "uid": "0458MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Jewish Studies Minor",
@@ -1156,8 +1156,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0465MING06": {
-    "uid": "0465MING06",
+  "0465MING06-2024-09-03": {
+    "uid": "0465MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Kinesiology Minor",
@@ -1169,8 +1169,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0468MING22": {
-    "uid": "0468MING22",
+  "0468MING22-2024-09-03": {
+    "uid": "0468MING22-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Landscape Architecture Minor",
@@ -1182,8 +1182,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0480MIN17": {
-    "uid": "0480MIN17",
+  "0480MIN17-2024-09-03": {
+    "uid": "0480MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Latin Minor",
@@ -1195,8 +1195,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0484MING09": {
-    "uid": "0484MING09",
+  "0484MING09-2024-09-03": {
+    "uid": "0484MING09-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Law Minor",
@@ -1208,8 +1208,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0504MIN17": {
-    "uid": "0504MIN17",
+  "0504MIN17-2024-09-03": {
+    "uid": "0504MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Linguistics Minor",
@@ -1221,8 +1221,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0504MING17": {
-    "uid": "0504MING17",
+  "0504MING17-2024-09-03": {
+    "uid": "0504MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Linguistics Minor",
@@ -1234,8 +1234,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0511MIN02": {
-    "uid": "0511MIN02",
+  "0511MIN02-2024-09-03": {
+    "uid": "0511MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Management Minor",
@@ -1247,8 +1247,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0516MIN17": {
-    "uid": "0516MIN17",
+  "0516MIN17-2025-01-21": {
+    "uid": "0516MIN17-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Media and Information Minor",
@@ -1260,8 +1260,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0516MING17": {
-    "uid": "0516MING17",
+  "0516MING17-2025-01-21": {
+    "uid": "0516MING17-2025-01-21",
     "type": "Minor",
     "career": "Graduate",
     "name": "Mass Communication Minor",
@@ -1273,8 +1273,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0520MIN17": {
-    "uid": "0520MIN17",
+  "0520MIN17-2024-09-03": {
+    "uid": "0520MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Mathematics Minor",
@@ -1286,8 +1286,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0520MING07": {
-    "uid": "0520MING07",
+  "0520MING07-2024-09-03": {
+    "uid": "0520MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Mathematics Minor",
@@ -1299,8 +1299,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0521MING07": {
-    "uid": "0521MING07",
+  "0521MING07-2024-09-03": {
+    "uid": "0521MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Materials Science and Engineering Minor",
@@ -1312,8 +1312,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0528MING07": {
-    "uid": "0528MING07",
+  "0528MING07-2024-09-03": {
+    "uid": "0528MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Mechanical Engineering Minor",
@@ -1325,8 +1325,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0537MIN18": {
-    "uid": "0537MIN18",
+  "0537MIN18-2024-09-03": {
+    "uid": "0537MIN18-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Joint Military Science Leadership Minor",
@@ -1338,8 +1338,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0550MIN17": {
-    "uid": "0550MIN17",
+  "0550MIN17-2024-09-03": {
+    "uid": "0550MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Medieval Studies Minor",
@@ -1351,8 +1351,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0550MING17": {
-    "uid": "0550MING17",
+  "0550MING17-2024-09-03": {
+    "uid": "0550MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Medieval Studies Minor",
@@ -1364,8 +1364,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0555MIN07": {
-    "uid": "0555MIN07",
+  "0555MIN07-2024-09-03": {
+    "uid": "0555MIN07-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Management of Technology Minor",
@@ -1377,8 +1377,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0555MING07": {
-    "uid": "0555MING07",
+  "0555MING07-2024-09-03": {
+    "uid": "0555MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Management of Technology Minor",
@@ -1390,8 +1390,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0560MIN10": {
-    "uid": "0560MIN10",
+  "0560MIN10-2024-09-03": {
+    "uid": "0560MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Microbiology Minor",
@@ -1403,8 +1403,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0571MING08": {
-    "uid": "0571MING08",
+  "0571MING08-2024-09-03": {
+    "uid": "0571MING08-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Molecular, Cellular, Developmental Biology and Genetics Minor",
@@ -1416,8 +1416,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0577MING22": {
-    "uid": "0577MING22",
+  "0577MING22-2024-09-03": {
+    "uid": "0577MING22-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Museum Studies Minor",
@@ -1429,8 +1429,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0580MIN17": {
-    "uid": "0580MIN17",
+  "0580MIN17-2024-09-03": {
+    "uid": "0580MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Music Minor",
@@ -1442,8 +1442,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0580MING17": {
-    "uid": "0580MING17",
+  "0580MING17-2024-09-03": {
+    "uid": "0580MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Music Minor",
@@ -1455,8 +1455,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0589MIN17": {
-    "uid": "0589MIN17",
+  "0589MIN17-2024-09-03": {
+    "uid": "0589MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Norwegian Minor",
@@ -1468,8 +1468,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0590MIN10": {
-    "uid": "0590MIN10",
+  "0590MIN10-2024-09-03": {
+    "uid": "0590MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Integrative Neuroscience Minor",
@@ -1481,8 +1481,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0590MING11": {
-    "uid": "0590MING11",
+  "0590MING11-2024-09-03": {
+    "uid": "0590MING11-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Neuroscience Minor",
@@ -1494,8 +1494,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0598MIN30": {
-    "uid": "0598MIN30",
+  "0598MIN30-2024-09-03": {
+    "uid": "0598MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Nutrition Minor",
@@ -1507,8 +1507,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0598MING30": {
-    "uid": "0598MING30",
+  "0598MING30-2024-09-03": {
+    "uid": "0598MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Nutrition Minor",
@@ -1520,8 +1520,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0614MING04": {
-    "uid": "0614MING04",
+  "0614MING04-2023-09-05": {
+    "uid": "0614MING04-2023-09-05",
     "type": "Minor",
     "career": "Graduate",
     "name": "Oral Biology Minor",
@@ -1533,8 +1533,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0636MING15": {
-    "uid": "0636MING15",
+  "0636MING15-2024-09-03": {
+    "uid": "0636MING15-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Pharmaceutics Minor",
@@ -1546,8 +1546,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0644MIN10": {
-    "uid": "0644MIN10",
+  "0644MIN10-2024-09-03": {
+    "uid": "0644MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Pharmacology Minor",
@@ -1559,8 +1559,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0652MIN17": {
-    "uid": "0652MIN17",
+  "0652MIN17-2024-09-03": {
+    "uid": "0652MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Philosophy Minor",
@@ -1572,8 +1572,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0652MING17": {
-    "uid": "0652MING17",
+  "0652MING17-2024-09-03": {
+    "uid": "0652MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Philosophy Minor",
@@ -1585,8 +1585,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0676MIN17": {
-    "uid": "0676MIN17",
+  "0676MIN17-2024-09-03": {
+    "uid": "0676MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Physics Minor",
@@ -1598,8 +1598,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0676MING07": {
-    "uid": "0676MING07",
+  "0676MING07-2024-09-03": {
+    "uid": "0676MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Physics Minor",
@@ -1611,8 +1611,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0693MING30": {
-    "uid": "0693MING30",
+  "0693MING30-2024-09-03": {
+    "uid": "0693MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Plant Pathology Minor",
@@ -1624,8 +1624,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0697MIN10": {
-    "uid": "0697MIN10",
+  "0697MIN10-2024-09-03": {
+    "uid": "0697MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Plant Biology Minor",
@@ -1637,8 +1637,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0697MING10": {
-    "uid": "0697MING10",
+  "0697MING10-2024-09-03": {
+    "uid": "0697MING10-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Plant and Microbial Biology Minor",
@@ -1650,8 +1650,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0711MING17": {
-    "uid": "0711MING17",
+  "0711MING17-2024-09-03": {
+    "uid": "0711MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Political Psychology Minor",
@@ -1663,8 +1663,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0712MIN17": {
-    "uid": "0712MIN17",
+  "0712MIN17-2025-01-21": {
+    "uid": "0712MIN17-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Political Science Minor",
@@ -1676,8 +1676,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0716MIN17": {
-    "uid": "0716MIN17",
+  "0716MIN17-2024-09-03": {
+    "uid": "0716MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Portuguese Studies Minor",
@@ -1689,8 +1689,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0756MIN30": {
-    "uid": "0756MIN30",
+  "0756MIN30-2024-09-03": {
+    "uid": "0756MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Park and Protected Area Management Minor",
@@ -1702,8 +1702,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0809MING07": {
-    "uid": "0809MING07",
+  "0809MING07-2024-01-16": {
+    "uid": "0809MING07-2024-01-16",
     "type": "Minor",
     "career": "Graduate",
     "name": "Quaternary Paleoecology Minor",
@@ -1715,8 +1715,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0812MIN17": {
-    "uid": "0812MIN17",
+  "0812MIN17-2025-01-21": {
+    "uid": "0812MIN17-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Psychology Minor",
@@ -1728,8 +1728,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0812MING17": {
-    "uid": "0812MING17",
+  "0812MING17-2024-09-03": {
+    "uid": "0812MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Psychology Minor",
@@ -1741,8 +1741,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0820MIN17": {
-    "uid": "0820MIN17",
+  "0820MIN17-2024-09-03": {
+    "uid": "0820MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Public Health Minor",
@@ -1754,8 +1754,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0820MING20": {
-    "uid": "0820MING20",
+  "0820MING20-2024-09-03": {
+    "uid": "0820MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Public Health Minor",
@@ -1767,8 +1767,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0831MING17": {
-    "uid": "0831MING17",
+  "0831MING17-2024-09-03": {
+    "uid": "0831MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Rhetoric, Scientific and Technical Communication Minor",
@@ -1780,8 +1780,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0834MIN17": {
-    "uid": "0834MIN17",
+  "0834MIN17-2024-09-03": {
+    "uid": "0834MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Religious Studies Minor",
@@ -1793,8 +1793,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0834MING17": {
-    "uid": "0834MING17",
+  "0834MING17-2024-09-03": {
+    "uid": "0834MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Religious Studies Minor",
@@ -1806,8 +1806,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0840MIN17": {
-    "uid": "0840MIN17",
+  "0840MIN17-2024-09-03": {
+    "uid": "0840MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Russian Minor",
@@ -1819,8 +1819,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0855MING15": {
-    "uid": "0855MING15",
+  "0855MING15-2024-09-03": {
+    "uid": "0855MING15-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Social and Administrative Pharmacy Minor",
@@ -1832,8 +1832,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0867MIN17": {
-    "uid": "0867MIN17",
+  "0867MIN17-2024-09-03": {
+    "uid": "0867MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Sociology of Law, Criminology, and Justice Minor",
@@ -1845,8 +1845,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0868MIN17": {
-    "uid": "0868MIN17",
+  "0868MIN17-2024-09-03": {
+    "uid": "0868MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Sociology Minor",
@@ -1858,8 +1858,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0868MING17": {
-    "uid": "0868MING17",
+  "0868MING17-2024-09-03": {
+    "uid": "0868MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Sociology Minor",
@@ -1871,8 +1871,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0874MIN30": {
-    "uid": "0874MIN30",
+  "0874MIN30-2024-09-03": {
+    "uid": "0874MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Soil Science Minor",
@@ -1884,8 +1884,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0876MIN17": {
-    "uid": "0876MIN17",
+  "0876MIN17-2024-09-03": {
+    "uid": "0876MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Spanish Studies Minor",
@@ -1897,8 +1897,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0879MIN06": {
-    "uid": "0879MIN06",
+  "0879MIN06-2024-09-03": {
+    "uid": "0879MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Special Education Minor",
@@ -1910,8 +1910,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0884MIN17": {
-    "uid": "0884MIN17",
+  "0884MIN17-2025-01-21": {
+    "uid": "0884MIN17-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Communication Studies Minor",
@@ -1923,8 +1923,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0886MIN17": {
-    "uid": "0886MIN17",
+  "0886MIN17-2024-09-03": {
+    "uid": "0886MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Speech-Language-Hearing Sciences Minor",
@@ -1936,8 +1936,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0887MING06": {
-    "uid": "0887MING06",
+  "0887MING06-2024-09-03": {
+    "uid": "0887MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Sociocultural Studies in Education Minor",
@@ -1949,8 +1949,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0893MING17": {
-    "uid": "0893MING17",
+  "0893MING17-2024-09-03": {
+    "uid": "0893MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Studies in Africa and African Diaspora Minor",
@@ -1962,8 +1962,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0897MING17": {
-    "uid": "0897MING17",
+  "0897MING17-2024-09-03": {
+    "uid": "0897MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Scientific and Technical Communication Minor",
@@ -1975,8 +1975,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0900MIN17": {
-    "uid": "0900MIN17",
+  "0900MIN17-2024-09-03": {
+    "uid": "0900MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Statistics Minor",
@@ -1988,8 +1988,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0900MING17": {
-    "uid": "0900MING17",
+  "0900MING17-2024-09-03": {
+    "uid": "0900MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Statistics Minor",
@@ -2001,8 +2001,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0903MIN17": {
-    "uid": "0903MIN17",
+  "0903MIN17-2024-09-03": {
+    "uid": "0903MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Swedish Minor",
@@ -2014,8 +2014,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0907MING17": {
-    "uid": "0907MING17",
+  "0907MING17-2024-09-03": {
+    "uid": "0907MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Studies of Science and Technology Minor",
@@ -2027,8 +2027,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0913MIN17": {
-    "uid": "0913MIN17",
+  "0913MIN17-2024-09-03": {
+    "uid": "0913MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Technical Writing and Communication Minor",
@@ -2040,8 +2040,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0920MIN17": {
-    "uid": "0920MIN17",
+  "0920MIN17-2024-09-03": {
+    "uid": "0920MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Theatre Arts Minor",
@@ -2053,8 +2053,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0920MING17": {
-    "uid": "0920MING17",
+  "0920MING17-2024-09-03": {
+    "uid": "0920MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Theatre Arts Minor",
@@ -2066,8 +2066,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0930MIN17": {
-    "uid": "0930MIN17",
+  "0930MIN17-2024-09-03": {
+    "uid": "0930MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Urban Studies Minor",
@@ -2079,8 +2079,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0931MIN22": {
-    "uid": "0931MIN22",
+  "0931MIN22-2024-09-03": {
+    "uid": "0931MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Retail and Consumer Studies Minor",
@@ -2092,8 +2092,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0942MIN30": {
-    "uid": "0942MIN30",
+  "0942MIN30-2024-09-03": {
+    "uid": "0942MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Urban and Community Forestry Minor",
@@ -2105,8 +2105,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0970MIN17": {
-    "uid": "0970MIN17",
+  "0970MIN17-2024-09-03": {
+    "uid": "0970MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Gender, Women and Sexuality Studies Minor",
@@ -2118,8 +2118,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0979MING08": {
-    "uid": "0979MING08",
+  "0979MING08-2024-09-03": {
+    "uid": "0979MING08-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Water Resources Science Minor",
@@ -2131,8 +2131,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0983MIN30": {
-    "uid": "0983MIN30",
+  "0983MIN30-2024-09-03": {
+    "uid": "0983MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Sustainable Agriculture Minor",
@@ -2144,8 +2144,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0983MING30": {
-    "uid": "0983MING30",
+  "0983MING30-2024-09-03": {
+    "uid": "0983MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Sustainable Agriculture Systems Minor",
@@ -2157,8 +2157,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "0984MIN30": {
-    "uid": "0984MIN30",
+  "0984MIN30-2024-09-03": {
+    "uid": "0984MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Food Systems Minor",
@@ -2170,8 +2170,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1006MIN18": {
-    "uid": "1006MIN18",
+  "1006MIN18-2024-09-03": {
+    "uid": "1006MIN18-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Construction Management Minor",
@@ -2183,8 +2183,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1007MING06": {
-    "uid": "1007MING06",
+  "1007MING06-2024-09-03": {
+    "uid": "1007MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "International Education Minor",
@@ -2196,8 +2196,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1022MIN02": {
-    "uid": "1022MIN02",
+  "1022MIN02-2024-09-03": {
+    "uid": "1022MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Finance Minor",
@@ -2209,8 +2209,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1024MIN02": {
-    "uid": "1024MIN02",
+  "1024MIN02-2024-09-03": {
+    "uid": "1024MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Management Information Systems Minor",
@@ -2222,8 +2222,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1025MIN02": {
-    "uid": "1025MIN02",
+  "1025MIN02-2024-09-03": {
+    "uid": "1025MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "International Business Minor",
@@ -2235,8 +2235,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1026MIN02": {
-    "uid": "1026MIN02",
+  "1026MIN02-2024-09-03": {
+    "uid": "1026MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Marketing Minor",
@@ -2248,8 +2248,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1027MIN02": {
-    "uid": "1027MIN02",
+  "1027MIN02-2024-09-03": {
+    "uid": "1027MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Risk Management and Insurance Minor",
@@ -2261,8 +2261,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1034MIN07": {
-    "uid": "1034MIN07",
+  "1034MIN07-2024-09-03": {
+    "uid": "1034MIN07-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Information Technology Minor",
@@ -2274,8 +2274,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1045MIN06": {
-    "uid": "1045MIN06",
+  "1045MIN06-2025-01-21": {
+    "uid": "1045MIN06-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Sport Management Minor",
@@ -2287,8 +2287,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1150MING30": {
-    "uid": "1150MING30",
+  "1150MING30-2025-01-21": {
+    "uid": "1150MING30-2025-01-21",
     "type": "Minor",
     "career": "Graduate",
     "name": "Applied Plant Sciences Minor",
@@ -2300,8 +2300,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1184MING17": {
-    "uid": "1184MING17",
+  "1184MING17-2024-09-03": {
+    "uid": "1184MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Classical and Near Eastern Religions and Cultures Minor",
@@ -2313,8 +2313,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1203MIN17": {
-    "uid": "1203MIN17",
+  "1203MIN17-2024-09-03": {
+    "uid": "1203MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Creative Writing Minor",
@@ -2326,8 +2326,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1227MIN22": {
-    "uid": "1227MIN22",
+  "1227MIN22-2024-09-03": {
+    "uid": "1227MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Interdisciplinary Design Minor",
@@ -2339,8 +2339,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1227MING22": {
-    "uid": "1227MING22",
+  "1227MING22-2024-09-03": {
+    "uid": "1227MING22-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Design Minor",
@@ -2352,8 +2352,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1244MING10": {
-    "uid": "1244MING10",
+  "1244MING10-2024-09-03": {
+    "uid": "1244MING10-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Ecology, Evolution and Behavior Minor",
@@ -2365,8 +2365,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1363MING17": {
-    "uid": "1363MING17",
+  "1363MING17-2024-09-03": {
+    "uid": "1363MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Germanic Studies Minor",
@@ -2378,8 +2378,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1368MIN17": {
-    "uid": "1368MIN17",
+  "1368MIN17-2024-09-03": {
+    "uid": "1368MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Global Studies Minor",
@@ -2391,8 +2391,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1419MING22": {
-    "uid": "1419MING22",
+  "1419MING22-2024-09-03": {
+    "uid": "1419MING22-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Human Factors and Ergonomics Minor",
@@ -2404,8 +2404,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1566MING11": {
-    "uid": "1566MING11",
+  "1566MING11-2024-09-03": {
+    "uid": "1566MING11-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Microbiology, Immunology, and Cancer Biology Minor",
@@ -2417,8 +2417,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1778MING16": {
-    "uid": "1778MING16",
+  "1778MING16-2024-09-03": {
+    "uid": "1778MING16-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Public Policy Minor",
@@ -2430,8 +2430,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1867MING16": {
-    "uid": "1867MING16",
+  "1867MING16-2024-09-03": {
+    "uid": "1867MING16-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Science, Technology, and Environmental Policy Minor",
@@ -2443,8 +2443,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "1925MING16": {
-    "uid": "1925MING16",
+  "1925MING16-2024-09-03": {
+    "uid": "1925MING16-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Urban and Regional Planning Minor",
@@ -2456,8 +2456,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2003MIN35": {
-    "uid": "2003MIN35",
+  "2003MIN35-2024-09-03": {
+    "uid": "2003MIN35-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Leadership Minor",
@@ -2469,8 +2469,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2004MIN30": {
-    "uid": "2004MIN30",
+  "2004MIN30-2024-09-03": {
+    "uid": "2004MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Climatology Minor",
@@ -2482,8 +2482,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2010MIN30": {
-    "uid": "2010MIN30",
+  "2010MIN30-2024-09-03": {
+    "uid": "2010MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Bioproducts Engineering Minor",
@@ -2495,8 +2495,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2012MIN30": {
-    "uid": "2012MIN30",
+  "2012MIN30-2024-09-03": {
+    "uid": "2012MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Water Science Minor",
@@ -2508,8 +2508,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2026MIN17": {
-    "uid": "2026MIN17",
+  "2026MIN17-2024-09-03": {
+    "uid": "2026MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Asian and Middle Eastern Studies Minor",
@@ -2521,8 +2521,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2027MIN17": {
-    "uid": "2027MIN17",
+  "2027MIN17-2024-09-03": {
+    "uid": "2027MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Studies in Cinema and Media Culture Minor",
@@ -2534,8 +2534,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2029MING06": {
-    "uid": "2029MING06",
+  "2029MING06-2024-09-03": {
+    "uid": "2029MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Program Evaluation Minor",
@@ -2547,8 +2547,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2039MIN06": {
-    "uid": "2039MIN06",
+  "2039MIN06-2024-09-03": {
+    "uid": "2039MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Family Violence Prevention Minor",
@@ -2560,8 +2560,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2040MING06": {
-    "uid": "2040MING06",
+  "2040MING06-2024-09-03": {
+    "uid": "2040MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Sport Management Minor",
@@ -2573,8 +2573,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2044MING17": {
-    "uid": "2044MING17",
+  "2044MING17-2024-09-03": {
+    "uid": "2044MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Literacy and Rhetorical Studies Minor",
@@ -2586,8 +2586,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2067MIN18": {
-    "uid": "2067MIN18",
+  "2067MIN18-2024-09-03": {
+    "uid": "2067MIN18-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Information Technology Infrastructure Minor",
@@ -2599,8 +2599,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2072MING30": {
-    "uid": "2072MING30",
+  "2072MING30-2024-09-03": {
+    "uid": "2072MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Natural Resources Science and Management Minor",
@@ -2612,8 +2612,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2073MING06": {
-    "uid": "2073MING06",
+  "2073MING06-2024-09-03": {
+    "uid": "2073MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Education, Curriculum, and Instruction Minor",
@@ -2625,8 +2625,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2074MING17": {
-    "uid": "2074MING17",
+  "2074MING17-2024-09-03": {
+    "uid": "2074MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Communication Studies Minor",
@@ -2638,8 +2638,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2078MING17": {
-    "uid": "2078MING17",
+  "2078MING17-2024-09-03": {
+    "uid": "2078MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Human Rights Minor",
@@ -2651,8 +2651,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2083MIN17": {
-    "uid": "2083MIN17",
+  "2083MIN17-2024-09-03": {
+    "uid": "2083MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Asian American Studies Minor",
@@ -2664,8 +2664,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2104MIN30": {
-    "uid": "2104MIN30",
+  "2104MIN30-2024-09-03": {
+    "uid": "2104MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Animal Science Minor",
@@ -2677,8 +2677,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2105MIN06": {
-    "uid": "2105MIN06",
+  "2105MIN06-2024-09-03": {
+    "uid": "2105MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Teaching English as a Second Language Minor",
@@ -2690,8 +2690,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2106MIN02": {
-    "uid": "2106MIN02",
+  "2106MIN02-2024-09-03": {
+    "uid": "2106MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Entrepreneurial Management Minor",
@@ -2703,8 +2703,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2116MIN17": {
-    "uid": "2116MIN17",
+  "2116MIN17-2024-09-03": {
+    "uid": "2116MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Austrian and Central European Studies Minor",
@@ -2716,8 +2716,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2127MIN17": {
-    "uid": "2127MIN17",
+  "2127MIN17-2024-09-03": {
+    "uid": "2127MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Gay, Lesbian, Bisexual, Transgender Minor",
@@ -2729,8 +2729,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2132MIN17": {
-    "uid": "2132MIN17",
+  "2132MIN17-2024-09-03": {
+    "uid": "2132MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Population Studies Minor",
@@ -2742,8 +2742,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2132MING17": {
-    "uid": "2132MING17",
+  "2132MING17-2024-09-03": {
+    "uid": "2132MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Population Studies Minor",
@@ -2755,8 +2755,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2136MING17": {
-    "uid": "2136MING17",
+  "2136MING17-2024-09-03": {
+    "uid": "2136MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Speech-Language-Hearing Sciences Minor",
@@ -2768,8 +2768,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2141MIN30": {
-    "uid": "2141MIN30",
+  "2141MIN30-2024-09-03": {
+    "uid": "2141MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Corporate Environmental Management Minor",
@@ -2781,8 +2781,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2143MIN06": {
-    "uid": "2143MIN06",
+  "2143MIN06-2024-09-03": {
+    "uid": "2143MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Social Justice Minor",
@@ -2794,8 +2794,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2148MING07": {
-    "uid": "2148MING07",
+  "2148MING07-2024-09-03": {
+    "uid": "2148MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Aerospace Engineering and Mechanics Minor",
@@ -2807,8 +2807,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2149MING07": {
-    "uid": "2149MING07",
+  "2149MING07-2024-09-03": {
+    "uid": "2149MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Industrial and Systems Engineering Minor",
@@ -2820,8 +2820,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2159MIN17": {
-    "uid": "2159MIN17",
+  "2159MIN17-2024-09-03": {
+    "uid": "2159MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "History of Science, Technology, and Medicine Minor",
@@ -2833,8 +2833,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2159MING08": {
-    "uid": "2159MING08",
+  "2159MING08-2024-09-03": {
+    "uid": "2159MING08-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "History of Science, Technology, and Medicine Minor",
@@ -2846,8 +2846,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2160MIN30": {
-    "uid": "2160MIN30",
+  "2160MIN30-2024-09-03": {
+    "uid": "2160MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Environmental Sciences, Policy and Management Minor",
@@ -2859,8 +2859,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2163MIN30": {
-    "uid": "2163MIN30",
+  "2163MIN30-2024-09-03": {
+    "uid": "2163MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Sustainability Studies Minor",
@@ -2872,8 +2872,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2165MING07": {
-    "uid": "2165MING07",
+  "2165MING07-2024-09-03": {
+    "uid": "2165MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Financial Mathematics Minor",
@@ -2885,8 +2885,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2169MING17": {
-    "uid": "2169MING17",
+  "2169MING17-2024-09-03": {
+    "uid": "2169MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Hispanic and Lusophone Literatures, Cultures, and Linguistics Minor",
@@ -2898,8 +2898,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2170MING06": {
-    "uid": "2170MING06",
+  "2170MING06-2024-09-03": {
+    "uid": "2170MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Infant and Early Childhood Mental Health Graduate Minor",
@@ -2911,8 +2911,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2171MIN17": {
-    "uid": "2171MIN17",
+  "2171MIN17-2024-09-03": {
+    "uid": "2171MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Comparative U.S. Race and Ethnicity Minor",
@@ -2924,8 +2924,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2186MING17": {
-    "uid": "2186MING17",
+  "2186MING17-2024-09-03": {
+    "uid": "2186MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Italian Studies Minor",
@@ -2937,8 +2937,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2189MIN06": {
-    "uid": "2189MIN06",
+  "2189MIN06-2024-09-03": {
+    "uid": "2189MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Applied Psychology in Educational and Community Settings Minor",
@@ -2950,8 +2950,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2193MING07": {
-    "uid": "2193MING07",
+  "2193MING07-2024-09-03": {
+    "uid": "2193MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Bioinformatics and Computational Biology Minor",
@@ -2963,8 +2963,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2194MING30": {
-    "uid": "2194MING30",
+  "2194MING30-2024-09-03": {
+    "uid": "2194MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Bioproducts and Biosystems Science, Engineering and Management Minor",
@@ -2976,8 +2976,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2196MIN02": {
-    "uid": "2196MIN02",
+  "2196MIN02-2024-09-03": {
+    "uid": "2196MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Supply Chain & Operations Management Minor",
@@ -2989,8 +2989,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2199MIN07": {
-    "uid": "2199MIN07",
+  "2199MIN07-2024-09-03": {
+    "uid": "2199MIN07-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Ecological Engineering Minor",
@@ -3002,8 +3002,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2200MING11": {
-    "uid": "2200MING11",
+  "2200MING11-2024-09-03": {
+    "uid": "2200MING11-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Stem Cell Biology Minor",
@@ -3015,8 +3015,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2201MING07": {
-    "uid": "2201MING07",
+  "2201MING07-2024-09-03": {
+    "uid": "2201MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Security Technologies Minor",
@@ -3028,8 +3028,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2203MING06": {
-    "uid": "2203MING06",
+  "2203MING06-2024-09-03": {
+    "uid": "2203MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Prevention Science Minor",
@@ -3041,8 +3041,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2209MING16": {
-    "uid": "2209MING16",
+  "2209MING16-2024-09-03": {
+    "uid": "2209MING16-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Development Practice Minor",
@@ -3054,8 +3054,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2210MING17": {
-    "uid": "2210MING17",
+  "2210MING17-2024-09-03": {
+    "uid": "2210MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Early Modern Studies Minor",
@@ -3067,8 +3067,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2213MING30": {
-    "uid": "2213MING30",
+  "2213MING30-2024-09-03": {
+    "uid": "2213MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Land and Atmospheric Science Minor",
@@ -3080,8 +3080,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2214MING11": {
-    "uid": "2214MING11",
+  "2214MING11-2024-09-03": {
+    "uid": "2214MING11-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Integrative Biology and Physiology Minor",
@@ -3093,8 +3093,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2238MING06": {
-    "uid": "2238MING06",
+  "2238MING06-2024-09-03": {
+    "uid": "2238MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Clinical Physiology and Movement Science Minor",
@@ -3106,8 +3106,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2240MIN22": {
-    "uid": "2240MIN22",
+  "2240MIN22-2024-09-03": {
+    "uid": "2240MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Product Design Minor",
@@ -3119,8 +3119,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2240MING22": {
-    "uid": "2240MING22",
+  "2240MING22-2024-09-03": {
+    "uid": "2240MING22-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Product Design Minor",
@@ -3132,8 +3132,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2241MING17": {
-    "uid": "2241MING17",
+  "2241MING17-2024-09-03": {
+    "uid": "2241MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Moving Image Studies Minor",
@@ -3145,8 +3145,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2242MING17": {
-    "uid": "2242MING17",
+  "2242MING17-2024-09-03": {
+    "uid": "2242MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Feminist and Critical Sexuality Studies Minor",
@@ -3158,8 +3158,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2243MING14": {
-    "uid": "2243MING14",
+  "2243MING14-2024-09-03": {
+    "uid": "2243MING14-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Integrative Therapies & Healing Practices Minor",
@@ -3171,8 +3171,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2244MING07": {
-    "uid": "2244MING07",
+  "2244MING07-2024-09-03": {
+    "uid": "2244MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Earth Sciences Minor",
@@ -3184,8 +3184,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2252MIN30": {
-    "uid": "2252MIN30",
+  "2252MIN30-2024-09-03": {
+    "uid": "2252MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Native American Environmental Knowledge Minor",
@@ -3197,8 +3197,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2261MIN22": {
-    "uid": "2261MIN22",
+  "2261MIN22-2024-09-03": {
+    "uid": "2261MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Fashion Studies Minor",
@@ -3210,8 +3210,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2271MING07": {
-    "uid": "2271MING07",
+  "2271MING07-2024-09-03": {
+    "uid": "2271MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Neuroengineering Minor",
@@ -3223,8 +3223,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2277MING06": {
-    "uid": "2277MING06",
+  "2277MING06-2024-09-03": {
+    "uid": "2277MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Integrative Leadership Minor",
@@ -3236,8 +3236,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2299MIN10": {
-    "uid": "2299MIN10",
+  "2299MIN10-2024-09-03": {
+    "uid": "2299MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Marine Biology Minor",
@@ -3249,8 +3249,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2311MIN22": {
-    "uid": "2311MIN22",
+  "2311MIN22-2024-09-03": {
+    "uid": "2311MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Interior Environments Minor",
@@ -3262,8 +3262,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2313MING07": {
-    "uid": "2313MING07",
+  "2313MING07-2024-09-03": {
+    "uid": "2313MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Data Science Minor",
@@ -3275,8 +3275,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2317MIN18": {
-    "uid": "2317MIN18",
+  "2317MIN18-2024-09-03": {
+    "uid": "2317MIN18-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Health Services Management Minor",
@@ -3288,8 +3288,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2333MING22": {
-    "uid": "2333MING22",
+  "2333MING22-2023-09-05": {
+    "uid": "2333MING22-2023-09-05",
     "type": "Minor",
     "career": "Graduate",
     "name": "Ecological Restoration in Landscape Architecture Minor",
@@ -3301,8 +3301,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2337MIN10": {
-    "uid": "2337MIN10",
+  "2337MIN10-2024-09-03": {
+    "uid": "2337MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Behavioral Biology Minor",
@@ -3314,8 +3314,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2345MIN17": {
-    "uid": "2345MIN17",
+  "2345MIN17-2024-09-03": {
+    "uid": "2345MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Health Psychology Minor",
@@ -3327,8 +3327,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2347MING07": {
-    "uid": "2347MING07",
+  "2347MING07-2024-09-03": {
+    "uid": "2347MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Cyber Security Minor",
@@ -3340,8 +3340,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2348MIN17": {
-    "uid": "2348MIN17",
+  "2348MIN17-2024-09-03": {
+    "uid": "2348MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Digital Media Studies Minor",
@@ -3353,8 +3353,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2351MING30": {
-    "uid": "2351MING30",
+  "2351MING30-2024-09-03": {
+    "uid": "2351MING30-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Conservation Sciences Minor",
@@ -3366,8 +3366,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2352MIN02": {
-    "uid": "2352MIN02",
+  "2352MIN02-2024-09-03": {
+    "uid": "2352MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Business Law Minor",
@@ -3379,8 +3379,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2354MING20": {
-    "uid": "2354MING20",
+  "2354MING20-2024-09-03": {
+    "uid": "2354MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Health Equity Minor",
@@ -3392,8 +3392,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2357MIN30": {
-    "uid": "2357MIN30",
+  "2357MIN30-2024-09-03": {
+    "uid": "2357MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Wildlife Care and Handling Minor",
@@ -3405,8 +3405,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2361MIN02": {
-    "uid": "2361MIN02",
+  "2361MIN02-2024-09-03": {
+    "uid": "2361MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Business Analytics Minor",
@@ -3418,8 +3418,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2362MING22": {
-    "uid": "2362MING22",
+  "2362MING22-2024-09-03": {
+    "uid": "2362MING22-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Heritage Studies and Public History Minor",
@@ -3431,8 +3431,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2367MIN06": {
-    "uid": "2367MIN06",
+  "2367MIN06-2024-09-03": {
+    "uid": "2367MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Family Therapy Minor",
@@ -3444,8 +3444,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2368MIN06": {
-    "uid": "2368MIN06",
+  "2368MIN06-2024-09-03": {
+    "uid": "2368MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Family Financial Studies Minor",
@@ -3457,8 +3457,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2369MIN06": {
-    "uid": "2369MIN06",
+  "2369MIN06-2024-09-03": {
+    "uid": "2369MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Family and Community Engagement Minor",
@@ -3470,8 +3470,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2373MIN06": {
-    "uid": "2373MIN06",
+  "2373MIN06-2024-09-03": {
+    "uid": "2373MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Racial Justice in Urban Schooling Minor",
@@ -3483,8 +3483,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2374MIN22": {
-    "uid": "2374MIN22",
+  "2374MIN22-2024-09-03": {
+    "uid": "2374MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Public Interest Design Minor",
@@ -3496,8 +3496,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2375MIN06": {
-    "uid": "2375MIN06",
+  "2375MIN06-2025-01-21": {
+    "uid": "2375MIN06-2025-01-21",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Physical Activity and Health Promotion Minor",
@@ -3509,8 +3509,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2376MING20": {
-    "uid": "2376MING20",
+  "2376MING20-2024-09-03": {
+    "uid": "2376MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Sexual Health Minor",
@@ -3522,8 +3522,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2381MING02": {
-    "uid": "2381MING02",
+  "2381MING02-2024-09-03": {
+    "uid": "2381MING02-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Business Management Minor",
@@ -3535,8 +3535,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2388MING20": {
-    "uid": "2388MING20",
+  "2388MING20-2024-09-03": {
+    "uid": "2388MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Global Public Health Minor",
@@ -3548,8 +3548,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2390MING17": {
-    "uid": "2390MING17",
+  "2390MING17-2024-09-03": {
+    "uid": "2390MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "American Indian and Indigenous Studies Minor",
@@ -3561,8 +3561,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2395MIN06": {
-    "uid": "2395MIN06",
+  "2395MIN06-2024-09-03": {
+    "uid": "2395MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Learning Technologies Minor",
@@ -3574,8 +3574,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2398MING17": {
-    "uid": "2398MING17",
+  "2398MING17-2024-09-03": {
+    "uid": "2398MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Translational Sensory Sciences Minor",
@@ -3587,8 +3587,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2402MIN10": {
-    "uid": "2402MIN10",
+  "2402MIN10-2024-09-03": {
+    "uid": "2402MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Computational Biology Minor",
@@ -3600,8 +3600,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2403MIN10": {
-    "uid": "2403MIN10",
+  "2403MIN10-2024-09-03": {
+    "uid": "2403MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Cellular and Molecular Neuroscience Minor",
@@ -3613,8 +3613,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2404MING20": {
-    "uid": "2404MING20",
+  "2404MING20-2024-09-03": {
+    "uid": "2404MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "American Indian Public Health and Wellness Minor",
@@ -3626,8 +3626,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2409MING17": {
-    "uid": "2409MING17",
+  "2409MING17-2024-09-03": {
+    "uid": "2409MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Race, Indigeneity, Disability, Gender, and Sexuality Minor",
@@ -3639,8 +3639,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2412MIN22": {
-    "uid": "2412MIN22",
+  "2412MIN22-2024-09-03": {
+    "uid": "2412MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Lighting Design Minor",
@@ -3652,8 +3652,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2412MING22": {
-    "uid": "2412MING22",
+  "2412MING22-2024-09-03": {
+    "uid": "2412MING22-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Lighting Design Minor",
@@ -3665,8 +3665,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2420MING06": {
-    "uid": "2420MING06",
+  "2420MING06-2024-09-03": {
+    "uid": "2420MING06-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Developmental Psychology Minor",
@@ -3678,8 +3678,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2421MIN17": {
-    "uid": "2421MIN17",
+  "2421MIN17-2024-09-03": {
+    "uid": "2421MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Islamic Studies Minor",
@@ -3691,8 +3691,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2423MING18": {
-    "uid": "2423MING18",
+  "2423MING18-2024-09-03": {
+    "uid": "2423MING18-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Addictions Minor",
@@ -3704,8 +3704,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2425MIN02": {
-    "uid": "2425MIN02",
+  "2425MIN02-2024-09-03": {
+    "uid": "2425MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Strategic Management Minor",
@@ -3717,8 +3717,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2429MING07": {
-    "uid": "2429MING07",
+  "2429MING07-2024-09-03": {
+    "uid": "2429MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Robotics Minor",
@@ -3730,8 +3730,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2433MIN17": {
-    "uid": "2433MIN17",
+  "2433MIN17-2024-09-03": {
+    "uid": "2433MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "World Music Minor",
@@ -3743,8 +3743,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2434MING07": {
-    "uid": "2434MING07",
+  "2434MING07-2024-09-03": {
+    "uid": "2434MING07-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Data Science in Astrophysics Minor",
@@ -3756,8 +3756,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2437MIN02": {
-    "uid": "2437MIN02",
+  "2437MIN02-2024-09-03": {
+    "uid": "2437MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Business of Healthcare Minor",
@@ -3769,8 +3769,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2451MIN10": {
-    "uid": "2451MIN10",
+  "2451MIN10-2024-09-03": {
+    "uid": "2451MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Cell Biology Minor",
@@ -3782,8 +3782,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2455MIN22": {
-    "uid": "2455MIN22",
+  "2455MIN22-2024-09-03": {
+    "uid": "2455MIN22-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "User Experience (UX) Minor",
@@ -3795,8 +3795,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2456MIN17": {
-    "uid": "2456MIN17",
+  "2456MIN17-2024-09-03": {
+    "uid": "2456MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Econometrics Minor",
@@ -3808,8 +3808,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2458MIN18": {
-    "uid": "2458MIN18",
+  "2458MIN18-2024-09-03": {
+    "uid": "2458MIN18-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Long Term Care Management Minor",
@@ -3821,8 +3821,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2459MIN17": {
-    "uid": "2459MIN17",
+  "2459MIN17-2024-09-03": {
+    "uid": "2459MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Museum & Curatorial Studies Minor",
@@ -3834,8 +3834,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2466MIN06": {
-    "uid": "2466MIN06",
+  "2466MIN06-2024-09-03": {
+    "uid": "2466MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Educational Psychology Research Minor",
@@ -3847,8 +3847,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2475MING17": {
-    "uid": "2475MING17",
+  "2475MING17-2024-09-03": {
+    "uid": "2475MING17-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Asian and Middle Eastern Cultures and Media Minor",
@@ -3860,8 +3860,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2477MING20": {
-    "uid": "2477MING20",
+  "2477MING20-2024-09-03": {
+    "uid": "2477MING20-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Climate Change and Health Minor",
@@ -3873,8 +3873,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2480MING11": {
-    "uid": "2480MING11",
+  "2480MING11-2024-09-03": {
+    "uid": "2480MING11-2024-09-03",
     "type": "Minor",
     "career": "Graduate",
     "name": "Molecular Pharmacology and Therapeutics Minor",
@@ -3886,8 +3886,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2481MIN10": {
-    "uid": "2481MIN10",
+  "2481MIN10-2024-09-03": {
+    "uid": "2481MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Health and Genomics Minor",
@@ -3899,8 +3899,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2491MIN30": {
-    "uid": "2491MIN30",
+  "2491MIN30-2024-09-03": {
+    "uid": "2491MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Agricultural and Environmental Science Communication Minor",
@@ -3912,8 +3912,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2492MIN30": {
-    "uid": "2492MIN30",
+  "2492MIN30-2024-09-03": {
+    "uid": "2492MIN30-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Agricultural & Food Education Minor",
@@ -3925,8 +3925,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2493MING06": {
-    "uid": "2493MING06",
+  "2493MING06-2025-01-21": {
+    "uid": "2493MING06-2025-01-21",
     "type": "Minor",
     "career": "Graduate",
     "name": "Special Education Minor",
@@ -3938,8 +3938,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2507MIN02": {
-    "uid": "2507MIN02",
+  "2507MIN02-2024-09-03": {
+    "uid": "2507MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Managing People in Organizations Minor",
@@ -3951,8 +3951,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2511MIN17": {
-    "uid": "2511MIN17",
+  "2511MIN17-2024-09-03": {
+    "uid": "2511MIN17-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Ensemble Music Minor",
@@ -3964,8 +3964,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2516MIN10": {
-    "uid": "2516MIN10",
+  "2516MIN10-2024-09-03": {
+    "uid": "2516MIN10-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Biotechnology Minor",
@@ -3977,8 +3977,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "2521MIN02": {
-    "uid": "2521MIN02",
+  "2521MIN02-2024-09-03": {
+    "uid": "2521MIN02-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Entrepreneurship Minor",
@@ -3990,8 +3990,8 @@
     "degreeMaxCredit": null,
     "requisite": {}
   },
-  "5055MIN06": {
-    "uid": "5055MIN06",
+  "5055MIN06-2024-09-03": {
+    "uid": "5055MIN06-2024-09-03",
     "type": "Minor",
     "career": "Undergraduate",
     "name": "Youth Studies Minor",
