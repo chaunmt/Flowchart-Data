@@ -124,11 +124,10 @@ class CourseSystem(SubjectHandler):
     # Course Dog's API variables
     _ALL_COURSE_KEY = "allCourses"
     _API_RETURN_FIELDS = ",".join([
-        "institutionId",
-        "code",
+        "_id",
+        "courseGroupId",
         "subjectCode",
         "courseNumber",
-        "name",
         "longName",
         "description",
     ])
@@ -242,7 +241,7 @@ class CourseSystem(SubjectHandler):
                     prereq,
                     general_shells
                 )
-                
+
                 # TODO remove these filter after modify Extractor, it should be called from there
                 # Start
                 p = prereq
@@ -256,13 +255,13 @@ class CourseSystem(SubjectHandler):
                     if pp == prereq:
                         break
                     prereq = pp
-                
+
                 # Convert to client's format
                 client_format = FlowchartConverter(prereq)
                 client_format.convert()
                 prereq = client_format.get_prereq()
                 # End
-                
+
                 prereq = prereq
                 c["prereq"] = prereq
 
@@ -278,7 +277,6 @@ class CourseSystem(SubjectHandler):
         for uid, course in courses.items():  # Iterate over key-value pairs
             shells[uid] = {
                 "uid": course["uid"],        # Access course details
-                "code": course["code"],
                 "subject": course["subject"],
                 "number": course["number"],
                 "honors": course["honors"]
@@ -332,16 +330,13 @@ class CourseSystem(SubjectHandler):
             prereq.extract()
             prereq = prereq.get_prereq()
 
-            data[course['institutionId']] = {
-                'uid' : course['institutionId'],
-                'code' : course['code'],
+            data[course['courseGroupId']] = {
+                'uid' : course['_id'],
                 'subject' : course['subjectCode'],
                 'number' : number,
                 'honors' : honors,
                 'writing' : writing,
-                'name' : course['name'],
-                'fullname' :  course['longName'],
-                'info' : course['description'],
+                'name' :  course['longName'],
                 'prereq' : prereq
             }
 
@@ -360,7 +355,6 @@ class CourseSystem(SubjectHandler):
         EX: {
         "797460" : {
             "uid": "797460",
-            "code": "AAS1101",
             "subject": "AAS",
             "number": "1101",
             "honors": false
@@ -382,9 +376,8 @@ class CourseSystem(SubjectHandler):
             # Only get shells of a certain type
             if is_honors is None or honors == is_honors:
                 # Map value to corresponding key
-                shells[course["institutionId"]] = {
-                    "uid" : course["institutionId"],
-                    "code" : course["code"],
+                shells[course["courseGroupId"]] = {
+                    "uid" : course["_id"],
                     "subject" : course["subjectCode"],
                     "number" : number,
                     "honors" : honors
