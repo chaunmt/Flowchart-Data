@@ -1,7567 +1,4926 @@
 {
-  "798385": {
-    "uid": "798385",
-    "code": "ACCT2051H",
+  "7983851": {
+    "uid": "7983851-2022-09-06",
     "subject": "ACCT",
     "number": "2051",
     "honors": true
   },
-  "013113": {
-    "uid": "013113",
-    "code": "ACCT3001",
-    "subject": "ACCT",
-    "number": "3001",
-    "honors": false
-  },
-  "013824": {
-    "uid": "013824",
-    "code": "ACCT5126",
-    "subject": "ACCT",
-    "number": "5126",
-    "honors": false
-  },
-  "013818": {
-    "uid": "013818",
-    "code": "ACCT5135",
-    "subject": "ACCT",
-    "number": "5135",
-    "honors": false
-  },
-  "819898": {
-    "uid": "819898",
-    "code": "ACCT5141",
-    "subject": "ACCT",
-    "number": "5141",
-    "honors": false
-  },
-  "798669": {
-    "uid": "798669",
-    "code": "ADES4160H",
+  "7986691": {
+    "uid": "7986691-2015-01-20",
     "subject": "ADES",
     "number": "4160",
     "honors": true
   },
-  "004329": {
-    "uid": "004329",
-    "code": "AEM2011",
-    "subject": "AEM",
-    "number": "2011",
-    "honors": false
-  },
-  "803854": {
-    "uid": "803854",
-    "code": "AEM4000H",
+  "8038541": {
+    "uid": "8038541-2017-01-17",
     "subject": "AEM",
     "number": "4000",
     "honors": true
   },
-  "007123": {
-    "uid": "007123",
-    "code": "AFRO4302H",
+  "0071231": {
+    "uid": "0071231-2012-09-04",
     "subject": "AFRO",
     "number": "4302",
     "honors": true
   },
-  "803728": {
-    "uid": "803728",
-    "code": "AHS2707H",
+  "8037281": {
+    "uid": "8037281-2015-09-08",
     "subject": "AHS",
     "number": "2707",
     "honors": true
   },
-  "788292": {
-    "uid": "788292",
-    "code": "AMST1001H",
+  "7882921": {
+    "uid": "7882921-2008-01-22",
     "subject": "AMST",
     "number": "1001",
     "honors": true
   },
-  "799391": {
-    "uid": "799391",
-    "code": "AMST1902H",
+  "7993911": {
+    "uid": "7993911-2008-09-02",
     "subject": "AMST",
     "number": "1902",
     "honors": true
   },
-  "820301": {
-    "uid": "820301",
-    "code": "AMST3222H",
+  "8203011": {
+    "uid": "8203011-2022-01-18",
     "subject": "AMST",
     "number": "3222",
     "honors": true
   },
-  "800844": {
-    "uid": "800844",
-    "code": "ANAT3601",
-    "subject": "ANAT",
-    "number": "3601",
-    "honors": false
-  },
-  "804675": {
-    "uid": "804675",
-    "code": "ANAT3608H",
+  "8046751": {
+    "uid": "8046751-2023-01-17",
     "subject": "ANAT",
     "number": "3608",
     "honors": true
   },
-  "789897": {
-    "uid": "789897",
-    "code": "ANAT3611",
-    "subject": "ANAT",
-    "number": "3611",
-    "honors": false
-  },
-  "826066": {
-    "uid": "826066",
-    "code": "ANAT3651",
-    "subject": "ANAT",
-    "number": "3651",
-    "honors": false
-  },
-  "826034": {
-    "uid": "826034",
-    "code": "ANAT3658H",
+  "8260341": {
+    "uid": "8260341-2023-01-17",
     "subject": "ANAT",
     "number": "3658",
     "honors": true
   },
-  "008990": {
-    "uid": "008990",
-    "code": "ANTH1001H",
+  "0089901": {
+    "uid": "0089901-2015-05-26",
     "subject": "ANTH",
     "number": "1001",
     "honors": true
   },
-  "008991": {
-    "uid": "008991",
-    "code": "ANTH1003V",
+  "0089911": {
+    "uid": "0089911-2025-01-21",
     "subject": "ANTH",
     "number": "1003",
     "honors": true
   },
-  "787787": {
-    "uid": "787787",
-    "code": "ANTH1005V",
+  "7877871": {
+    "uid": "7877871-2014-09-02",
     "subject": "ANTH",
     "number": "1005",
     "honors": true
   },
-  "816917": {
-    "uid": "816917",
-    "code": "ANTH2001V",
+  "8169171": {
+    "uid": "8169171-2019-09-03",
     "subject": "ANTH",
     "number": "2001",
     "honors": true
   },
-  "008735": {
-    "uid": "008735",
-    "code": "ANTH3025",
-    "subject": "ANTH",
-    "number": "3025",
-    "honors": false
-  },
-  "008995": {
-    "uid": "008995",
-    "code": "ANTH3041",
-    "subject": "ANTH",
-    "number": "3041",
-    "honors": false
-  },
-  "797547": {
-    "uid": "797547",
-    "code": "ANTH3306W",
-    "subject": "ANTH",
-    "number": "3306",
-    "honors": false
-  },
-  "008715": {
-    "uid": "008715",
-    "code": "ANTH4003W",
-    "subject": "ANTH",
-    "number": "4003",
-    "honors": false
-  },
-  "816766": {
-    "uid": "816766",
-    "code": "ANTH4007H",
+  "8167661": {
+    "uid": "8167661-2020-09-08",
     "subject": "ANTH",
     "number": "4007",
     "honors": true
   },
-  "806838": {
-    "uid": "806838",
-    "code": "ANTH4013H",
+  "8068381": {
+    "uid": "8068381-2025-01-21",
     "subject": "ANTH",
     "number": "4013",
     "honors": true
   },
-  "008719": {
-    "uid": "008719",
-    "code": "ANTH4019",
-    "subject": "ANTH",
-    "number": "4019",
-    "honors": false
-  },
-  "008723": {
-    "uid": "008723",
-    "code": "ANTH4025",
-    "subject": "ANTH",
-    "number": "4025",
-    "honors": false
-  },
-  "008725": {
-    "uid": "008725",
-    "code": "ANTH4031W",
-    "subject": "ANTH",
-    "number": "4031",
-    "honors": false
-  },
-  "008727": {
-    "uid": "008727",
-    "code": "ANTH4035",
-    "subject": "ANTH",
-    "number": "4035",
-    "honors": false
-  },
-  "008752": {
-    "uid": "008752",
-    "code": "ANTH4071",
-    "subject": "ANTH",
-    "number": "4071",
-    "honors": false
-  },
-  "801983": {
-    "uid": "801983",
-    "code": "APEC1101H",
+  "8019831": {
+    "uid": "8019831-2024-09-03",
     "subject": "APEC",
     "number": "1101",
     "honors": true
   },
-  "802124": {
-    "uid": "802124",
-    "code": "APEC1102H",
+  "8021241": {
+    "uid": "8021241-2020-01-21",
     "subject": "APEC",
     "number": "1102",
     "honors": true
   },
-  "800368": {
-    "uid": "800368",
-    "code": "APEC1905H",
+  "8003681": {
+    "uid": "8003681-2008-09-02",
     "subject": "APEC",
     "number": "1905",
     "honors": true
   },
-  "006291": {
-    "uid": "006291",
-    "code": "APEC3001",
-    "subject": "APEC",
-    "number": "3001",
-    "honors": false
-  },
-  "006292": {
-    "uid": "006292",
-    "code": "APEC3002",
-    "subject": "APEC",
-    "number": "3002",
-    "honors": false
-  },
-  "006296": {
-    "uid": "006296",
-    "code": "APEC3007",
-    "subject": "APEC",
-    "number": "3007",
-    "honors": false
-  },
-  "818166": {
-    "uid": "818166",
-    "code": "APEC3511",
-    "subject": "APEC",
-    "number": "3511",
-    "honors": false
-  },
-  "806975": {
-    "uid": "806975",
-    "code": "APEC3551",
-    "subject": "APEC",
-    "number": "3551",
-    "honors": false
-  },
-  "818068": {
-    "uid": "818068",
-    "code": "APEC3562",
-    "subject": "APEC",
-    "number": "3562",
-    "honors": false
-  },
-  "006697": {
-    "uid": "006697",
-    "code": "APEC3611W",
-    "subject": "APEC",
-    "number": "3611",
-    "honors": false
-  },
-  "006694": {
-    "uid": "006694",
-    "code": "APEC4451W",
-    "subject": "APEC",
-    "number": "4451",
-    "honors": false
-  },
-  "007397": {
-    "uid": "007397",
-    "code": "APEC4481",
-    "subject": "APEC",
-    "number": "4481",
-    "honors": false
-  },
-  "006901": {
-    "uid": "006901",
-    "code": "APEC5031",
-    "subject": "APEC",
-    "number": "5031",
-    "honors": false
-  },
-  "009515": {
-    "uid": "009515",
-    "code": "APEC5151",
-    "subject": "APEC",
-    "number": "5151",
-    "honors": false
-  },
-  "812790": {
-    "uid": "812790",
-    "code": "APPS1620H",
+  "8127901": {
+    "uid": "8127901-2016-05-23",
     "subject": "APPS",
     "number": "1620",
     "honors": true
   },
-  "819938": {
-    "uid": "819938",
-    "code": "ARCH1621V",
+  "8199381": {
+    "uid": "8199381-2024-09-03",
     "subject": "ARCH",
     "number": "1621",
     "honors": true
   },
-  "788797": {
-    "uid": "788797",
-    "code": "ARCH1701H",
+  "7887971": {
+    "uid": "7887971-2017-05-22",
     "subject": "ARCH",
     "number": "1701",
     "honors": true
   },
-  "805534": {
-    "uid": "805534",
-    "code": "ARCH3411V",
+  "8055341": {
+    "uid": "8055341-2024-09-03",
     "subject": "ARCH",
     "number": "3411",
     "honors": true
   },
-  "788798": {
-    "uid": "788798",
-    "code": "ARCH3412H",
+  "7887981": {
+    "uid": "7887981-2022-09-06",
     "subject": "ARCH",
     "number": "3412",
     "honors": true
   },
-  "820533": {
-    "uid": "820533",
-    "code": "ARCH3412V",
+  "8205331": {
+    "uid": "8205331-2021-01-19",
     "subject": "ARCH",
     "number": "3412",
     "honors": true
   },
-  "014368": {
-    "uid": "014368",
-    "code": "ARCH3490H",
+  "0143681": {
+    "uid": "0143681-2012-09-04",
     "subject": "ARCH",
     "number": "3490",
     "honors": true
   },
-  "789903": {
-    "uid": "789903",
-    "code": "ARCH3711V",
+  "7899031": {
+    "uid": "7899031-2015-01-20",
     "subject": "ARCH",
     "number": "3711",
     "honors": true
   },
-  "807007": {
-    "uid": "807007",
-    "code": "ARCH4194H",
+  "8070071": {
+    "uid": "8070071-2015-01-20",
     "subject": "ARCH",
     "number": "4194",
     "honors": true
   },
-  "797630": {
-    "uid": "797630",
-    "code": "ARCH4421W",
-    "subject": "ARCH",
-    "number": "4421",
-    "honors": false
-  },
-  "797706": {
-    "uid": "797706",
-    "code": "ARCH4423",
-    "subject": "ARCH",
-    "number": "4423",
-    "honors": false
-  },
-  "797707": {
-    "uid": "797707",
-    "code": "ARCH4424",
-    "subject": "ARCH",
-    "number": "4424",
-    "honors": false
-  },
-  "797708": {
-    "uid": "797708",
-    "code": "ARCH4425W",
-    "subject": "ARCH",
-    "number": "4425",
-    "honors": false
-  },
-  "797710": {
-    "uid": "797710",
-    "code": "ARCH4432",
-    "subject": "ARCH",
-    "number": "4432",
-    "honors": false
-  },
-  "797711": {
-    "uid": "797711",
-    "code": "ARCH4434",
-    "subject": "ARCH",
-    "number": "4434",
-    "honors": false
-  },
-  "804709": {
-    "uid": "804709",
-    "code": "ARCH4441",
-    "subject": "ARCH",
-    "number": "4441",
-    "honors": false
-  },
-  "797713": {
-    "uid": "797713",
-    "code": "ARCH4461",
-    "subject": "ARCH",
-    "number": "4461",
-    "honors": false
-  },
-  "797641": {
-    "uid": "797641",
-    "code": "ARCH4701W",
-    "subject": "ARCH",
-    "number": "4701",
-    "honors": false
-  },
-  "797642": {
-    "uid": "797642",
-    "code": "ARCH5421",
-    "subject": "ARCH",
-    "number": "5421",
-    "honors": false
-  },
-  "804710": {
-    "uid": "804710",
-    "code": "ARCH5441",
-    "subject": "ARCH",
-    "number": "5441",
-    "honors": false
-  },
-  "012110": {
-    "uid": "012110",
-    "code": "ARCH5672",
-    "subject": "ARCH",
-    "number": "5672",
-    "honors": false
-  },
-  "015448": {
-    "uid": "015448",
-    "code": "ARCH5673",
-    "subject": "ARCH",
-    "number": "5673",
-    "honors": false
-  },
-  "800633": {
-    "uid": "800633",
-    "code": "ARTH1002V",
+  "8006331": {
+    "uid": "8006331-2012-09-04",
     "subject": "ARTH",
     "number": "1002",
     "honors": true
   },
-  "013515": {
-    "uid": "013515",
-    "code": "ARTH1004V",
+  "0135151": {
+    "uid": "0135151-2012-09-04",
     "subject": "ARTH",
     "number": "1004",
     "honors": true
   },
-  "807375": {
-    "uid": "807375",
-    "code": "ARTH3014V",
+  "8073751": {
+    "uid": "8073751-2018-05-21",
     "subject": "ARTH",
     "number": "3014",
     "honors": true
   },
-  "016851": {
-    "uid": "016851",
-    "code": "ARTH3930H",
+  "0168511": {
+    "uid": "0168511-2018-05-21",
     "subject": "ARTH",
     "number": "3930",
     "honors": true
   },
-  "016852": {
-    "uid": "016852",
-    "code": "ARTH3971V",
+  "0168521": {
+    "uid": "0168521-2018-01-16",
     "subject": "ARTH",
     "number": "3971",
     "honors": true
   },
-  "816562": {
-    "uid": "816562",
-    "code": "ARTS1001H",
+  "8165621": {
+    "uid": "8165621-2023-01-17",
     "subject": "ARTS",
     "number": "1001",
     "honors": true
   },
-  "799392": {
-    "uid": "799392",
-    "code": "ARTS1902H",
+  "7993921": {
+    "uid": "7993921-2008-09-02",
     "subject": "ARTS",
     "number": "1902",
     "honors": true
   },
-  "816606": {
-    "uid": "816606",
-    "code": "ARTS3401V",
+  "8166061": {
+    "uid": "8166061-2024-09-03",
     "subject": "ARTS",
     "number": "3401",
     "honors": true
   },
-  "013550": {
-    "uid": "013550",
-    "code": "ARTS3410H",
+  "0135501": {
+    "uid": "0135501-2020-09-08",
     "subject": "ARTS",
     "number": "3410",
     "honors": true
   },
-  "013681": {
-    "uid": "013681",
-    "code": "ARTS3415H",
+  "0136811": {
+    "uid": "0136811-2015-01-20",
     "subject": "ARTS",
     "number": "3415",
     "honors": true
   },
-  "013682": {
-    "uid": "013682",
-    "code": "ARTS3416H",
+  "0136821": {
+    "uid": "0136821-2024-09-03",
     "subject": "ARTS",
     "number": "3416",
     "honors": true
   },
-  "826833": {
-    "uid": "826833",
-    "code": "ARTS5404H",
+  "8268331": {
+    "uid": "8268331-2024-01-16",
     "subject": "ARTS",
     "number": "5404",
     "honors": true
   },
-  "826832": {
-    "uid": "826832",
-    "code": "ARTS5407H",
+  "8268321": {
+    "uid": "8268321-2024-01-16",
     "subject": "ARTS",
     "number": "5407",
     "honors": true
   },
-  "000040": {
-    "uid": "000040",
-    "code": "AST1011H",
+  "0000401": {
+    "uid": "0000401-2025-01-21",
     "subject": "AST",
     "number": "1011",
     "honors": true
   },
-  "000054": {
-    "uid": "000054",
-    "code": "AST4299H",
+  "0000541": {
+    "uid": "0000541-2015-01-20",
     "subject": "AST",
     "number": "4299",
     "honors": true
   },
-  "811437": {
-    "uid": "811437",
-    "code": "BA2005H",
+  "8114371": {
+    "uid": "8114371-2022-09-06",
     "subject": "BA",
     "number": "2005",
     "honors": true
   },
-  "827208": {
-    "uid": "827208",
-    "code": "BA2051H",
+  "8272081": {
+    "uid": "8272081-2024-09-03",
     "subject": "BA",
     "number": "2051",
     "honors": true
   },
-  "797353": {
-    "uid": "797353",
-    "code": "BA3200H",
+  "7973531": {
+    "uid": "7973531-2010-09-07",
     "subject": "BA",
     "number": "3200",
     "honors": true
   },
-  "791976": {
-    "uid": "791976",
-    "code": "BA3701H",
+  "7919761": {
+    "uid": "7919761-2008-01-22",
     "subject": "BA",
     "number": "3701",
     "honors": true
   },
-  "788177": {
-    "uid": "788177",
-    "code": "BA3990H",
+  "7881771": {
+    "uid": "7881771-2018-05-21",
     "subject": "BA",
     "number": "3990",
     "honors": true
   },
-  "792613": {
-    "uid": "792613",
-    "code": "BA4000H",
+  "7926131": {
+    "uid": "7926131-2010-09-07",
     "subject": "BA",
     "number": "4000",
     "honors": true
   },
-  "802524": {
-    "uid": "802524",
-    "code": "BA4991H",
+  "8025241": {
+    "uid": "8025241-2019-09-03",
     "subject": "BA",
     "number": "4991",
     "honors": true
   },
-  "802523": {
-    "uid": "802523",
-    "code": "BA4992V",
+  "8025231": {
+    "uid": "8025231-2019-09-03",
     "subject": "BA",
     "number": "4992",
     "honors": true
   },
-  "803714": {
-    "uid": "803714",
-    "code": "BA4994H",
+  "8037141": {
+    "uid": "8037141-2022-01-18",
     "subject": "BA",
     "number": "4994",
     "honors": true
   },
-  "795655": {
-    "uid": "795655",
-    "code": "BBE2001",
-    "subject": "BBE",
-    "number": "2001",
-    "honors": false
-  },
-  "806664": {
-    "uid": "806664",
-    "code": "BBE3012",
-    "subject": "BBE",
-    "number": "3012",
-    "honors": false
-  },
-  "014347": {
-    "uid": "014347",
-    "code": "BBE4200H",
+  "0143471": {
+    "uid": "0143471-2011-01-18",
     "subject": "BBE",
     "number": "4200",
     "honors": true
   },
-  "014341": {
-    "uid": "014341",
-    "code": "BBE4801H",
+  "0143411": {
+    "uid": "0143411-2020-09-08",
     "subject": "BBE",
     "number": "4801",
     "honors": true
   },
-  "014343": {
-    "uid": "014343",
-    "code": "BBE4802H",
+  "0143431": {
+    "uid": "0143431-2020-09-08",
     "subject": "BBE",
     "number": "4802",
     "honors": true
   },
-  "803177": {
-    "uid": "803177",
-    "code": "BIOL1001H",
+  "8031771": {
+    "uid": "8031771-2020-09-08",
     "subject": "BIOL",
     "number": "1001",
     "honors": true
   },
-  "796059": {
-    "uid": "796059",
-    "code": "BIOL1002V",
+  "7960591": {
+    "uid": "7960591-2008-01-22",
     "subject": "BIOL",
     "number": "1002",
     "honors": true
   },
-  "790816": {
-    "uid": "790816",
-    "code": "BIOL1009H",
+  "7908161": {
+    "uid": "7908161-2020-09-08",
     "subject": "BIOL",
     "number": "1009",
     "honors": true
   },
-  "800467": {
-    "uid": "800467",
-    "code": "BIOL1905H",
+  "8004671": {
+    "uid": "8004671-2014-09-02",
     "subject": "BIOL",
     "number": "1905",
     "honors": true
   },
-  "817188": {
-    "uid": "817188",
-    "code": "BIOL1951H",
+  "8171881": {
+    "uid": "8171881-2020-09-08",
     "subject": "BIOL",
     "number": "1951",
     "honors": true
   },
-  "817199": {
-    "uid": "817199",
-    "code": "BIOL1961H",
+  "8171991": {
+    "uid": "8171991-2020-01-21",
     "subject": "BIOL",
     "number": "1961",
     "honors": true
   },
-  "800900": {
-    "uid": "800900",
-    "code": "BIOL2002H",
+  "8009001": {
+    "uid": "8009001-2018-09-04",
     "subject": "BIOL",
     "number": "2002",
     "honors": true
   },
-  "801426": {
-    "uid": "801426",
-    "code": "BIOL2003H",
+  "8014261": {
+    "uid": "8014261-2020-09-08",
     "subject": "BIOL",
     "number": "2003",
     "honors": true
   },
-  "790966": {
-    "uid": "790966",
-    "code": "BIOL2961H",
+  "7909661": {
+    "uid": "7909661-2023-09-05",
     "subject": "BIOL",
     "number": "2961",
     "honors": true
   },
-  "802140": {
-    "uid": "802140",
-    "code": "BIOL3004",
-    "subject": "BIOL",
-    "number": "3004",
-    "honors": false
-  },
-  "802141": {
-    "uid": "802141",
-    "code": "BIOL3004H",
+  "8021411": {
+    "uid": "8021411-2020-01-21",
     "subject": "BIOL",
     "number": "3004",
     "honors": true
   },
-  "825762": {
-    "uid": "825762",
-    "code": "BIOL3012",
-    "subject": "BIOL",
-    "number": "3012",
-    "honors": false
-  },
-  "814490": {
-    "uid": "814490",
-    "code": "BIOL3025",
-    "subject": "BIOL",
-    "number": "3025",
-    "honors": false
-  },
-  "817674": {
-    "uid": "817674",
-    "code": "BIOL3272H",
+  "8176741": {
+    "uid": "8176741-2021-09-07",
     "subject": "BIOL",
     "number": "3272",
     "honors": true
   },
-  "790564": {
-    "uid": "790564",
-    "code": "BIOL3503",
-    "subject": "BIOL",
-    "number": "3503",
-    "honors": false
-  },
-  "005422": {
-    "uid": "005422",
-    "code": "BIOL3961H",
+  "0054221": {
+    "uid": "0054221-2023-01-17",
     "subject": "BIOL",
     "number": "3961",
     "honors": true
   },
-  "009489": {
-    "uid": "009489",
-    "code": "BIOL4003",
-    "subject": "BIOL",
-    "number": "4003",
-    "honors": false
-  },
-  "010881": {
-    "uid": "010881",
-    "code": "BIOL4004",
-    "subject": "BIOL",
-    "number": "4004",
-    "honors": false
-  },
-  "804606": {
-    "uid": "804606",
-    "code": "BIOL4951H",
+  "8046061": {
+    "uid": "8046061-2023-09-05",
     "subject": "BIOL",
     "number": "4951",
     "honors": true
   },
-  "808897": {
-    "uid": "808897",
-    "code": "BIOL4961H",
+  "8088971": {
+    "uid": "8088971-2019-01-22",
     "subject": "BIOL",
     "number": "4961",
     "honors": true
   },
-  "813236": {
-    "uid": "813236",
-    "code": "BMEN4794H",
+  "8132361": {
+    "uid": "8132361-2025-01-21",
     "subject": "BMEN",
     "number": "4794",
     "honors": true
   },
-  "825823": {
-    "uid": "825823",
-    "code": "BSE2001H",
+  "8258231": {
+    "uid": "8258231-2022-09-06",
     "subject": "BSE",
     "number": "2001",
     "honors": true
   },
-  "820348": {
-    "uid": "820348",
-    "code": "BSE3991H",
+  "8203481": {
+    "uid": "8203481-2024-01-16",
     "subject": "BSE",
     "number": "3991",
     "honors": true
   },
-  "809024": {
-    "uid": "809024",
-    "code": "BSE3996H",
+  "8090241": {
+    "uid": "8090241-2020-09-08",
     "subject": "BSE",
     "number": "3996",
     "honors": true
   },
-  "809026": {
-    "uid": "809026",
-    "code": "BSE3997H",
+  "8090261": {
+    "uid": "8090261-2020-09-08",
     "subject": "BSE",
     "number": "3997",
     "honors": true
   },
-  "804855": {
-    "uid": "804855",
-    "code": "CEGE4000H",
+  "8048551": {
+    "uid": "8048551-2023-09-05",
     "subject": "CEGE",
     "number": "4000",
     "honors": true
   },
-  "804857": {
-    "uid": "804857",
-    "code": "CEGE4092H",
+  "8048571": {
+    "uid": "8048571-2017-09-05",
     "subject": "CEGE",
     "number": "4092",
     "honors": true
   },
-  "804858": {
-    "uid": "804858",
-    "code": "CEGE4094H",
+  "8048581": {
+    "uid": "8048581-2022-05-16",
     "subject": "CEGE",
     "number": "4094",
     "honors": true
   },
-  "804859": {
-    "uid": "804859",
-    "code": "CEGE4194H",
+  "8048591": {
+    "uid": "8048591-2019-09-03",
     "subject": "CEGE",
     "number": "4194",
     "honors": true
   },
-  "004559": {
-    "uid": "004559",
-    "code": "CEGE5541",
-    "subject": "CEGE",
-    "number": "5541",
-    "honors": false
-  },
-  "003786": {
-    "uid": "003786",
-    "code": "CFAN1000H",
+  "0037861": {
+    "uid": "0037861-2008-09-02",
     "subject": "CFAN",
     "number": "1000",
     "honors": true
   },
-  "797431": {
-    "uid": "797431",
-    "code": "CFAN1902H",
+  "7974311": {
+    "uid": "7974311-2008-09-02",
     "subject": "CFAN",
     "number": "1902",
     "honors": true
   },
-  "802929": {
-    "uid": "802929",
-    "code": "CFAN3000H",
+  "8029291": {
+    "uid": "8029291-2016-01-19",
     "subject": "CFAN",
     "number": "3000",
     "honors": true
   },
-  "814046": {
-    "uid": "814046",
-    "code": "CFAN3091V",
+  "8140461": {
+    "uid": "8140461-2024-01-16",
     "subject": "CFAN",
     "number": "3091",
     "honors": true
   },
-  "003788": {
-    "uid": "003788",
-    "code": "CFAN3100H",
+  "0037881": {
+    "uid": "0037881-2015-05-26",
     "subject": "CFAN",
     "number": "3100",
     "honors": true
   },
-  "016110": {
-    "uid": "016110",
-    "code": "CFAN3101H",
+  "0161101": {
+    "uid": "0161101-2008-09-02",
     "subject": "CFAN",
     "number": "3101",
     "honors": true
   },
-  "806604": {
-    "uid": "806604",
-    "code": "CFAN4801H",
+  "8066041": {
+    "uid": "8066041-2022-09-06",
     "subject": "CFAN",
     "number": "4801",
     "honors": true
   },
-  "016057": {
-    "uid": "016057",
-    "code": "CHEM1031H",
+  "0160571": {
+    "uid": "0160571-2012-09-04",
     "subject": "CHEM",
     "number": "1031",
     "honors": true
   },
-  "002387": {
-    "uid": "002387",
-    "code": "CHEM1032H",
+  "0023871": {
+    "uid": "0023871-2013-01-22",
     "subject": "CHEM",
     "number": "1032",
     "honors": true
   },
-  "807752": {
-    "uid": "807752",
-    "code": "CHEM1065",
-    "subject": "CHEM",
-    "number": "1065",
-    "honors": false
-  },
-  "807758": {
-    "uid": "807758",
-    "code": "CHEM1071H",
+  "8077581": {
+    "uid": "8077581-2024-09-03",
     "subject": "CHEM",
     "number": "1071",
     "honors": true
   },
-  "807755": {
-    "uid": "807755",
-    "code": "CHEM1072H",
+  "8077551": {
+    "uid": "8077551-2025-01-21",
     "subject": "CHEM",
     "number": "1072",
     "honors": true
   },
-  "807739": {
-    "uid": "807739",
-    "code": "CHEM1075H",
+  "8077391": {
+    "uid": "8077391-2024-09-03",
     "subject": "CHEM",
     "number": "1075",
     "honors": true
   },
-  "807740": {
-    "uid": "807740",
-    "code": "CHEM1076H",
+  "8077401": {
+    "uid": "8077401-2025-01-21",
     "subject": "CHEM",
     "number": "1076",
     "honors": true
   },
-  "002392": {
-    "uid": "002392",
-    "code": "CHEM2301",
-    "subject": "CHEM",
-    "number": "2301",
-    "honors": false
-  },
-  "002396": {
-    "uid": "002396",
-    "code": "CHEM2312H",
+  "0023961": {
+    "uid": "0023961-2023-09-05",
     "subject": "CHEM",
     "number": "2312",
     "honors": true
   },
-  "808185": {
-    "uid": "808185",
-    "code": "CHEM2331H",
+  "8081851": {
+    "uid": "8081851-2023-09-05",
     "subject": "CHEM",
     "number": "2331",
     "honors": true
   },
-  "808186": {
-    "uid": "808186",
-    "code": "CHEM2332H",
+  "8081861": {
+    "uid": "8081861-2015-09-08",
     "subject": "CHEM",
     "number": "2332",
     "honors": true
   },
-  "804696": {
-    "uid": "804696",
-    "code": "CHEM2910H",
+  "8046961": {
+    "uid": "8046961-2017-09-05",
     "subject": "CHEM",
     "number": "2910",
     "honors": true
   },
-  "804697": {
-    "uid": "804697",
-    "code": "CHEM2920H",
+  "8046971": {
+    "uid": "8046971-2018-01-16",
     "subject": "CHEM",
     "number": "2920",
     "honors": true
   },
-  "804619": {
-    "uid": "804619",
-    "code": "CHEM4094V",
+  "8046191": {
+    "uid": "8046191-2020-01-21",
     "subject": "CHEM",
     "number": "4094",
     "honors": true
   },
-  "812863": {
-    "uid": "812863",
-    "code": "CHEM4423W",
-    "subject": "CHEM",
-    "number": "4423",
-    "honors": false
-  },
-  "016186": {
-    "uid": "016186",
-    "code": "CHEM4501",
-    "subject": "CHEM",
-    "number": "4501",
-    "honors": false
-  },
-  "016224": {
-    "uid": "016224",
-    "code": "CHEM4502",
-    "subject": "CHEM",
-    "number": "4502",
-    "honors": false
-  },
-  "002408": {
-    "uid": "002408",
-    "code": "CHEM4701",
-    "subject": "CHEM",
-    "number": "4701",
-    "honors": false
-  },
-  "825766": {
-    "uid": "825766",
-    "code": "CHEM4701H",
+  "8257661": {
+    "uid": "8257661-2022-09-06",
     "subject": "CHEM",
     "number": "4701",
     "honors": true
   },
-  "809289": {
-    "uid": "809289",
-    "code": "CHEN4594H",
+  "8092891": {
+    "uid": "8092891-2022-01-18",
     "subject": "CHEN",
     "number": "4594",
     "honors": true
   },
-  "797502": {
-    "uid": "797502",
-    "code": "CHIC1102H",
+  "7975021": {
+    "uid": "7975021-2015-05-26",
     "subject": "CHIC",
     "number": "1102",
     "honors": true
   },
-  "788724": {
-    "uid": "788724",
-    "code": "CHIC1105H",
+  "7887241": {
+    "uid": "7887241-2008-09-02",
     "subject": "CHIC",
     "number": "1105",
     "honors": true
   },
-  "788725": {
-    "uid": "788725",
-    "code": "CHIC1106H",
+  "7887251": {
+    "uid": "7887251-2008-09-02",
     "subject": "CHIC",
     "number": "1106",
     "honors": true
   },
-  "808801": {
-    "uid": "808801",
-    "code": "CLA1001H",
+  "8088011": {
+    "uid": "8088011-2013-05-28",
     "subject": "CLA",
     "number": "1001",
     "honors": true
   },
-  "808802": {
-    "uid": "808802",
-    "code": "CLA1002H",
+  "8088021": {
+    "uid": "8088021-2013-05-28",
     "subject": "CLA",
     "number": "1002",
     "honors": true
   },
-  "010171": {
-    "uid": "010171",
-    "code": "CLAS3071H",
+  "0101711": {
+    "uid": "0101711-2006-09-05",
     "subject": "CLAS",
     "number": "3071",
     "honors": true
   },
-  "009845": {
-    "uid": "009845",
-    "code": "CNES1082H",
+  "0098451": {
+    "uid": "0098451-2017-05-22",
     "subject": "CNES",
     "number": "1082",
     "honors": true
   },
-  "010670": {
-    "uid": "010670",
-    "code": "CNRC1042H",
+  "0106701": {
+    "uid": "0106701-2024-09-03",
     "subject": "CNRC",
     "number": "1042",
     "honors": true
   },
-  "788741": {
-    "uid": "788741",
-    "code": "COMM1101H",
+  "7887411": {
+    "uid": "7887411-2021-05-17",
     "subject": "COMM",
     "number": "1101",
     "honors": true
   },
-  "788743": {
-    "uid": "788743",
-    "code": "COMM1102H",
+  "7887431": {
+    "uid": "7887431-2010-09-07",
     "subject": "COMM",
     "number": "1102",
     "honors": true
   },
-  "788744": {
-    "uid": "788744",
-    "code": "COMM1313V",
+  "7887441": {
+    "uid": "7887441-2010-09-07",
     "subject": "COMM",
     "number": "1313",
     "honors": true
   },
-  "810258": {
-    "uid": "810258",
-    "code": "COMM3110H",
+  "8102581": {
+    "uid": "8102581-2024-01-16",
     "subject": "COMM",
     "number": "3110",
     "honors": true
   },
-  "003894": {
-    "uid": "003894",
-    "code": "COMM3190H",
+  "0038941": {
+    "uid": "0038941-2024-09-03",
     "subject": "COMM",
     "number": "3190",
     "honors": true
   },
-  "787630": {
-    "uid": "787630",
-    "code": "COMM3601V",
+  "7876301": {
+    "uid": "7876301-2002-09-03",
     "subject": "COMM",
     "number": "3601",
     "honors": true
   },
-  "788746": {
-    "uid": "788746",
-    "code": "COMM3811H",
+  "7887461": {
+    "uid": "7887461-2002-09-03",
     "subject": "COMM",
     "number": "3811",
     "honors": true
   },
-  "825343": {
-    "uid": "825343",
-    "code": "CPSY3301H",
+  "8253431": {
+    "uid": "8253431-2024-09-03",
     "subject": "CPSY",
     "number": "3301",
     "honors": true
   },
-  "013724": {
-    "uid": "013724",
-    "code": "CPSY3360H",
+  "0137241": {
+    "uid": "0137241-2015-09-08",
     "subject": "CPSY",
     "number": "3360",
     "honors": true
   },
-  "788759": {
-    "uid": "788759",
-    "code": "CPSY4994V",
+  "8274601": {
+    "uid": "8274601-2025-01-21",
+    "subject": "CPSY",
+    "number": "4348",
+    "honors": true
+  },
+  "7887591": {
+    "uid": "7887591-2023-05-15",
     "subject": "CPSY",
     "number": "4994",
     "honors": true
   },
-  "003669": {
-    "uid": "003669",
-    "code": "CSCI1113",
-    "subject": "CSCI",
-    "number": "1113",
-    "honors": false
-  },
-  "811072": {
-    "uid": "811072",
-    "code": "CSCI1133H",
+  "8110721": {
+    "uid": "8110721-2023-09-05",
     "subject": "CSCI",
     "number": "1133",
     "honors": true
   },
-  "806618": {
-    "uid": "806618",
-    "code": "CSCI1901H",
+  "8066181": {
+    "uid": "8066181-2014-09-02",
     "subject": "CSCI",
     "number": "1901",
     "honors": true
   },
-  "809667": {
-    "uid": "809667",
-    "code": "CSCI1913",
-    "subject": "CSCI",
-    "number": "1913",
-    "honors": false
-  },
-  "816663": {
-    "uid": "816663",
-    "code": "CSCI1933H",
+  "8166631": {
+    "uid": "8166631-2024-09-03",
     "subject": "CSCI",
     "number": "1933",
     "honors": true
   },
-  "003672": {
-    "uid": "003672",
-    "code": "CSCI2011",
-    "subject": "CSCI",
-    "number": "2011",
-    "honors": false
-  },
-  "809449": {
-    "uid": "809449",
-    "code": "CSCI2011H",
+  "8094491": {
+    "uid": "8094491-2025-01-21",
     "subject": "CSCI",
     "number": "2011",
     "honors": true
   },
-  "805147": {
-    "uid": "805147",
-    "code": "CSCI2033",
-    "subject": "CSCI",
-    "number": "2033",
-    "honors": false
-  },
-  "819081": {
-    "uid": "819081",
-    "code": "CSCI2081",
-    "subject": "CSCI",
-    "number": "2081",
-    "honors": false
-  },
-  "826281": {
-    "uid": "826281",
-    "code": "CSCI3901H",
+  "8262811": {
+    "uid": "8262811-2023-01-17",
     "subject": "CSCI",
     "number": "3901",
     "honors": true
   },
-  "809647": {
-    "uid": "809647",
-    "code": "CSCI4041H",
+  "8096471": {
+    "uid": "8096471-2015-01-20",
     "subject": "CSCI",
     "number": "4041",
     "honors": true
   },
-  "827160": {
-    "uid": "827160",
-    "code": "CSCI4521",
-    "subject": "CSCI",
-    "number": "4521",
-    "honors": false
-  },
-  "805148": {
-    "uid": "805148",
-    "code": "CSCI4994H",
+  "8051481": {
+    "uid": "8051481-2015-01-20",
     "subject": "CSCI",
     "number": "4994",
     "honors": true
   },
-  "819257": {
-    "uid": "819257",
-    "code": "CSCL1201V",
+  "8192571": {
+    "uid": "8192571-2019-09-03",
     "subject": "CSCL",
     "number": "1201",
     "honors": true
   },
-  "797395": {
-    "uid": "797395",
-    "code": "CSCL2910H",
+  "7973951": {
+    "uid": "7973951-2014-09-02",
     "subject": "CSCL",
     "number": "2910",
     "honors": true
   },
-  "797584": {
-    "uid": "797584",
-    "code": "CSCL3910H",
+  "7975841": {
+    "uid": "7975841-2020-01-21",
     "subject": "CSCL",
     "number": "3910",
     "honors": true
   },
-  "806297": {
-    "uid": "806297",
-    "code": "CSCL5810H",
+  "8062971": {
+    "uid": "8062971-2015-05-26",
     "subject": "CSCL",
     "number": "5810",
     "honors": true
   },
-  "806298": {
-    "uid": "806298",
-    "code": "CSCL5910H",
+  "8062981": {
+    "uid": "8062981-2014-09-02",
     "subject": "CSCL",
     "number": "5910",
     "honors": true
   },
-  "016998": {
-    "uid": "016998",
-    "code": "CSCL5944H",
+  "0169981": {
+    "uid": "0169981-2020-09-08",
     "subject": "CSCL",
     "number": "5944",
     "honors": true
   },
-  "807364": {
-    "uid": "807364",
-    "code": "CSE1001H",
+  "8073641": {
+    "uid": "8073641-2017-09-05",
     "subject": "CSE",
     "number": "1001",
     "honors": true
   },
-  "797791": {
-    "uid": "797791",
-    "code": "DES1101V",
+  "7977911": {
+    "uid": "7977911-2018-01-16",
     "subject": "DES",
     "number": "1101",
     "honors": true
   },
-  "802076": {
-    "uid": "802076",
-    "code": "DES1111H",
+  "8020761": {
+    "uid": "8020761-2019-09-03",
     "subject": "DES",
     "number": "1111",
     "honors": true
   },
-  "800358": {
-    "uid": "800358",
-    "code": "DES2150H",
+  "8003581": {
+    "uid": "8003581-2010-09-07",
     "subject": "DES",
     "number": "2150",
     "honors": true
   },
-  "805761": {
-    "uid": "805761",
-    "code": "DES3160H",
+  "8057611": {
+    "uid": "8057611-2016-05-23",
     "subject": "DES",
     "number": "3160",
     "honors": true
   },
-  "800359": {
-    "uid": "800359",
-    "code": "DES4150H",
+  "8003591": {
+    "uid": "8003591-2010-09-07",
     "subject": "DES",
     "number": "4150",
     "honors": true
   },
-  "805762": {
-    "uid": "805762",
-    "code": "DES4160H",
+  "8057621": {
+    "uid": "8057621-2016-05-23",
     "subject": "DES",
     "number": "4160",
     "honors": true
   },
-  "825945": {
-    "uid": "825945",
-    "code": "DES4401V",
+  "8259451": {
+    "uid": "8259451-2022-09-06",
     "subject": "DES",
     "number": "4401",
     "honors": true
   },
-  "798824": {
-    "uid": "798824",
-    "code": "DHA1100H",
+  "7988241": {
+    "uid": "7988241-2010-05-24",
     "subject": "DHA",
     "number": "1100",
     "honors": true
   },
-  "798877": {
-    "uid": "798877",
-    "code": "DHA1100V",
+  "7988771": {
+    "uid": "7988771-2010-05-24",
     "subject": "DHA",
     "number": "1100",
     "honors": true
   },
-  "798880": {
-    "uid": "798880",
-    "code": "DHA2100H",
+  "7988801": {
+    "uid": "7988801-2010-05-24",
     "subject": "DHA",
     "number": "2100",
     "honors": true
   },
-  "802077": {
-    "uid": "802077",
-    "code": "DHA2101H",
+  "8020771": {
+    "uid": "8020771-2010-05-24",
     "subject": "DHA",
     "number": "2101",
     "honors": true
   },
-  "798825": {
-    "uid": "798825",
-    "code": "DHA4150H",
+  "7988251": {
+    "uid": "7988251-2010-05-24",
     "subject": "DHA",
     "number": "4150",
     "honors": true
   },
-  "810869": {
-    "uid": "810869",
-    "code": "EAS3462H",
+  "8108691": {
+    "uid": "8108691-2015-01-20",
     "subject": "EAS",
     "number": "3462",
     "honors": true
   },
-  "010017": {
-    "uid": "010017",
-    "code": "ECON1101H",
+  "0100171": {
+    "uid": "0100171-2011-01-18",
     "subject": "ECON",
     "number": "1101",
     "honors": true
   },
-  "010024": {
-    "uid": "010024",
-    "code": "ECON1102H",
+  "0100241": {
+    "uid": "0100241-2008-09-02",
     "subject": "ECON",
     "number": "1102",
     "honors": true
   },
-  "010421": {
-    "uid": "010421",
-    "code": "ECON3101H",
+  "0104211": {
+    "uid": "0104211-2014-09-02",
     "subject": "ECON",
     "number": "3101",
     "honors": true
   },
-  "010422": {
-    "uid": "010422",
-    "code": "ECON3102H",
+  "0104221": {
+    "uid": "0104221-2010-05-24",
     "subject": "ECON",
     "number": "3102",
     "honors": true
   },
-  "007267": {
-    "uid": "007267",
-    "code": "ECON4109H",
+  "0072671": {
+    "uid": "0072671-2016-05-23",
     "subject": "ECON",
     "number": "4109",
     "honors": true
   },
-  "809483": {
-    "uid": "809483",
-    "code": "ECON4113H",
+  "8094831": {
+    "uid": "8094831-2016-05-23",
     "subject": "ECON",
     "number": "4113",
     "honors": true
   },
-  "007299": {
-    "uid": "007299",
-    "code": "ECON4431V",
+  "0072991": {
+    "uid": "0072991-2017-01-17",
     "subject": "ECON",
     "number": "4431",
     "honors": true
   },
-  "008117": {
-    "uid": "008117",
-    "code": "ECON4611H",
-    "subject": "ECON",
-    "number": "4611",
-    "honors": true
-  },
-  "009120": {
-    "uid": "009120",
-    "code": "ECON4621H",
+  "0091201": {
+    "uid": "0091201-2015-05-26",
     "subject": "ECON",
     "number": "4621",
     "honors": true
   },
-  "007303": {
-    "uid": "007303",
-    "code": "ECON4631H",
+  "0073031": {
+    "uid": "0073031-2016-05-23",
     "subject": "ECON",
     "number": "4631",
     "honors": true
   },
-  "007316": {
-    "uid": "007316",
-    "code": "ECON4721H",
+  "0073161": {
+    "uid": "0073161-2017-05-22",
     "subject": "ECON",
     "number": "4721",
     "honors": true
   },
-  "007318": {
-    "uid": "007318",
-    "code": "ECON4731H",
+  "0073181": {
+    "uid": "0073181-2016-05-23",
     "subject": "ECON",
     "number": "4731",
     "honors": true
   },
-  "007319": {
-    "uid": "007319",
-    "code": "ECON4741H",
+  "0073191": {
+    "uid": "0073191-2016-05-23",
     "subject": "ECON",
     "number": "4741",
     "honors": true
   },
-  "007328": {
-    "uid": "007328",
-    "code": "ECON4751H",
+  "0073281": {
+    "uid": "0073281-2020-01-21",
     "subject": "ECON",
     "number": "4751",
     "honors": true
   },
-  "808567": {
-    "uid": "808567",
-    "code": "ECON4960H",
+  "8085671": {
+    "uid": "8085671-2018-05-21",
     "subject": "ECON",
     "number": "4960",
     "honors": true
   },
-  "816612": {
-    "uid": "816612",
-    "code": "ECON4993H",
+  "8166121": {
+    "uid": "8166121-2020-09-08",
     "subject": "ECON",
     "number": "4993",
     "honors": true
   },
-  "791980": {
-    "uid": "791980",
-    "code": "ECON5109H",
+  "7919801": {
+    "uid": "7919801-2016-05-23",
     "subject": "ECON",
     "number": "5109",
     "honors": true
   },
-  "008894": {
-    "uid": "008894",
-    "code": "ECON8101",
-    "subject": "ECON",
-    "number": "8101",
-    "honors": false
-  },
-  "008890": {
-    "uid": "008890",
-    "code": "ECON8102",
-    "subject": "ECON",
-    "number": "8102",
-    "honors": false
-  },
-  "008896": {
-    "uid": "008896",
-    "code": "ECON8103",
-    "subject": "ECON",
-    "number": "8103",
-    "honors": false
-  },
-  "008897": {
-    "uid": "008897",
-    "code": "ECON8104",
-    "subject": "ECON",
-    "number": "8104",
-    "honors": false
-  },
-  "008911": {
-    "uid": "008911",
-    "code": "ECON8111",
-    "subject": "ECON",
-    "number": "8111",
-    "honors": false
-  },
-  "008912": {
-    "uid": "008912",
-    "code": "ECON8112",
-    "subject": "ECON",
-    "number": "8112",
-    "honors": false
-  },
-  "008913": {
-    "uid": "008913",
-    "code": "ECON8113",
-    "subject": "ECON",
-    "number": "8113",
-    "honors": false
-  },
-  "008914": {
-    "uid": "008914",
-    "code": "ECON8117",
-    "subject": "ECON",
-    "number": "8117",
-    "honors": false
-  },
-  "008916": {
-    "uid": "008916",
-    "code": "ECON8119",
-    "subject": "ECON",
-    "number": "8119",
-    "honors": false
-  },
-  "805404": {
-    "uid": "805404",
-    "code": "EDHD1525V",
+  "8054041": {
+    "uid": "8054041-2021-09-07",
     "subject": "EDHD",
     "number": "1525",
     "honors": true
   },
-  "004487": {
-    "uid": "004487",
-    "code": "EE2001",
-    "subject": "EE",
-    "number": "2001",
-    "honors": false
-  },
-  "818943": {
-    "uid": "818943",
-    "code": "EE2015",
-    "subject": "EE",
-    "number": "2015",
-    "honors": false
-  },
-  "004490": {
-    "uid": "004490",
-    "code": "EE3601",
-    "subject": "EE",
-    "number": "3601",
-    "honors": false
-  },
-  "818947": {
-    "uid": "818947",
-    "code": "EE4623",
-    "subject": "EE",
-    "number": "4623",
-    "honors": false
-  },
-  "004814": {
-    "uid": "004814",
-    "code": "EE4981H",
+  "0048141": {
+    "uid": "0048141-2015-01-20",
     "subject": "EE",
     "number": "4981",
     "honors": true
   },
-  "004815": {
-    "uid": "004815",
-    "code": "EE4982V",
+  "0048151": {
+    "uid": "0048151-2015-01-20",
     "subject": "EE",
     "number": "4982",
     "honors": true
   },
-  "812592": {
-    "uid": "812592",
-    "code": "EEB3412W",
-    "subject": "EEB",
-    "number": "3412",
-    "honors": false
-  },
-  "807054": {
-    "uid": "807054",
-    "code": "EEB4330W",
-    "subject": "EEB",
-    "number": "4330",
-    "honors": false
-  },
-  "791065": {
-    "uid": "791065",
-    "code": "EEB4611",
-    "subject": "EEB",
-    "number": "4611",
-    "honors": false
-  },
-  "016232": {
-    "uid": "016232",
-    "code": "ENGC1011H",
+  "0162321": {
+    "uid": "0162321-2007-05-21",
     "subject": "ENGC",
     "number": "1011",
     "honors": true
   },
-  "016140": {
-    "uid": "016140",
-    "code": "ENGC1012H",
+  "0161401": {
+    "uid": "0161401-2007-05-21",
     "subject": "ENGC",
     "number": "1012",
     "honors": true
   },
-  "016307": {
-    "uid": "016307",
-    "code": "ENGC1013H",
+  "0163071": {
+    "uid": "0163071-2007-05-21",
     "subject": "ENGC",
     "number": "1013",
     "honors": true
   },
-  "016308": {
-    "uid": "016308",
-    "code": "ENGC1014H",
+  "0163081": {
+    "uid": "0163081-2007-05-21",
     "subject": "ENGC",
     "number": "1014",
     "honors": true
   },
-  "797692": {
-    "uid": "797692",
-    "code": "ENGC1021V",
+  "7976921": {
+    "uid": "7976921-2008-01-22",
     "subject": "ENGC",
     "number": "1021",
     "honors": true
   },
-  "016309": {
-    "uid": "016309",
-    "code": "ENGL1001V",
+  "0163091": {
+    "uid": "0163091-2017-05-22",
     "subject": "ENGL",
     "number": "1001",
     "honors": true
   },
-  "800686": {
-    "uid": "800686",
-    "code": "ENGL1021V",
+  "8006861": {
+    "uid": "8006861-2013-09-03",
     "subject": "ENGL",
     "number": "1021",
     "honors": true
   },
-  "016310": {
-    "uid": "016310",
-    "code": "ENGL1181V",
+  "0163101": {
+    "uid": "0163101-2014-09-02",
     "subject": "ENGL",
     "number": "1181",
     "honors": true
   },
-  "016311": {
-    "uid": "016311",
-    "code": "ENGL1201V",
+  "0163111": {
+    "uid": "0163111-2014-09-02",
     "subject": "ENGL",
     "number": "1201",
     "honors": true
   },
-  "016312": {
-    "uid": "016312",
-    "code": "ENGL1301V",
+  "0163121": {
+    "uid": "0163121-2014-09-02",
     "subject": "ENGL",
     "number": "1301",
     "honors": true
   },
-  "016321": {
-    "uid": "016321",
-    "code": "ENGL1401V",
+  "0163211": {
+    "uid": "0163211-2017-05-22",
     "subject": "ENGL",
     "number": "1401",
     "honors": true
   },
-  "795913": {
-    "uid": "795913",
-    "code": "ENGL1701H",
+  "7959131": {
+    "uid": "7959131-2021-05-17",
     "subject": "ENGL",
     "number": "1701",
     "honors": true
   },
-  "016322": {
-    "uid": "016322",
-    "code": "ENGL3001V",
+  "0163221": {
+    "uid": "0163221-2021-05-17",
     "subject": "ENGL",
     "number": "3001",
     "honors": true
   },
-  "016542": {
-    "uid": "016542",
-    "code": "ENGL3002H",
+  "0165421": {
+    "uid": "0165421-2018-01-16",
     "subject": "ENGL",
     "number": "3002",
     "honors": true
   },
-  "800461": {
-    "uid": "800461",
-    "code": "ENGL3005V",
+  "8004611": {
+    "uid": "8004611-2013-09-03",
     "subject": "ENGL",
     "number": "3005",
     "honors": true
   },
-  "813640": {
-    "uid": "813640",
-    "code": "ENGL3006V",
+  "8136401": {
+    "uid": "8136401-2021-05-17",
     "subject": "ENGL",
     "number": "3006",
     "honors": true
   },
-  "016543": {
-    "uid": "016543",
-    "code": "ENGL3007H",
+  "0165431": {
+    "uid": "0165431-2024-09-03",
     "subject": "ENGL",
     "number": "3007",
     "honors": true
   },
-  "804913": {
-    "uid": "804913",
-    "code": "ENGL3008H",
+  "8049131": {
+    "uid": "8049131-2015-05-26",
     "subject": "ENGL",
     "number": "3008",
     "honors": true
   },
-  "791277": {
-    "uid": "791277",
-    "code": "ENGL3010H",
+  "7912771": {
+    "uid": "7912771-2018-05-21",
     "subject": "ENGL",
     "number": "3010",
     "honors": true
   },
-  "016166": {
-    "uid": "016166",
-    "code": "ENGL3020H",
+  "8271581": {
+    "uid": "8271581-2025-01-21",
+    "subject": "ENGL",
+    "number": "3013",
+    "honors": true
+  },
+  "0161661": {
+    "uid": "0161661-2018-05-21",
     "subject": "ENGL",
     "number": "3020",
     "honors": true
   },
-  "808524": {
-    "uid": "808524",
-    "code": "ENGL3023H",
+  "8085241": {
+    "uid": "8085241-2017-05-22",
     "subject": "ENGL",
     "number": "3023",
     "honors": true
   },
-  "791266": {
-    "uid": "791266",
-    "code": "ENGL3030H",
+  "7912661": {
+    "uid": "7912661-2018-05-21",
     "subject": "ENGL",
     "number": "3030",
     "honors": true
   },
-  "795914": {
-    "uid": "795914",
-    "code": "ENGL3040H",
+  "7959141": {
+    "uid": "7959141-2017-05-22",
     "subject": "ENGL",
     "number": "3040",
     "honors": true
   },
-  "797978": {
-    "uid": "797978",
-    "code": "ENGL3090H",
+  "7979781": {
+    "uid": "7979781-2014-09-02",
     "subject": "ENGL",
     "number": "3090",
     "honors": true
   },
-  "789872": {
-    "uid": "789872",
-    "code": "ENGL3121H",
+  "7898721": {
+    "uid": "7898721-2008-09-02",
     "subject": "ENGL",
     "number": "3121",
     "honors": true
   },
-  "801332": {
-    "uid": "801332",
-    "code": "ENGL3133H",
+  "8013321": {
+    "uid": "8013321-2013-09-03",
     "subject": "ENGL",
     "number": "3133",
     "honors": true
   },
-  "802247": {
-    "uid": "802247",
-    "code": "ENGL3134H",
+  "8022471": {
+    "uid": "8022471-2015-05-26",
     "subject": "ENGL",
     "number": "3134",
     "honors": true
   },
-  "791380": {
-    "uid": "791380",
-    "code": "ENGL3161H",
+  "7913801": {
+    "uid": "7913801-2020-01-21",
     "subject": "ENGL",
     "number": "3161",
     "honors": true
   },
-  "816336": {
-    "uid": "816336",
-    "code": "ENGL3171H",
+  "8163361": {
+    "uid": "8163361-2018-01-16",
     "subject": "ENGL",
     "number": "3171",
     "honors": true
   },
-  "794368": {
-    "uid": "794368",
-    "code": "ENGL3180H",
+  "7943681": {
+    "uid": "7943681-2014-09-02",
     "subject": "ENGL",
     "number": "3180",
     "honors": true
   },
-  "802912": {
-    "uid": "802912",
-    "code": "ENGL3222H",
+  "8029121": {
+    "uid": "8029121-2025-01-21",
     "subject": "ENGL",
     "number": "3222",
     "honors": true
   },
-  "794036": {
-    "uid": "794036",
-    "code": "ENGL3231H",
+  "7940361": {
+    "uid": "7940361-2014-09-02",
     "subject": "ENGL",
     "number": "3231",
     "honors": true
   },
-  "800462": {
-    "uid": "800462",
-    "code": "ENGL3300H",
+  "8004621": {
+    "uid": "8004621-2014-09-02",
     "subject": "ENGL",
     "number": "3300",
     "honors": true
   },
-  "016544": {
-    "uid": "016544",
-    "code": "ENGL3350H",
+  "0165441": {
+    "uid": "0165441-2017-05-22",
     "subject": "ENGL",
     "number": "3350",
     "honors": true
   },
-  "808523": {
-    "uid": "808523",
-    "code": "ENGL3352H",
+  "8085231": {
+    "uid": "8085231-2016-05-23",
     "subject": "ENGL",
     "number": "3352",
     "honors": true
   },
-  "802913": {
-    "uid": "802913",
-    "code": "ENGL3400H",
+  "8029131": {
+    "uid": "8029131-2014-09-02",
     "subject": "ENGL",
     "number": "3400",
     "honors": true
   },
-  "016396": {
-    "uid": "016396",
-    "code": "ENGL3882V",
+  "0163961": {
+    "uid": "0163961-2001-05-21",
     "subject": "ENGL",
     "number": "3882",
     "honors": true
   },
-  "014213": {
-    "uid": "014213",
-    "code": "ENGL3883V",
+  "0142131": {
+    "uid": "0142131-2021-09-07",
     "subject": "ENGL",
     "number": "3883",
     "honors": true
   },
-  "825342": {
-    "uid": "825342",
-    "code": "ENGL3885V",
+  "8253421": {
+    "uid": "8253421-2025-01-21",
     "subject": "ENGL",
     "number": "3885",
     "honors": true
   },
-  "825162": {
-    "uid": "825162",
-    "code": "ENGW1101V",
+  "8251621": {
+    "uid": "8251621-2021-09-07",
     "subject": "ENGW",
     "number": "1101",
     "honors": true
   },
-  "004947": {
-    "uid": "004947",
-    "code": "ENGW3102W",
-    "subject": "ENGW",
-    "number": "3102",
-    "honors": false
-  },
-  "004948": {
-    "uid": "004948",
-    "code": "ENGW3104W",
-    "subject": "ENGW",
-    "number": "3104",
-    "honors": false
-  },
-  "004949": {
-    "uid": "004949",
-    "code": "ENGW3106W",
-    "subject": "ENGW",
-    "number": "3106",
-    "honors": false
-  },
-  "004950": {
-    "uid": "004950",
-    "code": "ENGW3110",
-    "subject": "ENGW",
-    "number": "3110",
-    "honors": false
-  },
-  "788918": {
-    "uid": "788918",
-    "code": "ENGW3110H",
+  "7889181": {
+    "uid": "7889181-2008-09-02",
     "subject": "ENGW",
     "number": "3110",
     "honors": true
   },
-  "825341": {
-    "uid": "825341",
-    "code": "ENGW3885V",
+  "8253411": {
+    "uid": "8253411-2021-09-07",
     "subject": "ENGW",
     "number": "3885",
     "honors": true
   },
-  "014096": {
-    "uid": "014096",
-    "code": "ENGW4205",
-    "subject": "ENGW",
-    "number": "4205",
-    "honors": false
-  },
-  "816902": {
-    "uid": "816902",
-    "code": "EPSY2201H",
+  "8169021": {
+    "uid": "8169021-2021-09-07",
     "subject": "EPSY",
     "number": "2201",
     "honors": true
   },
-  "819119": {
-    "uid": "819119",
-    "code": "EPSY3303H",
+  "8191191": {
+    "uid": "8191191-2022-05-16",
     "subject": "EPSY",
     "number": "3303",
     "honors": true
   },
-  "002087": {
-    "uid": "002087",
-    "code": "EPSY8413",
-    "subject": "EPSY",
-    "number": "8413",
-    "honors": false
-  },
-  "792614": {
-    "uid": "792614",
-    "code": "ESCI4102W",
-    "subject": "ESCI",
-    "number": "4102",
-    "honors": false
-  },
-  "820254": {
-    "uid": "820254",
-    "code": "ESCI4104",
-    "subject": "ESCI",
-    "number": "4104",
-    "honors": false
-  },
-  "803163": {
-    "uid": "803163",
-    "code": "ESCI5503",
-    "subject": "ESCI",
-    "number": "5503",
-    "honors": false
-  },
-  "015463": {
-    "uid": "015463",
-    "code": "ESPM1003H",
+  "0154631": {
+    "uid": "0154631-2011-01-18",
     "subject": "ESPM",
     "number": "1003",
     "honors": true
   },
-  "805750": {
-    "uid": "805750",
-    "code": "ESPM1012H",
+  "8057501": {
+    "uid": "8057501-2017-01-17",
     "subject": "ESPM",
     "number": "1012",
     "honors": true
   },
-  "798962": {
-    "uid": "798962",
-    "code": "ESPM1901H",
+  "7989621": {
+    "uid": "7989621-2008-09-02",
     "subject": "ESPM",
     "number": "1901",
     "honors": true
   },
-  "014348": {
-    "uid": "014348",
-    "code": "ESPM4200H",
+  "0143481": {
+    "uid": "0143481-2011-01-18",
     "subject": "ESPM",
     "number": "4200",
     "honors": true
   },
-  "014344": {
-    "uid": "014344",
-    "code": "ESPM4801H",
+  "0143441": {
+    "uid": "0143441-2011-01-18",
     "subject": "ESPM",
     "number": "4801",
     "honors": true
   },
-  "014345": {
-    "uid": "014345",
-    "code": "ESPM4802H",
+  "0143451": {
+    "uid": "0143451-2011-01-18",
     "subject": "ESPM",
     "number": "4802",
     "honors": true
   },
-  "010347": {
-    "uid": "010347",
-    "code": "ESPM5601",
-    "subject": "ESPM",
-    "number": "5601",
-    "honors": false
-  },
-  "013118": {
-    "uid": "013118",
-    "code": "FINA3001",
-    "subject": "FINA",
-    "number": "3001",
-    "honors": false
-  },
-  "816060": {
-    "uid": "816060",
-    "code": "FINA3001H",
+  "8160601": {
+    "uid": "8160601-2024-09-03",
     "subject": "FINA",
     "number": "3001",
     "honors": true
   },
-  "013653": {
-    "uid": "013653",
-    "code": "FINA4121",
-    "subject": "FINA",
-    "number": "4121",
-    "honors": false
-  },
-  "811136": {
-    "uid": "811136",
-    "code": "FINA4121H",
+  "8111361": {
+    "uid": "8111361-2021-05-17",
     "subject": "FINA",
     "number": "4121",
     "honors": true
   },
-  "013654": {
-    "uid": "013654",
-    "code": "FINA4122",
-    "subject": "FINA",
-    "number": "4122",
-    "honors": false
-  },
-  "826575": {
-    "uid": "826575",
-    "code": "FINA4125",
-    "subject": "FINA",
-    "number": "4125",
-    "honors": false
-  },
-  "802591": {
-    "uid": "802591",
-    "code": "FINA4221",
-    "subject": "FINA",
-    "number": "4221",
-    "honors": false
-  },
-  "013656": {
-    "uid": "013656",
-    "code": "FINA4321",
-    "subject": "FINA",
-    "number": "4321",
-    "honors": false
-  },
-  "811137": {
-    "uid": "811137",
-    "code": "FINA4321H",
+  "8111371": {
+    "uid": "8111371-2021-05-17",
     "subject": "FINA",
     "number": "4321",
     "honors": true
   },
-  "809513": {
-    "uid": "809513",
-    "code": "FINA4325",
-    "subject": "FINA",
-    "number": "4325",
-    "honors": false
-  },
-  "802593": {
-    "uid": "802593",
-    "code": "FINA4329",
-    "subject": "FINA",
-    "number": "4329",
-    "honors": false
-  },
-  "802589": {
-    "uid": "802589",
-    "code": "FINA4522",
-    "subject": "FINA",
-    "number": "4522",
-    "honors": false
-  },
-  "802614": {
-    "uid": "802614",
-    "code": "FINA4621",
-    "subject": "FINA",
-    "number": "4621",
-    "honors": false
-  },
-  "802596": {
-    "uid": "802596",
-    "code": "FINA4622",
-    "subject": "FINA",
-    "number": "4622",
-    "honors": false
-  },
-  "818564": {
-    "uid": "818564",
-    "code": "FOST3331H",
+  "8185641": {
+    "uid": "8185641-2024-09-03",
     "subject": "FOST",
     "number": "3331",
     "honors": true
   },
-  "014374": {
-    "uid": "014374",
-    "code": "FR4200H",
+  "0143741": {
+    "uid": "0143741-2010-05-24",
     "subject": "FR",
     "number": "4200",
     "honors": true
   },
-  "014370": {
-    "uid": "014370",
-    "code": "FR4801H",
+  "0143701": {
+    "uid": "0143701-2010-05-24",
     "subject": "FR",
     "number": "4801",
     "honors": true
   },
-  "014372": {
-    "uid": "014372",
-    "code": "FR4802H",
+  "0143721": {
+    "uid": "0143721-2010-05-24",
     "subject": "FR",
     "number": "4802",
     "honors": true
   },
-  "794968": {
-    "uid": "794968",
-    "code": "FREN4101V",
+  "7949681": {
+    "uid": "7949681-2023-06-05",
     "subject": "FREN",
     "number": "4101",
     "honors": true
   },
-  "807276": {
-    "uid": "807276",
-    "code": "FREN4110V",
+  "8072761": {
+    "uid": "8072761-2018-01-16",
     "subject": "FREN",
     "number": "4110",
     "honors": true
   },
-  "827192": {
-    "uid": "827192",
-    "code": "FSCN2512H",
+  "8271921": {
+    "uid": "8271921-2024-09-03",
     "subject": "FSCN",
     "number": "2512",
     "honors": true
   },
-  "825550": {
-    "uid": "825550",
-    "code": "FSOS1101H",
+  "8255501": {
+    "uid": "8255501-2022-01-18",
     "subject": "FSOS",
     "number": "1101",
     "honors": true
   },
-  "010782": {
-    "uid": "010782",
-    "code": "FW4200H",
+  "0107821": {
+    "uid": "0107821-2010-05-24",
     "subject": "FW",
     "number": "4200",
     "honors": true
   },
-  "010783": {
-    "uid": "010783",
-    "code": "FW4801H",
+  "0107831": {
+    "uid": "0107831-2011-01-18",
     "subject": "FW",
     "number": "4801",
     "honors": true
   },
-  "010784": {
-    "uid": "010784",
-    "code": "FW4802H",
+  "0107841": {
+    "uid": "0107841-2010-05-24",
     "subject": "FW",
     "number": "4802",
     "honors": true
   },
-  "818830": {
-    "uid": "818830",
-    "code": "GCD3486",
-    "subject": "GCD",
-    "number": "3486",
-    "honors": false
-  },
-  "808772": {
-    "uid": "808772",
-    "code": "GCD4005W",
-    "subject": "GCD",
-    "number": "4005",
-    "honors": false
-  },
-  "816419": {
-    "uid": "816419",
-    "code": "GDES2399V",
+  "8164191": {
+    "uid": "8164191-2019-05-20",
     "subject": "GDES",
     "number": "2399",
     "honors": true
   },
-  "816411": {
-    "uid": "816411",
-    "code": "GDES3352H",
+  "8164111": {
+    "uid": "8164111-2016-09-06",
     "subject": "GDES",
     "number": "3352",
     "honors": true
   },
-  "804909": {
-    "uid": "804909",
-    "code": "GDES4160H",
+  "8049091": {
+    "uid": "8049091-2015-01-20",
     "subject": "GDES",
     "number": "4160",
     "honors": true
   },
-  "816412": {
-    "uid": "816412",
-    "code": "GDES4361V",
+  "8164121": {
+    "uid": "8164121-2023-09-05",
     "subject": "GDES",
     "number": "4361",
     "honors": true
   },
-  "816464": {
-    "uid": "816464",
-    "code": "GDES4362H",
+  "8164641": {
+    "uid": "8164641-2016-09-06",
     "subject": "GDES",
     "number": "4362",
     "honors": true
   },
-  "011214": {
-    "uid": "011214",
-    "code": "GEO2111H",
+  "0112141": {
+    "uid": "0112141-2008-09-02",
     "subject": "GEO",
     "number": "2111",
     "honors": true
   },
-  "804856": {
-    "uid": "804856",
-    "code": "GEOE4000H",
+  "8048561": {
+    "uid": "8048561-2015-05-26",
     "subject": "GEOE",
     "number": "4000",
     "honors": true
   },
-  "804862": {
-    "uid": "804862",
-    "code": "GEOE4092H",
+  "8048621": {
+    "uid": "8048621-2015-05-26",
     "subject": "GEOE",
     "number": "4092",
     "honors": true
   },
-  "804863": {
-    "uid": "804863",
-    "code": "GEOE4094H",
+  "8048631": {
+    "uid": "8048631-2015-05-26",
     "subject": "GEOE",
     "number": "4094",
     "honors": true
   },
-  "804864": {
-    "uid": "804864",
-    "code": "GEOE4194H",
+  "8048641": {
+    "uid": "8048641-2015-05-26",
     "subject": "GEOE",
     "number": "4194",
     "honors": true
   },
-  "788682": {
-    "uid": "788682",
-    "code": "GEOG1301V",
+  "7886821": {
+    "uid": "7886821-2014-09-02",
     "subject": "GEOG",
     "number": "1301",
     "honors": true
   },
-  "788683": {
-    "uid": "788683",
-    "code": "GEOG1403H",
+  "7886831": {
+    "uid": "7886831-2015-01-20",
     "subject": "GEOG",
     "number": "1403",
     "honors": true
   },
-  "800744": {
-    "uid": "800744",
-    "code": "GEOG1905H",
+  "8007441": {
+    "uid": "8007441-2008-09-02",
     "subject": "GEOG",
     "number": "1905",
     "honors": true
   },
-  "799393": {
-    "uid": "799393",
-    "code": "GEOG1910V",
+  "7993931": {
+    "uid": "7993931-2008-09-02",
     "subject": "GEOG",
     "number": "1910",
     "honors": true
   },
-  "788684": {
-    "uid": "788684",
-    "code": "GEOG3001H",
+  "7886841": {
+    "uid": "7886841-2004-09-07",
     "subject": "GEOG",
     "number": "3001",
     "honors": true
   },
-  "788685": {
-    "uid": "788685",
-    "code": "GEOG3371V",
+  "7886851": {
+    "uid": "7886851-2016-05-23",
     "subject": "GEOG",
     "number": "3371",
     "honors": true
   },
-  "788321": {
-    "uid": "788321",
-    "code": "GEOG3374V",
+  "7883211": {
+    "uid": "7883211-2019-01-22",
     "subject": "GEOG",
     "number": "3374",
     "honors": true
   },
-  "788686": {
-    "uid": "788686",
-    "code": "GEOG3401H",
+  "7886861": {
+    "uid": "7886861-2016-05-23",
     "subject": "GEOG",
     "number": "3401",
     "honors": true
   },
-  "788687": {
-    "uid": "788687",
-    "code": "GEOG3561H",
+  "7886871": {
+    "uid": "7886871-2016-05-23",
     "subject": "GEOG",
     "number": "3561",
     "honors": true
   },
-  "788688": {
-    "uid": "788688",
-    "code": "GEOG3605V",
+  "7886881": {
+    "uid": "7886881-2012-09-04",
     "subject": "GEOG",
     "number": "3605",
     "honors": true
   },
-  "016402": {
-    "uid": "016402",
-    "code": "GEOG3985V",
+  "0164021": {
+    "uid": "0164021-2022-09-06",
     "subject": "GEOG",
     "number": "3985",
     "honors": true
   },
-  "788323": {
-    "uid": "788323",
-    "code": "GEOG3992H",
+  "7883231": {
+    "uid": "7883231-2016-05-23",
     "subject": "GEOG",
     "number": "3992",
     "honors": true
   },
-  "788692": {
-    "uid": "788692",
-    "code": "GEOG3993H",
+  "7886921": {
+    "uid": "7886921-2020-09-08",
     "subject": "GEOG",
     "number": "3993",
     "honors": true
   },
-  "788693": {
-    "uid": "788693",
-    "code": "GEOG3994H",
+  "7886931": {
+    "uid": "7886931-2020-09-08",
     "subject": "GEOG",
     "number": "3994",
     "honors": true
   },
-  "809028": {
-    "uid": "809028",
-    "code": "GEOG3996H",
+  "8090281": {
+    "uid": "8090281-2020-09-08",
     "subject": "GEOG",
     "number": "3996",
     "honors": true
   },
-  "809030": {
-    "uid": "809030",
-    "code": "GEOG3997H",
+  "8090301": {
+    "uid": "8090301-2020-09-08",
     "subject": "GEOG",
     "number": "3997",
     "honors": true
   },
-  "003845": {
-    "uid": "003845",
-    "code": "GEOG5423",
-    "subject": "GEOG",
-    "number": "5423",
-    "honors": false
-  },
-  "004870": {
-    "uid": "004870",
-    "code": "GEOG5426",
-    "subject": "GEOG",
-    "number": "5426",
-    "honors": false
-  },
-  "788694": {
-    "uid": "788694",
-    "code": "GEOG5605V",
+  "7886941": {
+    "uid": "7886941-2012-09-04",
     "subject": "GEOG",
     "number": "5605",
     "honors": true
   },
-  "799809": {
-    "uid": "799809",
-    "code": "GER1601H",
+  "7998091": {
+    "uid": "7998091-2012-09-04",
     "subject": "GER",
     "number": "1601",
     "honors": true
   },
-  "799394": {
-    "uid": "799394",
-    "code": "GER1905H",
+  "7993941": {
+    "uid": "7993941-2015-05-26",
     "subject": "GER",
     "number": "1905",
     "honors": true
   },
-  "787792": {
-    "uid": "787792",
-    "code": "GLOS1015V",
+  "7877921": {
+    "uid": "7877921-2014-09-02",
     "subject": "GLOS",
     "number": "1015",
     "honors": true
   },
-  "800575": {
-    "uid": "800575",
-    "code": "GLOS1200H",
+  "8005751": {
+    "uid": "8005751-2014-09-02",
     "subject": "GLOS",
     "number": "1200",
     "honors": true
   },
-  "826457": {
-    "uid": "826457",
-    "code": "GLOS3105H",
+  "8264571": {
+    "uid": "8264571-2023-09-05",
     "subject": "GLOS",
     "number": "3105",
     "honors": true
   },
-  "794335": {
-    "uid": "794335",
-    "code": "GLOS3144H",
+  "7943351": {
+    "uid": "7943351-2020-09-08",
     "subject": "GLOS",
     "number": "3144",
     "honors": true
   },
-  "009240": {
-    "uid": "009240",
-    "code": "GLOS3145H",
+  "0092401": {
+    "uid": "0092401-2020-09-08",
     "subject": "GLOS",
     "number": "3145",
     "honors": true
   },
-  "011149": {
-    "uid": "011149",
-    "code": "GLOS3552H",
+  "0111491": {
+    "uid": "0111491-2012-09-04",
     "subject": "GLOS",
     "number": "3552",
     "honors": true
   },
-  "011252": {
-    "uid": "011252",
-    "code": "GLOS3553H",
+  "0112521": {
+    "uid": "0112521-2012-09-04",
     "subject": "GLOS",
     "number": "3553",
     "honors": true
   },
-  "011153": {
-    "uid": "011153",
-    "code": "GLOS3558V",
+  "0111531": {
+    "uid": "0111531-2012-09-04",
     "subject": "GLOS",
     "number": "3558",
     "honors": true
   },
-  "811537": {
-    "uid": "811537",
-    "code": "GLOS3613V",
+  "8115371": {
+    "uid": "8115371-2023-09-05",
     "subject": "GLOS",
     "number": "3613",
     "honors": true
   },
-  "013782": {
-    "uid": "013782",
-    "code": "GLOS3985V",
+  "0137821": {
+    "uid": "0137821-2021-01-19",
     "subject": "GLOS",
     "number": "3985",
     "honors": true
   },
-  "811494": {
-    "uid": "811494",
-    "code": "GLOS4104H",
+  "8114941": {
+    "uid": "8114941-2020-09-08",
     "subject": "GLOS",
     "number": "4104",
     "honors": true
   },
-  "814708": {
-    "uid": "814708",
-    "code": "GLOS4315",
-    "subject": "GLOS",
-    "number": "4315",
-    "honors": false
-  },
-  "788064": {
-    "uid": "788064",
-    "code": "GLOS4900H",
+  "7880641": {
+    "uid": "7880641-2015-05-26",
     "subject": "GLOS",
     "number": "4900",
     "honors": true
   },
-  "816524": {
-    "uid": "816524",
-    "code": "GLOS5315",
-    "subject": "GLOS",
-    "number": "5315",
-    "honors": false
-  },
-  "008800": {
-    "uid": "008800",
-    "code": "GRK1111H",
+  "0088001": {
+    "uid": "0088001-2008-05-27",
     "subject": "GRK",
     "number": "1111",
     "honors": true
   },
-  "014108": {
-    "uid": "014108",
-    "code": "GRK1112H",
+  "0141081": {
+    "uid": "0141081-2008-05-27",
     "subject": "GRK",
     "number": "1112",
     "honors": true
   },
-  "010713": {
-    "uid": "010713",
-    "code": "GRK3960H",
+  "0107131": {
+    "uid": "0107131-2012-09-04",
     "subject": "GRK",
     "number": "3960",
     "honors": true
   },
-  "787606": {
-    "uid": "787606",
-    "code": "GSD3451V",
+  "7876061": {
+    "uid": "7876061-2015-01-20",
     "subject": "GSD",
     "number": "3451",
     "honors": true
   },
-  "016379": {
-    "uid": "016379",
-    "code": "GWSS3002V",
+  "0163791": {
+    "uid": "0163791-2017-01-17",
     "subject": "GWSS",
     "number": "3002",
     "honors": true
   },
-  "016380": {
-    "uid": "016380",
-    "code": "GWSS3003H",
+  "0163801": {
+    "uid": "0163801-2016-05-23",
     "subject": "GWSS",
     "number": "3003",
     "honors": true
   },
-  "016382": {
-    "uid": "016382",
-    "code": "GWSS3004V",
+  "0163821": {
+    "uid": "0163821-2019-01-22",
     "subject": "GWSS",
     "number": "3004",
     "honors": true
   },
-  "788730": {
-    "uid": "788730",
-    "code": "GWSS3102V",
+  "7887301": {
+    "uid": "7887301-2021-01-19",
     "subject": "GWSS",
     "number": "3102",
     "honors": true
   },
-  "788733": {
-    "uid": "788733",
-    "code": "GWSS3202H",
+  "7887331": {
+    "uid": "7887331-2016-05-23",
     "subject": "GWSS",
     "number": "3202",
     "honors": true
   },
-  "796666": {
-    "uid": "796666",
-    "code": "GWSS3290H",
+  "7966661": {
+    "uid": "7966661-2014-09-02",
     "subject": "GWSS",
     "number": "3290",
     "honors": true
   },
-  "816413": {
-    "uid": "816413",
-    "code": "GWSS3406H",
+  "8164131": {
+    "uid": "8164131-2019-01-22",
     "subject": "GWSS",
     "number": "3406",
     "honors": true
   },
-  "817372": {
-    "uid": "817372",
-    "code": "GWSS3505V",
+  "8173721": {
+    "uid": "8173721-2017-09-05",
     "subject": "GWSS",
     "number": "3505",
     "honors": true
   },
-  "014390": {
-    "uid": "014390",
-    "code": "GWSS3880H",
+  "0143901": {
+    "uid": "0143901-2015-05-26",
     "subject": "GWSS",
     "number": "3880",
     "honors": true
   },
-  "014387": {
-    "uid": "014387",
-    "code": "GWSS3890H",
+  "0143871": {
+    "uid": "0143871-2015-05-26",
     "subject": "GWSS",
     "number": "3890",
     "honors": true
   },
-  "014388": {
-    "uid": "014388",
-    "code": "GWSS3893H",
+  "0143881": {
+    "uid": "0143881-2015-05-26",
     "subject": "GWSS",
     "number": "3893",
     "honors": true
   },
-  "014391": {
-    "uid": "014391",
-    "code": "GWSS3894H",
+  "0143911": {
+    "uid": "0143911-2015-05-26",
     "subject": "GWSS",
     "number": "3894",
     "honors": true
   },
-  "016520": {
-    "uid": "016520",
-    "code": "GWSS4103H",
+  "0165201": {
+    "uid": "0165201-2013-09-03",
     "subject": "GWSS",
     "number": "4103",
     "honors": true
   },
-  "016762": {
-    "uid": "016762",
-    "code": "GWSS4302H",
+  "0167621": {
+    "uid": "0167621-2008-09-02",
     "subject": "GWSS",
     "number": "4302",
     "honors": true
   },
-  "009085": {
-    "uid": "009085",
-    "code": "HCOL1001H",
+  "0090851": {
+    "uid": "0090851-2010-09-07",
     "subject": "HCOL",
     "number": "1001",
     "honors": true
   },
-  "009412": {
-    "uid": "009412",
-    "code": "HCOL1010H",
+  "0094121": {
+    "uid": "0094121-2010-09-07",
     "subject": "HCOL",
     "number": "1010",
     "honors": true
   },
-  "009414": {
-    "uid": "009414",
-    "code": "HCOL1020H",
+  "0094141": {
+    "uid": "0094141-2010-09-07",
     "subject": "HCOL",
     "number": "1020",
     "honors": true
   },
-  "009415": {
-    "uid": "009415",
-    "code": "HCOL1030H",
+  "0094151": {
+    "uid": "0094151-2010-09-07",
     "subject": "HCOL",
     "number": "1030",
     "honors": true
   },
-  "009416": {
-    "uid": "009416",
-    "code": "HCOL1040H",
+  "0094161": {
+    "uid": "0094161-2010-09-07",
     "subject": "HCOL",
     "number": "1040",
     "honors": true
   },
-  "009417": {
-    "uid": "009417",
-    "code": "HCOL1050H",
+  "0094171": {
+    "uid": "0094171-2010-09-07",
     "subject": "HCOL",
     "number": "1050",
     "honors": true
   },
-  "009418": {
-    "uid": "009418",
-    "code": "HCOL1060H",
+  "0094181": {
+    "uid": "0094181-2008-09-02",
     "subject": "HCOL",
     "number": "1060",
     "honors": true
   },
-  "009419": {
-    "uid": "009419",
-    "code": "HCOL1070H",
+  "0094191": {
+    "uid": "0094191-2010-09-07",
     "subject": "HCOL",
     "number": "1070",
     "honors": true
   },
-  "009420": {
-    "uid": "009420",
-    "code": "HCOL1080H",
+  "0094201": {
+    "uid": "0094201-2010-09-07",
     "subject": "HCOL",
     "number": "1080",
     "honors": true
   },
-  "009421": {
-    "uid": "009421",
-    "code": "HCOL1090H",
+  "0094211": {
+    "uid": "0094211-2008-09-02",
     "subject": "HCOL",
     "number": "1090",
     "honors": true
   },
-  "009422": {
-    "uid": "009422",
-    "code": "HCOL1110V",
+  "0094221": {
+    "uid": "0094221-2008-09-02",
     "subject": "HCOL",
     "number": "1110",
     "honors": true
   },
-  "818751": {
-    "uid": "818751",
-    "code": "HCOL3101H",
+  "8187511": {
+    "uid": "8187511-2022-01-18",
     "subject": "HCOL",
     "number": "3101",
     "honors": true
   },
-  "818752": {
-    "uid": "818752",
-    "code": "HCOL3102H",
+  "8187521": {
+    "uid": "8187521-2022-01-18",
     "subject": "HCOL",
     "number": "3102",
     "honors": true
   },
-  "820226": {
-    "uid": "820226",
-    "code": "HCOL3103V",
+  "8202261": {
+    "uid": "8202261-2022-01-18",
     "subject": "HCOL",
     "number": "3103",
     "honors": true
   },
-  "808029": {
-    "uid": "808029",
-    "code": "HCOL3801H",
+  "8080291": {
+    "uid": "8080291-2014-09-02",
     "subject": "HCOL",
     "number": "3801",
     "honors": true
   },
-  "808045": {
-    "uid": "808045",
-    "code": "HCOL3803H",
+  "8080451": {
+    "uid": "8080451-2015-09-08",
     "subject": "HCOL",
     "number": "3803",
     "honors": true
   },
-  "808267": {
-    "uid": "808267",
-    "code": "HCOL3805H",
+  "8082671": {
+    "uid": "8082671-2015-09-08",
     "subject": "HCOL",
     "number": "3805",
     "honors": true
   },
-  "810086": {
-    "uid": "810086",
-    "code": "HCOL3807H",
+  "8100861": {
+    "uid": "8100861-2015-05-26",
     "subject": "HCOL",
     "number": "3807",
     "honors": true
   },
-  "807661": {
-    "uid": "807661",
-    "code": "HCOL3996H",
+  "8076611": {
+    "uid": "8076611-2022-01-18",
     "subject": "HCOL",
     "number": "3996",
     "honors": true
   },
-  "014015": {
-    "uid": "014015",
-    "code": "HE1200H",
+  "0140151": {
+    "uid": "0140151-2006-09-05",
     "subject": "HE",
     "number": "1200",
     "honors": true
   },
-  "796225": {
-    "uid": "796225",
-    "code": "HE2200H",
+  "7962251": {
+    "uid": "7962251-2006-09-05",
     "subject": "HE",
     "number": "2200",
     "honors": true
   },
-  "013960": {
-    "uid": "013960",
-    "code": "HE4150H",
+  "0139601": {
+    "uid": "0139601-2006-09-05",
     "subject": "HE",
     "number": "4150",
     "honors": true
   },
-  "014013": {
-    "uid": "014013",
-    "code": "HE4160H",
+  "0140131": {
+    "uid": "0140131-2006-09-05",
     "subject": "HE",
     "number": "4160",
     "honors": true
   },
-  "016054": {
-    "uid": "016054",
-    "code": "HIST1011V",
+  "0160541": {
+    "uid": "0160541-2014-09-02",
     "subject": "HIST",
     "number": "1011",
     "honors": true
   },
-  "016060": {
-    "uid": "016060",
-    "code": "HIST1012V",
+  "0160601": {
+    "uid": "0160601-2010-09-07",
     "subject": "HIST",
     "number": "1012",
     "honors": true
   },
-  "788666": {
-    "uid": "788666",
-    "code": "HIST1015V",
+  "7886661": {
+    "uid": "7886661-2010-09-07",
     "subject": "HIST",
     "number": "1015",
     "honors": true
   },
-  "016062": {
-    "uid": "016062",
-    "code": "HIST1031V",
+  "0160621": {
+    "uid": "0160621-2010-09-07",
     "subject": "HIST",
     "number": "1031",
     "honors": true
   },
-  "016064": {
-    "uid": "016064",
-    "code": "HIST1032V",
+  "0160641": {
+    "uid": "0160641-2010-09-07",
     "subject": "HIST",
     "number": "1032",
     "honors": true
   },
-  "016067": {
-    "uid": "016067",
-    "code": "HIST1301V",
+  "0160671": {
+    "uid": "0160671-2010-09-07",
     "subject": "HIST",
     "number": "1301",
     "honors": true
   },
-  "016093": {
-    "uid": "016093",
-    "code": "HIST1302V",
+  "0160931": {
+    "uid": "0160931-2010-09-07",
     "subject": "HIST",
     "number": "1302",
     "honors": true
   },
-  "818224": {
-    "uid": "818224",
-    "code": "HIST3401V",
+  "8182241": {
+    "uid": "8182241-2023-09-05",
     "subject": "HIST",
     "number": "3401",
     "honors": true
   },
-  "810685": {
-    "uid": "810685",
-    "code": "HIST3462H",
+  "8106851": {
+    "uid": "8106851-2021-05-17",
     "subject": "HIST",
     "number": "3462",
     "honors": true
   },
-  "825222": {
-    "uid": "825222",
-    "code": "HIST3804H",
+  "8252221": {
+    "uid": "8252221-2025-01-21",
     "subject": "HIST",
     "number": "3804",
     "honors": true
   },
-  "009175": {
-    "uid": "009175",
-    "code": "HIST3951H",
+  "0091751": {
+    "uid": "0091751-2010-09-07",
     "subject": "HIST",
     "number": "3951",
     "honors": true
   },
-  "799000": {
-    "uid": "799000",
-    "code": "HIST3959H",
+  "7990001": {
+    "uid": "7990001-2018-05-21",
     "subject": "HIST",
     "number": "3959",
     "honors": true
   },
-  "811430": {
-    "uid": "811430",
-    "code": "HIST4011V",
+  "8114301": {
+    "uid": "8114301-2025-01-21",
     "subject": "HIST",
     "number": "4011",
     "honors": true
   },
-  "799040": {
-    "uid": "799040",
-    "code": "HIST4961V",
+  "7990401": {
+    "uid": "7990401-2023-09-05",
     "subject": "HIST",
     "number": "4961",
     "honors": true
   },
-  "798399": {
-    "uid": "798399",
-    "code": "HIST4962H",
+  "7983991": {
+    "uid": "7983991-2015-05-26",
     "subject": "HIST",
     "number": "4962",
     "honors": true
   },
-  "010406": {
-    "uid": "010406",
-    "code": "HIST5381",
-    "subject": "HIST",
-    "number": "5381",
-    "honors": false
-  },
-  "795763": {
-    "uid": "795763",
-    "code": "HMED3001V",
+  "7957631": {
+    "uid": "7957631-2015-01-20",
     "subject": "HMED",
     "number": "3001",
     "honors": true
   },
-  "798471": {
-    "uid": "798471",
-    "code": "HORT4000H",
+  "7984711": {
+    "uid": "7984711-2010-09-07",
     "subject": "HORT",
     "number": "4000",
     "honors": true
   },
-  "811269": {
-    "uid": "811269",
-    "code": "HRIR3021H",
+  "8112691": {
+    "uid": "8112691-2023-01-17",
     "subject": "HRIR",
     "number": "3021",
     "honors": true
   },
-  "819851": {
-    "uid": "819851",
-    "code": "HRIR3111",
-    "subject": "HRIR",
-    "number": "3111",
-    "honors": false
-  },
-  "813469": {
-    "uid": "813469",
-    "code": "HSCI2333V",
+  "8134691": {
+    "uid": "8134691-2017-09-05",
     "subject": "HSCI",
     "number": "2333",
     "honors": true
   },
-  "008627": {
-    "uid": "008627",
-    "code": "HSCI3333V",
+  "0086271": {
+    "uid": "0086271-2015-09-08",
     "subject": "HSCI",
     "number": "3333",
     "honors": true
   },
-  "795806": {
-    "uid": "795806",
-    "code": "HSEM1001H",
+  "7958061": {
+    "uid": "7958061-2009-09-08",
     "subject": "HSEM",
     "number": "1001",
     "honors": true
   },
-  "796395": {
-    "uid": "796395",
-    "code": "HSEM1210H",
+  "7963951": {
+    "uid": "7963951-2009-09-08",
     "subject": "HSEM",
     "number": "1210",
     "honors": true
   },
-  "817223": {
-    "uid": "817223",
-    "code": "HSEM2001H",
+  "8172231": {
+    "uid": "8172231-2020-01-21",
     "subject": "HSEM",
     "number": "2001",
     "honors": true
   },
-  "803185": {
-    "uid": "803185",
-    "code": "HSEM2005H",
+  "8031851": {
+    "uid": "8031851-2018-01-16",
     "subject": "HSEM",
     "number": "2005",
     "honors": true
   },
-  "810652": {
-    "uid": "810652",
-    "code": "HSEM2006H",
+  "8106521": {
+    "uid": "8106521-2018-01-16",
     "subject": "HSEM",
     "number": "2006",
     "honors": true
   },
-  "803193": {
-    "uid": "803193",
-    "code": "HSEM2007H",
+  "8031931": {
+    "uid": "8031931-2018-01-16",
     "subject": "HSEM",
     "number": "2007",
     "honors": true
   },
-  "803350": {
-    "uid": "803350",
-    "code": "HSEM2008H",
+  "8033501": {
+    "uid": "8033501-2020-01-21",
     "subject": "HSEM",
     "number": "2008",
     "honors": true
   },
-  "806493": {
-    "uid": "806493",
-    "code": "HSEM2008V",
+  "8064931": {
+    "uid": "8064931-2020-01-21",
     "subject": "HSEM",
     "number": "2008",
     "honors": true
   },
-  "811488": {
-    "uid": "811488",
-    "code": "HSEM2009H",
+  "8114881": {
+    "uid": "8114881-2022-01-18",
     "subject": "HSEM",
     "number": "2009",
     "honors": true
   },
-  "795408": {
-    "uid": "795408",
-    "code": "HSEM2010H",
+  "7954081": {
+    "uid": "7954081-2018-01-16",
     "subject": "HSEM",
     "number": "2010",
     "honors": true
   },
-  "813974": {
-    "uid": "813974",
-    "code": "HSEM2010V",
+  "8139741": {
+    "uid": "8139741-2018-01-16",
     "subject": "HSEM",
     "number": "2010",
     "honors": true
   },
-  "805301": {
-    "uid": "805301",
-    "code": "HSEM2011H",
+  "8053011": {
+    "uid": "8053011-2016-01-19",
     "subject": "HSEM",
     "number": "2011",
     "honors": true
   },
-  "805302": {
-    "uid": "805302",
-    "code": "HSEM2017H",
+  "8053021": {
+    "uid": "8053021-2016-01-19",
     "subject": "HSEM",
     "number": "2017",
     "honors": true
   },
-  "817380": {
-    "uid": "817380",
-    "code": "HSEM2018H",
+  "8173801": {
+    "uid": "8173801-2023-09-05",
     "subject": "HSEM",
     "number": "2018",
     "honors": true
   },
-  "795807": {
-    "uid": "795807",
-    "code": "HSEM2020H",
+  "7958071": {
+    "uid": "7958071-2018-01-16",
     "subject": "HSEM",
     "number": "2020",
     "honors": true
   },
-  "801834": {
-    "uid": "801834",
-    "code": "HSEM2025H",
+  "8018341": {
+    "uid": "8018341-2018-01-16",
     "subject": "HSEM",
     "number": "2025",
     "honors": true
   },
-  "826067": {
-    "uid": "826067",
-    "code": "HSEM2026V",
+  "8260671": {
+    "uid": "8260671-2025-01-21",
     "subject": "HSEM",
     "number": "2026",
     "honors": true
   },
-  "805303": {
-    "uid": "805303",
-    "code": "HSEM2028H",
+  "8053031": {
+    "uid": "8053031-2016-01-19",
     "subject": "HSEM",
     "number": "2028",
     "honors": true
   },
-  "795808": {
-    "uid": "795808",
-    "code": "HSEM2030H",
+  "7958081": {
+    "uid": "7958081-2016-01-19",
     "subject": "HSEM",
     "number": "2030",
     "honors": true
   },
-  "806773": {
-    "uid": "806773",
-    "code": "HSEM2033H",
+  "8067731": {
+    "uid": "8067731-2016-01-19",
     "subject": "HSEM",
     "number": "2033",
     "honors": true
   },
-  "809795": {
-    "uid": "809795",
-    "code": "HSEM2037H",
+  "8097951": {
+    "uid": "8097951-2017-01-17",
     "subject": "HSEM",
     "number": "2037",
     "honors": true
   },
-  "810261": {
-    "uid": "810261",
-    "code": "HSEM2037V",
+  "8102611": {
+    "uid": "8102611-2020-01-21",
     "subject": "HSEM",
     "number": "2037",
     "honors": true
   },
-  "801835": {
-    "uid": "801835",
-    "code": "HSEM2039H",
+  "8018351": {
+    "uid": "8018351-2023-09-05",
     "subject": "HSEM",
     "number": "2039",
     "honors": true
   },
-  "795809": {
-    "uid": "795809",
-    "code": "HSEM2040H",
+  "7958091": {
+    "uid": "7958091-2016-01-19",
     "subject": "HSEM",
     "number": "2040",
     "honors": true
   },
-  "819018": {
-    "uid": "819018",
-    "code": "HSEM2041H",
+  "8190181": {
+    "uid": "8190181-2022-01-18",
     "subject": "HSEM",
     "number": "2041",
     "honors": true
   },
-  "819996": {
-    "uid": "819996",
-    "code": "HSEM2042H",
+  "8199961": {
+    "uid": "8199961-2023-09-05",
     "subject": "HSEM",
     "number": "2042",
     "honors": true
   },
-  "817972": {
-    "uid": "817972",
-    "code": "HSEM2043H",
+  "8179721": {
+    "uid": "8179721-2024-09-03",
     "subject": "HSEM",
     "number": "2043",
     "honors": true
   },
-  "818932": {
-    "uid": "818932",
-    "code": "HSEM2044H",
+  "8189321": {
+    "uid": "8189321-2023-09-05",
     "subject": "HSEM",
     "number": "2044",
     "honors": true
   },
-  "801845": {
-    "uid": "801845",
-    "code": "HSEM2045H",
+  "8018451": {
+    "uid": "8018451-2016-01-19",
     "subject": "HSEM",
     "number": "2045",
     "honors": true
   },
-  "802658": {
-    "uid": "802658",
-    "code": "HSEM2046H",
+  "8026581": {
+    "uid": "8026581-2018-01-16",
     "subject": "HSEM",
     "number": "2046",
     "honors": true
   },
-  "816814": {
-    "uid": "816814",
-    "code": "HSEM2046V",
+  "8168141": {
+    "uid": "8168141-2020-01-21",
     "subject": "HSEM",
     "number": "2046",
     "honors": true
   },
-  "811476": {
-    "uid": "811476",
-    "code": "HSEM2047H",
+  "8114761": {
+    "uid": "8114761-2020-01-21",
     "subject": "HSEM",
     "number": "2047",
     "honors": true
   },
-  "815936": {
-    "uid": "815936",
-    "code": "HSEM2048H",
+  "8159361": {
+    "uid": "8159361-2018-01-16",
     "subject": "HSEM",
     "number": "2048",
     "honors": true
   },
-  "811728": {
-    "uid": "811728",
-    "code": "HSEM2049H",
+  "8117281": {
+    "uid": "8117281-2018-01-16",
     "subject": "HSEM",
     "number": "2049",
     "honors": true
   },
-  "795810": {
-    "uid": "795810",
-    "code": "HSEM2050H",
+  "7958101": {
+    "uid": "7958101-2018-01-16",
     "subject": "HSEM",
     "number": "2050",
     "honors": true
   },
-  "801836": {
-    "uid": "801836",
-    "code": "HSEM2051H",
+  "8018361": {
+    "uid": "8018361-2018-01-16",
     "subject": "HSEM",
     "number": "2051",
     "honors": true
   },
-  "801837": {
-    "uid": "801837",
-    "code": "HSEM2053H",
+  "8018371": {
+    "uid": "8018371-2022-01-18",
     "subject": "HSEM",
     "number": "2053",
     "honors": true
   },
-  "804716": {
-    "uid": "804716",
-    "code": "HSEM2054H",
+  "8047161": {
+    "uid": "8047161-2016-01-19",
     "subject": "HSEM",
     "number": "2054",
     "honors": true
   },
-  "817959": {
-    "uid": "817959",
-    "code": "HSEM2055V",
+  "8179591": {
+    "uid": "8179591-2023-09-05",
     "subject": "HSEM",
     "number": "2055",
     "honors": true
   },
-  "795811": {
-    "uid": "795811",
-    "code": "HSEM2060H",
+  "7958111": {
+    "uid": "7958111-2016-01-19",
     "subject": "HSEM",
     "number": "2060",
     "honors": true
   },
-  "817231": {
-    "uid": "817231",
-    "code": "HSEM2061H",
+  "8172311": {
+    "uid": "8172311-2020-01-21",
     "subject": "HSEM",
     "number": "2061",
     "honors": true
   },
-  "815937": {
-    "uid": "815937",
-    "code": "HSEM2063H",
+  "8159371": {
+    "uid": "8159371-2018-01-16",
     "subject": "HSEM",
     "number": "2063",
     "honors": true
   },
-  "818280": {
-    "uid": "818280",
-    "code": "HSEM2064H",
+  "8182801": {
+    "uid": "8182801-2024-09-03",
     "subject": "HSEM",
     "number": "2064",
     "honors": true
   },
-  "818825": {
-    "uid": "818825",
-    "code": "HSEM2065H",
+  "8188251": {
+    "uid": "8188251-2022-01-18",
     "subject": "HSEM",
     "number": "2065",
     "honors": true
   },
-  "816014": {
-    "uid": "816014",
-    "code": "HSEM2067H",
+  "8160141": {
+    "uid": "8160141-2018-01-16",
     "subject": "HSEM",
     "number": "2067",
     "honors": true
   },
-  "816622": {
-    "uid": "816622",
-    "code": "HSEM2067V",
+  "8166221": {
+    "uid": "8166221-2018-01-16",
     "subject": "HSEM",
     "number": "2067",
     "honors": true
   },
-  "818270": {
-    "uid": "818270",
-    "code": "HSEM2069H",
+  "8182701": {
+    "uid": "8182701-2022-01-18",
     "subject": "HSEM",
     "number": "2069",
     "honors": true
   },
-  "795812": {
-    "uid": "795812",
-    "code": "HSEM2070H",
+  "7958121": {
+    "uid": "7958121-2016-01-19",
     "subject": "HSEM",
     "number": "2070",
     "honors": true
   },
-  "826522": {
-    "uid": "826522",
-    "code": "HSEM2073H",
+  "8265221": {
+    "uid": "8265221-2023-09-05",
     "subject": "HSEM",
     "number": "2073",
     "honors": true
   },
-  "826075": {
-    "uid": "826075",
-    "code": "HSEM2074H",
+  "8260751": {
+    "uid": "8260751-2023-01-17",
     "subject": "HSEM",
     "number": "2074",
     "honors": true
   },
-  "796161": {
-    "uid": "796161",
-    "code": "HSEM2080H",
+  "7961611": {
+    "uid": "7961611-2014-09-02",
     "subject": "HSEM",
     "number": "2080",
     "honors": true
   },
-  "818141": {
-    "uid": "818141",
-    "code": "HSEM2081V",
+  "8181411": {
+    "uid": "8181411-2023-09-05",
     "subject": "HSEM",
     "number": "2081",
     "honors": true
   },
-  "796163": {
-    "uid": "796163",
-    "code": "HSEM2090H",
+  "7961631": {
+    "uid": "7961631-2014-09-02",
     "subject": "HSEM",
     "number": "2090",
     "honors": true
   },
-  "817382": {
-    "uid": "817382",
-    "code": "HSEM2091V",
+  "8173821": {
+    "uid": "8173821-2020-01-21",
     "subject": "HSEM",
     "number": "2091",
     "honors": true
   },
-  "803351": {
-    "uid": "803351",
-    "code": "HSEM2101H",
+  "8033511": {
+    "uid": "8033511-2018-01-16",
     "subject": "HSEM",
     "number": "2101",
     "honors": true
   },
-  "803186": {
-    "uid": "803186",
-    "code": "HSEM2103H",
+  "8031861": {
+    "uid": "8031861-2016-01-19",
     "subject": "HSEM",
     "number": "2103",
     "honors": true
   },
-  "811329": {
-    "uid": "811329",
-    "code": "HSEM2105H",
+  "8113291": {
+    "uid": "8113291-2020-01-21",
     "subject": "HSEM",
     "number": "2105",
     "honors": true
   },
-  "811740": {
-    "uid": "811740",
-    "code": "HSEM2106H",
+  "8117401": {
+    "uid": "8117401-2018-01-16",
     "subject": "HSEM",
     "number": "2106",
     "honors": true
   },
-  "797485": {
-    "uid": "797485",
-    "code": "HSEM2110V",
+  "7974851": {
+    "uid": "7974851-2016-01-19",
     "subject": "HSEM",
     "number": "2110",
     "honors": true
   },
-  "797925": {
-    "uid": "797925",
-    "code": "HSEM2120V",
+  "7979251": {
+    "uid": "7979251-2016-01-19",
     "subject": "HSEM",
     "number": "2120",
     "honors": true
   },
-  "797926": {
-    "uid": "797926",
-    "code": "HSEM2130V",
+  "7979261": {
+    "uid": "7979261-2016-01-19",
     "subject": "HSEM",
     "number": "2130",
     "honors": true
   },
-  "801838": {
-    "uid": "801838",
-    "code": "HSEM2205H",
+  "8018381": {
+    "uid": "8018381-2018-01-16",
     "subject": "HSEM",
     "number": "2205",
     "honors": true
   },
-  "816623": {
-    "uid": "816623",
-    "code": "HSEM2205V",
+  "8166231": {
+    "uid": "8166231-2018-01-16",
     "subject": "HSEM",
     "number": "2205",
     "honors": true
   },
-  "805304": {
-    "uid": "805304",
-    "code": "HSEM2206H",
+  "8053041": {
+    "uid": "8053041-2018-01-16",
     "subject": "HSEM",
     "number": "2206",
     "honors": true
   },
-  "817930": {
-    "uid": "817930",
-    "code": "HSEM2207H",
+  "8179301": {
+    "uid": "8179301-2023-09-05",
     "subject": "HSEM",
     "number": "2207",
     "honors": true
   },
-  "808337": {
-    "uid": "808337",
-    "code": "HSEM2208H",
+  "8083371": {
+    "uid": "8083371-2022-01-18",
     "subject": "HSEM",
     "number": "2208",
     "honors": true
   },
-  "826792": {
-    "uid": "826792",
-    "code": "HSEM2231H",
+  "8267921": {
+    "uid": "8267921-2024-01-16",
     "subject": "HSEM",
     "number": "2231",
     "honors": true
   },
-  "826767": {
-    "uid": "826767",
-    "code": "HSEM2232H",
+  "8267671": {
+    "uid": "8267671-2024-01-16",
     "subject": "HSEM",
     "number": "2232",
     "honors": true
   },
-  "826782": {
-    "uid": "826782",
-    "code": "HSEM2233H",
+  "8267821": {
+    "uid": "8267821-2025-01-21",
     "subject": "HSEM",
     "number": "2233",
     "honors": true
   },
-  "827121": {
-    "uid": "827121",
-    "code": "HSEM2241H",
+  "8271211": {
+    "uid": "8271211-2024-09-03",
     "subject": "HSEM",
     "number": "2241",
     "honors": true
   },
-  "818826": {
-    "uid": "818826",
-    "code": "HSEM2242H",
+  "8188261": {
+    "uid": "8188261-2023-09-05",
     "subject": "HSEM",
     "number": "2242",
     "honors": true
   },
-  "827176": {
-    "uid": "827176",
-    "code": "HSEM2243H",
+  "8271761": {
+    "uid": "8271761-2024-09-03",
     "subject": "HSEM",
     "number": "2243",
     "honors": true
   },
-  "827127": {
-    "uid": "827127",
-    "code": "HSEM2244H",
+  "8271271": {
+    "uid": "8271271-2024-09-03",
     "subject": "HSEM",
     "number": "2244",
     "honors": true
   },
-  "813643": {
-    "uid": "813643",
-    "code": "HSEM2307H",
+  "8273731": {
+    "uid": "8273731-2025-01-21",
+    "subject": "HSEM",
+    "number": "2245",
+    "honors": true
+  },
+  "8136431": {
+    "uid": "8136431-2018-01-16",
     "subject": "HSEM",
     "number": "2307",
     "honors": true
   },
-  "801839": {
-    "uid": "801839",
-    "code": "HSEM2313H",
+  "8018391": {
+    "uid": "8018391-2016-01-19",
     "subject": "HSEM",
     "number": "2313",
     "honors": true
   },
-  "826101": {
-    "uid": "826101",
-    "code": "HSEM2318H",
+  "8261011": {
+    "uid": "8261011-2023-01-17",
     "subject": "HSEM",
     "number": "2318",
     "honors": true
   },
-  "826514": {
-    "uid": "826514",
-    "code": "HSEM2321H",
+  "8265141": {
+    "uid": "8265141-2023-09-05",
     "subject": "HSEM",
     "number": "2321",
     "honors": true
   },
-  "813644": {
-    "uid": "813644",
-    "code": "HSEM2325H",
+  "8136441": {
+    "uid": "8136441-2022-01-18",
     "subject": "HSEM",
     "number": "2325",
     "honors": true
   },
-  "816252": {
-    "uid": "816252",
-    "code": "HSEM2326H",
+  "8162521": {
+    "uid": "8162521-2018-01-16",
     "subject": "HSEM",
     "number": "2326",
     "honors": true
   },
-  "816632": {
-    "uid": "816632",
-    "code": "HSEM2326V",
+  "8166321": {
+    "uid": "8166321-2018-01-16",
     "subject": "HSEM",
     "number": "2326",
     "honors": true
   },
-  "808203": {
-    "uid": "808203",
-    "code": "HSEM2413H",
+  "8082031": {
+    "uid": "8082031-2022-01-18",
     "subject": "HSEM",
     "number": "2413",
     "honors": true
   },
-  "805305": {
-    "uid": "805305",
-    "code": "HSEM2414H",
+  "8053051": {
+    "uid": "8053051-2016-01-19",
     "subject": "HSEM",
     "number": "2414",
     "honors": true
   },
-  "809804": {
-    "uid": "809804",
-    "code": "HSEM2503H",
+  "8098041": {
+    "uid": "8098041-2017-01-17",
     "subject": "HSEM",
     "number": "2503",
     "honors": true
   },
-  "819883": {
-    "uid": "819883",
-    "code": "HSEM2512H",
+  "8198831": {
+    "uid": "8198831-2022-01-18",
     "subject": "HSEM",
     "number": "2512",
     "honors": true
   },
-  "808204": {
-    "uid": "808204",
-    "code": "HSEM2513H",
+  "8082041": {
+    "uid": "8082041-2018-01-16",
     "subject": "HSEM",
     "number": "2513",
     "honors": true
   },
-  "813645": {
-    "uid": "813645",
-    "code": "HSEM2514H",
+  "8136451": {
+    "uid": "8136451-2018-01-16",
     "subject": "HSEM",
     "number": "2514",
     "honors": true
   },
-  "811330": {
-    "uid": "811330",
-    "code": "HSEM2515H",
+  "8113301": {
+    "uid": "8113301-2022-01-18",
     "subject": "HSEM",
     "number": "2515",
     "honors": true
   },
-  "813975": {
-    "uid": "813975",
-    "code": "HSEM2516H",
+  "8139751": {
+    "uid": "8139751-2022-01-18",
     "subject": "HSEM",
     "number": "2516",
     "honors": true
   },
-  "801840": {
-    "uid": "801840",
-    "code": "HSEM2519H",
+  "8018401": {
+    "uid": "8018401-2018-01-16",
     "subject": "HSEM",
     "number": "2519",
     "honors": true
   },
-  "817221": {
-    "uid": "817221",
-    "code": "HSEM2520H",
+  "8172211": {
+    "uid": "8172211-2020-01-21",
     "subject": "HSEM",
     "number": "2520",
     "honors": true
   },
-  "815938": {
-    "uid": "815938",
-    "code": "HSEM2521H",
+  "8159381": {
+    "uid": "8159381-2018-01-16",
     "subject": "HSEM",
     "number": "2521",
     "honors": true
   },
-  "819858": {
-    "uid": "819858",
-    "code": "HSEM2528H",
+  "8198581": {
+    "uid": "8198581-2022-01-18",
     "subject": "HSEM",
     "number": "2528",
     "honors": true
   },
-  "805794": {
-    "uid": "805794",
-    "code": "HSEM2529H",
+  "8057941": {
+    "uid": "8057941-2022-01-18",
     "subject": "HSEM",
     "number": "2529",
     "honors": true
   },
-  "804268": {
-    "uid": "804268",
-    "code": "HSEM2530H",
+  "8042681": {
+    "uid": "8042681-2018-01-16",
     "subject": "HSEM",
     "number": "2530",
     "honors": true
   },
-  "816253": {
-    "uid": "816253",
-    "code": "HSEM2534H",
+  "8162531": {
+    "uid": "8162531-2018-01-16",
     "subject": "HSEM",
     "number": "2534",
     "honors": true
   },
-  "803546": {
-    "uid": "803546",
-    "code": "HSEM2535H",
+  "8035461": {
+    "uid": "8035461-2016-01-19",
     "subject": "HSEM",
     "number": "2535",
     "honors": true
   },
-  "808510": {
-    "uid": "808510",
-    "code": "HSEM2538H",
+  "8085101": {
+    "uid": "8085101-2016-01-19",
     "subject": "HSEM",
     "number": "2538",
     "honors": true
   },
-  "811378": {
-    "uid": "811378",
-    "code": "HSEM2539H",
+  "8113781": {
+    "uid": "8113781-2018-01-16",
     "subject": "HSEM",
     "number": "2539",
     "honors": true
   },
-  "818281": {
-    "uid": "818281",
-    "code": "HSEM2540H",
+  "8182811": {
+    "uid": "8182811-2022-01-18",
     "subject": "HSEM",
     "number": "2540",
     "honors": true
   },
-  "818821": {
-    "uid": "818821",
-    "code": "HSEM2541H",
+  "8188211": {
+    "uid": "8188211-2020-01-21",
     "subject": "HSEM",
     "number": "2541",
     "honors": true
   },
-  "819385": {
-    "uid": "819385",
-    "code": "HSEM2541V",
+  "8193851": {
+    "uid": "8193851-2022-01-18",
     "subject": "HSEM",
     "number": "2541",
     "honors": true
   },
-  "826217": {
-    "uid": "826217",
-    "code": "HSEM2606H",
+  "8262171": {
+    "uid": "8262171-2023-01-17",
     "subject": "HSEM",
     "number": "2606",
     "honors": true
   },
-  "803187": {
-    "uid": "803187",
-    "code": "HSEM2607H",
+  "8031871": {
+    "uid": "8031871-2016-01-19",
     "subject": "HSEM",
     "number": "2607",
     "honors": true
   },
-  "802101": {
-    "uid": "802101",
-    "code": "HSEM2609H",
+  "8021011": {
+    "uid": "8021011-2016-01-19",
     "subject": "HSEM",
     "number": "2609",
     "honors": true
   },
-  "819884": {
-    "uid": "819884",
-    "code": "HSEM2621H",
+  "8198841": {
+    "uid": "8198841-2022-01-18",
     "subject": "HSEM",
     "number": "2621",
     "honors": true
   },
-  "818364": {
-    "uid": "818364",
-    "code": "HSEM2623H",
+  "8183641": {
+    "uid": "8183641-2023-09-05",
     "subject": "HSEM",
     "number": "2623",
     "honors": true
   },
-  "806820": {
-    "uid": "806820",
-    "code": "HSEM2624H",
+  "8068201": {
+    "uid": "8068201-2023-09-05",
     "subject": "HSEM",
     "number": "2624",
     "honors": true
   },
-  "806699": {
-    "uid": "806699",
-    "code": "HSEM2627H",
+  "8066991": {
+    "uid": "8066991-2016-01-19",
     "subject": "HSEM",
     "number": "2627",
     "honors": true
   },
-  "813976": {
-    "uid": "813976",
-    "code": "HSEM2628H",
+  "8139761": {
+    "uid": "8139761-2018-01-16",
     "subject": "HSEM",
     "number": "2628",
     "honors": true
   },
-  "804437": {
-    "uid": "804437",
-    "code": "HSEM2630H",
+  "8044371": {
+    "uid": "8044371-2016-01-19",
     "subject": "HSEM",
     "number": "2630",
     "honors": true
   },
-  "813977": {
-    "uid": "813977",
-    "code": "HSEM2634H",
+  "8139771": {
+    "uid": "8139771-2018-01-16",
     "subject": "HSEM",
     "number": "2634",
     "honors": true
   },
-  "815939": {
-    "uid": "815939",
-    "code": "HSEM2635H",
+  "8159391": {
+    "uid": "8159391-2022-09-06",
     "subject": "HSEM",
     "number": "2635",
     "honors": true
   },
-  "818979": {
-    "uid": "818979",
-    "code": "HSEM2637H",
+  "8189791": {
+    "uid": "8189791-2022-01-18",
     "subject": "HSEM",
     "number": "2637",
     "honors": true
   },
-  "805415": {
-    "uid": "805415",
-    "code": "HSEM2701H",
+  "8054151": {
+    "uid": "8054151-2018-01-16",
     "subject": "HSEM",
     "number": "2701",
     "honors": true
   },
-  "804147": {
-    "uid": "804147",
-    "code": "HSEM2702H",
+  "8041471": {
+    "uid": "8041471-2018-01-16",
     "subject": "HSEM",
     "number": "2702",
     "honors": true
   },
-  "807750": {
-    "uid": "807750",
-    "code": "HSEM2702V",
+  "8077501": {
+    "uid": "8077501-2016-01-19",
     "subject": "HSEM",
     "number": "2702",
     "honors": true
   },
-  "801841": {
-    "uid": "801841",
-    "code": "HSEM2707H",
+  "8018411": {
+    "uid": "8018411-2022-01-18",
     "subject": "HSEM",
     "number": "2707",
     "honors": true
   },
-  "813978": {
-    "uid": "813978",
-    "code": "HSEM2708H",
+  "8139781": {
+    "uid": "8139781-2018-01-16",
     "subject": "HSEM",
     "number": "2708",
     "honors": true
   },
-  "820009": {
-    "uid": "820009",
-    "code": "HSEM2709H",
+  "8200091": {
+    "uid": "8200091-2022-01-18",
     "subject": "HSEM",
     "number": "2709",
     "honors": true
   },
-  "807574": {
-    "uid": "807574",
-    "code": "HSEM2710H",
+  "8075741": {
+    "uid": "8075741-2018-01-16",
     "subject": "HSEM",
     "number": "2710",
     "honors": true
   },
-  "804390": {
-    "uid": "804390",
-    "code": "HSEM2714H",
+  "8043901": {
+    "uid": "8043901-2017-01-17",
     "subject": "HSEM",
     "number": "2714",
     "honors": true
   },
-  "816254": {
-    "uid": "816254",
-    "code": "HSEM2716H",
+  "8162541": {
+    "uid": "8162541-2018-01-16",
     "subject": "HSEM",
     "number": "2716",
     "honors": true
   },
-  "816770": {
-    "uid": "816770",
-    "code": "HSEM2716V",
+  "8167701": {
+    "uid": "8167701-2023-09-05",
     "subject": "HSEM",
     "number": "2716",
     "honors": true
   },
-  "809796": {
-    "uid": "809796",
-    "code": "HSEM2717H",
+  "8097961": {
+    "uid": "8097961-2017-01-17",
     "subject": "HSEM",
     "number": "2717",
     "honors": true
   },
-  "826212": {
-    "uid": "826212",
-    "code": "HSEM2718H",
+  "8262121": {
+    "uid": "8262121-2023-01-17",
     "subject": "HSEM",
     "number": "2718",
     "honors": true
   },
-  "817987": {
-    "uid": "817987",
-    "code": "HSEM2719H",
+  "8179871": {
+    "uid": "8179871-2022-01-18",
     "subject": "HSEM",
     "number": "2719",
     "honors": true
   },
-  "818287": {
-    "uid": "818287",
-    "code": "HSEM2719V",
+  "8182871": {
+    "uid": "8182871-2022-01-18",
     "subject": "HSEM",
     "number": "2719",
     "honors": true
   },
-  "825811": {
-    "uid": "825811",
-    "code": "HSEM2721H",
+  "8258111": {
+    "uid": "8258111-2022-09-06",
     "subject": "HSEM",
     "number": "2721",
     "honors": true
   },
-  "816255": {
-    "uid": "816255",
-    "code": "HSEM2722H",
+  "8162551": {
+    "uid": "8162551-2023-09-05",
     "subject": "HSEM",
     "number": "2722",
     "honors": true
   },
-  "817323": {
-    "uid": "817323",
-    "code": "HSEM2724H",
+  "8173231": {
+    "uid": "8173231-2020-01-21",
     "subject": "HSEM",
     "number": "2724",
     "honors": true
   },
-  "817759": {
-    "uid": "817759",
-    "code": "HSEM2724V",
+  "8177591": {
+    "uid": "8177591-2022-01-18",
     "subject": "HSEM",
     "number": "2724",
     "honors": true
   },
-  "817393": {
-    "uid": "817393",
-    "code": "HSEM2725H",
+  "8173931": {
+    "uid": "8173931-2023-09-05",
     "subject": "HSEM",
     "number": "2725",
     "honors": true
   },
-  "806700": {
-    "uid": "806700",
-    "code": "HSEM2801H",
+  "8067001": {
+    "uid": "8067001-2022-01-18",
     "subject": "HSEM",
     "number": "2801",
     "honors": true
   },
-  "811876": {
-    "uid": "811876",
-    "code": "HSEM2802H",
+  "8118761": {
+    "uid": "8118761-2022-01-18",
     "subject": "HSEM",
     "number": "2802",
     "honors": true
   },
-  "825812": {
-    "uid": "825812",
-    "code": "HSEM2803H",
+  "8258121": {
+    "uid": "8258121-2022-09-06",
     "subject": "HSEM",
     "number": "2803",
     "honors": true
   },
-  "802226": {
-    "uid": "802226",
-    "code": "HSEM2901H",
+  "8022261": {
+    "uid": "8022261-2014-09-02",
     "subject": "HSEM",
     "number": "2901",
     "honors": true
   },
-  "802227": {
-    "uid": "802227",
-    "code": "HSEM2902H",
+  "8022271": {
+    "uid": "8022271-2014-09-02",
     "subject": "HSEM",
     "number": "2902",
     "honors": true
   },
-  "802228": {
-    "uid": "802228",
-    "code": "HSEM2941H",
+  "8022281": {
+    "uid": "8022281-2014-09-02",
     "subject": "HSEM",
     "number": "2941",
     "honors": true
   },
-  "802229": {
-    "uid": "802229",
-    "code": "HSEM2942H",
+  "8022291": {
+    "uid": "8022291-2014-09-02",
     "subject": "HSEM",
     "number": "2942",
     "honors": true
   },
-  "802230": {
-    "uid": "802230",
-    "code": "HSEM2991H",
+  "8022301": {
+    "uid": "8022301-2016-01-19",
     "subject": "HSEM",
     "number": "2991",
     "honors": true
   },
-  "802231": {
-    "uid": "802231",
-    "code": "HSEM2992H",
+  "8022311": {
+    "uid": "8022311-2016-01-19",
     "subject": "HSEM",
     "number": "2992",
     "honors": true
   },
-  "799869": {
-    "uid": "799869",
-    "code": "HSEM2994H",
+  "7998691": {
+    "uid": "7998691-2016-01-19",
     "subject": "HSEM",
     "number": "2994",
     "honors": true
   },
-  "801842": {
-    "uid": "801842",
-    "code": "HSEM3001H",
+  "8018421": {
+    "uid": "8018421-2016-01-19",
     "subject": "HSEM",
     "number": "3001",
     "honors": true
   },
-  "801843": {
-    "uid": "801843",
-    "code": "HSEM3002H",
+  "8018431": {
+    "uid": "8018431-2016-01-19",
     "subject": "HSEM",
     "number": "3002",
     "honors": true
   },
-  "802204": {
-    "uid": "802204",
-    "code": "HSEM3006H",
+  "8022041": {
+    "uid": "8022041-2016-01-19",
     "subject": "HSEM",
     "number": "3006",
     "honors": true
   },
-  "806777": {
-    "uid": "806777",
-    "code": "HSEM3007H",
+  "8067771": {
+    "uid": "8067771-2018-01-16",
     "subject": "HSEM",
     "number": "3007",
     "honors": true
   },
-  "806775": {
-    "uid": "806775",
-    "code": "HSEM3008H",
+  "8067751": {
+    "uid": "8067751-2016-01-19",
     "subject": "HSEM",
     "number": "3008",
     "honors": true
   },
-  "806936": {
-    "uid": "806936",
-    "code": "HSEM3008V",
+  "8069361": {
+    "uid": "8069361-2016-01-19",
     "subject": "HSEM",
     "number": "3008",
     "honors": true
   },
-  "009426": {
-    "uid": "009426",
-    "code": "HSEM3010H",
+  "0094261": {
+    "uid": "0094261-2016-01-19",
     "subject": "HSEM",
     "number": "3010",
     "honors": true
   },
-  "801844": {
-    "uid": "801844",
-    "code": "HSEM3011H",
+  "8018441": {
+    "uid": "8018441-2016-01-19",
     "subject": "HSEM",
     "number": "3011",
     "honors": true
   },
-  "803352": {
-    "uid": "803352",
-    "code": "HSEM3012H",
+  "8033521": {
+    "uid": "8033521-2016-01-19",
     "subject": "HSEM",
     "number": "3012",
     "honors": true
   },
-  "817381": {
-    "uid": "817381",
-    "code": "HSEM3013H",
+  "8173811": {
+    "uid": "8173811-2023-09-05",
     "subject": "HSEM",
     "number": "3013",
     "honors": true
   },
-  "805306": {
-    "uid": "805306",
-    "code": "HSEM3014H",
+  "8053061": {
+    "uid": "8053061-2016-01-19",
     "subject": "HSEM",
     "number": "3014",
     "honors": true
   },
-  "806701": {
-    "uid": "806701",
-    "code": "HSEM3017H",
+  "8067011": {
+    "uid": "8067011-2017-01-17",
     "subject": "HSEM",
     "number": "3017",
     "honors": true
   },
-  "810402": {
-    "uid": "810402",
-    "code": "HSEM3017V",
+  "8104021": {
+    "uid": "8104021-2023-09-05",
     "subject": "HSEM",
     "number": "3017",
     "honors": true
   },
-  "813979": {
-    "uid": "813979",
-    "code": "HSEM3018H",
+  "8139791": {
+    "uid": "8139791-2018-01-16",
     "subject": "HSEM",
     "number": "3018",
     "honors": true
   },
-  "803188": {
-    "uid": "803188",
-    "code": "HSEM3019H",
+  "8031881": {
+    "uid": "8031881-2016-01-19",
     "subject": "HSEM",
     "number": "3019",
     "honors": true
   },
-  "009428": {
-    "uid": "009428",
-    "code": "HSEM3020H",
+  "0094281": {
+    "uid": "0094281-2016-01-19",
     "subject": "HSEM",
     "number": "3020",
     "honors": true
   },
-  "803189": {
-    "uid": "803189",
-    "code": "HSEM3021H",
+  "8031891": {
+    "uid": "8031891-2023-09-05",
     "subject": "HSEM",
     "number": "3021",
     "honors": true
   },
-  "807050": {
-    "uid": "807050",
-    "code": "HSEM3021V",
+  "8070501": {
+    "uid": "8070501-2016-09-06",
     "subject": "HSEM",
     "number": "3021",
     "honors": true
   },
-  "803338": {
-    "uid": "803338",
-    "code": "HSEM3022H",
+  "8033381": {
+    "uid": "8033381-2016-01-19",
     "subject": "HSEM",
     "number": "3022",
     "honors": true
   },
-  "808968": {
-    "uid": "808968",
-    "code": "HSEM3022V",
+  "8089681": {
+    "uid": "8089681-2018-01-16",
     "subject": "HSEM",
     "number": "3022",
     "honors": true
   },
-  "819892": {
-    "uid": "819892",
-    "code": "HSEM3023H",
+  "8198921": {
+    "uid": "8198921-2022-01-18",
     "subject": "HSEM",
     "number": "3023",
     "honors": true
   },
-  "806834": {
-    "uid": "806834",
-    "code": "HSEM3025H",
+  "8068341": {
+    "uid": "8068341-2024-09-03",
     "subject": "HSEM",
     "number": "3025",
     "honors": true
   },
-  "806937": {
-    "uid": "806937",
-    "code": "HSEM3025V",
+  "8069371": {
+    "uid": "8069371-2017-01-17",
     "subject": "HSEM",
     "number": "3025",
     "honors": true
   },
-  "801846": {
-    "uid": "801846",
-    "code": "HSEM3026H",
+  "8018461": {
+    "uid": "8018461-2017-01-17",
     "subject": "HSEM",
     "number": "3026",
     "honors": true
   },
-  "811331": {
-    "uid": "811331",
-    "code": "HSEM3027H",
+  "8113311": {
+    "uid": "8113311-2024-09-03",
     "subject": "HSEM",
     "number": "3027",
     "honors": true
   },
-  "803339": {
-    "uid": "803339",
-    "code": "HSEM3028H",
+  "8033391": {
+    "uid": "8033391-2018-01-16",
     "subject": "HSEM",
     "number": "3028",
     "honors": true
   },
-  "815415": {
-    "uid": "815415",
-    "code": "HSEM3028V",
+  "8154151": {
+    "uid": "8154151-2018-01-16",
     "subject": "HSEM",
     "number": "3028",
     "honors": true
   },
-  "009429": {
-    "uid": "009429",
-    "code": "HSEM3030H",
+  "0094291": {
+    "uid": "0094291-2016-01-19",
     "subject": "HSEM",
     "number": "3030",
     "honors": true
   },
-  "819027": {
-    "uid": "819027",
-    "code": "HSEM3031H",
+  "8190271": {
+    "uid": "8190271-2023-09-05",
     "subject": "HSEM",
     "number": "3031",
     "honors": true
   },
-  "801847": {
-    "uid": "801847",
-    "code": "HSEM3033H",
+  "8018471": {
+    "uid": "8018471-2016-01-19",
     "subject": "HSEM",
     "number": "3033",
     "honors": true
   },
-  "801848": {
-    "uid": "801848",
-    "code": "HSEM3034H",
+  "8018481": {
+    "uid": "8018481-2016-01-19",
     "subject": "HSEM",
     "number": "3034",
     "honors": true
   },
-  "813646": {
-    "uid": "813646",
-    "code": "HSEM3035H",
+  "8136461": {
+    "uid": "8136461-2018-01-16",
     "subject": "HSEM",
     "number": "3035",
     "honors": true
   },
-  "816272": {
-    "uid": "816272",
-    "code": "HSEM3036H",
+  "8162721": {
+    "uid": "8162721-2018-01-16",
     "subject": "HSEM",
     "number": "3036",
     "honors": true
   },
-  "801849": {
-    "uid": "801849",
-    "code": "HSEM3037H",
+  "8018491": {
+    "uid": "8018491-2018-01-16",
     "subject": "HSEM",
     "number": "3037",
     "honors": true
   },
-  "813808": {
-    "uid": "813808",
-    "code": "HSEM3037V",
+  "8138081": {
+    "uid": "8138081-2020-09-08",
     "subject": "HSEM",
     "number": "3037",
     "honors": true
   },
-  "801850": {
-    "uid": "801850",
-    "code": "HSEM3038H",
+  "8018501": {
+    "uid": "8018501-2018-01-16",
     "subject": "HSEM",
     "number": "3038",
     "honors": true
   },
-  "810329": {
-    "uid": "810329",
-    "code": "HSEM3038V",
+  "8103291": {
+    "uid": "8103291-2018-01-16",
     "subject": "HSEM",
     "number": "3038",
     "honors": true
   },
-  "805307": {
-    "uid": "805307",
-    "code": "HSEM3039H",
+  "8053071": {
+    "uid": "8053071-2018-01-16",
     "subject": "HSEM",
     "number": "3039",
     "honors": true
   },
-  "009430": {
-    "uid": "009430",
-    "code": "HSEM3040H",
+  "0094301": {
+    "uid": "0094301-2016-01-19",
     "subject": "HSEM",
     "number": "3040",
     "honors": true
   },
-  "804438": {
-    "uid": "804438",
-    "code": "HSEM3046H",
+  "8044381": {
+    "uid": "8044381-2016-01-19",
     "subject": "HSEM",
     "number": "3046",
     "honors": true
   },
-  "801851": {
-    "uid": "801851",
-    "code": "HSEM3047H",
+  "8018511": {
+    "uid": "8018511-2016-01-19",
     "subject": "HSEM",
     "number": "3047",
     "honors": true
   },
-  "806843": {
-    "uid": "806843",
-    "code": "HSEM3047V",
+  "8068431": {
+    "uid": "8068431-2016-01-19",
     "subject": "HSEM",
     "number": "3047",
     "honors": true
   },
-  "805308": {
-    "uid": "805308",
-    "code": "HSEM3048H",
+  "8053081": {
+    "uid": "8053081-2018-01-16",
     "subject": "HSEM",
     "number": "3048",
     "honors": true
   },
-  "806445": {
-    "uid": "806445",
-    "code": "HSEM3048V",
+  "8064451": {
+    "uid": "8064451-2016-01-19",
     "subject": "HSEM",
     "number": "3048",
     "honors": true
   },
-  "805309": {
-    "uid": "805309",
-    "code": "HSEM3049H",
+  "8053091": {
+    "uid": "8053091-2023-09-05",
     "subject": "HSEM",
     "number": "3049",
     "honors": true
   },
-  "009431": {
-    "uid": "009431",
-    "code": "HSEM3050H",
+  "0094311": {
+    "uid": "0094311-2016-01-19",
     "subject": "HSEM",
     "number": "3050",
     "honors": true
   },
-  "801852": {
-    "uid": "801852",
-    "code": "HSEM3051H",
+  "8018521": {
+    "uid": "8018521-2018-01-16",
     "subject": "HSEM",
     "number": "3051",
     "honors": true
   },
-  "801853": {
-    "uid": "801853",
-    "code": "HSEM3052H",
+  "8018531": {
+    "uid": "8018531-2016-01-19",
     "subject": "HSEM",
     "number": "3052",
     "honors": true
   },
-  "801854": {
-    "uid": "801854",
-    "code": "HSEM3053H",
+  "8018541": {
+    "uid": "8018541-2016-01-19",
     "subject": "HSEM",
     "number": "3053",
     "honors": true
   },
-  "803353": {
-    "uid": "803353",
-    "code": "HSEM3054H",
+  "8033531": {
+    "uid": "8033531-2022-01-18",
     "subject": "HSEM",
     "number": "3054",
     "honors": true
   },
-  "801855": {
-    "uid": "801855",
-    "code": "HSEM3055H",
+  "8018551": {
+    "uid": "8018551-2016-01-19",
     "subject": "HSEM",
     "number": "3055",
     "honors": true
   },
-  "817967": {
-    "uid": "817967",
-    "code": "HSEM3056H",
+  "8179671": {
+    "uid": "8179671-2023-09-05",
     "subject": "HSEM",
     "number": "3056",
     "honors": true
   },
-  "801856": {
-    "uid": "801856",
-    "code": "HSEM3059H",
+  "8018561": {
+    "uid": "8018561-2024-01-16",
     "subject": "HSEM",
     "number": "3059",
     "honors": true
   },
-  "009432": {
-    "uid": "009432",
-    "code": "HSEM3060H",
+  "0094321": {
+    "uid": "0094321-2016-01-19",
     "subject": "HSEM",
     "number": "3060",
     "honors": true
   },
-  "819893": {
-    "uid": "819893",
-    "code": "HSEM3064H",
+  "8198931": {
+    "uid": "8198931-2023-09-05",
     "subject": "HSEM",
     "number": "3064",
     "honors": true
   },
-  "819885": {
-    "uid": "819885",
-    "code": "HSEM3065H",
+  "8198851": {
+    "uid": "8198851-2022-01-18",
     "subject": "HSEM",
     "number": "3065",
     "honors": true
   },
-  "818783": {
-    "uid": "818783",
-    "code": "HSEM3066H",
+  "8187831": {
+    "uid": "8187831-2023-09-05",
     "subject": "HSEM",
     "number": "3066",
     "honors": true
   },
-  "801857": {
-    "uid": "801857",
-    "code": "HSEM3067V",
+  "8018571": {
+    "uid": "8018571-2018-01-16",
     "subject": "HSEM",
     "number": "3067",
     "honors": true
   },
-  "803354": {
-    "uid": "803354",
-    "code": "HSEM3068H",
+  "8033541": {
+    "uid": "8033541-2016-01-19",
     "subject": "HSEM",
     "number": "3068",
     "honors": true
   },
-  "818822": {
-    "uid": "818822",
-    "code": "HSEM3069H",
+  "8188221": {
+    "uid": "8188221-2023-09-05",
     "subject": "HSEM",
     "number": "3069",
     "honors": true
   },
-  "009433": {
-    "uid": "009433",
-    "code": "HSEM3070H",
+  "0094331": {
+    "uid": "0094331-2016-01-19",
     "subject": "HSEM",
     "number": "3070",
     "honors": true
   },
-  "825851": {
-    "uid": "825851",
-    "code": "HSEM3071H",
+  "8258511": {
+    "uid": "8258511-2022-09-06",
     "subject": "HSEM",
     "number": "3071",
     "honors": true
   },
-  "826033": {
-    "uid": "826033",
-    "code": "HSEM3072H",
+  "8260331": {
+    "uid": "8260331-2023-01-17",
     "subject": "HSEM",
     "number": "3072",
     "honors": true
   },
-  "817224": {
-    "uid": "817224",
-    "code": "HSEM3073H",
+  "8172241": {
+    "uid": "8172241-2020-01-21",
     "subject": "HSEM",
     "number": "3073",
     "honors": true
   },
-  "817222": {
-    "uid": "817222",
-    "code": "HSEM3074H",
+  "8172221": {
+    "uid": "8172221-2020-01-21",
     "subject": "HSEM",
     "number": "3074",
     "honors": true
   },
-  "817232": {
-    "uid": "817232",
-    "code": "HSEM3075H",
+  "8172321": {
+    "uid": "8172321-2023-09-05",
     "subject": "HSEM",
     "number": "3075",
     "honors": true
   },
-  "817990": {
-    "uid": "817990",
-    "code": "HSEM3076H",
+  "8179901": {
+    "uid": "8179901-2023-09-05",
     "subject": "HSEM",
     "number": "3076",
     "honors": true
   },
-  "818175": {
-    "uid": "818175",
-    "code": "HSEM3076V",
+  "8181751": {
+    "uid": "8181751-2023-09-05",
     "subject": "HSEM",
     "number": "3076",
     "honors": true
   },
-  "825871": {
-    "uid": "825871",
-    "code": "HSEM3077H",
+  "8258711": {
+    "uid": "8258711-2022-09-06",
     "subject": "HSEM",
     "number": "3077",
     "honors": true
   },
-  "826115": {
-    "uid": "826115",
-    "code": "HSEM3078H",
+  "8261151": {
+    "uid": "8261151-2023-01-17",
     "subject": "HSEM",
     "number": "3078",
     "honors": true
   },
-  "825883": {
-    "uid": "825883",
-    "code": "HSEM3079V",
+  "8258831": {
+    "uid": "8258831-2022-09-06",
     "subject": "HSEM",
     "number": "3079",
     "honors": true
   },
-  "009434": {
-    "uid": "009434",
-    "code": "HSEM3080H",
+  "0094341": {
+    "uid": "0094341-2016-01-19",
     "subject": "HSEM",
     "number": "3080",
     "honors": true
   },
-  "817988": {
-    "uid": "817988",
-    "code": "HSEM3081V",
+  "8179881": {
+    "uid": "8179881-2023-09-05",
     "subject": "HSEM",
     "number": "3081",
     "honors": true
   },
-  "818933": {
-    "uid": "818933",
-    "code": "HSEM3082H",
+  "8189331": {
+    "uid": "8189331-2023-09-05",
     "subject": "HSEM",
     "number": "3082",
     "honors": true
   },
-  "819248": {
-    "uid": "819248",
-    "code": "HSEM3083H",
+  "8192481": {
+    "uid": "8192481-2023-09-05",
     "subject": "HSEM",
     "number": "3083",
     "honors": true
   },
-  "826102": {
-    "uid": "826102",
-    "code": "HSEM3084H",
+  "8261021": {
+    "uid": "8261021-2023-01-17",
     "subject": "HSEM",
     "number": "3084",
     "honors": true
   },
-  "826533": {
-    "uid": "826533",
-    "code": "HSEM3085H",
+  "8265331": {
+    "uid": "8265331-2023-09-05",
     "subject": "HSEM",
     "number": "3085",
     "honors": true
   },
-  "820219": {
-    "uid": "820219",
-    "code": "HSEM3087H",
+  "8202191": {
+    "uid": "8202191-2023-09-05",
     "subject": "HSEM",
     "number": "3087",
     "honors": true
   },
-  "820230": {
-    "uid": "820230",
-    "code": "HSEM3087V",
+  "8202301": {
+    "uid": "8202301-2022-01-18",
     "subject": "HSEM",
     "number": "3087",
     "honors": true
   },
-  "826534": {
-    "uid": "826534",
-    "code": "HSEM3089H",
+  "8265341": {
+    "uid": "8265341-2023-09-05",
     "subject": "HSEM",
     "number": "3089",
     "honors": true
   },
-  "794337": {
-    "uid": "794337",
-    "code": "HSEM3090H",
+  "7943371": {
+    "uid": "7943371-2016-01-19",
     "subject": "HSEM",
     "number": "3090",
     "honors": true
   },
-  "818271": {
-    "uid": "818271",
-    "code": "HSEM3092H",
+  "8182711": {
+    "uid": "8182711-2023-09-05",
     "subject": "HSEM",
     "number": "3092",
     "honors": true
   },
-  "818697": {
-    "uid": "818697",
-    "code": "HSEM3092V",
+  "8186971": {
+    "uid": "8186971-2023-09-05",
     "subject": "HSEM",
     "number": "3092",
     "honors": true
   },
-  "009760": {
-    "uid": "009760",
-    "code": "HSEM3093H",
+  "0097601": {
+    "uid": "0097601-2016-01-19",
     "subject": "HSEM",
     "number": "3093",
     "honors": true
   },
-  "803190": {
-    "uid": "803190",
-    "code": "HSEM3103H",
+  "8031901": {
+    "uid": "8031901-2016-01-19",
     "subject": "HSEM",
     "number": "3103",
     "honors": true
   },
-  "811729": {
-    "uid": "811729",
-    "code": "HSEM3106H",
+  "8117291": {
+    "uid": "8117291-2018-01-16",
     "subject": "HSEM",
     "number": "3106",
     "honors": true
   },
-  "009435": {
-    "uid": "009435",
-    "code": "HSEM3110V",
+  "0094351": {
+    "uid": "0094351-2016-01-19",
     "subject": "HSEM",
     "number": "3110",
     "honors": true
   },
-  "009436": {
-    "uid": "009436",
-    "code": "HSEM3120V",
+  "0094361": {
+    "uid": "0094361-2016-01-19",
     "subject": "HSEM",
     "number": "3120",
     "honors": true
   },
-  "009437": {
-    "uid": "009437",
-    "code": "HSEM3130V",
+  "0094371": {
+    "uid": "0094371-2016-01-19",
     "subject": "HSEM",
     "number": "3130",
     "honors": true
   },
-  "009438": {
-    "uid": "009438",
-    "code": "HSEM3140V",
+  "0094381": {
+    "uid": "0094381-2016-01-19",
     "subject": "HSEM",
     "number": "3140",
     "honors": true
   },
-  "811332": {
-    "uid": "811332",
-    "code": "HSEM3201H",
+  "8113321": {
+    "uid": "8113321-2018-01-16",
     "subject": "HSEM",
     "number": "3201",
     "honors": true
   },
-  "811731": {
-    "uid": "811731",
-    "code": "HSEM3201V",
+  "8117311": {
+    "uid": "8117311-2018-01-16",
     "subject": "HSEM",
     "number": "3201",
     "honors": true
   },
-  "811883": {
-    "uid": "811883",
-    "code": "HSEM3202H",
+  "8118831": {
+    "uid": "8118831-2018-01-16",
     "subject": "HSEM",
     "number": "3202",
     "honors": true
   },
-  "818304": {
-    "uid": "818304",
-    "code": "HSEM3203H",
+  "8183041": {
+    "uid": "8183041-2023-09-05",
     "subject": "HSEM",
     "number": "3203",
     "honors": true
   },
-  "805416": {
-    "uid": "805416",
-    "code": "HSEM3205H",
+  "8054161": {
+    "uid": "8054161-2022-01-18",
     "subject": "HSEM",
     "number": "3205",
     "honors": true
   },
-  "802659": {
-    "uid": "802659",
-    "code": "HSEM3206H",
+  "8026591": {
+    "uid": "8026591-2016-01-19",
     "subject": "HSEM",
     "number": "3206",
     "honors": true
   },
-  "801858": {
-    "uid": "801858",
-    "code": "HSEM3207H",
+  "8018581": {
+    "uid": "8018581-2016-01-19",
     "subject": "HSEM",
     "number": "3207",
     "honors": true
   },
-  "796396": {
-    "uid": "796396",
-    "code": "HSEM3210H",
+  "7963961": {
+    "uid": "7963961-2016-01-19",
     "subject": "HSEM",
     "number": "3210",
     "honors": true
   },
-  "826781": {
-    "uid": "826781",
-    "code": "HSEM3231H",
+  "8267811": {
+    "uid": "8267811-2024-01-16",
     "subject": "HSEM",
     "number": "3231",
     "honors": true
   },
-  "827045": {
-    "uid": "827045",
-    "code": "HSEM3232H",
+  "8270451": {
+    "uid": "8270451-2024-05-13",
     "subject": "HSEM",
     "number": "3232",
     "honors": true
   },
-  "827122": {
-    "uid": "827122",
-    "code": "HSEM3241H",
+  "8271221": {
+    "uid": "8271221-2024-09-03",
     "subject": "HSEM",
     "number": "3241",
     "honors": true
   },
-  "827152": {
-    "uid": "827152",
-    "code": "HSEM3242H",
+  "8271521": {
+    "uid": "8271521-2024-09-03",
     "subject": "HSEM",
     "number": "3242",
     "honors": true
   },
-  "827123": {
-    "uid": "827123",
-    "code": "HSEM3247H",
+  "8274591": {
+    "uid": "8274591-2025-01-21",
+    "subject": "HSEM",
+    "number": "3243",
+    "honors": true
+  },
+  "8274111": {
+    "uid": "8274111-2025-01-21",
+    "subject": "HSEM",
+    "number": "3244",
+    "honors": true
+  },
+  "8273621": {
+    "uid": "8273621-2025-01-21",
+    "subject": "HSEM",
+    "number": "3246",
+    "honors": true
+  },
+  "8271231": {
+    "uid": "8271231-2024-09-03",
     "subject": "HSEM",
     "number": "3247",
     "honors": true
   },
-  "827153": {
-    "uid": "827153",
-    "code": "HSEM3248H",
+  "8271531": {
+    "uid": "8271531-2024-09-03",
     "subject": "HSEM",
     "number": "3248",
     "honors": true
   },
-  "801859": {
-    "uid": "801859",
-    "code": "HSEM3307H",
+  "8274131": {
+    "uid": "8274131-2025-01-21",
+    "subject": "HSEM",
+    "number": "3249",
+    "honors": true
+  },
+  "8273511": {
+    "uid": "8273511-2025-01-21",
+    "subject": "HSEM",
+    "number": "3251",
+    "honors": true
+  },
+  "8018591": {
+    "uid": "8018591-2016-01-19",
     "subject": "HSEM",
     "number": "3307",
     "honors": true
   },
-  "811906": {
-    "uid": "811906",
-    "code": "HSEM3308H",
+  "8119061": {
+    "uid": "8119061-2017-01-17",
     "subject": "HSEM",
     "number": "3308",
     "honors": true
   },
-  "812862": {
-    "uid": "812862",
-    "code": "HSEM3308V",
+  "8128621": {
+    "uid": "8128621-2023-09-05",
     "subject": "HSEM",
     "number": "3308",
     "honors": true
   },
-  "803355": {
-    "uid": "803355",
-    "code": "HSEM3320H",
+  "8033551": {
+    "uid": "8033551-2016-01-19",
     "subject": "HSEM",
     "number": "3320",
     "honors": true
   },
-  "809797": {
-    "uid": "809797",
-    "code": "HSEM3323H",
+  "8097971": {
+    "uid": "8097971-2017-01-17",
     "subject": "HSEM",
     "number": "3323",
     "honors": true
   },
-  "818823": {
-    "uid": "818823",
-    "code": "HSEM3327H",
+  "8188231": {
+    "uid": "8188231-2023-09-05",
     "subject": "HSEM",
     "number": "3327",
     "honors": true
   },
-  "805310": {
-    "uid": "805310",
-    "code": "HSEM3404H",
+  "8053101": {
+    "uid": "8053101-2018-01-16",
     "subject": "HSEM",
     "number": "3404",
     "honors": true
   },
-  "808254": {
-    "uid": "808254",
-    "code": "HSEM3410H",
+  "8082541": {
+    "uid": "8082541-2018-01-16",
     "subject": "HSEM",
     "number": "3410",
     "honors": true
   },
-  "818827": {
-    "uid": "818827",
-    "code": "HSEM3413H",
+  "8188271": {
+    "uid": "8188271-2023-09-05",
     "subject": "HSEM",
     "number": "3413",
     "honors": true
   },
-  "819894": {
-    "uid": "819894",
-    "code": "HSEM3414H",
+  "8198941": {
+    "uid": "8198941-2023-09-05",
     "subject": "HSEM",
     "number": "3414",
     "honors": true
   },
-  "818063": {
-    "uid": "818063",
-    "code": "HSEM3415H",
+  "8180631": {
+    "uid": "8180631-2023-09-05",
     "subject": "HSEM",
     "number": "3415",
     "honors": true
   },
-  "817989": {
-    "uid": "817989",
-    "code": "HSEM3511H",
+  "8179891": {
+    "uid": "8179891-2022-01-18",
     "subject": "HSEM",
     "number": "3511",
     "honors": true
   },
-  "826535": {
-    "uid": "826535",
-    "code": "HSEM3515H",
+  "8265351": {
+    "uid": "8265351-2023-09-05",
     "subject": "HSEM",
     "number": "3515",
     "honors": true
   },
-  "803340": {
-    "uid": "803340",
-    "code": "HSEM3522H",
+  "8033401": {
+    "uid": "8033401-2016-01-19",
     "subject": "HSEM",
     "number": "3522",
     "honors": true
   },
-  "806331": {
-    "uid": "806331",
-    "code": "HSEM3530H",
+  "8063311": {
+    "uid": "8063311-2016-01-19",
     "subject": "HSEM",
     "number": "3530",
     "honors": true
   },
-  "811741": {
-    "uid": "811741",
-    "code": "HSEM3608H",
+  "8117411": {
+    "uid": "8117411-2018-01-16",
     "subject": "HSEM",
     "number": "3608",
     "honors": true
   },
-  "801860": {
-    "uid": "801860",
-    "code": "HSEM3609H",
+  "8018601": {
+    "uid": "8018601-2016-01-19",
     "subject": "HSEM",
     "number": "3609",
     "honors": true
   },
-  "810184": {
-    "uid": "810184",
-    "code": "HSEM3614H",
+  "8101841": {
+    "uid": "8101841-2018-01-16",
     "subject": "HSEM",
     "number": "3614",
     "honors": true
   },
-  "817207": {
-    "uid": "817207",
-    "code": "HSEM3619H",
+  "8172071": {
+    "uid": "8172071-2020-01-21",
     "subject": "HSEM",
     "number": "3619",
     "honors": true
   },
-  "815950": {
-    "uid": "815950",
-    "code": "HSEM3635H",
+  "8159501": {
+    "uid": "8159501-2018-01-16",
     "subject": "HSEM",
     "number": "3635",
     "honors": true
   },
-  "817338": {
-    "uid": "817338",
-    "code": "HSEM3636H",
+  "8173381": {
+    "uid": "8173381-2023-09-05",
     "subject": "HSEM",
     "number": "3636",
     "honors": true
   },
-  "811333": {
-    "uid": "811333",
-    "code": "HSEM3701H",
+  "8113331": {
+    "uid": "8113331-2022-01-18",
     "subject": "HSEM",
     "number": "3701",
     "honors": true
   },
-  "806774": {
-    "uid": "806774",
-    "code": "HSEM3702H",
+  "8067741": {
+    "uid": "8067741-2018-01-16",
     "subject": "HSEM",
     "number": "3702",
     "honors": true
   },
-  "815951": {
-    "uid": "815951",
-    "code": "HSEM3705H",
+  "8159511": {
+    "uid": "8159511-2022-09-06",
     "subject": "HSEM",
     "number": "3705",
     "honors": true
   },
-  "802401": {
-    "uid": "802401",
-    "code": "HSEM3708H",
+  "8024011": {
+    "uid": "8024011-2016-01-19",
     "subject": "HSEM",
     "number": "3708",
     "honors": true
   },
-  "813717": {
-    "uid": "813717",
-    "code": "HSEM3715H",
+  "8137171": {
+    "uid": "8137171-2022-01-18",
     "subject": "HSEM",
     "number": "3715",
     "honors": true
   },
-  "804148": {
-    "uid": "804148",
-    "code": "HSEM3716H",
+  "8041481": {
+    "uid": "8041481-2017-01-17",
     "subject": "HSEM",
     "number": "3716",
     "honors": true
   },
-  "818924": {
-    "uid": "818924",
-    "code": "HSEM3718H",
+  "8189241": {
+    "uid": "8189241-2022-01-18",
     "subject": "HSEM",
     "number": "3718",
     "honors": true
   },
-  "809798": {
-    "uid": "809798",
-    "code": "HSEM3719H",
+  "8097981": {
+    "uid": "8097981-2017-01-17",
     "subject": "HSEM",
     "number": "3719",
     "honors": true
   },
-  "810185": {
-    "uid": "810185",
-    "code": "HSEM3720H",
+  "8101851": {
+    "uid": "8101851-2018-01-16",
     "subject": "HSEM",
     "number": "3720",
     "honors": true
   },
-  "813980": {
-    "uid": "813980",
-    "code": "HSEM3724H",
+  "8139801": {
+    "uid": "8139801-2018-01-16",
     "subject": "HSEM",
     "number": "3724",
     "honors": true
   },
-  "801861": {
-    "uid": "801861",
-    "code": "HSEM3801H",
+  "8018611": {
+    "uid": "8018611-2022-01-18",
     "subject": "HSEM",
     "number": "3801",
     "honors": true
   },
-  "803487": {
-    "uid": "803487",
-    "code": "HSEM3802H",
+  "8034871": {
+    "uid": "8034871-2016-01-19",
     "subject": "HSEM",
     "number": "3802",
     "honors": true
   },
-  "817217": {
-    "uid": "817217",
-    "code": "HSEM3803H",
+  "8172171": {
+    "uid": "8172171-2023-09-05",
     "subject": "HSEM",
     "number": "3803",
     "honors": true
   },
-  "818288": {
-    "uid": "818288",
-    "code": "HSEM3804H",
+  "8182881": {
+    "uid": "8182881-2022-01-18",
     "subject": "HSEM",
     "number": "3804",
     "honors": true
   },
-  "818406": {
-    "uid": "818406",
-    "code": "HSEM3805H",
+  "8184061": {
+    "uid": "8184061-2023-09-05",
     "subject": "HSEM",
     "number": "3805",
     "honors": true
   },
-  "825779": {
-    "uid": "825779",
-    "code": "HSEM3807H",
+  "8257791": {
+    "uid": "8257791-2022-09-06",
     "subject": "HSEM",
     "number": "3807",
     "honors": true
   },
-  "826536": {
-    "uid": "826536",
-    "code": "HSEM3809H",
+  "8265361": {
+    "uid": "8265361-2023-09-05",
     "subject": "HSEM",
     "number": "3809",
     "honors": true
   },
-  "802232": {
-    "uid": "802232",
-    "code": "HSEM3901H",
+  "8022321": {
+    "uid": "8022321-2014-09-02",
     "subject": "HSEM",
     "number": "3901",
     "honors": true
   },
-  "802235": {
-    "uid": "802235",
-    "code": "HSEM3902H",
+  "8022351": {
+    "uid": "8022351-2014-09-02",
     "subject": "HSEM",
     "number": "3902",
     "honors": true
   },
-  "802236": {
-    "uid": "802236",
-    "code": "HSEM3941H",
+  "8022361": {
+    "uid": "8022361-2023-09-05",
     "subject": "HSEM",
     "number": "3941",
     "honors": true
   },
-  "802237": {
-    "uid": "802237",
-    "code": "HSEM3942H",
+  "8022371": {
+    "uid": "8022371-2014-09-02",
     "subject": "HSEM",
     "number": "3942",
     "honors": true
   },
-  "817968": {
-    "uid": "817968",
-    "code": "HSEM3953H",
+  "8179681": {
+    "uid": "8179681-2023-09-05",
     "subject": "HSEM",
     "number": "3953",
     "honors": true
   },
-  "802238": {
-    "uid": "802238",
-    "code": "HSEM3991H",
+  "8022381": {
+    "uid": "8022381-2016-01-19",
     "subject": "HSEM",
     "number": "3991",
     "honors": true
   },
-  "802239": {
-    "uid": "802239",
-    "code": "HSEM3992H",
+  "8022391": {
+    "uid": "8022391-2016-01-19",
     "subject": "HSEM",
     "number": "3992",
     "honors": true
   },
-  "802240": {
-    "uid": "802240",
-    "code": "HSEM4941H",
+  "8022401": {
+    "uid": "8022401-2014-09-02",
     "subject": "HSEM",
     "number": "4941",
     "honors": true
   },
-  "802241": {
-    "uid": "802241",
-    "code": "HSEM4942H",
+  "8022411": {
+    "uid": "8022411-2014-09-02",
     "subject": "HSEM",
     "number": "4942",
     "honors": true
   },
-  "804910": {
-    "uid": "804910",
-    "code": "HSG4160H",
+  "8049101": {
+    "uid": "8049101-2022-09-06",
     "subject": "HSG",
     "number": "4160",
     "honors": true
   },
-  "805098": {
-    "uid": "805098",
-    "code": "IBUS4050",
-    "subject": "IBUS",
-    "number": "4050",
-    "honors": false
-  },
-  "827154": {
-    "uid": "827154",
-    "code": "IBUS4622",
-    "subject": "IBUS",
-    "number": "4622",
-    "honors": false
-  },
-  "804911": {
-    "uid": "804911",
-    "code": "IDES4160H",
+  "8049111": {
+    "uid": "8049111-2022-09-06",
     "subject": "IDES",
     "number": "4160",
     "honors": true
   },
-  "803575": {
-    "uid": "803575",
-    "code": "IDSC3001H",
+  "8035751": {
+    "uid": "8035751-2021-09-07",
     "subject": "IDSC",
     "number": "3001",
     "honors": true
   },
-  "803308": {
-    "uid": "803308",
-    "code": "JOUR1001H",
+  "8033081": {
+    "uid": "8033081-2023-01-17",
     "subject": "JOUR",
     "number": "1001",
     "honors": true
   },
-  "796798": {
-    "uid": "796798",
-    "code": "JOUR3004H",
+  "7967981": {
+    "uid": "7967981-2023-01-17",
     "subject": "JOUR",
     "number": "3004",
     "honors": true
   },
-  "793487": {
-    "uid": "793487",
-    "code": "JOUR3101H",
+  "7934871": {
+    "uid": "7934871-2014-01-21",
     "subject": "JOUR",
     "number": "3101",
     "honors": true
   },
-  "000229": {
-    "uid": "000229",
-    "code": "JOUR3101W",
-    "subject": "JOUR",
-    "number": "3101",
-    "honors": false
-  },
-  "790544": {
-    "uid": "790544",
-    "code": "JOUR3102",
-    "subject": "JOUR",
-    "number": "3102",
-    "honors": false
-  },
-  "810238": {
-    "uid": "810238",
-    "code": "JOUR3103",
-    "subject": "JOUR",
-    "number": "3103",
-    "honors": false
-  },
-  "000230": {
-    "uid": "000230",
-    "code": "JOUR3121",
-    "subject": "JOUR",
-    "number": "3121",
-    "honors": false
-  },
-  "000232": {
-    "uid": "000232",
-    "code": "JOUR3155",
-    "subject": "JOUR",
-    "number": "3155",
-    "honors": false
-  },
-  "000233": {
-    "uid": "000233",
-    "code": "JOUR3173W",
-    "subject": "JOUR",
-    "number": "3173",
-    "honors": false
-  },
-  "000236": {
-    "uid": "000236",
-    "code": "JOUR3201",
-    "subject": "JOUR",
-    "number": "3201",
-    "honors": false
-  },
-  "000237": {
-    "uid": "000237",
-    "code": "JOUR3241W",
-    "subject": "JOUR",
-    "number": "3241",
-    "honors": false
-  },
-  "000238": {
-    "uid": "000238",
-    "code": "JOUR3251",
-    "subject": "JOUR",
-    "number": "3251",
-    "honors": false
-  },
-  "807880": {
-    "uid": "807880",
-    "code": "JOUR3253",
-    "subject": "JOUR",
-    "number": "3253",
-    "honors": false
-  },
-  "000251": {
-    "uid": "000251",
-    "code": "JOUR3261",
-    "subject": "JOUR",
-    "number": "3261",
-    "honors": false
-  },
-  "808086": {
-    "uid": "808086",
-    "code": "JOUR3275",
-    "subject": "JOUR",
-    "number": "3275",
-    "honors": false
-  },
-  "000234": {
-    "uid": "000234",
-    "code": "JOUR3279W",
-    "subject": "JOUR",
-    "number": "3279",
-    "honors": false
-  },
-  "000239": {
-    "uid": "000239",
-    "code": "JOUR3321",
-    "subject": "JOUR",
-    "number": "3321",
-    "honors": false
-  },
-  "000240": {
-    "uid": "000240",
-    "code": "JOUR3451",
-    "subject": "JOUR",
-    "number": "3451",
-    "honors": false
-  },
-  "799810": {
-    "uid": "799810",
-    "code": "JOUR3745H",
+  "7998101": {
+    "uid": "7998101-2014-09-02",
     "subject": "JOUR",
     "number": "3745",
     "honors": true
   },
-  "805503": {
-    "uid": "805503",
-    "code": "JOUR3776H",
+  "8055031": {
+    "uid": "8055031-2022-09-06",
     "subject": "JOUR",
     "number": "3776",
     "honors": true
   },
-  "000560": {
-    "uid": "000560",
-    "code": "JOUR4171",
-    "subject": "JOUR",
-    "number": "4171",
-    "honors": false
-  },
-  "818921": {
-    "uid": "818921",
-    "code": "JOUR4172",
-    "subject": "JOUR",
-    "number": "4172",
-    "honors": false
-  },
-  "819594": {
-    "uid": "819594",
-    "code": "JOUR4173",
-    "subject": "JOUR",
-    "number": "4173",
-    "honors": false
-  },
-  "792927": {
-    "uid": "792927",
-    "code": "JOUR4175",
-    "subject": "JOUR",
-    "number": "4175",
-    "honors": false
-  },
-  "800231": {
-    "uid": "800231",
-    "code": "JOUR4242",
-    "subject": "JOUR",
-    "number": "4242",
-    "honors": false
-  },
-  "814256": {
-    "uid": "814256",
-    "code": "JOUR4243",
-    "subject": "JOUR",
-    "number": "4243",
-    "honors": false
-  },
-  "825075": {
-    "uid": "825075",
-    "code": "JOUR4244",
-    "subject": "JOUR",
-    "number": "4244",
-    "honors": false
-  },
-  "825121": {
-    "uid": "825121",
-    "code": "JOUR4258",
-    "subject": "JOUR",
-    "number": "4258",
-    "honors": false
-  },
-  "000248": {
-    "uid": "000248",
-    "code": "JOUR4259",
-    "subject": "JOUR",
-    "number": "4259",
-    "honors": false
-  },
-  "808050": {
-    "uid": "808050",
-    "code": "JOUR4262",
-    "subject": "JOUR",
-    "number": "4262",
-    "honors": false
-  },
-  "000252": {
-    "uid": "000252",
-    "code": "JOUR4263",
-    "subject": "JOUR",
-    "number": "4263",
-    "honors": false
-  },
-  "790718": {
-    "uid": "790718",
-    "code": "JOUR4302",
-    "subject": "JOUR",
-    "number": "4302",
-    "honors": false
-  },
-  "801898": {
-    "uid": "801898",
-    "code": "JOUR4303",
-    "subject": "JOUR",
-    "number": "4303",
-    "honors": false
-  },
-  "000258": {
-    "uid": "000258",
-    "code": "JOUR4451",
-    "subject": "JOUR",
-    "number": "4451",
-    "honors": false
-  },
-  "000257": {
-    "uid": "000257",
-    "code": "JOUR4452",
-    "subject": "JOUR",
-    "number": "4452",
-    "honors": false
-  },
-  "801715": {
-    "uid": "801715",
-    "code": "JOUR4721H",
+  "8017151": {
+    "uid": "8017151-2018-09-04",
     "subject": "JOUR",
     "number": "4721",
     "honors": true
   },
-  "000267": {
-    "uid": "000267",
-    "code": "JOUR4731H",
+  "0002671": {
+    "uid": "0002671-2012-09-04",
     "subject": "JOUR",
     "number": "4731",
     "honors": true
   },
-  "804111": {
-    "uid": "804111",
-    "code": "JOUR4733V",
+  "8041111": {
+    "uid": "8041111-2023-01-17",
     "subject": "JOUR",
     "number": "4733",
     "honors": true
   },
-  "790951": {
-    "uid": "790951",
-    "code": "JOUR4990",
-    "subject": "JOUR",
-    "number": "4990",
-    "honors": false
-  },
-  "797784": {
-    "uid": "797784",
-    "code": "JOUR4990H",
+  "7977841": {
+    "uid": "7977841-2014-09-02",
     "subject": "JOUR",
     "number": "4990",
     "honors": true
   },
-  "000566": {
-    "uid": "000566",
-    "code": "JOUR4993H",
+  "0005661": {
+    "uid": "0005661-2020-09-08",
     "subject": "JOUR",
     "number": "4993",
     "honors": true
   },
-  "000246": {
-    "uid": "000246",
-    "code": "JOUR5131",
-    "subject": "JOUR",
-    "number": "5131",
-    "honors": false
-  },
-  "000247": {
-    "uid": "000247",
-    "code": "JOUR5155",
-    "subject": "JOUR",
-    "number": "5155",
-    "honors": false
-  },
-  "000249": {
-    "uid": "000249",
-    "code": "JOUR5174",
-    "subject": "JOUR",
-    "number": "5174",
-    "honors": false
-  },
-  "799945": {
-    "uid": "799945",
-    "code": "JOUR5195H",
+  "7999451": {
+    "uid": "7999451-2012-09-04",
     "subject": "JOUR",
     "number": "5195",
     "honors": true
   },
-  "801900": {
-    "uid": "801900",
-    "code": "JOUR5543",
-    "subject": "JOUR",
-    "number": "5543",
-    "honors": false
-  },
-  "011095": {
-    "uid": "011095",
-    "code": "JPN3090H",
+  "0110951": {
+    "uid": "0110951-2019-01-22",
     "subject": "JPN",
     "number": "3090",
     "honors": true
   },
-  "816905": {
-    "uid": "816905",
-    "code": "JWST4315",
-    "subject": "JWST",
-    "number": "4315",
-    "honors": false
-  },
-  "004830": {
-    "uid": "004830",
-    "code": "KIN3112",
-    "subject": "KIN",
-    "number": "3112",
-    "honors": false
-  },
-  "005270": {
-    "uid": "005270",
-    "code": "KIN3385",
-    "subject": "KIN",
-    "number": "3385",
-    "honors": false
-  },
-  "792456": {
-    "uid": "792456",
-    "code": "KIN3993H",
+  "7924561": {
+    "uid": "7924561-2021-09-07",
     "subject": "KIN",
     "number": "3993",
     "honors": true
   },
-  "791963": {
-    "uid": "791963",
-    "code": "KIN4001H",
+  "7919631": {
+    "uid": "7919631-2022-05-16",
     "subject": "KIN",
     "number": "4001",
     "honors": true
   },
-  "813583": {
-    "uid": "813583",
-    "code": "LA1601H",
+  "8135831": {
+    "uid": "8135831-2016-05-23",
     "subject": "LA",
     "number": "1601",
     "honors": true
   },
-  "808873": {
-    "uid": "808873",
-    "code": "LA4160H",
+  "8088731": {
+    "uid": "8088731-2013-05-28",
     "subject": "LA",
     "number": "4160",
     "honors": true
   },
-  "818229": {
-    "uid": "818229",
-    "code": "LAS3401V",
+  "8182291": {
+    "uid": "8182291-2023-09-05",
     "subject": "LAS",
     "number": "3401",
     "honors": true
   },
-  "008701": {
-    "uid": "008701",
-    "code": "LAT1111H",
+  "0087011": {
+    "uid": "0087011-2015-05-26",
     "subject": "LAT",
     "number": "1111",
     "honors": true
   },
-  "014123": {
-    "uid": "014123",
-    "code": "LAT1112H",
+  "0141231": {
+    "uid": "0141231-2008-05-27",
     "subject": "LAT",
     "number": "1112",
     "honors": true
   },
-  "010749": {
-    "uid": "010749",
-    "code": "LAT3960H",
+  "0107491": {
+    "uid": "0107491-2012-09-04",
     "subject": "LAT",
     "number": "3960",
     "honors": true
   },
-  "811725": {
-    "uid": "811725",
-    "code": "LAW3100H",
+  "8117251": {
+    "uid": "8117251-2015-09-08",
     "subject": "LAW",
     "number": "3100",
     "honors": true
   },
-  "825367": {
-    "uid": "825367",
-    "code": "LEAD1961V",
+  "8253671": {
+    "uid": "8253671-2022-01-18",
     "subject": "LEAD",
     "number": "1961",
     "honors": true
   },
-  "013571": {
-    "uid": "013571",
-    "code": "LING3001H",
+  "0135711": {
+    "uid": "0135711-2018-01-16",
     "subject": "LING",
     "number": "3001",
     "honors": true
   },
-  "013573": {
-    "uid": "013573",
-    "code": "LING3052V",
+  "0135731": {
+    "uid": "0135731-2023-01-17",
     "subject": "LING",
     "number": "3052",
     "honors": true
   },
-  "010463": {
-    "uid": "010463",
-    "code": "LING3101W",
-    "subject": "LING",
-    "number": "3101",
-    "honors": false
-  },
-  "805452": {
-    "uid": "805452",
-    "code": "LING3721",
-    "subject": "LING",
-    "number": "3721",
-    "honors": false
-  },
-  "010452": {
-    "uid": "010452",
-    "code": "LING4002",
-    "subject": "LING",
-    "number": "4002",
-    "honors": false
-  },
-  "802458": {
-    "uid": "802458",
-    "code": "LING4201",
-    "subject": "LING",
-    "number": "4201",
-    "honors": false
-  },
-  "802459": {
-    "uid": "802459",
-    "code": "LING4302W",
-    "subject": "LING",
-    "number": "4302",
-    "honors": false
-  },
-  "792157": {
-    "uid": "792157",
-    "code": "LING5461",
-    "subject": "LING",
-    "number": "5461",
-    "honors": false
-  },
-  "792158": {
-    "uid": "792158",
-    "code": "LING5462",
-    "subject": "LING",
-    "number": "5462",
-    "honors": false
-  },
-  "013582": {
-    "uid": "013582",
-    "code": "LING5501",
-    "subject": "LING",
-    "number": "5501",
-    "honors": false
-  },
-  "013576": {
-    "uid": "013576",
-    "code": "LING5931",
-    "subject": "LING",
-    "number": "5931",
-    "honors": false
-  },
-  "003696": {
-    "uid": "003696",
-    "code": "MATH1571H",
+  "0036961": {
+    "uid": "0036961-2021-05-17",
     "subject": "MATH",
     "number": "1571",
     "honors": true
   },
-  "003697": {
-    "uid": "003697",
-    "code": "MATH1572H",
+  "0036971": {
+    "uid": "0036971-2023-09-05",
     "subject": "MATH",
     "number": "1572",
     "honors": true
   },
-  "000280": {
-    "uid": "000280",
-    "code": "MATH2243",
-    "subject": "MATH",
-    "number": "2243",
-    "honors": false
-  },
-  "000282": {
-    "uid": "000282",
-    "code": "MATH2263",
-    "subject": "MATH",
-    "number": "2263",
-    "honors": false
-  },
-  "003694": {
-    "uid": "003694",
-    "code": "MATH2373",
-    "subject": "MATH",
-    "number": "2373",
-    "honors": false
-  },
-  "003695": {
-    "uid": "003695",
-    "code": "MATH2374",
-    "subject": "MATH",
-    "number": "2374",
-    "honors": false
-  },
-  "003698": {
-    "uid": "003698",
-    "code": "MATH2573H",
+  "0036981": {
+    "uid": "0036981-2023-09-05",
     "subject": "MATH",
     "number": "2573",
     "honors": true
   },
-  "004311": {
-    "uid": "004311",
-    "code": "MATH2574H",
+  "0043111": {
+    "uid": "0043111-2021-05-17",
     "subject": "MATH",
     "number": "2574",
     "honors": true
   },
-  "792126": {
-    "uid": "792126",
-    "code": "MATH2582H",
+  "7921261": {
+    "uid": "7921261-2012-09-04",
     "subject": "MATH",
     "number": "2582",
     "honors": true
   },
-  "792656": {
-    "uid": "792656",
-    "code": "MATH2583H",
+  "7926561": {
+    "uid": "7926561-2012-09-04",
     "subject": "MATH",
     "number": "2583",
     "honors": true
   },
-  "790665": {
-    "uid": "790665",
-    "code": "MATH3574H",
+  "7906651": {
+    "uid": "7906651-2003-09-02",
     "subject": "MATH",
     "number": "3574",
     "honors": true
   },
-  "793169": {
-    "uid": "793169",
-    "code": "MATH3584H",
+  "7931691": {
+    "uid": "7931691-2021-05-17",
     "subject": "MATH",
     "number": "3584",
     "honors": true
   },
-  "792127": {
-    "uid": "792127",
-    "code": "MATH3592H",
+  "7921271": {
+    "uid": "7921271-2023-09-05",
     "subject": "MATH",
     "number": "3592",
     "honors": true
   },
-  "792657": {
-    "uid": "792657",
-    "code": "MATH3593H",
+  "7926571": {
+    "uid": "7926571-2021-05-17",
     "subject": "MATH",
     "number": "3593",
     "honors": true
   },
-  "002368": {
-    "uid": "002368",
-    "code": "MATH4065",
-    "subject": "MATH",
-    "number": "4065",
-    "honors": false
-  },
-  "010795": {
-    "uid": "010795",
-    "code": "MATH4242",
-    "subject": "MATH",
-    "number": "4242",
-    "honors": false
-  },
-  "004295": {
-    "uid": "004295",
-    "code": "MATH4428",
-    "subject": "MATH",
-    "number": "4428",
-    "honors": false
-  },
-  "004184": {
-    "uid": "004184",
-    "code": "MATH4512",
-    "subject": "MATH",
-    "number": "4512",
-    "honors": false
-  },
-  "004304": {
-    "uid": "004304",
-    "code": "MATH4567",
-    "subject": "MATH",
-    "number": "4567",
-    "honors": false
-  },
-  "805605": {
-    "uid": "805605",
-    "code": "MATH4604",
-    "subject": "MATH",
-    "number": "4604",
-    "honors": false
-  },
-  "797579": {
-    "uid": "797579",
-    "code": "MATH4653",
-    "subject": "MATH",
-    "number": "4653",
-    "honors": false
-  },
-  "004069": {
-    "uid": "004069",
-    "code": "MATH5285H",
+  "0040691": {
+    "uid": "0040691-2021-05-17",
     "subject": "MATH",
     "number": "5285",
     "honors": true
   },
-  "004070": {
-    "uid": "004070",
-    "code": "MATH5286H",
+  "0040701": {
+    "uid": "0040701-2021-05-17",
     "subject": "MATH",
     "number": "5286",
     "honors": true
   },
-  "004071": {
-    "uid": "004071",
-    "code": "MATH5335",
-    "subject": "MATH",
-    "number": "5335",
-    "honors": false
-  },
-  "004292": {
-    "uid": "004292",
-    "code": "MATH5345H",
+  "0042921": {
+    "uid": "0042921-2021-05-17",
     "subject": "MATH",
     "number": "5345",
     "honors": true
   },
-  "004293": {
-    "uid": "004293",
-    "code": "MATH5378",
-    "subject": "MATH",
-    "number": "5378",
-    "honors": false
-  },
-  "004294": {
-    "uid": "004294",
-    "code": "MATH5385",
-    "subject": "MATH",
-    "number": "5385",
-    "honors": false
-  },
-  "004300": {
-    "uid": "004300",
-    "code": "MATH5467",
-    "subject": "MATH",
-    "number": "5467",
-    "honors": false
-  },
-  "004301": {
-    "uid": "004301",
-    "code": "MATH5485",
-    "subject": "MATH",
-    "number": "5485",
-    "honors": false
-  },
-  "004306": {
-    "uid": "004306",
-    "code": "MATH5525",
-    "subject": "MATH",
-    "number": "5525",
-    "honors": false
-  },
-  "004187": {
-    "uid": "004187",
-    "code": "MATH5535",
-    "subject": "MATH",
-    "number": "5535",
-    "honors": false
-  },
-  "004305": {
-    "uid": "004305",
-    "code": "MATH5583",
-    "subject": "MATH",
-    "number": "5583",
-    "honors": false
-  },
-  "004185": {
-    "uid": "004185",
-    "code": "MATH5587",
-    "subject": "MATH",
-    "number": "5587",
-    "honors": false
-  },
-  "016898": {
-    "uid": "016898",
-    "code": "MATH5588",
-    "subject": "MATH",
-    "number": "5588",
-    "honors": false
-  },
-  "794170": {
-    "uid": "794170",
-    "code": "MATH5594H",
+  "7941701": {
+    "uid": "7941701-2017-01-17",
     "subject": "MATH",
     "number": "5594",
     "honors": true
   },
-  "004181": {
-    "uid": "004181",
-    "code": "MATH5615H",
+  "0041811": {
+    "uid": "0041811-2021-05-17",
     "subject": "MATH",
     "number": "5615",
     "honors": true
   },
-  "004182": {
-    "uid": "004182",
-    "code": "MATH5616H",
+  "0041821": {
+    "uid": "0041821-2021-05-17",
     "subject": "MATH",
     "number": "5616",
     "honors": true
   },
-  "004308": {
-    "uid": "004308",
-    "code": "MATH5651",
-    "subject": "MATH",
-    "number": "5651",
-    "honors": false
-  },
-  "004076": {
-    "uid": "004076",
-    "code": "MATH5705",
-    "subject": "MATH",
-    "number": "5705",
-    "honors": false
-  },
-  "004075": {
-    "uid": "004075",
-    "code": "MATH5707",
-    "subject": "MATH",
-    "number": "5707",
-    "honors": false
-  },
-  "004074": {
-    "uid": "004074",
-    "code": "MATH5711",
-    "subject": "MATH",
-    "number": "5711",
-    "honors": false
-  },
-  "813661": {
-    "uid": "813661",
-    "code": "MATS4594H",
+  "8136611": {
+    "uid": "8136611-2021-09-07",
     "subject": "MATS",
     "number": "4594",
     "honors": true
   },
-  "825882": {
-    "uid": "825882",
-    "code": "ME2021",
-    "subject": "ME",
-    "number": "2021",
-    "honors": false
-  },
-  "015455": {
-    "uid": "015455",
-    "code": "ME4081H",
+  "0154551": {
+    "uid": "0154551-2024-09-03",
     "subject": "ME",
     "number": "4081",
     "honors": true
   },
-  "015457": {
-    "uid": "015457",
-    "code": "ME4082H",
+  "0154571": {
+    "uid": "0154571-2024-09-03",
     "subject": "ME",
     "number": "4082",
     "honors": true
   },
-  "801648": {
-    "uid": "801648",
-    "code": "MGMT1001H",
+  "8016481": {
+    "uid": "8016481-2015-01-20",
     "subject": "MGMT",
     "number": "1001",
     "honors": true
   },
-  "792612": {
-    "uid": "792612",
-    "code": "MGMT3033V",
+  "7926121": {
+    "uid": "7926121-2014-09-02",
     "subject": "MGMT",
     "number": "3033",
     "honors": true
   },
-  "793666": {
-    "uid": "793666",
-    "code": "MGMT3040H",
+  "7936661": {
+    "uid": "7936661-2012-09-04",
     "subject": "MGMT",
     "number": "3040",
     "honors": true
   },
-  "792633": {
-    "uid": "792633",
-    "code": "MGMT4004V",
+  "7926331": {
+    "uid": "7926331-2012-09-04",
     "subject": "MGMT",
     "number": "4004",
     "honors": true
   },
-  "013240": {
-    "uid": "013240",
-    "code": "MGMT4004W",
-    "subject": "MGMT",
-    "number": "4004",
-    "honors": false
-  },
-  "817641": {
-    "uid": "817641",
-    "code": "MKTG3001H",
+  "8176411": {
+    "uid": "8176411-2022-09-06",
     "subject": "MKTG",
     "number": "3001",
     "honors": true
   },
-  "816784": {
-    "uid": "816784",
-    "code": "MKTG3005",
-    "subject": "MKTG",
-    "number": "3005",
-    "honors": false
-  },
-  "013768": {
-    "uid": "013768",
-    "code": "MKTG3011",
-    "subject": "MKTG",
-    "number": "3011",
-    "honors": false
-  },
-  "816782": {
-    "uid": "816782",
-    "code": "MKTG4072",
-    "subject": "MKTG",
-    "number": "4072",
-    "honors": false
-  },
-  "810561": {
-    "uid": "810561",
-    "code": "MKTG4092H",
+  "8105611": {
+    "uid": "8105611-2016-09-06",
     "subject": "MKTG",
     "number": "4092",
     "honors": true
   },
-  "819388": {
-    "uid": "819388",
-    "code": "MLSP5013H",
+  "8193881": {
+    "uid": "8193881-2023-09-05",
     "subject": "MLSP",
     "number": "5013",
     "honors": true
   },
-  "799133": {
-    "uid": "799133",
-    "code": "MUS1001H",
+  "7991331": {
+    "uid": "7991331-2014-01-21",
     "subject": "MUS",
     "number": "1001",
     "honors": true
   },
-  "820310": {
-    "uid": "820310",
-    "code": "MUS3501H",
+  "8203101": {
+    "uid": "8203101-2020-09-08",
     "subject": "MUS",
     "number": "3501",
     "honors": true
   },
-  "800223": {
-    "uid": "800223",
-    "code": "MUS3950H",
+  "8002231": {
+    "uid": "8002231-2015-05-26",
     "subject": "MUS",
     "number": "3950",
     "honors": true
   },
-  "813368": {
-    "uid": "813368",
-    "code": "NSCI5300",
-    "subject": "NSCI",
-    "number": "5300",
-    "honors": false
-  },
-  "806338": {
-    "uid": "806338",
-    "code": "NURS3802H",
+  "8063381": {
+    "uid": "8063381-2017-09-05",
     "subject": "NURS",
     "number": "3802",
     "honors": true
   },
-  "806898": {
-    "uid": "806898",
-    "code": "NURS3806H",
+  "8068981": {
+    "uid": "8068981-2019-09-03",
     "subject": "NURS",
     "number": "3806",
     "honors": true
   },
-  "827339": {
-    "uid": "827339",
-    "code": "NURS3812H",
+  "8273391": {
+    "uid": "8273391-2024-09-03",
     "subject": "NURS",
     "number": "3812",
     "honors": true
   },
-  "007436": {
-    "uid": "007436",
-    "code": "NURS4205V",
+  "0074361": {
+    "uid": "0074361-2015-01-20",
     "subject": "NURS",
     "number": "4205",
     "honors": true
   },
-  "805362": {
-    "uid": "805362",
-    "code": "NURS4303",
-    "subject": "NURS",
-    "number": "4303",
-    "honors": false
-  },
-  "805363": {
-    "uid": "805363",
-    "code": "NURS4305",
-    "subject": "NURS",
-    "number": "4305",
-    "honors": false
-  },
-  "007446": {
-    "uid": "007446",
-    "code": "NURS4404V",
+  "0074461": {
+    "uid": "0074461-2015-01-20",
     "subject": "NURS",
     "number": "4404",
     "honors": true
   },
-  "792667": {
-    "uid": "792667",
-    "code": "NURS4505",
-    "subject": "NURS",
-    "number": "4505",
-    "honors": false
-  },
-  "805207": {
-    "uid": "805207",
-    "code": "NURS4777W",
-    "subject": "NURS",
-    "number": "4777",
-    "honors": false
-  },
-  "015358": {
-    "uid": "015358",
-    "code": "NURS5040H",
+  "0153581": {
+    "uid": "0153581-2019-09-03",
     "subject": "NURS",
     "number": "5040",
     "honors": true
   },
-  "803366": {
-    "uid": "803366",
-    "code": "OCS4941H",
+  "8033661": {
+    "uid": "8033661-2015-05-26",
     "subject": "OCS",
     "number": "4941",
     "honors": true
   },
-  "807889": {
-    "uid": "807889",
-    "code": "OLPD2811H",
+  "8078891": {
+    "uid": "8078891-2015-01-20",
     "subject": "OLPD",
     "number": "2811",
     "honors": true
   },
-  "795766": {
-    "uid": "795766",
-    "code": "PHAR6246H",
+  "7957661": {
+    "uid": "7957661-2008-09-02",
     "subject": "PHAR",
     "number": "6246",
     "honors": true
   },
-  "015890": {
-    "uid": "015890",
-    "code": "PHAR6247H",
+  "0158901": {
+    "uid": "0158901-2011-01-18",
     "subject": "PHAR",
     "number": "6247",
     "honors": true
   },
-  "006301": {
-    "uid": "006301",
-    "code": "PHIL1001H",
+  "0063011": {
+    "uid": "0063011-2023-09-05",
     "subject": "PHIL",
     "number": "1001",
     "honors": true
   },
-  "005536": {
-    "uid": "005536",
-    "code": "PHIL1002V",
+  "0055361": {
+    "uid": "0055361-2014-09-02",
     "subject": "PHIL",
     "number": "1002",
     "honors": true
   },
-  "788555": {
-    "uid": "788555",
-    "code": "PHIL1003V",
+  "7885551": {
+    "uid": "7885551-2014-09-02",
     "subject": "PHIL",
     "number": "1003",
     "honors": true
   },
-  "788556": {
-    "uid": "788556",
-    "code": "PHIL1004V",
+  "7885561": {
+    "uid": "7885561-2014-09-02",
     "subject": "PHIL",
     "number": "1004",
     "honors": true
   },
-  "800562": {
-    "uid": "800562",
-    "code": "PHIL1005H",
+  "8005621": {
+    "uid": "8005621-2019-01-22",
     "subject": "PHIL",
     "number": "1005",
     "honors": true
   },
-  "799395": {
-    "uid": "799395",
-    "code": "PHIL1910V",
+  "7993951": {
+    "uid": "7993951-2015-05-26",
     "subject": "PHIL",
     "number": "1910",
     "honors": true
   },
-  "788557": {
-    "uid": "788557",
-    "code": "PHIL3001V",
+  "7885571": {
+    "uid": "7885571-2015-05-26",
     "subject": "PHIL",
     "number": "3001",
     "honors": true
   },
-  "788558": {
-    "uid": "788558",
-    "code": "PHIL3005V",
+  "7885581": {
+    "uid": "7885581-2014-09-02",
     "subject": "PHIL",
     "number": "3005",
     "honors": true
   },
-  "007215": {
-    "uid": "007215",
-    "code": "PHIL3900H",
+  "0072151": {
+    "uid": "0072151-2015-05-26",
     "subject": "PHIL",
     "number": "3900",
     "honors": true
   },
-  "005463": {
-    "uid": "005463",
-    "code": "PHIL4010",
-    "subject": "PHIL",
-    "number": "4010",
-    "honors": false
-  },
-  "005468": {
-    "uid": "005468",
-    "code": "PHIL4055",
-    "subject": "PHIL",
-    "number": "4055",
-    "honors": false
-  },
-  "006990": {
-    "uid": "006990",
-    "code": "PHIL4311W",
-    "subject": "PHIL",
-    "number": "4311",
-    "honors": false
-  },
-  "006375": {
-    "uid": "006375",
-    "code": "PHIL4320",
-    "subject": "PHIL",
-    "number": "4320",
-    "honors": false
-  },
-  "006991": {
-    "uid": "006991",
-    "code": "PHIL4321W",
-    "subject": "PHIL",
-    "number": "4321",
-    "honors": false
-  },
-  "006993": {
-    "uid": "006993",
-    "code": "PHIL4331",
-    "subject": "PHIL",
-    "number": "4331",
-    "honors": false
-  },
-  "006376": {
-    "uid": "006376",
-    "code": "PHIL4414",
-    "subject": "PHIL",
-    "number": "4414",
-    "honors": false
-  },
-  "825630": {
-    "uid": "825630",
-    "code": "PHIL4888H",
+  "8256301": {
+    "uid": "8256301-2022-01-18",
     "subject": "PHIL",
     "number": "4888",
     "honors": true
   },
-  "804892": {
-    "uid": "804892",
-    "code": "PHIL4995H",
+  "8048921": {
+    "uid": "8048921-2020-09-08",
     "subject": "PHIL",
     "number": "4995",
     "honors": true
   },
-  "808476": {
-    "uid": "808476",
-    "code": "PHIL5010",
-    "subject": "PHIL",
-    "number": "5010",
-    "honors": false
-  },
-  "798757": {
-    "uid": "798757",
-    "code": "PHIL5050",
-    "subject": "PHIL",
-    "number": "5050",
-    "honors": false
-  },
-  "825137": {
-    "uid": "825137",
-    "code": "PHIL5055",
-    "subject": "PHIL",
-    "number": "5055",
-    "honors": false
-  },
-  "817750": {
-    "uid": "817750",
-    "code": "PHIL5320",
-    "subject": "PHIL",
-    "number": "5320",
-    "honors": false
-  },
-  "825141": {
-    "uid": "825141",
-    "code": "PHIL5321",
-    "subject": "PHIL",
-    "number": "5321",
-    "honors": false
-  },
-  "819028": {
-    "uid": "819028",
-    "code": "PHIL5331",
-    "subject": "PHIL",
-    "number": "5331",
-    "honors": false
-  },
-  "819433": {
-    "uid": "819433",
-    "code": "PHIL5414",
-    "subject": "PHIL",
-    "number": "5414",
-    "honors": false
-  },
-  "006985": {
-    "uid": "006985",
-    "code": "PHIL5415",
-    "subject": "PHIL",
-    "number": "5415",
-    "honors": false
-  },
-  "002071": {
-    "uid": "002071",
-    "code": "PHYS1302W",
-    "subject": "PHYS",
-    "number": "1302",
-    "honors": false
-  },
-  "002073": {
-    "uid": "002073",
-    "code": "PHYS1401V",
+  "0020731": {
+    "uid": "0020731-2023-09-05",
     "subject": "PHYS",
     "number": "1401",
     "honors": true
   },
-  "002074": {
-    "uid": "002074",
-    "code": "PHYS1402V",
+  "0020741": {
+    "uid": "0020741-2021-09-07",
     "subject": "PHYS",
     "number": "1402",
     "honors": true
   },
-  "797531": {
-    "uid": "797531",
-    "code": "PHYS1501V",
+  "7975311": {
+    "uid": "7975311-2020-01-21",
     "subject": "PHYS",
     "number": "1501",
     "honors": true
   },
-  "798138": {
-    "uid": "798138",
-    "code": "PHYS1502V",
+  "7981381": {
+    "uid": "7981381-2020-01-21",
     "subject": "PHYS",
     "number": "1502",
     "honors": true
   },
-  "002072": {
-    "uid": "002072",
-    "code": "PHYS2303",
-    "subject": "PHYS",
-    "number": "2303",
-    "honors": false
-  },
-  "016434": {
-    "uid": "016434",
-    "code": "PHYS2311",
-    "subject": "PHYS",
-    "number": "2311",
-    "honors": false
-  },
-  "002075": {
-    "uid": "002075",
-    "code": "PHYS2403H",
+  "0020751": {
+    "uid": "0020751-2015-05-26",
     "subject": "PHYS",
     "number": "2403",
     "honors": true
   },
-  "813648": {
-    "uid": "813648",
-    "code": "PHYS2503H",
+  "8136481": {
+    "uid": "8136481-2021-09-07",
     "subject": "PHYS",
     "number": "2503",
     "honors": true
   },
-  "002078": {
-    "uid": "002078",
-    "code": "PHYS2601",
-    "subject": "PHYS",
-    "number": "2601",
-    "honors": false
-  },
-  "817153": {
-    "uid": "817153",
-    "code": "PHYS3041",
-    "subject": "PHYS",
-    "number": "3041",
-    "honors": false
-  },
-  "002076": {
-    "uid": "002076",
-    "code": "PHYS3071W",
-    "subject": "PHYS",
-    "number": "3071",
-    "honors": false
-  },
-  "817275": {
-    "uid": "817275",
-    "code": "PHYS3605W",
-    "subject": "PHYS",
-    "number": "3605",
-    "honors": false
-  },
-  "004512": {
-    "uid": "004512",
-    "code": "PHYS3940H",
+  "0045121": {
+    "uid": "0045121-2005-09-06",
     "subject": "PHYS",
     "number": "3940",
     "honors": true
   },
-  "002079": {
-    "uid": "002079",
-    "code": "PHYS4001",
-    "subject": "PHYS",
-    "number": "4001",
-    "honors": false
-  },
-  "002080": {
-    "uid": "002080",
-    "code": "PHYS4002",
-    "subject": "PHYS",
-    "number": "4002",
-    "honors": false
-  },
-  "002104": {
-    "uid": "002104",
-    "code": "PHYS4811",
-    "subject": "PHYS",
-    "number": "4811",
-    "honors": false
-  },
-  "004513": {
-    "uid": "004513",
-    "code": "PHYS4940H",
+  "0045131": {
+    "uid": "0045131-2005-09-06",
     "subject": "PHYS",
     "number": "4940",
     "honors": true
   },
-  "797194": {
-    "uid": "797194",
-    "code": "PHYS4960H",
+  "7971941": {
+    "uid": "7971941-2021-05-17",
     "subject": "PHYS",
     "number": "4960",
     "honors": true
   },
-  "818681": {
-    "uid": "818681",
-    "code": "PMB3701",
-    "subject": "PMB",
-    "number": "3701",
-    "honors": false
-  },
-  "008803": {
-    "uid": "008803",
-    "code": "PMB4511",
-    "subject": "PMB",
-    "number": "4511",
-    "honors": false
-  },
-  "798970": {
-    "uid": "798970",
-    "code": "PMB4601",
-    "subject": "PMB",
-    "number": "4601",
-    "honors": false
-  },
-  "806490": {
-    "uid": "806490",
-    "code": "PMB5601",
-    "subject": "PMB",
-    "number": "5601",
-    "honors": false
-  },
-  "005517": {
-    "uid": "005517",
-    "code": "POL1001H",
+  "0055171": {
+    "uid": "0055171-2023-09-05",
     "subject": "POL",
     "number": "1001",
     "honors": true
   },
-  "811503": {
-    "uid": "811503",
-    "code": "POL1025H",
+  "8115031": {
+    "uid": "8115031-2023-09-05",
     "subject": "POL",
     "number": "1025",
     "honors": true
   },
-  "798738": {
-    "uid": "798738",
-    "code": "POL1054H",
+  "7987381": {
+    "uid": "7987381-2019-05-20",
     "subject": "POL",
     "number": "1054",
     "honors": true
   },
-  "788184": {
-    "uid": "788184",
-    "code": "POL1902H",
+  "7881841": {
+    "uid": "7881841-2008-09-02",
     "subject": "POL",
     "number": "1902",
     "honors": true
   },
-  "800851": {
-    "uid": "800851",
-    "code": "POL1903H",
+  "8008511": {
+    "uid": "8008511-2008-09-02",
     "subject": "POL",
     "number": "1903",
     "honors": true
   },
-  "798739": {
-    "uid": "798739",
-    "code": "POL3085H",
+  "7987391": {
+    "uid": "7987391-2023-09-05",
     "subject": "POL",
     "number": "3085",
     "honors": true
   },
-  "807642": {
-    "uid": "807642",
-    "code": "POL3108H",
+  "8076421": {
+    "uid": "8076421-2020-09-08",
     "subject": "POL",
     "number": "3108",
     "honors": true
   },
-  "007461": {
-    "uid": "007461",
-    "code": "POL3109H",
+  "0074611": {
+    "uid": "0074611-2004-09-07",
     "subject": "POL",
     "number": "3109",
     "honors": true
   },
-  "007462": {
-    "uid": "007462",
-    "code": "POL3110H",
+  "0074621": {
+    "uid": "0074621-2017-09-05",
     "subject": "POL",
     "number": "3110",
     "honors": true
   },
-  "804133": {
-    "uid": "804133",
-    "code": "POL3310H",
+  "8041331": {
+    "uid": "8041331-2022-01-18",
     "subject": "POL",
     "number": "3310",
     "honors": true
   },
-  "813766": {
-    "uid": "813766",
-    "code": "POL3481H",
+  "8137661": {
+    "uid": "8137661-2018-09-04",
     "subject": "POL",
     "number": "3481",
     "honors": true
   },
-  "808172": {
-    "uid": "808172",
-    "code": "POL3785H",
+  "8275791": {
+    "uid": "8275791-2025-01-21",
+    "subject": "POL",
+    "number": "3766",
+    "honors": true
+  },
+  "8081721": {
+    "uid": "8081721-2020-01-21",
     "subject": "POL",
     "number": "3785",
     "honors": true
   },
-  "800661": {
-    "uid": "800661",
-    "code": "POL3873V",
+  "8006611": {
+    "uid": "8006611-2016-05-23",
     "subject": "POL",
     "number": "3873",
     "honors": true
   },
-  "016346": {
-    "uid": "016346",
-    "code": "PORT3501V",
+  "0163461": {
+    "uid": "0163461-2004-09-07",
     "subject": "PORT",
     "number": "3501",
     "honors": true
   },
-  "016347": {
-    "uid": "016347",
-    "code": "PORT3502V",
+  "0163471": {
+    "uid": "0163471-2004-09-07",
     "subject": "PORT",
     "number": "3502",
     "honors": true
   },
-  "016348": {
-    "uid": "016348",
-    "code": "PORT3503V",
+  "0163481": {
+    "uid": "0163481-2004-09-07",
     "subject": "PORT",
     "number": "3503",
     "honors": true
   },
-  "790888": {
-    "uid": "790888",
-    "code": "PORT3800H",
+  "7908881": {
+    "uid": "7908881-2004-09-07",
     "subject": "PORT",
     "number": "3800",
     "honors": true
   },
-  "790847": {
-    "uid": "790847",
-    "code": "PORT3830H",
+  "7908471": {
+    "uid": "7908471-2004-09-07",
     "subject": "PORT",
     "number": "3830",
     "honors": true
   },
-  "016345": {
-    "uid": "016345",
-    "code": "PORT3910H",
+  "0163451": {
+    "uid": "0163451-2004-09-07",
     "subject": "PORT",
     "number": "3910",
     "honors": true
   },
-  "799041": {
-    "uid": "799041",
-    "code": "PSY1001H",
+  "7990411": {
+    "uid": "7990411-2021-05-17",
     "subject": "PSY",
     "number": "1001",
     "honors": true
   },
-  "799396": {
-    "uid": "799396",
-    "code": "PSY1905H",
+  "7993961": {
+    "uid": "7993961-2008-09-02",
     "subject": "PSY",
     "number": "1905",
     "honors": true
   },
-  "800363": {
-    "uid": "800363",
-    "code": "PSY3001V",
+  "8003631": {
+    "uid": "8003631-2021-05-17",
     "subject": "PSY",
     "number": "3001",
     "honors": true
   },
-  "798658": {
-    "uid": "798658",
-    "code": "PSY3005V",
+  "7986581": {
+    "uid": "7986581-2007-09-04",
     "subject": "PSY",
     "number": "3005",
     "honors": true
   },
-  "006497": {
-    "uid": "006497",
-    "code": "PSY3617",
-    "subject": "PSY",
-    "number": "3617",
-    "honors": false
-  },
-  "801919": {
-    "uid": "801919",
-    "code": "PSY3633",
-    "subject": "PSY",
-    "number": "3633",
-    "honors": false
-  },
-  "009935": {
-    "uid": "009935",
-    "code": "PSY3711",
-    "subject": "PSY",
-    "number": "3711",
-    "honors": false
-  },
-  "800362": {
-    "uid": "800362",
-    "code": "PSY3801H",
+  "8003621": {
+    "uid": "8003621-2021-05-17",
     "subject": "PSY",
     "number": "3801",
     "honors": true
   },
-  "798774": {
-    "uid": "798774",
-    "code": "PSY3960H",
+  "7987741": {
+    "uid": "7987741-2010-05-24",
     "subject": "PSY",
     "number": "3960",
     "honors": true
   },
-  "825677": {
-    "uid": "825677",
-    "code": "PSY4301",
-    "subject": "PSY",
-    "number": "4301",
-    "honors": false
-  },
-  "813973": {
-    "uid": "813973",
-    "code": "PSY4521",
-    "subject": "PSY",
-    "number": "4521",
-    "honors": false
-  },
-  "006631": {
-    "uid": "006631",
-    "code": "PSY4994V",
+  "0066311": {
+    "uid": "0066311-2021-05-17",
     "subject": "PSY",
     "number": "4994",
     "honors": true
   },
-  "011141": {
-    "uid": "011141",
-    "code": "PSY4996H",
+  "0111411": {
+    "uid": "0111411-2021-05-17",
     "subject": "PSY",
     "number": "4996",
     "honors": true
   },
-  "795235": {
-    "uid": "795235",
-    "code": "PSY5018H",
+  "7952351": {
+    "uid": "7952351-2021-05-17",
     "subject": "PSY",
     "number": "5018",
     "honors": true
   },
-  "006518": {
-    "uid": "006518",
-    "code": "PSY5101H",
+  "0065181": {
+    "uid": "0065181-2024-09-03",
     "subject": "PSY",
     "number": "5101",
     "honors": true
   },
-  "006522": {
-    "uid": "006522",
-    "code": "PSY5136",
-    "subject": "PSY",
-    "number": "5136",
-    "honors": false
-  },
-  "006616": {
-    "uid": "006616",
-    "code": "PSY5604H",
+  "0066161": {
+    "uid": "0066161-2010-05-24",
     "subject": "PSY",
     "number": "5604",
     "honors": true
   },
-  "791409": {
-    "uid": "791409",
-    "code": "PSY5708",
-    "subject": "PSY",
-    "number": "5708",
-    "honors": false
-  },
-  "006625": {
-    "uid": "006625",
-    "code": "PSY5862",
-    "subject": "PSY",
-    "number": "5862",
-    "honors": false
-  },
-  "819427": {
-    "uid": "819427",
-    "code": "PUBH3212",
-    "subject": "PUBH",
-    "number": "3212",
-    "honors": false
-  },
-  "009167": {
-    "uid": "009167",
-    "code": "RELA3072H",
+  "0091672": {
+    "uid": "0091672-2004-09-07",
     "subject": "RELA",
     "number": "3072",
     "honors": true
   },
-  "797121": {
-    "uid": "797121",
-    "code": "RELS1082H",
+  "7971211": {
+    "uid": "7971211-2017-05-22",
     "subject": "RELS",
     "number": "1082",
     "honors": true
   },
-  "798451": {
-    "uid": "798451",
-    "code": "RELS3071H",
+  "7984511": {
+    "uid": "7984511-2015-05-26",
     "subject": "RELS",
     "number": "3071",
     "honors": true
   },
-  "825223": {
-    "uid": "825223",
-    "code": "RELS3623H",
+  "8252231": {
+    "uid": "8252231-2024-09-03",
     "subject": "RELS",
     "number": "3623",
     "honors": true
   },
-  "818457": {
-    "uid": "818457",
-    "code": "RELS3626V",
+  "8184571": {
+    "uid": "8184571-2022-01-18",
     "subject": "RELS",
     "number": "3626",
     "honors": true
   },
-  "804912": {
-    "uid": "804912",
-    "code": "RM4160H",
+  "8049121": {
+    "uid": "8049121-2022-09-06",
     "subject": "RM",
     "number": "4160",
     "honors": true
   },
-  "798179": {
-    "uid": "798179",
-    "code": "RRM4200H",
+  "7981791": {
+    "uid": "7981791-2013-09-03",
     "subject": "RRM",
     "number": "4200",
     "honors": true
   },
-  "798180": {
-    "uid": "798180",
-    "code": "RRM4801H",
+  "7981801": {
+    "uid": "7981801-2011-01-18",
     "subject": "RRM",
     "number": "4801",
     "honors": true
   },
-  "798181": {
-    "uid": "798181",
-    "code": "RRM4802H",
+  "7981811": {
+    "uid": "7981811-2011-01-18",
     "subject": "RRM",
     "number": "4802",
     "honors": true
   },
-  "788711": {
-    "uid": "788711",
-    "code": "RUSS3311V",
+  "7887111": {
+    "uid": "7887111-2021-05-17",
     "subject": "RUSS",
     "number": "3311",
     "honors": true
   },
-  "819259": {
-    "uid": "819259",
-    "code": "SCMC1201V",
+  "8192591": {
+    "uid": "8192591-2019-09-03",
     "subject": "SCMC",
     "number": "1201",
     "honors": true
   },
-  "795440": {
-    "uid": "795440",
-    "code": "SCO2550H",
+  "7954401": {
+    "uid": "7954401-2014-05-27",
     "subject": "SCO",
     "number": "2550",
     "honors": true
   },
-  "795620": {
-    "uid": "795620",
-    "code": "SLHS1301V",
+  "7956201": {
+    "uid": "7956201-2022-01-18",
     "subject": "SLHS",
     "number": "1301",
     "honors": true
   },
-  "807931": {
-    "uid": "807931",
-    "code": "SLHS3402V",
+  "8079311": {
+    "uid": "8079311-2022-01-18",
     "subject": "SLHS",
     "number": "3402",
     "honors": true
   },
-  "795359": {
-    "uid": "795359",
-    "code": "SLHS3555H",
+  "7953591": {
+    "uid": "7953591-2015-01-20",
     "subject": "SLHS",
     "number": "3555",
     "honors": true
   },
-  "807167": {
-    "uid": "807167",
-    "code": "SLHS3994H",
+  "8071671": {
+    "uid": "8071671-2016-05-23",
     "subject": "SLHS",
     "number": "3994",
     "honors": true
   },
-  "805370": {
-    "uid": "805370",
-    "code": "SMGT3501H",
+  "8053701": {
+    "uid": "8053701-2015-01-20",
     "subject": "SMGT",
     "number": "3501",
     "honors": true
   },
-  "003009": {
-    "uid": "003009",
-    "code": "SOC1011V",
+  "0030091": {
+    "uid": "0030091-2024-01-16",
     "subject": "SOC",
     "number": "1011",
     "honors": true
   },
-  "800698": {
-    "uid": "800698",
-    "code": "SOC1902H",
+  "8006981": {
+    "uid": "8006981-2008-09-02",
     "subject": "SOC",
     "number": "1902",
     "honors": true
   },
-  "810720": {
-    "uid": "810720",
-    "code": "SOC3101H",
+  "8107201": {
+    "uid": "8107201-2021-05-17",
     "subject": "SOC",
     "number": "3101",
     "honors": true
   },
-  "812791": {
-    "uid": "812791",
-    "code": "SOC3412H",
+  "8127911": {
+    "uid": "8127911-2021-05-17",
     "subject": "SOC",
     "number": "3412",
     "honors": true
   },
-  "810628": {
-    "uid": "810628",
-    "code": "SOC3451V",
+  "8106281": {
+    "uid": "8106281-2018-01-16",
     "subject": "SOC",
     "number": "3451",
     "honors": true
   },
-  "811599": {
-    "uid": "811599",
-    "code": "SOC3503H",
+  "8115991": {
+    "uid": "8115991-2021-05-17",
     "subject": "SOC",
     "number": "3503",
     "honors": true
   },
-  "811411": {
-    "uid": "811411",
-    "code": "SOC3511H",
+  "8114111": {
+    "uid": "8114111-2021-05-17",
     "subject": "SOC",
     "number": "3511",
     "honors": true
   },
-  "811450": {
-    "uid": "811450",
-    "code": "SOC3613V",
+  "8114501": {
+    "uid": "8114501-2023-09-05",
     "subject": "SOC",
     "number": "3613",
     "honors": true
   },
-  "788745": {
-    "uid": "788745",
-    "code": "SOC3801H",
+  "7887451": {
+    "uid": "7887451-2000-09-05",
     "subject": "SOC",
     "number": "3801",
     "honors": true
   },
-  "001151": {
-    "uid": "001151",
-    "code": "SOC3991H",
+  "0011511": {
+    "uid": "0011511-2005-01-18",
     "subject": "SOC",
     "number": "3991",
     "honors": true
   },
-  "810577": {
-    "uid": "810577",
-    "code": "SOC4101V",
+  "8105771": {
+    "uid": "8105771-2021-05-17",
     "subject": "SOC",
     "number": "4101",
     "honors": true
   },
-  "811547": {
-    "uid": "811547",
-    "code": "SOC4102H",
+  "8115471": {
+    "uid": "8115471-2021-05-17",
     "subject": "SOC",
     "number": "4102",
     "honors": true
   },
-  "811495": {
-    "uid": "811495",
-    "code": "SOC4104H",
+  "8114951": {
+    "uid": "8114951-2021-05-17",
     "subject": "SOC",
     "number": "4104",
     "honors": true
   },
-  "813949": {
-    "uid": "813949",
-    "code": "SOC4106",
-    "subject": "SOC",
-    "number": "4106",
-    "honors": false
-  },
-  "813882": {
-    "uid": "813882",
-    "code": "SOC4135H",
+  "8138821": {
+    "uid": "8138821-2021-05-17",
     "subject": "SOC",
     "number": "4135",
     "honors": true
   },
-  "809982": {
-    "uid": "809982",
-    "code": "SOC4141H",
+  "8099821": {
+    "uid": "8099821-2021-05-17",
     "subject": "SOC",
     "number": "4141",
     "honors": true
   },
-  "809999": {
-    "uid": "809999",
-    "code": "SOC4309H",
+  "8099991": {
+    "uid": "8099991-2021-05-17",
     "subject": "SOC",
     "number": "4309",
     "honors": true
   },
-  "814463": {
-    "uid": "814463",
-    "code": "SOC4315",
-    "subject": "SOC",
-    "number": "4315",
-    "honors": false
-  },
-  "811412": {
-    "uid": "811412",
-    "code": "SOC4411H",
+  "8114121": {
+    "uid": "8114121-2024-05-13",
     "subject": "SOC",
     "number": "4411",
     "honors": true
   },
-  "810578": {
-    "uid": "810578",
-    "code": "SOC4451H",
+  "8105781": {
+    "uid": "8105781-2022-01-18",
     "subject": "SOC",
     "number": "4451",
     "honors": true
   },
-  "809976": {
-    "uid": "809976",
-    "code": "SOC4521H",
+  "8099761": {
+    "uid": "8099761-2021-05-17",
     "subject": "SOC",
     "number": "4521",
     "honors": true
   },
-  "810627": {
-    "uid": "810627",
-    "code": "SOC4551H",
+  "8106271": {
+    "uid": "8106271-2021-05-17",
     "subject": "SOC",
     "number": "4551",
     "honors": true
   },
-  "008176": {
-    "uid": "008176",
-    "code": "SOC4977V",
+  "0081761": {
+    "uid": "0081761-2021-05-17",
     "subject": "SOC",
     "number": "4977",
     "honors": true
   },
-  "008203": {
-    "uid": "008203",
-    "code": "SOC4978V",
+  "0082031": {
+    "uid": "0082031-2021-05-17",
     "subject": "SOC",
     "number": "4978",
     "honors": true
   },
-  "014581": {
-    "uid": "014581",
-    "code": "SOC4994W",
-    "subject": "SOC",
-    "number": "4994",
-    "honors": false
-  },
-  "816528": {
-    "uid": "816528",
-    "code": "SOC5315",
-    "subject": "SOC",
-    "number": "5315",
-    "honors": false
-  },
-  "808939": {
-    "uid": "808939",
-    "code": "SPAN3015V",
+  "8089391": {
+    "uid": "8089391-2023-09-05",
     "subject": "SPAN",
     "number": "3015",
     "honors": true
   },
-  "787744": {
-    "uid": "787744",
-    "code": "SPAN3034",
-    "subject": "SPAN",
-    "number": "3034",
-    "honors": false
-  },
-  "794970": {
-    "uid": "794970",
-    "code": "SPAN3044",
-    "subject": "SPAN",
-    "number": "3044",
-    "honors": false
-  },
-  "815422": {
-    "uid": "815422",
-    "code": "SPAN3104V",
+  "8154221": {
+    "uid": "8154221-2021-05-17",
     "subject": "SPAN",
     "number": "3104",
     "honors": true
   },
-  "007860": {
-    "uid": "007860",
-    "code": "SPAN3104W",
-    "subject": "SPAN",
-    "number": "3104",
-    "honors": false
-  },
-  "817157": {
-    "uid": "817157",
-    "code": "SPAN3105V",
+  "8171571": {
+    "uid": "8171571-2023-09-05",
     "subject": "SPAN",
     "number": "3105",
     "honors": true
   },
-  "008830": {
-    "uid": "008830",
-    "code": "SPAN3105W",
-    "subject": "SPAN",
-    "number": "3105",
-    "honors": false
-  },
-  "007877": {
-    "uid": "007877",
-    "code": "SPAN3107W",
-    "subject": "SPAN",
-    "number": "3107",
-    "honors": false
-  },
-  "008379": {
-    "uid": "008379",
-    "code": "SPAN3211",
-    "subject": "SPAN",
-    "number": "3211",
-    "honors": false
-  },
-  "016173": {
-    "uid": "016173",
-    "code": "SPAN3211H",
+  "0161731": {
+    "uid": "0161731-2004-09-07",
     "subject": "SPAN",
     "number": "3211",
     "honors": true
   },
-  "008621": {
-    "uid": "008621",
-    "code": "SPAN3212",
-    "subject": "SPAN",
-    "number": "3212",
-    "honors": false
-  },
-  "016419": {
-    "uid": "016419",
-    "code": "SPAN3212H",
+  "0164191": {
+    "uid": "0164191-2004-09-07",
     "subject": "SPAN",
     "number": "3212",
     "honors": true
   },
-  "016174": {
-    "uid": "016174",
-    "code": "SPAN3221H",
+  "0161741": {
+    "uid": "0161741-2004-09-07",
     "subject": "SPAN",
     "number": "3221",
     "honors": true
   },
-  "009043": {
-    "uid": "009043",
-    "code": "SPAN3222",
-    "subject": "SPAN",
-    "number": "3222",
-    "honors": false
-  },
-  "016413": {
-    "uid": "016413",
-    "code": "SPAN3222H",
+  "0164131": {
+    "uid": "0164131-2004-09-07",
     "subject": "SPAN",
     "number": "3222",
     "honors": true
   },
-  "810025": {
-    "uid": "810025",
-    "code": "SPAN3300H",
+  "8100251": {
+    "uid": "8100251-2019-01-22",
     "subject": "SPAN",
     "number": "3300",
     "honors": true
   },
-  "008193": {
-    "uid": "008193",
-    "code": "SPAN3401",
-    "subject": "SPAN",
-    "number": "3401",
-    "honors": false
-  },
-  "008074": {
-    "uid": "008074",
-    "code": "SPAN3501",
-    "subject": "SPAN",
-    "number": "3501",
-    "honors": false
-  },
-  "016352": {
-    "uid": "016352",
-    "code": "SPAN3501H",
+  "0163521": {
+    "uid": "0163521-2004-09-07",
     "subject": "SPAN",
     "number": "3501",
     "honors": true
   },
-  "008142": {
-    "uid": "008142",
-    "code": "SPAN3502",
-    "subject": "SPAN",
-    "number": "3502",
-    "honors": false
-  },
-  "016420": {
-    "uid": "016420",
-    "code": "SPAN3502H",
+  "0164201": {
+    "uid": "0164201-2004-09-07",
     "subject": "SPAN",
     "number": "3502",
     "honors": true
   },
-  "807157": {
-    "uid": "807157",
-    "code": "SPAN3503",
-    "subject": "SPAN",
-    "number": "3503",
-    "honors": false
-  },
-  "008671": {
-    "uid": "008671",
-    "code": "SPAN3510",
-    "subject": "SPAN",
-    "number": "3510",
-    "honors": false
-  },
-  "016118": {
-    "uid": "016118",
-    "code": "SPAN3510H",
+  "0161181": {
+    "uid": "0161181-2004-09-07",
     "subject": "SPAN",
     "number": "3510",
     "honors": true
   },
-  "008678": {
-    "uid": "008678",
-    "code": "SPAN3512",
-    "subject": "SPAN",
-    "number": "3512",
-    "honors": false
-  },
-  "016353": {
-    "uid": "016353",
-    "code": "SPAN3512H",
+  "0163531": {
+    "uid": "0163531-2004-09-07",
     "subject": "SPAN",
     "number": "3512",
     "honors": true
   },
-  "007475": {
-    "uid": "007475",
-    "code": "SPAN3701",
-    "subject": "SPAN",
-    "number": "3701",
-    "honors": false
-  },
-  "016176": {
-    "uid": "016176",
-    "code": "SPAN3701H",
+  "0161761": {
+    "uid": "0161761-2004-09-07",
     "subject": "SPAN",
     "number": "3701",
     "honors": true
   },
-  "008135": {
-    "uid": "008135",
-    "code": "SPAN3702",
-    "subject": "SPAN",
-    "number": "3702",
-    "honors": false
-  },
-  "016366": {
-    "uid": "016366",
-    "code": "SPAN3702H",
+  "0163661": {
+    "uid": "0163661-2004-09-07",
     "subject": "SPAN",
     "number": "3702",
     "honors": true
   },
-  "008137": {
-    "uid": "008137",
-    "code": "SPAN3703",
-    "subject": "SPAN",
-    "number": "3703",
-    "honors": false
-  },
-  "016368": {
-    "uid": "016368",
-    "code": "SPAN3703H",
+  "0163681": {
+    "uid": "0163681-2004-09-04",
     "subject": "SPAN",
     "number": "3703",
     "honors": true
   },
-  "008368": {
-    "uid": "008368",
-    "code": "SPAN3704",
-    "subject": "SPAN",
-    "number": "3704",
-    "honors": false
-  },
-  "016369": {
-    "uid": "016369",
-    "code": "SPAN3704H",
+  "0163691": {
+    "uid": "0163691-2004-09-07",
     "subject": "SPAN",
     "number": "3704",
     "honors": true
   },
-  "008245": {
-    "uid": "008245",
-    "code": "SPAN3705",
-    "subject": "SPAN",
-    "number": "3705",
-    "honors": false
-  },
-  "016370": {
-    "uid": "016370",
-    "code": "SPAN3705H",
+  "0163701": {
+    "uid": "0163701-2005-01-18",
     "subject": "SPAN",
     "number": "3705",
     "honors": true
   },
-  "797446": {
-    "uid": "797446",
-    "code": "SPAN3706",
-    "subject": "SPAN",
-    "number": "3706",
-    "honors": false
-  },
-  "795767": {
-    "uid": "795767",
-    "code": "SPAN3707",
-    "subject": "SPAN",
-    "number": "3707",
-    "honors": false
-  },
-  "818188": {
-    "uid": "818188",
-    "code": "SPAN3708",
-    "subject": "SPAN",
-    "number": "3708",
-    "honors": false
-  },
-  "008138": {
-    "uid": "008138",
-    "code": "SPAN3730",
-    "subject": "SPAN",
-    "number": "3730",
-    "honors": false
-  },
-  "016372": {
-    "uid": "016372",
-    "code": "SPAN3730H",
+  "0163721": {
+    "uid": "0163721-2004-09-07",
     "subject": "SPAN",
     "number": "3730",
     "honors": true
   },
-  "790843": {
-    "uid": "790843",
-    "code": "SPAN3800",
-    "subject": "SPAN",
-    "number": "3800",
-    "honors": false
-  },
-  "790898": {
-    "uid": "790898",
-    "code": "SPAN3800H",
+  "7908981": {
+    "uid": "7908981-2004-09-07",
     "subject": "SPAN",
     "number": "3800",
     "honors": true
   },
-  "819099": {
-    "uid": "819099",
-    "code": "SPAN3807",
-    "subject": "SPAN",
-    "number": "3807",
-    "honors": false
-  },
-  "008075": {
-    "uid": "008075",
-    "code": "SPAN3910",
-    "subject": "SPAN",
-    "number": "3910",
-    "honors": false
-  },
-  "016349": {
-    "uid": "016349",
-    "code": "SPAN3910H",
+  "0163491": {
+    "uid": "0163491-2004-09-07",
     "subject": "SPAN",
     "number": "3910",
     "honors": true
   },
-  "016177": {
-    "uid": "016177",
-    "code": "SPAN3920H",
+  "0161771": {
+    "uid": "0161771-2004-09-07",
     "subject": "SPAN",
     "number": "3920",
     "honors": true
   },
-  "016178": {
-    "uid": "016178",
-    "code": "SPAN3940H",
+  "0161781": {
+    "uid": "0161781-2004-09-07",
     "subject": "SPAN",
     "number": "3940",
     "honors": true
   },
-  "016351": {
-    "uid": "016351",
-    "code": "SPAN3950H",
+  "0163511": {
+    "uid": "0163511-2004-09-07",
     "subject": "SPAN",
     "number": "3950",
     "honors": true
   },
-  "016179": {
-    "uid": "016179",
-    "code": "SPAN3972V",
+  "0161791": {
+    "uid": "0161791-2025-01-21",
     "subject": "SPAN",
     "number": "3972",
     "honors": true
   },
-  "010145": {
-    "uid": "010145",
-    "code": "SPPT3256",
-    "subject": "SPPT",
-    "number": "3256",
-    "honors": false
-  },
-  "016416": {
-    "uid": "016416",
-    "code": "SPPT3256H",
+  "0164161": {
+    "uid": "0164161-2004-09-07",
     "subject": "SPPT",
     "number": "3256",
     "honors": true
   },
-  "826111": {
-    "uid": "826111",
-    "code": "STAT3021H",
+  "8261111": {
+    "uid": "8261111-2024-09-03",
     "subject": "STAT",
     "number": "3021",
     "honors": true
   },
-  "815334": {
-    "uid": "815334",
-    "code": "STAT3701",
-    "subject": "STAT",
-    "number": "3701",
-    "honors": false
-  },
-  "006405": {
-    "uid": "006405",
-    "code": "STAT4101",
-    "subject": "STAT",
-    "number": "4101",
-    "honors": false
-  },
-  "006408": {
-    "uid": "006408",
-    "code": "STAT5101",
-    "subject": "STAT",
-    "number": "5101",
-    "honors": false
-  },
-  "004714": {
-    "uid": "004714",
-    "code": "STAT8111",
-    "subject": "STAT",
-    "number": "8111",
-    "honors": false
-  },
-  "790514": {
-    "uid": "790514",
-    "code": "TH1101V",
+  "7905141": {
+    "uid": "7905141-2022-01-18",
     "subject": "TH",
     "number": "1101",
     "honors": true
   },
-  "008614": {
-    "uid": "008614",
-    "code": "TH1405H",
+  "0086141": {
+    "uid": "0086141-2005-01-18",
     "subject": "TH",
     "number": "1405",
     "honors": true
   },
-  "791327": {
-    "uid": "791327",
-    "code": "TH3120",
-    "subject": "TH",
-    "number": "3120",
-    "honors": false
-  },
-  "790362": {
-    "uid": "790362",
-    "code": "TH3314",
-    "subject": "TH",
-    "number": "3314",
-    "honors": false
-  },
-  "800666": {
-    "uid": "800666",
-    "code": "TH3316",
-    "subject": "TH",
-    "number": "3316",
-    "honors": false
-  },
-  "008615": {
-    "uid": "008615",
-    "code": "TH4905H",
+  "0086151": {
+    "uid": "0086151-2024-01-16",
     "subject": "TH",
     "number": "4905",
     "honors": true
   },
-  "008299": {
-    "uid": "008299",
-    "code": "TH5716",
-    "subject": "TH",
-    "number": "5716",
-    "honors": false
-  },
-  "826783": {
-    "uid": "826783",
-    "code": "WRIT1301H",
+  "8267831": {
+    "uid": "8267831-2024-05-13",
     "subject": "WRIT",
     "number": "1301",
     "honors": true
   },
-  "815840": {
-    "uid": "815840",
-    "code": "WRIT3562V",
+  "8158401": {
+    "uid": "8158401-2021-05-17",
     "subject": "WRIT",
     "number": "3562",
     "honors": true
   },
-  "817527": {
-    "uid": "817527",
-    "code": "WRIT4995H",
+  "8175271": {
+    "uid": "8175271-2022-01-18",
     "subject": "WRIT",
     "number": "4995",
     "honors": true
   },
-  "820062": {
-    "uid": "820062",
-    "code": "WRIT4999H",
+  "8200621": {
+    "uid": "8200621-2024-09-03",
     "subject": "WRIT",
     "number": "4999",
     "honors": true
   },
-  "809624": {
-    "uid": "809624",
-    "code": "YOST3325V",
+  "8096241": {
+    "uid": "8096241-2020-01-21",
     "subject": "YOST",
     "number": "3325",
     "honors": true
   },
-  "798667": {
-    "uid": "798667",
-    "code": "YOST4160H",
+  "7986671": {
+    "uid": "7986671-2015-01-20",
     "subject": "YOST",
     "number": "4160",
     "honors": true
