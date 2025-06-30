@@ -20,9 +20,11 @@ class CourseSystem(SubjectHandler):
     def record_courses(self) -> str:
         coursepath = self.school.course_path
         
+        # Get all courses
         courses = self.get_courses()
         JSONHandler.write_to_path(f"{coursepath}/{self._ALL_COURSES_KEY}.json", courses)
         
+        # Get general and honors courses
         general_courses = {}
         honors_courses = {}
         for cid, course in courses.items():
@@ -30,7 +32,6 @@ class CourseSystem(SubjectHandler):
                 honors_courses[cid] = copy.deepcopy(course)
             else:
                 general_courses[cid] = copy.deepcopy(course)
-            
         
         general_courses = self.get_general_courses(courses, general_courses)
         JSONHandler.write_to_path(f"{coursepath}/{self.school.general_key}.json", general_courses)
@@ -118,8 +119,8 @@ class CourseSystem(SubjectHandler):
                 "honors": CourseChecker.is_honors_suf(suffix),
                 "writing": course["Twin Cities: This course is approved as Writing Intensive"] == "Yes",
                 "name": course["Course name"],
-                "attribute": attributes,
-                "libed": libeds,
+                "attributes": attributes,
+                "libeds": libeds,
                 "info": course["Course description"]
             }
         
@@ -134,7 +135,7 @@ class CourseSystem(SubjectHandler):
             if v in s:
                 valids.add(v)
         
-        return list(valids) if len(valids) > 0 else None
+        return list(valids)
 
 class ProgramSystem:
     def __init__(self, school_id: str = None) -> None:
