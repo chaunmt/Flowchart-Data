@@ -1,24 +1,18 @@
 """
-This module contains classes that help handle specific file format.
+This module contains classes that help handle specific file formats.
 """
 
 import os
 import json
+import csv
 import requests
 from requests.exceptions import Timeout, HTTPError, RequestException
+from pathlib import Path
 
 class JSONHandler():
-    """
-    Class to help handle json files.
-    """
-
-    #############################################################################
+    
     @staticmethod
-    def get_from_path(path: str):
-        """
-        Get the json data from the specified path.
-        """
-
+    def get_from_path(path: str | Path):
         if not os.path.exists(path):
             raise FileNotFoundError(f'File not found: {path}.')
 
@@ -26,13 +20,8 @@ class JSONHandler():
             # print(f'Data is fetched from {path}.')
             return json.load(file)
 
-    #############################################################################
     @staticmethod
     def get_from_url(url: str):
-        """
-        Get the json data from the specified url.
-        """
-
         while True:
             try:
                 response = requests.get(url, timeout=10)
@@ -49,21 +38,15 @@ class JSONHandler():
             except RequestException as err:
                 print(f"An error occurred: {err}. Retry request.")
 
-    #############################################################################
     @staticmethod
-    def write_to_path(path: str, data: any) -> None:
-        """
-        Write to the json file at the specified path.
-        """
-
+    def write_to_path(path: str | Path, data: any) -> None:
         # If the file is not exist, a new file will be made
         with open(path, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent = 2)
 
         print(f'Data is dumped to {path}.')
 
-    #############################################################################
-    def write_append_to_path(self, path: str, additional_data: any) -> None:
+    def write_append_to_path(self, path: str | Path, additional_data: any) -> None:
         """
         Append data to the json file at the specified path.
         """
@@ -77,7 +60,6 @@ class JSONHandler():
         # Write updated data to path
         self.write_to_path(path, data)
 
-    #############################################################################
     @staticmethod
     def write_more_values_to_dict(data: dict, additional_data: dict) -> None:
         """
@@ -91,8 +73,7 @@ class JSONHandler():
 
         return data
 
-    #############################################################################
-    def write_more_fields_to_path(self, path: str, additional_data: dict) -> None:
+    def write_more_fields_to_path(self, path: str | Path, additional_data: dict) -> None:
         """
         Write more fields to the JSON dict of a specified path
         """
@@ -105,3 +86,26 @@ class JSONHandler():
 
         # Write the updated data to the specified
         self.write_to_path(path, data)
+
+class CSVHandler:
+    
+    @staticmethod
+    def get_json_from_path(path: str | Path):
+        if not os.path.exists(path):
+            raise FileNotFoundError(f'File not found: {path}.')
+
+        with open(path, 'r', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            rows = list(reader)
+
+        return rows
+    
+    @staticmethod
+    def get_csv_from_path(path: str | Path):
+        if not os.path.exists(path):
+            raise FileNotFoundError(f'File not found: {path}.')
+        
+        with open(path, 'r', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            return list(reader)
+        
