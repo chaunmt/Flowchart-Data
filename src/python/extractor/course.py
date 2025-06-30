@@ -2,7 +2,7 @@
 Extractors for course system.
 """
 
-from python.schema.course import PrereqFormat
+from python.schema.definitions import PrereqFormat
 from python.converter.course import PrereqInfoConverter
 from python.converter.course import CourseInfoConverter
 from python.filter.string import StringComponent
@@ -20,21 +20,13 @@ class PrereqExtractor:
     Extract logical dictionary of prerequisites from an info string.
     """
 
-    def __init__(self, info_str: str, target_subj: str, school_uid: str) -> None:
-        """
-        Initialize PrereqExtractor.
-        """
-
+    def __init__(self, info_str: str, target_subj: str, courseshells: dict) -> None:
         self._info_str = info_str
         self._target_subj = target_subj
         self._prereq = {}
-        self._school_uid = school_uid
+        self._courseshells = courseshells
 
     def get_prereq(self) -> dict:
-        """
-        Return a prereq dictionary.
-        """
-
         return self._prereq
 
     def extract(self) -> None:
@@ -42,26 +34,23 @@ class PrereqExtractor:
         Extract the prerequisite's logical dictionary from an info string.
         """
 
-        self.pre_processing()
+        self._prereq = self.pre_processing(self._info_str)
 
-        prereq = PrereqInfoConverter(
-            self._info_str,
-            self._target_subj,
-            self._school_uid
-        )
+        prereq = PrereqInfoConverter(self._info_str, self._target_subj, self._courseshells)
         prereq.process()
         prereq = prereq.get_prereq()
         self._prereq = prereq
 
-        self.post_processing()
+        self._prereq = self.post_processing(self._prereq)
 
-    def pre_processing(self) -> None:
+    @staticmethod
+    def pre_processing(s: str) -> str:
         """
-        Process the prereq string before extracting its prereq dictionary.
+        Process (standardize the format) the prereq string before extracting its prereq dictionary.
         """
 
         # Locate the prereq string in info string
-        s = StringComponent(self._info_str)
+        s = StringComponent(s)
         s = CourseInfoNonPrereqFilter(s)
         s = s.process()
 
@@ -70,18 +59,17 @@ class PrereqExtractor:
         s = CourseInfoConverter.sign_to_logical_op(s)
         s = CourseInfoConverter.combine_standalone_subject(s)
 
-        self._info_str = s
+        return s
 
-    def post_processing(self) -> None:
+    @staticmethod
+    def post_processing(prereq: PrereqFormat | dict) -> dict:
         """
-        Process the extracted prereq's dictionary:
-        - Delete duplicates.
-        - Delete non-uid members.
-        - Delete redundant nest level.
-        - Delete empty component (but keep one {} if prereq has no member).
+        Process (clean up) the a dictionary-typed prereq and return a PrereqFormat object.
         """
-
-        p = PrereqFormat(self._prereq)
+        
+        p = prereq
+        if isinstance(p, dict):
+            p = PrereqFormat(p)
 
         # Filter the prereq dictionary
         while True:
@@ -91,11 +79,13 @@ class PrereqExtractor:
             p = PrereqFilterRedundantNest(p)
 
             pp = p.process()
-            if pp == self._prereq:
+            if pp == prereq:
                 break
-            self._prereq = pp
+            prereq = pp
         
         # Convert to client's format
-        client_format = FlowchartConverter(self._prereq)
+        client_format = FlowchartConverter(prereq)
         client_format.convert()
-        self._prereq = client_format.get_prereq()
+        prereq = client_format.get_prereq()
+        
+        return prereq

@@ -1,14 +1,13 @@
 """
-This is what the highest level where client would see.
+This is the highest level where client would see.
 """
 
-from python.sources.api.facade import CourseDogFacade
-from python.sources.api.coursedog import CourseSystem, ProgramSystem
+from python.sources.coursedog_report import CourseSystem, ProgramSystem
 
-school_uids = ["umn_umntc_peoplesoft"]
+umn_id = "umn_umntc_peoplesoft"
+course_sys = CourseSystem(umn_id)
+program_sys = ProgramSystem(umn_id)
 
-for id in school_uids:
-    print(f"++ Client: Running {id} CourseDog System...")
-    facade = CourseDogFacade(CourseSystem(id), ProgramSystem(id))
-
-print(facade.operation())
+print(f"++ Client: Running {umn_id} CourseDog System...")
+print(course_sys.record_courses())
+print(f"++ Client: Finished.")

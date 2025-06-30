@@ -60,10 +60,13 @@ class CourseInfoSplitter:
 
     #############################################################################
     @staticmethod
-    def split_num_suf(s: str) -> list:
+    def split_num_suf(s: str | int) -> list:
         """
         Split a string of Course's number with suffix into a list of [number, suffix].
         """
+        
+        if isinstance(s, int):
+            return [s, None]
 
         splits = StringSplitter.to_letter_or_digit_substrs(s.upper())
 

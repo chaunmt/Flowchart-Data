@@ -9,7 +9,7 @@ This module contains filter classes related to course system:
 - PrereqFilterUidNotInShell
 """
 
-from python.schema.course import PrereqFormat
+from python.schema.definitions import PrereqFormat
 from python.filter.string import StringFilter
 from python.splitter.string import StringSplitter
 
@@ -98,8 +98,8 @@ class PrereqFilterEmpty(PrereqFilter):
 
     def process(self) -> dict:
         """
-        Delete all empty components in prereq
-        and return the new prereq.
+        Delete all empty components in prereq and return the new prereq.\\
+        If the prereq itself is empty, return None.
         """
 
         def rec_filter(prereq):
@@ -107,7 +107,7 @@ class PrereqFilterEmpty(PrereqFilter):
             Recursively filter all nested level.
             """
             if prereq in [None, "", {}]:
-                return {}
+                return None
             if isinstance(prereq, list):
                 # Filter all possible elements
                 while True:
@@ -388,7 +388,7 @@ class PrereqFilterUidNotInShell(PrereqFilter):
             """
 
             if isinstance(prereq, str) and prereq not in self._shells:
-                return {}
+                return None
             if isinstance(prereq, list):
                 # Filter all possible elements
                 while True:

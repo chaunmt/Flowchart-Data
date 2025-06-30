@@ -5,10 +5,8 @@ It includes CourseInfoConverter and PrereqConverter.
 
 import re
 
-from python.checker.course import CourseInfoChecker
+from python.checker.course import CourseChecker
 from python.splitter.course import CourseInfoSplitter
-from python.sources.format import JSONHandler
-from python.sources.config.school import SchoolConfigManager
 
 ###############################################################################
 class CourseInfoConverter():
@@ -136,7 +134,7 @@ class CourseInfoConverter():
                 [subj, _, _] = (
                     CourseInfoSplitter.code_into_subj_num_suf(course_codes[index])
                 )
-                if CourseInfoChecker.is_valid_subj(subj) and subj != alter_subj:
+                if CourseChecker.is_valid_subj(subj) and subj != alter_subj:
                     alter_subj = subj
 
         return course_codes
@@ -144,21 +142,13 @@ class CourseInfoConverter():
 
     #############################################################################
     @staticmethod
-    def course_code_to_uid(school_uid: str, codestr : str) -> str:
+    def course_code_to_uid(courseshells: dict, codestr : str) -> str:
         """
         Convert a string of course's code into that course's uid.
         """
-        # Get the school's config data
-        config = SchoolConfigManager(school_uid)
-
-        # Find the course shells json to cross-checked values
-        # Only courses exist in this json file are deemed valid courses
-        all_courses = JSONHandler.get_from_path(
-            f"{config.get_course_path()}/allCoursesShells.json"
-        )
-
+        # Only courses exist in the course shells are deemed valid courses
         # if the codes are the same then they are the same course.
-        for uid, course in all_courses.items():
+        for uid, course in courseshells.items():
             if codestr in (course['code'], course['code'][:-1]):
                 return uid
 
@@ -170,14 +160,14 @@ class PrereqInfoConverter:
     Convert objects into prerequisites type.
     """
 
-    def __init__(self, s: str, alter_subj: str, school_uid: str) -> None:
+    def __init__(self, s: str, alter_subj: str, courseshells: dict) -> None:
         """
         Initialize the class instance.
         """
         self._prereq_str = s
         self._prereq = {}
         self._alter_subj = alter_subj
-        self._school_uid = school_uid
+        self._courseshells = courseshells
 
     def process(self) -> dict:
         """
@@ -374,7 +364,7 @@ class PrereqInfoConverter:
 
             if isinstance(values, str):
                 # Replace code with uid
-                return CourseInfoConverter.course_code_to_uid(self._school_uid, values)
+                return CourseInfoConverter.course_code_to_uid(self._courseshells, values)
 
             # Recursively replace nested value in list
             if isinstance(values, list):

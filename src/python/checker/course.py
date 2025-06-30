@@ -1,56 +1,31 @@
 """
-This module contains checkers on prerequisites object .\n
-It includes CourseChecker and CourseInfoChecker.
+This module contains checkers on prerequisites object.\n
+It includes CourseChecker and PrereqChecker.
 """
 
-from python.schema.course import Course, CourseShell, PrereqFormat
+from python.schema.definitions import PrereqFormat
 from python.sources.format import JSONHandler
+from python.sources.config.school import SchoolConfig
 
-class CourseInfoChecker:
+class CourseChecker:
     """
-    Perform checks on an info string of Course's type object.
+    Perform checks on a course's info.
     """
 
-    #############################################################################
     @staticmethod
     def is_writing_suf(suffix: str) -> bool:
-        """
-        Check whether a Course's suffix is of writing types.
-        """
+        return suffix in ('W', 'V')
 
-        if suffix in ('W', 'V'):
-            return True
-        return False
-
-    #############################################################################
     @staticmethod
     def is_honors_suf(suffix: str) -> bool:
-        """
-        Check whether a Course's suffix is of honors types.
-        """
+        return suffix in ('H', 'V')
 
-        if suffix in ('H', 'V'):
-            return True
-        return False
-
-    #############################################################################
     @staticmethod
     def is_valid_subj(subject: str) -> bool:
-        """
-        Check whether a Course's subject is valid.
-        """
+        school_config = SchoolConfig(school_id="umn_umntc_peoplesoft")
+        valid_subjs = JSONHandler.get_from_path(f"{school_config.all_subjects_path}")
+        return subject in valid_subjs
 
-        # Get JSON data for valid subject codes
-        path = '../data/UMNTC/allSubjects.json'
-        data = JSONHandler.get_from_path(path)
-
-        # Only department code is a valid subject code
-        if subject in data:
-            return True
-
-        return False
-
-    #############################################################################
     @staticmethod
     def is_valid_num(number: str) -> bool:
         """
@@ -68,43 +43,9 @@ class CourseInfoChecker:
 
         return number.isdigit() and len(number) == 4
 
-    #############################################################################
     @staticmethod
     def is_valid_suf(suffix: str) -> bool:
-        """
-        Check whether a Course's suffix is valid.
-        """
-
-        if suffix in ['', 'W', 'H', 'V']:
-            return True
-
-        return False
-
-###############################################################################
-class CourseChecker(CourseInfoChecker):
-    """
-    Perform checks on Course type related object.
-    """
-
-    #############################################################################
-    @staticmethod
-    def is_equal(a: Course | CourseShell, b: Course | CourseShell) -> bool:
-        """
-        Check whether 2 Course are the same.
-        """
-
-        # NoneType is not a valid object to compare
-        if not a or not b:
-            raise ValueError("NoneType object is not a valid object to compare.")
-
-        # We can't compared objects of different types/instances
-        if not (isinstance(a, type(b)) and isinstance(b, type(a))):
-            return False
-
-        if not a.uid == b.uid:
-            return False
-
-        return True
+        return suffix in ['', 'W', 'H', 'V']
 
 ###############################################################################
 class PrereqChecker():
@@ -112,7 +53,6 @@ class PrereqChecker():
     Perform checks on PrereqFormat type related object.
     """
 
-    #############################################################################
     @classmethod
     def has_shared_uid(cls, prereq: PrereqFormat, course_shells: dict) -> bool:
         """
