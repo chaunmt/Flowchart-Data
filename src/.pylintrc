@@ -10,4 +10,6 @@ disable=
     fixme,
     unused-argument,
     assignment-from-no-return,
-    unused-import
+    unused-import,
+    missing-module-docstring,
+    missing-function-docstring
