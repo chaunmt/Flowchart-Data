@@ -1,83 +1,62 @@
 """
-This module contains classes that help handle the configuration of different schools.
+This module contains a class that help handle the configuration of the schools.
 """
 
+from pathlib import Path
+from dataclasses import dataclass, field
 from python.sources.config.file import FileHandler
 
-class SchoolConfigManager:
-    """
-    Manages the configuration for different schools.
-    This class handles paths, keys, and any school-specific data.
-    """
+@dataclass
+class SchoolConfig:
+    # Can be initialized
+    school_id: str = "Default"
 
-    # Get the project's root path
-    _base_dir = FileHandler.find_project_root()
+    # Fixed values
+    base_dir: Path = field(default_factory=FileHandler.find_project_root, init = False)
+    school_id_to_code: dict[str,str] = field(
+        default_factory = lambda: {
+            "umn_umntc_peoplesoft" : "UMNTC",
+            "Default" : "Others"
+        },
+        init = False
+    )
 
-    # Map school's uid to abbreviated key
-    _school_uid_to_key = {
-        "umn_umntc_peoplesoft" : "UMNTC",
-        "Default" : "Others"
-    }
+    @property
+    def id(self) -> str:
+        return self.school_id
 
-    def __init__(self, school_uid: str = "Default"):
-        """
-        Initializes the configuration manager with the correct settings for the given school.
-        """
-        # Get school key
-        school_key = self._school_uid_to_key.get(
-            school_uid,
-            self._school_uid_to_key["Default"])  # If no uid found, use the default uid
+    @property
+    def code(self) -> str:
+        return self.school_id_to_code[self.school_id]
 
-        # Build school's config data
-        self._config = self.build_config(school_key)
+    @property
+    def general_key(self) -> str:
+        return "general"
 
-    def build_config(self, school_key: str) -> dict:
-        """
-        Builds a configuration dictionary with
-        common paths and school-specific subfolders.
-        """
-        base_path = self._base_dir / f"data/{school_key}"
-        return {
-            "school_key": school_key,
-            "data_path": base_path,
-            "course_path": base_path / "Course/",
-            "program_path": base_path / "Program/",
-            "general_key": "general",
-            "honors_key": "honors"
-        }
+    @property
+    def honors_key(self) -> str:
+        return "honors"
 
-    def get_school_key(self) -> str:
-        """
-        Get school key from config data. It is usually the abbreviation of the school's uid.
-        """
-        return self._config["school_key"]
+    @property
+    def data_path(self) -> Path:
+        return self.base_dir / f"data/{self.code}"
 
-    def get_data_path(self) -> str:
-        """
-        Get the path to the data folder.
-        """
-        return self._config["data_path"]
+    @property
+    def course_path(self) -> Path:
+        return self.data_path / "Course"
 
-    def get_course_path(self) -> str:
-        """
-        Get the path to the course folder.
-        """
-        return self._config["course_path"]
+    @property
+    def program_path(self) -> Path:
+        return self.data_path / "Program"
 
-    def get_program_path(self) -> str:
-        """
-        Get the path to the program folder.
-        """
-        return self._config["program_path"]
+    @property
+    def all_subjects_path(self) -> Path:
+        return self.data_path / "allSubjects.json"
 
-    def get_general_key(self) -> str:
-        """
-        Get the general key.
-        """
-        return self._config["general_key"]
+    @property
+    def raw_report_path(self) -> Path:
+        return self.data_path / "Coursedog/coursedog_f2025report_06242025.csv"
 
-    def get_honors_key(self) -> str:
-        """
-        Get the honors key.
-        """
-        return self._config["honors_key"]
+    @property
+    def unique_field_vals_path(self) -> Path:
+        return self.data_path / "uniqueVals.json"
